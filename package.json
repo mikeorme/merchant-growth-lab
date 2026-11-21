@@ -1,0 +1,16 @@
+{
+  "name": "merchant-growth-lab",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "site:dev": "npm --prefix site run dev",
+    "site:build": "npm --prefix site run build",
+    "validate": "node scripts/validate.mjs",
+    "capture": "node capture/capture.mjs"
+  },
+  "devDependencies": {
+    "ajv": "^8.17.1",
+    "playwright": "^1.49.0",
+    "sharp": "^0.33.5"
+  }
+}

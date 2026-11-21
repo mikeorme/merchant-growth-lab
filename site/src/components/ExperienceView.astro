@@ -1,0 +1,292 @@
+---
+import { rubric, dims, accession, mmss, overall, base, stale, type Experience } from '../lib/data';
+interface Props { exp: Experience; questions?: string[]; level?: 1 | 2 }
+const { exp, questions = [], level = 1 } = Astro.props;
+const Title = level === 1 ? 'h1' : 'h2';
+const acc = accession(exp.id);
+const steps = exp.steps;
+const mobile = steps.find((s) => s.mobileScreenshot);
+const read = exp.read;
+const claims = exp.claims ?? [];
+const ov = overall(exp);
+const track = (score: number | null) => (score === null ? null : ((score - 1) / 4) * 88 + 6);
+const payload = { id: exp.id, dims: dims.map((d) => ({ id: d.id, lab: exp.scores?.[d.id]?.score ?? null })), steps: steps.map((s) => ({ n: s.n, clicks: s.clicks ?? 0, ms: s.elapsedMs ?? 0, title: s.title })) };
+---
+<article data-exp={exp.id} data-state="unscored">
+  <div class="kicker">
+    <span class="label">{acc}</span>
+    <span class="label">{exp.category.replace(/-/g, ' ')}</span>
+    <span class="label">Captured <span class="num">{exp.capturedAt}</span></span>
+    {exp.status === 'blocked' && <span class="stamp">Blocked</span>}
+    {stale(exp) && <span class="stamp">Capture may be stale</span>}
+  </div>
+  <Title class="exp-title">{exp.name}: {exp.flow}</Title>
+
+  <section class="sec" aria-labelledby="s-plates">
+    <h2 id="s-plates">The flow, plate by plate</h2>
+    {steps.length === 0 ? <p class="wall">No steps captured. {exp.blockedReason}</p> : (
+    <div class="cols">
+      <div>
+        <figure class="plate" id="stage">
+          <img id="stage-img" src={base(steps[0].screenshot)} width="1280" height="800" alt={`${exp.name} step 1: ${steps[0].title}`} />
+          <figcaption class="label" id="stage-cap"></figcaption>
+        </figure>
+        <div class="ribbon" aria-live="polite" id="ribbon"></div>
+        <div class="ruler"><input id="scrub" type="range" min="1" max={steps.length} value="1" aria-label="Scrub through steps" aria-valuetext="Step 1" /></div>
+        <div class="strip" role="listbox" aria-label="Steps">
+          {steps.map((s) => (
+            <button type="button" role="option" aria-selected={s.n === 1 ? 'true' : 'false'} data-step={s.n}>
+              <img src={base(s.screenshot)} width="148" height="92" alt="" loading={s.n > 3 ? 'lazy' : 'eager'} />
+              <span class="label">Step <span class="num">{s.n}</span></span>
+            </button>
+          ))}
+        </div>
+        <p class="note-step" id="note-step"></p>
+      </div>
+      <aside class="margin" aria-label="Flow notes">
+        <dl>
+          <dt class="label">Entry URL</dt><dd><a href={exp.url} rel="noopener noreferrer">{exp.url.replace(/^https?:\/\//, '')}</a></dd>
+          <dt class="label">Steps captured</dt><dd class="num">{steps.length}</dd>
+          <dt class="label">Clicks to last step</dt><dd class="num">{steps[steps.length - 1].clicks ?? 0}</dd>
+          <dt class="label">Time to last step</dt><dd class="num">{mmss(steps[steps.length - 1].elapsedMs)}</dd>
+          {exp.blockedReason && <><dt class="label">Where it ended</dt><dd>{exp.blockedReason}. Logged-out capture stops here by design.</dd></>}
+        </dl>
+        {mobile && (
+          <figure class="plate" style="margin-top:24px;max-width:200px">
+            <img src={base(mobile.mobileScreenshot!)} width="390" height="844" alt={`${exp.name} step ${mobile.n} on a phone`} loading="lazy" />
+            <figcaption class="label">Pl. m1 · phone · step <span class="num">{mobile.n}</span></figcaption>
+          </figure>
+        )}
+      </aside>
+    </div>)}
+  </section>
+
+  <section class="sec scorecard" aria-labelledby="s-score">
+    <h2 id="s-score">Score it blind</h2>
+    <p class="lead">Write your verdict and score what you saw before the Lab's notes open. Nothing here is saved off your device.</p>
+    {questions.length > 0 && (
+      <ol class="lead" style="font-size:var(--t-body)">{questions.map((q) => <li>{q}</li>)}</ol>
+    )}
+    <label class="label" for="verdict">Your verdict, one line</label><br />
+    <input class="verdict" id="verdict" maxlength="240" autocomplete="off" />
+    {rubric.lenses.map((l) => (
+      <div class="lens">
+        <h3 style="font-size:var(--t-lead)">{l.label}</h3><p class="mute" style="margin:0">{l.question}</p>
+        {l.dimensions.map((d) => (
+          <fieldset data-dim={d.id}>
+            <legend>{d.label}</legend>
+            <p class="anchors">1 {(d.anchors as any)['1']} · 3 {(d.anchors as any)['3']} · 5 {(d.anchors as any)['5']}</p>
+            <div class="choices" role="radiogroup" aria-label={d.label}>
+              {[1, 2, 3, 4, 5].map((v) => <label><input type="radio" name={`d-${d.id}`} value={String(v)} /><span>{v}</span></label>)}
+              <label><input type="radio" name={`d-${d.id}`} value="nt" /><span title="Can't tell from what was captured">n/t</span></label>
+            </div>
+          </fieldset>
+        ))}
+      </div>
+    ))}
+    <div class="btns">
+      <button class="btn" id="submit" type="button" disabled>Submit my scores</button>
+      <button class="btn ghost" id="reveal" type="button" hidden>Open the Lab's notes</button>
+      <button class="btn ghost" id="skip" type="button">Skip, just show me</button>
+    </div>
+    <p class="status" id="status" role="status"></p>
+    <noscript><p class="status">Scoring needs JavaScript. The Lab's notes are shown below.</p></noscript>
+  </section>
+
+  <section class="sec sealed" data-locked="true" id="read" aria-labelledby="s-read">
+    <h2 id="s-read" tabindex="-1">The Lab's notes</h2>
+    <div class="seal"><p class="label">Sealed</p><br /><p>Scores and a one-line verdict first. Then this opens, and your marks sit next to mine.</p></div>
+    <div class="read-body">
+      {!read ? <p>Not yet evaluated.</p> : (<>
+        <p class="lead lab-voice">{read.summary}</p>
+        <div class="legend"><span><span class="dot lab"></span>Lab</span><span><span class="dot you"></span>You</span><span class="mute">Confidence: {read.confidence}</span>{ov && <span class="mute num">Lab mean {ov.mean.toFixed(1)} over {ov.n} of {dims.length}</span>}</div>
+        <div class="tablewrap"><table>
+          <thead><tr><th>Dimension</th><th>Scale 1 to 5</th><th>Lab</th><th>You</th><th>Evidence</th></tr></thead>
+          <tbody>
+            {rubric.lenses.map((l) => (<>
+              <tr><td colspan="5" class="label" style="padding-top:20px">{l.label}</td></tr>
+              {l.dimensions.map((d) => {
+                const s = exp.scores?.[d.id];
+                const pos = track(s?.score ?? null);
+                return (
+                  <tr data-row={d.id}>
+                    <td>{d.label}</td>
+                    <td><div class="track" aria-hidden="true">{[0, 1, 2, 3, 4].map((i) => <i style={`left:${6 + i * 22}%`}></i>)}{pos !== null && <span class="dot lab" style={`left:${pos}%`}></span>}<span class="dot you" hidden></span></div></td>
+                    <td class="numc">{s?.score == null ? <span class="nt">n/t</span> : s.score}</td>
+                    <td class="numc" data-you>·</td>
+                    <td>{s?.evidence}{s?.step ? <> <a href={`#step=${s.step}`} data-jump={s.step} class="num">pl. {s.step}</a></> : null}</td>
+                  </tr>
+                );
+              })}
+            </>))}
+          </tbody>
+        </table></div>
+
+        <h3 style="margin-top:var(--s-8)">How it sells</h3>
+        <p>{read.howItSells}</p>
+        <div class="proscons" style="margin-top:var(--s-6)">
+          <div><h3 style="font-size:var(--t-lead)">What works</h3><ul class="pros">{read.pros.map((p: string) => <li>{p}</li>)}</ul></div>
+          <div><h3 style="font-size:var(--t-lead)">What doesn't</h3><ul class="cons">{read.cons.map((p: string) => <li>{p}</li>)}</ul></div>
+        </div>
+        {(read.copy?.length || read.avoid?.length) && (
+          <div class="proscons" style="margin-top:var(--s-6)">
+            <div><h3 style="font-size:var(--t-lead)">Worth copying</h3><ul class="pros">{(read.copy ?? []).map((p: string) => <li>{p}</li>)}</ul></div>
+            <div><h3 style="font-size:var(--t-lead)">Worth avoiding</h3><ul class="cons">{(read.avoid ?? []).map((p: string) => <li>{p}</li>)}</ul></div>
+          </div>
+        )}
+
+        {claims.length > 0 && (<>
+          <h3 style="margin-top:var(--s-8)">Claims against evidence</h3>
+          <div class="tablewrap"><table>
+            <thead><tr><th>Claim as written</th><th>Verdict</th><th>Seen at</th><th>Evidence</th></tr></thead>
+            <tbody>{claims.map((c) => (
+              <tr><td>“{c.text}”</td><td><span class={`verdict-word v-${c.verdict}`}>{c.verdict}</span></td>
+              <td class="numc"><a href={`#step=${c.step}`} data-jump={c.step}>pl. {c.step}</a></td>
+              <td class="numc">{c.evidenceStep ? <a href={`#step=${c.evidenceStep}`} data-jump={c.evidenceStep}>pl. {c.evidenceStep}</a> : 'none on page'}</td></tr>
+            ))}</tbody>
+          </table></div>
+        </>)}
+
+        <div class="cols" style="margin-top:var(--s-8)">
+          <div>
+            <h3>Hypothesis to test</h3>
+            <div class="hyp" id="hyp">
+              <p class="lab-voice" id="hyp-statement" style="margin:0">{read.hypothesis.statement}</p>
+              <dl>
+                <dt class="label">Metric</dt><dd id="hyp-metric">{read.hypothesis.metric}</dd>
+                <dt class="label">Guardrail</dt><dd id="hyp-guardrail">{read.hypothesis.guardrail}</dd>
+                <dt class="label">Decision rule</dt><dd id="hyp-rule">{read.hypothesis.decisionRule}</dd>
+              </dl>
+              <div class="btns" style="margin-top:0">
+                <button class="btn ghost" type="button" data-hyp="accepted">Accept</button>
+                <button class="btn ghost" type="button" data-hyp="edit">Edit</button>
+                <button class="btn ghost" type="button" data-hyp="rejected">Reject</button>
+                <button class="btn ghost" type="button" data-hyp="copy">Copy as text</button>
+              </div>
+              <p class="status" id="hyp-status" role="status"></p>
+            </div>
+          </div>
+          <aside class="margin">
+            <dl>
+              <dt class="label">Tactics noted</dt><dd>{(read.tactics ?? []).join(', ').replace(/_/g, ' ') || 'none'}</dd>
+              <dt class="label">Not seen, so not judged</dt><dd><ul style="padding-left:1.1em;margin:4px 0 0">{(read.unknowns ?? []).map((u: string) => <li>{u}</li>)}</ul></dd>
+            </dl>
+          </aside>
+        </div>
+      </>)}
+    </div>
+  </section>
+
+  <script type="application/json" id="exp-data" set:html={JSON.stringify(payload)} />
+  <script>
+    import { load, save, persistent } from '../scripts/store.js';
+    const root = document.querySelector('[data-exp]') as HTMLElement;
+    if (root) {
+      const data = JSON.parse(document.getElementById('exp-data')!.textContent!);
+      const id = data.id as string;
+      const $ = <T extends HTMLElement = HTMLElement>(s: string) => root.querySelector(s) as T;
+      const st = load();
+      const rec = () => (st.scores[id] ??= { state: 'unscored', skipped: false, verdict: '', dims: {} });
+      const status = $('#status');
+
+      // ----- filmstrip -----
+      const imgs = [...root.querySelectorAll<HTMLButtonElement>('.strip button')];
+      const stageImg = $<HTMLImageElement>('#stage-img'), cap = $('#stage-cap'), ribbon = $('#ribbon'), scrub = $<HTMLInputElement>('#scrub'), noteStep = $('#note-step');
+      const total = data.steps.length;
+      const stepInfo = (n: number) => data.steps[n - 1];
+      const stepsMeta = JSON.parse(JSON.stringify(data.steps));
+      const srcs = imgs.map((b) => b.querySelector('img')!.getAttribute('src')!);
+      function go(n: number, push = true) {
+        if (!total) return;
+        n = Math.max(1, Math.min(total, n));
+        const s = stepInfo(n);
+        stageImg.src = srcs[n - 1]; stageImg.alt = `${n}: ${s.title}`;
+        cap.innerHTML = `Pl. <span class="num">${n} / ${total}</span><span>Step <span class="num">${n}</span></span><span class="num">${fmt(s.ms)} · ${s.clicks} click${s.clicks === 1 ? '' : 's'}</span>`;
+        ribbon.innerHTML = `<span class="label">Step <b class="num">${n}/${total}</b></span><span class="label">Clicks so far <b class="num">${s.clicks}</b></span><span class="label">Elapsed <b class="num">${fmt(s.ms)}</b></span>`;
+        scrub.value = String(n); scrub.setAttribute('aria-valuetext', `Step ${n} of ${total}, ${s.clicks} clicks, ${fmt(s.ms)}`);
+        imgs.forEach((b, i) => b.setAttribute('aria-selected', String(i + 1 === n)));
+        noteStep.textContent = s.title;
+        if (push) history.replaceState(null, '', `#step=${n}`);
+      }
+      const fmt = (ms: number) => `${String(Math.floor(ms / 60000)).padStart(2, '0')}:${String(Math.floor((ms % 60000) / 1000)).padStart(2, '0')}`;
+      imgs.forEach((b) => b.addEventListener('click', () => go(Number(b.dataset.step))));
+      scrub.addEventListener('input', () => go(Number(scrub.value)));
+      document.addEventListener('click', (e) => { const a = (e.target as HTMLElement).closest('[data-jump]') as HTMLElement | null; if (a) { e.preventDefault(); go(Number(a.dataset.jump)); document.getElementById('s-plates')?.scrollIntoView({ block: 'start' }); } });
+      const m = location.hash.match(/step=(\d+)/); go(m ? Number(m[1]) : 1, false);
+
+      // ----- blind-first scoring -----
+      const fields = [...root.querySelectorAll<HTMLFieldSetElement>('fieldset[data-dim]')];
+      const verdict = $<HTMLInputElement>('#verdict'), submit = $<HTMLButtonElement>('#submit'), reveal = $<HTMLButtonElement>('#reveal'), skip = $<HTMLButtonElement>('#skip');
+      const sealed = $('#read');
+      function setState(s: string) { root.dataset.state = s; rec().state = s; }
+      function lockInputs(lock: boolean) { root.querySelectorAll<HTMLInputElement>('.scorecard input').forEach((i) => (i.disabled = lock)); }
+      function readForm() {
+        const r = rec(); r.verdict = verdict.value.trim(); r.dims = {};
+        for (const f of fields) {
+          const c = f.querySelector<HTMLInputElement>('input:checked'); if (!c) continue;
+          r.dims[f.dataset.dim!] = c.value === 'nt' ? { score: null, cantTell: true } : { score: Number(c.value), cantTell: false };
+        }
+      }
+      function validate() { const r = rec(); submit.disabled = !(verdict.value.trim() && Object.keys(r.dims).length); }
+      let t: any;
+      root.querySelector('.scorecard')!.addEventListener('input', () => { if (root.dataset.state === 'unscored') setState('scoring'); readForm(); validate(); clearTimeout(t); t = setTimeout(save, 500); });
+      function paintYou() {
+        const r = rec();
+        for (const d of data.dims) {
+          const row = root.querySelector(`[data-row="${d.id}"]`); if (!row) continue;
+          const y = r.dims?.[d.id]; const cell = row.querySelector('[data-you]')!; const dot = row.querySelector('.dot.you') as HTMLElement;
+          if (r.skipped || !y) { cell.textContent = '·'; dot.hidden = true; continue; }
+          if (y.cantTell) { cell.innerHTML = '<span class="nt">n/t</span>'; dot.hidden = true; }
+          else { cell.textContent = String(y.score); dot.hidden = false; dot.style.left = ((y.score - 1) / 4) * 88 + 6 + '%'; }
+        }
+      }
+      function open(focus = true) {
+        sealed.dataset.locked = 'false'; sealed.classList.add('unseal'); setState('revealed');
+        rec().revealedAt = new Date().toISOString(); paintYou(); save();
+        if (focus) document.getElementById('s-read')?.focus?.();
+        status.textContent = rec().skipped ? 'Notes opened without scoring. This one is left out of calibration.' : 'Notes opened. Your marks are beside the Lab\'s.';
+        sealed.scrollIntoView({ block: 'start' });
+      }
+      submit.addEventListener('click', () => {
+        readForm(); const r = rec(); r.submittedAt = new Date().toISOString(); r.skipped = false; setState('submitted'); lockInputs(true); verdict.disabled = true;
+        submit.hidden = true; skip.hidden = true; reveal.hidden = false; save();
+        status.textContent = persistent ? 'Scores filed on this device. Open the Lab\'s notes when ready.' : 'Scores held in memory only: this browser blocks storage. Export from the Data page.';
+        reveal.focus();
+      });
+      reveal.addEventListener('click', () => open());
+      skip.addEventListener('click', () => { rec().skipped = true; lockInputs(true); verdict.disabled = true; submit.hidden = true; skip.hidden = true; open(); });
+
+      // restore
+      const r0 = st.scores[id];
+      if (r0) {
+        verdict.value = r0.verdict ?? '';
+        for (const [k, v] of Object.entries<any>(r0.dims ?? {})) { const f = root.querySelector(`fieldset[data-dim="${k}"] input[value="${v.cantTell ? 'nt' : v.score}"]`) as HTMLInputElement | null; if (f) f.checked = true; }
+        root.dataset.state = r0.state;
+        if (r0.state === 'submitted' || r0.state === 'revealed') { lockInputs(true); verdict.disabled = true; submit.hidden = true; skip.hidden = true; }
+        if (r0.state === 'submitted') reveal.hidden = false;
+        if (r0.state === 'revealed') { sealed.dataset.locked = 'false'; paintYou(); }
+        if (r0.state === 'scoring') validate();
+      }
+
+      // ----- hypothesis card -----
+      const hs = (st.hypotheses[id] ??= { status: 'pending' }); const hstat = $('#hyp-status');
+      const hshow = () => { hstat.textContent = hs.status === 'pending' ? '' : `Marked ${hs.status} on this device.`; };
+      hshow();
+      root.querySelectorAll<HTMLButtonElement>('[data-hyp]').forEach((b) => b.addEventListener('click', async () => {
+        const a = b.dataset.hyp!;
+        if (a === 'accepted' || a === 'rejected') { hs.status = a; save(); hshow(); }
+        if (a === 'copy') {
+          const txt = ['statement', 'metric', 'guardrail', 'rule'].map((k) => (k === 'statement' ? 'Hypothesis: ' : k[0].toUpperCase() + k.slice(1) + ': ') + $('#hyp-' + k).textContent).join('\n');
+          try { await navigator.clipboard.writeText(txt); hstat.textContent = 'Copied.'; } catch { hstat.textContent = 'Copy blocked by the browser.'; }
+        }
+        if (a === 'edit') {
+          const ids = ['metric', 'guardrail', 'rule'];
+          if (b.dataset.editing) { ids.forEach((k) => { const ta = $<HTMLTextAreaElement>('#hyp-' + k + ' textarea'); hs.edited = { ...(hs.edited ?? {}), [k]: ta.value }; $('#hyp-' + k).textContent = ta.value; }); hs.status = 'edited'; save(); b.textContent = 'Edit'; delete b.dataset.editing; hshow(); }
+          else { ids.forEach((k) => { const el = $('#hyp-' + k); const ta = document.createElement('textarea'); ta.value = el.textContent ?? ''; ta.setAttribute('aria-label', k); el.textContent = ''; el.appendChild(ta); }); b.textContent = 'Save'; b.dataset.editing = '1'; }
+        }
+      }));
+      if (hs.edited) for (const [k, v] of Object.entries<string>(hs.edited)) { const el = root.querySelector('#hyp-' + k); if (el) el.textContent = v; }
+      if (!persistent) status.textContent = 'This browser blocks storage; scores will not survive a reload. Export from the Data page.';
+    }
+  </script>
+</article>

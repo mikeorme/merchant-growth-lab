@@ -1,0 +1,154 @@
+{
+  "id": "shopify",
+  "name": "Shopify",
+  "category": "store-builders",
+  "url": "https://www.shopify.com",
+  "flow": "free trial start to first product added",
+  "capturedAt": "2026-11-21",
+  "rubricVersion": "1.0.0",
+  "status": "evaluated",
+  "blockedReason": "account form reached at step 2",
+  "steps": [
+    {
+      "n": 1,
+      "title": "Shopify: The All-in-One Commerce Platform for Businesses - Shopify",
+      "url": "https://www.shopify.com/",
+      "screenshot": "shots/shopify/step-1.webp",
+      "elapsedMs": 1809,
+      "clicks": 0,
+      "mobileScreenshot": "shots/shopify/step-1-mobile.webp",
+      "note": "Next: clicked \"Get started fast You could be selling by tomorrow.\""
+    },
+    {
+      "n": 2,
+      "title": "Start your online store today. Start selling tomorrow. - Shopify",
+      "url": "https://www.shopify.com/start",
+      "screenshot": "shots/shopify/step-2.webp",
+      "elapsedMs": 8356,
+      "clicks": 1,
+      "note": "Stopped: account form or bot check reached."
+    }
+  ],
+  "sources": [
+    "https://www.shopify.com"
+  ],
+  "scores": {
+    "jtbd_fit": {
+      "score": 3,
+      "evidence": "Hero says \"Dream big and build fast on Shopify. The world's best commerce platform.\" Names commerce but not the merchant's job.",
+      "step": 1
+    },
+    "capability_visible": {
+      "score": 2,
+      "evidence": "Step 1 hero is a dark lifestyle video with no product UI.",
+      "step": 1
+    },
+    "pricing_transparency": {
+      "score": null,
+      "evidence": "Not visible in captured steps; \"Pricing\" sits in nav only.",
+      "step": null
+    },
+    "time_to_value": {
+      "score": null,
+      "evidence": "Flow stopped before account creation; cannot judge.",
+      "step": null
+    },
+    "friction": {
+      "score": 2,
+      "evidence": "The hero \"Start for free\" leads to /start, a second page with the same CTA again (step 2). One extra click for the same intent.",
+      "step": 2
+    },
+    "trust": {
+      "score": null,
+      "evidence": "No trust signals in the captured viewport.",
+      "step": null
+    },
+    "mobile": {
+      "score": null,
+      "evidence": "Mobile capture exists for step 1 but was not assessed.",
+      "step": null
+    },
+    "states": {
+      "score": null,
+      "evidence": "No error or empty states reached.",
+      "step": null
+    },
+    "a11y_basics": {
+      "score": null,
+      "evidence": "Not tested in this run.",
+      "step": null
+    },
+    "value_prop_clarity": {
+      "score": 2,
+      "evidence": "Headline \"Be the next AI all-star\" does not say what a merchant gets; the clear line is the subhead.",
+      "step": 1
+    },
+    "proof_quality": {
+      "score": 2,
+      "evidence": "\"The world's best commerce platform\" is stated with no evidence on the screen.",
+      "step": 1
+    },
+    "persuasion_integrity": {
+      "score": 4,
+      "evidence": "No fake urgency or pressure visible; the promise is speed (\"Be selling by tomorrow\").",
+      "step": 2
+    },
+    "cta_logic": {
+      "score": 3,
+      "evidence": "One consistent label, \"Start for free\", in nav and hero, but it is repeated on an interstitial.",
+      "step": 2
+    }
+  },
+  "read": {
+    "summary": "A confident, brand-led landing that asks for the click before showing the product. The path to signup is consistent in wording but takes an extra interstitial.",
+    "pros": [
+      "One CTA wording everywhere (\"Start for free\") keeps the decision simple.",
+      "\"Be selling by tomorrow\" is a concrete, merchant-relevant speed promise.",
+      "No visible urgency or pressure tactics in these steps."
+    ],
+    "cons": [
+      "Hero headline is about AI ambition rather than the merchant's job.",
+      "No product UI or proof on the first screen.",
+      "The /start page re-asks for the same click."
+    ],
+    "howItSells": "Sells identity and momentum (\"be the next all-star\", \"start today\") with a low-commitment free start. Relies on brand authority more than shown evidence.",
+    "copy": [
+      "Speed-framed promise next to a single, repeated CTA."
+    ],
+    "avoid": [
+      "Leading with an abstract headline and holding back the product.",
+      "An interstitial that repeats the CTA."
+    ],
+    "tactics": [
+      "authority",
+      "commitment_ladder"
+    ],
+    "confidence": "low",
+    "unknowns": [
+      "What the real account form asks for.",
+      "Trial length and plan terms.",
+      "Mobile experience.",
+      "Whether /start varies by visitor or campaign."
+    ],
+    "hypothesis": {
+      "statement": "Showing a short product demo above the fold will lift hero-to-signup click rate without hurting signup completion.",
+      "metric": "Hero CTA click-through to account-created rate",
+      "guardrail": "Page load time and bounce rate",
+      "decisionRule": "Ship if CTA-to-account rises with no guardrail regression after a two-week split test."
+    }
+  },
+  "claims": [
+    {
+      "text": "The world's best commerce platform",
+      "verdict": "unsupported",
+      "step": 1,
+      "evidenceStep": null
+    },
+    {
+      "text": "Be selling by tomorrow",
+      "verdict": "plausible",
+      "step": 2,
+      "evidenceStep": null
+    }
+  ]
+}

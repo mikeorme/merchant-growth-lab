@@ -1,0 +1,82 @@
+/* Merchant Growth Lab tokens. Contrast ratios noted vs --bg. */
+:root {
+  --font-display: "Newsreader", "Iowan Old Style", Georgia, serif;
+  --font-label: "IBM Plex Sans Condensed", "Arial Narrow", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+
+  /* type scale: 1.25 ratio, 16px base, fluid only on display */
+  --t-label: 0.75rem;   /* 12 caps, +0.08em tracking */
+  --t-small: 0.875rem;  /* 14 */
+  --t-body: 1.0625rem;  /* 17, lh 1.55 */
+  --t-lead: 1.3125rem;  /* 21 */
+  --t-h3: 1.625rem;     /* 26 */
+  --t-h2: clamp(1.875rem, 1.4rem + 2vw, 2.625rem);
+  --t-h1: clamp(2.5rem, 1.6rem + 4vw, 4.5rem);
+
+  --s-1: 4px; --s-2: 8px; --s-3: 12px; --s-4: 16px;
+  --s-6: 24px; --s-8: 32px; --s-12: 48px; --s-16: 64px;
+  --measure: 66ch;
+  --rule-hair: 1px; --rule-heavy: 2px;
+  --radius: 0;          /* no rounding on plates; 2px max on controls */
+  --ease: cubic-bezier(.2, .7, .2, 1);
+
+  /* LIGHT: "bench paper" */
+  --bg: #F3EFE6;        /* paper */
+  --panel: #FBF9F3;     /* plate / card stock */
+  --ink: #1B1A17;       /* 15.2:1 */
+  --ink-2: #4A463D;     /* 8.2:1 */
+  --ink-mute: #625D51;  /* 5.7:1, smallest text allowed */
+  --rule: #CFC8B8;      /* decorative only, 1.45:1, never the sole boundary of an input */
+  --rule-strong: #1B1A17;
+  --signal: #B23A0E;    /* vermilion; 5.2:1; the ONLY accent */
+  --signal-ink: #FBF9F3;/* text on signal fill */
+  --focus: #1A5FA3;     /* 2px outline + 2px offset */
+
+  /* data: validated, 2 slots, dE>=21 CVD */
+  --d-you: #1A5FA3;     /* Mike's score; 5.7:1 */
+  --d-lab: #B23A0E;     /* Lab's score; 5.2:1 */
+  --d-good: #2B6B3F;    /* 5.6:1, always with + icon/label */
+  --d-bad: #A3262A;     /* 6.4:1, always with - icon/label */
+  --d-seq-1: #E7E0CF; --d-seq-2: #C9D6D8; --d-seq-3: #8FB0B8;
+  --d-seq-4: #4F7F8E; --d-seq-5: #1F4B5C; /* one teal hue, light to dark, rubric 1-5 */
+  --d-na: #8C8676;      /* "can't tell": hatched, never filled solid */
+  --grain-opacity: .05;
+}
+
+/* DARK: "darkroom" (warm black, never blue-black) */
+:root[data-theme="dark"] {
+  --bg: #14130F; --panel: #1D1B16;
+  --ink: #ECE6D6;       /* 14.9:1 */
+  --ink-2: #C4BDAA;     /* 9.9:1 */
+  --ink-mute: #9C9684;  /* 6.3:1 */
+  --rule: #3A3730; --rule-strong: #ECE6D6;
+  --signal: #FF8F5E;    /* 8.3:1 */
+  --signal-ink: #14130F;
+  --focus: #6FB0E3;
+  --d-you: #4F98E0; --d-lab: #DC6C36;  /* validated vs dark surface */
+  --d-good: #7CC48F; --d-bad: #FF7B7E;
+  --d-seq-1: #2A2A25; --d-seq-2: #2F4A52; --d-seq-3: #3F7787;
+  --d-seq-4: #6FA9B8; --d-seq-5: #BFE0E8;
+  --d-na: #7A7466;
+  --grain-opacity: .07;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #14130F; --panel: #1D1B16; --ink: #ECE6D6; --ink-2: #C4BDAA;
+    --ink-mute: #9C9684; --rule: #3A3730; --rule-strong: #ECE6D6;
+    --signal: #FF8F5E; --signal-ink: #14130F; --focus: #6FB0E3;
+    --d-you: #4F98E0; --d-lab: #DC6C36; --d-good: #7CC48F; --d-bad: #FF7B7E;
+    --d-seq-1: #2A2A25; --d-seq-2: #2F4A52; --d-seq-3: #3F7787;
+    --d-seq-4: #6FA9B8; --d-seq-5: #BFE0E8; --d-na: #7A7466; --grain-opacity: .07;
+  }
+}
+
+html { background: var(--bg); color: var(--ink); font: 400 var(--t-body)/1.55 var(--font-display);
+  font-optical-sizing: auto; font-variant-numeric: oldstyle-nums; }
+.label { font: 500 var(--t-label)/1.2 var(--font-label); letter-spacing: .08em; text-transform: uppercase; color: var(--ink-mute); }
+.num { font-family: var(--font-mono); font-variant-numeric: tabular-nums lining-nums; }
+:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important;
+    transition-duration: .01ms !important; scroll-behavior: auto !important; }
+}

@@ -1,0 +1,47 @@
+// Smoke test against `astro preview`: blind-first flow, theme, mobile overflow. Usage: node scripts/smoke.mjs [outDir]
+import { chromium } from 'playwright';
+import fs from 'node:fs';
+const out = process.argv[2] ?? '/tmp/mgl-smoke';
+fs.mkdirSync(out, { recursive: true });
+const B = 'http://localhost:4321/merchant-growth-lab/';
+const b = await chromium.launch();
+const errs = []; let fails = 0;
+const ok = (c, m) => { console.log(c ? 'PASS' : 'FAIL', m); if (!c) fails++; };
+const ctx = await b.newContext({ viewport: { width: 1360, height: 900 }, colorScheme: 'light' });
+const p = await ctx.newPage();
+p.on('pageerror', (e) => errs.push(e.message)); p.on('console', (m) => m.type() === 'error' && errs.push(m.text()));
+await p.goto(B); await p.waitForSelector('h1');
+ok((await p.locator('h1').innerText()).includes('Stripe'), 'Today shows Stripe');
+ok(await p.locator('#read').getAttribute('data-locked') === 'true', 'read sealed initially');
+ok(!(await p.locator('.read-body').isVisible()), 'read body hidden while sealed');
+await p.screenshot({ path: out + '/today-light.png', fullPage: false });
+await p.locator('#verdict').fill('Clean, credible, a bit enterprise.');
+for (const d of ['jtbd_fit', 'friction', 'trust', 'value_prop_clarity']) await p.locator(`fieldset[data-dim=${d}] label:nth-child(4)`).click();
+await p.locator('fieldset[data-dim=pricing_transparency] label:nth-child(6)').click();
+ok(await p.locator('#submit').isEnabled(), 'submit enabled after verdict + scores');
+await p.locator('#submit').click();
+ok(await p.locator('#reveal').isVisible(), 'reveal offered after submit');
+await p.reload(); await p.waitForSelector('#reveal');
+ok(await p.locator('#reveal').isVisible() && (await p.locator('#verdict').inputValue()).startsWith('Clean'), 'state restored after reload');
+await p.locator('#reveal').click();
+ok(await p.locator('.read-body').isVisible(), 'read opens after reveal');
+ok((await p.locator('[data-row=trust] [data-you]').innerText()).trim() === '4', 'your mark shown beside Lab');
+await p.screenshot({ path: out + '/read-light.png', fullPage: true });
+await p.locator('.strip button[data-step="2"]').click();
+ok((await p.locator('#ribbon').innerText()).includes('2/2'), 'scrubber advances');
+await p.goto(B + 'calibration/'); ok((await p.locator('#out').innerText()).includes('of 5'), 'calibration shows threshold');
+await p.goto(B + 'archive/'); ok((await p.locator('#cat tbody tr').count()) === 100, 'archive lists 100');
+await p.locator('#f-status').selectOption('evaluated'); ok((await p.locator('#cat tbody tr:visible').count()) === 3, 'status filter works');
+await p.locator('#f-status').selectOption(''); await p.screenshot({ path: out + '/archive-light.png' });
+await p.goto(B + 'compare/?ids=stripe,klaviyo'); ok((await p.locator('#out table').count()) === 1, 'compare renders');
+const d = await b.newContext({ viewport: { width: 1360, height: 900 }, colorScheme: 'dark' });
+const pd = await d.newPage(); await pd.goto(B); await pd.screenshot({ path: out + '/today-dark.png' });
+const m = await b.newContext({ viewport: { width: 375, height: 800 }, deviceScaleFactor: 2 });
+const pm = await m.newPage(); await pm.goto(B);
+for (const path of ['', 'archive/', 'experience/shopify/', 'data/', 'compare/']) {
+  await pm.goto(B + path); const over = await pm.evaluate(() => document.documentElement.scrollWidth > innerWidth + 1);
+  ok(!over, `no horizontal page scroll at 375px: /${path}`);
+}
+await pm.goto(B); await pm.screenshot({ path: out + '/today-mobile.png' });
+ok(errs.length === 0, 'no console errors ' + errs.slice(0, 3).join(' | '));
+await b.close(); process.exit(fails ? 1 : 0);

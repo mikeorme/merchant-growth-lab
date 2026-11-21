@@ -1,0 +1,31 @@
+---
+import Base from '../layouts/Base.astro';
+import ExperienceView from '../components/ExperienceView.astro';
+import { allBriefs, expById, base, accession } from '../lib/data';
+const brief = allBriefs[0];
+const exp = brief ? expById(brief.featured) : undefined;
+---
+<Base title="Today" rail="Today's specimen">
+  {!brief || !exp ? (
+    <>
+      <h1>No plates yet.</h1>
+      <p class="lead">Today's brief files at 5:00 a.m. Mountain. Until then the <a href={base('archive/')}>catalogue</a> lists what is queued.</p>
+    </>
+  ) : (
+    <>
+      <p class="label">Brief for <span class="num">{brief.date}</span></p>
+      <h1 class="brief-title">{brief.headline}</h1>
+      {brief.oneLiner && <p class="lead">{brief.oneLiner}</p>}
+      {brief.batch.length > 0 && (
+        <p class="mute">Also filed today:
+          {brief.batch.map((b, i) => <>{i ? ', ' : ' '}<a href={base(`experience/${b}/`)}>{expById(b)?.name ?? b}</a> <span class="num">({accession(b)})</span></>)}.
+        </p>
+      )}
+      {brief.newFromNews && brief.newFromNews.length > 0 && (
+        <p class="mute">Added to the queue from the news: {brief.newFromNews.map((n) => n.name).join(', ')}.</p>
+      )}
+      <hr style="border:0;border-top:2px solid var(--rule-strong);margin:32px 0 0" />
+      <ExperienceView exp={exp} questions={brief.questionsForReader} level={2} />
+    </>
+  )}
+</Base>

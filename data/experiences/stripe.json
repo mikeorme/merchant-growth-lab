@@ -1,0 +1,160 @@
+{
+  "id": "stripe",
+  "name": "Stripe",
+  "category": "payments-checkout",
+  "url": "https://stripe.com",
+  "flow": "create account to first payment link",
+  "capturedAt": "2026-11-21",
+  "rubricVersion": "1.0.0",
+  "status": "evaluated",
+  "blockedReason": "account form reached at step 2",
+  "steps": [
+    {
+      "n": 1,
+      "title": "Stripe | Financial Infrastructure to Grow Your Revenue",
+      "url": "https://stripe.com/",
+      "screenshot": "shots/stripe/step-1.webp",
+      "elapsedMs": 2404,
+      "clicks": 0,
+      "mobileScreenshot": "shots/stripe/step-1-mobile.webp",
+      "note": "Next: clicked \"Get started\""
+    },
+    {
+      "n": 2,
+      "title": "Sign up and create a Stripe account | Stripe",
+      "url": "https://dashboard.stripe.com/register",
+      "screenshot": "shots/stripe/step-2.webp",
+      "elapsedMs": 6879,
+      "clicks": 1,
+      "note": "Stopped: account form or bot check reached."
+    }
+  ],
+  "sources": [
+    "https://stripe.com"
+  ],
+  "scores": {
+    "jtbd_fit": {
+      "score": 4,
+      "evidence": "Hero lists the jobs: \"Accept payments, handle business banking, and implement custom revenue models\".",
+      "step": 1
+    },
+    "capability_visible": {
+      "score": 4,
+      "evidence": "Step 2 shows a real-looking dashboard (Balances, Transactions, Customers) behind the signup modal.",
+      "step": 2
+    },
+    "pricing_transparency": {
+      "score": null,
+      "evidence": "Pricing is only a nav link in the captured steps.",
+      "step": null
+    },
+    "time_to_value": {
+      "score": null,
+      "evidence": "Flow stopped at the account form.",
+      "step": null
+    },
+    "friction": {
+      "score": 4,
+      "evidence": "Account form has four fields (email, name, password, country) plus Google sign-up.",
+      "step": 2
+    },
+    "trust": {
+      "score": 4,
+      "evidence": "Named logo wall: OpenAI, Amazon, Nvidia, Ford, Coinbase, Google, Shopify.",
+      "step": 1
+    },
+    "mobile": {
+      "score": null,
+      "evidence": "Mobile capture exists for step 1 but was not assessed.",
+      "step": null
+    },
+    "states": {
+      "score": null,
+      "evidence": "No error or empty states reached.",
+      "step": null
+    },
+    "a11y_basics": {
+      "score": null,
+      "evidence": "Not tested in this run.",
+      "step": null
+    },
+    "value_prop_clarity": {
+      "score": 3,
+      "evidence": "Clear to a developer or finance lead. \"Financial infrastructure\" and \"custom revenue models\" are harder for a small merchant.",
+      "step": 1
+    },
+    "proof_quality": {
+      "score": 3,
+      "evidence": "Logos are specific, but \"Global GDP running on Stripe: 1.75356688%\" has no visible source.",
+      "step": 1
+    },
+    "persuasion_integrity": {
+      "score": 4,
+      "evidence": "No urgency or scarcity. The banner announces news instead of pushing a deal.",
+      "step": 1
+    },
+    "cta_logic": {
+      "score": 4,
+      "evidence": "\"Get started\" is primary, Google sign-up secondary, \"Contact sales\" separated top-right.",
+      "step": 1
+    }
+  },
+  "read": {
+    "summary": "A clear, credible start for builders and finance teams. The signup modal over a live-looking dashboard is the strongest move in the flow.",
+    "pros": [
+      "Signup appears over the product dashboard, so the visitor sees where they are going.",
+      "Logo wall uses specific, recognisable brands.",
+      "Primary and secondary CTAs are clearly ranked."
+    ],
+    "cons": [
+      "Copy skews toward technical and enterprise readers; a first-time small merchant may not see themselves.",
+      "The GDP counter is an unsourced, attention-grabbing claim.",
+      "Four required fields before seeing anything inside the product."
+    ],
+    "howItSells": "Sells scale and credibility (\"first transaction to your billionth\") through named customers and an ambitious stat. Positions Stripe as infrastructure rather than a store tool.",
+    "copy": [
+      "Show the product behind the signup modal.",
+      "Rank CTAs: self-serve primary, sales secondary."
+    ],
+    "avoid": [
+      "An unsourced headline statistic."
+    ],
+    "tactics": [
+      "authority",
+      "social_proof",
+      "commitment_ladder"
+    ],
+    "confidence": "medium",
+    "unknowns": [
+      "Pricing clarity beyond the nav.",
+      "What happens after account creation.",
+      "Mobile experience."
+    ],
+    "hypothesis": {
+      "statement": "A segment-specific headline for small merchants (\"Take your first payment today\") will improve signup rate among non-developer visitors.",
+      "metric": "Signup start to account-created rate for small-merchant traffic",
+      "guardrail": "Developer-segment signup rate",
+      "decisionRule": "Ship to the small-merchant segment if completion rises by a pre-agreed margin and developer rate holds."
+    }
+  },
+  "claims": [
+    {
+      "text": "Global GDP running on Stripe: 1.75356688%",
+      "verdict": "unsupported",
+      "step": 1,
+      "evidenceStep": null
+    },
+    {
+      "text": "From your first transaction to your billionth",
+      "verdict": "plausible",
+      "step": 1,
+      "evidenceStep": null
+    },
+    {
+      "text": "Accept payments, handle business banking",
+      "verdict": "plausible",
+      "step": 2,
+      "evidenceStep": 2
+    }
+  ]
+}

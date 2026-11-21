@@ -1,0 +1,162 @@
+{
+  "id": "klaviyo",
+  "name": "Klaviyo",
+  "category": "retention-messaging",
+  "url": "https://www.klaviyo.com",
+  "flow": "signup to first flow",
+  "capturedAt": "2026-11-21",
+  "rubricVersion": "1.0.0",
+  "status": "evaluated",
+  "blockedReason": "account form reached at step 2",
+  "steps": [
+    {
+      "n": 1,
+      "title": "Klaviyo: AI Email Marketing & SMS | B2C CRM",
+      "url": "https://www.klaviyo.com/",
+      "screenshot": "shots/klaviyo/step-1.webp",
+      "elapsedMs": 2134,
+      "clicks": 0,
+      "mobileScreenshot": "shots/klaviyo/step-1-mobile.webp",
+      "note": "Next: clicked \"Sign up\""
+    },
+    {
+      "n": 2,
+      "title": "Klaviyo: Sign Up for Free Today",
+      "url": "https://www.klaviyo.com/sign-up",
+      "screenshot": "shots/klaviyo/step-2.webp",
+      "elapsedMs": 6171,
+      "clicks": 1,
+      "note": "Stopped: account form or bot check reached."
+    }
+  ],
+  "sources": [
+    "https://www.klaviyo.com"
+  ],
+  "scores": {
+    "jtbd_fit": {
+      "score": 4,
+      "evidence": "Subhead: \"Composer turns customer data into revenue. You approve the plan, and every result is measured.\"",
+      "step": 1
+    },
+    "capability_visible": {
+      "score": 4,
+      "evidence": "Hero shows product UI with a revenue summary and an AI recommendations panel.",
+      "step": 1
+    },
+    "pricing_transparency": {
+      "score": null,
+      "evidence": "Pricing is a nav link only in captured steps.",
+      "step": null
+    },
+    "time_to_value": {
+      "score": null,
+      "evidence": "Flow stopped at the signup form.",
+      "step": null
+    },
+    "friction": {
+      "score": 5,
+      "evidence": "Signup is one email field or Google, nothing else (step 2).",
+      "step": 2
+    },
+    "trust": {
+      "score": 4,
+      "evidence": "Named brands (Funko, Dollar Shave Club, Glossier, Dermalogica) and a customer count.",
+      "step": 1
+    },
+    "mobile": {
+      "score": null,
+      "evidence": "Mobile capture exists for step 1 but was not assessed.",
+      "step": null
+    },
+    "states": {
+      "score": null,
+      "evidence": "No error or empty states reached.",
+      "step": null
+    },
+    "a11y_basics": {
+      "score": null,
+      "evidence": "Not tested in this run.",
+      "step": null
+    },
+    "value_prop_clarity": {
+      "score": 3,
+      "evidence": "Two category labels compete: \"The autonomous B2C CRM\" eyebrow and \"AI marketing agent\" headline.",
+      "step": 1
+    },
+    "proof_quality": {
+      "score": 3,
+      "evidence": "\"Powering 200,000+ relationship-driven brands across 100 countries\" is unsourced; dashboard figures look like demo data and are not labelled as such.",
+      "step": 1
+    },
+    "persuasion_integrity": {
+      "score": 4,
+      "evidence": "\"You approve the plan\" frames AI as supervised, not magic.",
+      "step": 1
+    },
+    "cta_logic": {
+      "score": 4,
+      "evidence": "\"Sign up\" and \"Sign up with Google\" are clear. A promo banner (\"Try it now\") competes for the click.",
+      "step": 1
+    }
+  },
+  "read": {
+    "summary": "A product-led pitch with the lightest signup of the three pilots. The AI-agent framing is current, but category labels compete.",
+    "pros": [
+      "Signup asks for one email or Google, the lowest friction here.",
+      "Hero shows real product UI and a concrete recommendation.",
+      "\"You approve the plan\" addresses fear of an autonomous agent."
+    ],
+    "cons": [
+      "Eyebrow and headline describe the product in two different ways.",
+      "Demo dashboard numbers are not labelled as sample data.",
+      "A promo banner adds a second competing CTA."
+    ],
+    "howItSells": "Sells outcome (revenue) with supervised automation, supported by well-known DTC brands and scale. The AI framing is the hook; the proof is the logo bar.",
+    "copy": [
+      "Single-field signup.",
+      "Say what the human still controls."
+    ],
+    "avoid": [
+      "Two competing category names in the hero.",
+      "Unlabelled demo figures."
+    ],
+    "tactics": [
+      "social_proof",
+      "authority",
+      "commitment_ladder"
+    ],
+    "confidence": "medium",
+    "unknowns": [
+      "What the first-run experience asks next.",
+      "Pricing and plan limits.",
+      "Whether \"Composer\" is available on the free plan.",
+      "Mobile experience."
+    ],
+    "hypothesis": {
+      "statement": "Labelling the hero dashboard as sample data and removing the promo banner will increase trust and signup completion.",
+      "metric": "Signup completion rate",
+      "guardrail": "Banner-driven feature awareness (click rate on the announcement)",
+      "decisionRule": "Ship if completion rises and the announcement loses no more than an agreed share of clicks."
+    }
+  },
+  "claims": [
+    {
+      "text": "Powering 200,000+ relationship-driven brands across 100 countries",
+      "verdict": "unsupported",
+      "step": 1,
+      "evidenceStep": null
+    },
+    {
+      "text": "Composer turns customer data into revenue",
+      "verdict": "plausible",
+      "step": 1,
+      "evidenceStep": 1
+    },
+    {
+      "text": "Every result is measured",
+      "verdict": "plausible",
+      "step": 1,
+      "evidenceStep": 1
+    }
+  ]
+}

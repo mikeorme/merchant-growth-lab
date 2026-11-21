@@ -1,0 +1,10 @@
+---
+import Base from '../../layouts/Base.astro';
+import ExperienceView from '../../components/ExperienceView.astro';
+import { experiences, accession } from '../../lib/data';
+export function getStaticPaths() { return experiences.map((e) => ({ params: { id: e.id }, props: { exp: e } })); }
+const { exp } = Astro.props;
+---
+<Base title={exp.name} rail={accession(exp.id)}>
+  <ExperienceView exp={exp} />
+</Base>

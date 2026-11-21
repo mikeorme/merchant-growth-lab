@@ -1,0 +1,88 @@
+---
+import Base from '../layouts/Base.astro';
+import { corpus, experiences, expById, accession, base, overall, stale } from '../lib/data';
+const cats = [...new Set(corpus.items.map((c) => c.category))];
+const rows = corpus.items.map((c) => {
+  const e = expById(c.id);
+  return { c, e, acc: accession(c.id), ov: e ? overall(e) : null };
+});
+const evaluated = experiences.filter((e) => e.status === 'evaluated').length;
+---
+<Base title="Archive" rail="Catalogue">
+  <p class="label">Catalogue</p>
+  <h1 style="font-size:var(--t-h2);margin-top:8px">{corpus.items.length} specimens listed, {experiences.length} on a plate, {evaluated} examined.</h1>
+  <p class="lead">The rest are queued. Each day's run captures one new flow plus a small batch from this list, and adds products it finds in the news.</p>
+
+  <div class="filters" role="search">
+    <label><span class="label">Category</span>
+      <select id="f-cat"><option value="">All</option>{cats.map((c) => <option value={c}>{c.replace(/-/g, ' ')}</option>)}</select></label>
+    <label><span class="label">Status</span>
+      <select id="f-status"><option value="">All</option><option value="evaluated">Examined</option><option value="captured">Captured</option><option value="blocked">Blocked</option><option value="backlog">Queued</option></select></label>
+    <label><span class="label">Scored by you</span>
+      <select id="f-mine"><option value="">All</option><option value="yes">Scored</option><option value="no">Not yet</option></select></label>
+    <label><span class="label">Search</span><input id="f-q" type="search" placeholder="name or flow" /></label>
+    <span class="label" id="count" role="status"></span>
+  </div>
+
+  <div class="tablewrap">
+  <table id="cat">
+    <thead><tr><th>No.</th><th></th><th>Specimen</th><th>Category</th><th>Flow tested</th><th>Status</th><th>Lab mean</th><th>You</th><th>Compare</th></tr></thead>
+    <tbody>
+      {rows.map(({ c, e, acc, ov }) => (
+        <tr data-cat={c.category} data-status={e?.status ?? 'backlog'} data-id={c.id} data-q={`${c.name} ${c.flow}`.toLowerCase()} class={e ? '' : 'backlog'}>
+          <td class="numc">{acc}</td>
+          <td>{e?.steps[0] ? <img class="thumb" src={base(e.steps[0].screenshot)} width="72" height="45" alt="" loading="lazy" /> : null}</td>
+          <td>{e ? <a href={base(`experience/${c.id}/`)}>{c.name}</a> : c.name}{e && stale(e) ? <span class="label"> · stale</span> : null}</td>
+          <td class="label">{c.category.replace(/-/g, ' ')}</td>
+          <td>{c.flow}</td>
+          <td class="label">{e ? (e.status === 'evaluated' ? 'Examined' : e.status) : 'Queued'}</td>
+          <td class="numc" data-lab={ov ? ov.mean.toFixed(1) : ''}>{ov ? '·' : e ? 'n/t' : ''}</td>
+          <td class="numc" data-mine>{e ? '·' : ''}</td>
+          <td>{e ? <input class="cmp-check" type="checkbox" value={c.id} aria-label={`Compare ${c.name}`} /> : null}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+  </div>
+  <div class="tray" id="tray" hidden><span id="tray-n" class="label"></span><a class="btn" id="tray-go" href="#">Compare selected</a></div>
+
+  <script>
+    import { load } from '../scripts/store.js';
+    const st = load();
+    const rows = [...document.querySelectorAll<HTMLTableRowElement>('#cat tbody tr')];
+    // Lab mean stays hidden until you have opened the notes for that specimen (avoids anchoring).
+    rows.forEach((r) => {
+      const rec = st.scores[r.dataset.id!];
+      const lab = r.querySelector<HTMLElement>('[data-lab]');
+      if (lab && lab.dataset.lab && rec?.state === 'revealed') lab.textContent = lab.dataset.lab;
+      const mine = r.querySelector<HTMLElement>('[data-mine]');
+      if (mine && rec) mine.textContent = rec.skipped ? 'skipped' : rec.state === 'unscored' ? '·' : rec.state;
+      r.dataset.mine = rec && !rec.skipped && ['submitted', 'revealed'].includes(rec.state) ? 'yes' : 'no';
+    });
+    const f = { cat: document.getElementById('f-cat') as HTMLSelectElement, status: document.getElementById('f-status') as HTMLSelectElement, mine: document.getElementById('f-mine') as HTMLSelectElement, q: document.getElementById('f-q') as HTMLInputElement };
+    const count = document.getElementById('count')!;
+    const params = new URLSearchParams(location.search);
+    for (const k of ['cat', 'status', 'mine', 'q'] as const) if (params.get(k)) f[k].value = params.get(k)!;
+    function apply() {
+      let n = 0;
+      rows.forEach((r) => {
+        const show = (!f.cat.value || r.dataset.cat === f.cat.value) && (!f.status.value || r.dataset.status === f.status.value) && (!f.mine.value || r.dataset.mine === f.mine.value) && (!f.q.value || r.dataset.q!.includes(f.q.value.toLowerCase()));
+        r.hidden = !show; if (show) n++;
+      });
+      count.textContent = n ? `${n} shown` : 'No matches. Clear a filter.';
+      const p = new URLSearchParams(); for (const k of ['cat', 'status', 'mine', 'q'] as const) if (f[k].value) p.set(k, f[k].value);
+      history.replaceState(null, '', p.toString() ? `?${p}` : location.pathname);
+    }
+    Object.values(f).forEach((el) => el.addEventListener('input', apply)); apply();
+    const tray = document.getElementById('tray')!, trayN = document.getElementById('tray-n')!, go = document.getElementById('tray-go') as HTMLAnchorElement;
+    const checks = [...document.querySelectorAll<HTMLInputElement>('.cmp-check')];
+    function tr() {
+      const sel = checks.filter((c) => c.checked).map((c) => c.value);
+      checks.forEach((c) => (c.disabled = !c.checked && sel.length >= 4));
+      tray.hidden = sel.length === 0; trayN.textContent = `${sel.length} of 4 selected`;
+      const base = location.pathname.replace(/archive\/?$/, 'compare/'); go.href = `${base}?ids=${sel.join(',')}`;
+      go.setAttribute('aria-disabled', String(sel.length < 2)); go.style.pointerEvents = sel.length < 2 ? 'none' : ''; go.style.opacity = sel.length < 2 ? '.5' : '';
+    }
+    checks.forEach((c) => c.addEventListener('change', tr));
+  </script>
+</Base>

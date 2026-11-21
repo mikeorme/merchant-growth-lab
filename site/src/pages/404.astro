@@ -1,0 +1,8 @@
+---
+import Base from '../layouts/Base.astro';
+import { base } from '../lib/data';
+---
+<Base title="Not found" rail="Not on file">
+  <h1>No such plate.</h1>
+  <p class="lead">That address isn't in the catalogue. The <a href={base('archive/')}>archive</a> lists every specimen.</p>
+</Base>

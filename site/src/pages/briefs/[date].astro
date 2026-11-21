@@ -1,0 +1,15 @@
+---
+import Base from '../../layouts/Base.astro';
+import ExperienceView from '../../components/ExperienceView.astro';
+import { allBriefs, expById, base } from '../../lib/data';
+export function getStaticPaths() { return allBriefs.map((b) => ({ params: { date: b.date }, props: { brief: b } })); }
+const { brief } = Astro.props;
+const exp = expById(brief.featured)!;
+---
+<Base title={`Brief ${brief.date}`} rail={`Brief ${brief.date}`}>
+  <p class="label">Brief for <span class="num">{brief.date}</span> · <a href={base('archive/')}>all plates</a></p>
+  <h1 class="brief-title">{brief.headline}</h1>
+  {brief.oneLiner && <p class="lead">{brief.oneLiner}</p>}
+  <hr style="border:0;border-top:2px solid var(--rule-strong);margin:32px 0 0" />
+  <ExperienceView exp={exp} questions={brief.questionsForReader} level={2} />
+</Base>

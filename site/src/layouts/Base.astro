@@ -1,0 +1,57 @@
+---
+import '../styles/global.css';
+import { base, rubric } from '../lib/data';
+interface Props { title: string; description?: string; rail?: string }
+const { title, description = 'Screenshotted merchant-growth flows, examined against a written rubric.', rail = 'Specimen cabinet' } = Astro.props;
+const path = Astro.url.pathname;
+const nav = [
+  ['Today', base('')], ['Archive', base('archive/')], ['Compare', base('compare/')],
+  ['Calibration', base('calibration/')], ['Data', base('data/')],
+];
+const isCurrent = (href: string) => (href === base('') ? path === href : path.startsWith(href));
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title} · Merchant Growth Lab</title>
+    <meta name="description" content={description} />
+    <link rel="icon" href={base('favicon.svg')} type="image/svg+xml" />
+    <script is:inline>
+      document.documentElement.classList.add('js');
+      try { var t = localStorage.getItem('mgl:theme'); if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t; } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <div class="frame">
+      <div class="rail" aria-hidden="true"><span class="label">{rail} · rubric v{rubric.version}</span></div>
+      <div class="sheet">
+        <header class="top">
+          <a class="wordmark" href={base('')}><b>MGL</b>Merchant Growth Lab</a>
+          <nav class="nav" aria-label="Primary">
+            {nav.map(([l, h]) => <a href={h} aria-current={isCurrent(h) ? 'page' : undefined}>{l}</a>)}
+          </nav>
+          <button class="theme" id="theme" type="button" aria-label="Switch colour theme">Theme</button>
+        </header>
+        <main id="main"><slot /></main>
+        <footer class="foot label">
+          <span>Rubric v{rubric.version}</span>
+          <span>Screenshots are cropped logged-out public pages, attributed to their sources, captured on the dates shown. Flows change.</span>
+          <a href="https://github.com/mikeorme/merchant-growth-lab/issues/new?title=Takedown%20request">Takedown or correction request</a>
+        </footer>
+      </div>
+    </div>
+    <script>
+      const btn = document.getElementById('theme');
+      btn?.addEventListener('click', () => {
+        const cur = document.documentElement.dataset.theme ||
+          (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        const next = cur === 'dark' ? 'light' : 'dark';
+        document.documentElement.dataset.theme = next;
+        try { localStorage.setItem('mgl:theme', next); } catch {}
+      });
+    </script>
+  </body>
+</html>
