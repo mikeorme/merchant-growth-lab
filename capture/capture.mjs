@@ -29,7 +29,7 @@ if (!redo) { fs.rmSync(shotDir, { recursive: true, force: true }); fs.rmSync(tex
 fs.mkdirSync(shotDir, { recursive: true }); fs.mkdirSync(textDir, { recursive: true });
 
 const host0 = new URL(item.url).hostname.replace(/^www\./, '');
-const brand = host0.split('.').slice(-2, -1)[0];
+const brands = new Set([host0.split('.').slice(-2, -1)[0]]); // also add the landed host's brand: entry URLs often redirect to another domain
 const PRIMARY = /(sign up|get started|start (for )?free|start (your|now|selling|building)|create (your )?(account|store|site)|free trial)/i;
 const SKIP = /(log ?in|sign ?in|login|signin|privacy|terms|legal|cookie|status\.|mailto:|tel:|\/locale|language|investor|careers\/|jobs\.|\.pdf$|\/search)/i;
 // Quotas per kind, in visiting order. Lite mode trims them.
@@ -100,7 +100,7 @@ async function navLinks(p) {
     return out;
   }).catch(() => []);
 }
-const sameBrand = (u) => { try { return new URL(u).hostname.includes(brand); } catch { return false; } };
+const sameBrand = (u) => { try { const h = new URL(u).hostname; return [...brands].some((b) => h.includes(b)); } catch { return false; } };
 
 async function record(p, kind, via, keepChrome = false) {
   const n = steps.length + 1;
@@ -127,6 +127,7 @@ try {
   // ---- 1. Home
   const homeResp = await page.goto(item.url, { waitUntil: 'domcontentloaded', timeout: 30000 });
   await settle(page, 2000); await dismissBanners(page);
+  brands.add(new URL(page.url()).hostname.replace(/^www\./, '').split('.').slice(-2, -1)[0]);
   const links = await navLinks(page);
   // Hover top-level triggers so lazy mega-menus render their links, then re-read.
   const triggers = await page.locator('header [aria-haspopup], header button[aria-expanded], nav button[aria-expanded]').all().catch(() => []);
