@@ -21,12 +21,28 @@ for (const f of fs.existsSync(path.join(root, 'data/experiences')) ? fs.readdirS
   if (!vExp(d)) fail(`${f}: ${ajv.errorsText(vExp.errors)}`);
   ids.add(d.id);
   if (d.id + '.json' !== f) fail(`${f}: id mismatch`);
+  const norm = (t) => t.replace(/[\u2018\u2019]/g, "'").replace(/[\u201C\u201D]/g, '"').replace(/\s+/g, ' ').trim().toLowerCase();
+  const pageText = {};
   for (const s of d.steps ?? []) {
     if (!fs.existsSync(path.join(root, 'site/public', s.screenshot))) fail(`${f}: missing screenshot ${s.screenshot}`);
+    if (s.textFile) { const tp = path.join(root, s.textFile); if (!fs.existsSync(tp)) fail(`${f}: missing page text ${s.textFile}`); else pageText[s.n] = norm(fs.readFileSync(tp, 'utf8')); }
   }
+  const nSteps = (d.steps ?? []).length;
+  const quoteOk = (step, q) => pageText[step] && norm(q).length > 0 && pageText[step].includes(norm(q));
+  for (const c of d.claims ?? []) {
+    if (c.step > nSteps) fail(`${f}: claim step ${c.step} out of range`);
+    else if (pageText[c.step] && !quoteOk(c.step, c.text)) fail(`${f}: claim not found verbatim on step ${c.step}: "${c.text.slice(0, 60)}"`);
+  }
+  for (const sec of d.dossier?.sections ?? []) for (const fa of sec.facts) {
+    if (fa.step > nSteps) { fail(`${f}: dossier ${sec.id} step ${fa.step} out of range`); continue; }
+    if (fa.type === 'fact' && !fa.quote) fail(`${f}: dossier ${sec.id} fact lacks a quote: "${fa.text.slice(0, 60)}"`);
+    if (fa.quote && !quoteOk(fa.step, fa.quote)) fail(`${f}: dossier ${sec.id} quote not found on step ${fa.step}: "${fa.quote.slice(0, 60)}"`);
+  }
+  if (d.status === 'evaluated' && d.surveyMode === 'full' && !d.dossier) fail(`${f}: full survey evaluated without a dossier`);
   for (const [k, v] of Object.entries(d.scores ?? {})) {
     if (!dims.has(k)) fail(`${f}: unknown dimension ${k}`);
     if (v.score !== null && !v.evidence) fail(`${f}: score ${k} lacks evidence`);
+    if (v.step && v.step > nSteps) fail(`${f}: score ${k} step ${v.step} out of range`);
   }
 }
 for (const f of fs.existsSync(path.join(root, 'data/briefs')) ? fs.readdirSync(path.join(root, 'data/briefs')) : []) {

@@ -156,3 +156,19 @@ tr[hidden] { display: none; }
 .exp-title { font-size: var(--t-h2); margin-top: var(--s-2); max-width: 22ch; }
 .brief-title { font-size: var(--t-h2); margin: 8px 0 12px; max-width: 22ch; }
 .sealed:focus, #s-read:focus { outline: none; }
+
+/* ---------- dossier ---------- */
+.dossier .dsec { margin-top: var(--s-8); padding-top: var(--s-5); border-top: 1px solid var(--rule-strong); }
+.dossier .dsec h3 { margin-top: 0; }
+.facts { list-style: none; padding: 0; margin: var(--s-4) 0 0; display: grid; gap: var(--s-4); }
+.facts li { padding-left: var(--s-4); border-left: 2px solid var(--rule); }
+.facts blockquote { margin: 4px 0 0; padding: 0; color: var(--ink-2); font-family: var(--font-mono, ui-monospace, monospace); font-size: var(--t-small); line-height: 1.5; overflow-wrap: anywhere; }
+.facts .infer { color: var(--signal); margin-left: var(--s-2); }
+.sitemap { margin-top: var(--s-8); }
+.sitemap summary { cursor: pointer; padding: var(--s-2) 0; min-height: 44px; display: flex; align-items: center; }
+.sitemap dl { display: grid; grid-template-columns: max-content 1fr; gap: var(--s-2) var(--s-5); }
+.sitemap dd { margin: 0; color: var(--ink-2); }
+@media (max-width: 640px) { .sitemap dl { grid-template-columns: 1fr; } }
+.cols > * { min-width: 0; }
+.dossier .dsec h3 { margin-bottom: var(--s-3); }
+.dossier .dsec > p, .dossier .dsec .lead { max-width: 68ch; }

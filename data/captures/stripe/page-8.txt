@@ -1,0 +1,186 @@
+URL: https://stripe.com/guides
+TITLE: Stripe Guides
+DESCRIPTION: Find Stripe’s guides and resources for developers and businesses. We have everything from machine learning and global payments to building marketplaces.
+
+Explore and learn more about everything from machine learning and global payments to building marketplaces and scaling your team.
+Industry updates
+How to prepare for agentic commerce in 2027: A technical field guide
+Read now 
+Atlas guides
+Building your startup’s finance team
+Read now 
+Product resources
+Introduction to collecting online payments
+Read now 
+Platforms
+How SaaS platforms can design their own payments pricing strategy
+Read now 
+Agentic commerce
+A primer for agentic commerce
+Read now 
+
+Stripe solutions for your business challenges
+
+Product resources
+Optimizing payments at scale: How Stripe applies AI across the payment lifecycle
+Read now 
+Product resources
+Introduction to collecting online payments
+Read now 
+Product resources
+A guide to types of payment methods
+Read now 
+Product resources
+Why you should use buy now, pay later (BNPL) payment methods for your business
+Read now 
+Product resources
+A primer on machine learning for fraud detection
+Read now 
+Product resources
+Radar: Rules 101
+Read now 
+Product resources
+A guide to PCI compliance
+Read now 
+Product resources
+3D Secure 2
+Read now 
+
+The latest on regulations and trends in payments
+
+Industry updates
+EU Inc. and European competitiveness
+Read now 
+Industry updates
+How local pricing affects subscription conversion for media, entertainment, and gaming
+Read now 
+Industry updates
+How to get ready for agentic commerce in an evolving landscape
+Read now 
+Industry updates
+How to prepare for agentic commerce in 2027: A technical field guide
+Read now 
+Industry updates
+The state of online fraud
+Read now 
+Industry updates
+Strong Customer Authentication in 2027
+Read now 
+
+Stripe Atlas guides to running an internet business
+
+Atlas guides
+Equity for founders
+Read now 
+Atlas guides
+Starting your fundraising pitch deck
+Read now 
+Atlas guides
+Recruiting, hiring, and managing talent
+Read now 
+Atlas guides
+Building your startup’s finance team
+Read now 
+Atlas guides
+Your first 10 customers
+Read now 
+Atlas guides
+Organizations and hypergrowth
+Read now 
+Atlas guides
+AMA with Marc Andreessen
+Read now 
+
+Stripe guides to help businesses understand embedded finance, money movement, and card issuing
+
+Money management
+A founder’s guide to delegating finance work to agents
+Read now 
+Money management
+Best practices for building a fintech company, from four startups
+Read now 
+Money management
+How to earn revenue by issuing cards
+Read now 
+Money management
+Embedded finance for software platforms in 2027: An introduction
+Read now 
+Money management
+Merchant category codes (MCCs): What they are and MCC code lookup
+Read now 
+
+Guides to help online businesses navigate tax compliance
+
+Tax guides
+Introduction to indirect tax compliance: Sales tax, VAT, and GST
+Read now 
+Tax guides
+Introduction to US sales tax and economic nexus
+Read now 
+Tax guides
+Introduction to EU VAT and European VAT OSS
+Read now 
+Tax guides
+Navigating the sales tax registration process in the United States
+Read now 
+Tax guides
+VAT registration in Europe in 2027: A practical guide
+Read now 
+Tax guides
+Navigating the goods and services tax (GST) registration process in Canada
+Read now 
+
+Tools to help businesses boost revenue and manage finances.
+
+Interactive tools
+Sales tax calculator
+Read now 
+Interactive tools
+VAT calculator
+Read now 
+Interactive tools
+GST calculator
+Read now 
+
+Stripe guides to help software companies launch and scale a payments and financial services business
+
+Platforms
+How platforms can grow their Capital financing program
+Read now 
+Platforms
+Introduction to marketing and selling payments for SaaS platforms
+Read now 
+Platforms
+Introduction to risk management for software platforms
+Read now 
+Platforms
+How SaaS platforms can design their own payments pricing strategy
+Read now 
+Platforms
+Report: Best practices for launching and scaling platform payments in 2027
+Read now 
+Platforms
+Managing credit risk for platforms and marketplaces in 2027
+Read now 
+
+Stripe guides to help businesses grow their revenue with subscriptions, invoicing, and usage-based billing
+
+Billing
+AI billing infrastructure: Rethinking the build-versus-buy decision
+Read now 
+Billing
+What is recurring billing?
+Read now 
+Billing
+Send e-invoices on Stripe through App Marketplace partners
+Read now 
+Billing
+Invoicing best practices for Germany
+Read now 
+Billing
+Invoice compliance guide for Japan
+Read now 
+
+Create an account and start accepting payments—no contracts or banking details required. Or, contact us to design a custom package for your business.
+
+How-tos and overviews of payments and financial services basics.

@@ -1,0 +1,468 @@
+URL: https://docs.stripe.com/changelog
+TITLE: Changelog | Stripe Documentation
+DESCRIPTION: Learn about all the changes to the Stripe API through monthly updates.
+
+Skip to content
+Search
+/
+Ask AI
+Create account
+Sign in
+APIs & SDKs
+Help
+Overview
+VERSIONING
+Changelog
+Endive
+Dahlia
+Clover
+Basil
+Acacia
+Previous versions
+Upgrade your integration
+How API versioning works
+ESSENTIALS
+SDKs
+API
+Events
+Testing
+Stripe CLI
+TOOLS
+Stripe Dashboard
+Stripe Projects
+Provisioning
+Workbench
+Developers Dashboard
+Stripe for Visual Studio Code
+Terraform
+Stripe Discord server
+FEATURES
+Workflows
+Batch jobs
+Stripe health alerts
+File uploads
+AI TOOLS
+Agent plugins
+Model Context Protocol
+Agent skills
+Stripe Directory
+EXTEND STRIPE
+Overview
+Build Stripe apps
+Use apps from Stripe
+Build extensions
+Custom objects
+SECURITY AND PRIVACY
+Security
+Activity logs
+Stripebot web crawler
+Privacy
+PARTNERS
+Partner ecosystem
+Partner certification
+United States
+English (United States)
+Changelog
+Keep track of changes and upgrades to the Stripe API.
+
+Planning an API version upgrade? Learn how to upgrade your integration.
+
+Ask about this page
+Copy for LLM
+View as Markdown
+Set up agent
+Breaking changes
+Product
+Category
+All
+Relevant changes only
+Sign in to see changes related to APIs your account uses.
+Generally available
+Public preview
+Endive
+Learn what's changing in Endive
+2026-11-18.endive
+Payments
+Change	Products
+Allows updating the capture method on payment links
+Payment Links
+
+Adds funding source details for Link payments on the Charge object
+Payments
+
+Adds refund reference tracking for Bizum and UPI
+Payments
+
+Adds support for car rental and lodging industry metadata
+Payments
+
+Adds a fingerprint property for PayPay payments
+Payments
+
+Connect and Accounts v2
+Change	Products
+Create Express accounts with Stripe pricing and negative balance liability in Accounts v1
+Connect
+
+Create Express accounts with Stripe pricing and negative balance liability in Accounts v2
+Connect
+
+Adds PayPay payment method support to the Accounts v2 API
+Connect
++ 1 more
+
+Adds the application property to the Refund object for Connect
+Payments
+
+Adds Billie, MB WAY, and NZ BECS Direct Debit capabilities to the Accounts v2 API
+Connect
+
+Adds additional material parameter for Konbini payments to the Accounts v2 API
+Connect
+
+Adds Pix payments to the Accounts v2 API
+Payments
+
+Adds dashboard access to the Account Links v2 API
+Affects all products
+
+Additional updates
+Change	Products
+Adds IGIC registrations for the Canary Islands
+Tax
+
+Adds Invoice Filtered All Fees report to the Reporting API
+Affects all products
+
+Adds the Claimable Sandboxes API for platforms
+Affects all products
+
+Shipping timestamps are always included on Issuing Card objects
+Issuing
+
+Adds lost benefits to product marketing features for the customer portal
+Billing
+
+Adds DevKit device types for Apps on Devices to Terminal Reader APIs
+Terminal
+
+Adds an error code for account creation requests blocked due to inactivity
+Affects all products
+
+Adds Tron as a supported network for stablecoin payments
+Crypto
++ 1 more
+
+Adds address collection precision for automatic tax
+Elements
+
+2026-10-28.endive
+Payments
+Change	Products
+Adds payment intent data configuration when updating Checkout Sessions
+Checkout
++ 1 more
+
+Adds Open USD (OUSD) as a supported token currency for crypto payments
+Crypto
+
+Adds support for requesting Scalapay Payment Links
+Payment Links
+
+Adds the evidence submission method property to Disputes
+Payments
+
+Adds the ability to specify the intended submission method for Disputes
+Payments
+
+Adds invoice settings parameters for Checkout Sessions and Payment Links subscriptions
+Checkout
++ 1 more
+
+Adds support for submitting evidence to appeal dispute decisions
+Payments
+
+Adds refund reference tracking for Klarna, PayPal, and Afterpay Clearpay
+Payments
+
+Adds support for specifying card-on-file usage when saving or charging cards
+Payments
+
+Adds RTP and FedNow as US bank transfer network types for cash balance transactions
+Payments
+
+Adds webhook events and error messages for the Standalone 3DS API
+Payments
+
+Adds validation for Smart Disputes availability when submitting a dispute
+Payments
+
+Connect
+Change	Products
+Adds Connect embedded components for buying Terminal hardware
+Terminal
+
+Adds the Reporting Chart embedded component
+Connect
+
+Adds alternative requirements to the Accounts v2 API
+Connect
+
+Billing and invoicing
+Change	Products
+Adds session recovery for expired customer portal sessions
+Billing
+
+Adds support for the SeQura payment method for invoices and subscriptions
+Invoicing
+
+Adds subscription pausing to the customer portal
+Billing
+
+Adds an error code for billing cycle anchor and trial validation on subscriptions
+Billing
+
+Tax
+Change	Products
+Adds tax registration support for Botswana, Ghana, Ivory Coast, and Mauritius
+Tax
+
+Adds Ghana levy tax types
+Tax
+
+Adds customer tax ID types
+Invoicing
++ 1 more
+
+Adds tax ID support for Botswana, Ghana, and Ivory Coast
+Tax
+
+Adds tax type values for events and ticketing to the Tax Rate object
+Tax
+
+Adds digital excise tax and utility users tax as supported US registration types
+Tax
+
+Treasury and money management
+Change	Products
+Adds support for the Inbound Transfers v2 API
+Affects all products
+
+Adds the Outbound Payments, Payout Intents, and Recipient Verifications APIs for programmatic outbound flows
+Treasury
+
+Adds the Financial Addresses v2 API for receiving funds in your financial accounts
+Affects all products
+
+Adds a sandbox test helper to simulate credits to Financial Addresses
+Affects all products
+
+Adds the Received Credits v2 API for tracking funds received in a financial account
+Affects all products
+
+Adds support for vaulted bank account credentials, payout methods, and outbound setup intents in API v2
+Payouts
++ 1 more
+
+Adds regulatory receipt URLs to transactions
+Treasury
+
+Adds support for Global Payouts capabilities in the Accounts v2 API
+Connect
++ 1 more
+
+Adds money management APIs for Global Payouts
+Treasury
+
+Terminal
+Change	Products
+Adds support for the Stripe Terminal T600 reader
+Terminal
+
+Adds admin menu passcode to Terminal configurations
+Terminal
+
+Additional updates
+Change	Products
+Adds semantic thin events for subscriptions, invoicing, and Financial Connections
+Affects all products
+
+Adds shipping timestamps to Issuing Cards
+Issuing
+
+2026-09-30.endive
+Breaking changes
+Payments
+Change	Products
+Removes the payment method types parameter from Checkout Sessions
+Checkout
+
+Adds support for Data Share Only for 3D Secure authentication
+Payments
+
+Makes Payment Evaluation signal scores nullable
+Radar
+
+Removes PayTo-specific fields from Payment Methods
+Payments
+
+Removes the payment method types parameter from Payment Intents and Setup Intents
+Payments
+
+Returns specific decline codes for BLIK payment failures
+Payments
+
+Deprecates the payment request button
+Elements
+
+Shows pending-authorization UI for MB WAY, Bizum, and BLIK with stripe.handleNextAction
+Elements
+
+Removes support for the payment method types option in Elements
+Elements
+
+Saves Bancontact payment details for future off-session payments in Checkout
+Checkout
++ 2 more
+
+Adds the Standalone 3D Secure API
+Payments
+
+Adds support for SeQura payments
+Payments
+
+Adds card-present payment methods to allowed payment method types
+Payments
+
+Adds Link funding source group details on Payment Records
+Payments
+
+Adds early fraud warnings and fraudulent dispute signals for Payment Evaluations
+Radar
+
+Adds the ability to report canceled payments
+Payments
+
+Adds support for expanding the mandate on card payment method details
+Payments
+
+Adds the Payment Record property to the Payment Intent object
+Payments
+
+Adds Link wallet details to Payment Records for card payments
+Payments
+
+Adds 3D Secure versions 2.3.0 and 2.3.1 to Payment Records
+Payments
+
+Adds support for BLIK recurring off-session payments
+Payments
++ 3 more
+
+Adds PayPay support for one-time online payments in Japan
+Payments
+
+Exposes the network response electronic commerce indicator on card charges
+Payments
+
+Adds payment method type information for failed payments
+Payments
+
+Adds MoMo payment method details to Payment Records
+Payments
+
+Connect and accounts
+Change	Products
+Adds address validation errors for CMRAs and registered agents to Accounts v1 and Accounts v2
+Issuing
++ 1 more
+
+Adds rejected status for Accounts v2 capabilities
+Connect
+
+Replaces the generic fraud rejection reason with specific fraud reasons
+Connect
+
+Removes the configurations parameter from the Account Links v2 API
+Affects all products
+
+Standardizes SEPA Direct Debit payment settings in the Accounts API
+Connect
++ 1 more
+
+Shows errors for eventually due requirements
+Connect
+
+Distinguishes platform-initiated account rejections from Stripe rejections
+Connect
+
+Adds additional shared fields to customer sharing
+Affects all products
+
+Billing and invoicing
+Change	Products
+Unifies the billing cycle anchor format across Subscriptions and Invoices
+Billing
+
+Adds invoicing rules to Invoice Items
+Billing
+
+Adds reference and company details parameters for Billie
+Payments
++ 2 more
+
+Adds the ability to clear invoicing rules on Invoice Items
+Billing
+
+Adds proration details for Invoice Items using classic billing mode
+Billing
+
+Makes trial offers generally available
+Billing
+
+Adds detailed status to explain why an invoice is uncollectible
+Billing
+
+Adds support for scheduling Subscription cancellation as part of pending update
+Billing
+
+Adds the ability to pause and resume Subscriptions on demand
+Billing
+
+Adds the Feedback Options API
+Billing
+
+Tax
+Change	Products
+Adds Failed Tax Calculation error
+Tax
++ 3 more
+
+Adds support for new tax types
+Tax
+
+Adds support for ticket sales to Stripe Tax
+Billing
++ 3 more
+
+Financial Connections
+Change	Products
+Renames the countries filter to country on Financial Connections Sessions
+Financial Connections
+
+Updates Financial Connections Session defaults
+Financial Connections
+
+Adds pending and expired statuses to Financial Connections account numbers
+Financial Connections
+
+Treasury and money management
+Change	Products
+Renames the Reserve Release reason enum value
+Radar
+
+Adds destination property and new enum values to Reserve Plans, Holds and Releases
+Treasury
++ 1 more
+
+Add

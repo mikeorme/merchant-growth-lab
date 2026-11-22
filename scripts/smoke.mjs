@@ -28,7 +28,7 @@ ok(await p.locator('.read-body').isVisible(), 'read opens after reveal');
 ok((await p.locator('[data-row=trust] [data-you]').innerText()).trim() === '4', 'your mark shown beside Lab');
 await p.screenshot({ path: out + '/read-light.png', fullPage: true });
 await p.locator('.strip button[data-step="2"]').click();
-ok((await p.locator('#ribbon').innerText()).includes('2/2'), 'scrubber advances');
+ok((await p.locator('#ribbon').innerText()).includes('2/14'), 'scrubber advances');
 await p.goto(B + 'calibration/'); ok((await p.locator('#out').innerText()).includes('of 5'), 'calibration shows threshold');
 await p.goto(B + 'archive/'); ok((await p.locator('#cat tbody tr').count()) === 100, 'archive lists 100');
 await p.locator('#f-status').selectOption('evaluated'); ok((await p.locator('#cat tbody tr:visible').count()) === 3, 'status filter works');

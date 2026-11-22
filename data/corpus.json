@@ -9,7 +9,7 @@
       "url": "https://www.shopify.com",
       "flow": "free trial start to first product added",
       "priority": 1,
-      "status": "captured",
+      "status": "evaluated",
       "urlVerified": "ok",
       "finalUrl": "https://www.shopify.com/"
     },
@@ -20,7 +20,7 @@
       "url": "https://stripe.com",
       "flow": "create account to first payment link",
       "priority": 2,
-      "status": "captured",
+      "status": "evaluated",
       "urlVerified": "ok",
       "finalUrl": "https://stripe.com/"
     },
@@ -64,7 +64,7 @@
       "url": "https://www.klaviyo.com",
       "flow": "signup to first flow",
       "priority": 6,
-      "status": "captured",
+      "status": "evaluated",
       "urlVerified": "ok",
       "finalUrl": "https://www.klaviyo.com/"
     },

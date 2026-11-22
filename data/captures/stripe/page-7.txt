@@ -1,0 +1,31 @@
+URL: https://stripe.com/about
+TITLE: About Us | Stripe
+DESCRIPTION: Stripe is a financial services platform that helps all types of businesses accept payments, build flexible billing models, and manage money movement.
+
+Stripe is a technology company focused on improving the conditions for economic growth and prosperity.
+
+We build programmable financial infrastructure, rethinking from first principles how financial services should work, to make it easier and cheaper for any business to start and scale.
+
+More than 5 million businesses build on Stripe, spanning the economic frontier—from solo founders to established enterprises—united by a practical focus on growth. The most ambitious companies in the world use Stripe as core infrastructure to grow faster. They process trillions of dollars a year on Stripe, equivalent to around 1.8% of global GDP.
+
+While economic growth makes everyone better off, open markets also enable greater variety. When any business can easily serve a global customer base, the quality and diversity of products in the world increase, and craft and creativity are unleashed into the smallest niches.
+
+Our own growth is wholly contingent on the success of the businesses building on Stripe. We therefore invest back into our technology at an unusual rate. We make upgrades to our products every single day to deliver compounding gains to our customers. We maintain some of the most reliable APIs on the internet. We build entirely new pieces of financial infrastructure to enable new ideas. And our significant advances in risk and fraud infrastructure over many years are making the internet economy safer and more accessible.
+
+We recognize that markets work best when they are embedded in hospitable cultures. In addition to building tools for businesses, we also publish ideas that we think are conducive to economic and technological advancement, and make unconventional bets that we think will have a long-term impact on growth. In the words of Deirdre McCloskey, economic growth ensues when people possess the freedom to “have a go,” and we think that free exchange and free societies go hand in hand.
+
+Have a question?
+
+Get in touch
+
+Building with Stripe?
+
+Explore our Docs
+
+Want to work at Stripe?
+
+View open roles
+
+stripe.com/customers
+
+stripe.com/customers

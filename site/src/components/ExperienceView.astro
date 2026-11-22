@@ -10,7 +10,13 @@ const read = exp.read;
 const claims = exp.claims ?? [];
 const ov = overall(exp);
 const track = (score: number | null) => (score === null ? null : ((score - 1) / 4) * 88 + 6);
-const payload = { id: exp.id, dims: dims.map((d) => ({ id: d.id, lab: exp.scores?.[d.id]?.score ?? null })), steps: steps.map((s) => ({ n: s.n, clicks: s.clicks ?? 0, ms: s.elapsedMs ?? 0, title: s.title })) };
+const KIND_LABEL: Record<string, string> = { home: 'Home', pricing: 'Pricing', product: 'Product', platform: 'Platform', solutions: 'Solutions', customers: 'Customers', company: 'Company', resources: 'Resources', signup: 'Signup' };
+const kl = (k?: string) => KIND_LABEL[k ?? ''] ?? 'Page';
+const signup = steps.find((s) => s.kind === 'signup');
+const hostPath = (u: string) => { try { const x = new URL(u); return x.host.replace(/^www\./, '') + (x.pathname === '/' ? '' : x.pathname); } catch { return u; } };
+const dossier = exp.dossier;
+const navByKind = Object.entries((exp.navMap ?? []).reduce((acc: Record<string, string[]>, l) => { (acc[l.kind] ??= []).includes(l.label) || acc[l.kind].push(l.label); return acc; }, {})).filter(([k]) => k !== 'other' || true);
+const payload = { id: exp.id, dims: dims.map((d) => ({ id: d.id, lab: exp.scores?.[d.id]?.score ?? null })), steps: steps.map((s) => ({ n: s.n, kind: kl(s.kind), path: hostPath(s.url), clicks: s.clicks ?? 0, ms: s.elapsedMs ?? 0, title: s.title })) };
 ---
 <article data-exp={exp.id} data-state="unscored">
   <div class="kicker">
@@ -23,7 +29,8 @@ const payload = { id: exp.id, dims: dims.map((d) => ({ id: d.id, lab: exp.scores
   <Title class="exp-title">{exp.name}: {exp.flow}</Title>
 
   <section class="sec" aria-labelledby="s-plates">
-    <h2 id="s-plates">The flow, plate by plate</h2>
+    <h2 id="s-plates">The survey, page by page</h2>
+    <p class="mute" style="margin-top:0">Pages are followed from the site's own top-level navigation, then the signup path. Logged out; nothing is entered or bought.</p>
     {steps.length === 0 ? <p class="wall">No steps captured. {exp.blockedReason}</p> : (
     <div class="cols">
       <div>
@@ -32,12 +39,12 @@ const payload = { id: exp.id, dims: dims.map((d) => ({ id: d.id, lab: exp.scores
           <figcaption class="label" id="stage-cap"></figcaption>
         </figure>
         <div class="ribbon" aria-live="polite" id="ribbon"></div>
-        <div class="ruler"><input id="scrub" type="range" min="1" max={steps.length} value="1" aria-label="Scrub through steps" aria-valuetext="Step 1" /></div>
-        <div class="strip" role="listbox" aria-label="Steps">
+        <div class="ruler"><input id="scrub" type="range" min="1" max={steps.length} value="1" aria-label="Scrub through pages" aria-valuetext="Page 1" /></div>
+        <div class="strip" role="listbox" aria-label="Pages">
           {steps.map((s) => (
             <button type="button" role="option" aria-selected={s.n === 1 ? 'true' : 'false'} data-step={s.n}>
               <img src={base(s.screenshot)} width="148" height="92" alt="" loading={s.n > 3 ? 'lazy' : 'eager'} />
-              <span class="label">Step <span class="num">{s.n}</span></span>
+              <span class="label"><span class="num">{s.n}</span> · {kl(s.kind)}</span>
             </button>
           ))}
         </div>
@@ -46,10 +53,11 @@ const payload = { id: exp.id, dims: dims.map((d) => ({ id: d.id, lab: exp.scores
       <aside class="margin" aria-label="Flow notes">
         <dl>
           <dt class="label">Entry URL</dt><dd><a href={exp.url} rel="noopener noreferrer">{exp.url.replace(/^https?:\/\//, '')}</a></dd>
-          <dt class="label">Steps captured</dt><dd class="num">{steps.length}</dd>
-          <dt class="label">Clicks to last step</dt><dd class="num">{steps[steps.length - 1].clicks ?? 0}</dd>
-          <dt class="label">Time to last step</dt><dd class="num">{mmss(steps[steps.length - 1].elapsedMs)}</dd>
+          <dt class="label">Pages surveyed</dt><dd class="num">{steps.length}{exp.surveyMode === 'lite' ? ' (lite)' : ''}</dd>
+          <dt class="label">Sections covered</dt><dd>{[...new Set(steps.map((s) => kl(s.kind)))].join(', ')}</dd>
+          {signup && <><dt class="label">Home to account form</dt><dd class="num">{signup.clicks} click{signup.clicks === 1 ? '' : 's'} · {mmss(signup.elapsedMs)}</dd></>}
           {exp.blockedReason && <><dt class="label">Where it ended</dt><dd>{exp.blockedReason}. Logged-out capture stops here by design.</dd></>}
+          {exp.stack?.signals?.length || exp.stack?.server ? <><dt class="label">Front-end signals</dt><dd>{[...(exp.stack?.signals ?? []), exp.stack?.server && `server: ${exp.stack.server}`, exp.stack?.generator].filter(Boolean).join(', ')}</dd></> : null}
         </dl>
         {mobile && (
           <figure class="plate" style="margin-top:24px;max-width:200px">
@@ -60,6 +68,33 @@ const payload = { id: exp.id, dims: dims.map((d) => ({ id: d.id, lab: exp.scores
       </aside>
     </div>)}
   </section>
+
+  {dossier && (
+  <section class="sec dossier" aria-labelledby="s-dossier">
+    <h2 id="s-dossier">What the site says</h2>
+    <p class="mute" style="margin-top:0">Facts only, each with the page it came from and the exact words. Judgement is in the Lab's notes, sealed below.</p>
+    {dossier.sections.map((sec) => (
+      <div class="dsec">
+        <h3>{sec.title}</h3>
+        <p class="lead" style="font-size:var(--t-body)">{sec.summary}</p>
+        <ul class="facts">
+          {sec.facts.map((f) => (
+            <li>
+              <span>{f.text}</span> <a href={`#step=${f.step}`} data-jump={f.step} class="num" title={`Page ${f.step}`}>pl. {f.step}</a>
+              {f.type === 'inference' && <span class="label infer">inference</span>}
+              {f.quote && <blockquote>“{f.quote}”</blockquote>}
+            </li>
+          ))}
+        </ul>
+        {sec.gaps && sec.gaps.length > 0 && <p class="mute"><span class="label">Not found:</span> {sec.gaps.join(' · ')}</p>}
+      </div>
+    ))}
+    {navByKind.length > 0 && (
+      <details class="sitemap"><summary class="label">Site map the survey followed ({(exp.navMap ?? []).length} links)</summary>
+        <dl>{navByKind.map(([k, v]) => <><dt class="label">{k}</dt><dd>{v.slice(0, 18).join(' · ')}</dd></>)}</dl>
+      </details>
+    )}
+  </section>)}
 
   <section class="sec scorecard" aria-labelledby="s-score">
     <h2 id="s-score">Score it blind</h2>
@@ -200,10 +235,10 @@ const payload = { id: exp.id, dims: dims.map((d) => ({ id: d.id, lab: exp.scores
         if (!total) return;
         n = Math.max(1, Math.min(total, n));
         const s = stepInfo(n);
-        stageImg.src = srcs[n - 1]; stageImg.alt = `${n}: ${s.title}`;
-        cap.innerHTML = `Pl. <span class="num">${n} / ${total}</span><span>Step <span class="num">${n}</span></span><span class="num">${fmt(s.ms)} · ${s.clicks} click${s.clicks === 1 ? '' : 's'}</span>`;
-        ribbon.innerHTML = `<span class="label">Step <b class="num">${n}/${total}</b></span><span class="label">Clicks so far <b class="num">${s.clicks}</b></span><span class="label">Elapsed <b class="num">${fmt(s.ms)}</b></span>`;
-        scrub.value = String(n); scrub.setAttribute('aria-valuetext', `Step ${n} of ${total}, ${s.clicks} clicks, ${fmt(s.ms)}`);
+        stageImg.src = srcs[n - 1]; stageImg.alt = `${s.kind} page ${n}: ${s.title}`;
+        cap.innerHTML = `Pl. <span class="num">${n} / ${total}</span><span>${s.kind}</span><span class="num">${s.path}</span>`;
+        ribbon.innerHTML = `<span class="label">Page <b class="num">${n}/${total}</b></span><span class="label">${s.kind}</span><span class="label num">${s.path}</span>` + (s.kind === 'Signup' ? `<span class="label">From home <b class="num">${s.clicks} click${s.clicks === 1 ? '' : 's'} · ${fmt(s.ms)}</b></span>` : '');
+        scrub.value = String(n); scrub.setAttribute('aria-valuetext', `Page ${n} of ${total}, ${s.kind}, ${s.path}`);
         imgs.forEach((b, i) => b.setAttribute('aria-selected', String(i + 1 === n)));
         noteStep.textContent = s.title;
         if (push) history.replaceState(null, '', `#step=${n}`);

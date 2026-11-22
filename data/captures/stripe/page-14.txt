@@ -1,0 +1,120 @@
+URL: https://dashboard.stripe.com/register
+TITLE: Sign up and create a Stripe account | Stripe
+DESCRIPTION: Sign up to quickly create a new Stripe account today and get started accepting payments in minutes.
+
+CP
+Cactus Practice
+
+Home
+
+Balances
+
+Transactions
+
+Customers
+
+Product catalog
+
+Products
+
+Payments
+
+Billing
+
+Reporting
+
+More
+
+Developers
+
+Search
+
+Test mode
+Today
+Net Volume
+406.39
+2:00 PM
+Yesterday
+144.37
+12:00 AM
+Now, 2:00 PM
+11:59 PM
+USD Balance
+View
+9,257.51
+Available to pay out
+Payouts
+View
+11,633.07
+Expected today
+Your overview
+Add
+Edit
+Payments
+Succeeded
+852.20
+Uncaptured
+424.50
+Refunded
+562.75
+Failed
+621.27
+Updated today 7:50 AM
+Gross volume
++86.4%
+$382.22
+$205.00 previous period
+$12k
+$0
+Apr 20
+Today
+Updated today 7:50 AM
+Net volume from sales
++145.6%
+$382.22
+$205.00 previous period
+$12k
+$0
+Apr 20
+Today
+Updated today 7:50 AM
+Payments
+Succeeded
+852.20
+Uncaptured
+424.50
+Refunded
+562.75
+Failed
+621.27
+Updated today 7:50 AM
+Gross volume
+$0.00
+$0.00
+$0.01
+$0
+Apr 20
+Today
+Updated today 7:50 AM
+Net volume from sales
+$0.00
+$0.00
+$0.01
+$0
+Apr 20
+Today
+Updated today 7:50 AM
+Create your Stripe account
+Email
+Full name
+Password
+register-password-input-with-description
+Country
+United States
+Create account
+Or sign up with
+Google
+Already have an account? Sign in
+© Stripe
+ 
+Privacy & terms

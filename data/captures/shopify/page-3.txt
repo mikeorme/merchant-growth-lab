@@ -1,0 +1,282 @@
+URL: https://www.shopify.com/checkout
+TITLE: Shopify Checkout: The Best-Converting Ecommerce Checkout - Shopify
+DESCRIPTION: Shopify Checkout, when paired with Shop Pay, is the fastest, highest-converting ecommerce checkout experience anywhere. And now with advanced customization options, you can make your checkout reflect your brand and give shoppers better ways to buy.
+
+Skip to Content
+SHOPIFY CHECKOUT
+The best‑converting checkout with Shop Pay
+The world’s highest-converting, customizable, one-click checkout powers 12% of US ecommerce and is trusted by the biggest brands.
+15%
+
+Higher conversion than the competition1
+
+875M
+
+Global
+customers
+
+5.5B
+
+Orders
+processed
+
+Start your free trial
+
+1 Shopify's overall conversion rate outpaces the competition by up to 36% and by an average of 15%, based on a study completed in April 2023 in partnership with a Big Three global management consulting company.
+
+Sell your way with Shopify Checkout
+
+Make checkout your own using customizable features that fit your unique business needs.
+
+Mobile
+Desktop
+Try customizing checkout
+Show order summary
+$249.83
+
+Enable Shop Pay
+
+Add express checkout
+
+Contact
+Log in
+Email address or phone number
+
+Email me with news and offers
+
+Delivery
+Country/Region
+United States
+First name (optional)
+William
+Last name
+Johnson
+Address
+1234 Elm Avenue
+Apartment, suite, etc. (optional)
+City
+Seattle
+State
+WA
+ZIP code
+98101
+Shipping method
+Standard shipping
+3 to 7 business days
+$8.62
+Priority shipping
+2 to 4 business days
+$11.58
+
+Enable pickup in store
+
+Display accurate delivery times
+
+Enable local delivery
+
+Payment
+All transactions are secure and encrypted
+Credit or debit card
+Card number
+Expiration date (MM/YY)
+Security code
+Name on card
+
+Shipping address same as billing address
+
+PayPal
+Remember me
+
+Save my information for a faster checkout
+
+Show tipping options
+
+Order summary
+2
+White kitchen chair
+
+Curved seat with beech wood legs
+
+$80.00
+1
+Side tables
+
+Brown wooden side tables
+
+$150.00
+Subtotal
+$230.00
+Shipping
+$8.62
+Estimated taxes
+$11.21
+Total
+$249.83
+
+Add discounts and gift cards
+
+Pay now
+Return policy
+Privacy policy
+Sell more. Sell faster.
+Shopify Checkout + Shop Pay
+
+Instantly recognize 100M+ Shop Pay users by their email or device, so they can pay with one tap.
+
+Shop Pay is only available in certain countries.
+
+3x faster
+Let customers speed through checkout with Shop Pay’s one-tap checkout experience on any device.
+50% higher conversion
+Capture more sales with 50% higher conversion compared to standard checkout.
+Hundreds of millions more customers
+Instantly increase your global reach and average order value through Shop Pay’s massive base of high-intent shoppers.
+Learn more about Shop Pay 
+Get the perfect checkout for your brand with advanced customizations
+Customize your checkout—and Shop Pay—with powerful apps and branding tools, without sacrificing security or performance.
+
+SHOPIFY PLUS
+
+Apps for every checkout
+
+Install apps that extend your checkout’s functionality—from loyalty programs to upsells, and so much more. Or build your own app to meet your store’s unique needs.
+
+Custom content and fields
+
+Add custom banners and messages, like warnings or disclaimers, and collect additional buyer information.
+
+Product offers
+
+Surface upsells, free samples, and donations.
+
+Customer loyalty
+
+Surface loyalty programs, and give customers more reasons to buy.
+
+Express your brand
+
+Make basic customizations with the checkout editor. Shopify Plus plan subscribers can use the Checkout Branding API to make more advanced visual customizations.
+
+DEVELOPER PLATFORM
+
+Get creative with Shopify Extensions
+
+Whatever checkout experience you're imagining, go ahead and build it. Use Shopify Extensions in checkout to bring nearly any vision to life.
+Extend your checkout with apps
+
+Use Shopify Extensions to develop apps that customize and extend your checkout, whether you're planning to list your app on the Shopify App Store or build a bespoke app, with our suite of intuitive developer tools.
+
+Scale up and be recognized
+
+With tens of thousands of Shopify Plus brands, building for Shopify Checkout gives you unparalleled access to the biggest brands, the massive reach of the Shopify App Store, and the opportunity to build the next big thing in checkout.
+
+24/7 support guaranteed
+
+Get the support you need, day or night. Our support staff and world-class documentation is here to help you build the apps that push the boundaries of Shopify Checkout.
+
+Shopify Checkout features
+Quick visual customizations
+
+Anyone can play around with unique color schemes and fonts, and customize the size and position of their logo.
+
+Advanced visual customizations
+
+Create expressive, consistent, and accessible experiences for checkout and your checkout apps.
+
+SHOPIFY PLUS
+
+Add functionality with apps
+
+Add new functionality to your checkout, like post-purchase pages, tracking pixels, and additional fields with powerful apps.
+
+SHOPIFY PLUS
+
+Express checkouts
+
+Convert more buyers by giving them the option to checkout faster with their favorite express checkouts, such as Shop Pay, PayPal, Apple Pay, and more.
+
+Flexible shipping options
+
+Offer competitive shipping rates, customized location-based pricing, and local shipping and delivery options.
+
+In-store pickup
+
+Give shoppers another way to quickly get their purchase with in-store pickup.
+
+Show accurate delivery dates
+
+Show customers exactly when they can expect delivery, so they can pick the best shipping option.
+
+Localized experiences
+
+Increase global sales by localizing your checkout in 50+ languages.
+
+Sell like a local
+
+Offer local payment methods and dynamic address fields, and estimate and collect duties and import taxes with Shopify Markets.
+
+More ways to pay
+
+Let customers pay using their preferred method—from all the major cards to express checkout and gift cards.
+
+Pay in installments
+
+Reduce your abandoned cart rate by 28% on average with Shop Pay Installments—or offer other installment apps like Klarna and Affirm.
+
+Sell more with pre-orders and subscriptions
+
+Give customers more ways to buy with choices like pre-orders and subscriptions, and options to add personalized discounts.
+
+Safe, secure, trusted
+
+From fraud protection and systems that keep payment information safe, Shopify’s world-class security gives you peace of mind.
+
+Ready to scale
+
+Shopify Checkout can handle up to 40,000 checkout starts per minute, per store.
+
+Always mobile-first
+
+Shopify Checkout is a fully responsive, mobile-first experience, so shoppers can buy on any device.
+
+Checkout anywhere
+
+Bring the full power of the world's best checkout to your mobile app or platform with the Checkout Kit. All it takes is just a few lines of code.
+
+Address autocomplete
+
+Increase checkout speed with selectable suggestions for input fields.
+
+Enable tipping options
+
+Create customized tipping options that are unique to your business, and let customers tip your team directly at checkout.
+
+Text messaging consent
+
+Boost repeat purchases by collecting marketing consent, so you can stay in touch with your customers.
+
+Turn data into action
+
+With our pixels manager, you can turn your customer data into competitive, actionable insights.
+
+Advanced bot protection
+
+Prevent bots from buying up your inventory during flash sales with scheduled bot protection and customizable skill testing questions.
+
+SHOPIFY PLUS
+
+Accessible to all
+
+Shoppers can buy with confidence using their own assistive technologies.
+
+Ready to get started?
+
+3 days free
+
+Extend your trial for $1
+
+Earn up to $10,000 in credits
+
+Enter your email
+
+You agree to receive Shopify marketing emails.

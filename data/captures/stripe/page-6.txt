@@ -1,0 +1,269 @@
+URL: https://stripe.com/customers
+TITLE: Our customers | Stripe
+DESCRIPTION: Learn about Stripe customers and why millions of global businesses have chosen Stripe as their payments platform.
+
+We’re building a platform for ambitious companies around the world to make moving money as simple, borderless, and programmatic as the rest of the internet. Our teams are based in dozens of global offices and we process hundreds of billions of dollars each year for every size of business—from startups to Fortune 500s.
+Read story 
+Read story 
+Watch video 
+Read story 
+Read story 
+Read story 
+
+total increase in Postmates’ annual revenue
+
+for Weave to launch a new payments platform
+
+uplift in Twilio’s payment acceptance rate
+
+Noom expansion in one month with Stripe
+
+Reduction in customer onboarding time
+
+Fast reconciliation with a single report
+
+paid subscriptions to writers and creators
+
+active paid publications
+
+growth in online payments volume in just 6 months
+
+of development work to go live
+
+uplift in overall authorization rates
+
+customers managed on Stripe Billing
+
+gross transaction volume on Lightspeed
+
+deployment timeline for in-store payments
+
+Read story 
+Classy Pay, powered by Stripe, creates best-in-class fundraising experiences for modern non-profits
+Read story 
+Substack surpasses five million paid subscriptions with Stripe
+Read story 
+Goodtill partners with Stripe to onboard 400+ new restaurants in under 4 weeks
+Read story 
+Twilio increases its authorization rates by 10% with Stripe
+Read story 
+Atlassian selects Stripe to create a single platform for global billing and payments
+Read story 
+Lightspeed partners with Stripe to accelerate innovation in omnichannel payments and more
+
+Stripe is the fastest-evolving payments platform and builds market-first functionality specifically for our customers’ needs.
+
+Lyft’s biggest request from drivers was the ability to get paid more frequently compared to traditional weekly payouts, which meant Lyft needed to find a way to seamlessly pay out drivers at their convenience.
+
+Lyft worked with Stripe to build Express Pay, providing drivers the ability to decide when they want to get paid out—typically within a few hours of a ride.
+
+Today
+Payments
+$342.00
+Rides
+12
+Time
+4h 19m
+Balance
+$342.00
+GET PAID
+Payout activity
+Power Zones
+7:00 PM - 9:00 PM
+10:00 PM - 12:00 AM
+View schedule
+Ride History
+Nov 24, 4:30 PM
+$8.35
+4.20 mi • 9m 51s
+Lyft
+Home
+Earnings
+Referrals
+
+Instacart facilitates a multi-sided marketplace with complex payment needs. Instacart needed a way to streamline payments and payouts across consumers, grocery stores, shoppers, and delivery partners.
+
+Stripe enabled all aspects of Instacart’s intricate payments infrastructure to function at scale, making it easy for customers to pay the way they want, and using features like Instant Cashout to speed up payouts to shoppers and retailers.
+
+Instant Cashout
+$150.00
+Tips are paid with your weekly deposit
+Available amount
+$150.00
+Transaction fee
+50¢
+Transfer amount
+$149.50
+0033
+Edit
+Transfers typically take only a few minutes but it may take up to 24 hours depending on your bank.
+Confirm cashout
+
+Dealing with banking and financial services is an essential part of running a business, yet most of today’s banking services aren’t designed for the needs of Shopify’s independent business owners.
+
+Shopify built Shopify Balance using Stripe Treasury to offer Shopify merchants a fast, simple, and integrated way to obtain critical financial products and oversee their finances—all within Shopify.
+
+Stripe Treasury gives us the flexibility to customize Shopify Balance specifically for our merchants. By building across Stripe’s payments and banking infrastructure, we’ve been able to give Shopify merchants access to critical financial products that meet their needs, like faster access to funds and rewards, helping them further grow their businesses.
+
+To prevent the most catastrophic effects of climate change, we need to radically reduce the new emissions we put into the air, and develop new carbon removal technologies to remove carbon already in the atmosphere.
+
+Stripe partnered with forward-thinking businesses like Flexport to launch Stripe Climate, which makes it easy for businesses to contribute a fraction of revenue to fund frontier carbon removal technology. So far, more than two thousand businesses have purchased frontier carbon removal with Stripe Climate.
+
+There’s huge potential for Stripe Climate to drive meaningful change in protecting the environment. We're excited to be part of it and to help unlock new solutions to humanitarian and environmental issues.
+
+Read story 
+Kickstarter extends its global reach and continues to enhance the crowdfunding experience with Stripe
+Read story 
+Behind the scenes: How Instacart powers online grocery delivery with Stripe
+Read story 
+Skip increases checkout conversion and launches new instant payout feature with Stripe
+Read story 
+Postmates boosts authorization rates with Stripe, adding $70+ million in revenue
+Read story 
+Meetup increased trial conversions by 3x with Stripe Billing
+Watch video 
+Lyft optimizes the driver and passenger experience with Stripe
+Fleet
+Jane Diaz
+Micaela Ballew
+Thomas Degry
+Invoice from Slack
+Invoice from One Medical
+Invoice from Udacity
+Billed to Jenny Rosen
+$750.00 due Aug 1, 2020
+$199.00 due Jan 1, 2021
+$399.00 due Sep 1, 2020
+Card
+Card
+Card
+Bank
+Card number
+MM / YY
+CVC
+Pay invoice
+Wilkie
+Purely functional
+Product details
+What do you get when you combine round lenses, slim temple arms, and a keyhole bridge? A good-looking frame named Haskell.
+Made from hand-polished cellulose acetate
+Akulon-coated screws for durability
+Reviews
+Recommended
+Percey
+Rye Tortoise
+Durand
+Crystal
+Felix
+Chamomile Fade
+Cancel
+CHASE FREEDOM (•••• 1234)
+27 FREDRICK AVE BROTHERS OR
+BILLING
+JOHN APPLESEED
+27 FREDRICK AVE
+BROTHERS, OR 97712
+UNITED STATES
+CONTACT
+J.APPLESEED@EXAMPLE.COM
++1 (458) 555-2863
+PAY TOTAL
+$250.00
+Your cart
+2 items
+The Bigger Carry-On
+Color: Navy
+1
+$245.00
+The Luggage Tag
+Color: Sand
+1
+$25.00
+Total
+$270.00
+CHECKOUT
+Cancel
+CHASE FREEDOM (•••• 1234)
+27 FREDRICK AVE BROTHERS OR
+SHIPPING
+JOHN APPLESEED
+27 FREDRICK AVE
+BROTHERS, OR 97712
+UNITED STATES
+METHOD
+3–DAY
+3-4 BUSINESS DAYS
+CONTACT
+J.APPLESEED@EXAMPLE.COM
++1 (458) 555-2863
+PAY TOTAL
+$270.00
+Your Cart
+2 items
+1 × Invisible Shield
+$25.00
+Edit
+Remove
+1 × Body Hero Wash
+$18.00
+Edit
+Remove
+Estimated total
+$43.00
+CHECKOUT
+Cancel
+CHASE FREEDOM (•••• 1234)
+27 FREDRICK AVE BROTHERS OR
+SHIPPING
+JOHN APPLESEED
+27 FREDRICK AVE
+BROTHERS, OR 97712
+UNITED STATES
+METHOD
+3–DAY
+3-4 BUSINESS DAYS
+CONTACT
+J.APPLESEED@EXAMPLE.COM
++1 (458) 555-2863
+PAY TOTAL
+$43.00
+140k
+138k
+136k
+134k
+Authenticated
+3DS authentication rate
+64.8%
+Failed 3DS
+669
+Passed 3DS
+1,232
+No 3DS
+137,678
+Screened by Radar
+Block rate
+0.95%
+Blocked by Radar
+1,320
+Blocked by Stripe
+139
+Sent to review
+1,449
+Allowed
+136,002
+1500
+750
+0
+Disputed
+Fraudulent dispute rate
+0.0076%
+Fraudulent disputes
+1,048
+Other disputes
+243
+
+Create an account and start accepting payments—no contracts or banking details required. Or, contact us to design a custom package for your business.
+
+Integrated per-transaction pricing with no hidden fees
+
+Get up and running with Stripe in as little as 10 minutes

@@ -4,68 +4,1424 @@
   "category": "retention-messaging",
   "url": "https://www.klaviyo.com",
   "flow": "signup to first flow",
-  "capturedAt": "2026-11-21",
-  "rubricVersion": "1.0.0",
+  "capturedAt": "2026-11-22",
+  "rubricVersion": "1.1.0",
   "status": "evaluated",
-  "blockedReason": "account form reached at step 2",
+  "blockedReason": "account form reached after 1 click from home",
+  "surveyMode": "full",
   "steps": [
     {
       "n": 1,
+      "kind": "home",
       "title": "Klaviyo: AI Email Marketing & SMS | B2C CRM",
       "url": "https://www.klaviyo.com/",
       "screenshot": "shots/klaviyo/step-1.webp",
-      "elapsedMs": 2134,
+      "textFile": "data/captures/klaviyo/page-1.txt",
+      "elapsedMs": 9382,
       "clicks": 0,
-      "mobileScreenshot": "shots/klaviyo/step-1-mobile.webp",
-      "note": "Next: clicked \"Sign up\""
+      "via": "entry",
+      "headings": [
+        "h1: Your AI marketing agent, always a step ahead",
+        "h2: Composer turns customer data into revenue. You approve the plan, and every result is measured.",
+        "h2: Agents built for unstoppable growth",
+        "h3: Composer, your AI marketing agent",
+        "h3: Customer Agent, your 24/7 customer service",
+        "h2: Named a leader across AI, marketing automation, and customer data",
+        "h3: Your data, intelligence, and AI agents working as one",
+        "h3: Marketing that carries the conversation",
+        "h3: AI built for every customer moment",
+        "h3: Service that solves and sells",
+        "h3: Personalization that makes the right call",
+        "h3: CDP that gives you the full data story",
+        "h2: Learn how top brands build more valuable customer relationships",
+        "h2: 400+ pre-built integrations",
+        "h2: Frequently asked questions",
+        "h3: What is Klaviyo?",
+        "h3: How much does Klaviyo cost? Is there a free plan?",
+        "h3: What integrations does Klaviyo offer?",
+        "h3: What channels does Klaviyo support?",
+        "h3: How does Klaviyo support enterprise brands?",
+        "h3: Which languages is Klaviyo available in?",
+        "h3: Is Klaviyo GDPR compliant?"
+      ],
+      "ctas": [
+        "Try it now",
+        "Sign up",
+        "Sign up with Google",
+        "Explore Composer",
+        "Explore Customer Agent",
+        "Explore the platform",
+        "Explore Marketing",
+        "Explore AI",
+        "Explore Service",
+        "Explore Personalization",
+        "Explore Data Platform",
+        "Explore the app marketplace",
+        "Contact us",
+        "Facebook"
+      ],
+      "prices": [
+        "th serious selling power. Customer Agent resolves 65% of questions autonomously. Pre-trained on your br",
+        "ROFILES 1.6B AVERAGE API CALLS PROCESSED DAILY 99.95% UPTIME ACROSS ALL SERVICES SOC 2 TYPE II CERTI",
+        "ROFILES 1.6B AVERAGE API CALLS PROCESSED DAILY 99.95% UPTIME ACROSS ALL SERVICES Learn how top brands",
+        "brands build more valuable customer relationships 21% YoY growth in revenue from CRM in last 12 months"
+      ],
+      "description": "Klaviyo unifies AI-powered email marketing and SMS to drive growth, retention, and measurable results. Build personalized, omnichannel experiences across WhatsApp, ecommerce, and more with K:AI Agents.",
+      "mobileScreenshot": "shots/klaviyo/step-1-mobile.webp"
     },
     {
       "n": 2,
+      "kind": "pricing",
+      "title": "Klaviyo Pricing | Start Free with Email & SMS",
+      "url": "https://www.klaviyo.com/pricing",
+      "screenshot": "shots/klaviyo/step-2.webp",
+      "textFile": "data/captures/klaviyo/page-2.txt",
+      "elapsedMs": 12815,
+      "clicks": 0,
+      "via": "nav: Pricing",
+      "headings": [
+        "h1: Klaviyo pricing",
+        "h2: Klaviyo free plan",
+        "h2: For more than 250 active profiles, choose the plan that's right for you",
+        "h3: Email",
+        "h3: Marketing",
+        "h3: Custom",
+        "h2: Compare plans"
+      ],
+      "ctas": [
+        "Sign up",
+        "Start for free",
+        "Get started",
+        "Talk to sales",
+        "Contact us",
+        "Facebook"
+      ],
+      "prices": [
+        "free 500 emails per month to 250 active profiles $10 of Composer usage per month $5 of mobile messages",
+        "0 active profiles $10 of Composer usage per month $5 of mobile messages per month Social marketing for",
+        "email. Automate campaigns and build subscribers. $20 /month Get started Email 500 active profiles 5,000 ema",
+        "onth Everything included in Free plan: Composer $10 of usage per month Mobile messages $5 of mobile m",
+        "Composer $10 of usage per month Mobile messages $5 of mobile messages per month Social marketing 250",
+        "ss channels. Turn traffic into repeat customers. $25 $1 /month Get started Limited time: Get your fi",
+        "hannels. Turn traffic into repeat customers. $25 $1 /month Get started Limited time: Get your first month",
+        "th of an eligible Klaviyo Marketing Plan for just $1, for up to 5,000 active profiles. Full terms. Ema",
+        "ncluded in each plan. FEATURES Klaviyo free plan $0 Email $20/month Marketing $25 $1/month Custom",
+        "each plan. FEATURES Klaviyo free plan $0 Email $20/month Marketing $25 $1/month Custom Email marketing",
+        "Klaviyo free plan $0 Email $20/month Marketing $25 $1/month Custom Email marketing Email sends 50",
+        "viyo free plan $0 Email $20/month Marketing $25 $1/month Custom Email marketing Email sends 500/mo 5,00",
+        "tation A/B testing — Text & mobile SMS and MMS $5 of mobile messages per month Add on Add on Custom",
+        "tomer Hub Up to 250 profiles Add on AI Composer $10 of usage per month Add on Add on Custom Customer"
+      ],
+      "description": "Explore Klaviyo pricing and start free. Get email marketing sends, text message credits, Customer Hub, and reporting—all in one platform.",
+      "mobileScreenshot": "shots/klaviyo/step-2-mobile.webp"
+    },
+    {
+      "n": 3,
+      "kind": "product",
+      "title": "The AI Marketing Agent for Campaign Automation & Creation - Klaviyo",
+      "url": "https://www.klaviyo.com/composer",
+      "screenshot": "shots/klaviyo/step-3.webp",
+      "textFile": "data/captures/klaviyo/page-3.txt",
+      "elapsedMs": 19181,
+      "clicks": 0,
+      "via": "nav: Composer (AI Marketing Agent)",
+      "headings": [
+        "h1: The AI marketing agent that knows your business and does the work",
+        "h2: What Composer does for you",
+        "h3: Know where to focus",
+        "h2: A full to-do list. Done before lunch.",
+        "h2: Catch up on Composer’s latest releases",
+        "h2: How brands are putting Composer to work",
+        "h2: Best prompts to get started",
+        "h3: Audit every active flow in one pass",
+        "h3: Find the flows and campaigns I'm missing and build them",
+        "h3: Find where personalization lifts revenue",
+        "h3: Suppress unengaged profiles safely and reduce your billable profile count",
+        "h3: Catch broken links and UTM errors before send",
+        "h3: Plan A 30-day email & SMS marketing calendar",
+        "h2: AI marketing agent FAQs",
+        "h3: What is Composer?",
+        "h3: What can Composer help me do?",
+        "h3: How does Composer use my business data?",
+        "h3: Can Composer analyze my marketing performance?",
+        "h3: What can Composer create?",
+        "h3: Can Composer complete tasks for me?",
+        "h3: Can I schedule recurring tasks with Composer?",
+        "h3: Does Composer make changes or publish anything without my approval?",
+        "h3: How is Composer different from ChatGPT or other AI tools?",
+        "h3: What channels does Composer support?",
+        "h3: Do I need a Klaviyo account to use Composer?",
+        "h3: How do I get access to Composer?",
+        "h3: Can I use Composer on my phone?"
+      ],
+      "ctas": [
+        "Try it now",
+        "Sign up",
+        "Explore the prompt library",
+        "Contact us",
+        "Facebook"
+      ],
+      "prices": [],
+      "description": "Meet Composer, the AI agent for marketing that works for you. Create campaigns, automate tasks, and optimize performance through powerful marketing conversations."
+    },
+    {
+      "n": 4,
+      "kind": "platform",
+      "title": "Klaviyo Developers",
+      "url": "https://developers.klaviyo.com/en",
+      "screenshot": "shots/klaviyo/step-4.webp",
+      "textFile": "data/captures/klaviyo/page-4.txt",
+      "elapsedMs": 22691,
+      "clicks": 0,
+      "via": "nav: Developers",
+      "headings": [
+        "h1: Build your customer growth engine with agents",
+        "h2: Get started",
+        "h2: Developer tools",
+        "h2: Building with an AI agent?",
+        "h3: Connect your agent to Klaviyo",
+        "h3: Agent skills",
+        "h2: Join the community"
+      ],
+      "ctas": [
+        "Contact us (opens in a new tab)",
+        "Get started"
+      ],
+      "prices": [],
+      "description": "Guides, API reference and developer tools for building apps and integrations with Klaviyo."
+    },
+    {
+      "n": 5,
+      "kind": "solutions",
+      "title": "The Enterprise Marketing Platform for Marketing Automation - Klaviyo",
+      "url": "https://www.klaviyo.com/enterprise",
+      "screenshot": "shots/klaviyo/step-5.webp",
+      "textFile": "data/captures/klaviyo/page-5.txt",
+      "elapsedMs": 26954,
+      "clicks": 0,
+      "via": "nav: Enterprise",
+      "headings": [
+        "h2: The B2C CRM built for modern enterprise",
+        "h2: Enterprise-grade without enterprise drag",
+        "h3: Activate the data and tech stack you already own",
+        "h2: Built to run at enterprise scale",
+        "h2: Recognized by leading analysts",
+        "h2: Loved by enterprise marketers",
+        "h3: Forrester",
+        "h3: Gartner",
+        "h3: TrustRadius",
+        "h3: G2 Leader",
+        "h2: Migration case studies",
+        "h2: 400+ pre-built integrations",
+        "h2: Additional resources",
+        "h3: Klaviyo Academy",
+        "h3: Professional services",
+        "h3: Klaviyo MCP server",
+        "h3: Email marketing",
+        "h2: Enterprise FAQs",
+        "h3: Is Klaviyo built for enterprise brands?",
+        "h3: Can Klaviyo handle enterprise scale?",
+        "h3: Does Klaviyo have enterprise-grade security, compliance, and governance?",
+        "h3: We’ve heard Klaviyo is best for ecommerce. Does it work for our brand’s omnichannel use case?",
+        "h3: Our data is spread across multiple systems. Can Klaviyo handle that level of complexity?"
+      ],
+      "ctas": [
+        "Sign up",
+        "Talk to sales",
+        "Watch demo",
+        "Trusted in the industry",
+        "Explore integrations",
+        "Start learning",
+        "Learn more",
+        "Explore email",
+        "Contact us",
+        "Facebook"
+      ],
+      "prices": [
+        "eader Summer 2026 leader Migration case studies 21% YoY growth in revenue from CRM in last 12 months"
+      ],
+      "description": "Klaviyo’s enterprise marketing platform turns data into personalized, cross-channel campaigns with AI, automation, and professional support every step of the way."
+    },
+    {
+      "n": 6,
+      "kind": "customers",
+      "title": "Customer Case Studies & Success Stories - Klaviyo",
+      "url": "https://www.klaviyo.com/customers",
+      "screenshot": "shots/klaviyo/step-6.webp",
+      "textFile": "data/captures/klaviyo/page-6.txt",
+      "elapsedMs": 31410,
+      "clicks": 0,
+      "via": "nav: Customer stories",
+      "headings": [
+        "h1: Our customers say it best",
+        "h2: Global Unilever Prestige brand Dermalogica gets growth edge from CRM-powered personalization",
+        "h2: Naked Wardrobe creates concierge experience for DTC with Customer Agent",
+        "h2: Thirdlove drives 15x SMS ROI after consolidating email and SMS in Klaviyo",
+        "h2: \"If I could do it again, I definitely would’ve started with Klaviyo earlier.\"",
+        "h3: Marc Fisher Footwear",
+        "h3: Proper Hotels",
+        "h3: Dagne Dover",
+        "h3: Hint Water",
+        "h3: Montana Knife Company",
+        "h3: Kulani Kinis",
+        "h3: K9 Ballistics",
+        "h3: Dollar Shave Club sees 30%+ reduction in TCO by consolidating CRM stack in Klaviyo",
+        "h3: NANUK",
+        "h3: Boston Proper"
+      ],
+      "ctas": [
+        "Try it now",
+        "Sign up",
+        "Contact us",
+        "Facebook"
+      ],
+      "prices": [
+        "d service. Read case study Dollar Shave Club sees 30%+ reduction in TCO by consolidating CRM stack in K"
+      ],
+      "description": "Klaviyo case studies and testimonials from customers who used our email and sms marketing platform, database and analysis services to grow their business."
+    },
+    {
+      "n": 7,
+      "kind": "company",
+      "title": "Klaviyo Newsroom & Media Kit - Klaviyo",
+      "url": "https://www.klaviyo.com/newsroom",
+      "screenshot": "shots/klaviyo/step-7.webp",
+      "textFile": "data/captures/klaviyo/page-7.txt",
+      "elapsedMs": 35579,
+      "clicks": 0,
+      "via": "nav: Newsroom",
+      "headings": [
+        "h1: What’s happening at Klaviyo",
+        "h3: Klaviyo goes Headless, Opening its Platform to Agents and Marketers Wherever They Work",
+        "h3: Klaviyo and Google Announce Strategic Partnership to Power Autonomous Customer Experiences",
+        "h3: Klaviyo joins Atlassian Williams F1 Team as Official Partner",
+        "h3: Klaviyo Deepens Dublin Investment with New EMEA Headquarters at One Le Pole Square",
+        "h3: Klaviyo Brings the World's Leading Consumer Brands to Boston for K:BOS 2026",
+        "h3: Klaviyo opens Asia HQ in Singapore",
+        "h3: Klaviyo Appoints Elias Torres as Chief Product Officer Following Strategic Acquisition of Agency Team and Technology",
+        "h3: Klaviyo Delivers Strong Q2 as Autonomous B2C CRM Strategy Gains Momentum",
+        "h3: Klaviyo Appoints Erica Smith as Chief Financial Officer",
+        "h3: Klaviyo Enters the (Social) Chat",
+        "h3: Klaviyo Expands Integration with Anthropic to Bring Agentic Marketing Workflows to Claude",
+        "h3: Klaviyo Delivers Strong Q1 2026 Results",
+        "h3: Klaviyo Brings Custom AI Skills to Customer Agent, Built on its CRM",
+        "h3: Klaviyo Strengthens Canva Partnership with Expanded Integration to Help Marketers Build Creative Campaigns Faster"
+      ],
+      "ctas": [
+        "Try it now",
+        "Sign up",
+        "Contact us",
+        "Facebook"
+      ],
+      "prices": [],
+      "description": "This is your official stop for Klaviyo news and updates."
+    },
+    {
+      "n": 8,
+      "kind": "resources",
+      "title": "Klaviyo Resources: Learn, Get Support and Join the Community - Klaviyo",
+      "url": "https://www.klaviyo.com/customer-resources",
+      "screenshot": "shots/klaviyo/step-8.webp",
+      "textFile": "data/captures/klaviyo/page-8.txt",
+      "elapsedMs": 39567,
+      "clicks": 0,
+      "via": "nav: Resource hub",
+      "headings": [
+        "h1: The Resource Hub",
+        "h2: Browse all resources directly",
+        "h3: Academy",
+        "h3: Help Center",
+        "h3: Community",
+        "h2: Commonly asked questions",
+        "h3: How do I change the products and content in my abandoned cart email?",
+        "h3: I can't log in. What do I do?",
+        "h3: What is a billable profile, and how does it change my plan price?",
+        "h3: How do I connect my Shopify store?",
+        "h3: How do I build a segment?",
+        "h3: How do transactional flows work, and how do I set one up?",
+        "h2: Pick a path, build a skill",
+        "h3: Get Started with Klaviyo",
+        "h3: Grow Your Audience with Klaviyo",
+        "h3: Test + Learn with Klaviyo",
+        "h3: Scale + Customize with Klaviyo",
+        "h3: Learn: BFCM Beginner Bootcamp",
+        "h3: Act: Win BFCM with Klaviyo",
+        "h3: Share: BFCM 2026 Strategy Exchange",
+        "h3: Level Up: Ask our Customer Success Team",
+        "h2: Learn what's shipped, what's changed",
+        "h2: Get hands on support",
+        "h3: Live office hours with the product and education team",
+        "h3: Hire a certified partner",
+        "h3: Premium support packages"
+      ],
+      "ctas": [
+        "Try it now",
+        "Sign up",
+        "Start learning",
+        "Explore path",
+        "Start the bootcamp",
+        "Learn more here",
+        "Contact us",
+        "Facebook"
+      ],
+      "prices": [],
+      "description": "Klaviyo resources in one place: Academy courses, the Help Center, Community, and live office hours. Find your answer fast and pick your next step in Klaviyo."
+    },
+    {
+      "n": 9,
+      "kind": "pricing",
+      "title": "How Klaviyo Pricing Works: Active Profiles and Send Capacity - Klaviyo",
+      "url": "https://www.klaviyo.com/platform/how-klaviyo-pricing-works",
+      "screenshot": "shots/klaviyo/step-9.webp",
+      "textFile": "data/captures/klaviyo/page-9.txt",
+      "elapsedMs": 43316,
+      "clicks": 0,
+      "via": "nav: How Klaviyo pricing works",
+      "headings": [
+        "h1: How Klaviyo pricing works: active profiles, sends, and flexible options",
+        "h2: What you're billed for",
+        "h2: Pricing unit details",
+        "h3: What are “Active profiles”?",
+        "h3: What are “email sends”?",
+        "h3: What about mobile?",
+        "h3: How to manage your Klaviyo billing preferences",
+        "h2: How pricing works over a billing cycle",
+        "h2: How to choose your billing preferences",
+        "h3: Good rules of thumb to keep in mind:",
+        "h3: Where to turn this on in Klaviyo:",
+        "h2: See plans for your list size"
+      ],
+      "ctas": [
+        "Try it now",
+        "Sign up",
+        "Start with the pricing calculator",
+        "Get started with Klaviyo",
+        "explore our plans",
+        "Contact us",
+        "Facebook"
+      ],
+      "prices": [],
+      "description": "See how Klaviyo pricing works, from active profiles and email sends to flexible sending and auto downgrade, so your bill tracks the audience you actually reach."
+    },
+    {
+      "n": 10,
+      "kind": "product",
+      "title": "Email & SMS Marketing Resources & Benchmarks - Klaviyo",
+      "url": "https://www.klaviyo.com/marketing-resources",
+      "screenshot": "shots/klaviyo/step-10.webp",
+      "textFile": "data/captures/klaviyo/page-10.txt",
+      "elapsedMs": 47737,
+      "clicks": 0,
+      "via": "nav: Guides and reports",
+      "headings": [
+        "h1: Resources to create exceptional customer experiences",
+        "h2: 10 predictions that will redefine marketing & service in 2026",
+        "h2: Consumer insights and research",
+        "h3: The 2025 state of B2C marketing",
+        "h3: The future of consumer marketing",
+        "h3: The 2025 benchmark report",
+        "h2: Resources for economic uncertainty",
+        "h3: Consumer Pulse: a weekly look at shopper behavior",
+        "h3: 7 strategies for making your business more resilient to 2025 tariffs",
+        "h3: 3 ways to drive revenue amid economic uncertainty",
+        "h3: Klaviyo is a Ferrari. Stop driving it like a Honda",
+        "h3: How to communicate with empathy during uncertainty",
+        "h2: Customer experience strategies and resources",
+        "h3: Ready to transform your customer relationships?",
+        "h3: Your guide to building exceptional customer experiences",
+        "h3: How to improve your customer experience",
+        "h3: The new rules of ecommerce customer experience",
+        "h3: Don't keep losing out on missed revenue",
+        "h2: Omnichannel strategies and resources",
+        "h3: How to deliver 1:1 experiences at scale",
+        "h3: Best practices for growing your email and SMS list",
+        "h3: Discover 150+ ways to sell more all year",
+        "h3: A step-by-step guide to integrating email & SMS",
+        "h3: The case for consolidating email and SMS marketing",
+        "h3: The B2C marketer’s complete guide to mobile app marketing",
+        "h3: Data-backed steps to grow faster with email & SMS",
+        "h2: Customer data strategies and resources",
+        "h3: Understanding customer data infrastructure",
+        "h3: 4 steps to accelerate your revenue with customer data",
+        "h3: Forrester research: revolutionize your customer data strategy",
+        "h3: The importance of unified customer data",
+        "h3: The comprehensive guide to B2C audience segmentation for marketing",
+        "h3: How to use customer reviews to convert more first and second-time buyers",
+        "h2: Email marketing strategies and resources",
+        "h3: A step-by-step guide to growing faster in 2025 with email",
+        "h3: 2025 email marketing benchmarks by industry",
+        "h3: Email marketing for B2C marketers",
+        "h3: The email marketing guide for ecommerce",
+        "h3: Email marketing strategies for restaurants",
+        "h3: The email marketing guide for small businesses"
+      ],
+      "ctas": [
+        "Sign up",
+        "Industry definitions",
+        "Get a demo",
+        "Contact us",
+        "Facebook"
+      ],
+      "prices": [
+        "resources Email marketing should drive at least 30% of your B2C business revenue. These guides and re",
+        "eting executives in the restaurant industry doing $30M+ in revenue. Download now More Klaviyo Resource"
+      ],
+      "description": "Resources on email marketing best practices and benchmarks, SMS compliance guides, data privacy and Customer-First Data guides, and more."
+    },
+    {
+      "n": 11,
+      "kind": "solutions",
+      "title": "The AI Customer Service Platform for Ecommerce Brands - Klaviyo",
+      "url": "https://www.klaviyo.com/solutions/customer-service",
+      "screenshot": "shots/klaviyo/step-11.webp",
+      "textFile": "data/captures/klaviyo/page-11.txt",
+      "elapsedMs": 53684,
+      "clicks": 0,
+      "via": "nav: Service",
+      "headings": [
+        "h1: AI-POWERED CUSTOMER SERVICE PLATFORM",
+        "h2: Customer service that knows your customer, and gets smarter",
+        "h3: Sell while you solve",
+        "h3: Answer “where is my order?”",
+        "h3: Make every interaction count",
+        "h3: Give your team the full picture",
+        "h2: The AI agent that resolves more, sells more—no extra headcount",
+        "h2: Top brands helping customers, autonomously",
+        "h2: More resolutions. More revenue.",
+        "h2: Explore the rest of B2C CRM",
+        "h2: Service FAQs",
+        "h3: Which commerce platforms is this available for?",
+        "h3: What is ecommerce customer service?",
+        "h3: How do I get started?",
+        "h3: How does Klaviyo Service pricing work?",
+        "h3: Are there any discounts for Klaviyo Service?"
+      ],
+      "ctas": [
+        "Try it now",
+        "Sign up",
+        "Explore Customer Agent",
+        "Explore Helpdesk",
+        "Contact us",
+        "Facebook"
+      ],
+      "prices": [
+        "TLIGHT Top brands helping customers, autonomously 86% of Customer Agent queries in 90 days resolved by"
+      ],
+      "description": "Unite marketing and support with Klaviyo Service, an AI platform for customer service. Deliver personalized customer service across all touchpoints with a helpdesk, Customer Hub, and AI agents for web chat, email, SMS, mobile push, and WhatsApp."
+    },
+    {
+      "n": 12,
+      "kind": "product",
+      "title": "The Marketing Automation Platform for Email, SMS, & WhatsApp - Klaviyo",
+      "url": "https://www.klaviyo.com/solutions/marketing-automation",
+      "screenshot": "shots/klaviyo/step-12.webp",
+      "textFile": "data/captures/klaviyo/page-12.txt",
+      "elapsedMs": 58083,
+      "clicks": 0,
+      "via": "nav: Marketing",
+      "headings": [
+        "h1: MARKETING AUTOMATION PLATFORM",
+        "h2: Think outside the inbox with AI-powered marketing automation",
+        "h3: Grow smarter from the very first signup",
+        "h3: Move from idea to launch faster",
+        "h3: Find your biggest revenue drivers",
+        "h3: Make every customer feel seen",
+        "h2: Build more valuable relationships across every channel",
+        "h3: Email",
+        "h3: Website",
+        "h3: Social",
+        "h3: WhatsApp",
+        "h3: Mobile app marketing",
+        "h2: Grow faster with AI that acts now, and thinks ahead",
+        "h2: Your customer’s new favorite place",
+        "h2: Marketing automation stories from innovative brands",
+        "h2: Call the shots across channels",
+        "h2: Everything you need, ready when you are",
+        "h3: Sell while you solve",
+        "h3: Move from idea to launch faster",
+        "h3: Find your biggest revenue drivers",
+        "h3: Make every customer feel seen",
+        "h3: Additional marketing automation resources",
+        "h3: 4 reasons personalized automation matters",
+        "h3: 7 advanced marketing automation examples",
+        "h3: How to set up your marketing automation strategy",
+        "h2: Explore the rest of B2C CRM",
+        "h2: Marketing automation FAQs",
+        "h3: What is marketing automation?",
+        "h3: What is a marketing automation platform?",
+        "h3: How does marketing automation work?",
+        "h3: Who uses marketing automation software?",
+        "h3: How do I pick the best marketing automation platform for my business?"
+      ],
+      "ctas": [
+        "Try it now",
+        "Sign up",
+        "Explore email",
+        "Explore SMS",
+        "Explore Customer Hub",
+        "Explore social",
+        "Explore WhatsApp",
+        "Explore Mobile app",
+        "Explore Composer",
+        "Explore advanced automation",
+        "Contact us",
+        "Facebook"
+      ],
+      "prices": [],
+      "description": "Automate timely marketing across email, SMS, mobile push, and WhatsApp, and more with Klaviyo’s AI-powered marketing automation tools."
+    },
+    {
+      "n": 13,
+      "kind": "product",
+      "title": "Email Marketing Platform for Automation & Personalization - Klaviyo",
+      "url": "https://www.klaviyo.com/products/email-marketing",
+      "screenshot": "shots/klaviyo/step-13.webp",
+      "textFile": "data/captures/klaviyo/page-13.txt",
+      "elapsedMs": 62514,
+      "clicks": 0,
+      "via": "nav: Email",
+      "headings": [
+        "h1: Email marketing that delivers wins—and 63x avg ROI",
+        "h3: Stand out in their inbox",
+        "h3: One platform for every customer journey",
+        "h3: Let AI do the optimizing for you",
+        "h2: The secret to better personalization? Better data.",
+        "h2: Flexible pricing that fits your needs",
+        "h3: Email",
+        "h2: Keep the conversation going across every channel",
+        "h2: Performance, powered by AI",
+        "h2: Real results from real brands",
+        "h2: Go from idea to inbox faster",
+        "h2: Get everything you need to hit send with confidence",
+        "h2: Email marketing resources",
+        "h3: AI for email marketing",
+        "h3: Email table stakes",
+        "h3: 8 email must-haves",
+        "h3: From inbox to revenue",
+        "h2: Email marketing FAQs",
+        "h3: What is Klaviyo email marketing?",
+        "h3: What ROI can brands expect from Klaviyo email marketing?",
+        "h3: Does Klaviyo support cross-channel marketing beyond email?",
+        "h3: Can I create emails in Klaviyo without coding?",
+        "h3: How do I start building an email list with Klaviyo?",
+        "h3: How much does Klaviyo email marketing cost?",
+        "h3: How can email marketing fuel your overall inbound strategy?"
+      ],
+      "ctas": [
+        "Try it now",
+        "Sign up",
+        "Start faster",
+        "Explore email best practices",
+        "Contact us",
+        "Facebook"
+      ],
+      "prices": [
+        "mpaigns and automated flows. Active profiles 500 $20 $19 OFF $1 Keep the conversation going across eve",
+        "gns and automated flows. Active profiles 500 $20 $19 OFF $1 Keep the conversation going across every c",
+        "automated flows. Active profiles 500 $20 $19 OFF $1 Keep the conversation going across every channel",
+        "CUSTOMER SPOTLIGHT Real results from real brands 82% Flow revenue growth using Klaviyo email and SMS"
+      ],
+      "description": "Create personalized, data-driven email campaigns with Klaviyo’s email marketing platform. Automate messages, engage customers, and drive more revenue."
+    },
+    {
+      "n": 14,
+      "kind": "signup",
       "title": "Klaviyo: Sign Up for Free Today",
       "url": "https://www.klaviyo.com/sign-up",
-      "screenshot": "shots/klaviyo/step-2.webp",
-      "elapsedMs": 6171,
+      "screenshot": "shots/klaviyo/step-14.webp",
+      "textFile": "data/captures/klaviyo/page-14.txt",
+      "elapsedMs": 2912,
       "clicks": 1,
+      "via": "click: \"Sign up\"",
+      "headings": [
+        "h1: Sign up for Klaviyo"
+      ],
+      "ctas": [],
+      "prices": [],
+      "description": "Get started today. Send your first campaign in minutes and put your marketing on autopilot with targeted SMS and email messages that convert into sales.",
       "note": "Stopped: account form or bot check reached."
     }
   ],
+  "navMap": [
+    {
+      "label": "Try it now",
+      "href": "https://www.klaviyo.com/sign-up",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Composer (AI Marketing Agent)",
+      "href": "https://www.klaviyo.com/composer",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Customer Agent",
+      "href": "https://www.klaviyo.com/solutions/ai/customer-agent",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "Explore the full platform",
+      "href": "https://www.klaviyo.com/platform",
+      "area": "header",
+      "kind": "platform"
+    },
+    {
+      "label": "Marketing",
+      "href": "https://www.klaviyo.com/solutions/marketing-automation",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Email",
+      "href": "https://www.klaviyo.com/products/email-marketing",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "SMS",
+      "href": "https://www.klaviyo.com/products/sms-marketing",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "RCS for Business",
+      "href": "https://www.klaviyo.com/products/sms-marketing/rcs",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "WhatsApp",
+      "href": "https://www.klaviyo.com/products/whatsapp",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Social",
+      "href": "https://www.klaviyo.com/products/social",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Mobile app",
+      "href": "https://www.klaviyo.com/products/mobile-app-marketing",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Customer Hub",
+      "href": "https://www.klaviyo.com/products/customer-experience-hub",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Reviews",
+      "href": "https://www.klaviyo.com/products/review-management",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Campaigns",
+      "href": "https://www.klaviyo.com/features/campaigns",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Flows",
+      "href": "https://www.klaviyo.com/features/flows",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Segmentation",
+      "href": "https://www.klaviyo.com/features/segmentation",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Forms",
+      "href": "https://www.klaviyo.com/features/web-forms",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Service",
+      "href": "https://www.klaviyo.com/solutions/customer-service",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "Helpdesk",
+      "href": "https://www.klaviyo.com/products/helpdesk",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Agent builder",
+      "href": "https://help.klaviyo.com/hc/en-us/articles/56974158507803",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "APIs & connectors",
+      "href": "https://help.klaviyo.com/hc/en-us/articles/360045726811",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Auto-training",
+      "href": "https://help.klaviyo.com/hc/en-us/articles/37659457059739",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Guardrails",
+      "href": "https://help.klaviyo.com/hc/en-us/articles/57318314698907",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Data & personalization",
+      "href": "https://www.klaviyo.com/solutions/customer-data-platform",
+      "area": "header",
+      "kind": "platform"
+    },
+    {
+      "label": "Advanced Data Platform",
+      "href": "https://www.klaviyo.com/products/advanced-cdp",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Personalization",
+      "href": "https://www.klaviyo.com/products/personalization",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Unified profile management",
+      "href": "https://www.klaviyo.com/features/customer-profiles",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Multi-account management",
+      "href": "https://www.klaviyo.com/features/portfolio",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Predictive insights",
+      "href": "https://help.klaviyo.com/hc/en-us/articles/360020919731",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Organizations",
+      "href": "https://help.klaviyo.com/hc/en-us/articles/53643035750555",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Explore apps",
+      "href": "https://marketplace.klaviyo.com/en-us",
+      "area": "header",
+      "kind": "platform"
+    },
+    {
+      "label": "View top apps and integrations",
+      "href": "https://marketplace.klaviyo.com/en-us/",
+      "area": "header",
+      "kind": "platform"
+    },
+    {
+      "label": "Integration benefits",
+      "href": "https://www.klaviyo.com/integrate",
+      "area": "header",
+      "kind": "platform"
+    },
+    {
+      "label": "Advertising",
+      "href": "https://marketplace.klaviyo.com/en-us/browse/?categoryId=15",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Shipping",
+      "href": "https://marketplace.klaviyo.com/en-us/browse/?categoryId=9",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Point of sale",
+      "href": "https://marketplace.klaviyo.com/en-us/browse/?categoryId=18",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Loyalty",
+      "href": "https://marketplace.klaviyo.com/en-us/browse/?categoryId=8",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Subscription",
+      "href": "https://marketplace.klaviyo.com/en-us/browse/?categoryId=25",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Developers",
+      "href": "https://developers.klaviyo.com/en",
+      "area": "header",
+      "kind": "platform"
+    },
+    {
+      "label": "Getting started",
+      "href": "https://developers.klaviyo.com/en/docs/get_started",
+      "area": "header",
+      "kind": "platform"
+    },
+    {
+      "label": "Developer guides",
+      "href": "https://developers.klaviyo.com/en/docs/changelog_",
+      "area": "header",
+      "kind": "platform"
+    },
+    {
+      "label": "API docs",
+      "href": "https://developers.klaviyo.com/en/reference/api_overview",
+      "area": "header",
+      "kind": "platform"
+    },
+    {
+      "label": "Developer docs",
+      "href": "https://developers.klaviyo.com/en/docs/developer-tools",
+      "area": "header",
+      "kind": "platform"
+    },
+    {
+      "label": "Build an integration",
+      "href": "https://developers.klaviyo.com/en/docs/create_a_public_oauth_app",
+      "area": "header",
+      "kind": "platform"
+    },
+    {
+      "label": "Highlights",
+      "href": "https://www.klaviyo.com/whats-new",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Artifacts in Composer",
+      "href": "https://help.klaviyo.com/hc/en-us/articles/57927505009307",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "A/B Tests for Campaigns in Composer",
+      "href": "https://help.klaviyo.com/hc/en-us/articles/52308788113307",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "SQL",
+      "href": "https://help.klaviyo.com/hc/en-us/articles/57803734295963",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Multi-Geo in Customer Agent",
+      "href": "https://help.klaviyo.com/hc/en-us/articles/57202526968731",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Location Hub",
+      "href": "https://help.klaviyo.com/hc/en-us/articles/52159523095451",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Quiet Hours in Campaigns",
+      "href": "https://help.klaviyo.com/hc/en-us/articles/quiet-hours-in-campaigns",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Social Performance",
+      "href": "https://help.klaviyo.com/hc/en-us/articles/how-to-measure-social-revenue-and-engagement-with-social-performance",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Ecommerce",
+      "href": "https://www.klaviyo.com/use-cases/ecommerce",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "Retail",
+      "href": "https://www.klaviyo.com/use-cases/retail",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "Hospitality & restaurants",
+      "href": "https://www.klaviyo.com/industry/restaurants",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "Fitness & wellness",
+      "href": "https://www.klaviyo.com/industry/wellness",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "Enterprise",
+      "href": "https://www.klaviyo.com/enterprise",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "Small business",
+      "href": "https://www.klaviyo.com/use-cases/small-business",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "Agency partners",
+      "href": "https://www.klaviyo.com/partners",
+      "area": "header",
+      "kind": "platform"
+    },
+    {
+      "label": "Technology partners",
+      "href": "https://www.klaviyo.com/partners/technology-partnerships",
+      "area": "header",
+      "kind": "platform"
+    },
+    {
+      "label": "Developers",
+      "href": "https://developers.klaviyo.com/",
+      "area": "header",
+      "kind": "platform"
+    },
+    {
+      "label": "Abandoned cart recovery",
+      "href": "https://www.klaviyo.com/use-cases/abandoned-cart-recovery",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "Marketing personalization at scale",
+      "href": "https://www.klaviyo.com/use-cases/marketing-personalization",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Post-purchase & loyalty",
+      "href": "https://www.klaviyo.com/use-cases/post-purchase-loyalty",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "Win-back & re-engagement",
+      "href": "https://www.klaviyo.com/use-cases/winback-engagement",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "Predictive LTV & retention",
+      "href": "https://www.klaviyo.com/use-cases/predictive-ltv",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "Resource hub",
+      "href": "https://www.klaviyo.com/customer-resources",
+      "area": "header",
+      "kind": "resources"
+    },
+    {
+      "label": "Customer stories",
+      "href": "https://www.klaviyo.com/customers",
+      "area": "header",
+      "kind": "customers"
+    },
+    {
+      "label": "Blog",
+      "href": "https://www.klaviyo.com/blog",
+      "area": "header",
+      "kind": "resources"
+    },
+    {
+      "label": "Guides and reports",
+      "href": "https://www.klaviyo.com/marketing-resources",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Events",
+      "href": "https://www.klaviyo.com/events",
+      "area": "header",
+      "kind": "resources"
+    },
+    {
+      "label": "Newsroom",
+      "href": "https://www.klaviyo.com/newsroom",
+      "area": "header",
+      "kind": "company"
+    },
+    {
+      "label": "Trust center",
+      "href": "https://www.klaviyo.com/trust",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Help Center",
+      "href": "https://help.klaviyo.com/hc/en-us",
+      "area": "header",
+      "kind": "resources"
+    },
+    {
+      "label": "Community",
+      "href": "https://community.klaviyo.com/",
+      "area": "header",
+      "kind": "resources"
+    },
+    {
+      "label": "Academy",
+      "href": "https://academy.klaviyo.com/en-us",
+      "area": "header",
+      "kind": "resources"
+    },
+    {
+      "label": "Product certificates",
+      "href": "https://academy.klaviyo.com/en-us/credentials",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Support overview",
+      "href": "https://www.klaviyo.com/success",
+      "area": "header",
+      "kind": "resources"
+    },
+    {
+      "label": "Professional services",
+      "href": "https://www.klaviyo.com/success/premium-support",
+      "area": "header",
+      "kind": "resources"
+    },
+    {
+      "label": "Partner directory",
+      "href": "https://connect.klaviyo.com/",
+      "area": "header",
+      "kind": "platform"
+    }
+  ],
+  "stack": {
+    "generator": null,
+    "scriptHosts": [
+      "analytics.tiktok.com",
+      "capi-automation.s3.us-east-2.amazonaws.com",
+      "tr.capterra.com",
+      "j.6sc.co",
+      "s.pinimg.com",
+      "www.googletagmanager.com",
+      "cdn.amplitude.com",
+      "bzrcdn.openai.com",
+      "collector-51975.us.tvsquared.com",
+      "cdn.heapanalytics.com",
+      "cdn.pdst.fm",
+      "connect.facebook.net",
+      "c.amazon-adsystem.com",
+      "t.contentsquare.net"
+    ],
+    "signals": [
+      "Google Tag Manager dataLayer"
+    ],
+    "server": "cloudflare",
+    "poweredBy": null
+  },
   "sources": [
     "https://www.klaviyo.com"
   ],
+  "dossier": {
+    "sections": [
+      {
+        "id": "positioning",
+        "title": "Positioning",
+        "summary": "Klaviyo has repositioned from email marketing to an 'autonomous B2C CRM' led by two AI agents. Older product pages still sell email on ROI, so the story is mid-transition.",
+        "facts": [
+          {
+            "text": "Category claim on the homepage.",
+            "step": 1,
+            "type": "fact",
+            "quote": "THE AUTONOMOUS B2C CRM"
+          },
+          {
+            "text": "Lead promise is Composer, the AI marketing agent.",
+            "step": 1,
+            "type": "fact",
+            "quote": "Composer turns customer data into revenue. You approve the plan, and every result is measured."
+          },
+          {
+            "text": "Enterprise page repeats the CRM frame.",
+            "step": 5,
+            "type": "fact",
+            "quote": "The B2C CRM built for modern enterprise"
+          },
+          {
+            "text": "The Email product page still leads with an ROI number.",
+            "step": 13,
+            "type": "fact",
+            "quote": "Email marketing that delivers wins—and 63x avg ROI"
+          }
+        ],
+        "gaps": []
+      },
+      {
+        "id": "offerings",
+        "title": "Products and offerings",
+        "summary": "Two agents sit on one data platform: Composer (marketing) and Customer Agent (service). Under them are classic channels (email, SMS, push), flows and segmentation, plus social, reviews, a customer hub and a helpdesk.",
+        "facts": [
+          {
+            "text": "Composer plans, builds and audits for the marketer.",
+            "step": 3,
+            "type": "fact",
+            "quote": "Composer combines your business context, Klaviyo’s marketing expertise, and your connected tools to plan your calendar, build your campaigns, audit your flows, and tell you what to do next."
+          },
+          {
+            "text": "Composer keeps a human approval step.",
+            "step": 3,
+            "type": "fact",
+            "quote": "Composer analyzes, audits, drafts, and automates. You review, then decide what’s next."
+          },
+          {
+            "text": "Customer Agent covers service and selling.",
+            "step": 1,
+            "type": "fact",
+            "quote": "Customer Agent resolves 65% of questions autonomously."
+          },
+          {
+            "text": "Service page argues against ticket deflection.",
+            "step": 11,
+            "type": "fact",
+            "quote": "Most service tools are built to deflect tickets. Klaviyo helps every conversation do more, with opportunities to recommend products, recover carts, and keep customers coming back."
+          },
+          {
+            "text": "Email personalisation draws on a built-in data platform.",
+            "step": 13,
+            "type": "fact",
+            "quote": "Personalize every email with purchase history, browsing behavior, and predicted value—all powered by the built-in Klaviyo Data Platform."
+          }
+        ],
+        "gaps": [
+          "Flows, segmentation, SMS and forms pages were in the nav but only two product pages were read."
+        ]
+      },
+      {
+        "id": "pricing",
+        "title": "Pricing",
+        "summary": "A free plan, an Email plan from $20 a month and a Marketing plan from $25 a month priced by active profiles, with a custom tier above 150,000 profiles. AI and service products are included in small quantities, then sold as add-ons.",
+        "facts": [
+          {
+            "text": "Free plan limits.",
+            "step": 2,
+            "type": "fact",
+            "quote": "Up to 250 active profiles and 500 emails per month"
+          },
+          {
+            "text": "Free plan includes a small AI allowance.",
+            "step": 2,
+            "type": "fact",
+            "quote": "$10 of Composer usage per month"
+          },
+          {
+            "text": "Free plan includes a Customer Agent allowance.",
+            "step": 2,
+            "type": "fact",
+            "quote": "Customer Agent with 10 resolutions per month"
+          },
+          {
+            "text": "Email plan from $20 for the first tier.",
+            "step": 2,
+            "type": "fact",
+            "quote": "Grow with email. Automate campaigns and build subscribers. $20 /month"
+          },
+          {
+            "text": "Marketing plan list and promo price.",
+            "step": 2,
+            "type": "fact",
+            "quote": "$25 $1 /month"
+          },
+          {
+            "text": "The promo is limited and capped by profile count.",
+            "step": 2,
+            "type": "fact",
+            "quote": "Limited time: Get your first month of an eligible Klaviyo Marketing Plan for just $1, for up to 5,000 active profiles."
+          },
+          {
+            "text": "Above 150,000 profiles, pricing is custom.",
+            "step": 2,
+            "type": "fact",
+            "quote": "Running at scale, or several brands? Talk to sales to build your custom plan."
+          },
+          {
+            "text": "Billing unit is reachable contacts.",
+            "step": 9,
+            "type": "fact",
+            "quote": "Active profiles: Billing is based on reachable contacts, while unsubscribed and suppressed contacts do not count."
+          }
+        ],
+        "gaps": [
+          "Prices above the first profile tier sit behind a slider and were not captured.",
+          "SMS and Composer add-on prices were not shown."
+        ]
+      },
+      {
+        "id": "platform",
+        "title": "Technical platform",
+        "summary": "A public developer site with API reference, SDKs for server and mobile languages, a CLI, an MCP server and an agent-ready docs index. Enterprise copy stresses custom objects, 400+ integrations and warehouse sync.",
+        "facts": [
+          {
+            "text": "API reference scope.",
+            "step": 4,
+            "type": "fact",
+            "quote": "Every endpoint, with its parameters, request and response bodies, and an example request."
+          },
+          {
+            "text": "SDK coverage.",
+            "step": 4,
+            "type": "fact",
+            "quote": "Klaviyo offers SDKs for server-side languages (Python, PHP, Ruby, Node) and mobile platforms (iOS, Android, React Native, Flutter)."
+          },
+          {
+            "text": "Agent connection options.",
+            "step": 4,
+            "type": "fact",
+            "quote": "Connect your AI agent to Klaviyo's docs, OpenAPI spec, MCP server and CLI."
+          },
+          {
+            "text": "Docs are published for machines too.",
+            "step": 4,
+            "type": "fact",
+            "quote": "An index of every page is at https://developers.klaviyo.com/llms.txt."
+          },
+          {
+            "text": "Extensibility claim for enterprise.",
+            "step": 5,
+            "type": "fact",
+            "quote": "Custom objects, APIs, and 400+ integrations extend it without heavy engineering."
+          },
+          {
+            "text": "Positioned beside the customer's own stack.",
+            "step": 5,
+            "type": "fact",
+            "quote": "Klaviyo works with your warehouse, CDP, models, and agents instead of replacing them."
+          }
+        ],
+        "gaps": [
+          "Rate limits and webhook behaviour were not read."
+        ]
+      },
+      {
+        "id": "company",
+        "title": "Company presentation",
+        "summary": "The newsroom shows a company in expansion: a headless platform launch, an AI-agents launch, a Google partnership, new regional headquarters and a new CPO after an acquisition. Customer proof is outcome-led with named brands.",
+        "facts": [
+          {
+            "text": "Platform opens to agents.",
+            "step": 7,
+            "type": "fact",
+            "quote": "Klaviyo goes Headless, Opening its Platform to Agents and Marketers Wherever They Work"
+          },
+          {
+            "text": "Strategic partnership.",
+            "step": 7,
+            "type": "fact",
+            "quote": "Klaviyo and Google Announce Strategic Partnership to Power Autonomous Customer Experiences"
+          },
+          {
+            "text": "Leadership change tied to an acquisition.",
+            "step": 7,
+            "type": "fact",
+            "quote": "Klaviyo Appoints Elias Torres as Chief Product Officer Following Strategic Acquisition of Agency Team and Technology"
+          },
+          {
+            "text": "Customer outcome on the stories page.",
+            "step": 6,
+            "type": "fact",
+            "quote": "Thirdlove drives 15x SMS ROI after consolidating email and SMS in Klaviyo"
+          },
+          {
+            "text": "Customer quote presents Klaviyo as the system of record.",
+            "step": 6,
+            "type": "fact",
+            "quote": "For us, Klaviyo is our CRM and our CDP, and it allows us to take data-backed actions to reach our customers."
+          },
+          {
+            "text": "Brand-count claim.",
+            "step": 5,
+            "type": "fact",
+            "quote": "Powering 200,000+ relationship-driven brands"
+          }
+        ],
+        "gaps": [
+          "No About page surfaced; the newsroom was the company page."
+        ]
+      }
+    ]
+  },
   "scores": {
     "jtbd_fit": {
       "score": 4,
-      "evidence": "Subhead: \"Composer turns customer data into revenue. You approve the plan, and every result is measured.\"",
-      "step": 1
+      "evidence": "Pages for service, abandoned cart recovery and email each name a specific job; home names two agents for two jobs.",
+      "step": 11
     },
     "capability_visible": {
       "score": 4,
-      "evidence": "Hero shows product UI with a revenue summary and an AI recommendations panel.",
-      "step": 1
+      "evidence": "Free plan makes the product tryable; Composer prompt library and product tours are public. Product UI itself is behind signup.",
+      "step": 3
     },
     "pricing_transparency": {
-      "score": null,
-      "evidence": "Pricing is a nav link only in captured steps.",
-      "step": null
+      "score": 4,
+      "evidence": "Free, $20 and $25 plans plus a separate page explaining the billing unit. Higher profile tiers are behind a slider and add-ons are not priced.",
+      "step": 2
+    },
+    "product_breadth": {
+      "score": 3,
+      "evidence": "Two agents plus channels, flows, reviews, helpdesk and a customer hub; the CRM label stretches across products whose pages still sell email.",
+      "step": 3
+    },
+    "platform_depth": {
+      "score": 5,
+      "evidence": "Public API reference, seven SDK languages, CLI, MCP server and an llms.txt index; custom objects and 400+ integrations for enterprise.",
+      "step": 4
     },
     "time_to_value": {
       "score": null,
-      "evidence": "Flow stopped at the signup form.",
+      "evidence": "Capture stops at the signup form.",
       "step": null
     },
     "friction": {
-      "score": 5,
-      "evidence": "Signup is one email field or Google, nothing else (step 2).",
-      "step": 2
+      "score": 4,
+      "evidence": "One click from home. First screen asks only for an email or Google; password and store details come later.",
+      "step": 14
     },
     "trust": {
       "score": 4,
-      "evidence": "Named brands (Funko, Dollar Shave Club, Glossier, Dermalogica) and a customer count.",
-      "step": 1
+      "evidence": "Named brands with outcomes (Thirdlove, Dermalogica) plus analyst mentions. Brand-count appears on several pages.",
+      "step": 6
     },
     "mobile": {
       "score": null,
-      "evidence": "Mobile capture exists for step 1 but was not assessed.",
+      "evidence": "Phone captures exist for home and pricing but were not assessed.",
       "step": null
     },
     "states": {
@@ -75,88 +1431,110 @@
     },
     "a11y_basics": {
       "score": null,
-      "evidence": "Not tested in this run.",
+      "evidence": "Not tested.",
       "step": null
     },
     "value_prop_clarity": {
       "score": 3,
-      "evidence": "Two category labels compete: \"The autonomous B2C CRM\" eyebrow and \"AI marketing agent\" headline.",
+      "evidence": "'Autonomous B2C CRM' and 'AI marketing agent' are category language; the subhead explains the job.",
       "step": 1
     },
     "proof_quality": {
       "score": 3,
-      "evidence": "\"Powering 200,000+ relationship-driven brands across 100 countries\" is unsourced; dashboard figures look like demo data and are not labelled as such.",
-      "step": 1
+      "evidence": "Customer outcomes are named, but '63x avg ROI' and '65% resolved autonomously' have no method on the page.",
+      "step": 13
     },
     "persuasion_integrity": {
       "score": 4,
-      "evidence": "\"You approve the plan\" frames AI as supervised, not magic.",
-      "step": 1
+      "evidence": "The $1 first-month offer states its cap and that it is limited time.",
+      "step": 2
     },
     "cta_logic": {
       "score": 4,
-      "evidence": "\"Sign up\" and \"Sign up with Google\" are clear. A promo banner (\"Try it now\") competes for the click.",
-      "step": 1
+      "evidence": "'Sign up' plus 'View pricing' appear together on product pages; enterprise swaps in 'Talk to sales'.",
+      "step": 3
+    },
+    "company_narrative": {
+      "score": 3,
+      "evidence": "Homepage says AI agents and CRM; the Email page still sells email ROI. Newsroom supports the agent story.",
+      "step": 13
     }
   },
   "read": {
-    "summary": "A product-led pitch with the lightest signup of the three pilots. The AI-agent framing is current, but category labels compete.",
+    "summary": "A company mid-reposition: the homepage and newsroom sell autonomous AI agents on a CRM, while product pages and the pricing grid still read as an email platform. Platform openness and a real free plan are the strongest parts.",
     "pros": [
-      "Signup asks for one email or Google, the lowest friction here.",
-      "Hero shows real product UI and a concrete recommendation.",
-      "\"You approve the plan\" addresses fear of an autonomous agent."
+      "A free plan with allowances for every new product lets a merchant try the whole stack.",
+      "Developer site is open: API reference, SDKs, CLI, MCP server, llms.txt.",
+      "Signup starts with only an email or Google.",
+      "Promo pricing states its cap and duration."
     ],
     "cons": [
-      "Eyebrow and headline describe the product in two different ways.",
-      "Demo dashboard numbers are not labelled as sample data.",
-      "A promo banner adds a second competing CTA."
+      "The CRM and agent story is not carried onto the Email product page, which leads with ROI.",
+      "'63x avg ROI' and '65% resolved' have no method shown.",
+      "Prices beyond the first profile tier require using a slider.",
+      "No About page surfaced."
     ],
-    "howItSells": "Sells outcome (revenue) with supervised automation, supported by well-known DTC brands and scale. The AI framing is the hook; the proof is the logo bar.",
+    "howItSells": "Sells autonomy with oversight: AI agents that do the work while the marketer approves. Supports it with a free tier, named brand outcomes and an open developer platform.",
     "copy": [
-      "Single-field signup.",
-      "Say what the human still controls."
+      "Include small allowances of every new product in the free plan.",
+      "Publish docs in machine-readable form.",
+      "State the cap and end of a promo price."
     ],
     "avoid": [
-      "Two competing category names in the hero.",
-      "Unlabelled demo figures."
+      "A new category name on the homepage while product pages use the old one.",
+      "Headline ROI numbers with no method."
     ],
     "tactics": [
-      "social_proof",
       "authority",
-      "commitment_ladder"
+      "social_proof",
+      "commitment_ladder",
+      "anchoring"
     ],
     "confidence": "medium",
     "unknowns": [
-      "What the first-run experience asks next.",
-      "Pricing and plan limits.",
-      "Whether \"Composer\" is available on the free plan.",
-      "Mobile experience."
+      "Pricing above 500 profiles.",
+      "Add-on prices for SMS, Composer and Customer Agent.",
+      "What happens after email entry.",
+      "Mobile experience.",
+      "Flows and segmentation product pages."
     ],
     "hypothesis": {
-      "statement": "Labelling the hero dashboard as sample data and removing the promo banner will increase trust and signup completion.",
-      "metric": "Signup completion rate",
-      "guardrail": "Banner-driven feature awareness (click rate on the announcement)",
-      "decisionRule": "Ship if completion rises and the announcement loses no more than an agreed share of clicks."
+      "statement": "Rewriting the Email product page headline to match the agent-led homepage ('Your AI marketing agent runs your email') will keep visitors on one story and lift page-to-signup rate.",
+      "metric": "Email page to signup-start rate",
+      "guardrail": "Organic search entry traffic to the page",
+      "decisionRule": "Ship if signup-start rises by a pre-agreed margin and organic entries do not fall in a four-week split."
     }
   },
   "claims": [
     {
-      "text": "Powering 200,000+ relationship-driven brands across 100 countries",
+      "text": "Customer Agent resolves 65% of questions autonomously.",
       "verdict": "unsupported",
       "step": 1,
       "evidenceStep": null
     },
     {
-      "text": "Composer turns customer data into revenue",
+      "text": "Email marketing that delivers wins—and 63x avg ROI",
+      "verdict": "unsupported",
+      "step": 13,
+      "evidenceStep": null
+    },
+    {
+      "text": "Powering 200,000+ relationship-driven brands",
       "verdict": "plausible",
-      "step": 1,
+      "step": 5,
       "evidenceStep": 1
     },
     {
-      "text": "Every result is measured",
+      "text": "Thirdlove drives 15x SMS ROI after consolidating email and SMS in Klaviyo",
       "verdict": "plausible",
-      "step": 1,
-      "evidenceStep": 1
+      "step": 6,
+      "evidenceStep": null
+    },
+    {
+      "text": "Limited time: Get your first month of an eligible Klaviyo Marketing Plan for just $1, for up to 5,000 active profiles.",
+      "verdict": "proven",
+      "step": 2,
+      "evidenceStep": 2
     }
   ]
 }

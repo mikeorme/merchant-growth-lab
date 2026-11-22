@@ -1,0 +1,388 @@
+{
+  "dossier": {
+    "sections": [
+      {
+        "id": "positioning",
+        "title": "Positioning",
+        "summary": "Klaviyo has repositioned from email marketing to an 'autonomous B2C CRM' led by two AI agents. Older product pages still sell email on ROI, so the story is mid-transition.",
+        "facts": [
+          {
+            "text": "Category claim on the homepage.",
+            "step": 1,
+            "type": "fact",
+            "quote": "THE AUTONOMOUS B2C CRM"
+          },
+          {
+            "text": "Lead promise is Composer, the AI marketing agent.",
+            "step": 1,
+            "type": "fact",
+            "quote": "Composer turns customer data into revenue. You approve the plan, and every result is measured."
+          },
+          {
+            "text": "Enterprise page repeats the CRM frame.",
+            "step": 5,
+            "type": "fact",
+            "quote": "The B2C CRM built for modern enterprise"
+          },
+          {
+            "text": "The Email product page still leads with an ROI number.",
+            "step": 13,
+            "type": "fact",
+            "quote": "Email marketing that delivers wins—and 63x avg ROI"
+          }
+        ],
+        "gaps": []
+      },
+      {
+        "id": "offerings",
+        "title": "Products and offerings",
+        "summary": "Two agents sit on one data platform: Composer (marketing) and Customer Agent (service). Under them are classic channels (email, SMS, push), flows and segmentation, plus social, reviews, a customer hub and a helpdesk.",
+        "facts": [
+          {
+            "text": "Composer plans, builds and audits for the marketer.",
+            "step": 3,
+            "type": "fact",
+            "quote": "Composer combines your business context, Klaviyo’s marketing expertise, and your connected tools to plan your calendar, build your campaigns, audit your flows, and tell you what to do next."
+          },
+          {
+            "text": "Composer keeps a human approval step.",
+            "step": 3,
+            "type": "fact",
+            "quote": "Composer analyzes, audits, drafts, and automates. You review, then decide what’s next."
+          },
+          {
+            "text": "Customer Agent covers service and selling.",
+            "step": 1,
+            "type": "fact",
+            "quote": "Customer Agent resolves 65% of questions autonomously."
+          },
+          {
+            "text": "Service page argues against ticket deflection.",
+            "step": 11,
+            "type": "fact",
+            "quote": "Most service tools are built to deflect tickets. Klaviyo helps every conversation do more, with opportunities to recommend products, recover carts, and keep customers coming back."
+          },
+          {
+            "text": "Email personalisation draws on a built-in data platform.",
+            "step": 13,
+            "type": "fact",
+            "quote": "Personalize every email with purchase history, browsing behavior, and predicted value—all powered by the built-in Klaviyo Data Platform."
+          }
+        ],
+        "gaps": [
+          "Flows, segmentation, SMS and forms pages were in the nav but only two product pages were read."
+        ]
+      },
+      {
+        "id": "pricing",
+        "title": "Pricing",
+        "summary": "A free plan, an Email plan from $20 a month and a Marketing plan from $25 a month priced by active profiles, with a custom tier above 150,000 profiles. AI and service products are included in small quantities, then sold as add-ons.",
+        "facts": [
+          {
+            "text": "Free plan limits.",
+            "step": 2,
+            "type": "fact",
+            "quote": "Up to 250 active profiles and 500 emails per month"
+          },
+          {
+            "text": "Free plan includes a small AI allowance.",
+            "step": 2,
+            "type": "fact",
+            "quote": "$10 of Composer usage per month"
+          },
+          {
+            "text": "Free plan includes a Customer Agent allowance.",
+            "step": 2,
+            "type": "fact",
+            "quote": "Customer Agent with 10 resolutions per month"
+          },
+          {
+            "text": "Email plan from $20 for the first tier.",
+            "step": 2,
+            "type": "fact",
+            "quote": "Grow with email. Automate campaigns and build subscribers. $20 /month"
+          },
+          {
+            "text": "Marketing plan list and promo price.",
+            "step": 2,
+            "type": "fact",
+            "quote": "$25 $1 /month"
+          },
+          {
+            "text": "The promo is limited and capped by profile count.",
+            "step": 2,
+            "type": "fact",
+            "quote": "Limited time: Get your first month of an eligible Klaviyo Marketing Plan for just $1, for up to 5,000 active profiles."
+          },
+          {
+            "text": "Above 150,000 profiles, pricing is custom.",
+            "step": 2,
+            "type": "fact",
+            "quote": "Running at scale, or several brands? Talk to sales to build your custom plan."
+          },
+          {
+            "text": "Billing unit is reachable contacts.",
+            "step": 9,
+            "type": "fact",
+            "quote": "Active profiles: Billing is based on reachable contacts, while unsubscribed and suppressed contacts do not count."
+          }
+        ],
+        "gaps": [
+          "Prices above the first profile tier sit behind a slider and were not captured.",
+          "SMS and Composer add-on prices were not shown."
+        ]
+      },
+      {
+        "id": "platform",
+        "title": "Technical platform",
+        "summary": "A public developer site with API reference, SDKs for server and mobile languages, a CLI, an MCP server and an agent-ready docs index. Enterprise copy stresses custom objects, 400+ integrations and warehouse sync.",
+        "facts": [
+          {
+            "text": "API reference scope.",
+            "step": 4,
+            "type": "fact",
+            "quote": "Every endpoint, with its parameters, request and response bodies, and an example request."
+          },
+          {
+            "text": "SDK coverage.",
+            "step": 4,
+            "type": "fact",
+            "quote": "Klaviyo offers SDKs for server-side languages (Python, PHP, Ruby, Node) and mobile platforms (iOS, Android, React Native, Flutter)."
+          },
+          {
+            "text": "Agent connection options.",
+            "step": 4,
+            "type": "fact",
+            "quote": "Connect your AI agent to Klaviyo's docs, OpenAPI spec, MCP server and CLI."
+          },
+          {
+            "text": "Docs are published for machines too.",
+            "step": 4,
+            "type": "fact",
+            "quote": "An index of every page is at https://developers.klaviyo.com/llms.txt."
+          },
+          {
+            "text": "Extensibility claim for enterprise.",
+            "step": 5,
+            "type": "fact",
+            "quote": "Custom objects, APIs, and 400+ integrations extend it without heavy engineering."
+          },
+          {
+            "text": "Positioned beside the customer's own stack.",
+            "step": 5,
+            "type": "fact",
+            "quote": "Klaviyo works with your warehouse, CDP, models, and agents instead of replacing them."
+          }
+        ],
+        "gaps": [
+          "Rate limits and webhook behaviour were not read."
+        ]
+      },
+      {
+        "id": "company",
+        "title": "Company presentation",
+        "summary": "The newsroom shows a company in expansion: a headless platform launch, an AI-agents launch, a Google partnership, new regional headquarters and a new CPO after an acquisition. Customer proof is outcome-led with named brands.",
+        "facts": [
+          {
+            "text": "Platform opens to agents.",
+            "step": 7,
+            "type": "fact",
+            "quote": "Klaviyo goes Headless, Opening its Platform to Agents and Marketers Wherever They Work"
+          },
+          {
+            "text": "Strategic partnership.",
+            "step": 7,
+            "type": "fact",
+            "quote": "Klaviyo and Google Announce Strategic Partnership to Power Autonomous Customer Experiences"
+          },
+          {
+            "text": "Leadership change tied to an acquisition.",
+            "step": 7,
+            "type": "fact",
+            "quote": "Klaviyo Appoints Elias Torres as Chief Product Officer Following Strategic Acquisition of Agency Team and Technology"
+          },
+          {
+            "text": "Customer outcome on the stories page.",
+            "step": 6,
+            "type": "fact",
+            "quote": "Thirdlove drives 15x SMS ROI after consolidating email and SMS in Klaviyo"
+          },
+          {
+            "text": "Customer quote presents Klaviyo as the system of record.",
+            "step": 6,
+            "type": "fact",
+            "quote": "For us, Klaviyo is our CRM and our CDP, and it allows us to take data-backed actions to reach our customers."
+          },
+          {
+            "text": "Brand-count claim.",
+            "step": 5,
+            "type": "fact",
+            "quote": "Powering 200,000+ relationship-driven brands"
+          }
+        ],
+        "gaps": [
+          "No About page surfaced; the newsroom was the company page."
+        ]
+      }
+    ]
+  },
+  "scores": {
+    "jtbd_fit": {
+      "score": 4,
+      "evidence": "Pages for service, abandoned cart recovery and email each name a specific job; home names two agents for two jobs.",
+      "step": 11
+    },
+    "capability_visible": {
+      "score": 4,
+      "evidence": "Free plan makes the product tryable; Composer prompt library and product tours are public. Product UI itself is behind signup.",
+      "step": 3
+    },
+    "pricing_transparency": {
+      "score": 4,
+      "evidence": "Free, $20 and $25 plans plus a separate page explaining the billing unit. Higher profile tiers are behind a slider and add-ons are not priced.",
+      "step": 2
+    },
+    "product_breadth": {
+      "score": 3,
+      "evidence": "Two agents plus channels, flows, reviews, helpdesk and a customer hub; the CRM label stretches across products whose pages still sell email.",
+      "step": 3
+    },
+    "platform_depth": {
+      "score": 5,
+      "evidence": "Public API reference, seven SDK languages, CLI, MCP server and an llms.txt index; custom objects and 400+ integrations for enterprise.",
+      "step": 4
+    },
+    "time_to_value": {
+      "score": null,
+      "evidence": "Capture stops at the signup form.",
+      "step": null
+    },
+    "friction": {
+      "score": 4,
+      "evidence": "One click from home. First screen asks only for an email or Google; password and store details come later.",
+      "step": 14
+    },
+    "trust": {
+      "score": 4,
+      "evidence": "Named brands with outcomes (Thirdlove, Dermalogica) plus analyst mentions. Brand-count appears on several pages.",
+      "step": 6
+    },
+    "mobile": {
+      "score": null,
+      "evidence": "Phone captures exist for home and pricing but were not assessed.",
+      "step": null
+    },
+    "states": {
+      "score": null,
+      "evidence": "No error or empty states reached.",
+      "step": null
+    },
+    "a11y_basics": {
+      "score": null,
+      "evidence": "Not tested.",
+      "step": null
+    },
+    "value_prop_clarity": {
+      "score": 3,
+      "evidence": "'Autonomous B2C CRM' and 'AI marketing agent' are category language; the subhead explains the job.",
+      "step": 1
+    },
+    "proof_quality": {
+      "score": 3,
+      "evidence": "Customer outcomes are named, but '63x avg ROI' and '65% resolved autonomously' have no method on the page.",
+      "step": 13
+    },
+    "persuasion_integrity": {
+      "score": 4,
+      "evidence": "The $1 first-month offer states its cap and that it is limited time.",
+      "step": 2
+    },
+    "cta_logic": {
+      "score": 4,
+      "evidence": "'Sign up' plus 'View pricing' appear together on product pages; enterprise swaps in 'Talk to sales'.",
+      "step": 3
+    },
+    "company_narrative": {
+      "score": 3,
+      "evidence": "Homepage says AI agents and CRM; the Email page still sells email ROI. Newsroom supports the agent story.",
+      "step": 13
+    }
+  },
+  "read": {
+    "summary": "A company mid-reposition: the homepage and newsroom sell autonomous AI agents on a CRM, while product pages and the pricing grid still read as an email platform. Platform openness and a real free plan are the strongest parts.",
+    "pros": [
+      "A free plan with allowances for every new product lets a merchant try the whole stack.",
+      "Developer site is open: API reference, SDKs, CLI, MCP server, llms.txt.",
+      "Signup starts with only an email or Google.",
+      "Promo pricing states its cap and duration."
+    ],
+    "cons": [
+      "The CRM and agent story is not carried onto the Email product page, which leads with ROI.",
+      "'63x avg ROI' and '65% resolved' have no method shown.",
+      "Prices beyond the first profile tier require using a slider.",
+      "No About page surfaced."
+    ],
+    "howItSells": "Sells autonomy with oversight: AI agents that do the work while the marketer approves. Supports it with a free tier, named brand outcomes and an open developer platform.",
+    "copy": [
+      "Include small allowances of every new product in the free plan.",
+      "Publish docs in machine-readable form.",
+      "State the cap and end of a promo price."
+    ],
+    "avoid": [
+      "A new category name on the homepage while product pages use the old one.",
+      "Headline ROI numbers with no method."
+    ],
+    "tactics": [
+      "authority",
+      "social_proof",
+      "commitment_ladder",
+      "anchoring"
+    ],
+    "confidence": "medium",
+    "unknowns": [
+      "Pricing above 500 profiles.",
+      "Add-on prices for SMS, Composer and Customer Agent.",
+      "What happens after email entry.",
+      "Mobile experience.",
+      "Flows and segmentation product pages."
+    ],
+    "hypothesis": {
+      "statement": "Rewriting the Email product page headline to match the agent-led homepage ('Your AI marketing agent runs your email') will keep visitors on one story and lift page-to-signup rate.",
+      "metric": "Email page to signup-start rate",
+      "guardrail": "Organic search entry traffic to the page",
+      "decisionRule": "Ship if signup-start rises by a pre-agreed margin and organic entries do not fall in a four-week split."
+    }
+  },
+  "claims": [
+    {
+      "text": "Customer Agent resolves 65% of questions autonomously.",
+      "verdict": "unsupported",
+      "step": 1,
+      "evidenceStep": null
+    },
+    {
+      "text": "Email marketing that delivers wins—and 63x avg ROI",
+      "verdict": "unsupported",
+      "step": 13,
+      "evidenceStep": null
+    },
+    {
+      "text": "Powering 200,000+ relationship-driven brands",
+      "verdict": "plausible",
+      "step": 5,
+      "evidenceStep": 1
+    },
+    {
+      "text": "Thirdlove drives 15x SMS ROI after consolidating email and SMS in Klaviyo",
+      "verdict": "plausible",
+      "step": 6,
+      "evidenceStep": null
+    },
+    {
+      "text": "Limited time: Get your first month of an eligible Klaviyo Marketing Plan for just $1, for up to 5,000 active profiles.",
+      "verdict": "proven",
+      "step": 2,
+      "evidenceStep": 2
+    }
+  ]
+}

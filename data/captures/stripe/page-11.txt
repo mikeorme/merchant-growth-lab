@@ -1,0 +1,268 @@
+URL: https://stripe.com/startups
+TITLE: Grow Your Business with Stripe | Stripe Startups
+DESCRIPTION: Stripe helps startups launch quickly and effectively. Venture-backed startups can apply to Stripe Startups for access to exclusive discounts, events, and content.
+
+Ambitious startups have grown into multibillion-dollar businesses on Stripe—scaling from pre-seed to post-IPO. Incorporate your company, test and accept payments with no-code tools, and automate financial operations to move faster.
+Designed to support venture-backed businesses that are just getting started.
+Payment link is active
+Share your payment link to accept payments.
+buy.stripe.com/aEUa24H
+$120.56
+First payment received!
+$280.81
+Pending balance: $341.42
+Instant payout
+RECENT DEPOSITS
+$432.33 (19 transactions)
+Deposited on 11/19/2026
+$487.32 (21 transactions)
+Deposited on 11/18/2026
+$290.79 (17 transactions)
+Deposited on 11/17/2026
+Revenue recognition
+$5,839,417.15
+Open
+Closed
+Nov 2025
+Nov 2026
+November summary
+Nov 2026
+Recognized revenue previously deferred
+$1,216,752.67
+Revenue from unbilled services
+$4,244,870.34
+Less refunds
+$22.38
+Less disputes
+$8,813.74
+Less bad debts
+$190.56
+
+Millions of successful startups are powered by Stripe. Let’s build the right foundation for yours.
+
+Monetize AI products with flexible pricing options: usage-based, outcome-based, or subscriptions.
+
+Embed payments, financial accounts, cards, and financing to create tailored financial products for your merchants.
+
+Quickly launch and grow recurring revenue with a unified platform for payments, subscriptions, invoicing, tax, accounting, and more.
+
+Accept payments, store funds, and pay out across card networks and bank rails, with fraud protection built in.
+
+Embed crypto purchases directly into your checkout flow—with fraud prevention and authorization optimization built in.
+
+Get everything you need to onboard service providers, manage multiparty payments, and send payouts, all in one place.
+
+Access an optimized suite of tools to accept payments online and in person from customers around the world.
+
+Get credits to offset your Stripe fees, product support from experts, and access to a community of peers and Stripe leaders for your venture-backed business.
+Apply now 
+FAQs 
+Launch faster with credits to offset your Stripe fees, plus an exclusive cap on Stripe Invoicing (starting at 0.4%) up to $10 per invoice.
+Tap into expert insights and how-to programming that support your learning and startup growth journey.
+Tailored advice and recommendations on integrations, no-code options, and third-party tools, so you can reduce decision fatigue and focus on your business.
+Build a network of founders and Stripe leaders.
+
+Stripe has been with us from the beginning. It helped us generate our first dollars of revenue, and helped enable our growth since 2018.
+
+We’ve built our entire payment and billing tech stack on Stripe’s APIs. We can focus on pushing the boundaries of AI while our payments infrastructure evolves alongside us. It’s not just a platform; it’s a growth partner that understands the pace and potential of AI-driven businesses.
+
+We’ve been on Stripe since day one. We processed our first payment on Stripe and we processed our most recent payment on Stripe.
+
+Usage‑based billing lets us define meters in days, ingest real‑time usage from Lovable Cloud, and bill accurately from day one – so we could launch Lovable Cloud and Lovable AI fast and scale.
+
+Form your company, set up your finances, and launch your product from one place.
+Choose a company structure
+Your company will be incorporated in Delaware, USA.
+C Corporation
+Best for startups and international founders
+Limited Liability Company (LLC)
+Best for self-funded and small businesses
+Subsidiary
+Best if your business is owned by a parent company
+Your company has been incorporated
+Form an investor-ready C corp in two business days—then accept payments and raise funds without switching platforms.
+Open a financial account on Stripe in minutes to earn, store, send, and spend with no minimums or monthly fees.
+› stripe projects add vercel/project
+○ Provisioning service...
+     ✓ Configuration complete
+     ✓ Credentials generated & synced
+● Provider ready
+     ✓ Created
+     ✓ Added 4 environment variables in .env
+     ✓ Modified .projects/vault/vault.json
+› stripe projects upgrade
+○ Select a service
+     hobby <
+     pro
+     enterprise
+Use agents to set up hosting, databases, authorization, and other services, so you can go from idea to live app in minutes.
+Customer story
+How Lovable established a US business presence in just a few clicks with Stripe Atlas.
+Learn more 
+Guide
+How to provision your full dev stack from the CLI in 10 minutes.
+Learn more 
+Accept payments with no-code tools, low-code integrations, or APIs—whatever fits your business model.
+No code
+Get your MVP to market by quickly generating shareable, reusable links for accepting payments.
+👋 anything I can help with today?
+Hey, can I buy a license just for myself?
+Sure, in that case I'd recommend our starter plan.
+buy.stripe.com/Ae93Jis
+$19.99
+PER ITEM
+Scan to pay
+No code
+Send your customers an invoice in minutes and collect revenue 3x faster.
+Invoice from Powdur
+$144.79
+Due Feb 21, 2021
+Download invoice
+To
+Jenny Rosen
+From
+Powdur
+Memo
+Note this includes nine editors and unlimited projects.
+Pay this invoice
+Low code
+Manage recurring revenue, reduce churn, and build the right pricing model in a few clicks.
+Subscribe to ChatGPT Plus
+$20.00
+per
+month
+ChatGPT Plus Subscription
+$20.00
+Billed monthly
+Subtotal
+$20.00
+Tax
+$1.72
+Total due today
+$21.72
+Low code
+Launch faster with a conversion-optimized payment form.
+Email
+timotheero@stripe.com
+Payment method
+Card
+PayPal
+Klarna
+Card information
+1234 1234 1234 1234
+MM/YY
+CVC
+Some code
+Design a secure branded payments experience with modular UI building blocks.
+API
+Launch usage-based billing models with flexible infrastructure for metering, credits, and hybrid structures.
+Cloud token
+Previous period
+80,250,068
+Current period
+68,491,224
+Apr 24
+Apr 25
+Apr 26
+Apr 27
+Apr 28
+Apr 29
+Apr 30
+API
+Unify commerce across channels with custom in-person payments experiences.
+Reach customers around the world, add new ways to earn revenue, and give your team a real-time view of performance.
+Enter each new market quickly and confidently with localized payment experiences and built-in fraud protection.
+Embed payments and financial services directly into your platform to create new ways to earn revenue.
+Revenue recognition
+$5,839,417.15
+Open
+Closed
+Nov 2025
+Nov 2026
+November summary
+Nov 2026
+Recognized revenue previously deferred
+$1,216,752.67
+Revenue from unbilled services
+$4,244,870.34
+Less refunds
+$22.38
+Less disputes
+$8,813.74
+Less bad debts
+$190.56
+Use consolidated data and custom reports to keep investors up-to-date and to better understand your customers.
+Customer story
+GitHub Sponsors program doubles global coverage in a few months on Stripe Connect
+Learn more 
+Guide
+Best practices for building a fintech company, from four startups
+Learn more 
+20,000+
+
+New businesses launching on Stripe every week
+
+125+
+
+Payment methods supported through a single integration
+
+50
+
+Countries where Stripe is available to businesses
+
+Venture capital firms and startup accelerators can unlock Stripe discounts and other benefits for their portfolio companies by joining Stripe’s startup partner network.
+
+Antler
+Atomico
+Sequoia
+Techstars
+Y Combinator
+Blackbird
+Kaszek
+500 Global
+Antler
+Atomico
+Sequoia
+Techstars
+Y Combinator
+Blackbird
+Kaszek
+500 Global
+Antler
+Atomico
+Sequoia
+Techstars
+Y Combinator
+Blackbird
+Kaszek
+500 Global
+Antler
+Atomico
+Sequoia
+Techstars
+Y Combinator
+Blackbird
+Kaszek
+500 Global
+Antler
+Atomico
+Sequoia
+Techstars
+Y Combinator
+Blackbird
+Kaszek
+500 Global
+
+Our ecosystem of experts can help you find the right solution, integrate faster, and stay agile.
+
+Get a custom proposal from our sales team, who will tailor a solution to your specific business model and challenges.
+
+Talk to a dedicated support team that knows your integration and gives you extra attention to solve issues faster.
+
+Engage a certified Stripe partner to help with strategy, implementation, deployment, global expansion, or managed services for your Stripe solution.
+
+Work with software, platform, or cloud providers that offer integrated solutions and connect with Stripe for easy deployment.
+
+Get started and grow quickly, with the help of our expert implementation and advisory teams.
+
+Quickly create a new Stripe account today and get started in minutes.

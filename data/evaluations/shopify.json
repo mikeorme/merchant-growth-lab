@@ -1,0 +1,414 @@
+{
+  "dossier": {
+    "sections": [
+      {
+        "id": "positioning",
+        "title": "Positioning",
+        "summary": "Shopify sells itself as the one place to run commerce everywhere people shop, with AI and 'agentic' selling as the current headline. Enterprise, B2B and POS pages reuse the same checkout and conversion proof.",
+        "facts": [
+          {
+            "text": "Home promise.",
+            "step": 1,
+            "type": "fact",
+            "quote": "Dream big and build fast on Shopify. The world’s best commerce platform."
+          },
+          {
+            "text": "Sell-everywhere frame.",
+            "step": 1,
+            "type": "fact",
+            "quote": "Sell everywhere people shop. Online and in person. Across AI and on social. Locally and globally."
+          },
+          {
+            "text": "Enterprise page leads with 'without compromise'.",
+            "step": 5,
+            "type": "fact",
+            "quote": "Enterprise commerce without compromise"
+          },
+          {
+            "text": "The Fall '26 Edition is framed around opening the stack to agents.",
+            "step": 6,
+            "type": "fact",
+            "quote": "The Fall '26 Edition opens Shopify's catalog, cart, and checkout to any agent or app, with new tools for building and securing apps and storefronts."
+          }
+        ],
+        "gaps": [
+          "The homepage hero headline ('Be the next AI all-star') says nothing about what a merchant gets; the subhead does."
+        ]
+      },
+      {
+        "id": "offerings",
+        "title": "Products and offerings",
+        "summary": "Organised by merchant job rather than by product name: build a website, sell anywhere, marketing and analytics, run the business, get paid, and extend. Newer lines are Sidekick (AI assistant), Agentic Storefronts and Catalog.",
+        "facts": [
+          {
+            "text": "Store builder with AI or prebuilt themes.",
+            "step": 1,
+            "type": "fact",
+            "quote": "Build your online store instantly with AI. Or use prebuilt themes."
+          },
+          {
+            "text": "Agentic Storefronts put products inside AI chats.",
+            "step": 8,
+            "type": "fact",
+            "quote": "With Agentic Storefronts, your products show up instantly in ChatGPT, Gemini, and more. Shoppers discover and buy without leaving the chat."
+          },
+          {
+            "text": "Sales channels connect marketplaces.",
+            "step": 9,
+            "type": "fact",
+            "quote": "Connect your product catalog to the top online marketplaces like Amazon, Walmart, eBay, and more."
+          },
+          {
+            "text": "B2B is included on every plan from Basic.",
+            "step": 10,
+            "type": "fact",
+            "quote": "Available on all plans starting from Basic."
+          },
+          {
+            "text": "POS is sold with a hardware-bundle offer.",
+            "step": 11,
+            "type": "fact",
+            "quote": "Get free hardware and more with 1 year of POS Pro — offer worth $2,400."
+          },
+          {
+            "text": "Marketing tools are bundled into the admin.",
+            "step": 12,
+            "type": "fact",
+            "quote": "Find more customers, build profitable relationships, and make strategic decisions with unbiased data—all from one place."
+          },
+          {
+            "text": "The signup path offers AI or theme store setup.",
+            "step": 13,
+            "type": "fact",
+            "quote": "Start with a stunning prebuilt theme or describe what you want and generate a store with AI."
+          }
+        ],
+        "gaps": [
+          "Payments, Shipping, Taxes and Finances & Funding pages were in the nav but not surveyed."
+        ]
+      },
+      {
+        "id": "pricing",
+        "title": "Pricing",
+        "summary": "Four published monthly plans, a cheaper yearly price, a per-plan card rate, one add-on, and a $0 'Agentic' plan. Trial terms are stated differently on different pages.",
+        "facts": [
+          {
+            "text": "Trial offer on pricing page.",
+            "step": 2,
+            "type": "fact",
+            "quote": "Try 3 days free, then $1/month for 3 months."
+          },
+          {
+            "text": "Channels page states the trial differently.",
+            "step": 9,
+            "type": "fact",
+            "quote": "Try Shopify free for 3 days, no credit card required."
+          },
+          {
+            "text": "Basic plan.",
+            "step": 2,
+            "type": "fact",
+            "quote": "Basic $29/mo For solo entrepreneurs"
+          },
+          {
+            "text": "Grow plan.",
+            "step": 2,
+            "type": "fact",
+            "quote": "Grow $79/mo For small teams"
+          },
+          {
+            "text": "Advanced plan.",
+            "step": 2,
+            "type": "fact",
+            "quote": "Advanced $299/mo For global reach"
+          },
+          {
+            "text": "Plus starts at $2,300 a month.",
+            "step": 2,
+            "type": "fact",
+            "quote": "Plus from $2,300/mo For complex businesses"
+          },
+          {
+            "text": "Monthly billing costs more than yearly.",
+            "step": 2,
+            "type": "fact",
+            "quote": "Pay monthly $39 USD/mo $105 USD/mo $399 USD/mo Starts at $2,300 USD/mo"
+          },
+          {
+            "text": "Card rate falls as the plan rises; Basic is 2.9% + 30¢.",
+            "step": 2,
+            "type": "fact",
+            "quote": "Card rates from 2.9% + 30¢ USD"
+          },
+          {
+            "text": "Plus card rate.",
+            "step": 2,
+            "type": "fact",
+            "quote": "Card rates from 2.25% + 30¢ USD"
+          },
+          {
+            "text": "POS Pro is a monthly add-on.",
+            "step": 2,
+            "type": "fact",
+            "quote": "POS Pro ADD ON +$89/mo For physical storefronts"
+          },
+          {
+            "text": "A pay-per-sale plan for selling in AI channels.",
+            "step": 2,
+            "type": "fact",
+            "quote": "Agentic $0/mo For selling in AI channels"
+          }
+        ],
+        "gaps": [
+          "App, theme and domain costs were not on the page.",
+          "Third-party payment gateway fees were not shown."
+        ]
+      },
+      {
+        "id": "platform",
+        "title": "Technical platform",
+        "summary": "A separate developer site (shopify.dev) with docs for apps, storefronts and agents, a CLI, and an AI toolkit. Apps can extend admin, online store and checkout. APIs are named for B2B integration. The API reference itself was not surveyed.",
+        "facts": [
+          {
+            "text": "Docs landing page scope.",
+            "step": 4,
+            "type": "fact",
+            "quote": "Learn how to build an app, or customize your storefront."
+          },
+          {
+            "text": "Apps extend the admin, storefront and checkout.",
+            "step": 4,
+            "type": "fact",
+            "quote": "Extend Shopify's core functionality with apps that integrate into Shopify's admin, online store, checkout and more."
+          },
+          {
+            "text": "Custom storefronts via themes or Hydrogen.",
+            "step": 4,
+            "type": "fact",
+            "quote": "Help merchants express their unique brand by building a custom theme or Hydrogen storefront."
+          },
+          {
+            "text": "Agent-building docs exist.",
+            "step": 4,
+            "type": "fact",
+            "quote": "Build agentic shopping experiences powered by Shopify merchants, from product discovery to checkout."
+          },
+          {
+            "text": "AI coding assistant integration.",
+            "step": 4,
+            "type": "fact",
+            "quote": "Connect your AI coding assistant to Shopify docs, API schemas, and Shopify CLI."
+          },
+          {
+            "text": "B2B page points to APIs for ERP integration.",
+            "step": 10,
+            "type": "fact",
+            "quote": "Use Shopify's APIs to integrate with any ERP and tech stack to create custom solutions."
+          }
+        ],
+        "gaps": [
+          "No API reference, rate limits or webhook pages were read."
+        ]
+      },
+      {
+        "id": "company",
+        "title": "Company presentation",
+        "summary": "The newsroom is the only company page the nav surfaced. It presents Shopify as a network that grows with every connected AI agent. No customers or About page was found in the nav or at /customers or /about.",
+        "facts": [
+          {
+            "text": "Newsroom narrative.",
+            "step": 6,
+            "type": "fact",
+            "quote": "Shopify was built to work wherever people shop. Every connected AI agent brings merchants a new place to sell, gives shoppers an easier way to buy, and makes Shopify's network stronger."
+          },
+          {
+            "text": "Enterprise proof is conversion and cost.",
+            "step": 5,
+            "type": "fact",
+            "quote": "Shopify's total cost of ownership is 33% better on average, so you can re-invest savings into growth.2"
+          },
+          {
+            "text": "Share of US ecommerce on the checkout page.",
+            "step": 3,
+            "type": "fact",
+            "quote": "powers 12% of US ecommerce"
+          },
+          {
+            "text": "Share of US ecommerce on the Agentic page.",
+            "step": 8,
+            "type": "fact",
+            "quote": "powering 14% of US e-commerce"
+          }
+        ],
+        "gaps": [
+          "No customer-stories page found.",
+          "No About page found."
+        ]
+      }
+    ]
+  },
+  "scores": {
+    "jtbd_fit": {
+      "score": 4,
+      "evidence": "The nav groups products by merchant job (build, sell anywhere, market, run, get paid) and the signup path says 'Choose a design, add products, get paid'.",
+      "step": 13
+    },
+    "capability_visible": {
+      "score": 4,
+      "evidence": "Checkout customizer, AI store builder and POS are demonstrated in-page; docs are public. The admin itself is behind signup.",
+      "step": 3
+    },
+    "pricing_transparency": {
+      "score": 4,
+      "evidence": "Four plans with monthly and yearly prices, card rates and add-on are published. Trial terms differ between pricing and channels pages and app, theme and domain costs are absent.",
+      "step": 2
+    },
+    "product_breadth": {
+      "score": 4,
+      "evidence": "Job-based nav is easy to read and new lines (Sidekick, Agentic Storefronts) are explained in plain language.",
+      "step": 8
+    },
+    "platform_depth": {
+      "score": 4,
+      "evidence": "shopify.dev docs, CLI, AI toolkit, Hydrogen, apps in admin and checkout, agent docs. API reference was not read.",
+      "step": 4
+    },
+    "time_to_value": {
+      "score": null,
+      "evidence": "Capture stops at the account form.",
+      "step": null
+    },
+    "friction": {
+      "score": 4,
+      "evidence": "One click from home to /start, which asks for an email first and opens with theme choice.",
+      "step": 13
+    },
+    "trust": {
+      "score": 3,
+      "evidence": "Merchant domains shown and a Forrester B2B leader mention, but no named customer stories page was found.",
+      "step": 1
+    },
+    "mobile": {
+      "score": null,
+      "evidence": "Phone captures exist for home and pricing but were not assessed.",
+      "step": null
+    },
+    "states": {
+      "score": null,
+      "evidence": "No error or empty states reached.",
+      "step": null
+    },
+    "a11y_basics": {
+      "score": null,
+      "evidence": "Not tested.",
+      "step": null
+    },
+    "value_prop_clarity": {
+      "score": 3,
+      "evidence": "Hero headline is abstract ('Be the next AI all-star'); the subhead and the /start page are clearer.",
+      "step": 1
+    },
+    "proof_quality": {
+      "score": 3,
+      "evidence": "The 15% conversion lift cites a 2023 study by an unnamed consultancy, and US ecommerce share is 12% on one page and 14% on another.",
+      "step": 3
+    },
+    "persuasion_integrity": {
+      "score": 3,
+      "evidence": "'Start for free' is the CTA but the pricing page says '$1/month for 3 months' after 3 days; terms sit on different pages.",
+      "step": 2
+    },
+    "cta_logic": {
+      "score": 4,
+      "evidence": "'Start for free' is consistent in nav and body, with 'Talk to sales' for enterprise on B2B and Agentic pages.",
+      "step": 8
+    },
+    "company_narrative": {
+      "score": 4,
+      "evidence": "The agentic-commerce story runs from homepage to newsroom to developer docs to a dedicated product page.",
+      "step": 6
+    }
+  },
+  "read": {
+    "summary": "A job-organised catalogue with a transparent plan ladder, now reframed around AI and agentic selling. Strong on breadth and pricing, weaker on named proof and on consistent trial terms.",
+    "pros": [
+      "Nav and /start both explain Shopify by merchant job, not product name.",
+      "Plan ladder is public, with a clear monthly vs yearly saving and falling card rates.",
+      "A $0 'Agentic' plan lets a merchant try AI-channel selling and pay per sale.",
+      "Developer site, CLI and AI toolkit are public and linked from the main nav."
+    ],
+    "cons": [
+      "The hero headline is abstract; the plain-language promise is in the subhead.",
+      "Trial terms differ: 'free for 3 days, no credit card' vs '$1/month for 3 months'.",
+      "Headline stats conflict (12% vs 14% of US ecommerce) and the conversion study is dated and unnamed.",
+      "No About or customer stories page surfaced."
+    ],
+    "howItSells": "Sells momentum and reach: sell everywhere, build fast, AI built in. Backs it with checkout conversion stats and a long plan ladder with a low-commitment start.",
+    "copy": [
+      "Group the product nav by the merchant's job.",
+      "Offer a pay-per-sale plan for a new channel.",
+      "State monthly and yearly prices side by side."
+    ],
+    "avoid": [
+      "Different trial terms on different pages.",
+      "A headline stat that changes between pages."
+    ],
+    "tactics": [
+      "authority",
+      "commitment_ladder",
+      "social_proof"
+    ],
+    "confidence": "medium",
+    "unknowns": [
+      "API reference depth and rate limits.",
+      "Costs for apps, themes, domains and third-party payment gateways.",
+      "What follows the email step.",
+      "Mobile experience.",
+      "Customer stories (none found)."
+    ],
+    "hypothesis": {
+      "statement": "Stating one trial term (3 days free, then $1/month for 3 months) next to every 'Start for free' button will cut post-signup billing surprise without lowering signup starts.",
+      "metric": "Signup start rate and day-3 paid-conversion rate",
+      "guardrail": "Refund and support-contact rate in the first week",
+      "decisionRule": "Ship if starts hold within 2% and week-one billing contacts fall over a two-week split."
+    }
+  },
+  "claims": [
+    {
+      "text": "The world’s best commerce platform.",
+      "verdict": "unsupported",
+      "step": 1,
+      "evidenceStep": null
+    },
+    {
+      "text": "Shopify's overall conversion rate outpaces the competition by up to 36% and by an average of 15%, based on a study completed in April 2023 in partnership with a Big Three global management consulting company.",
+      "verdict": "plausible",
+      "step": 3,
+      "evidenceStep": 3
+    },
+    {
+      "text": "powers 12% of US ecommerce",
+      "verdict": "plausible",
+      "step": 3,
+      "evidenceStep": 8
+    },
+    {
+      "text": "powering 14% of US e-commerce",
+      "verdict": "plausible",
+      "step": 8,
+      "evidenceStep": 3
+    },
+    {
+      "text": "Try Shopify free for 3 days, no credit card required.",
+      "verdict": "plausible",
+      "step": 9,
+      "evidenceStep": 2
+    },
+    {
+      "text": "Shopify sites render up to 2.4x faster than stores on other platforms and 1.8x faster on average.",
+      "verdict": "unsupported",
+      "step": 5,
+      "evidenceStep": null
+    }
+  ]
+}

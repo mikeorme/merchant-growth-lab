@@ -1,0 +1,119 @@
+URL: https://www.klaviyo.com/enterprise
+TITLE: The Enterprise Marketing Platform for Marketing Automation - Klaviyo
+DESCRIPTION: Klaviyo’s enterprise marketing platform turns data into personalized, cross-channel campaigns with AI, automation, and professional support every step of the way.
+
+___
+The B2C CRM built for modern enterprise
+
+Klaviyo is the platform where data, AI, and marketing channels work together by design, not in silos. Brands get the real-time view of the customer they need for better targeting, personalization, and ROI at scale.
+
+Talk to sales
+Watch demo
+
+Powering 200,000+ relationship-driven brands
+
+On this page:
+Enterprise-grade
+Infrastructure metrics
+Trusted in the industry
+Case studies
+Partners and integrations
+Resources
+Enterprise-grade without enterprise drag
+Flexible platform, yours to extend
+AI agents powered by profiles
+Self-improving workflows
+Omnichannel decisioning
+Activate the data and tech stack you already own
+
+Klaviyo works with your warehouse, CDP, models, and agents instead of replacing them. Send data in any shape and Klaviyo models it for you, with no limit on how far back you can look. Custom objects, APIs, and 400+ integrations extend it without heavy engineering. No rip and replace.
+
+Built to run at enterprise scale
+Talk to sales
+4.2B+
+signals processed daily
+100M
+messages sent in 15 minutes
+9B
+active profiles managed
+200k+
+brands on Klaviyo
+Recognized by leading analysts
+
+Named a Strong Performer in The Forrester Wave(TM): Email Marketing Service Providers, Q1 2026.
+
+Read more
+
+Named a Challenger in the Gartner Magic Quadrant 2026 Multichannel Marketing Hubs
+
+Read more
+
+Named a Major Player in the 2026 IDC MarketScape: Worldwide AI-Enabled CDPs for B2C Users.
+
+Loved by enterprise marketers
+Forrester
+
+Customer Halo recipient
+
+Gartner
+
+Peer Insights
+
+TrustRadius
+
+Buyer’s choice
+
+G2 Leader
+
+Summer 2026 leader
+
+Migration case studies
+21%
+
+YoY growth in revenue from CRM in last 12 months
+
+Read Dermalogica’s story
+400+ pre-built integrations
+
+Seamlessly connect all of your data to Klaviyo.
+
+Explore integrations
+Talk to sales
+Additional resources
+
+Learn how Klaviyo makes it easier for marketing, digital, and developer teams to deliver better results.
+
+Klaviyo Academy
+
+On-demand courses, live trainings, and guides to learn the ropes of Klaviyo and elevate your strategy.
+
+Start learning
+Professional services
+
+Our professional services and support packages provide the guidance and help you need to reach your goals.
+
+Learn more
+Klaviyo MCP server
+
+Step-by-step guidance to configure Klaviyo's MCP server to get AI assistance with your Klaviyo data.
+
+Read the guide
+Email marketing
+
+Learn more about the powerful features that 205,000+ brands rely on to drive revenue.
+
+Explore email
+Enterprise FAQs
+Is Klaviyo built for enterprise brands?
+
+Klaviyo is the autonomous B2C CRM—built to give large brands real-time customer data, AI, and channel execution on one platform, without the developer dependencies and maintenance overhead that slow most marketing teams down.
+
+ 
+
+In the Forrester Wave™: Email Marketing Service Providers, Q1 2026, Klaviyo placed above both Salesforce and SAP, which placed them as Contenders. Klaviyo also received above-average customer satisfaction scores across the portfolio—validated by Forrester, not self-reported.
+
+Can Klaviyo handle enterprise scale?
+Does Klaviyo have enterprise-grade security, compliance, and governance?
+We’ve heard Klaviyo is best for ecommerce. Does it work for our brand’s omnichannel use case?
+Our data is spread across multiple systems. Can Klaviyo handle that level of complexity?
+*Gartner does not endorse any company, vendor, product or service depicted in its publications, and does not advise technology users to select only those vendors with the highest ratings or other designation. Gartner publications consist of the opinions of Gartner's business and technology insight organization and should not be construed as statements of fact. Gartner disclaims all warranties, expressed or implied, with respect to this publication, including any warranties of merchantability or fitness for a particular purpose. GARTNER is a trademark of Gartner, Inc. and/or its affiliates.

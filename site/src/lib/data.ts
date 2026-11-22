@@ -4,13 +4,17 @@ import corpus from '../../../data/corpus.json';
 export type Step = {
   n: number; title: string; url: string; screenshot: string; mobileScreenshot?: string;
   elapsedMs?: number; clicks?: number; fieldsFilled?: number; note?: string; tags?: string[];
+  kind?: string; textFile?: string; via?: string; description?: string; headings?: string[]; ctas?: string[]; prices?: string[];
 };
+export type Fact = { text: string; step: number; type: 'fact' | 'inference'; quote?: string };
+export type Dossier = { sections: { id: string; title: string; summary: string; facts: Fact[]; gaps?: string[] }[] };
 export type Experience = {
   id: string; name: string; category: string; url: string; flow: string; capturedAt: string;
   status: string; blockedReason?: string; rubricVersion: string; steps: Step[];
   claims?: { text: string; verdict: 'proven' | 'plausible' | 'unsupported'; step: number; evidenceStep: number | null }[];
   scores?: Record<string, { score: number | null; evidence: string; step: number | null }>;
   read?: any; sources?: string[];
+  surveyMode?: 'full' | 'lite'; dossier?: Dossier; stack?: Record<string, any>; navMap?: { label: string; href: string; area?: string; kind: string }[];
 };
 export type Brief = {
   date: string; headline: string; oneLiner?: string; featured: string; batch: string[];

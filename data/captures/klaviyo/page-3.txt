@@ -1,0 +1,129 @@
+URL: https://www.klaviyo.com/composer
+TITLE: The AI Marketing Agent for Campaign Automation & Creation - Klaviyo
+DESCRIPTION: Meet Composer, the AI agent for marketing that works for you. Create campaigns, automate tasks, and optimize performance through powerful marketing conversations.
+
+___
+COMPOSER
+The AI marketing agent that knows your business and does the work
+
+Composer combines your business context, Klaviyo’s marketing expertise, and your connected tools to plan your calendar, build your campaigns, audit your flows, and tell you what to do next.
+
+Sign up
+View prompt library
+View pricing
+CAPABILITIES
+What Composer does for you
+
+Composer analyzes, audits, drafts, and automates. You review, then decide what’s next.
+
+Analyze
+Audit
+Create
+Automate
+Connect
+Know where to focus
+
+Composer analyzes your campaigns, flows, and customer data, then comes back with recommended next steps.
+
+ASK COMPOSER ANYTHING
+
+Analyze my last 90 days of performance and identify the three biggest opportunities to increase revenue.
+
+BEST FOR:
+performance analysis, revenue opportunities, retention insights, reporting, benchmarks
+
+Run in Composer
+A MORNING WITH COMPOSER
+A full to-do list. Done before lunch.
+
+From the overnight review to the launch draft, Composer gets it done while you decide your next big idea. Maybe it’s a long lunch.
+
+8:00 AM
+Start the day knowing what matters
+
+Your scheduled review already ran. Check what needs your attention from your phone, even before you get to your desk.
+
+View prompt
+8:30 AM
+Turn flow problems into fixes
+9:15 AM
+Draft your next launch
+10:30 AM
+Turn results into a shareable dashboard
+11:30 AM
+Put it on the calendar, not your to-do list
+Catch up on Composer’s latest releases
+Artifacts
+
+Turn any answer into a page you can share, like a launch dashboard for your CEO or a team plan.
+
+Recurring tasks
+
+Your recurring work, done before you ask. Schedule reports and audits, and edit or pause anytime.
+
+Skills
+
+Teach Composer once, use it every time. Save your brand voice or methods and call them by name.
+
+Sign-up Forms
+
+Build and edit sign-up forms with a single prompt to grow your list faster.
+
+Composer Mobile
+
+Your marketing doesn’t wait for your desk. Access Composer on your phone to stay connected to your marketing, wherever you are.
+
+Campaign A/B testing
+
+Go from campaign idea to A/B test in one conversation, across email and SMS.
+
+See more
+How brands are putting Composer to work
+Composer is helping us communicate smarter. What used to take us a full campaign cycle I can do on a Tuesday afternoon. And that’s not an exaggeration.
+
+Daniela Guzman, CRM manager, Dermalogica
+
+Best prompts to get started
+Composer
+Audit
+Audit every active flow in one pass
+Run in Composer
+Composer
+Audit + build
+Find the flows and campaigns I'm missing and build them
+Run in Composer
+Composer
+Audit
+Find where personalization lifts revenue
+Run in Composer
+Composer
+Optimize
+Suppress unengaged profiles safely and reduce your billable profile count
+Run in Composer
+Composer
+Audit
+Catch broken links and UTM errors before send
+Run in Composer
+Composer
+Plan
+Plan A 30-day email & SMS marketing calendar
+Run in Composer
+Put Composer to work
+Explore the prompt library
+AI marketing agent FAQs
+What is Composer?
+
+Composer can help create marketing experiences directly within Klaviyo, including campaigns, flows, messages, segments, and more. It can also turn insights and ideas into shareable artifacts, like interactive dashboards, reports, and plans. Because Composer understands your Klaviyo account and business context, it can move from identifying an opportunity to helping you create what you need to act on it.
+
+What can Composer help me do?
+How does Composer use my business data?
+Can Composer analyze my marketing performance?
+What can Composer create?
+Can Composer complete tasks for me?
+Can I schedule recurring tasks with Composer?
+Does Composer make changes or publish anything without my approval?
+How is Composer different from ChatGPT or other AI tools?
+What channels does Composer support?
+Do I need a Klaviyo account to use Composer?
+How do I get access to Composer?
+Can I use Composer on my phone?

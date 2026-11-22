@@ -1,0 +1,178 @@
+URL: https://www.klaviyo.com/customer-resources
+TITLE: Klaviyo Resources: Learn, Get Support and Join the Community - Klaviyo
+DESCRIPTION: Klaviyo resources in one place: Academy courses, the Help Center, Community, and live office hours. Find your answer fast and pick your next step in Klaviyo.
+
+___
+YOUR ALL-IN-ONE SUCCESS CENTER
+The Resource Hub
+
+Find answers, learn new skills, and get inspiration for how to power your business with Klaviyo.
+
+Browse all resources directly
+Academy
+
+Free self-paced courses and certifications. Build your Klaviyo skills on your schedule.
+
+Start learning
+Blog
+
+Marketing playbooks, product news, and industry benchmarks from the Klaviyo team.
+
+Read the blog
+Help Center
+
+Step-by-step guides, troubleshooting, and product documentation. Search or browse by topic.
+
+Get answers
+Community
+
+Ask questions, share wins, and learn from other teams running on Klaviyo.
+
+ 
+
+Join the conversation
+Commonly asked questions
+
+Quick answers to the questions we hear most. Each answer links to the full guide.
+
+How do I change the products and content in my abandoned cart email?
+
+Use a dynamic table block for Started Checkout flows. Use a static table block for Added to Cart flows.
+
+Troubleshooting a flow
+I can't log in. What do I do?
+What is a billable profile, and how does it change my plan price?
+How do I connect my Shopify store?
+How do I build a segment?
+How do transactional flows work, and how do I set one up?
+Pick a path, build a skill
+Get Started with Klaviyo
+
+Launch with confidence. Integrate your store, set up sending, and send your first campaigns and flows.
+
+Explore path
+Grow Your Audience with Klaviyo
+
+Reach more of the right people. Add new channels, capture subscribers with better forms, and build segments that drive revenue.
+
+Explore path
+Test + Learn with Klaviyo
+
+Turn data into decisions. A/B test everything, use predictive analytics, and become a data-driven retention marketer.
+
+Explore path
+Scale + Customize with Klaviyo
+
+Run Klaviyo as your CRM. Unify your customer data, build custom on-site experiences, and extend with developer tools.
+
+Explore path
+
+What's trending at Klaviyo
+
+WHAT'S TRENDING AT KLAVIYO
+WHAT'S TRENDING AT KLAVIYO
+WHAT'S TRENDING AT KLAVIYO
+WHAT'S TRENDING AT KLAVIYO
+WHAT'S TRENDING AT KLAVIYO
+WHAT'S TRENDING AT KLAVIYO
+WHAT'S TRENDING AT KLAVIYO
+WHAT'S TRENDING AT KLAVIYO
+WHAT'S TRENDING AT KLAVIYO
+WHAT'S TRENDING AT KLAVIYO
+WHAT'S TRENDING AT KLAVIYO
+WHAT'S TRENDING AT KLAVIYO
+WHAT'S TRENDING AT KLAVIYO
+WHAT'S TRENDING AT KLAVIYO
+WHAT'S TRENDING AT KLAVIYO
+WHAT'S TRENDING AT KLAVIYO
+WHAT'S TRENDING AT KLAVIYO
+WHAT'S TRENDING AT KLAVIYO
+WHAT'S TRENDING AT KLAVIYO
+WHAT'S TRENDING AT KLAVIYO
+WHAT'S TRENDING AT KLAVIYO
+WHAT'S TRENDING AT KLAVIYO
+WHAT'S TRENDING AT KLAVIYO
+WHAT'S TRENDING AT KLAVIYO
+WHAT'S TRENDING AT KLAVIYO
+WHAT'S TRENDING AT KLAVIYO
+WHAT'S TRENDING AT KLAVIYO
+WHAT'S TRENDING AT KLAVIYO
+WHAT'S TRENDING AT KLAVIYO
+WHAT'S TRENDING AT KLAVIYO
+WHAT'S TRENDING AT KLAVIYO
+WHAT'S TRENDING AT KLAVIYO
+Are you ready? Black Friday is almost here
+
+The BFCM Hub is live - everything you need to make the most of this year’s BFCM
+
+Visit the BFCM Hub
+Learn: BFCM Beginner Bootcamp
+
+Build your BFCM plan step by step, from setting goals and building offers to launching campaigns and reviewing results. Six courses plus live trainings.
+
+Start the bootcamp
+Act: Win BFCM with Klaviyo
+
+Strategy guides, templates, and tools to put your plan into motion. Take the two-minute readiness quiz to see what to fix first.
+
+Get BFCM strategies and tools
+Share: BFCM 2026 Strategy Exchange
+
+Compare your prep with other Klaviyo marketers. See what they're prioritizing and get peer advice on segmentation, deliverability, SMS, and more.
+
+Join the Strategy Exchange
+Level Up: Ask our Customer Success Team
+
+Black Friday won’t wait for you to figure out deliverability, so bring your questions and get live answers from Klaviyo CSMs.
+
+Ask a Klaviyo CSM
+Learn what's shipped, what's changed
+
+The Klaviyo releases worth knowing about, with what changed and how to use them.
+
+See every update
+Manage click tracking and email consent
+
+Control email click tracking by account, by recipient consent or by link, and collect or update tracking consent in sign-up forms and on preference pages.
+
+Flows update
+
+High-volume flows now process 74,000+ profiles per second. Your sends keep up during BFCM and launch spikes.
+
+Quiet hours in campaigns
+
+Text campaigns automatically delay or skip messages that would land during quiet hours. Compliance built in.
+
+Forms updates
+Forms in Flows
+Custom HTML block in sign-up forms
+Forms template library
+
+ 
+
+Composer updates
+
+Klaviyo’s Marketing Agent is smarter, more proactive, and more flexible, with deeper analysis, scheduled tasks, and custom Skills.
+
+Location hub
+
+Add stores and events, build proximity segments in a few clicks, and see which campaigns led to in-store purchases.
+
+ 
+
+Get hands on support
+Live office hours with the product and education team
+
+Drop in with a question, leave with a real answer. Replays posted in Community within 24 hours.
+
+Save my seat
+Hire a certified partner
+
+Browse vetted agencies and freelancers by industry, region, and specialty — from one-off audits to ongoing retainers.
+
+Get Matched
+Premium support packages
+
+Named technical contact, faster SLAs, and 1:1 strategy sessions with deliverability and lifecycle experts.
+
+Learn more here

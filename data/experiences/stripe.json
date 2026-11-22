@@ -4,68 +4,1739 @@
   "category": "payments-checkout",
   "url": "https://stripe.com",
   "flow": "create account to first payment link",
-  "capturedAt": "2026-11-21",
-  "rubricVersion": "1.0.0",
+  "capturedAt": "2026-11-22",
+  "rubricVersion": "1.1.0",
   "status": "evaluated",
-  "blockedReason": "account form reached at step 2",
+  "blockedReason": "account form reached after 1 click from home",
+  "surveyMode": "full",
   "steps": [
     {
       "n": 1,
+      "kind": "home",
       "title": "Stripe | Financial Infrastructure to Grow Your Revenue",
       "url": "https://stripe.com/",
       "screenshot": "shots/stripe/step-1.webp",
-      "elapsedMs": 2404,
+      "textFile": "data/captures/stripe/page-1.txt",
+      "elapsedMs": 7063,
       "clicks": 0,
-      "mobileScreenshot": "shots/stripe/step-1-mobile.webp",
-      "note": "Next: clicked \"Get started\""
+      "via": "entry",
+      "headings": [
+        "h1: Financial infrastructure to grow your revenue. Accept payments, handle business banking,1 and implement custom revenue models—from your first transaction to your billionth.",
+        "h1: Financial infrastructure to grow your revenue. Accept payments, handle business banking,1 and implement custom revenue models—from your first transaction to your billionth.",
+        "h2: Flexible solutions for every business model.",
+        "h3: Accept and optimize payments globally—online, in person, and through agents",
+        "h3: Enable any billing model",
+        "h3: Stop fraud without stopping growth",
+        "h3: Create a card issuing program",
+        "h3: Access borderless money movement with stablecoins and crypto",
+        "h3: Embed payments in your platform",
+        "h2: The backbone of global commerce",
+        "h2: Powering businesses of all sizes.",
+        "h3: Transform your enterprise with agile financial infrastructure",
+        "h3: Hertz unifies commerce with Stripe.",
+        "h3: URBN consolidates $5 billion in online and in-store revenue onto Stripe.",
+        "h3: Instacart powers online grocery delivery with Stripe.",
+        "h3: Le Monde improves local and international payments with Stripe.",
+        "h3: Build a foundation for your startup that enables faster growth",
+        "h3: Make your SaaS platform a complete financial operating system",
+        "h2: Reliable, extensible infrastructure for every stack.",
+        "h3: Connect to existing systems.",
+        "h3: Scale with confidence.",
+        "h3: Choose an integration path.",
+        "h2: What’s happening",
+        "h3: Businesses on Stripe generated $1.9T in 2025.",
+        "h3: 150K+ users have their best day ever on Stripe.",
+        "h3: Tidemark’s vertical and SMB SaaS benchmark report.",
+        "h3: Shopify’s Tobi Lütke sits down with John Collison.",
+        "h3: New tools to process payments outside app stores.",
+        "h3: Crypto.com partners with Stripe to enable better crypto payments.",
+        "h3: Make your products shoppable through AI platforms.",
+        "h3: How leading retailers unify customer experiences and drive growth.",
+        "h3: Book of the week"
+      ],
+      "ctas": [
+        "Learn more",
+        "Contact sales",
+        "Get started",
+        "Sign up with Google",
+        "Stripe for startups",
+        "Explore no-code",
+        "Start now",
+        "Startups"
+      ],
+      "prices": [
+        "ovider. Learn more Global GDP running on Stripe: 1.75372103% 1.75372103% Financial infrastructure to grow your",
+        "n more Global GDP running on Stripe: 1.75372103% 1.75372103% Financial infrastructure to grow your revenue. Ac",
+        "astery Cartsy bezahlen Showflix に支払う Pay Roastery $5.46 €26.89 ¥5,000 $5.46 Tap, insert, or swipe to pay",
+        "Cartsy bezahlen Showflix に支払う Pay Roastery $5.46 €26.89 ¥5,000 $5.46 Tap, insert, or swipe to pay Zum Bez",
+        "en Showflix に支払う Pay Roastery $5.46 €26.89 ¥5,000 $5.46 Tap, insert, or swipe to pay Zum Bezahlen Karte a",
+        "ワイプして支払う Tap, insert, or swipe to pay Mocha Latte $5.50 Loyalty (10% off) -$0.55 Tax $0.51 Total $5.46 De",
+        "nsert, or swipe to pay Mocha Latte $5.50 Loyalty (10% off) -$0.55 Tax $0.51 Total $5.46 Deluxe-Hemd €22",
+        "swipe to pay Mocha Latte $5.50 Loyalty (10% off) -$0.55 Tax $0.51 Total $5.46 Deluxe-Hemd €22.60 VAT €4.2",
+        "ay Mocha Latte $5.50 Loyalty (10% off) -$0.55 Tax $0.51 Total $5.46 Deluxe-Hemd €22.60 VAT €4.29 Summe €2",
+        "te $5.50 Loyalty (10% off) -$0.55 Tax $0.51 Total $5.46 Deluxe-Hemd €22.60 VAT €4.29 Summe €26.89 ギフトカード",
+        "10% off) -$0.55 Tax $0.51 Total $5.46 Deluxe-Hemd €22.60 VAT €4.29 Summe €26.89 ギフトカード ¥5,000 合計 ¥5,000 Mo",
+        "0.55 Tax $0.51 Total $5.46 Deluxe-Hemd €22.60 VAT €4.29 Summe €26.89 ギフトカード ¥5,000 合計 ¥5,000 Mocha Latte",
+        "51 Total $5.46 Deluxe-Hemd €22.60 VAT €4.29 Summe €26.89 ギフトカード ¥5,000 合計 ¥5,000 Mocha Latte $5.50 Loyalty",
+        "Summe €26.89 ギフトカード ¥5,000 合計 ¥5,000 Mocha Latte $5.50 Loyalty (10% off) -$0.55 Tax $0.51 Total $5.46 Co",
+        "フトカード ¥5,000 合計 ¥5,000 Mocha Latte $5.50 Loyalty (10% off) -$0.55 Tax $0.51 Total $5.46 Continue Weiter",
+        "00 合計 ¥5,000 Mocha Latte $5.50 Loyalty (10% off) -$0.55 Tax $0.51 Total $5.46 Continue Weiter 続行 Continue",
+        "00 Mocha Latte $5.50 Loyalty (10% off) -$0.55 Tax $0.51 Total $5.46 Continue Weiter 続行 Continue roastery.",
+        "te $5.50 Loyalty (10% off) -$0.55 Tax $0.51 Total $5.46 Continue Weiter 続行 Continue roastery.com/checkout",
+        "Zahlen Sie jetzt oder in 4 zinsfreien Raten zu je €50.28. Affirm Pay now or in 4 interest-free payments of",
+        "Affirm Pay now or in 4 interest-free payments of $40.73. Cash App Crypto PayPay FamilyMart Rechnung US ba",
+        "summary Electric Kettle with Temperature Control $150.00 Unverzichtbarer Hoodie Marineblau Mittel €41.70 ス",
+        "$150.00 Unverzichtbarer Hoodie Marineblau Mittel €41.70 ストリーミング月次サブスクリプション ¥1,886 Electric Kettle with Te",
+        "ン ¥1,886 Electric Kettle with Temperature Control $150.00 Subtotal Zwischensumme 小計 Subtotal $150.00 €41.70",
+        "ontrol $150.00 Subtotal Zwischensumme 小計 Subtotal $150.00 €41.70 ¥1,886 $150.00 Tax VAT JCT Tax $15.38 €7.9",
+        "150.00 Subtotal Zwischensumme 小計 Subtotal $150.00 €41.70 ¥1,886 $150.00 Tax VAT JCT Tax $15.38 €7.92 ¥189."
+      ],
+      "description": "Stripe is a financial services platform that helps all types of businesses accept payments, build flexible billing models, and manage money movement.",
+      "mobileScreenshot": "shots/stripe/step-1-mobile.webp"
     },
     {
       "n": 2,
+      "kind": "pricing",
+      "title": "Pricing & Fees",
+      "url": "https://stripe.com/pricing",
+      "screenshot": "shots/stripe/step-2.webp",
+      "textFile": "data/captures/stripe/page-2.txt",
+      "elapsedMs": 12086,
+      "clicks": 0,
+      "via": "nav: Pricing",
+      "headings": [
+        "h1: Pricing built for businesses of all sizes",
+        "h1: Standard",
+        "h2: 2.9% + 30¢",
+        "h1: Custom",
+        "h1: Features available out of the box:",
+        "h1: Global access",
+        "h1: Built-in fraud prevention",
+        "h1: Tools to optimize your checkout",
+        "h1: Payments optimizations to boost revenue",
+        "h1: Embedded payments for platforms & marketplaces",
+        "h1: Fast, predictable payouts to your bank accounts",
+        "h1: Phone, chat, and email support",
+        "h1: Security, reliability and compliance",
+        "h2: Standard pricing for all products",
+        "h1: Explore pricing for the full Stripe platform",
+        "h1: Global payments",
+        "h1: Payments",
+        "h1: Cards and wallets",
+        "h1: Buy Now Pay Later",
+        "h1: Bank-based and other payment methods",
+        "h1: Stablecoins",
+        "h1: Disputes",
+        "h1: Smart Disputes",
+        "h1: Dispute prevention",
+        "h1: Cards",
+        "h1: Stablecoins",
+        "h1: Pix and UPI",
+        "h1: Instant bank payments",
+        "h1: Klarna",
+        "h1: Payment Links",
+        "h1: Accept payments",
+        "h1: Custom domain",
+        "h1: Post-payment invoices",
+        "h1: Checkout",
+        "h1: Accept payments",
+        "h1: Custom domain",
+        "h1: Post-payment invoices",
+        "h1: Managed Payments",
+        "h1: Merchant of record services",
+        "h1: Terminal"
+      ],
+      "ctas": [
+        "Contact sales",
+        "Atlas Startup incorporation",
+        "Startups",
+        "Get started",
+        "Start now",
+        "Learn more",
+        "See pricing details",
+        "Learn More",
+        "Sign up with Metronome",
+        "Contact Metronome"
+      ],
+      "prices": [
+        "fees, monthly fees, or hidden fees. Get started 2.9% + 30¢ per successful transaction for domestic cards C",
+        "cards, and digital wallets for online payments. 2.9% + 30¢ per successful transaction for domestic cards +",
+        "per successful transaction for domestic cards + 0.5% for manually entered cards + 1.5% for internat",
+        "stic cards + 0.5% for manually entered cards + 1.5% for international cards + 1% if currency conve",
+        "entered cards + 1.5% for international cards + 1% if currency conversion is required Let your cus",
+        "ething and pay for it in installments over time. 5.99% + 30¢ per successful transaction for Klarna See more",
+        "ers, and other locally relevant payment methods. 0.8% ACH Direct Debit $5.00 cap See more payment met",
+        "elevant payment methods. 0.8% ACH Direct Debit $5.00 cap See more payment methods Enable customers g",
+        "able customers globally to pay with stablecoins. 1.5% of the transaction amount in USD Included: conv",
+        "as chargebacks. Learn more Dispute received fee $15.00 for each dispute you receive. In rare cases, ne",
+        ", network fees also apply. Dispute countered fee $15.00 for each dispute you respond to manually. You g",
+        "lost disputes. Learn more Dispute appealed fee $15.00 for each dispute you appeal. You don't get this",
+        "n also add your own evidence. Smart Disputes fee 30% of the disputed amount for each dispute you win.",
+        "astercard. Included Dispute deflection lookups $15.00 per Visa resolution $15.00 per Visa Compelling",
+        "deflection lookups $15.00 per Visa resolution $15.00 per Visa Compelling Evidence 3.0 block $29.00",
+        "$15.00 per Visa Compelling Evidence 3.0 block $29.00 per Mastercard resolution Payment optimizations",
+        "an average returning user conversion increase of 14%. Accept widely used credit and debit cards. 2.9",
+        "14%. Accept widely used credit and debit cards. 2.9% + 30¢ per successful transaction + 1.5% for internat",
+        "cards. 2.9% + 30¢ per successful transaction + 1.5% for international transactions + 1% if currenc",
+        "action + 1.5% for international transactions + 1% if currency conversion is required Reach more g",
+        "ss-border exchange fees by offering stablecoins. 0.8% per successful transaction Promotional rate thr",
+        "tion Promotional rate through January 1, 2027; + 0.2% thereafter Convert buyers globally by offering",
+        "the payment methods they prefer in their market. 1.8% + 30¢ per successful transaction + 1.5% for internat",
+        "arket. 1.8% + 30¢ per successful transaction + 1.5% for international transactions + 1% if currenc",
+        "action + 1.5% for international transactions + 1% if currency conversion is required Reduce proce"
+      ],
+      "description": "Find Stripe fees and pricing information. Find our processing fees for credit cards, pricing models and pay-as-you-go fees for businesses.",
+      "mobileScreenshot": "shots/stripe/step-2-mobile.webp"
+    },
+    {
+      "n": 3,
+      "kind": "product",
+      "title": "Stripe Products and Features | Stripe",
+      "url": "https://stripe.com/products",
+      "screenshot": "shots/stripe/step-3.webp",
+      "textFile": "data/captures/stripe/page-3.txt",
+      "elapsedMs": 18195,
+      "clicks": 0,
+      "via": "nav: See all productsExplore our full product catalog",
+      "headings": [
+        "h1: See everything Stripe can do. Explore products for payments, risk, revenue, banking, data, and more.",
+        "h2: Product areas",
+        "h2: Accept and optimize payments globally",
+        "h2: Safeguard your business without slowing growth",
+        "h2: Automate revenue, from billing to reconciliation",
+        "h2: Access, analyze, and act on your Stripe data",
+        "h2: Receive, store, send, and finance from one place.",
+        "h2: Monetize embedded payments and financial products",
+        "h2: Launch borderless financial services with crypto",
+        "h2: Build, operate, and extend your Stripe integration",
+        "h2: Build with OpenRouter",
+        "h3: Frequently asked questions"
+      ],
+      "ctas": [
+        "Contact sales",
+        "Explore OpenRouter",
+        "Start now",
+        "Startups"
+      ],
+      "prices": [
+        ", disputes, and more as your merchant of record. $56.88 Terminal Accept in-person payments with precert",
+        "Authorization Boost Increase acceptance rates by 3.8% on average and reduce costs by up to 3.3% with AI",
+        "ates by 3.8% on average and reduce costs by up to 3.3% with AI-powered optimizations trained on billions",
+        "e world with access to 125+ payment methods and a 99.999% historical uptime. When this happens: If these c",
+        "t experiences. Remove carbon with every payment 0.5% 1% of revenue 1.5% Climate Direct a portion",
+        "riences. Remove carbon with every payment 0.5% 1% of revenue 1.5% Climate Direct a portion of r",
+        "carbon with every payment 0.5% 1% of revenue 1.5% Climate Direct a portion of revenue to vetted c",
+        "tax, and automated reconciliation. Pay as you go $0.01 Monthly subscription $149 Billing Sell, bill, co",
+        "iation. Pay as you go $0.01 Monthly subscription $149 Billing Sell, bill, collect, and report from one",
+        "g usage-based and hybrid. LLM token usage 478.5M $2,392.49 Metronome Meter, bill, and track usage-based rev",
+        "tions, real-time data, and billing transparency. $249.00 Due June 8 Invoice PDF To From Memo Invoicing Au",
+        "els, 100+ payment methods, and tools that recover 55% of failed payments. Kavholm $275.27 Zip code Sal",
+        "ols that recover 55% of failed payments. Kavholm $275.27 Zip code Sales tax Tax Automate sales tax, VAT,",
+        "to registrations and filing. Recognized revenue $5,839,417.15 Revenue Recognition Automate support for revenue",
+        "end and spend money globally. Financial account $22,460.19 USD GBP EUR USDC Treasury Store, earn, spend, a",
+        "al Cards Create virtual and physical cards with 2% cashback on eligible transactions, flexible spend",
+        "ew Choose custom financing amount Offer amount $22,500 Capital Access fast, flexible financing to inves",
+        "Account Offer amount Offer accepted Gleason Group $40,000 $20,000 Capital for platforms Offer financing to",
+        "Offer amount Offer accepted Gleason Group $40,000 $20,000 Capital for platforms Offer financing to busines",
+        "nd stablecoin infrastructure. Buy cryptocurrency $150.00 Crypto Accept, store, move, and spend stablecoin",
+        "last month Find last month’s failed payments over $500 Task Console Query your Stripe account in plain",
+        "d team management. Wednesday 7 September 12:57 50 % WH-1000XM5 23 15 26 Stripe 15m ago You receive",
+        "3 15 26 Stripe 15m ago You received a payment of $12 from Jenny Rosen. Personal Dashboard mobile app"
+      ],
+      "description": "Browse Stripe’s full product catalog to find the products you need, from accepting payments and preventing fraud to automating billing and moving money."
+    },
+    {
+      "n": 4,
+      "kind": "platform",
+      "title": "Stripe API Reference",
+      "url": "https://docs.stripe.com/api",
+      "screenshot": "shots/stripe/step-4.webp",
+      "textFile": "data/captures/stripe/page-4.txt",
+      "elapsedMs": 22180,
+      "clicks": 0,
+      "via": "nav: API reference",
+      "headings": [
+        "h1: API Reference",
+        "h2: Just getting started?",
+        "h2: Not a developer?",
+        "h1: Authentication",
+        "h1: Errors",
+        "h3: Attributes",
+        "h3: More Expand all",
+        "h1: Handling errors",
+        "h1: Expanding Responses",
+        "h1: Idempotent requests",
+        "h1: Include-dependent response values (API v2)",
+        "h1: Metadata",
+        "h2: Sample metadata use cases",
+        "h1: Pagination",
+        "h3: Parameters",
+        "h3: List Response Format",
+        "h1: Search",
+        "h3: Search request format",
+        "h3: Search response format",
+        "h1: Auto-pagination",
+        "h1: Request IDs",
+        "h1: Connected Accounts",
+        "h1: Versioning",
+        "h1: Enums",
+        "h2: Handling open enums in responses",
+        "h2: Sending enum values in requests"
+      ],
+      "ctas": [
+        "Country Specs",
+        "development quickstart",
+        "retry idempotent requests",
+        "Contact Support",
+        "Contact Sales"
+      ],
+      "prices": []
+    },
+    {
+      "n": 5,
+      "kind": "solutions",
+      "title": "Enterprise Payment Solutions for Large Businesses | Stripe",
+      "url": "https://stripe.com/enterprise",
+      "screenshot": "shots/stripe/step-5.webp",
+      "textFile": "data/captures/stripe/page-5.txt",
+      "elapsedMs": 26927,
+      "clicks": 0,
+      "via": "nav: Stripe for enterprises",
+      "headings": [
+        "h1: Build the next era of your enterprise",
+        "h1: Global payments",
+        "h1: Platform payments",
+        "h1: Finance automation",
+        "h1: Global payments",
+        "h1: Platform payments",
+        "h1: Finance automation",
+        "h1: Global payments",
+        "h1: Grow payment volume 2x faster on average",
+        "h1: Unify commerce with in‑person payments",
+        "h1: Boost authorization rates by 3.8% on average",
+        "h2: Guide",
+        "h1: Four payments trends shaping global commerce",
+        "h2: Customer story",
+        "h1: Amazon uses Stripe to launch quickly in new markets and power payments across Prime, Audible, Kindle, Amazon Pay, and more",
+        "h1: Chance that a card has been seen on Stripe at least once",
+        "h1: Platform payments and embedded finance",
+        "h1: Boost incremental profit from embedded payments volume by 10%",
+        "h1: Embed financial services in weeks, not months",
+        "h2: Guide",
+        "h1: A new framework for maximizing the value of embedded payments",
+        "h2: Customer story",
+        "h1: Instacart streamlined onboarding and payment flows for customers, shoppers, and retailers",
+        "h1: Percentage of top global marketplaces powered by Stripe",
+        "h1: Revenue and finance automation",
+        "h1: Power recurring revenue and recover up to 55% of failed payments",
+        "h1: Automate sales tax, VAT, and GST",
+        "h1: Close the books faster and get real-time insights",
+        "h2: Guide",
+        "h1: How to overcome billing challenges and drive subscription growth",
+        "h2: Customer story",
+        "h1: FOX Sports Mexico sees 20% uplift in subscription revenue with Stripe Billing",
+        "h1: Businesses that use Stripe to optimize revenue and automate manual financial processes",
+        "h1: Boost revenue with advanced authorization optimization",
+        "h1: Lifecycle management",
+        "h1: Smart routing and revenue recovery",
+        "h1: Issuer and network partnerships",
+        "h1: Optimized authentication",
+        "h1: Working with Stripe",
+        "h1: Technical account management"
+      ],
+      "ctas": [
+        "Contact sales",
+        "Atlas Startup incorporation",
+        "Startups",
+        "Learn more",
+        "retry messaging",
+        "Get started"
+      ],
+      "prices": [
+        "ve Acceptance News Businesses on Stripe generated $1.9 trillion in total volume Stories URBN consolidate",
+        "rillion in total volume Stories URBN consolidates $5 billion in online and in-store revenue onto Strip",
+        "le on-reader interactions. Authorization Boost +3.8% Payment volume Payments Cost savings $50K $40K $",
+        "oost +3.8% Payment volume Payments Cost savings $50K $40K $30K $20K $10K $0 Jan Apr Adaptive Accepta",
+        "+3.8% Payment volume Payments Cost savings $50K $40K $30K $20K $10K $0 Jan Apr Adaptive Acceptance",
+        "% Payment volume Payments Cost savings $50K $40K $30K $20K $10K $0 Jan Apr Adaptive Acceptance Netwo",
+        "yment volume Payments Cost savings $50K $40K $30K $20K $10K $0 Jan Apr Adaptive Acceptance Network to",
+        "volume Payments Cost savings $50K $40K $30K $20K $10K $0 Jan Apr Adaptive Acceptance Network tokens",
+        "me Payments Cost savings $50K $40K $30K $20K $10K $0 Jan Apr Adaptive Acceptance Network tokens Car",
+        "dible, Kindle, Amazon Pay, and more Learn more > 90 % Chance that a card has been seen on Stripe at lea",
+        "or customers, shoppers, and retailers Learn more 74 % Percentage of top global marketplaces powered by",
+        "ct sales tax in 100+ markets. Revenue recognition $5,839,417.15 Open Closed Nov 2025 Nov 2026 November summary No",
+        "y Nov 2026 Recognized revenue previously deferred $1,216,752.67 Revenue from unbilled services $4,244,870.34 Less",
+        "rred $1,216,752.67 Revenue from unbilled services $4,244,870.34 Less refunds $22.38 Less disputes $8,813.74 Less",
+        "from unbilled services $4,244,870.34 Less refunds $22.38 Less disputes $8,813.74 Less bad debts $190.56 El",
+        "s $4,244,870.34 Less refunds $22.38 Less disputes $8,813.74 Less bad debts $190.56 Eliminate manual work to s",
+        "nds $22.38 Less disputes $8,813.74 Less bad debts $190.56 Eliminate manual work to streamline accounting an",
+        "Learn more Customer story FOX Sports Mexico sees 20% uplift in subscription revenue with Stripe Billin",
+        "ations for card payments. Businesses see an up to 8% reduction in fraud and 1–2% authorization rate up",
+        "sinesses see an up to 8% reduction in fraud and 1–2% authorization rate uplift on eligible volume via",
+        "to your payment processor of choice. Learn more 99.999% historical uptime for Stripe services 200+ cat",
+        "services 200+ category leaders processing over $1B in annual payment volume on Stripe 500M+ API r",
+        "l services to accelerate growth and revenue. Join 75% of the world’s top marketplaces, who onboard serv"
+      ],
+      "description": "Get enterprise payment and financial solutions that maximize conversion, add revenue streams, and automate financial operations. Learn why enterprises build on Stripe."
+    },
+    {
+      "n": 6,
+      "kind": "customers",
+      "title": "Our customers | Stripe",
+      "url": "https://stripe.com/customers",
+      "screenshot": "shots/stripe/step-6.webp",
+      "textFile": "data/captures/stripe/page-6.txt",
+      "elapsedMs": 31160,
+      "clicks": 0,
+      "via": "nav: Customer stories",
+      "headings": [
+        "h1: The payments platform behind millions of businesses",
+        "h1: We help customers achieve measurable results",
+        "h1: 6 months faster",
+        "h1: 12 new countries",
+        "h2: Customers by size",
+        "h1: Companies of all sizes around the world use Stripe",
+        "h1: Weeks to minutes",
+        "h1: 2-5x faster",
+        "h1: Products used",
+        "h1: 5 million+",
+        "h1: 50,000+",
+        "h1: Products used",
+        "h1: 3,000×",
+        "h1: 3 weeks",
+        "h1: Products used",
+        "h1: Products used",
+        "h1: 200,000",
+        "h1: Products used",
+        "h1: $29B+",
+        "h1: 3 months",
+        "h1: Products used",
+        "h1: Classy Pay, powered by Stripe, creates best-in-class fundraising experiences for modern non-profits",
+        "h1: Substack surpasses five million paid subscriptions with Stripe",
+        "h1: Goodtill partners with Stripe to onboard 400+ new restaurants in under 4 weeks",
+        "h1: Twilio increases its authorization rates by 10% with Stripe",
+        "h1: Atlassian selects Stripe to create a single platform for global billing and payments",
+        "h1: Lightspeed partners with Stripe to accelerate innovation in omnichannel payments and more",
+        "h2: Building together",
+        "h1: We partner with customers to build breakthrough products",
+        "h1: How we built instant payouts with Lyft",
+        "h1: Challenge",
+        "h1: Solution",
+        "h1: Products",
+        "h1: How we built multi-party payments with Instacart",
+        "h1: Challenge",
+        "h1: Solution",
+        "h1: Products",
+        "h1: How we built embedded finance with Shopify",
+        "h1: Challenge",
+        "h1: Solution"
+      ],
+      "ctas": [
+        "Contact sales",
+        "Atlas Startup incorporation",
+        "Startups",
+        "Startup",
+        "Start now"
+      ],
+      "prices": [
+        "tory Twilio increases its authorization rates by 10% with Stripe Read story Atlassian selects Stripe",
+        "lly within a few hours of a ride. Today Payments $342.00 Rides 12 Time 4h 19m Balance $342.00 GET PAID Pay",
+        "day Payments $342.00 Rides 12 Time 4h 19m Balance $342.00 GET PAID Payout activity Power Zones 7:00 PM - 9:",
+        ":00 AM View schedule Ride History Nov 24, 4:30 PM $8.35 4.20 mi • 9m 51s Lyft Home Earnings Referrals In",
+        "youts to shoppers and retailers. Instant Cashout $150.00 Tips are paid with your weekly deposit Available",
+        "re paid with your weekly deposit Available amount $150.00 Transaction fee 50¢ Transfer amount $149.50 0033",
+        "deposit Available amount $150.00 Transaction fee 50¢ Transfer amount $149.50 0033 Edit Transfers typic",
+        "mount $150.00 Transaction fee 50¢ Transfer amount $149.50 0033 Edit Transfers typically take only a few min",
+        "es boosts authorization rates with Stripe, adding $70+ million in revenue Read story Meetup increased",
+        "edical Invoice from Udacity Billed to Jenny Rosen $750.00 due Aug 1, 2020 $199.00 due Jan 1, 2021 $399.00 d",
+        "ity Billed to Jenny Rosen $750.00 due Aug 1, 2020 $199.00 due Jan 1, 2021 $399.00 due Sep 1, 2020 Card Card",
+        "n $750.00 due Aug 1, 2020 $199.00 due Jan 1, 2021 $399.00 due Sep 1, 2020 Card Card Card Bank Card number M",
+        "APPLESEED@EXAMPLE.COM +1 (458) 555-2863 PAY TOTAL $250.00 Your cart 2 items The Bigger Carry-On Color: Navy",
+        "ur cart 2 items The Bigger Carry-On Color: Navy 1 $245.00 The Luggage Tag Color: Sand 1 $25.00 Total $270.0",
+        "lor: Navy 1 $245.00 The Luggage Tag Color: Sand 1 $25.00 Total $270.00 CHECKOUT Cancel CHASE FREEDOM (••••",
+        "245.00 The Luggage Tag Color: Sand 1 $25.00 Total $270.00 CHECKOUT Cancel CHASE FREEDOM (•••• 1234) 27 FRED",
+        "APPLESEED@EXAMPLE.COM +1 (458) 555-2863 PAY TOTAL $270.00 Your Cart 2 items 1 × Invisible Shield $25.00 Edi",
+        "AL $270.00 Your Cart 2 items 1 × Invisible Shield $25.00 Edit Remove 1 × Body Hero Wash $18.00 Edit Remove",
+        "ible Shield $25.00 Edit Remove 1 × Body Hero Wash $18.00 Edit Remove Estimated total $43.00 CHECKOUT Cance",
+        "Body Hero Wash $18.00 Edit Remove Estimated total $43.00 CHECKOUT Cancel CHASE FREEDOM (•••• 1234) 27 FRED",
+        "APPLESEED@EXAMPLE.COM +1 (458) 555-2863 PAY TOTAL $43.00 140k 138k 136k 134k Authenticated 3DS authenticat",
+        "k 136k 134k Authenticated 3DS authentication rate 64.8% Failed 3DS 669 Passed 3DS 1,232 No 3DS 137,678 Sc",
+        "1,232 No 3DS 137,678 Screened by Radar Block rate 0.95% Blocked by Radar 1,320 Blocked by Stripe 139 Sent",
+        "6,002 1500 750 0 Disputed Fraudulent dispute rate 0.0076% Fraudulent disputes 1,048 Other disputes 243 Cre"
+      ],
+      "description": "Learn about Stripe customers and why millions of global businesses have chosen Stripe as their payments platform."
+    },
+    {
+      "n": 7,
+      "kind": "company",
+      "title": "About Us | Stripe",
+      "url": "https://stripe.com/about",
+      "screenshot": "shots/stripe/step-7.webp",
+      "textFile": "data/captures/stripe/page-7.txt",
+      "elapsedMs": 34210,
+      "clicks": 0,
+      "via": "nav: About",
+      "headings": [],
+      "ctas": [
+        "Contact sales",
+        "Explore our Docs"
+      ],
+      "prices": [
+        "of dollars a year on Stripe, equivalent to around 1.8% of global GDP. While economic growth makes every"
+      ],
+      "description": "Stripe is a financial services platform that helps all types of businesses accept payments, build flexible billing models, and manage money movement."
+    },
+    {
+      "n": 8,
+      "kind": "resources",
+      "title": "Stripe Guides",
+      "url": "https://stripe.com/guides",
+      "screenshot": "shots/stripe/step-8.webp",
+      "textFile": "data/captures/stripe/page-8.txt",
+      "elapsedMs": 38412,
+      "clicks": 0,
+      "via": "nav: Guides",
+      "headings": [
+        "h1: Guides and resources",
+        "h2: Industry updates",
+        "h1: How to prepare for agentic commerce in 2027: A technical field guide",
+        "h2: Atlas guides",
+        "h1: Building your startup’s finance team",
+        "h2: Product resources",
+        "h1: Introduction to collecting online payments",
+        "h2: Platforms",
+        "h1: How SaaS platforms can design their own payments pricing strategy",
+        "h2: Agentic commerce",
+        "h1: A primer for agentic commerce",
+        "h1: Product resources",
+        "h2: Product resources",
+        "h1: Optimizing payments at scale: How Stripe applies AI across the payment lifecycle",
+        "h2: Product resources",
+        "h1: Introduction to collecting online payments",
+        "h2: Product resources",
+        "h1: A guide to types of payment methods",
+        "h2: Product resources",
+        "h1: Why you should use buy now, pay later (BNPL) payment methods for your business",
+        "h2: Product resources",
+        "h1: A primer on machine learning for fraud detection",
+        "h2: Product resources",
+        "h1: Radar: Rules 101",
+        "h2: Product resources",
+        "h1: A guide to PCI compliance",
+        "h2: Product resources",
+        "h1: 3D Secure 2",
+        "h1: Industry updates",
+        "h2: Industry updates",
+        "h1: EU Inc. and European competitiveness",
+        "h2: Industry updates",
+        "h1: How local pricing affects subscription conversion for media, entertainment, and gaming",
+        "h2: Industry updates",
+        "h1: How to get ready for agentic commerce in an evolving landscape",
+        "h2: Industry updates",
+        "h1: How to prepare for agentic commerce in 2027: A technical field guide",
+        "h2: Industry updates",
+        "h1: The state of online fraud",
+        "h2: Industry updates"
+      ],
+      "ctas": [
+        "Contact sales",
+        "Atlas Startup incorporation",
+        "Startups"
+      ],
+      "prices": [],
+      "description": "Find Stripe’s guides and resources for developers and businesses. We have everything from machine learning and global payments to building marketplaces."
+    },
+    {
+      "n": 9,
+      "kind": "product",
+      "title": "Stripe Billing | Recurring Payments & Subscription Solutions",
+      "url": "https://stripe.com/billing",
+      "screenshot": "shots/stripe/step-9.webp",
+      "textFile": "data/captures/stripe/page-9.txt",
+      "elapsedMs": 42769,
+      "clicks": 0,
+      "via": "nav: Billing",
+      "headings": [
+        "h1: Monetize faster with Stripe Billing.Manage pricing, reduce churn, and grow revenue—on one platform.",
+        "h2: One platform to price, meter, bill, invoice, and grow.",
+        "h3: Subscriptions",
+        "h3: Usage-based billing",
+        "h3: Invoicing",
+        "h3: An integrated billing platform for your full quote-to-revenue cycle",
+        "h2: Stripe Billing scales with you.",
+        "h2: Trusted by industry leaders.",
+        "h3: Atlassian selects Stripe to create a single platform for global billing and payments.",
+        "h3: Intercom takes only 3 months to implement usage-based billing with Stripe.",
+        "h3: Fox Sports increases subscription revenue by 20% and user retention by 54% with Stripe.",
+        "h2: Recognized by top analysts as a leader in billing",
+        "h2: Key Stripe Billing features and platform capabilities",
+        "h2: Optimize every step of your revenue cycle with Stripe and Metronome",
+        "h3: Give customers a faster, simpler checkout.",
+        "h3: Identify and prevent fraud in real time.",
+        "h3: Simplify sales tax, VAT, and GST in 90+ countries.",
+        "h3: Automate revenue accounting.",
+        "h3: Gain deeper insights, faster.",
+        "h3: Unify your financial and business data.",
+        "h3: Synchronize your production stack.",
+        "h2: Frequently asked questions",
+        "h3: Learn more about Stripe Billing.",
+        "h2: More resources",
+        "h3: What is recurring billing?",
+        "h3: Is your billing system holding you back?",
+        "h3: How to evaluate billing software: RFP criteria and template"
+      ],
+      "ctas": [
+        "Contact sales",
+        "Start now",
+        "Explore Radar",
+        "Explore Tax",
+        "Explore Revenue Recognition",
+        "Explore Stripe Sigma",
+        "Explore Stripe Data Pipeline",
+        "Explore Stripe Projects",
+        "See pricing",
+        "Startups"
+      ],
+      "prices": [
+        "ne 3.4 Best for small teams API requests 10,000 x $0.0015/request $15.00 Storage 100 GB × $0.023/GB $2.30 Bandwidth",
+        "small teams API requests 10,000 x $0.0015/request $15.00 Storage 100 GB × $0.023/GB $2.30 Bandwidth 200 GB",
+        "10,000 x $0.0015/request $15.00 Storage 100 GB × $0.023/GB $2.30 Bandwidth 200 GB × $0.045/GB $9.00 Compute",
+        "$0.0015/request $15.00 Storage 100 GB × $0.023/GB $2.30 Bandwidth 200 GB × $0.045/GB $9.00 Compute time 2",
+        "orage 100 GB × $0.023/GB $2.30 Bandwidth 200 GB × $0.045/GB $9.00 Compute time 25 hrs × $0.40/hr $10.00 Estim",
+        "GB × $0.023/GB $2.30 Bandwidth 200 GB × $0.045/GB $9.00 Compute time 25 hrs × $0.40/hr $10.00 Estimated m",
+        "th 200 GB × $0.045/GB $9.00 Compute time 25 hrs × $0.40/hr $10.00 Estimated monthly total: $36.30 Get starte",
+        "× $0.045/GB $9.00 Compute time 25 hrs × $0.40/hr $10.00 Estimated monthly total: $36.30 Get started Engin",
+        "25 hrs × $0.40/hr $10.00 Estimated monthly total: $36.30 Get started Engine 3.4 Pro Popular Best for growi",
+        "ular Best for growing teams API requests 25,000 x $0.0012/request $30.00 Storage 250 GB × $0.020/GB $5.00 Bandwidth",
+        "owing teams API requests 25,000 x $0.0012/request $30.00 Storage 250 GB × $0.020/GB $5.00 Bandwidth 500 GB",
+        "25,000 x $0.0012/request $30.00 Storage 250 GB × $0.020/GB $5.00 Bandwidth 500 GB × $0.040/GB $20.00 Compute",
+        "$0.0012/request $30.00 Storage 250 GB × $0.020/GB $5.00 Bandwidth 500 GB × $0.040/GB $20.00 Compute time",
+        "orage 250 GB × $0.020/GB $5.00 Bandwidth 500 GB × $0.040/GB $20.00 Compute time 50 hrs × $0.35/hr $17.50 Esti",
+        "GB × $0.020/GB $5.00 Bandwidth 500 GB × $0.040/GB $20.00 Compute time 50 hrs × $0.35/hr $17.50 Estimated m",
+        "h 500 GB × $0.040/GB $20.00 Compute time 50 hrs × $0.35/hr $17.50 Estimated monthly total: $72.50 Get starte",
+        "× $0.040/GB $20.00 Compute time 50 hrs × $0.35/hr $17.50 Estimated monthly total: $72.50 Get started Pay i",
+        "50 hrs × $0.35/hr $17.50 Estimated monthly total: $72.50 Get started Pay invoice Invoice PDF $66.00 Due Ju",
+        "total: $72.50 Get started Pay invoice Invoice PDF $66.00 Due June 8 To Jane Diaz From Queried Memo Profess",
+        "d information 1234 1234 1234 1234 MM / YY CVC Pay $66.00 Close invoice and payment details $66.00 INVOICE",
+        "CVC Pay $66.00 Close invoice and payment details $66.00 INVOICE SUMMARY To Jane Diaz From Queried Memo Pr",
+        "ed Memo Professional Plan ITEMS Professional Plan $60.00 Qty 1 Tax (10%) $6.00 Total due $66.00 Amount pai",
+        "al Plan ITEMS Professional Plan $60.00 Qty 1 Tax (10%) $6.00 Total due $66.00 Amount paid $0.00 Amount",
+        "an ITEMS Professional Plan $60.00 Qty 1 Tax (10%) $6.00 Total due $66.00 Amount paid $0.00 Amount remaini",
+        "ional Plan $60.00 Qty 1 Tax (10%) $6.00 Total due $66.00 Amount paid $0.00 Amount remaining $66.00 The op"
+      ],
+      "description": "Power your subscriptions with Stripe Billing. Set up recurring and usage-based pricing with APIs or within the Dashboard. Reduce churn with AI-powered tools."
+    },
+    {
+      "n": 10,
+      "kind": "platform",
+      "title": "Changelog | Stripe Documentation",
+      "url": "https://docs.stripe.com/changelog",
+      "screenshot": "shots/stripe/step-10.webp",
+      "textFile": "data/captures/stripe/page-10.txt",
+      "elapsedMs": 46630,
+      "clicks": 0,
+      "via": "nav: API changelog",
+      "headings": [
+        "h1: Changelog",
+        "h2: Keep track of changes and upgrades to the Stripe API.",
+        "h2: Endive",
+        "h2: Dahlia",
+        "h2: Clover",
+        "h2: Basil",
+        "h2: Acacia"
+      ],
+      "ctas": [
+        "Get started",
+        "Contact Support",
+        "Contact Sales"
+      ],
+      "prices": [],
+      "description": "Learn about all the changes to the Stripe API through monthly updates."
+    },
+    {
+      "n": 11,
+      "kind": "solutions",
+      "title": "Grow Your Business with Stripe | Stripe Startups",
+      "url": "https://stripe.com/startups",
+      "screenshot": "shots/stripe/step-11.webp",
+      "textFile": "data/captures/stripe/page-11.txt",
+      "elapsedMs": 51138,
+      "clicks": 0,
+      "via": "nav: Stripe for startups",
+      "headings": [
+        "h1: Start. Scale. Grow.",
+        "h1: Apply to the program",
+        "h1: Build for any business type",
+        "h1: Platform",
+        "h1: Fintech",
+        "h1: Crypto",
+        "h1: Marketplace",
+        "h1: Ecommerce",
+        "h1: Stripe’s startup program helps venture-backed startups build, monetize, and scale faster",
+        "h1: Credits and perks",
+        "h1: Education",
+        "h1: Advice",
+        "h1: Community",
+        "h1: Go from idea to revenue-ready in days",
+        "h1: Incorporate and fundraise",
+        "h1: Manage your finances",
+        "h1: Provision your stack with agents",
+        "h2: Customer story",
+        "h1: How Lovable established a US business presence in just a few clicks with Stripe Atlas.",
+        "h2: Guide",
+        "h1: How to provision your full dev stack from the CLI in 10 minutes.",
+        "h1: Turn demand into revenue",
+        "h1: Payment links",
+        "h1: Invoicing",
+        "h1: Subscriptions",
+        "h1: Prebuilt checkout",
+        "h1: Customizable payment UIs",
+        "h1: Usage-based billing",
+        "h2: Cloud token",
+        "h3: Previous period",
+        "h3: Current period",
+        "h1: In-person payments",
+        "h1: Grow without the growing pains",
+        "h1: Capture global demand faster",
+        "h1: Add new revenue streams",
+        "h1: Close your books quickly and get real-time insights",
+        "h2: Customer story",
+        "h1: GitHub Sponsors program doubles global coverage in a few months on Stripe Connect",
+        "h2: Guide",
+        "h1: Best practices for building a fintech company, from four startups"
+      ],
+      "ctas": [
+        "Contact sales",
+        "Atlas Startup incorporation",
+        "Startups",
+        "Start now",
+        "Explore",
+        "buy.stripe.com/aEUa24H",
+        "Stripe Startups",
+        "Learn more"
+      ],
+      "prices": [
+        "t link to accept payments. buy.stripe.com/aEUa24H $120.56 First payment received! $280.81 Pending balance:",
+        "tripe.com/aEUa24H $120.56 First payment received! $280.81 Pending balance: $341.42 Instant payout RECENT DE",
+        "First payment received! $280.81 Pending balance: $341.42 Instant payout RECENT DEPOSITS $432.33 (19 transa",
+        "g balance: $341.42 Instant payout RECENT DEPOSITS $432.33 (19 transactions) Deposited on 11/19/2026 $487.32",
+        "$432.33 (19 transactions) Deposited on 11/19/2026 $487.32 (21 transactions) Deposited on 11/18/2026 $290.79",
+        "$487.32 (21 transactions) Deposited on 11/18/2026 $290.79 (17 transactions) Deposited on 11/17/2026 Revenue",
+        "ions) Deposited on 11/17/2026 Revenue recognition $5,839,417.15 Open Closed Nov 2025 Nov 2026 November summary No",
+        "y Nov 2026 Recognized revenue previously deferred $1,216,752.67 Revenue from unbilled services $4,244,870.34 Less",
+        "rred $1,216,752.67 Revenue from unbilled services $4,244,870.34 Less refunds $22.38 Less disputes $8,813.74 Less",
+        "from unbilled services $4,244,870.34 Less refunds $22.38 Less disputes $8,813.74 Less bad debts $190.56 M",
+        "s $4,244,870.34 Less refunds $22.38 Less disputes $8,813.74 Less bad debts $190.56 Millions of successful st",
+        "nds $22.38 Less disputes $8,813.74 Less bad debts $190.56 Millions of successful startups are powered by S",
+        "an exclusive cap on Stripe Invoicing (starting at 0.4%) up to $10 per invoice. Tap into expert insights",
+        "cap on Stripe Invoicing (starting at 0.4%) up to $10 per invoice. Tap into expert insights and how-to programming",
+        "ecommend our starter plan. buy.stripe.com/Ae93Jis $19.99 PER ITEM Scan to pay No code Send your customers an invoic",
+        "nd collect revenue 3x faster. Invoice from Powdur $144.79 Due Feb 21, 2021 Download invoice To Jenny Rosen",
+        "model in a few clicks. Subscribe to ChatGPT Plus $20.00 per month ChatGPT Plus Subscription $20.00 Billed monthly S",
+        "T Plus $20.00 per month ChatGPT Plus Subscription $20.00 Billed monthly Subtotal $20.00 Tax $1.72 Total du",
+        "Plus Subscription $20.00 Billed monthly Subtotal $20.00 Tax $1.72 Total due today $21.72 Low code Launch",
+        "ription $20.00 Billed monthly Subtotal $20.00 Tax $1.72 Total due today $21.72 Low code Launch faster wit",
+        "monthly Subtotal $20.00 Tax $1.72 Total due today $21.72 Low code Launch faster with a conversion-optimize",
+        "ate new ways to earn revenue. Revenue recognition $5,839,417.15 Open Closed Nov 2025 Nov 2026 November summary No",
+        "from unbilled services $4,244,870.34 Less refunds $22.38 Less disputes $8,813.74 Less bad debts $190.56 Us",
+        "s $4,244,870.34 Less refunds $22.38 Less disputes $8,813.74 Less bad debts $190.56 Use consolidated data and",
+        "nds $22.38 Less disputes $8,813.74 Less bad debts $190.56 Use consolidated data and custom reports to keep"
+      ],
+      "description": "Stripe helps startups launch quickly and effectively. Venture-backed startups can apply to Stripe Startups for access to exclusive discounts, events, and content."
+    },
+    {
+      "n": 12,
+      "kind": "product",
+      "title": "Stripe Capital | Loans and Cash Advances for Small Businesses",
+      "url": "https://stripe.com/capital",
+      "screenshot": "shots/stripe/step-12.webp",
+      "textFile": "data/captures/stripe/page-12.txt",
+      "elapsedMs": 54871,
+      "clicks": 0,
+      "via": "nav: Capital",
+      "headings": [
+        "h1: Capital",
+        "h1: Business funding to support your growth",
+        "h1: Apply in a few clicks",
+        "h1: Get funds quickly",
+        "h1: One flat fee",
+        "h1: Pay when you get paid",
+        "h2: How it works",
+        "h1: Fast funding and flexible payments",
+        "h1: Check your eligibility",
+        "h1: Select your offer",
+        "h1: Receive your funds",
+        "h1: Pay as you earn*",
+        "h1: DAILY SALES",
+        "h2: Day 1",
+        "h2: Day 2",
+        "h2: Day 3",
+        "h2: Day 4",
+        "h2: Day 5",
+        "h2: Day 6",
+        "h2: Day 7",
+        "h1: See where Capital goes further",
+        "h1: Ready to get started?",
+        "h1: Capital for platforms"
+      ],
+      "ctas": [
+        "Contact sales",
+        "Atlas Startup incorporation",
+        "Startups",
+        "Explore the docs",
+        "Explore by country",
+        "Learn more"
+      ],
+      "prices": [
+        "your daily sales until the total amount is paid. $15,000 loan $1,500 loan fee 9% of sales toward repayment",
+        "les until the total amount is paid. $15,000 loan $1,500 loan fee 9% of sales toward repayment $20,000 loa",
+        "tal amount is paid. $15,000 loan $1,500 loan fee 9% of sales toward repayment $20,000 loan $2,000 loa",
+        "loan $1,500 loan fee 9% of sales toward repayment $20,000 loan $2,000 loan fee 12% of sales toward repaymen",
+        "oan fee 9% of sales toward repayment $20,000 loan $2,000 loan fee 12% of sales toward repayment $25,000 lo",
+        "les toward repayment $20,000 loan $2,000 loan fee 12% of sales toward repayment $25,000 loan $2,500 loa",
+        "oan $2,000 loan fee 12% of sales toward repayment $25,000 loan $2,500 loan fee 15% of sales toward repaymen",
+        "an fee 12% of sales toward repayment $25,000 loan $2,500 loan fee 15% of sales toward repayment Financing",
+        "les toward repayment $25,000 loan $2,500 loan fee 15% of sales toward repayment Financing type and numb",
+        "e and numbers are shown as examples*. DAILY SALES 12% of sales toward payment $81 $108 $135 Day 1 $900",
+        "xamples*. DAILY SALES 12% of sales toward payment $81 $108 $135 Day 1 $900 $117 $156 $195 Day 2 $1,3",
+        "les*. DAILY SALES 12% of sales toward payment $81 $108 $135 Day 1 $900 $117 $156 $195 Day 2 $1,300 $",
+        "DAILY SALES 12% of sales toward payment $81 $108 $135 Day 1 $900 $117 $156 $195 Day 2 $1,300 $49 $6",
+        "12% of sales toward payment $81 $108 $135 Day 1 $900 $117 $156 $195 Day 2 $1,300 $49 $66 $82 Day 3",
+        "f sales toward payment $81 $108 $135 Day 1 $900 $117 $156 $195 Day 2 $1,300 $49 $66 $82 Day 3 $550",
+        "es toward payment $81 $108 $135 Day 1 $900 $117 $156 $195 Day 2 $1,300 $49 $66 $82 Day 3 $550 $103",
+        "ward payment $81 $108 $135 Day 1 $900 $117 $156 $195 Day 2 $1,300 $49 $66 $82 Day 3 $550 $103 $138",
+        "$81 $108 $135 Day 1 $900 $117 $156 $195 Day 2 $1,300 $49 $66 $82 Day 3 $550 $103 $138 $172 Day 4 $",
+        "8 $135 Day 1 $900 $117 $156 $195 Day 2 $1,300 $49 $66 $82 Day 3 $550 $103 $138 $172 Day 4 $1,150",
+        "35 Day 1 $900 $117 $156 $195 Day 2 $1,300 $49 $66 $82 Day 3 $550 $103 $138 $172 Day 4 $1,150 No",
+        "ay 1 $900 $117 $156 $195 Day 2 $1,300 $49 $66 $82 Day 3 $550 $103 $138 $172 Day 4 $1,150 No pay",
+        "$117 $156 $195 Day 2 $1,300 $49 $66 $82 Day 3 $550 $103 $138 $172 Day 4 $1,150 No payment Day 5",
+        "$156 $195 Day 2 $1,300 $49 $66 $82 Day 3 $550 $103 $138 $172 Day 4 $1,150 No payment Day 5 No sal",
+        "$195 Day 2 $1,300 $49 $66 $82 Day 3 $550 $103 $138 $172 Day 4 $1,150 No payment Day 5 No sales $",
+        "Day 2 $1,300 $49 $66 $82 Day 3 $550 $103 $138 $172 Day 4 $1,150 No payment Day 5 No sales $72 $9"
+      ],
+      "description": "Tap into the financing you need to grow. Stripe Capital provides access to small business financing and loans with flexible payments and no lengthy application."
+    },
+    {
+      "n": 13,
+      "kind": "product",
+      "title": "Stripe Connect | Platform and Marketplace Payment Solutions",
+      "url": "https://stripe.com/connect",
+      "screenshot": "shots/stripe/step-13.webp",
+      "textFile": "data/captures/stripe/page-13.txt",
+      "elapsedMs": 59112,
+      "clicks": 0,
+      "via": "nav: Connect",
+      "headings": [
+        "h1: Connect",
+        "h1: The market leader for platform and marketplace payments",
+        "h1: Launch in weeks",
+        "h1: Manage payments at scale",
+        "h1: Grow globally",
+        "h1: Build new lines of revenue",
+        "h2: Embed payments with confidence",
+        "h1: Build a foundation for any business model",
+        "h1: 20,000+",
+        "h1: Facilitate and monetize platform payments",
+        "h1: Power payments for your marketplace",
+        "h1: Streamline money movement for your enterprise",
+        "h1: Send payouts around the world",
+        "h2: How it works",
+        "h1: Build your payment business with speed and flexibility",
+        "h1: Embed streamlined onboarding and workflows for your users",
+        "h1: Onboarding",
+        "h1: Payments and payouts dashboards",
+        "h1: Account management and settings",
+        "h1: Accept payments and manage tax",
+        "h1: Ways to accept payments",
+        "h1: Payment method controls",
+        "h1: Successfully monetize financial products",
+        "h1: Control how funds flow",
+        "h1: Sellers collect payments",
+        "h1: Platform collects payments",
+        "h1: Split payouts between sellers",
+        "h1: Top-ups",
+        "h1: Payouts",
+        "h1: Instant Payouts",
+        "h1: Subscriptions",
+        "h1: Account debits",
+        "h1: Manage your platform at scale",
+        "h2: Security and compliance",
+        "h1: Compliance built for platforms and marketplaces",
+        "h2: Unified payments stack",
+        "h1: Add new lines of business with Stripe’s integrated financial solutions",
+        "h1: Point-of-sale payments",
+        "h1: Tax automation on global payments",
+        "h1: Subscriptions and invoicing"
+      ],
+      "ctas": [
+        "Contact sales",
+        "Atlas Startup incorporation",
+        "Startups",
+        "Start now",
+        "Learn more",
+        "Stripe demo",
+        "Explore Terminal",
+        "Explore Tax",
+        "Explore Billing",
+        "Explore Capital",
+        "Explore Issuing",
+        "Explore Invoicing",
+        "Explore Sigma",
+        "Explore the docs"
+      ],
+      "prices": [
+        "yment business, and scale with ease. TOTAL SALES $1,130 44 total orders View full report TRANSACTIONS #10",
+        "total orders View full report TRANSACTIONS #1007 $350.00 #1008 $420.00 #1009 $273.00 #1010 $87.00 RATE BAN",
+        "View full report TRANSACTIONS #1007 $350.00 #1008 $420.00 #1009 $273.00 #1010 $87.00 RATE BANK ACCOUNT 2.4%",
+        "rt TRANSACTIONS #1007 $350.00 #1008 $420.00 #1009 $273.00 #1010 $87.00 RATE BANK ACCOUNT 2.4% + 30¢ ●●●● ●●",
+        "S #1007 $350.00 #1008 $420.00 #1009 $273.00 #1010 $87.00 RATE BANK ACCOUNT 2.4% + 30¢ ●●●● ●●●● ●●●● 1234",
+        "0.00 #1009 $273.00 #1010 $87.00 RATE BANK ACCOUNT 2.4% + 30¢ ●●●● ●●●● ●●●● 1234 ACCEPTED PAYMENTS View payout",
+        "●●●● 1234 ACCEPTED PAYMENTS View payouts Customer $430.00 Customer $280.00 Customer $90.00 Shopify $20.00 M",
+        "D PAYMENTS View payouts Customer $430.00 Customer $280.00 Customer $90.00 Shopify $20.00 Merchant $1,130.00",
+        "ayouts Customer $430.00 Customer $280.00 Customer $90.00 Shopify $20.00 Merchant $1,130.00 Food is being p",
+        "$430.00 Customer $280.00 Customer $90.00 Shopify $20.00 Merchant $1,130.00 Food is being prepared Curry U",
+        "r $280.00 Customer $90.00 Shopify $20.00 Merchant $1,130.00 Food is being prepared Curry Up Now 5min away Del",
+        "ry Up Now 5min away Delivery by 6:45 PM Apple Pay $17.00 Order receipt DoorDash base fee $1.00 Restaurant",
+        "Apple Pay $17.00 Order receipt DoorDash base fee $1.00 Restaurant total $11.00 Delivery fee $2.00 Custom",
+        "receipt DoorDash base fee $1.00 Restaurant total $11.00 Delivery fee $2.00 Customer tip $3.00 Total $17.0",
+        "se fee $1.00 Restaurant total $11.00 Delivery fee $2.00 Customer tip $3.00 Total $17.00 Customer $17.00 D",
+        "rant total $11.00 Delivery fee $2.00 Customer tip $3.00 Total $17.00 Customer $17.00 DoorDash $1.00 Resta",
+        "11.00 Delivery fee $2.00 Customer tip $3.00 Total $17.00 Customer $17.00 DoorDash $1.00 Restaurant $11.00",
+        "ee $2.00 Customer tip $3.00 Total $17.00 Customer $17.00 DoorDash $1.00 Restaurant $11.00 Dasher $5.00 Str",
+        "r tip $3.00 Total $17.00 Customer $17.00 DoorDash $1.00 Restaurant $11.00 Dasher $5.00 Stripe 1430 2nd Av",
+        "$17.00 Customer $17.00 DoorDash $1.00 Restaurant $11.00 Dasher $5.00 Stripe 1430 2nd Ave Lyft 4 $8.32 13:",
+        "er $17.00 DoorDash $1.00 Restaurant $11.00 Dasher $5.00 Stripe 1430 2nd Ave Lyft 4 $8.32 13:37 Personal S",
+        "nt $11.00 Dasher $5.00 Stripe 1430 2nd Ave Lyft 4 $8.32 13:37 Personal Select Lyft Rider $8.32 Lyft $1.00",
+        "Ave Lyft 4 $8.32 13:37 Personal Select Lyft Rider $8.32 Lyft $1.00 Driver $7.32 Use Stripe-hosted or emb",
+        "$8.32 13:37 Personal Select Lyft Rider $8.32 Lyft $1.00 Driver $7.32 Use Stripe-hosted or embedded funct",
+        "ersonal Select Lyft Rider $8.32 Lyft $1.00 Driver $7.32 Use Stripe-hosted or embedded functionality to g"
+      ],
+      "description": "Stripe Connect is the fastest and easiest way to integrate payments and financial services into your software platform or marketplace."
+    },
+    {
+      "n": 14,
+      "kind": "signup",
       "title": "Sign up and create a Stripe account | Stripe",
       "url": "https://dashboard.stripe.com/register",
-      "screenshot": "shots/stripe/step-2.webp",
-      "elapsedMs": 6879,
+      "screenshot": "shots/stripe/step-14.webp",
+      "textFile": "data/captures/stripe/page-14.txt",
+      "elapsedMs": 3026,
       "clicks": 1,
+      "via": "click: \"Get started\"",
+      "headings": [],
+      "ctas": [],
+      "prices": [
+        "Failed 621.27 Updated today 7:50 AM Gross volume +86.4% $382.22 $205.00 previous period $12k $0 Apr 20 To",
+        "621.27 Updated today 7:50 AM Gross volume +86.4% $382.22 $205.00 previous period $12k $0 Apr 20 Today Upda",
+        "Updated today 7:50 AM Gross volume +86.4% $382.22 $205.00 previous period $12k $0 Apr 20 Today Updated toda",
+        "oss volume +86.4% $382.22 $205.00 previous period $12k $0 Apr 20 Today Updated today 7:50 AM Net volume",
+        "olume +86.4% $382.22 $205.00 previous period $12k $0 Apr 20 Today Updated today 7:50 AM Net volume fro",
+        "oday Updated today 7:50 AM Net volume from sales +145.6% $382.22 $205.00 previous period $12k $0 Apr 20 To",
+        "dated today 7:50 AM Net volume from sales +145.6% $382.22 $205.00 previous period $12k $0 Apr 20 Today Upda",
+        "day 7:50 AM Net volume from sales +145.6% $382.22 $205.00 previous period $12k $0 Apr 20 Today Updated toda",
+        "rom sales +145.6% $382.22 $205.00 previous period $12k $0 Apr 20 Today Updated today 7:50 AM Payments S",
+        "ales +145.6% $382.22 $205.00 previous period $12k $0 Apr 20 Today Updated today 7:50 AM Payments Succe",
+        "Failed 621.27 Updated today 7:50 AM Gross volume $0.00 $0.00 $0.01 $0 Apr 20 Today Updated today 7:50 AM",
+        "d 621.27 Updated today 7:50 AM Gross volume $0.00 $0.00 $0.01 $0 Apr 20 Today Updated today 7:50 AM Net v",
+        "27 Updated today 7:50 AM Gross volume $0.00 $0.00 $0.01 $0 Apr 20 Today Updated today 7:50 AM Net volume",
+        "ated today 7:50 AM Gross volume $0.00 $0.00 $0.01 $0 Apr 20 Today Updated today 7:50 AM Net volume fro",
+        "Today Updated today 7:50 AM Net volume from sales $0.00 $0.00 $0.01 $0 Apr 20 Today Updated today 7:50 AM",
+        "Updated today 7:50 AM Net volume from sales $0.00 $0.00 $0.01 $0 Apr 20 Today Updated today 7:50 AM Creat",
+        "d today 7:50 AM Net volume from sales $0.00 $0.00 $0.01 $0 Apr 20 Today Updated today 7:50 AM Create your",
+        "y 7:50 AM Net volume from sales $0.00 $0.00 $0.01 $0 Apr 20 Today Updated today 7:50 AM Create your St"
+      ],
+      "description": "Sign up to quickly create a new Stripe account today and get started accepting payments in minutes.",
       "note": "Stopped: account form or bot check reached."
     }
   ],
+  "navMap": [
+    {
+      "label": "Pricing",
+      "href": "https://stripe.com/pricing",
+      "area": "header",
+      "kind": "pricing"
+    },
+    {
+      "label": "Guide me",
+      "href": "https://stripe.com/personalize",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "See all productsExplore our full product catalog",
+      "href": "https://stripe.com/products",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Contact sales",
+      "href": "https://stripe.com/contact/sales",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Stripe for enterprises",
+      "href": "https://stripe.com/enterprise",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "Stripe for startups",
+      "href": "https://stripe.com/startups",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "Stripe for platforms",
+      "href": "https://stripe.com/use-cases/platforms",
+      "area": "header",
+      "kind": "platform"
+    },
+    {
+      "label": "Atlas",
+      "href": "https://stripe.com/atlas",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Authorization Boost",
+      "href": "https://stripe.com/authorization-boost",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Billing",
+      "href": "https://stripe.com/billing",
+      "area": "footer",
+      "kind": "product"
+    },
+    {
+      "label": "Capital",
+      "href": "https://stripe.com/capital",
+      "area": "footer",
+      "kind": "product"
+    },
+    {
+      "label": "Capital for platforms",
+      "href": "https://stripe.com/capital/platforms",
+      "area": "footer",
+      "kind": "product"
+    },
+    {
+      "label": "Checkout",
+      "href": "https://stripe.com/payments/checkout",
+      "area": "footer",
+      "kind": "product"
+    },
+    {
+      "label": "Climate",
+      "href": "https://stripe.com/climate",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Connect",
+      "href": "https://stripe.com/connect",
+      "area": "footer",
+      "kind": "product"
+    },
+    {
+      "label": "Crypto",
+      "href": "https://stripe.com/use-cases/crypto",
+      "area": "footer",
+      "kind": "solutions"
+    },
+    {
+      "label": "Crypto Onramp",
+      "href": "https://stripe.com/crypto-onramp",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Data Pipeline",
+      "href": "https://stripe.com/data-pipeline",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Elements",
+      "href": "https://stripe.com/payments/elements",
+      "area": "footer",
+      "kind": "product"
+    },
+    {
+      "label": "Financial Connections",
+      "href": "https://stripe.com/financial-connections",
+      "area": "footer",
+      "kind": "product"
+    },
+    {
+      "label": "Global Payouts",
+      "href": "https://stripe.com/payouts",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Identity",
+      "href": "https://stripe.com/identity",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Invoicing",
+      "href": "https://stripe.com/invoicing",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Issuing",
+      "href": "https://stripe.com/issuing",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Link",
+      "href": "https://stripe.com/payments/link",
+      "area": "footer",
+      "kind": "product"
+    },
+    {
+      "label": "Managed Payments",
+      "href": "https://stripe.com/managed-payments",
+      "area": "footer",
+      "kind": "product"
+    },
+    {
+      "label": "Payment links",
+      "href": "https://stripe.com/payments/payment-links",
+      "area": "footer",
+      "kind": "product"
+    },
+    {
+      "label": "Payment methods",
+      "href": "https://stripe.com/payments/payment-methods",
+      "area": "footer",
+      "kind": "product"
+    },
+    {
+      "label": "Payments",
+      "href": "https://stripe.com/payments",
+      "area": "footer",
+      "kind": "product"
+    },
+    {
+      "label": "Radar",
+      "href": "https://stripe.com/radar",
+      "area": "footer",
+      "kind": "product"
+    },
+    {
+      "label": "Revenue Recognition",
+      "href": "https://stripe.com/revenue-recognition",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Stripe Sigma",
+      "href": "https://stripe.com/sigma",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Subscriptions",
+      "href": "https://stripe.com/billing/subscriptions",
+      "area": "footer",
+      "kind": "product"
+    },
+    {
+      "label": "Tax",
+      "href": "https://stripe.com/tax",
+      "area": "footer",
+      "kind": "product"
+    },
+    {
+      "label": "Terminal",
+      "href": "https://stripe.com/terminal",
+      "area": "footer",
+      "kind": "product"
+    },
+    {
+      "label": "Treasury",
+      "href": "https://stripe.com/treasury",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Treasury for platforms",
+      "href": "https://stripe.com/treasury/platforms",
+      "area": "footer",
+      "kind": "platform"
+    },
+    {
+      "label": "Usage-based billing",
+      "href": "https://stripe.com/billing/usage-based-billing",
+      "area": "footer",
+      "kind": "product"
+    },
+    {
+      "label": "Agentic commerce",
+      "href": "https://stripe.com/use-cases/agentic-commerce",
+      "area": "footer",
+      "kind": "solutions"
+    },
+    {
+      "label": "Ecommerce",
+      "href": "https://stripe.com/use-cases/ecommerce",
+      "area": "footer",
+      "kind": "solutions"
+    },
+    {
+      "label": "Embedded finance",
+      "href": "https://stripe.com/use-cases/embedded-finance",
+      "area": "footer",
+      "kind": "solutions"
+    },
+    {
+      "label": "Finance automation",
+      "href": "https://stripe.com/use-cases/finance-automation",
+      "area": "footer",
+      "kind": "product"
+    },
+    {
+      "label": "Global businesses",
+      "href": "https://stripe.com/use-cases/global-businesses",
+      "area": "footer",
+      "kind": "solutions"
+    },
+    {
+      "label": "In-app payments",
+      "href": "https://stripe.com/use-cases/in-app-payments",
+      "area": "footer",
+      "kind": "product"
+    },
+    {
+      "label": "Marketplaces",
+      "href": "https://stripe.com/use-cases/marketplaces",
+      "area": "footer",
+      "kind": "platform"
+    },
+    {
+      "label": "Money management",
+      "href": "https://stripe.com/money-management/availability",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "SaaS",
+      "href": "https://stripe.com/use-cases/saas",
+      "area": "footer",
+      "kind": "solutions"
+    },
+    {
+      "label": "AI companies",
+      "href": "https://stripe.com/use-cases/ai",
+      "area": "footer",
+      "kind": "solutions"
+    },
+    {
+      "label": "Creator economy",
+      "href": "https://stripe.com/use-cases/creator-economy",
+      "area": "footer",
+      "kind": "solutions"
+    },
+    {
+      "label": "Fintech",
+      "href": "https://stripe.com/industries/fintech",
+      "area": "footer",
+      "kind": "solutions"
+    },
+    {
+      "label": "Gaming",
+      "href": "https://stripe.com/industries/gaming",
+      "area": "footer",
+      "kind": "solutions"
+    },
+    {
+      "label": "Hospitality, travel, and leisure",
+      "href": "https://stripe.com/industries/travel",
+      "area": "footer",
+      "kind": "solutions"
+    },
+    {
+      "label": "Insurance",
+      "href": "https://stripe.com/industries/insurance",
+      "area": "footer",
+      "kind": "solutions"
+    },
+    {
+      "label": "Media and entertainment",
+      "href": "https://stripe.com/industries/media-entertainment",
+      "area": "footer",
+      "kind": "solutions"
+    },
+    {
+      "label": "Nonprofits",
+      "href": "https://stripe.com/industries/nonprofits",
+      "area": "footer",
+      "kind": "solutions"
+    },
+    {
+      "label": "Professional services",
+      "href": "https://stripe.com/industries/professional-services",
+      "area": "footer",
+      "kind": "solutions"
+    },
+    {
+      "label": "Public sector",
+      "href": "https://stripe.com/industries/public-sector",
+      "area": "footer",
+      "kind": "solutions"
+    },
+    {
+      "label": "Retail",
+      "href": "https://stripe.com/industries/retail",
+      "area": "footer",
+      "kind": "solutions"
+    },
+    {
+      "label": "Documentation",
+      "href": "https://docs.stripe.com/",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "API reference",
+      "href": "https://docs.stripe.com/api",
+      "area": "footer",
+      "kind": "platform"
+    },
+    {
+      "label": "API changelog",
+      "href": "https://docs.stripe.com/changelog",
+      "area": "footer",
+      "kind": "platform"
+    },
+    {
+      "label": "Libraries and SDKs",
+      "href": "https://docs.stripe.com/development",
+      "area": "footer",
+      "kind": "platform"
+    },
+    {
+      "label": "Stripe Projects",
+      "href": "https://docs.stripe.com/projects",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Developer blog",
+      "href": "https://stripe.dev/",
+      "area": "footer",
+      "kind": "platform"
+    },
+    {
+      "label": "Stripe App Marketplace",
+      "href": "https://marketplace.stripe.com/",
+      "area": "footer",
+      "kind": "platform"
+    },
+    {
+      "label": "Stripe Partner ecosystem",
+      "href": "https://stripe.com/partners",
+      "area": "footer",
+      "kind": "platform"
+    },
+    {
+      "label": "Professional services",
+      "href": "https://stripe.com/professional-services",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Product roadmap",
+      "href": "https://stripe.com/roadmap",
+      "area": "footer",
+      "kind": "product"
+    },
+    {
+      "label": "Guides",
+      "href": "https://stripe.com/guides",
+      "area": "footer",
+      "kind": "resources"
+    },
+    {
+      "label": "Customer stories",
+      "href": "https://stripe.com/customers",
+      "area": "footer",
+      "kind": "customers"
+    },
+    {
+      "label": "Blog",
+      "href": "https://stripe.com/blog",
+      "area": "footer",
+      "kind": "resources"
+    },
+    {
+      "label": "Community",
+      "href": "https://stripecommunity.com/",
+      "area": "footer",
+      "kind": "resources"
+    },
+    {
+      "label": "Sessions annual conference",
+      "href": "https://stripe.com/sessions",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Licenses",
+      "href": "https://stripe.com/spc/licenses",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Sitemap",
+      "href": "https://stripe.com/sitemap",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "More resources",
+      "href": "https://stripe.com/resources/more",
+      "area": "footer",
+      "kind": "resources"
+    },
+    {
+      "label": "About",
+      "href": "https://stripe.com/about",
+      "area": "footer",
+      "kind": "company"
+    },
+    {
+      "label": "Careers",
+      "href": "https://stripe.com/careers",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Newsroom",
+      "href": "https://stripe.com/newsroom",
+      "area": "footer",
+      "kind": "company"
+    },
+    {
+      "label": "Stripe Press",
+      "href": "https://press.stripe.com/",
+      "area": "footer",
+      "kind": "company"
+    }
+  ],
+  "stack": {
+    "generator": null,
+    "scriptHosts": [
+      "b.stripecdn.com",
+      "stripe.com"
+    ],
+    "signals": [
+      "Next.js"
+    ],
+    "server": "nginx",
+    "poweredBy": null
+  },
   "sources": [
     "https://stripe.com"
   ],
+  "dossier": {
+    "sections": [
+      {
+        "id": "positioning",
+        "title": "Positioning",
+        "summary": "Stripe sells itself as programmable financial infrastructure for any business size, not as a store builder. Each segment page repeats the same frame: one platform, scale from first transaction to enterprise.",
+        "facts": [
+          {
+            "text": "Home headline frames Stripe as infrastructure across payments, banking and custom revenue models.",
+            "step": 1,
+            "type": "fact",
+            "quote": "from your first transaction to your billionth"
+          },
+          {
+            "text": "Startups page targets venture-backed companies with a program and perks.",
+            "step": 11,
+            "type": "fact",
+            "quote": "Designed to support venture-backed businesses that are just getting started."
+          },
+          {
+            "text": "Enterprise page leads with named customers and a volume stat.",
+            "step": 5,
+            "type": "fact",
+            "quote": "Businesses on Stripe generated $1.9 trillion in total volume"
+          }
+        ],
+        "gaps": [
+          "No small-merchant or store-owner landing page appeared in the top-level nav."
+        ]
+      },
+      {
+        "id": "offerings",
+        "title": "Products and offerings",
+        "summary": "A 53-product catalogue in eight areas: payments, risk, revenue, data, money management, embedded finance, stablecoins and crypto, and the platform itself. A recommender helps visitors who don't know where to start.",
+        "facts": [
+          {
+            "text": "The product index lists 53 products.",
+            "step": 3,
+            "type": "fact",
+            "quote": "Showing 53 products."
+          },
+          {
+            "text": "Checkout is the prebuilt payment UI, with a conversion claim.",
+            "step": 3,
+            "type": "fact",
+            "quote": "Launch a secure, customizable, conversion-optimized checkout."
+          },
+          {
+            "text": "Managed Payments is a merchant-of-record offering that takes on tax, fraud and disputes.",
+            "step": 3,
+            "type": "fact",
+            "quote": "Focus on growth while Stripe Managed Payments handles tax, fraud, disputes, and more as your merchant of record."
+          },
+          {
+            "text": "Terminal covers in-person payments with certified hardware.",
+            "step": 3,
+            "type": "fact",
+            "quote": "Accept in-person payments with precertified devices and unified reporting across online and in-person sales."
+          },
+          {
+            "text": "Capital offers loans and merchant cash advances, repaid as a share of daily sales.",
+            "step": 12,
+            "type": "fact",
+            "quote": "Apply for business loans and merchant cash advances in minutes, with no impact to your personal credit score."
+          },
+          {
+            "text": "Connect is the platform and marketplace product; Shopify and DoorDash are named as users.",
+            "step": 13,
+            "type": "fact",
+            "quote": "The world’s most successful platforms and marketplaces, including Shopify and DoorDash, use Stripe Connect to embed payments into their products."
+          },
+          {
+            "text": "Billing covers subscriptions, usage-based billing and invoicing.",
+            "step": 9,
+            "type": "fact",
+            "quote": "One platform to price, meter, bill, invoice, and grow."
+          }
+        ],
+        "gaps": [
+          "Pricing for Billing, Tax, Radar and Connect was not on the pricing page text captured; only payments, disputes, Terminal and Managed Payments were."
+        ]
+      },
+      {
+        "id": "pricing",
+        "title": "Pricing",
+        "summary": "Pay-as-you-go with published per-transaction rates and a separate fee list; a 'Custom' tier for volume. Add-ons carry their own monthly or per-event fees.",
+        "facts": [
+          {
+            "text": "Standard card rate.",
+            "step": 2,
+            "type": "fact",
+            "quote": "2.9% + 30¢ per successful transaction for domestic cards"
+          },
+          {
+            "text": "Standard pricing has no monthly or setup fee, by Stripe's statement.",
+            "step": 2,
+            "type": "fact",
+            "quote": "No setup fees, monthly fees, or hidden fees."
+          },
+          {
+            "text": "Custom pricing is for large volume or unusual models and goes through sales.",
+            "step": 2,
+            "type": "fact",
+            "quote": "Design a custom package— available for businesses with large payments volume or unique business models."
+          },
+          {
+            "text": "Buy-now-pay-later is priced above cards.",
+            "step": 2,
+            "type": "fact",
+            "quote": "5.99% + 30¢ per successful transaction for Klarna"
+          },
+          {
+            "text": "Managed Payments (merchant of record) adds 3.5% on top of payments fees.",
+            "step": 2,
+            "type": "fact",
+            "quote": "3.5% per successful Managed Payments transaction in addition to Payments fees"
+          },
+          {
+            "text": "In-person card rate is lower than online.",
+            "step": 2,
+            "type": "fact",
+            "quote": "2.7% + 5¢ per successful transaction for domestic cards"
+          },
+          {
+            "text": "Each dispute costs $15 to receive.",
+            "step": 2,
+            "type": "fact",
+            "quote": "$15.00 for each dispute you receive."
+          },
+          {
+            "text": "AI-prepared dispute evidence is priced as a share of won disputes.",
+            "step": 2,
+            "type": "fact",
+            "quote": "30% of the disputed amount for each dispute you win."
+          },
+          {
+            "text": "Card reader hardware starts at $59.",
+            "step": 2,
+            "type": "fact",
+            "quote": "$59.00 Stripe Reader M2"
+          },
+          {
+            "text": "Stablecoin payments are 1.5%.",
+            "step": 2,
+            "type": "fact",
+            "quote": "1.5% of the transaction amount in USD"
+          }
+        ],
+        "gaps": [
+          "No single all-in monthly estimate; the visitor adds fees across products themselves.",
+          "IC+ pricing is mentioned but no IC+ rates are shown."
+        ]
+      },
+      {
+        "id": "platform",
+        "title": "Technical platform",
+        "summary": "The strongest part of the site. A public REST API reference with sandboxes, date-and-name versioned releases, SDKs, a CLI, an app and extension model, and AI-agent tooling, all readable logged out.",
+        "facts": [
+          {
+            "text": "REST, JSON, standard HTTP verbs.",
+            "step": 4,
+            "type": "fact",
+            "quote": "The Stripe API is organized around REST."
+          },
+          {
+            "text": "Official client libraries in seven languages.",
+            "step": 4,
+            "type": "fact",
+            "quote": "Ruby Python PHP Java Node.js Go .NET"
+          },
+          {
+            "text": "A stated limit: one object per request.",
+            "step": 4,
+            "type": "fact",
+            "quote": "The Stripe API doesn’t support bulk updates."
+          },
+          {
+            "text": "Sandboxes exist for testing without touching live data.",
+            "step": 4,
+            "type": "fact",
+            "quote": "You can use the Stripe API in sandboxes without affecting your live data or interacting with banking networks."
+          },
+          {
+            "text": "Public changelog with dated, named API versions.",
+            "step": 10,
+            "type": "fact",
+            "quote": "2026-11-18.endive"
+          },
+          {
+            "text": "Docs list agent tooling alongside classic dev tools.",
+            "step": 10,
+            "type": "fact",
+            "quote": "Model Context Protocol"
+          },
+          {
+            "text": "Docs list an extension model: apps, extensions and custom objects.",
+            "step": 10,
+            "type": "fact",
+            "quote": "Custom objects"
+          }
+        ],
+        "gaps": [
+          "Rate limits, webhooks reliability and SLAs were not read."
+        ]
+      },
+      {
+        "id": "company",
+        "title": "Company presentation",
+        "summary": "A mission-led narrative: improve conditions for economic growth. Proof is customer outcomes with named brands and large aggregate numbers. The volume figures are phrased differently from page to page.",
+        "facts": [
+          {
+            "text": "Mission statement.",
+            "step": 7,
+            "type": "fact",
+            "quote": "We build programmable financial infrastructure, rethinking from first principles how financial services should work, to make it easier and cheaper for any business to start and scale."
+          },
+          {
+            "text": "Scale claim on About.",
+            "step": 7,
+            "type": "fact",
+            "quote": "More than 5 million businesses build on Stripe"
+          },
+          {
+            "text": "Share-of-GDP framing on About.",
+            "step": 7,
+            "type": "fact",
+            "quote": "They process trillions of dollars a year on Stripe, equivalent to around 1.8% of global GDP."
+          },
+          {
+            "text": "The customers page puts volume lower than the About page does.",
+            "step": 6,
+            "type": "fact",
+            "quote": "we process hundreds of billions of dollars each year for every size of business"
+          },
+          {
+            "text": "Customer proof is outcome-led, with named brands.",
+            "step": 6,
+            "type": "fact",
+            "quote": "uplift in Twilio’s payment acceptance rate"
+          }
+        ],
+        "gaps": [
+          "No leadership or investor information in the surveyed pages."
+        ]
+      }
+    ]
+  },
   "scores": {
     "jtbd_fit": {
       "score": 4,
-      "evidence": "Hero lists the jobs: \"Accept payments, handle business banking, and implement custom revenue models\".",
+      "evidence": "Home names the jobs (accept payments, business banking, custom revenue models); Startups, Enterprise and Platforms pages each name a segment job.",
       "step": 1
     },
     "capability_visible": {
       "score": 4,
-      "evidence": "Step 2 shows a real-looking dashboard (Balances, Transactions, Customers) behind the signup modal.",
-      "step": 2
+      "evidence": "Public API reference, changelog and product index with in-page UI demos are all readable logged out. The account dashboard sits behind signup.",
+      "step": 4
     },
     "pricing_transparency": {
-      "score": null,
-      "evidence": "Pricing is only a nav link in the captured steps.",
-      "step": null
+      "score": 4,
+      "evidence": "Standard card, in-person, dispute, hardware and Managed Payments rates are published. Billing, Tax and IC+ rates are not on the captured text.",
+      "step": 2
+    },
+    "product_breadth": {
+      "score": 4,
+      "evidence": "53 products grouped into eight areas, with a recommender for the lost visitor. Many product names are jargon (Authorization Boost, Data Pipeline).",
+      "step": 3
+    },
+    "platform_depth": {
+      "score": 5,
+      "evidence": "REST reference, seven SDK languages, sandboxes, named versions, CLI, apps and extensions, MCP and agent skills are all public.",
+      "step": 10
     },
     "time_to_value": {
       "score": null,
-      "evidence": "Flow stopped at the account form.",
+      "evidence": "Capture stops at the account form; first-payment time was not observed.",
       "step": null
     },
     "friction": {
       "score": 4,
-      "evidence": "Account form has four fields (email, name, password, country) plus Google sign-up.",
-      "step": 2
+      "evidence": "One click from home to the form. Form asks email, full name, password and country, with Google as an alternative.",
+      "step": 14
     },
     "trust": {
       "score": 4,
-      "evidence": "Named logo wall: OpenAI, Amazon, Nvidia, Ford, Coinbase, Google, Shopify.",
-      "step": 1
+      "evidence": "Named customers (Twilio, Atlassian, Intercom, Shopify, DoorDash) with specific outcomes. Uptime claim is unsourced.",
+      "step": 6
     },
     "mobile": {
       "score": null,
-      "evidence": "Mobile capture exists for step 1 but was not assessed.",
+      "evidence": "Phone captures exist for home and pricing but were not assessed.",
       "step": null
     },
     "states": {
@@ -75,49 +1746,58 @@
     },
     "a11y_basics": {
       "score": null,
-      "evidence": "Not tested in this run.",
+      "evidence": "Not tested.",
       "step": null
     },
     "value_prop_clarity": {
       "score": 3,
-      "evidence": "Clear to a developer or finance lead. \"Financial infrastructure\" and \"custom revenue models\" are harder for a small merchant.",
+      "evidence": "Clear to developers and finance leads. 'Financial infrastructure' does not tell a first-time store owner what to do.",
       "step": 1
     },
     "proof_quality": {
       "score": 3,
-      "evidence": "Logos are specific, but \"Global GDP running on Stripe: 1.75356688%\" has no visible source.",
-      "step": 1
+      "evidence": "Case stats are named and specific, but the headline GDP ticker has no source and payment-method counts differ by page (100+, 125+, 75+).",
+      "step": 3
     },
     "persuasion_integrity": {
       "score": 4,
-      "evidence": "No urgency or scarcity. The banner announces news instead of pushing a deal.",
-      "step": 1
+      "evidence": "No countdowns or scarcity. A promo rate is labelled with an end date.",
+      "step": 2
     },
     "cta_logic": {
       "score": 4,
-      "evidence": "\"Get started\" is primary, Google sign-up secondary, \"Contact sales\" separated top-right.",
-      "step": 1
+      "evidence": "'Get started' is primary with 'Sign up with Google' and 'Contact sales' ranked below it; pricing page repeats the pattern per tier.",
+      "step": 2
+    },
+    "company_narrative": {
+      "score": 4,
+      "evidence": "Same infrastructure story from home to About to Enterprise. Volume is stated as 'trillions' on About but 'hundreds of billions' on Customers.",
+      "step": 7
     }
   },
   "read": {
-    "summary": "A clear, credible start for builders and finance teams. The signup modal over a live-looking dashboard is the strongest move in the flow.",
+    "summary": "A developer-grade platform with unusually open docs and a published rate card, sold to a broad audience with one infrastructure story. It under-serves the small merchant who lands on the homepage.",
     "pros": [
-      "Signup appears over the product dashboard, so the visitor sees where they are going.",
-      "Logo wall uses specific, recognisable brands.",
-      "Primary and secondary CTAs are clearly ranked."
+      "Pricing is public and specific, down to dispute and hardware fees.",
+      "The API reference, changelog and tooling are readable without an account.",
+      "Named customers carry specific outcome numbers.",
+      "Signup is one click and one short form from home."
     ],
     "cons": [
-      "Copy skews toward technical and enterprise readers; a first-time small merchant may not see themselves.",
-      "The GDP counter is an unsourced, attention-grabbing claim.",
-      "Four required fields before seeing anything inside the product."
+      "A 53-product catalogue with insider names is hard to navigate for a newcomer.",
+      "The homepage GDP ticker and the payment-method counts (100+, 125+, 75+) are not reconciled or sourced.",
+      "No all-in cost view; the visitor adds fees across add-ons.",
+      "Nothing in the nav speaks to a small store owner."
     ],
-    "howItSells": "Sells scale and credibility (\"first transaction to your billionth\") through named customers and an ambitious stat. Positions Stripe as infrastructure rather than a store tool.",
+    "howItSells": "Sells credibility and scale: infrastructure language, a very large numbers frame, and named enterprise logos. Then widens by segment (startups, enterprise, platforms) with a program or sales contact for each.",
     "copy": [
-      "Show the product behind the signup modal.",
-      "Rank CTAs: self-serve primary, sales secondary."
+      "Publish the rate card including the awkward fees.",
+      "Keep the API reference and changelog public.",
+      "Pair every primary CTA with a sales route for large buyers."
     ],
     "avoid": [
-      "An unsourced headline statistic."
+      "A live stat with no source.",
+      "Different headline counts for the same capability on different pages."
     ],
     "tactics": [
       "authority",
@@ -126,35 +1806,60 @@
     ],
     "confidence": "medium",
     "unknowns": [
-      "Pricing clarity beyond the nav.",
-      "What happens after account creation.",
-      "Mobile experience."
+      "What happens after account creation and how long to a first payment.",
+      "Billing, Tax, Radar and Connect prices.",
+      "Mobile experience.",
+      "Whether the 53-product index helps or overwhelms a real first-time visitor."
     ],
     "hypothesis": {
-      "statement": "A segment-specific headline for small merchants (\"Take your first payment today\") will improve signup rate among non-developer visitors.",
-      "metric": "Signup start to account-created rate for small-merchant traffic",
-      "guardrail": "Developer-segment signup rate",
-      "decisionRule": "Ship to the small-merchant segment if completion rises by a pre-agreed margin and developer rate holds."
+      "statement": "A small-merchant path from the homepage (a 'Take your first payment today' card leading to Payment Links) will raise signup completion among non-developer visitors.",
+      "metric": "Signup-start to account-created rate for non-developer traffic",
+      "guardrail": "Developer-segment signup rate and sales-contact volume",
+      "decisionRule": "Ship to the segment if completion rises by a pre-agreed margin over two weeks and the developer rate holds."
     }
   },
   "claims": [
     {
-      "text": "Global GDP running on Stripe: 1.75356688%",
+      "text": "Global GDP running on Stripe",
       "verdict": "unsupported",
       "step": 1,
       "evidenceStep": null
     },
     {
-      "text": "From your first transaction to your billionth",
-      "verdict": "plausible",
-      "step": 1,
+      "text": "Businesses see 2x growth in payment volume on average.",
+      "verdict": "unsupported",
+      "step": 3,
       "evidenceStep": null
     },
     {
-      "text": "Accept payments, handle business banking",
+      "text": "No setup fees, monthly fees, or hidden fees.",
       "verdict": "plausible",
       "step": 2,
       "evidenceStep": 2
+    },
+    {
+      "text": "More than 5 million businesses build on Stripe",
+      "verdict": "plausible",
+      "step": 7,
+      "evidenceStep": 6
+    },
+    {
+      "text": "Intercom takes only 3 months to implement usage-based billing with Stripe.",
+      "verdict": "plausible",
+      "step": 9,
+      "evidenceStep": null
+    },
+    {
+      "text": "Pay one flat fee that never changes. There are no compounding interest charges, or late fees.",
+      "verdict": "plausible",
+      "step": 12,
+      "evidenceStep": 12
+    },
+    {
+      "text": "hundreds of billions of dollars each year",
+      "verdict": "unsupported",
+      "step": 6,
+      "evidenceStep": 7
     }
   ]
 }

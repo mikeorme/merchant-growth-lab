@@ -1,15 +1,62 @@
 {
-  "version": "1.0.0",
-  "scale": { "min": 1, "max": 5, "cantTell": null, "note": "Every score needs evidence (a screenshot step or quote). Use null when you cannot tell." },
+  "version": "1.1.0",
+  "scale": {
+    "min": 1,
+    "max": 5,
+    "cantTell": null,
+    "note": "Every score needs evidence (a screenshot step or quote). Use null when you cannot tell."
+  },
   "lenses": [
     {
       "id": "product",
       "label": "Product",
-      "question": "Does it do the merchant's job?",
+      "question": "Does it do the merchant's job, and is there a real platform behind it?",
       "dimensions": [
-        { "id": "jtbd_fit", "label": "Job-to-be-done fit", "anchors": { "1": "Unclear what job it serves", "3": "Serves the job with gaps", "5": "Obvious, complete fit for a named merchant job" } },
-        { "id": "capability_visible", "label": "Capability visible before signup", "anchors": { "1": "Nothing shown", "3": "Some screens or demos", "5": "Can evaluate real capability without committing" } },
-        { "id": "pricing_transparency", "label": "Pricing transparency", "anchors": { "1": "Hidden or evasive", "3": "Headline price, fees unclear", "5": "Full cost knowable up front" } }
+        {
+          "id": "jtbd_fit",
+          "label": "Job-to-be-done fit",
+          "anchors": {
+            "1": "Unclear what job it serves",
+            "3": "Serves the job with gaps",
+            "5": "Obvious, complete fit for a named merchant job"
+          }
+        },
+        {
+          "id": "capability_visible",
+          "label": "Capability visible before signup",
+          "anchors": {
+            "1": "Nothing shown",
+            "3": "Some screens or demos",
+            "5": "Can evaluate real capability without committing"
+          }
+        },
+        {
+          "id": "pricing_transparency",
+          "label": "Pricing transparency",
+          "anchors": {
+            "1": "Hidden or evasive",
+            "3": "Headline price, fees unclear",
+            "5": "Full cost knowable up front"
+          }
+        },
+        {
+          "id": "product_breadth",
+          "label": "Product line legibility",
+          "anchors": {
+            "1": "Cannot tell what is sold or to whom",
+            "3": "Products listed, fit unclear",
+            "5": "Each product has a clear job, buyer and next step"
+          }
+        },
+        {
+          "id": "platform_depth",
+          "label": "Technical platform depth",
+          "anchors": {
+            "1": "No docs, APIs or extensibility visible",
+            "3": "Docs exist, scope or quality unclear",
+            "5": "Public docs, API reference and extension model show a real platform"
+          }
+        }
       ]
     },
     {
@@ -17,12 +64,60 @@
       "label": "Solution (the flow)",
       "question": "Is the flow itself well designed?",
       "dimensions": [
-        { "id": "time_to_value", "label": "Time to first value", "anchors": { "1": "Value never reached in flow", "3": "Value after notable setup", "5": "Value within minutes, few decisions" } },
-        { "id": "friction", "label": "Steps and form friction", "anchors": { "1": "Heavy: many steps and fields", "3": "Moderate", "5": "Minimal, progressive asks" } },
-        { "id": "trust", "label": "Trust signals", "anchors": { "1": "None or contradicted", "3": "Generic badges", "5": "Specific, verifiable, well placed" } },
-        { "id": "mobile", "label": "Mobile quality", "anchors": { "1": "Broken or desktop-only", "3": "Works with friction", "5": "Designed for thumb and small screens" } },
-        { "id": "states", "label": "Error and empty states", "anchors": { "1": "Dead ends", "3": "Basic messages", "5": "Guides recovery and next step" } },
-        { "id": "a11y_basics", "label": "Accessibility basics", "anchors": { "1": "Obvious failures", "3": "Mixed", "5": "No visible issues in basic checks" } }
+        {
+          "id": "time_to_value",
+          "label": "Time to first value",
+          "anchors": {
+            "1": "Value never reached in flow",
+            "3": "Value after notable setup",
+            "5": "Value within minutes, few decisions"
+          }
+        },
+        {
+          "id": "friction",
+          "label": "Steps and form friction",
+          "anchors": {
+            "1": "Heavy: many steps and fields",
+            "3": "Moderate",
+            "5": "Minimal, progressive asks"
+          }
+        },
+        {
+          "id": "trust",
+          "label": "Trust signals",
+          "anchors": {
+            "1": "None or contradicted",
+            "3": "Generic badges",
+            "5": "Specific, verifiable, well placed"
+          }
+        },
+        {
+          "id": "mobile",
+          "label": "Mobile quality",
+          "anchors": {
+            "1": "Broken or desktop-only",
+            "3": "Works with friction",
+            "5": "Designed for thumb and small screens"
+          }
+        },
+        {
+          "id": "states",
+          "label": "Error and empty states",
+          "anchors": {
+            "1": "Dead ends",
+            "3": "Basic messages",
+            "5": "Guides recovery and next step"
+          }
+        },
+        {
+          "id": "a11y_basics",
+          "label": "Accessibility basics",
+          "anchors": {
+            "1": "Obvious failures",
+            "3": "Mixed",
+            "5": "No visible issues in basic checks"
+          }
+        }
       ]
     },
     {
@@ -30,13 +125,72 @@
       "label": "How it sells",
       "question": "Does the pitch hold up?",
       "dimensions": [
-        { "id": "value_prop_clarity", "label": "Value-prop clarity", "anchors": { "1": "Vague or jargon", "3": "Understandable after effort", "5": "Clear in five seconds" } },
-        { "id": "proof_quality", "label": "Proof quality (claims vs evidence)", "anchors": { "1": "Unsupported claims", "3": "Some proof", "5": "Claims backed with specific evidence" } },
-        { "id": "persuasion_integrity", "label": "Persuasion integrity", "anchors": { "1": "Manipulative or dark patterns", "3": "Standard pressure", "5": "Persuades by helping the decision" } },
-        { "id": "cta_logic", "label": "CTA logic", "anchors": { "1": "Competing or confusing", "3": "Clear but generic", "5": "Right next step at the right moment" } }
+        {
+          "id": "value_prop_clarity",
+          "label": "Value-prop clarity",
+          "anchors": {
+            "1": "Vague or jargon",
+            "3": "Understandable after effort",
+            "5": "Clear in five seconds"
+          }
+        },
+        {
+          "id": "proof_quality",
+          "label": "Proof quality (claims vs evidence)",
+          "anchors": {
+            "1": "Unsupported claims",
+            "3": "Some proof",
+            "5": "Claims backed with specific evidence"
+          }
+        },
+        {
+          "id": "persuasion_integrity",
+          "label": "Persuasion integrity",
+          "anchors": {
+            "1": "Manipulative or dark patterns",
+            "3": "Standard pressure",
+            "5": "Persuades by helping the decision"
+          }
+        },
+        {
+          "id": "cta_logic",
+          "label": "CTA logic",
+          "anchors": {
+            "1": "Competing or confusing",
+            "3": "Clear but generic",
+            "5": "Right next step at the right moment"
+          }
+        },
+        {
+          "id": "company_narrative",
+          "label": "Company narrative consistency",
+          "anchors": {
+            "1": "Pages contradict each other",
+            "3": "Consistent but generic",
+            "5": "Same specific story from homepage to about page to customer proof"
+          }
+        }
       ]
     }
   ],
-  "persuasionTactics": ["social_proof", "urgency", "scarcity", "default_plan", "anchoring", "free_trial_gate", "loss_aversion", "authority", "reciprocity", "commitment_ladder"],
-  "confidence": ["low", "medium", "high"]
+  "persuasionTactics": [
+    "social_proof",
+    "urgency",
+    "scarcity",
+    "default_plan",
+    "anchoring",
+    "free_trial_gate",
+    "loss_aversion",
+    "authority",
+    "reciprocity",
+    "commitment_ladder"
+  ],
+  "confidence": [
+    "low",
+    "medium",
+    "high"
+  ],
+  "changelog": {
+    "1.1.0": "Survey depth: added product_breadth, platform_depth, company_narrative. capability_visible and pricing_transparency now judged across the whole surveyed site, not one landing page."
+  }
 }

@@ -1,0 +1,443 @@
+URL: https://stripe.com/billing
+TITLE: Stripe Billing | Recurring Payments & Subscription Solutions
+DESCRIPTION: Power your subscriptions with Stripe Billing. Set up recurring and usage-based pricing with APIs or within the Dashboard. Reduce churn with AI-powered tools.
+
+Monetize faster with Stripe Billing.Manage pricing, reduce churn, and grow revenue—on one platform.
+Start now
+Contact sales
+queried.com/pricing
+invoice.stripe.com
+Queried
+Products
+Pricing
+Contact
+Choose a plan
+Starter
+Best for individuals
+What's included:
+1 seat
+1 domain
+1,000 monthly credits
+Subscribe
+Professional
+Best value
+Best for growing teams
+What's included:
+25 seats
+5 domains
+10,000 monthly credits
+Subscribe
+Enterprise
+Best for large teams
+What's included:
+Unlimited seats
+Multiple domains
+Unlimited monthly credits
+Contact sales
+Engine 3.4
+Best for small teams
+API requests
+10,000 x $0.0015/request
+$15.00
+Storage
+100 GB × $0.023/GB
+$2.30
+Bandwidth
+200 GB × $0.045/GB
+$9.00
+Compute time
+25 hrs × $0.40/hr
+$10.00
+Estimated monthly total:
+$36.30
+Get started
+Engine 3.4 Pro
+Popular
+Best for growing teams
+API requests
+25,000 x $0.0012/request
+$30.00
+Storage
+250 GB × $0.020/GB
+$5.00
+Bandwidth
+500 GB × $0.040/GB
+$20.00
+Compute time
+50 hrs × $0.35/hr
+$17.50
+Estimated monthly total:
+$72.50
+Get started
+Pay invoice
+Invoice PDF
+$66.00
+Due June 8
+To
+Jane Diaz
+From
+Queried
+Memo
+Professional Plan
+View invoice details
+Select a payment method
+Card
+Bank transfer
+Card information
+1234 1234 1234 1234
+MM / YY
+CVC
+Pay $66.00
+Close invoice and payment details
+$66.00
+INVOICE SUMMARY
+To
+Jane Diaz
+From
+Queried
+Memo
+Professional Plan
+ITEMS
+Professional Plan
+$60.00
+Qty 1
+Tax (10%)
+$6.00
+Total due
+$66.00
+Amount paid
+$0.00
+Amount remaining
+$66.00
+
+The opportunity
+
+AI is changing how software is monetized. You need the flexibility to handle new business models, new markets, and the complexity that comes with them.
+
+Consumption-based billing, hybrid models, flexible tiers—pricing models are evolving and you need to keep up. But if your billing infrastructure isn’t flexible enough, every pricing change can slow you down, especially as you expand globally.
+
+Stripe Billing lets you localize pricing, customize billing logic, and collect payments faster. Unify subscriptions and usage-based billing into one automated flow that supports any way you monetize.
+
+One platform to price, meter, bill, invoice, and grow.
+
+Connect supported payment processors and unify your entire revenue stack.
+
+Subscriptions
+
+Manage recurring revenue, reduce churn, and build the right pricing model—however and wherever you do business. Design and implement custom billing logic directly inside of Stripe.
+
+Explore Subscriptions
+New subscription
+Create subscription
+Customer
+Jane Diaz
+jane.diaz@example.com
+Items
+Queried Professional Plan
+$20.00 per unit / month
+Taxed as Software as a service (SaaS)
+Subscription options
+Billing and payment collection
+Subscription created
+You successfully created a new subscription for Jane Diaz.
+Usage-based billing
+
+Launch usage-based pricing models in minutes, and iterate quickly with flexible infrastructure for metering, credits, and hybrid structures. Capture and bill for usage continuously, never leaving revenue on the table. Powered by Metronome, a Stripe product.1
+
+Explore Metronome
+Tokens used in the last 30 days
+1,503,042,973
+Pro Plan
+Billed monthly
+Tokens
+$0.01 per 1,000 units
+Usage meter
+Invoicing
+
+Get paid faster and simplify accounts receivable with automated payment collection and reconciliation. Create and send one-off or recurring invoices in minutes, with no code.
+
+Explore Invoicing
+New invoice from Roastery
+Roastery
+<invoices@example.com>
+To:Andrew Leguay
+10:22 AM (3 hours ago)
+$40.00
+Due April 19
+Invoice PDF
+To
+Andrew Leguay
+From
+Roastery
+Memo
+Coffee subscription - Signature blend
+10 oz. bag
+View invoice details
+Select a payment method
+Card
+Bank transfer
+Card information
+1234 1234 1234 1234
+MM / YY
+CVC
+Launch new pricing or business models faster
+Update rate card
+Pay as you go
+USD
+· Monthly servicing period · Tax included
+Conversation voice engine API with Voice Labs
+voice_engine_api
+$0.07 per unit
+Conversation voice engine API with Voice Labs
+Meter
+voice_engine_api
+Price type
+Fixed
+Graduated
+Volume
+Sell as
+Individual units
+Packaged group of units
+Price per unit
+$0.08
+Choose a plan:
+VOICE LABS
+Free
+
+For individuals who want to try out the most advanced AI audio.
+
+Get started
+Pro
+Popular
+
+Everything in Free, plus advanced features for $20/month + additional usage.
+
+Get started
+Set up quickly, with or without code.
+
+Launch prebuilt pricing models in a few clicks, or program custom billing logic with minimal overhead. Gartner ranked Stripe as a Leader for ease of implementation.
+
+Support any pricing model, including hybrid.
+
+Go to market with 15+ built-in models, including flat rate, per seat, tiered, and more. Figma doubled its product suite and overhauled its billing model on Stripe.
+
+Define plans, bundles, and rate cards.
+
+Package products into plans, bundles, and add-ons, and adjust pricing as you go. Airwallet took two weeks to implement a new subscription model and increased revenue by 30%.
+
+Recover more revenue with AI-powered tools
+Monetize with fewer resources
+Scale into new markets quickly
+Stripe Billing scales with you.
+
+Grow your revenue on a proven platform.
+
+$8.2B
+in failed payments recovered in 2025
+$14
+recovered for every $1 spent in 2025
+350,000+
+companies use Stripe Billing to scale globally
+99.999%
+uptime in 2025
+Trusted by industry leaders.
+
+See how companies monetize with Stripe Billing.
+
+Atlassian selects Stripe to create a single platform for global billing and payments.
+Read Atlassian’s story
+Intercom takes only 3 months to implement usage-based billing with Stripe.
+Read Intercom’s story
+Fox Sports increases subscription revenue by 20% and user retention by 54% with Stripe.
+Read Fox Sports’ story
+Recognized by top analysts as a leader in billing
+
+Stripe Billing is named a Leader in The Forrester Wave™: Recurring Billing Solutions for Q1 2025.2
+
+Read more
+
+Stripe Billing is named a Leader in the 2025 Gartner® Magic Quadrant™ for Recurring Billing Applications. 3
+
+Read more
+Key Stripe Billing features and platform capabilities
+Sell
+​
+Online checkout
+​
+Payment Element
+​
+Payment Links
+​
+Point-of-sale purchase*
+​
+Adaptive Acceptance
+​
+Custom quotes
+​
+CRM & CPQ integrations
+​
+Pricing table
+​
+Free trials
+​
+Paid trials
+Preview
+Bill
+​
+Invoicing & e-Invoicing
+​
+Self-serve customer portal
+​
+Prorations, installments, & credit and debit notes
+​
+Subscription pricing models
+​
+Billing customizations
+Preview
+​
+Automatic tax calculation and collection*
+Powered by Metronome
+​
+Usage-based pricing models*
+​
+Rate cards*
+​
+Metering and data aggregation, up to 100K events per second*
+Collect
+​
+Cards
+​
+Wallets
+​
+Bank redirects, debits, & transfers
+​
+3P Payments / multiprocessor*
+​
+Buy now, pay later
+​
+Smart Retries
+​
+Expired card updates
+​
+Recovery and retention automations
+​
+Cancellation surveys
+Report
+​
+Billing analytics and benchmarks
+​
+Revenue recovery analytics
+​
+Accounts receivable aging*
+​
+Custom reporting & data warehouse sync*
+​
+Tax registration and filing*
+​
+ASC 606 and IFRS 15 compliant revenue recognition*
+​
+Automated reconciliation*
+​
+Accounting integrations & NetSuite connector
+​
+PCI DSS, ISO 27001, SOC 2, GDPR
+
+*Features available at an additional cost
+
+Optimize every step of your revenue cycle with Stripe and Metronome
+Contact information
+Email
+Payment method
+Card
+Cash App Pay
+Affirm
+Crypto
+Give customers a faster, simpler checkout.
+
+Boost conversions with an average 2%–3% uplift using Stripe’s Optimized Checkout Suite.
+
+Optimize your checkout
+Rule performance
+Requested 3D Secure authentication
+Allow rule match
+Block rule match
+Review rule match
+Identify and prevent fraud in real time.
+
+Reduce fraud losses, decrease false positives, and simplify fraud operations with Stripe Radar.
+
+Explore Radar
+Queried
+Pay Queried
+$275.27
+Subscription
+$249.00
+Sales tax (10.55%)
+$26.27
+Total due today
+$275.27
+Zip code
+98104
+City tax rate
+10.55%
+Simplify sales tax, VAT, and GST in 90+ countries.
+
+Built-in global tax tools are available without code or via API with Stripe Tax.
+
+Explore Tax
+Recognized revenue
+$5,839,417.15
+Open
+Closed
+Jan
+Oct
+Automate revenue accounting.
+
+Stripe Revenue Recognition turns complex accrual accounting calculations into automated reports.
+
+Explore Revenue Recognition
+How many customers do we have in France?
+select
+id,
+email,
+3 lines hidden
+shipping_address_country
+from customers
+whereshipping_address_country ='FR'
+I see 783 in Sigma:
+https://dashboard.stripe.com/quer...
+Gain deeper insights, faster.
+
+Build custom queries and reports on your Stripe data to drive better business decisions.
+
+Explore Stripe Sigma
+Select your data storage destination
+Snowflake
+Amazon Redshift
+Databricks
+Amazon S3
+Microsoft Azure
+Google Cloud Storage
+Cancel
+Continue
+Unify your financial and business data.
+
+Automatically send Stripe data and reports to your data warehouse.
+
+Explore Stripe Data Pipeline
+Synchronize your production stack.
+
+Manage credentials for all your hosting, databases, authorization, analytics, and AI services—all in one place.
+
+Explore Stripe Projects
+
+Not sure where to start? Get personalized Stripe product recommendations based on your business details.
+
+Find what's right for you
+Frequently asked questions
+Learn more about Stripe Billing.
+
+What is Stripe Billing and how does it compare to other billing software?
+
+Stripe Billing is modern monetization infrastructure. It’s the only billing software with a built-in payment system, and is used by fast-scaling businesses like Anthropic, Atlassian, and Figma. You can easily integrate Stripe Billing, and it combines AI-powered payments optimizations and subscription management tools, strengthening revenue retention at all stages of the customer journey. You can support everything from simple subscriptions to usage-based billing and invoicing with automated payment collection.
+You get global payment support, automated revenue recovery, and reporting tools that work across teams. Product teams can test and launch new models quickly. Engineering can spend less time building and maintaining monetization infrastructure. And revenue leaders get a fast, flexible pla

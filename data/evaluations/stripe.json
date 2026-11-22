@@ -1,0 +1,418 @@
+{
+  "dossier": {
+    "sections": [
+      {
+        "id": "positioning",
+        "title": "Positioning",
+        "summary": "Stripe sells itself as programmable financial infrastructure for any business size, not as a store builder. Each segment page repeats the same frame: one platform, scale from first transaction to enterprise.",
+        "facts": [
+          {
+            "text": "Home headline frames Stripe as infrastructure across payments, banking and custom revenue models.",
+            "step": 1,
+            "type": "fact",
+            "quote": "from your first transaction to your billionth"
+          },
+          {
+            "text": "Startups page targets venture-backed companies with a program and perks.",
+            "step": 11,
+            "type": "fact",
+            "quote": "Designed to support venture-backed businesses that are just getting started."
+          },
+          {
+            "text": "Enterprise page leads with named customers and a volume stat.",
+            "step": 5,
+            "type": "fact",
+            "quote": "Businesses on Stripe generated $1.9 trillion in total volume"
+          }
+        ],
+        "gaps": [
+          "No small-merchant or store-owner landing page appeared in the top-level nav."
+        ]
+      },
+      {
+        "id": "offerings",
+        "title": "Products and offerings",
+        "summary": "A 53-product catalogue in eight areas: payments, risk, revenue, data, money management, embedded finance, stablecoins and crypto, and the platform itself. A recommender helps visitors who don't know where to start.",
+        "facts": [
+          {
+            "text": "The product index lists 53 products.",
+            "step": 3,
+            "type": "fact",
+            "quote": "Showing 53 products."
+          },
+          {
+            "text": "Checkout is the prebuilt payment UI, with a conversion claim.",
+            "step": 3,
+            "type": "fact",
+            "quote": "Launch a secure, customizable, conversion-optimized checkout."
+          },
+          {
+            "text": "Managed Payments is a merchant-of-record offering that takes on tax, fraud and disputes.",
+            "step": 3,
+            "type": "fact",
+            "quote": "Focus on growth while Stripe Managed Payments handles tax, fraud, disputes, and more as your merchant of record."
+          },
+          {
+            "text": "Terminal covers in-person payments with certified hardware.",
+            "step": 3,
+            "type": "fact",
+            "quote": "Accept in-person payments with precertified devices and unified reporting across online and in-person sales."
+          },
+          {
+            "text": "Capital offers loans and merchant cash advances, repaid as a share of daily sales.",
+            "step": 12,
+            "type": "fact",
+            "quote": "Apply for business loans and merchant cash advances in minutes, with no impact to your personal credit score."
+          },
+          {
+            "text": "Connect is the platform and marketplace product; Shopify and DoorDash are named as users.",
+            "step": 13,
+            "type": "fact",
+            "quote": "The world’s most successful platforms and marketplaces, including Shopify and DoorDash, use Stripe Connect to embed payments into their products."
+          },
+          {
+            "text": "Billing covers subscriptions, usage-based billing and invoicing.",
+            "step": 9,
+            "type": "fact",
+            "quote": "One platform to price, meter, bill, invoice, and grow."
+          }
+        ],
+        "gaps": [
+          "Pricing for Billing, Tax, Radar and Connect was not on the pricing page text captured; only payments, disputes, Terminal and Managed Payments were."
+        ]
+      },
+      {
+        "id": "pricing",
+        "title": "Pricing",
+        "summary": "Pay-as-you-go with published per-transaction rates and a separate fee list; a 'Custom' tier for volume. Add-ons carry their own monthly or per-event fees.",
+        "facts": [
+          {
+            "text": "Standard card rate.",
+            "step": 2,
+            "type": "fact",
+            "quote": "2.9% + 30¢ per successful transaction for domestic cards"
+          },
+          {
+            "text": "Standard pricing has no monthly or setup fee, by Stripe's statement.",
+            "step": 2,
+            "type": "fact",
+            "quote": "No setup fees, monthly fees, or hidden fees."
+          },
+          {
+            "text": "Custom pricing is for large volume or unusual models and goes through sales.",
+            "step": 2,
+            "type": "fact",
+            "quote": "Design a custom package— available for businesses with large payments volume or unique business models."
+          },
+          {
+            "text": "Buy-now-pay-later is priced above cards.",
+            "step": 2,
+            "type": "fact",
+            "quote": "5.99% + 30¢ per successful transaction for Klarna"
+          },
+          {
+            "text": "Managed Payments (merchant of record) adds 3.5% on top of payments fees.",
+            "step": 2,
+            "type": "fact",
+            "quote": "3.5% per successful Managed Payments transaction in addition to Payments fees"
+          },
+          {
+            "text": "In-person card rate is lower than online.",
+            "step": 2,
+            "type": "fact",
+            "quote": "2.7% + 5¢ per successful transaction for domestic cards"
+          },
+          {
+            "text": "Each dispute costs $15 to receive.",
+            "step": 2,
+            "type": "fact",
+            "quote": "$15.00 for each dispute you receive."
+          },
+          {
+            "text": "AI-prepared dispute evidence is priced as a share of won disputes.",
+            "step": 2,
+            "type": "fact",
+            "quote": "30% of the disputed amount for each dispute you win."
+          },
+          {
+            "text": "Card reader hardware starts at $59.",
+            "step": 2,
+            "type": "fact",
+            "quote": "$59.00 Stripe Reader M2"
+          },
+          {
+            "text": "Stablecoin payments are 1.5%.",
+            "step": 2,
+            "type": "fact",
+            "quote": "1.5% of the transaction amount in USD"
+          }
+        ],
+        "gaps": [
+          "No single all-in monthly estimate; the visitor adds fees across products themselves.",
+          "IC+ pricing is mentioned but no IC+ rates are shown."
+        ]
+      },
+      {
+        "id": "platform",
+        "title": "Technical platform",
+        "summary": "The strongest part of the site. A public REST API reference with sandboxes, date-and-name versioned releases, SDKs, a CLI, an app and extension model, and AI-agent tooling, all readable logged out.",
+        "facts": [
+          {
+            "text": "REST, JSON, standard HTTP verbs.",
+            "step": 4,
+            "type": "fact",
+            "quote": "The Stripe API is organized around REST."
+          },
+          {
+            "text": "Official client libraries in seven languages.",
+            "step": 4,
+            "type": "fact",
+            "quote": "Ruby Python PHP Java Node.js Go .NET"
+          },
+          {
+            "text": "A stated limit: one object per request.",
+            "step": 4,
+            "type": "fact",
+            "quote": "The Stripe API doesn’t support bulk updates."
+          },
+          {
+            "text": "Sandboxes exist for testing without touching live data.",
+            "step": 4,
+            "type": "fact",
+            "quote": "You can use the Stripe API in sandboxes without affecting your live data or interacting with banking networks."
+          },
+          {
+            "text": "Public changelog with dated, named API versions.",
+            "step": 10,
+            "type": "fact",
+            "quote": "2026-11-18.endive"
+          },
+          {
+            "text": "Docs list agent tooling alongside classic dev tools.",
+            "step": 10,
+            "type": "fact",
+            "quote": "Model Context Protocol"
+          },
+          {
+            "text": "Docs list an extension model: apps, extensions and custom objects.",
+            "step": 10,
+            "type": "fact",
+            "quote": "Custom objects"
+          }
+        ],
+        "gaps": [
+          "Rate limits, webhooks reliability and SLAs were not read."
+        ]
+      },
+      {
+        "id": "company",
+        "title": "Company presentation",
+        "summary": "A mission-led narrative: improve conditions for economic growth. Proof is customer outcomes with named brands and large aggregate numbers. The volume figures are phrased differently from page to page.",
+        "facts": [
+          {
+            "text": "Mission statement.",
+            "step": 7,
+            "type": "fact",
+            "quote": "We build programmable financial infrastructure, rethinking from first principles how financial services should work, to make it easier and cheaper for any business to start and scale."
+          },
+          {
+            "text": "Scale claim on About.",
+            "step": 7,
+            "type": "fact",
+            "quote": "More than 5 million businesses build on Stripe"
+          },
+          {
+            "text": "Share-of-GDP framing on About.",
+            "step": 7,
+            "type": "fact",
+            "quote": "They process trillions of dollars a year on Stripe, equivalent to around 1.8% of global GDP."
+          },
+          {
+            "text": "The customers page puts volume lower than the About page does.",
+            "step": 6,
+            "type": "fact",
+            "quote": "we process hundreds of billions of dollars each year for every size of business"
+          },
+          {
+            "text": "Customer proof is outcome-led, with named brands.",
+            "step": 6,
+            "type": "fact",
+            "quote": "uplift in Twilio’s payment acceptance rate"
+          }
+        ],
+        "gaps": [
+          "No leadership or investor information in the surveyed pages."
+        ]
+      }
+    ]
+  },
+  "scores": {
+    "jtbd_fit": {
+      "score": 4,
+      "evidence": "Home names the jobs (accept payments, business banking, custom revenue models); Startups, Enterprise and Platforms pages each name a segment job.",
+      "step": 1
+    },
+    "capability_visible": {
+      "score": 4,
+      "evidence": "Public API reference, changelog and product index with in-page UI demos are all readable logged out. The account dashboard sits behind signup.",
+      "step": 4
+    },
+    "pricing_transparency": {
+      "score": 4,
+      "evidence": "Standard card, in-person, dispute, hardware and Managed Payments rates are published. Billing, Tax and IC+ rates are not on the captured text.",
+      "step": 2
+    },
+    "product_breadth": {
+      "score": 4,
+      "evidence": "53 products grouped into eight areas, with a recommender for the lost visitor. Many product names are jargon (Authorization Boost, Data Pipeline).",
+      "step": 3
+    },
+    "platform_depth": {
+      "score": 5,
+      "evidence": "REST reference, seven SDK languages, sandboxes, named versions, CLI, apps and extensions, MCP and agent skills are all public.",
+      "step": 10
+    },
+    "time_to_value": {
+      "score": null,
+      "evidence": "Capture stops at the account form; first-payment time was not observed.",
+      "step": null
+    },
+    "friction": {
+      "score": 4,
+      "evidence": "One click from home to the form. Form asks email, full name, password and country, with Google as an alternative.",
+      "step": 14
+    },
+    "trust": {
+      "score": 4,
+      "evidence": "Named customers (Twilio, Atlassian, Intercom, Shopify, DoorDash) with specific outcomes. Uptime claim is unsourced.",
+      "step": 6
+    },
+    "mobile": {
+      "score": null,
+      "evidence": "Phone captures exist for home and pricing but were not assessed.",
+      "step": null
+    },
+    "states": {
+      "score": null,
+      "evidence": "No error or empty states reached.",
+      "step": null
+    },
+    "a11y_basics": {
+      "score": null,
+      "evidence": "Not tested.",
+      "step": null
+    },
+    "value_prop_clarity": {
+      "score": 3,
+      "evidence": "Clear to developers and finance leads. 'Financial infrastructure' does not tell a first-time store owner what to do.",
+      "step": 1
+    },
+    "proof_quality": {
+      "score": 3,
+      "evidence": "Case stats are named and specific, but the headline GDP ticker has no source and payment-method counts differ by page (100+, 125+, 75+).",
+      "step": 3
+    },
+    "persuasion_integrity": {
+      "score": 4,
+      "evidence": "No countdowns or scarcity. A promo rate is labelled with an end date.",
+      "step": 2
+    },
+    "cta_logic": {
+      "score": 4,
+      "evidence": "'Get started' is primary with 'Sign up with Google' and 'Contact sales' ranked below it; pricing page repeats the pattern per tier.",
+      "step": 2
+    },
+    "company_narrative": {
+      "score": 4,
+      "evidence": "Same infrastructure story from home to About to Enterprise. Volume is stated as 'trillions' on About but 'hundreds of billions' on Customers.",
+      "step": 7
+    }
+  },
+  "read": {
+    "summary": "A developer-grade platform with unusually open docs and a published rate card, sold to a broad audience with one infrastructure story. It under-serves the small merchant who lands on the homepage.",
+    "pros": [
+      "Pricing is public and specific, down to dispute and hardware fees.",
+      "The API reference, changelog and tooling are readable without an account.",
+      "Named customers carry specific outcome numbers.",
+      "Signup is one click and one short form from home."
+    ],
+    "cons": [
+      "A 53-product catalogue with insider names is hard to navigate for a newcomer.",
+      "The homepage GDP ticker and the payment-method counts (100+, 125+, 75+) are not reconciled or sourced.",
+      "No all-in cost view; the visitor adds fees across add-ons.",
+      "Nothing in the nav speaks to a small store owner."
+    ],
+    "howItSells": "Sells credibility and scale: infrastructure language, a very large numbers frame, and named enterprise logos. Then widens by segment (startups, enterprise, platforms) with a program or sales contact for each.",
+    "copy": [
+      "Publish the rate card including the awkward fees.",
+      "Keep the API reference and changelog public.",
+      "Pair every primary CTA with a sales route for large buyers."
+    ],
+    "avoid": [
+      "A live stat with no source.",
+      "Different headline counts for the same capability on different pages."
+    ],
+    "tactics": [
+      "authority",
+      "social_proof",
+      "commitment_ladder"
+    ],
+    "confidence": "medium",
+    "unknowns": [
+      "What happens after account creation and how long to a first payment.",
+      "Billing, Tax, Radar and Connect prices.",
+      "Mobile experience.",
+      "Whether the 53-product index helps or overwhelms a real first-time visitor."
+    ],
+    "hypothesis": {
+      "statement": "A small-merchant path from the homepage (a 'Take your first payment today' card leading to Payment Links) will raise signup completion among non-developer visitors.",
+      "metric": "Signup-start to account-created rate for non-developer traffic",
+      "guardrail": "Developer-segment signup rate and sales-contact volume",
+      "decisionRule": "Ship to the segment if completion rises by a pre-agreed margin over two weeks and the developer rate holds."
+    }
+  },
+  "claims": [
+    {
+      "text": "Global GDP running on Stripe",
+      "verdict": "unsupported",
+      "step": 1,
+      "evidenceStep": null
+    },
+    {
+      "text": "Businesses see 2x growth in payment volume on average.",
+      "verdict": "unsupported",
+      "step": 3,
+      "evidenceStep": null
+    },
+    {
+      "text": "No setup fees, monthly fees, or hidden fees.",
+      "verdict": "plausible",
+      "step": 2,
+      "evidenceStep": 2
+    },
+    {
+      "text": "More than 5 million businesses build on Stripe",
+      "verdict": "plausible",
+      "step": 7,
+      "evidenceStep": 6
+    },
+    {
+      "text": "Intercom takes only 3 months to implement usage-based billing with Stripe.",
+      "verdict": "plausible",
+      "step": 9,
+      "evidenceStep": null
+    },
+    {
+      "text": "Pay one flat fee that never changes. There are no compounding interest charges, or late fees.",
+      "verdict": "plausible",
+      "step": 12,
+      "evidenceStep": 12
+    },
+    {
+      "text": "hundreds of billions of dollars each year",
+      "verdict": "unsupported",
+      "step": 6,
+      "evidenceStep": 7
+    }
+  ]
+}

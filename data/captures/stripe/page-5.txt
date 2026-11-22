@@ -1,0 +1,194 @@
+URL: https://stripe.com/enterprise
+TITLE: Enterprise Payment Solutions for Large Businesses | Stripe
+DESCRIPTION: Get enterprise payment and financial solutions that maximize conversion, add revenue streams, and automate financial operations. Learn why enterprises build on Stripe.
+
+Leading enterprises use Stripe to revolutionize their business—from Amazon’s rapid expansion into global markets to BMW’s reimagination of the customer experience.
+Panel discussion
+AI enhancements to Adaptive Acceptance
+News
+Businesses on Stripe generated $1.9 trillion in total volume
+Stories
+URBN consolidates $5 billion in online and in-store revenue onto Stripe
+Report
+Stripe named a Leader for its Billing product
+Panel discussion
+AI enhancements to Adaptive Acceptance
+News
+Businesses on Stripe generated $1.9 trillion in total volume
+Stories
+URBN consolidates $5 billion in online and in-store revenue onto Stripe
+Report
+Stripe named a Leader for its Billing product
+Panel discussion
+AI enhancements to Adaptive Acceptance
+News
+Businesses on Stripe generated $1.9 trillion in total volume
+Stories
+URBN consolidates $5 billion in online and in-store revenue onto Stripe
+Report
+Stripe named a Leader for its Billing product
+Enterprises from Airbnb to Unilever optimize payments with a single integration that works across 49 countries, 75+ payment methods, and 135 currencies, including stablecoins.
+
+Explore
+
+Every type of enterprise, from Hertz to H&M, can use Stripe to route funds, make payouts, and offer financial services.
+
+Explore
+
+Companies like NVIDIA use Stripe to recover more revenue, minimize development time, and improve efficiency across their existing ERP systems.
+
+Explore
+
+Enterprises from Airbnb to Unilever optimize payments with a single integration that works across 49 countries, 75+ payment methods, and 135 currencies, including stablecoins.
+
+Explore
+
+Every type of enterprise, from Hertz to H&M, can use Stripe to route funds, make payouts, and offer financial services.
+
+Explore
+
+Companies like NVIDIA use Stripe to recover more revenue, minimize development time, and improve efficiency across their existing ERP systems.
+
+Explore
+
+Expand and win in every market with optimized checkout and payments.
+Optimize conversion by automatically surfacing the highest converting payment methods for every customer and enabling a one-click checkout.
+Build a custom in-person checkout with a toolkit of APIs and SDKs, pre-certified readers, Tap to Pay, and configurable on-reader interactions.
+
+Authorization Boost
+
++3.8%
+
+Payment volume
+Payments
+Cost savings
+$50K
+$40K
+$30K
+$20K
+$10K
+$0
+Jan
+Apr
+
+Adaptive Acceptance
+
+Network tokens
+
+Card account updater
+
+Maximize revenue and reduce card processing costs with real-time retries, optimized messaging and formatting, card lifecycle management, decline prevention, and excessive retry prevention.
+Guide
+Four payments trends shaping global commerce
+Learn more 
+Customer story
+Amazon uses Stripe to launch quickly in new markets and power payments across Prime, Audible, Kindle, Amazon Pay, and more
+Learn more 
+> 90
+%
+Chance that a card has been seen on Stripe at least once
+Learn more 
+Reinvent business models or monetize financial services on your platform.
+Embed payments into your platform with user onboarding, multiparty fund flows, payouts, managed risk and support, and monetization.
+Use Stripe's embedded finance solutions to diversify revenue streams by offering your users access to card issuing, financial accounts, and business financing.
+Guide
+A new framework for maximizing the value of embedded payments
+Learn more 
+Customer story
+Instacart streamlined onboarding and payment flows for customers, shoppers, and retailers
+Learn more 
+74
+%
+Percentage of top global marketplaces powered by Stripe
+Learn more 
+Automate revenue and finance workflows to move your back office forward.
+Generate more revenue and reduce churn with invoicing, subscriptions, and usage-based billing.
+Automatically monitor, calculate, and collect sales tax in 100+ markets.
+Revenue recognition
+$5,839,417.15
+Open
+Closed
+Nov 2025
+Nov 2026
+November summary
+Nov 2026
+Recognized revenue previously deferred
+$1,216,752.67
+Revenue from unbilled services
+$4,244,870.34
+Less refunds
+$22.38
+Less disputes
+$8,813.74
+Less bad debts
+$190.56
+Eliminate manual work to streamline accounting and consolidate your data for precise decision-making.
+Guide
+How to overcome billing challenges and drive subscription growth
+Learn more 
+Customer story
+FOX Sports Mexico sees 20% uplift in subscription revenue with Stripe Billing
+Learn more 
+341K+
+Businesses that use Stripe to optimize revenue and automate manual financial processes
+Learn more 
+Access leading authorization rates powered by direct integrations with global card networks and issuing banks, an extensive understanding of issuer preferences, and machine learning-based products informed by billions of transactions.
+Generate additional revenue with network tokens and card account updater which help increase authorization rates and reduce churn.
+Mitigate revenue loss and increase auth rates by 50-70 bps on average with Adaptive Acceptance, which automatically identifies and executes optimal retry messaging and smart routing combinations for card payments.
+Businesses see an up to 8% reduction in fraud and 1–2% authorization rate uplift on eligible volume via our Enhanced Issuer Network.
+Speed up checkout with customizable solutions to help you meet SCA requirements and delegated authentication that dynamically adapts 2FA methods to suit customers' preferences.
+Reach your goals faster with proactive engagement from Stripe’s technical experts.
+
+Enterprise Support has absolutely helped us optimize processing and reduce declines. Working closely with a technical account manager gives us the opportunity to ask more questions and get detailed answers, faster.
+
+Read story 
+Integrate Stripe faster and with fewer people, with the help of our in-house payments and financial services experts. Our team supports compliance of regulatory requirements and data security standards.
+Learn more 
+Engage a certified Stripe partner to help with strategy, implementation, deployment, global expansion, or managed services for your Stripe solution.
+Learn more 
+Connect Stripe to your data warehouse. Centralizing Stripe data with other business data can help you unlock new business insights.
+Learn more 
+Connect Stripe with the tools that run your business. Discover apps for every function and system on the App Marketplace, from ecommerce and CRM to ERP, or build your own custom integrations.
+Learn more 
+With the Payment Element, you benefit from a conversion-optimized checkout experience while routing card payments to your payment processor of choice.
+Learn more 
+99.999%
+
+historical uptime for Stripe services
+
+200+
+
+category leaders processing over $1B in annual payment volume on Stripe
+
+500M+
+
+API requests per day processed by Stripe
+
+Enter new markets, optimize payments infrastructure, and easily add new business models and revenue streams.
+Improve your customer experience, grow recurring revenue, and reduce costs with a single platform for payments, subscriptions, invoicing, accounting, and tax.
+Facilitate multiparty payments and payouts, support customers with any business model, and offer tailored financial services to accelerate growth and revenue.
+Join 75% of the world’s top marketplaces, who onboard service providers, manage payments, and send payouts with Stripe Connect.
+Get all the tools you need to accept payments online and in-person from customers around the world.
+Market insights, trends, and reports to keep you on the cutting edge of financial technology.
+Online event
+Hear how enterprise executives are overcoming institutional risk aversion, brittle systems, and a bias toward the status quo to foster an innovative culture.
+Report
+Learn how brands like Toyota, Alaska Airlines, and River Island are transforming their payments strategy to stay competitive.
+Guide
+Evaluate payment providers, including overlooked capabilities and important questions to ask, and get a downloadable RFP template.
+Report
+See what shopper survey data and analysis of Stripe transactions across 20,000 businesses revealed about checkout performance.
+Report
+According to the IDC MarketScape evaluation, “merchants of all sizes can benefit from Stripe’s wide range of products and services.”
+Report
+According to The Forrester Wave™, “Along with Stripe Payments’ synergies, Stripe Billing’s architecture and reliability are its key strengths.”
+
+Simplify operations and centralize reporting across business lines and geographies with Stripe Organizations.
+
+Speak to an expert for tailored solutions and custom pricing for your business.
+Interchange plus pricing
+Volume discounts
+Country-specific rates
+Multiproduct discounts
+Deployment services
+Technical account management

@@ -1,0 +1,235 @@
+URL: https://stripe.com/connect
+TITLE: Stripe Connect | Platform and Marketplace Payment Solutions
+DESCRIPTION: Stripe Connect is the fastest and easiest way to integrate payments and financial services into your software platform or marketplace.
+
+Sessions 2027 · Early-bird registration now open 
+
+The world’s most successful platforms and marketplaces, including Shopify and DoorDash, use Stripe Connect to embed payments into their products. Connect offers seamless onboarding, embedded components, global payouts, and more—go live in weeks instead of quarters, build a profitable payment business, and scale with ease.
+
+TOTAL SALES
+$1,130
+44 total orders
+View full report
+TRANSACTIONS
+#1007
+$350.00
+#1008
+$420.00
+#1009
+$273.00
+#1010
+$87.00
+RATE
+BANK ACCOUNT
+2.4% + 30¢
+●●●● ●●●● ●●●● 1234
+ACCEPTED PAYMENTS
+View payouts
+Customer
+$430.00
+Customer
+$280.00
+Customer
+$90.00
+Shopify
+$20.00
+Merchant
+$1,130.00
+Food is being prepared
+Curry Up Now
+5min away
+Delivery by 6:45 PM
+Apple Pay
+$17.00
+Order receipt
+DoorDash base fee
+$1.00
+Restaurant total
+$11.00
+Delivery fee
+$2.00
+Customer tip
+$3.00
+Total
+$17.00
+Customer
+$17.00
+DoorDash
+$1.00
+Restaurant
+$11.00
+Dasher
+$5.00
+Stripe
+1430 2nd Ave
+Lyft
+4
+$8.32
+13:37
+Personal
+Select Lyft
+Rider
+$8.32
+Lyft
+$1.00
+Driver
+$7.32
+
+Use Stripe-hosted or embedded functionality to go live faster, and avoid the up-front costs and development time usually required for payment facilitation.
+
+Use tooling and services from Stripe, so you don’t have to dedicate extra resources to fraud prevention, margin reporting, tax forms, risk management, global payment methods, or onboarding compliance.
+
+Help your users reach more customers worldwide with local payment methods and the ability to easily register, calculate, collect, and file sales tax, VAT, and GST.
+
+White label and monetize Stripe’s capabilities by enabling online and in-person payments, Instant Payouts, Adaptive Pricing, financing, financial accounts, and more on your platform. Maximize revenue with growth tools in the Stripe Dashboard.
+
+Connect is the best way to integrate Stripe as a software platform, marketplace, or business that needs to orchestrate money movement across multiple parties.
+
+Platforms and marketplaces actively using Connect
+
+Years of Stripe Connect leading the embedded payments market
+
+Active, onboarded accounts that get paid via Connect
+
+Payments processed by 151 different platforms on Connect over the last year
+
+Make your software integral to your users’ businesses by embedding our best-in-class payments technology to create your own payments service.
+
+Onboard, verify, and pay out your users at scale—whether you run an on-demand, retail, or crowdfunding marketplace.
+
+Route funds, make payouts, and offer financial services to introduce new business models, overhaul franchise operations, or unify commerce globally.
+
+Programmatically send fast fiat or crypto payouts to your sellers, freelancers, creators, or service providers around the world with simple rates.
+
+Offer your users a great experience from day one with fast onboarding, accurate dashboards, and useful workflows—such as refunds, payment notifications, and dispute management.
+
+Stripe has the broadest set of interfaces and components that you can embed directly into your product. Whether you use Connect’s prebuilt, optimized UIs or build your own custom flows, it’s easy to get your users up and running quickly.
+
+With Connect, your customers can accept 135+ currencies and dynamically surface 40+ payment methods to maximize conversion all over the world. Enable easier expansion with support for sales tax, VAT, and GST in 100+ countries. Offer payments online, by invoice, or at the point of sale.
+
+When you partner with Stripe, you’ll get access to tools, resources, and experts that can help ensure you hit the most important metrics and goals for your business.
+
+Easily monetize every transaction on your platform with no-code pricing tools, margin reports, and revenue-driving capabilities such as Terminal, Instant Payouts, and Capital.
+
+We’ve partnered with Stripe for more than a decade to create a more fair and even playing field for our merchants. Stripe is excellent at making the complexity of money go away, being resilient, having fantastic uptime, and creating beautiful APIs.
+
+Connect supports almost any type of money movement you can dream up. Pay out users quickly and reduce operational overhead with Connect’s global routing and payout engine. You can split funds between multiple users, instantly route payments across borders, and specify your earnings on each transaction.
+
+Managing embedded payments typically requires a team of engineers and analysts, but Stripe helps you easily track and reconcile payments. In the US, Connect provides gross earnings tracking and automated 1099 form generation and delivery.
+
+Paying out money is complicated by stringent regulations that vary by country. Connect shifts payment obligations from you to Stripe. Under the hood, Connect tokenizes card data to help with PCI compliance; manages identity verifications, KYC, and sanctions checks while onboarding your users to Connect; leverages Stripe’s licenses around the world; and more.
+
+Connect allows us to achieve compliance with minimal effort, spend practically no time on payments-related customer support, and keep the user experience on our platform. And, it’s reassuring to know that when we’re expanding to a new country, Stripe will be ready for us.
+
+Expand your revenue beyond payments by offering your users access to Stripe’s financial solutions—including online and in-person payments, instant payouts, invoicing, card issuing, financing, sales tax collection, and more.
+
+Terminal
+
+Unify in-person and online payments.
+
+Explore Terminal 
+Pay Showflix
+$22.05
+Digital subscription
+$20.00
+Sales tax 10.25%
+$2.05
+Total due today
+$22.05
+Zip code
+99999
+Seattle tax rate
+10.25%
+Tax
+
+Help users stay compliant by calculating tax on transactions, and automating tax registrations and filings.
+
+Explore Tax 
+Basic
+Digital access
+$9
+per
+month
+Subscribe
+This includes:
+Unlimited access to abstractionmag.com
+Exclusive subscriber content
+Premium
+Popular!
+Print access
+$19
+per
+month
+Subscribe
+This includes:
+Monthly print issues
+Early bird tickets to Magazine events
+Exclusive subscriber content
+Billing
+
+Enable your users to create flexible subscriptions and billing plans.
+
+Explore Billing 
+Select your offer
+Expires on September 27, 2023
+$20,000
+$1,000
+$2,662
+Details
+Repayment rate
+15% per transaction
+60-day minimum
+$2,444.45
+Loan amount
+$20,000
+Fixed fee
+$2,000
+Total amount owed
+$22,000
+Capital
+
+Offer access to loans to help your users manage cash flow and accelerate growth.
+
+Explore Capital 
+Issuing
+
+Create, distribute, and manage physical and virtual spending cards for your users.
+
+Explore Issuing 
+$144.79
+Due Feb 19
+To
+Jenny Rosen
+From
+Powdur
+Memo
+Note this includes nine editors and unlimited projects.
+View invoice details
+Invoicing
+
+Help users get paid faster with integrated invoicing.
+
+Explore Invoicing 
+How many customers do we have in France?
+Stripe Sigma
+
+Offer powerful reporting and analytics to your users.
+
+Explore Sigma 
+
+A fully integrated solution for offering payments and financial services to your users.
+
+Help protect your platform from financial risk. Use Radar for AI-powered fraud detection you control, or let Stripe manage risk on your behalf with Managed Risk.
+
+Customer story
+Brightwheel grows from startup to vertical SaaS category leader with Stripe
+Blog
+How SaaS platforms are shipping payments and finance products in days
+Guide
+Best practices for launching and scaling platform payments
+
+Quickly create a new Stripe account today and get started in minutes.
+
+Learn how Connect can help you white label and monetize payments.
+
+Usage-based and flexible based on the capabilities you need

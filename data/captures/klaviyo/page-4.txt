@@ -1,0 +1,66 @@
+URL: https://developers.klaviyo.com/en
+TITLE: Klaviyo Developers
+DESCRIPTION: Guides, API reference and developer tools for building apps and integrations with Klaviyo.
+
+___
+Skip to content
+
+This page is available as Markdown at https://developers.klaviyo.com/en.md. An index of every page is at https://developers.klaviyo.com/llms.txt.
+
+Build your customer growth engine with agents
+Deploy an agent
+Copy setup prompt
+Get started
+Getting started
+Learn how to authenticate and make your first calls to the Klaviyo API.
+Set up your AI agent
+Connect your AI agent to Klaviyo's docs, OpenAPI spec, MCP server and CLI.
+Developer guides
+Detailed guides for common integrations and use cases.
+API reference
+Every endpoint, with its parameters, request and response bodies, and an example request.
+Developer tools
+Web and Mobile SDKs
+Klaviyo offers SDKs for server-side languages (Python, PHP, Ruby, Node) and mobile platforms (iOS, Android, React Native, Flutter).
+Klaviyo MCP server
+Get AI assistance with your Klaviyo data using Klaviyo's MCP server.
+Klaviyo CLI
+Call every Klaviyo API operation as a typed command from your terminal, to build, test and script your integration, or to give an AI agent the API.
+Create a test account
+Learn how to create a sandbox account that is linked to your production account login. Test your code end-to-end.
+Use Klaviyo's Postman collections
+Learn how to use our Postman collections to get started with Klaviyo's APIs
+Generate sample data
+Learn how to use the Sample Data Generation Tool to populate your Klaviyo account with three types of sample data: Klaviyo, custom ecommerce integration, and catalog data.
+Building with an AI agent?
+
+Every page has a Markdown version: add .md to the end of its URL. llms.txt indexes the reference by resource, llms-full.txt holds every endpoint page in one file, and you can download the OpenAPI spec the reference is generated from.
+
+Connect your agent to Klaviyo
+
+Klaviyo's MCP server lets an agent work with the data in a Klaviyo account. Add the remote server at https://mcp.klaviyo.com/mcp to your MCP client. In Claude Code, run this command:
+
+Add the Klaviyo MCP server to Claude Code
+Copy
+claude mcp add --transport http klaviyo https://mcp.klaviyo.com/mcp
+Set up the MCP server in another client
+Agent skills
+
+Agent skills are step-by-step instructions that an AI coding agent such as Claude Code, Cursor or Codex follows to build on the Klaviyo API. Each one is a short SKILL.md that links to the reference and code files it needs, all in Markdown. Point your agent at the one that fits what you're building.
+
+Build with an AI agent
+Join the community
+Developer community
+Ask questions and share what you've built with other Klaviyo developers.
+Developer blog
+Articles and tutorials from Klaviyo's developer team.
+Changelog
+What's new and what's changed in each API revision.
+
+Subscribe to Developer Updates
+
+Sign up to learn about the latest developer product announcements, API changes, and more!
+
+Subscribe
+
+By entering your email and hitting subscribe, you consent to receive marketing communications (such as newsletters, blog posts, webinars, event invitations and new product updates), and targeted advertising from Klaviyo from time to time. You can unsubscribe from our emails at any time by clicking the Unsubscribe link at the bottom of our emails. For more information on how we process your personal information and what rights you have in this respect, see our Privacy Policy.

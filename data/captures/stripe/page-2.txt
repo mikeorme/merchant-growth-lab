@@ -1,0 +1,485 @@
+URL: https://stripe.com/pricing
+TITLE: Pricing & Fees
+DESCRIPTION: Find Stripe fees and pricing information. Find our processing fees for credit cards, pricing models and pay-as-you-go fees for businesses.
+
+Standard
+Access a complete payments platform with simple, pay-as-you-go pricing. No setup fees, monthly fees, or hidden fees.
+Get started 
+2.9% + 30¢
+
+per successful transaction for domestic cards
+
+Custom
+Design a custom package— available for businesses with large payments volume or unique business models.
+Contact sales 
+IC+ pricing
+Volume discounts
+Multi-product discounts
+Country-specific rates
+
+Online and in-person payments, recurring billing, embedded payments, and much more.
+
+Custom pricing
+
+Optimize checkout conversion, accept local payment methods, and increase acceptance rates.
+
+An online payments platform engineered for growth. 
+
+Start now 
+Increase customer acquisition with 100+ payment methods.
+
+Improve conversion with Link, Stripe’s accelerated checkout.
+
+Get AI-powered fraud protection for card payments with Radar Lite.
+
+Save engineering time with pre-built UIs. 
+
+Accept widely used credit and debit cards, prepaid cards, and digital wallets for online payments.
+
+2.9% + 30¢
+
+per successful transaction for domestic cards
+
++ 0.5%
+
+for manually entered cards
+
++ 1.5%
+
+for international cards
+
++ 1%
+
+if currency conversion is required
+
+Let your customers buy something and pay for it in installments over time.
+
+5.99% + 30¢
+
+per successful transaction for Klarna
+
+See more payment methods 
+
+Offer bank debits, bank transfers, and other locally relevant payment methods.
+
+0.8%
+
+ACH Direct Debit
+
+$5.00 cap
+See more payment methods 
+
+Enable customers globally to pay with stablecoins.
+
+1.5%
+
+of the transaction amount in USD
+
+Included: conversion to fiat, wallet and AML screening, fraud prevention, gas sponsorship
+
+Learn more 
+
+Respond to card payment disputes, also known as chargebacks.
+
+Learn more
+
+Dispute received fee
+$15.00
+
+for each dispute you receive.
+
+In rare cases, network fees also apply.
+
+Dispute countered fee
+$15.00
+
+for each dispute you respond to manually.
+
+You get this fee back for won disputes. You don't get this fee back for lost disputes.
+
+Learn more 
+Dispute appealed fee
+$15.00
+
+for each dispute you appeal.
+
+You don't get this fee back, even if you win. Additional network fees apply.
+
+Learn more 
+
+Respond to disputes with evidence that Stripe's AI prepares for you. You can also add your own evidence.
+
+Smart Disputes fee
+30%
+
+of the disputed amount for each dispute you win.
+
+There's no Smart Disputes fee for lost disputes. The dispute received fee still applies.
+
+Learn more 
+
+Help reduce dispute rates with dispute prevention tools powered by Verifi from Visa and Ethoca from Mastercard.
+
+Included
+
+Dispute deflection lookups
+
+$15.00
+
+per Visa resolution
+
+$15.00
+
+per Visa Compelling Evidence 3.0 block
+
+$29.00
+
+per Mastercard resolution
+
+Payment optimizations
+Included with Payments
+ 
+
+Included at no additional charge for businesses on standard payments pricing
+
+More features
+
+Increase global conversion and reduce costs with built-in payment methods and faster checkout.
+
+Start now 
+Reach over 300M consumers worldwide.
+
+Enable your customers to check out in seconds with the optimized Link experience, 3x faster than non-Link customers.
+
+Increase conversion, businesses with a large repeat customer base have seen an average returning user conversion increase of 14%.
+
+Accept widely used credit and debit cards.
+
+2.9% + 30¢
+
+per successful transaction
+
++ 1.5%
+
+for international transactions
+
++ 1%
+
+if currency conversion is required
+
+Reach more global customers, reduce costs, and minimize cross-border exchange fees by offering stablecoins.
+
+0.8%
+
+per successful transaction
+
+Promotional rate through January 1, 2027; + 0.2%
+
+thereafter
+
+Convert buyers globally by offering the payment methods they prefer in their market.
+
+1.8% + 30¢
+
+per successful transaction
+
++ 1.5%
+
+for international transactions
+
++ 1%
+
+if currency conversion is required
+
+Reduce processing costs with frictionless bank payments with the confirmation speed of cards.
+
+2.6% + 30¢
+
+per successful transaction
+
+Offer flexible buy now, pay later options to reach new buyers.
+
+5.99% + 30¢
+
+per successful transaction
+
++ 1.5%
+
+for international transactions
+
++ 1%
+
+if currency conversion is required
+
+No-code links to sell online without a website.
+
+Start now 
+Accept payments in minutes by generating no-code links. 
+
+Sell products, offer subscriptions, and more.
+
+Create at scale via our API to automate marketing campaigns and sales operations.
+
+Accept payments made using a payment link.
+
+Included
+
+with Payments
+
+ 
+
+Included at no additional charge for businesses on standard payments pricing
+
+Use your own domain while hosting your payments page or customer portal on Stripe.
+
+$10.00
+
+per month
+
+Learn more 
+
+Automatically generate an invoice after a one-time purchase.
+
+0.4%
+
+on transaction total
+
+$2.00
+
+cap per invoice
+
+Learn more 
+
+Prebuilt payment form optimized for conversion.
+
+Start now 
+Save engineering time and get started quickly.
+
+Reduce friction with features designed to improve conversion. 
+
+Customize with your branding.
+
+Accept payments made on Stripe Checkout.
+
+Included
+
+with Payments
+
+ 
+
+Included at no additional charge for businesses on standard payments pricing
+
+Use your own domain while hosting your payments page or customer portal on Stripe.
+
+$10.00
+
+per month
+
+Learn more 
+
+Automatically generate an invoice after a one-time purchase.
+
+0.4%
+
+on transaction total
+
+$2.00
+
+cap per invoice
+
+Learn more 
+
+Stripe’s merchant of record solution that simplifies global selling.
+
+Start now 
+Quickly launch or expand your businesses worldwide with no additional setup.
+
+Offload tax compliance, fraud, disputes, and customer support responsibilities.
+
+Use Managed Payments for all your transactions or just for specific markets and products.
+
+A complete merchant of record solution for global digital commerce. Includes indirect tax compliance (sales tax, VAT, GST) and remittance in more than 75 countries, along with fraud prevention, dispute management, invoicing, and customer support globally.
+
+3.5%
+
+per successful Managed Payments transaction in addition to Payments fees
+
+Learn more 
+
+Tools to accept in-person payments and unify commerce.
+
+Start now 
+Build a custom checkout or integrate with hundreds of third-party POS systems.
+
+Streamline hardware logistics with pre-certified Stripe or select 3P card readers.
+
+Unify online and in-person payments to create a cohesive customer experience.
+
+Scale globally with one integration.
+
+Accept widely used credit cards, debit cards, and digital wallets for in-person payments.
+
+2.7% + 5¢
+
+per successful transaction for domestic cards
+
++ 1.5%
+
+for international cards
+
++ $0.10
+
+per authorization for Tap to Pay
+
+ 
+
+Accept contactless payments without additional hardware using compatible iPhone or Android devices.
+
++ $0.05
+
+per authorization for optional point-to-point-encryption
+
+ 
+
+Access PCI-certified point-to-point-encryption (P2PE) required in certain industries. All Terminal transactions are end-to-end encrypted by default.
+
+Use pre-certified card readers with cloud-based fleet management that streamlines device logistics and management at scale.
+
+$59.00
+
+Stripe Reader M2
+
+$299.00
+
+Stripe Reader S710
+
+$299.00
+
+Stripe Reader S700
+
+$329.00
+
+Stripe Reader T600
+
+Unlimited cellular data usage on enabled readers. Apps on Device data usage limited to 10 GB per reader per month.
+
+$10.00
+
+per reader per month
+
+See pricing details 
+
+Secure access to users’ financial accounts.
+
+Start now 
+Maximize conversion with an embedded authentication flow.
+
+Instantly verify bank accounts from 5,000 financial institutions.
+
+Reduce development time with a single integration.
+
+Retrieve tokenized account numbers to instantly verify bank accounts for ACH Direct Debit, payouts, and other types of money movement.
+
+$1.50
+
+per successful instant verification
+
+Micro-deposit verifications are free
+
+Retrieve account balances for underwriting, financial management, or preventing payment failures due to insufficient funds.
+
+$0.10
+
+per successful API call
+
+Verify bank account ownership to minimize fraud when making payouts or accepting payments.
+
+$1.50
+
+per successful API call
+
+Subscribe to an automatically updated feed of account transactions.
+
+$0.30
+
+per institution per account holder per month
+
+See pricing details 
+
+Enhance your platform by embedding financial services—set-up financial accounts, issue cards, and offer financing.
+
+Embedded payments for platforms and marketplaces.
+
+Start now 
+Launch faster with Stripe-hosted or prebuilt embedded components.
+
+Save time by using tooling from Stripe for onboarding, risk, tax forms and more.
+
+Grow revenue by monetizing payments.
+
+Stripe sets and collects processing fees from your users, so you don’t have to. Learn more about how to qualify for a revenue share from Stripe.
+
+Included
+
+with Payments
+
+ 
+
+Included at no additional charge for businesses on standard payments pricing
+
+0.25%
+
+starting fee for platforms that deploy their own payments pricing to earn revenue on each transaction.
+
+See pricing details 
+
+Manage business banking3 and finances in one place. No minimums or monthly fees.
+
+Start now 
+Open an account in minutes
+
+Get cashback on card purchases
+
+Pay other Stripe businesses instantly and for free
+
+Add funds and access your settled payments balance instantly.
+
+Included
+
+funding through ACH
+
+Convert currencies instantly within your account.
+
+Starting at 0.5%
+
+of the converted amount
+
+Learn more 
+
+Send money to recipients domestically and internationally to 160+ countries
+
+First 50 monthly payouts on domestic, local rails
+Included
+
+See Global Payouts pricing
+
+Manage expenses with virtual and physical cards and earn cashback.
+
+Included
+
+with Treasury
+
+No cross-border or FX fees
+
+Learn More 
+
+Send money instantly to 160+ countries
+
+Start now 
+Pay recipients globally using local bank transfers, international wires, debit cards, or stablecoins.
+
+Launch quickly with no-code tools or APIs and flexible funding options.
+
+Expand your global reach and reduce cross-border fees.
+
+Send money to recipients within yo

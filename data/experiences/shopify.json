@@ -4,68 +4,1511 @@
   "category": "store-builders",
   "url": "https://www.shopify.com",
   "flow": "free trial start to first product added",
-  "capturedAt": "2026-11-21",
-  "rubricVersion": "1.0.0",
+  "capturedAt": "2026-11-22",
+  "rubricVersion": "1.1.0",
   "status": "evaluated",
-  "blockedReason": "account form reached at step 2",
+  "blockedReason": "account form reached after 1 click from home",
+  "surveyMode": "full",
   "steps": [
     {
       "n": 1,
+      "kind": "home",
       "title": "Shopify: The All-in-One Commerce Platform for Businesses - Shopify",
       "url": "https://www.shopify.com/",
       "screenshot": "shots/shopify/step-1.webp",
-      "elapsedMs": 1809,
+      "textFile": "data/captures/shopify/page-1.txt",
+      "elapsedMs": 4768,
       "clicks": 0,
-      "mobileScreenshot": "shots/shopify/step-1-mobile.webp",
-      "note": "Next: clicked \"Get started fast You could be selling by tomorrow.\""
+      "via": "entry",
+      "headings": [
+        "h1: Be the next AI all-star",
+        "h2: store they line up for",
+        "h2: Your brand has entered the chat",
+        "h3: Show up everywhere. Without going anywhere.",
+        "h3: Grow around the world",
+        "h3: For anyone from entrepreneurs to enterprise",
+        "h2: Meet your secret weapon, Sidekick",
+        "h3: Your very own commerce AI",
+        "h3: What winning looks like",
+        "h3: Customize everything with apps",
+        "h3: Hyperdriven by AI. Commerce to the core.",
+        "h2: There’s no better place for you to build",
+        "h3: The world’s best-converting checkout",
+        "h3: Rock steady. Blazing fast.",
+        "h3: Shopify has your back",
+        "h2: Build fast on Shopify",
+        "h3: Shopify",
+        "h3: Ecosystem",
+        "h3: Resources",
+        "h3: Support"
+      ],
+      "ctas": [
+        "Start for free",
+        "Free Tools"
+      ],
+      "prices": [
+        ". Grow around the world Buy now 🇺🇸 Order for $125.00 Buy now 🇺🇸 Order for $125.00 Buy now 🇺🇸 Ord",
+        "🇺🇸 Order for $125.00 Buy now 🇺🇸 Order for $125.00 Buy now 🇺🇸 Order for $125.00 Buy now 🇺🇸 Ord",
+        "🇺🇸 Order for $125.00 Buy now 🇺🇸 Order for $125.00 Buy now 🇺🇸 Order for $125.00 Sell across bord",
+        "🇺🇸 Order for $125.00 Buy now 🇺🇸 Order for $125.00 Sell across borders Take the complexity out of i",
+        "nched Guests on Earth out of her home. Now it's a $4M+ business. Grow as big as you want Our Place g",
+        "+ Shopify Checkout with Shop Pay converts up to 50% higher than guest checkout and exposes your brand",
+        "a boost, Shopify Capital is here to lend a hand. $5B US loaned out so far Invested in Shopify mercha",
+        "far Invested in Shopify merchants Funding up to $2M US Amounts tailored to meet your needs 0% equi",
+        "p to $2M US Amounts tailored to meet your needs 0% equity No stakes taken—ever Build fast on Shopi"
+      ],
+      "description": "Try Shopify free. Build or grow your business fast with AI. Get more than ecommerce software with tools to manage every part of your business.",
+      "mobileScreenshot": "shots/shopify/step-1-mobile.webp"
     },
     {
       "n": 2,
+      "kind": "pricing",
+      "title": "Shopify Pricing: Find the Right Plan for Your Business - Shopify",
+      "url": "https://www.shopify.com/pricing",
+      "screenshot": "shots/shopify/step-2.webp",
+      "textFile": "data/captures/shopify/page-2.txt",
+      "elapsedMs": 9599,
+      "clicks": 0,
+      "via": "nav: Pricing",
+      "headings": [
+        "h1: You've got plans. Us too.",
+        "h2: Always included",
+        "h2: Stunning store design, by chat",
+        "h2: Sidekick, your built-in commerce AI",
+        "h2: World's best checkout",
+        "h2: Easy in-person sales",
+        "h2: AI selling, on by default",
+        "h2: But wait, there’s more",
+        "h3: Level up your stores with:",
+        "h2: Word on the street",
+        "h3: What is Shopify and how does it work?",
+        "h3: What AI comes with Shopify?",
+        "h3: How much does Shopify cost?",
+        "h3: Can I cancel or change my subscription anytime?",
+        "h3: Are there any additional fees?",
+        "h3: In what countries can I use Shopify?",
+        "h3: Is Shopify PCI Compliant or PCI Certified?",
+        "h3: Can I use my own domain name with Shopify?",
+        "h3: Do I get web hosting with Shopify?",
+        "h2: Turn plans into progress",
+        "h3: Shopify",
+        "h3: Ecosystem",
+        "h3: Resources",
+        "h3: Support"
+      ],
+      "ctas": [
+        "Start for free",
+        "Try for $399",
+        "Learn more",
+        "Free Tools"
+      ],
+      "prices": [
+        "t You've got plans. Us too. Try 3 days free, then $1/month for 3 months. Pay yearly Compare all features Ba",
+        "3 months. Pay yearly Compare all features Basic $29/mo For solo entrepreneurs Start for free Sell onl",
+        "line, in person, and in AI chats Card rates from 2.9% + 30¢ USD Built-in AI assistant Millions of tokens Pl",
+        "ting, reports, automations, and more. Earn up to $5,000 in credits Earn 1% back on all sales as subscript",
+        "ons, and more. Earn up to $5,000 in credits Earn 1% back on all sales as subscription credits (0.5% o",
+        "arn 1% back on all sales as subscription credits (0.5% on non-Shopify Payments). Grow $79/mo For smal",
+        "on credits (0.5% on non-Shopify Payments). Grow $79/mo For small teams Start for free Everything in B",
+        "rt for free Everything in Basic Card rates from 2.7% + 30¢ USD Up to 5 staff accounts Up to 87% off shippi",
+        "rom 2.7% + 30¢ USD Up to 5 staff accounts Up to 87% off shipping Earn up to $7,500 in credits Earn 1",
+        "taff accounts Up to 87% off shipping Earn up to $7,500 in credits Earn 1% back on all sales as subscript",
+        "% off shipping Earn up to $7,500 in credits Earn 1% back on all sales as subscription credits (0.5% o",
+        "arn 1% back on all sales as subscription credits (0.5% on non-Shopify Payments). Advanced $299/mo For",
+        "redits (0.5% on non-Shopify Payments). Advanced $299/mo For global reach Start for free Everything in",
+        "art for free Everything in Grow Card rates from 2.5% + 30¢ USD Up to 15 staff accounts Live 3rd-party ship",
+        "ng rates Tailor your store by region Earn up to $10,000 in credits Earn 1% back on all sales as subscript",
+        "ore by region Earn up to $10,000 in credits Earn 1% back on all sales as subscription credits (0.5% o",
+        "arn 1% back on all sales as subscription credits (0.5% on non-Shopify Payments). Plus from $2,300/mo",
+        "edits (0.5% on non-Shopify Payments). Plus from $2,300/mo For complex businesses Try for $399 Everything",
+        "from $2,300/mo For complex businesses Try for $399 Everything in Advanced Card rates from 2.25% +",
+        "for $399 Everything in Advanced Card rates from 2.25% + 30¢ USD Unlimited staff accounts Fully customizable",
+        "love the most. Bestsellers Daisy Embroidered Cap $48 Garden Linen Jacket $228 TALVA Flower Tote $129 W",
+        "ers Daisy Embroidered Cap $48 Garden Linen Jacket $228 TALVA Flower Tote $129 Wildflower Framed Print $5",
+        "ap $48 Garden Linen Jacket $228 TALVA Flower Tote $129 Wildflower Framed Print $56 Poppy Shoulder Tote $",
+        "28 TALVA Flower Tote $129 Wildflower Framed Print $56 Poppy Shoulder Tote $145 These are selling fast.",
+        "9 Wildflower Framed Print $56 Poppy Shoulder Tote $145 These are selling fast. Make a collection? Let’s"
+      ],
+      "description": "Get detailed information on Shopify pricing and features. Find the right plan for you and start your business in seconds.",
+      "mobileScreenshot": "shots/shopify/step-2-mobile.webp"
+    },
+    {
+      "n": 3,
+      "kind": "product",
+      "title": "Shopify Checkout: The Best-Converting Ecommerce Checkout - Shopify",
+      "url": "https://www.shopify.com/checkout",
+      "screenshot": "shots/shopify/step-3.webp",
+      "textFile": "data/captures/shopify/page-3.txt",
+      "elapsedMs": 15550,
+      "clicks": 0,
+      "via": "nav: World's best checkoutProven to convert better.",
+      "headings": [
+        "h1: SHOPIFY CHECKOUT",
+        "h2: The best‑converting checkout with Shop Pay",
+        "h2: Sell your way with Shopify Checkout",
+        "h2: Sell more. Sell faster. Shopify Checkout + Shop Pay",
+        "h2: 3x faster",
+        "h2: 50% higher conversion",
+        "h2: Hundreds of millions more customers",
+        "h2: Get the perfect checkout for your brand with advanced customizations",
+        "h3: Apps for every checkout",
+        "h3: Express your brand",
+        "h2: DEVELOPER PLATFORM",
+        "h3: Extend your checkout with apps",
+        "h3: Scale up and be recognized",
+        "h3: 24/7 support guaranteed",
+        "h2: Shopify Checkout features",
+        "h3: Quick visual customizations",
+        "h3: Advanced visual customizations",
+        "h3: Add functionality with apps",
+        "h3: Express checkouts",
+        "h3: Flexible shipping options",
+        "h3: In-store pickup",
+        "h3: Show accurate delivery dates",
+        "h3: Localized experiences",
+        "h3: Sell like a local",
+        "h3: More ways to pay",
+        "h3: Pay in installments",
+        "h3: Sell more with pre-orders and subscriptions",
+        "h3: Safe, secure, trusted",
+        "h3: Ready to scale",
+        "h3: Always mobile-first",
+        "h3: Checkout anywhere",
+        "h3: Address autocomplete",
+        "h3: Enable tipping options",
+        "h3: Text messaging consent",
+        "h3: Turn data into action",
+        "h3: Advanced bot protection",
+        "h3: Accessible to all",
+        "h2: Ready to get started?",
+        "h3: Shopify",
+        "h3: Ecosystem"
+      ],
+      "ctas": [
+        "Start for free",
+        "Start your free trial",
+        "Learn more about Shop Pay",
+        "Free Tools"
+      ],
+      "prices": [
+        "nverting, customizable, one-click checkout powers 12% of US ecommerce and is trusted by the biggest bra",
+        "S ecommerce and is trusted by the biggest brands. 15% Higher conversion than the competition1 875M G",
+        "conversion rate outpaces the competition by up to 36% and by an average of 15%, based on a study comple",
+        "the competition by up to 36% and by an average of 15%, based on a study completed in April 2023 in part",
+        "sktop Try customizing checkout Show order summary $249.83 Enable Shop Pay Add express checkout Contact L",
+        "ing method Standard shipping 3 to 7 business days $8.62 Priority shipping 2 to 4 business days $11.58 En",
+        "days $8.62 Priority shipping 2 to 4 business days $11.58 Enable pickup in store Display accurate deliver",
+        "kitchen chair Curved seat with beech wood legs $80.00 1 Side tables Brown wooden side tables $150.00",
+        "$80.00 1 Side tables Brown wooden side tables $150.00 Subtotal $230.00 Shipping $8.62 Estimated taxes $",
+        "ables Brown wooden side tables $150.00 Subtotal $230.00 Shipping $8.62 Estimated taxes $11.21 Total $249.",
+        "en side tables $150.00 Subtotal $230.00 Shipping $8.62 Estimated taxes $11.21 Total $249.83 Add discoun",
+        "0 Subtotal $230.00 Shipping $8.62 Estimated taxes $11.21 Total $249.83 Add discounts and gift cards Pay",
+        "30.00 Shipping $8.62 Estimated taxes $11.21 Total $249.83 Add discounts and gift cards Pay now Return pol",
+        "Pay’s one-tap checkout experience on any device. 50% higher conversion Capture more sales with 50% hig",
+        "ce. 50% higher conversion Capture more sales with 50% higher conversion compared to standard checkout.",
+        "installments Reduce your abandoned cart rate by 28% on average with Shop Pay Installments—or offer ot",
+        "get started? 3 days free Extend your trial for $1 Earn up to $10,000 in credits Enter your email",
+        "3 days free Extend your trial for $1 Earn up to $10,000 in credits Enter your email You agree to receiv"
+      ],
+      "description": "Shopify Checkout, when paired with Shop Pay, is the fastest, highest-converting ecommerce checkout experience anywhere. And now with advanced customization options, you can make your checkout reflect your brand and give shoppers better ways to buy."
+    },
+    {
+      "n": 4,
+      "kind": "platform",
+      "title": "Shopify Dev Docs",
+      "url": "https://shopify.dev/docs",
+      "screenshot": "shots/shopify/step-4.webp",
+      "textFile": "data/captures/shopify/page-4.txt",
+      "elapsedMs": 19094,
+      "clicks": 0,
+      "via": "nav: Developer Docs",
+      "headings": [
+        "h1: Shopify Dev Docs",
+        "h2: Storefronts",
+        "h2: Agents",
+        "h2: Anchor to Build with the Shopify AI Toolkit Build with the Shopify AI Toolkit",
+        "h2: Terminal",
+        "h2: Anchor to Accelerate development with Shopify CLI Accelerate development with Shopify CLI",
+        "h2: Initialize your app instance",
+        "h2: Install Shopify CLI",
+        "h2: Anchor to Launch your app or theme Launch your app or theme",
+        "h2: Anchor to Join a community of builders Join a community of builders",
+        "h3: Updates",
+        "h3: Business growth",
+        "h3: Legal",
+        "h3: Shopify"
+      ],
+      "ctas": [],
+      "prices": [],
+      "description": "Learn how to build an app, theme, custom storefront, or marketplace. Whether you're just getting started, deep in the development process, or ready to distribute and monetize your work, Shopify's docs, dev tools and frameworks make building easy and efficient."
+    },
+    {
+      "n": 5,
+      "kind": "solutions",
+      "title": "Shopify Enterprise | Commerce Without Compromise - Shopify",
+      "url": "https://www.shopify.com/enterprise",
+      "screenshot": "shots/shopify/step-5.webp",
+      "textFile": "data/captures/shopify/page-5.txt",
+      "elapsedMs": 23317,
+      "clicks": 0,
+      "via": "nav: Enterprise",
+      "headings": [
+        "h1: Enterprise commerce without compromise",
+        "h2: Results the board can’t ignore",
+        "h2: Conversion so high it’s almost cheating",
+        "h2: Sell in AI chats",
+        "h2: Move faster with AI built in",
+        "h2: 250M+ high-intent buyers, only on Shopify",
+        "h2: Cut costs, not ambitions",
+        "h2: Blink and your site's loaded",
+        "h2: Migrate fast, grow faster",
+        "h2: Start small or go big. Either way, move fast.",
+        "h3: Add Shop Pay to your checkout",
+        "h3: Sell in AI with the Agentic Plan",
+        "h3: Replatform to Shopify",
+        "h2: Choose the platform that’s processed $1.8T+ in global commerce5",
+        "h3: Retail",
+        "h2: Pick the platform building the world’s AI commerce infrastructure",
+        "h2: Make your next quarter one to remember",
+        "h2: For category leaders, no matter the category",
+        "h2: How bold brands get even bolder",
+        "h3: EVEREVE launched 103 stores in 8 months and achieved record-breaking sales",
+        "h3: Skullcandy migrated to Shopify in just 90 days, and achieved 45% YoY holiday revenue growth",
+        "h3: Represent migrated and is on track to reach £100 million in revenue",
+        "h3: Parachute eliminated development complexity and unlocked $1M+ in savings",
+        "h3: Bark saw 8% holiday subscription growth and a 6% conversion increase",
+        "h2: Leaders recognize leaders",
+        "h2: Partners that get you there first",
+        "h3: Service partners",
+        "h3: Certified technology partners",
+        "h2: More growth. Less spend. Zero compromises.",
+        "h3: Shopify",
+        "h3: Ecosystem",
+        "h3: Resources",
+        "h3: Support"
+      ],
+      "ctas": [
+        "Try Shopify",
+        "Explore Shop Pay",
+        "Explore B2C",
+        "Free Tools"
+      ],
+      "prices": [
+        "ry Shopify Results the board can’t ignore up to 36% 36% better conversion1 33% 33% lower average T",
+        "hopify Results the board can’t ignore up to 36% 36% better conversion1 33% 33% lower average TCO2",
+        "can’t ignore up to 36% 36% better conversion1 33% 33% lower average TCO2 20% 20% faster migratio",
+        "t ignore up to 36% 36% better conversion1 33% 33% lower average TCO2 20% 20% faster migration3",
+        "better conversion1 33% 33% lower average TCO2 20% 20% faster migration3 300+ 300+ new features a",
+        "ter conversion1 33% 33% lower average TCO2 20% 20% faster migration3 300+ 300+ new features a yea",
+        "ating. It's math. Shopify Checkout converts up to 36% better than the competition.1 Sell in AI chats L",
+        "t ambitions Shopify's total cost of ownership is 33% better on average, so you can re-invest savings i",
+        "r EY research proves Shopify implementations are 20% faster compared to competitors.3 Start small or",
+        "m to Shopify Choose the platform that’s processed $1.8T+ in global commerce5 B2C Sell across every onli",
+        "migrated to Shopify in just 90 days, and achieved 45% YoY holiday revenue growth Read case study Repre",
+        "tudy Represent migrated and is on track to reach £100 million in revenue Read case study Parachute eli",
+        "te eliminated development complexity and unlocked $1M+ in savings Read case study Bark saw 8% holiday",
+        "nlocked $1M+ in savings Read case study Bark saw 8% holiday subscription growth and a 6% conversion i",
+        "dy Bark saw 8% holiday subscription growth and a 6% conversion increase Read case study Leaders reco",
+        "on 300+ organizations surveyed with GMVs between $50-$500M+ across global key markets and seven compet",
+        "300+ organizations surveyed with GMVs between $50-$500M+ across global key markets and seven competitor"
+      ],
+      "description": "Shopify is the commerce platform for the world’s boldest brands, with Shopify Plus and Enterprise plans built for unrivaled scale."
+    },
+    {
+      "n": 6,
+      "kind": "company",
+      "title": "Shopify Newsroom",
+      "url": "https://www.shopify.com/news",
+      "screenshot": "shots/shopify/step-6.webp",
+      "textFile": "data/captures/shopify/page-6.txt",
+      "elapsedMs": 26587,
+      "clicks": 0,
+      "via": "nav: Newsroom",
+      "headings": [
+        "h2: More places to shop, one place to sell",
+        "h2: What makes Shopify more than software: Fall '26 Edition",
+        "h2: Bringing shopping into the future: The Fall '26 Edition for developers",
+        "h2: Exponential: Shopify's Fall '26 Edition",
+        "h2: In the age of convenience, experience is the brand",
+        "h2: LATEST FROM SHOPIFY",
+        "h2: More places to shop, one place to sell",
+        "h2: What makes Shopify more than software: Fall '26 Edition",
+        "h2: Bringing shopping into the future: The Fall '26 Edition for developers",
+        "h2: Exponential: Shopify's Fall '26 Edition",
+        "h2: In the age of convenience, experience is the brand",
+        "h2: The Entrepreneur Effect: When more people build, everyone benefits",
+        "h2: FEATURED PODCASTS AND VIDEOS",
+        "h3: Shopify’s new film: All you need is just an idea",
+        "h3: Shopify VP Vanessa Lee Explains the \"Everywhere\" Edition",
+        "h3: Tobi Lütke – Building Shopify and the Future of AI | Ep. 50",
+        "h3: Shopify",
+        "h3: Ecosystem",
+        "h3: Resources",
+        "h3: Support"
+      ],
+      "ctas": [
+        "Free Tools"
+      ],
+      "prices": [],
+      "description": "Explore the latest Shopify news, product innovation, and industry data. Get stories from the entrepreneurs who are shaping the future of commerce."
+    },
+    {
+      "n": 7,
+      "kind": "resources",
+      "title": "Ecommerce Marketing Blog - Ecommerce News, Online Store Tips and More - Shopify",
+      "url": "https://www.shopify.com/blog",
+      "screenshot": "shots/shopify/step-7.webp",
+      "textFile": "data/captures/shopify/page-7.txt",
+      "elapsedMs": 30391,
+      "clicks": 0,
+      "via": "nav: Blog",
+      "headings": [
+        "h3: Shopify",
+        "h3: Ecosystem",
+        "h3: Resources",
+        "h3: Support"
+      ],
+      "ctas": [
+        "Start for free",
+        "Starting Up",
+        "STARTING UP",
+        "Free Tools"
+      ],
+      "prices": [
+        "tart for free Start free then enjoy 3 months for $1/month SELL ONLINE 50 Best Shopify Stores to Inspire Yo",
+        "R STORIES Beekman 1802: Brand Strategy Behind Its $92M Growth Apr 14, 2026 FOUNDER STORIES Edited Tra",
+        "tart for free Start free then enjoy 3 months for $1/month"
+      ],
+      "description": "A blog about ecommerce marketing, running an online business and updates to Shopify's ecommerce community."
+    },
+    {
+      "n": 8,
+      "kind": "product",
+      "title": "Sell in AI chats with Shopify",
+      "url": "https://www.shopify.com/agentic-storefronts",
+      "screenshot": "shots/shopify/step-8.webp",
+      "textFile": "data/captures/shopify/page-8.txt",
+      "elapsedMs": 33954,
+      "clicks": 0,
+      "via": "nav: AI Chats",
+      "headings": [
+        "h1: AGENTIC STOREFRONTS",
+        "h2: From discovery to checkout, Shopify runs it all.",
+        "h2: Sell directly in chats",
+        "h2: AI-ready by default",
+        "h2: The world’s best checkout",
+        "h2: Your customers. Your data.",
+        "h2: See Agentic Storefronts in action",
+        "h2: Ready to sell in AI? With Shopify, you’re set.",
+        "h3: Shopify",
+        "h3: Ecosystem",
+        "h3: Resources",
+        "h3: Support"
+      ],
+      "ctas": [
+        "Start for free",
+        "Talk to sales",
+        "Free Tools"
+      ],
+      "prices": [
+        "kout Sales run through Shopify Checkout, powering 14% of US e-commerce. Fast, flexible, secure, and wor"
+      ],
+      "description": "Agentic Storefronts puts your products in ChatGPT, Gemini, and more. Every sale runs through Shopify Checkout."
+    },
+    {
+      "n": 9,
+      "kind": "platform",
+      "title": "Sales channels on Shopify",
+      "url": "https://www.shopify.com/channels",
+      "screenshot": "shots/shopify/step-9.webp",
+      "textFile": "data/captures/shopify/page-9.txt",
+      "elapsedMs": 37850,
+      "clicks": 0,
+      "via": "nav: Social & Marketplaces",
+      "headings": [
+        "h2: SALES CHANNELS",
+        "h2: MARKETPLACES",
+        "h2: SHOPIFY MARKETPLACE CONNECT",
+        "h2: Discover different marketplaces",
+        "h2: SOCIAL MEDIA",
+        "h2: Discover more social channels",
+        "h2: ONLINE SEARCH",
+        "h2: GOOGLE",
+        "h2: MORE SALES CHANNELS",
+        "h2: Learn how to optimize your multi-channel strategy",
+        "h3: What is multichannel selling?",
+        "h3: Omnichannel vs multichannel: what is the difference?",
+        "h3: Omnichannel customer experiences: how to sell where your customers buy",
+        "h2: Start selling in channels",
+        "h3: Shopify",
+        "h3: Ecosystem",
+        "h3: Resources",
+        "h3: Support"
+      ],
+      "ctas": [
+        "Start for free",
+        "Start free trial",
+        "Explore more marketplaces",
+        "Facebook and Instagram",
+        "Install Facebook & Instagram app",
+        "Explore more social channels",
+        "Learn more about multichannel selling",
+        "Free Tools"
+      ],
+      "prices": [
+        "to drive 140K visitors to their online store with 60% of sales coming from new customers. Blu Technolo",
+        "g from new customers. Blu Technology experienced 258% growth, streamlined channel management, and preve",
+        "th, streamlined channel management, and prevented $40K in fraud, since implementing Shopify Marketplace",
+        "art free trial Start free then enjoy 3 months for $1/month"
+      ],
+      "description": "Sync and sell your products on the largest marketplaces, social platforms, and everywhere people search with Shopify sales channels."
+    },
+    {
+      "n": 10,
+      "kind": "solutions",
+      "title": "B2B on Shopify",
+      "url": "https://www.shopify.com/solutions/b2b",
+      "screenshot": "shots/shopify/step-10.webp",
+      "textFile": "data/captures/shopify/page-10.txt",
+      "elapsedMs": 42060,
+      "clicks": 0,
+      "via": "nav: B2B",
+      "headings": [
+        "h1: B2B ON SHOPIFY",
+        "h2: The commerce platform your B2B customers deserve",
+        "h3: Meet the changing demands of buyers",
+        "h3: Bring your tech together",
+        "h3: Launch fast, reduce costs",
+        "h2: SELLING B2B",
+        "h3: Today’s buyers demand a better self-serve experience",
+        "h3: Storefronts for however you build",
+        "h3: Your sales team, now online",
+        "h3: up to 33% more self-serve orders",
+        "h3: up to 36% lower total cost of ownership",
+        "h3: $1.7B R&D spend in 2023",
+        "h2: ENDLESS INTEGRATIONS",
+        "h3: Powerful features at your fingertips",
+        "h3: Infinite customization and flexibility",
+        "h3: Integrations done right",
+        "h2: SPEED AND EFFICIENCY",
+        "h3: Go live fast",
+        "h3: Cut development costs",
+        "h3: A platform designed for omnichannel sales",
+        "h2: B2B FEATURES",
+        "h3: Personalized buyer experiences",
+        "h3: Optimized workflows",
+        "h3: Self-serve purchasing",
+        "h2: WHY SHOPIFY",
+        "h3: Lightning-fast innovation",
+        "h3: Enterprise scale",
+        "h3: Best-converting checkout",
+        "h2: Established partner solutions with the best in B2B",
+        "h2: Delight your customers with transformed B2B",
+        "h2: Frequently Asked Questions",
+        "h3: Can you do B2B on Shopify?",
+        "h3: Which Shopify plans include B2B?",
+        "h3: How much does Shopify B2B cost?",
+        "h3: Is Shopify good for B2B?",
+        "h3: Shopify",
+        "h3: Ecosystem",
+        "h3: Resources",
+        "h3: Support"
+      ],
+      "ctas": [
+        "Start for free",
+        "Talk to sales",
+        "Free Tools"
+      ],
+      "prices": [
+        "s on closing deals instead of manual entry. up to 33% more self-serve orders Within 12 months after ado",
+        "n 12 months after adopting B2B on Shopify.2 up to 36% lower total cost of ownership When compared to ma",
+        "compared to major competitors in North America.1 $1.7B R&D spend in 2023 Make your next replatform your",
+        "ale businesses trust Shopify. In 2023 alone, over $1.7B was invested in commerce R&D. Lightning-fast inn",
+        "out Sell more with a checkout that converts up to 36% better than competitors in North America.3 Establ"
+      ],
+      "description": "Shopify helps manufacturers, wholesalers, and distributors quickly deploy the best self-serve purchasing experience at a surprisingly low cost."
+    },
+    {
+      "n": 11,
+      "kind": "product",
+      "title": "Point of Sale (POS) for Business - Shopify",
+      "url": "https://www.shopify.com/pos",
+      "screenshot": "shots/shopify/step-11.webp",
+      "textFile": "data/captures/shopify/page-11.txt",
+      "elapsedMs": 46371,
+      "clicks": 0,
+      "via": "nav: Point of Sale",
+      "headings": [
+        "h1: POS SYSTEM",
+        "h2: Powering retailers of every size",
+        "h2: Single store",
+        "h2: Multiple stores",
+        "h2: On the go",
+        "h2: Everything you need in store, online, and beyond",
+        "h3: Back office",
+        "h3: POS system",
+        "h3: Online sales",
+        "h2: Get an inside look at Shopify Point of Sale",
+        "h2: POS SOFTWARE",
+        "h2: Sell everywhere",
+        "h2: Build loyalty",
+        "h2: Simplify tasks",
+        "h2: POS RETAIL HARDWARE",
+        "h2: Get started quickly",
+        "h2: Sell without interruptions",
+        "h2: Customize your setup",
+        "h2: SHOPIFY PAYMENTS",
+        "h2: POS FEATURES",
+        "h2: Omnichannel selling",
+        "h2: Staff management",
+        "h2: Payment processing",
+        "h2: Inventory management",
+        "h2: Customer management",
+        "h2: Reporting and analytics",
+        "h2: How to get started with Shopify POS",
+        "h2: Start for free",
+        "h2: Set up your store",
+        "h2: Customize your solution",
+        "h2: Switch and save $2,400*",
+        "h2: Resources for retailers",
+        "h2: What is a mobile POS system?",
+        "h2: What is point of sale software?",
+        "h2: How to pick a POS system",
+        "h2: Frequently asked questions",
+        "h3: What is a POS (point of sale)?",
+        "h3: What are the benefits of using a POS system?",
+        "h3: What are types of POS systems?",
+        "h3: How does the Shopify POS system work?"
+      ],
+      "ctas": [
+        "Start for free",
+        "Watch demo",
+        "Explore all features",
+        "Learn more",
+        "Is Shopify POS available in my country?",
+        "Free Tools"
+      ],
+      "prices": [
+        "are and more with 1 year of POS Pro — offer worth $2,400. See more POS SYSTEM The point of sale for every",
+        "interruptions Keep the checkout line moving with 99.9% uptime across the Shopify platform. Customize you",
+        "ners. Start for free Get in touch Switch and save $2,400* Get free POS hardware, free migration and setup",
+        "S hardware, free migration and setup support, and 25% off subscription costs with a POS Pro yearly subs",
+        "with a POS Pro yearly subscription. Learn more *$10,000 USD of sales in Shopify Payments transactions wit",
+        "te. Free Verifone Victa Mobile for each location ($449 USD value) subject to a $10 activation fee, or lo",
+        "e for each location ($449 USD value) subject to a $10 activation fee, or local equivalent, per device."
+      ],
+      "description": "Shopify Point of Sale integrates everything to run your retail business, from inventory management to checkout. Start your free trial with Shopify POS today."
+    },
+    {
+      "n": 12,
+      "kind": "product",
+      "title": "Marketing on Shopify - Shopify",
+      "url": "https://www.shopify.com/marketing",
+      "screenshot": "shots/shopify/step-12.webp",
+      "textFile": "data/captures/shopify/page-12.txt",
+      "elapsedMs": 50473,
+      "clicks": 0,
+      "via": "nav: Advertising & Campaigns",
+      "headings": [
+        "h1: Unify your marketing",
+        "h2: FIND CUSTOMERS",
+        "h2: SOCIAL MEDIA",
+        "h2: SHOPIFY MARKETPLACE CONNECT",
+        "h2: SHOP APP",
+        "h2: SHOP CAMPAIGNS",
+        "h2: SHOPIFY AUDIENCES",
+        "h2: AUTOMATE YOUR MARKETING",
+        "h2: Marketing automation tools built directly into Shopify",
+        "h2: ENHANCE WITH ANALYTICS",
+        "h2: Reports, Attribution, ROAS",
+        "h2: A unified view of customers",
+        "h2: Take action",
+        "h2: Built in privacy and consent",
+        "h2: BUILD YOUR KNOWLEDGE",
+        "h2: Rank higher in search results",
+        "h2: Use email to drive sales",
+        "h2: Increase sales productivity by 25%",
+        "h2: MORE SOLUTIONS",
+        "h2: Sell everywhere",
+        "h2: Fulfill orders faster and for less",
+        "h2: More commerce apps",
+        "h2: Start selling with Shopify today",
+        "h3: Shopify",
+        "h3: Ecosystem",
+        "h3: Resources",
+        "h3: Support"
+      ],
+      "ctas": [
+        "Start for free",
+        "Explore social channels",
+        "Explore Shop",
+        "Explore Shop Campaigns",
+        "Explore Shopify Audiences",
+        "Explore marketing automation tools",
+        "Explore Shopify analytics",
+        "Start free trial",
+        "Free Tools"
+      ],
+      "prices": [
+        "ns and reduce customer acquisition costs by up to 50%. Explore Shopify Audiences AUTOMATE YOUR MARKETIN",
+        "hopify Messaging? Increase sales productivity by 25% Explore engagement data from leading advertising"
+      ],
+      "description": "Find more customers, automate your marketing, and analyze results, directly from Shopify."
+    },
+    {
+      "n": 13,
+      "kind": "signup",
       "title": "Start your online store today. Start selling tomorrow. - Shopify",
       "url": "https://www.shopify.com/start",
-      "screenshot": "shots/shopify/step-2.webp",
-      "elapsedMs": 8356,
+      "screenshot": "shots/shopify/step-13.webp",
+      "textFile": "data/captures/shopify/page-13.txt",
+      "elapsedMs": 2662787,
       "clicks": 1,
+      "via": "click: \"Get started fast You could be selling by tomorrow.\"",
+      "headings": [
+        "h1: start today",
+        "h2: Choose your design",
+        "h2: New this season",
+        "h3: PAULINE",
+        "h3: SANDERS",
+        "h3: ADDIE",
+        "h3: SEDGEWICK",
+        "h3: Carry",
+        "h2: Make your products shine",
+        "h2: Get ready to get paid",
+        "h2: Join an all-star lineup",
+        "h3: Playa Society",
+        "h3: Momofuku",
+        "h3: Floof",
+        "h3: Mejuri",
+        "h3: Your business here",
+        "h2: Get going, then get growing",
+        "h3: Sell where they’re scrolling",
+        "h3: Keep them coming back",
+        "h2: Need more muscle?",
+        "h2: Sidekick, your built-in AI assistant, can lend a hand",
+        "h2: Need an expert POV?",
+        "h2: Need financial support?",
+        "h2: See for yourself",
+        "h2: Ready to start selling?",
+        "h3: Shopify",
+        "h3: Ecosystem",
+        "h3: Resources",
+        "h3: Support"
+      ],
+      "ctas": [
+        "Start for free",
+        "Start your story",
+        "Start making sales",
+        "Free Tools"
+      ],
+      "prices": [
+        "ION Custom Section PAULINE SPOTTED IN THE WILD $135 SANDERS COOL AND COASTAL $160 ADDIE WARM AND",
+        "TED IN THE WILD $135 SANDERS COOL AND COASTAL $160 ADDIE WARM AND WOODSY $115 SEDGEWICK LOVABLE",
+        "COOL AND COASTAL $160 ADDIE WARM AND WOODSY $115 SEDGEWICK LOVABLE LOON $180 Handbags 42 Shoes",
+        "WARM AND WOODSY $115 SEDGEWICK LOVABLE LOON $180 Handbags 42 Shoes 37 Accessories 53 Section Chip",
+        "sories 53 Section Chip Limited-Edition Cardinal $90 Carry Edition Cocoa Suede $720 Custom Section",
+        "dition Cardinal $90 Carry Edition Cocoa Suede $720 Custom Section HAND-CARVED FROM ATLANTIC WHITE C",
+        "your story Start for free, then get 3 months for $1/mo Get going, then get growing Sell where they’re s",
+        "tart selling? 3 days free Extend your trial for $1 Earn up to $10,000 in credits Enter your email",
+        "3 days free Extend your trial for $1 Earn up to $10,000 in credits Enter your email You agree to receiv"
+      ],
+      "description": "Choose a design, add products, get paid. Get started for free.",
       "note": "Stopped: account form or bot check reached."
     }
   ],
+  "navMap": [
+    {
+      "label": "Get started fastYou could be selling by tomorrow.",
+      "href": "https://www.shopify.com/start",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "World's best checkoutProven to convert better.",
+      "href": "https://www.shopify.com/checkout",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "SidekickYour commerce-obsessed AI assistant.",
+      "href": "https://www.shopify.com/sidekick",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Website Builder",
+      "href": "https://www.shopify.com/website/builder",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Themes",
+      "href": "https://themes.shopify.com/",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Domains",
+      "href": "https://www.shopify.com/domains",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Customer Accounts",
+      "href": "https://www.shopify.com/customer-accounts",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Online",
+      "href": "https://www.shopify.com/online",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "AI Chats",
+      "href": "https://www.shopify.com/agentic-storefronts",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Catalog",
+      "href": "https://www.shopify.com/catalog",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Point of Sale",
+      "href": "https://www.shopify.com/pos",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Shop App",
+      "href": "https://www.shopify.com/shop",
+      "area": "header",
+      "kind": "platform"
+    },
+    {
+      "label": "Social & Marketplaces",
+      "href": "https://www.shopify.com/channels",
+      "area": "header",
+      "kind": "platform"
+    },
+    {
+      "label": "Global",
+      "href": "https://www.shopify.com/international",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "B2B",
+      "href": "https://www.shopify.com/solutions/b2b",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "Across Markets",
+      "href": "https://www.shopify.com/markets",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Advertising & Campaigns",
+      "href": "https://www.shopify.com/marketing",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Email & Customer Chat",
+      "href": "https://www.shopify.com/marketing-automation-tools",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Discounts",
+      "href": "https://www.shopify.com/discounts",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Analytics",
+      "href": "https://www.shopify.com/analytics",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Test & Launch",
+      "href": "https://www.shopify.com/test-and-launch",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Orders & Inventory",
+      "href": "https://www.shopify.com/orders",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Shipping",
+      "href": "https://www.shopify.com/shipping",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Finances & Funding",
+      "href": "https://www.shopify.com/finance",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Workflow Automation",
+      "href": "https://www.shopify.com/flow",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Mobile",
+      "href": "https://www.shopify.com/mobile",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Payments",
+      "href": "https://www.shopify.com/payments",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Taxes",
+      "href": "https://www.shopify.com/tax",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Shopify App StoreLargest commerce ecosystem",
+      "href": "https://apps.shopify.com/",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Shopify.devDev docs, CLI, and more",
+      "href": "https://shopify.dev/",
+      "area": "header",
+      "kind": "platform"
+    },
+    {
+      "label": "Shopify Protect",
+      "href": "https://www.shopify.com/editions/fall2026?utm_source=homepage&utm_medium=content&utm_campaign=fall-26-edition_rkerbz&utm_content=dotcom-nav-fraud-prevention-with-shopify-protect-v1",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Shop.dev",
+      "href": "https://www.shopify.com/editions/fall2026?utm_source=homepage&utm_medium=content&utm_campaign=fall-26-edition_rkerbz&utm_content=dotcom-nav-shop-dev-for-builders-v1",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Canvas",
+      "href": "https://www.shopify.com/editions/fall2026?utm_source=homepage&utm_medium=content&utm_campaign=fall-26-edition_rkerbz&utm_content=dotcom-nav-online-store-canvas-v1",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Pricing",
+      "href": "https://www.shopify.com/pricing",
+      "area": "header",
+      "kind": "pricing"
+    },
+    {
+      "label": "Enterprise",
+      "href": "https://www.shopify.com/enterprise",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "Fall ’26 Edition",
+      "href": "https://www.shopify.com/editions/fall2026",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "What is Shopify?",
+      "href": "https://www.shopify.com/blog/what-is-shopify",
+      "area": "footer",
+      "kind": "resources"
+    },
+    {
+      "label": "Shopify Editions",
+      "href": "https://www.shopify.com/editions",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Careers",
+      "href": "https://www.shopify.com/careers",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Newsroom",
+      "href": "https://www.shopify.com/news",
+      "area": "footer",
+      "kind": "company"
+    },
+    {
+      "label": "Sustainability",
+      "href": "https://www.shopify.com/climate",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Developer Docs",
+      "href": "https://shopify.dev/docs",
+      "area": "footer",
+      "kind": "platform"
+    },
+    {
+      "label": "Partners",
+      "href": "https://www.shopify.com/partners",
+      "area": "footer",
+      "kind": "platform"
+    },
+    {
+      "label": "Affiliates",
+      "href": "https://www.shopify.com/affiliates",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Blog",
+      "href": "https://www.shopify.com/blog",
+      "area": "footer",
+      "kind": "resources"
+    },
+    {
+      "label": "Compare Shopify",
+      "href": "https://www.shopify.com/compare",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Guides",
+      "href": "https://www.shopify.com/blog/topics/guides",
+      "area": "footer",
+      "kind": "resources"
+    },
+    {
+      "label": "Free Tools",
+      "href": "https://www.shopify.com/tools",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Changelog",
+      "href": "https://changelog.shopify.com/",
+      "area": "footer",
+      "kind": "resources"
+    },
+    {
+      "label": "Shopify Help Center",
+      "href": "https://help.shopify.com/en",
+      "area": "footer",
+      "kind": "resources"
+    },
+    {
+      "label": "Community Forum",
+      "href": "https://community.shopify.com/",
+      "area": "footer",
+      "kind": "resources"
+    },
+    {
+      "label": "Hire a Partner",
+      "href": "https://www.shopify.com/partners/directory",
+      "area": "footer",
+      "kind": "platform"
+    },
+    {
+      "label": "Argentina | Español",
+      "href": "https://www.shopify.com/ar?country=ar&lang=es",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Australia | English",
+      "href": "https://www.shopify.com/au?country=au&lang=en",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Austria | Deutsch",
+      "href": "https://www.shopify.com/at?country=at&lang=de",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Bangladesh | বাংলা",
+      "href": "https://www.shopify.com/bd?country=bd&lang=bn",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Belarus | Russian",
+      "href": "https://www.shopify.com/by?country=by&lang=ru",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Belgium | Nederlands",
+      "href": "https://www.shopify.com/be?country=be&lang=nl",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Belgium | German",
+      "href": "https://www.shopify.com/be-de?country=be&lang=de",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Belgium | Français",
+      "href": "https://www.shopify.com/be-fr?country=be&lang=fr",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Brazil | Português",
+      "href": "https://www.shopify.com/br?country=br&lang=pt",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Bulgaria | Bulgarian",
+      "href": "https://www.shopify.com/bg?country=bg&lang=bg",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Canada | English",
+      "href": "https://www.shopify.com/ca?country=ca&lang=en",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Canada | Français",
+      "href": "https://www.shopify.com/ca-fr?country=ca&lang=fr",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Chile | Español",
+      "href": "https://www.shopify.com/cl?country=cl&lang=es",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Colombia | Español",
+      "href": "https://www.shopify.com/co?country=co&lang=es",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Croatia | Hrvatski",
+      "href": "https://www.shopify.com/hr?country=hr&lang=hr",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Czech Republic | Čeština",
+      "href": "https://www.shopify.com/cz?country=cz&lang=cs",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Denmark | Dansk",
+      "href": "https://www.shopify.com/dk?country=dk&lang=da",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Egypt | العربية",
+      "href": "https://www.shopify.com/eg?country=eg&lang=ar",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Estonia | Eesti",
+      "href": "https://www.shopify.com/ee?country=ee&lang=et",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Finland | Suomi",
+      "href": "https://www.shopify.com/fi?country=fi&lang=fi",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "France | Français",
+      "href": "https://www.shopify.com/fr?country=fr&lang=fr",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Georgia | ქართული",
+      "href": "https://www.shopify.com/ge?country=ge&lang=ka",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Germany | Deutsch",
+      "href": "https://www.shopify.com/de?country=de&lang=de",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Greece | Greek",
+      "href": "https://www.shopify.com/gr?country=gr&lang=el",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Hong Kong SAR | 繁體中文",
+      "href": "https://www.shopify.com/hk?country=hk&lang=zh",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Hong Kong SAR | English",
+      "href": "https://www.shopify.com/hk-en?country=hk&lang=en",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Hungary | Hungarian",
+      "href": "https://www.shopify.com/hu?country=hu&lang=hu",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "India | Hindi",
+      "href": "https://www.shopify.com/in-hi?country=in&lang=hi",
+      "area": "footer",
+      "kind": "other"
+    }
+  ],
+  "stack": {
+    "generator": null,
+    "scriptHosts": [
+      "analytics.tiktok.com",
+      "connect.facebook.net",
+      "snap.licdn.com",
+      "gtm.shopify.com",
+      "www.googletagmanager.com"
+    ],
+    "signals": [
+      "Google Tag Manager dataLayer"
+    ],
+    "server": "cloudflare",
+    "poweredBy": null
+  },
   "sources": [
     "https://www.shopify.com"
   ],
+  "dossier": {
+    "sections": [
+      {
+        "id": "positioning",
+        "title": "Positioning",
+        "summary": "Shopify sells itself as the one place to run commerce everywhere people shop, with AI and 'agentic' selling as the current headline. Enterprise, B2B and POS pages reuse the same checkout and conversion proof.",
+        "facts": [
+          {
+            "text": "Home promise.",
+            "step": 1,
+            "type": "fact",
+            "quote": "Dream big and build fast on Shopify. The world’s best commerce platform."
+          },
+          {
+            "text": "Sell-everywhere frame.",
+            "step": 1,
+            "type": "fact",
+            "quote": "Sell everywhere people shop. Online and in person. Across AI and on social. Locally and globally."
+          },
+          {
+            "text": "Enterprise page leads with 'without compromise'.",
+            "step": 5,
+            "type": "fact",
+            "quote": "Enterprise commerce without compromise"
+          },
+          {
+            "text": "The Fall '26 Edition is framed around opening the stack to agents.",
+            "step": 6,
+            "type": "fact",
+            "quote": "The Fall '26 Edition opens Shopify's catalog, cart, and checkout to any agent or app, with new tools for building and securing apps and storefronts."
+          }
+        ],
+        "gaps": [
+          "The homepage hero headline ('Be the next AI all-star') says nothing about what a merchant gets; the subhead does."
+        ]
+      },
+      {
+        "id": "offerings",
+        "title": "Products and offerings",
+        "summary": "Organised by merchant job rather than by product name: build a website, sell anywhere, marketing and analytics, run the business, get paid, and extend. Newer lines are Sidekick (AI assistant), Agentic Storefronts and Catalog.",
+        "facts": [
+          {
+            "text": "Store builder with AI or prebuilt themes.",
+            "step": 1,
+            "type": "fact",
+            "quote": "Build your online store instantly with AI. Or use prebuilt themes."
+          },
+          {
+            "text": "Agentic Storefronts put products inside AI chats.",
+            "step": 8,
+            "type": "fact",
+            "quote": "With Agentic Storefronts, your products show up instantly in ChatGPT, Gemini, and more. Shoppers discover and buy without leaving the chat."
+          },
+          {
+            "text": "Sales channels connect marketplaces.",
+            "step": 9,
+            "type": "fact",
+            "quote": "Connect your product catalog to the top online marketplaces like Amazon, Walmart, eBay, and more."
+          },
+          {
+            "text": "B2B is included on every plan from Basic.",
+            "step": 10,
+            "type": "fact",
+            "quote": "Available on all plans starting from Basic."
+          },
+          {
+            "text": "POS is sold with a hardware-bundle offer.",
+            "step": 11,
+            "type": "fact",
+            "quote": "Get free hardware and more with 1 year of POS Pro — offer worth $2,400."
+          },
+          {
+            "text": "Marketing tools are bundled into the admin.",
+            "step": 12,
+            "type": "fact",
+            "quote": "Find more customers, build profitable relationships, and make strategic decisions with unbiased data—all from one place."
+          },
+          {
+            "text": "The signup path offers AI or theme store setup.",
+            "step": 13,
+            "type": "fact",
+            "quote": "Start with a stunning prebuilt theme or describe what you want and generate a store with AI."
+          }
+        ],
+        "gaps": [
+          "Payments, Shipping, Taxes and Finances & Funding pages were in the nav but not surveyed."
+        ]
+      },
+      {
+        "id": "pricing",
+        "title": "Pricing",
+        "summary": "Four published monthly plans, a cheaper yearly price, a per-plan card rate, one add-on, and a $0 'Agentic' plan. Trial terms are stated differently on different pages.",
+        "facts": [
+          {
+            "text": "Trial offer on pricing page.",
+            "step": 2,
+            "type": "fact",
+            "quote": "Try 3 days free, then $1/month for 3 months."
+          },
+          {
+            "text": "Channels page states the trial differently.",
+            "step": 9,
+            "type": "fact",
+            "quote": "Try Shopify free for 3 days, no credit card required."
+          },
+          {
+            "text": "Basic plan.",
+            "step": 2,
+            "type": "fact",
+            "quote": "Basic $29/mo For solo entrepreneurs"
+          },
+          {
+            "text": "Grow plan.",
+            "step": 2,
+            "type": "fact",
+            "quote": "Grow $79/mo For small teams"
+          },
+          {
+            "text": "Advanced plan.",
+            "step": 2,
+            "type": "fact",
+            "quote": "Advanced $299/mo For global reach"
+          },
+          {
+            "text": "Plus starts at $2,300 a month.",
+            "step": 2,
+            "type": "fact",
+            "quote": "Plus from $2,300/mo For complex businesses"
+          },
+          {
+            "text": "Monthly billing costs more than yearly.",
+            "step": 2,
+            "type": "fact",
+            "quote": "Pay monthly $39 USD/mo $105 USD/mo $399 USD/mo Starts at $2,300 USD/mo"
+          },
+          {
+            "text": "Card rate falls as the plan rises; Basic is 2.9% + 30¢.",
+            "step": 2,
+            "type": "fact",
+            "quote": "Card rates from 2.9% + 30¢ USD"
+          },
+          {
+            "text": "Plus card rate.",
+            "step": 2,
+            "type": "fact",
+            "quote": "Card rates from 2.25% + 30¢ USD"
+          },
+          {
+            "text": "POS Pro is a monthly add-on.",
+            "step": 2,
+            "type": "fact",
+            "quote": "POS Pro ADD ON +$89/mo For physical storefronts"
+          },
+          {
+            "text": "A pay-per-sale plan for selling in AI channels.",
+            "step": 2,
+            "type": "fact",
+            "quote": "Agentic $0/mo For selling in AI channels"
+          }
+        ],
+        "gaps": [
+          "App, theme and domain costs were not on the page.",
+          "Third-party payment gateway fees were not shown."
+        ]
+      },
+      {
+        "id": "platform",
+        "title": "Technical platform",
+        "summary": "A separate developer site (shopify.dev) with docs for apps, storefronts and agents, a CLI, and an AI toolkit. Apps can extend admin, online store and checkout. APIs are named for B2B integration. The API reference itself was not surveyed.",
+        "facts": [
+          {
+            "text": "Docs landing page scope.",
+            "step": 4,
+            "type": "fact",
+            "quote": "Learn how to build an app, or customize your storefront."
+          },
+          {
+            "text": "Apps extend the admin, storefront and checkout.",
+            "step": 4,
+            "type": "fact",
+            "quote": "Extend Shopify's core functionality with apps that integrate into Shopify's admin, online store, checkout and more."
+          },
+          {
+            "text": "Custom storefronts via themes or Hydrogen.",
+            "step": 4,
+            "type": "fact",
+            "quote": "Help merchants express their unique brand by building a custom theme or Hydrogen storefront."
+          },
+          {
+            "text": "Agent-building docs exist.",
+            "step": 4,
+            "type": "fact",
+            "quote": "Build agentic shopping experiences powered by Shopify merchants, from product discovery to checkout."
+          },
+          {
+            "text": "AI coding assistant integration.",
+            "step": 4,
+            "type": "fact",
+            "quote": "Connect your AI coding assistant to Shopify docs, API schemas, and Shopify CLI."
+          },
+          {
+            "text": "B2B page points to APIs for ERP integration.",
+            "step": 10,
+            "type": "fact",
+            "quote": "Use Shopify's APIs to integrate with any ERP and tech stack to create custom solutions."
+          }
+        ],
+        "gaps": [
+          "No API reference, rate limits or webhook pages were read."
+        ]
+      },
+      {
+        "id": "company",
+        "title": "Company presentation",
+        "summary": "The newsroom is the only company page the nav surfaced. It presents Shopify as a network that grows with every connected AI agent. No customers or About page was found in the nav or at /customers or /about.",
+        "facts": [
+          {
+            "text": "Newsroom narrative.",
+            "step": 6,
+            "type": "fact",
+            "quote": "Shopify was built to work wherever people shop. Every connected AI agent brings merchants a new place to sell, gives shoppers an easier way to buy, and makes Shopify's network stronger."
+          },
+          {
+            "text": "Enterprise proof is conversion and cost.",
+            "step": 5,
+            "type": "fact",
+            "quote": "Shopify's total cost of ownership is 33% better on average, so you can re-invest savings into growth.2"
+          },
+          {
+            "text": "Share of US ecommerce on the checkout page.",
+            "step": 3,
+            "type": "fact",
+            "quote": "powers 12% of US ecommerce"
+          },
+          {
+            "text": "Share of US ecommerce on the Agentic page.",
+            "step": 8,
+            "type": "fact",
+            "quote": "powering 14% of US e-commerce"
+          }
+        ],
+        "gaps": [
+          "No customer-stories page found.",
+          "No About page found."
+        ]
+      }
+    ]
+  },
   "scores": {
     "jtbd_fit": {
-      "score": 3,
-      "evidence": "Hero says \"Dream big and build fast on Shopify. The world's best commerce platform.\" Names commerce but not the merchant's job.",
-      "step": 1
+      "score": 4,
+      "evidence": "The nav groups products by merchant job (build, sell anywhere, market, run, get paid) and the signup path says 'Choose a design, add products, get paid'.",
+      "step": 13
     },
     "capability_visible": {
-      "score": 2,
-      "evidence": "Step 1 hero is a dark lifestyle video with no product UI.",
-      "step": 1
+      "score": 4,
+      "evidence": "Checkout customizer, AI store builder and POS are demonstrated in-page; docs are public. The admin itself is behind signup.",
+      "step": 3
     },
     "pricing_transparency": {
-      "score": null,
-      "evidence": "Not visible in captured steps; \"Pricing\" sits in nav only.",
-      "step": null
+      "score": 4,
+      "evidence": "Four plans with monthly and yearly prices, card rates and add-on are published. Trial terms differ between pricing and channels pages and app, theme and domain costs are absent.",
+      "step": 2
+    },
+    "product_breadth": {
+      "score": 4,
+      "evidence": "Job-based nav is easy to read and new lines (Sidekick, Agentic Storefronts) are explained in plain language.",
+      "step": 8
+    },
+    "platform_depth": {
+      "score": 4,
+      "evidence": "shopify.dev docs, CLI, AI toolkit, Hydrogen, apps in admin and checkout, agent docs. API reference was not read.",
+      "step": 4
     },
     "time_to_value": {
       "score": null,
-      "evidence": "Flow stopped before account creation; cannot judge.",
+      "evidence": "Capture stops at the account form.",
       "step": null
     },
     "friction": {
-      "score": 2,
-      "evidence": "The hero \"Start for free\" leads to /start, a second page with the same CTA again (step 2). One extra click for the same intent.",
-      "step": 2
+      "score": 4,
+      "evidence": "One click from home to /start, which asks for an email first and opens with theme choice.",
+      "step": 13
     },
     "trust": {
-      "score": null,
-      "evidence": "No trust signals in the captured viewport.",
-      "step": null
+      "score": 3,
+      "evidence": "Merchant domains shown and a Forrester B2B leader mention, but no named customer stories page was found.",
+      "step": 1
     },
     "mobile": {
       "score": null,
-      "evidence": "Mobile capture exists for step 1 but was not assessed.",
+      "evidence": "Phone captures exist for home and pricing but were not assessed.",
       "step": null
     },
     "states": {
@@ -75,79 +1518,114 @@
     },
     "a11y_basics": {
       "score": null,
-      "evidence": "Not tested in this run.",
+      "evidence": "Not tested.",
       "step": null
     },
     "value_prop_clarity": {
-      "score": 2,
-      "evidence": "Headline \"Be the next AI all-star\" does not say what a merchant gets; the clear line is the subhead.",
+      "score": 3,
+      "evidence": "Hero headline is abstract ('Be the next AI all-star'); the subhead and the /start page are clearer.",
       "step": 1
     },
     "proof_quality": {
-      "score": 2,
-      "evidence": "\"The world's best commerce platform\" is stated with no evidence on the screen.",
-      "step": 1
+      "score": 3,
+      "evidence": "The 15% conversion lift cites a 2023 study by an unnamed consultancy, and US ecommerce share is 12% on one page and 14% on another.",
+      "step": 3
     },
     "persuasion_integrity": {
-      "score": 4,
-      "evidence": "No fake urgency or pressure visible; the promise is speed (\"Be selling by tomorrow\").",
+      "score": 3,
+      "evidence": "'Start for free' is the CTA but the pricing page says '$1/month for 3 months' after 3 days; terms sit on different pages.",
       "step": 2
     },
     "cta_logic": {
-      "score": 3,
-      "evidence": "One consistent label, \"Start for free\", in nav and hero, but it is repeated on an interstitial.",
-      "step": 2
+      "score": 4,
+      "evidence": "'Start for free' is consistent in nav and body, with 'Talk to sales' for enterprise on B2B and Agentic pages.",
+      "step": 8
+    },
+    "company_narrative": {
+      "score": 4,
+      "evidence": "The agentic-commerce story runs from homepage to newsroom to developer docs to a dedicated product page.",
+      "step": 6
     }
   },
   "read": {
-    "summary": "A confident, brand-led landing that asks for the click before showing the product. The path to signup is consistent in wording but takes an extra interstitial.",
+    "summary": "A job-organised catalogue with a transparent plan ladder, now reframed around AI and agentic selling. Strong on breadth and pricing, weaker on named proof and on consistent trial terms.",
     "pros": [
-      "One CTA wording everywhere (\"Start for free\") keeps the decision simple.",
-      "\"Be selling by tomorrow\" is a concrete, merchant-relevant speed promise.",
-      "No visible urgency or pressure tactics in these steps."
+      "Nav and /start both explain Shopify by merchant job, not product name.",
+      "Plan ladder is public, with a clear monthly vs yearly saving and falling card rates.",
+      "A $0 'Agentic' plan lets a merchant try AI-channel selling and pay per sale.",
+      "Developer site, CLI and AI toolkit are public and linked from the main nav."
     ],
     "cons": [
-      "Hero headline is about AI ambition rather than the merchant's job.",
-      "No product UI or proof on the first screen.",
-      "The /start page re-asks for the same click."
+      "The hero headline is abstract; the plain-language promise is in the subhead.",
+      "Trial terms differ: 'free for 3 days, no credit card' vs '$1/month for 3 months'.",
+      "Headline stats conflict (12% vs 14% of US ecommerce) and the conversion study is dated and unnamed.",
+      "No About or customer stories page surfaced."
     ],
-    "howItSells": "Sells identity and momentum (\"be the next all-star\", \"start today\") with a low-commitment free start. Relies on brand authority more than shown evidence.",
+    "howItSells": "Sells momentum and reach: sell everywhere, build fast, AI built in. Backs it with checkout conversion stats and a long plan ladder with a low-commitment start.",
     "copy": [
-      "Speed-framed promise next to a single, repeated CTA."
+      "Group the product nav by the merchant's job.",
+      "Offer a pay-per-sale plan for a new channel.",
+      "State monthly and yearly prices side by side."
     ],
     "avoid": [
-      "Leading with an abstract headline and holding back the product.",
-      "An interstitial that repeats the CTA."
+      "Different trial terms on different pages.",
+      "A headline stat that changes between pages."
     ],
     "tactics": [
       "authority",
-      "commitment_ladder"
+      "commitment_ladder",
+      "social_proof"
     ],
-    "confidence": "low",
+    "confidence": "medium",
     "unknowns": [
-      "What the real account form asks for.",
-      "Trial length and plan terms.",
+      "API reference depth and rate limits.",
+      "Costs for apps, themes, domains and third-party payment gateways.",
+      "What follows the email step.",
       "Mobile experience.",
-      "Whether /start varies by visitor or campaign."
+      "Customer stories (none found)."
     ],
     "hypothesis": {
-      "statement": "Showing a short product demo above the fold will lift hero-to-signup click rate without hurting signup completion.",
-      "metric": "Hero CTA click-through to account-created rate",
-      "guardrail": "Page load time and bounce rate",
-      "decisionRule": "Ship if CTA-to-account rises with no guardrail regression after a two-week split test."
+      "statement": "Stating one trial term (3 days free, then $1/month for 3 months) next to every 'Start for free' button will cut post-signup billing surprise without lowering signup starts.",
+      "metric": "Signup start rate and day-3 paid-conversion rate",
+      "guardrail": "Refund and support-contact rate in the first week",
+      "decisionRule": "Ship if starts hold within 2% and week-one billing contacts fall over a two-week split."
     }
   },
   "claims": [
     {
-      "text": "The world's best commerce platform",
+      "text": "The world’s best commerce platform.",
       "verdict": "unsupported",
       "step": 1,
       "evidenceStep": null
     },
     {
-      "text": "Be selling by tomorrow",
+      "text": "Shopify's overall conversion rate outpaces the competition by up to 36% and by an average of 15%, based on a study completed in April 2023 in partnership with a Big Three global management consulting company.",
       "verdict": "plausible",
-      "step": 2,
+      "step": 3,
+      "evidenceStep": 3
+    },
+    {
+      "text": "powers 12% of US ecommerce",
+      "verdict": "plausible",
+      "step": 3,
+      "evidenceStep": 8
+    },
+    {
+      "text": "powering 14% of US e-commerce",
+      "verdict": "plausible",
+      "step": 8,
+      "evidenceStep": 3
+    },
+    {
+      "text": "Try Shopify free for 3 days, no credit card required.",
+      "verdict": "plausible",
+      "step": 9,
+      "evidenceStep": 2
+    },
+    {
+      "text": "Shopify sites render up to 2.4x faster than stores on other platforms and 1.8x faster on average.",
+      "verdict": "unsupported",
+      "step": 5,
       "evidenceStep": null
     }
   ]

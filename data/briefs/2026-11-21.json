@@ -1,13 +1,23 @@
 {
   "date": "2026-11-21",
-  "headline": "Stripe asks four fields and shows you the product behind the form",
-  "oneLiner": "Pilot brief: three signup flows, captured logged-out, scored against rubric v1.0.0.",
+  "headline": "Stripe publishes its dispute fees and its API changelog, yet gives a small shop no front door",
+  "oneLiner": "Redone as a full survey: 13 to 14 pages each of Stripe, Shopify and Klaviyo, from products and pricing to developer docs, customers, company and signup.",
   "featured": "stripe",
-  "batch": ["shopify", "klaviyo"],
+  "batch": [
+    "shopify",
+    "klaviyo"
+  ],
   "newFromNews": [],
   "questionsForReader": [
-    "In five seconds on the landing screen, can you say what Stripe does for a small shop and what it costs?",
-    "Which would you rather face: Stripe's four-field form over a live-looking dashboard, or Klaviyo's single email field?",
-    "Which claim on the page would you want a source for before trusting it?"
-  ]
+    "From the pricing page alone, what would a $50 online card sale cost a merchant, and what would you still need to find out?",
+    "Stripe lists 53 products. How long would it take a first-time shop owner to find the right one?",
+    "The Customers page says Stripe processes 'hundreds of billions' a year; the About page says 'trillions'. Which story is Stripe telling?"
+  ],
+  "cost": {
+    "imagesViewed": 0,
+    "retries": 0,
+    "batchSize": 2,
+    "partial": false,
+    "note": "text-first survey; images not viewed"
+  }
 }

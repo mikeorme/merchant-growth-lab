@@ -1,0 +1,456 @@
+URL: https://stripe.com/products
+TITLE: Stripe Products and Features | Stripe
+DESCRIPTION: Browse Stripe’s full product catalog to find the products you need, from accepting payments and preventing fraud to automating billing and moving money.
+
+Skip to search and filters
+See everything Stripe can do. Explore products for payments, risk, revenue, banking, data, and more.
+Use case
+Product area
+Not sure where to start?
+Get a recommendation
+
+Showing 53 products.
+
+Accept and optimize payments globally
+
+Take payments anywhere—online, in person, and through agents. Access 125+ payment methods and 135+ currencies.
+
+I need a large black t-shirt
+
+Here's what I found:
+
+1
+Agentic commerce
+
+Get discovered and sell across AI platforms while protecting your business from fraud.
+
+Contact information
+
+Payment method
+
+Checkout
+
+Launch a secure, customizable, conversion-optimized checkout. Businesses see 2x growth in payment volume on average.
+
+•••• 4242
+Link
+
+Autofill customer details for faster human and agentic checkouts, with higher conversion and lower costs.
+
+Optimized payments globally
+Fraud and risk protection
+Managed Payments
+
+Focus on growth while Stripe Managed Payments handles tax, fraud, disputes, and more as your merchant of record.
+
+$56.88
+
+Terminal
+
+Accept in-person payments with precertified devices and unified reporting across online and in-person sales.
+
+Optimization impact summary
+
+Cost savings
+
+Feature
+
+Cost savings
+
+Adaptive Acceptance
+
+Authorization Boost
+
+Increase acceptance rates by 3.8% on average and reduce costs by up to 3.3% with AI-powered optimizations trained on billions of transactions.
+
+Pay with
+Card
+Payments
+
+Accept payments online, in person, and around the world with access to 125+ payment methods and a 99.999% historical uptime.
+
+When this happens:
+If these conditions are met:
+Take this action:
+Orchestration
+
+Manage and optimize multiple payment processors directly in Stripe.
+
+Queried
+Routing number
+Account number
+Financial Connections
+
+Instantly verify bank accounts and get real-time financial data to power faster payments, reduce fraud, and enable new product experiences.
+
+Remove carbon with every payment
+
+0.5%
+
+1%
+
+of revenue
+
+1.5%
+
+Climate
+
+Direct a portion of revenue to vetted carbon removal projects—not offsets—with one line of code or a toggle in the Dashboard.
+
+Safeguard your business without slowing growth
+
+Protect revenue and minimize losses with fraud prevention, identify verification, and financial risk management.
+
+Rule performance
+Radar
+
+Block transaction fraud, account fraud, and customer abuse with AI, powered by hundreds of billions of data points across the Stripe network.
+
+Driver License
+083187
+Identity
+
+Verify IDs and selfies in seconds—with programmatic checks for age and document validity—to reduce fraud and streamline compliance.
+
+Risk
+Managed Risk
+
+Reduce operational overhead and financial risk with end-to-end risk management across your entire platform.
+
+Automate revenue, from billing to reconciliation
+
+Move fast and free up resources with flexible billing models, including subscription management and one-time invoicing, tax, and automated reconciliation.
+
+Pay as you go
+$0.01
+Monthly subscription
+$149
+Billing
+
+Sell, bill, collect, and report from one place, with 15+ prebuilt pricing models, including usage-based and hybrid.
+
+LLM token usage
+478.5M
+$2,392.49
+Metronome
+
+Meter, bill, and track usage-based revenue in one place—with flexible infrastructure for iterations, real-time data, and billing transparency.
+
+$249.00
+Due June 8
+Invoice PDF
+To
+From
+Memo
+Invoicing
+
+Automate invoice creation, collections, and reconciliation to get paid faster—with support for 100+ payment methods and 135+ currencies.
+
+Create a subscription
+Jane Diaz
+jane.diaz@example.com
+Pro plan
+Subscriptions
+
+Grow subscription revenue with 15+ pricing models, 100+ payment methods, and tools that recover 55% of failed payments.
+
+Kavholm
+$275.27
+Zip code
+Sales tax
+Tax
+
+Automate sales tax, VAT, and GST collection in 100+ countries, from calculations to registrations and filing.
+
+Recognized revenue
+$5,839,417.15
+Revenue Recognition
+
+Automate support for revenue recognition, in line with ASC 606 standards—including upgrades, downgrades, refunds, and prorations—with no manual work required.
+
+Access, analyze, and act on your Stripe data
+
+Get insights faster with automated data syncing, custom and prebuilt reports, and intelligence from Stripe’s global network.
+
+Select your data storage destination
+
+Amazon Redshift
+Data Pipeline
+
+Sync your complete Stripe dataset to Snowflake, Databricks, BigQuery, Redshift, and more—no code required.
+
+select
+I see 783 in Sigma:
+https://dashboard.stripe.com/quer...
+How many customers do we have in France?
+Stripe Sigma
+
+Query your Stripe data and create custom reports from the Dashboard or with an agent. Analyze revenue, churn, and more.
+
+98
+
+Risk insights
+
+98
+0
+65
+75
+99
+Signals
+
+Access insights derived from Stripe’s network to identify fraud, account abuse, and delinquency risk.
+
+Balance summary
+
+Export
+Explore
+Description
+Amount
+Starting balance
+Ending balance
+Reports
+
+Access pre-built reports that help you reconcile account activity, including balance, payout, and fees reports.
+
+Receive, store, send, and finance from one place.
+
+Process payments, store multiple currencies and stablecoins, and send and spend money globally.
+
+Financial account
+
+$22,460.19
+
+USD
+GBP
+EUR
+USDC
+Treasury
+
+Store, earn, spend, and send money from a global, multicurrency business account.
+
+To
+
+Method
+
+Instant with debit card
+Standard to bank account
+Global Payouts
+
+Send money to recipients globally and quickly go live through no code, hosted, or API options.
+
+Virtual
+
+Use virtual cards instantly
+
+Physical
+
+Cards
+
+Create virtual and physical cards with 2% cashback on eligible transactions, flexible spend controls, and real-time reporting.
+Public preview
+
+Choose custom financing amount
+
+Offer amount
+
+$22,500
+Capital
+
+Access fast, flexible financing to invest in your business’s growth.
+
+Start your company
+Business name
+Available
+Atlas
+
+Form a US C corporation or LLC from anywhere in the world, and start fundraising using SAFEs.
+
+Monetize embedded payments and financial products
+
+Onboard businesses and offer them payments, financing, card issuing, financial accounts, and more.
+
+Connected accounts
+Account
+Account status
+Payment balance
+Gleason Group
+Enabled
+Connect
+
+Embed payments and financial services in weeks, not quarters, with 40+ embedded components. Used by 16,000+ platforms.
+
+Stripe Payments
+Rocket Rides
+Transfer funds
+Available to transfer
+Treasury for platforms
+
+Embed financial accounts into your product. Businesses can store funds, get spend cards, move money, and earn cash back.
+
+Issuing
+
+Launch your own card program for businesses, customers, or agents with support across 75+ markets.
+
+Financing offers
+Account
+Offer amount
+Offer accepted
+Gleason Group
+$40,000
+$20,000
+Capital for platforms
+
+Offer financing to businesses on your platform. Stripe handles the rest.
+
+Launch borderless financial services with crypto
+
+Reach untapped customers, pay out instantly across borders, build global financial services, and generate agentic revenue with crypto and stablecoin infrastructure.
+
+Buy cryptocurrency
+$150.00
+Crypto
+
+Accept, store, move, and spend stablecoins and crypto—with built-in compliance, fraud prevention, and KYC.
+
+Buy crypto
+
+POL
+ETH
+SOL
+BTC
+Crypto Onramp
+
+Let customers seamlessly buy crypto on your app or site. Stripe handles identity verification, compliance, and fraud prevention, end to end.
+
+"source": {
+
+"currency": "usdb",
+
+"destination": {
+
+"currency": "usdc",
+
+Orchestration by Bridge
+
+Move money globally with stablecoins. Onramp, convert, and offramp across borders instantly and integrate into your existing funds flow.
+
+USDC
+base
+MXN
+EUR
+USDC
+stellar
+Open Issuance by Bridge
+
+Launch and manage your own stablecoin. Create new financial experiences, maximize rewards, and build liquidity faster.
+
+Wallets
+Total wallets
+19.8M
+Transition count
+134.2M
+Active policy
+Embedded wallets by Privy
+
+Launch secure wallet and account experiences for global payments, trading, and programmable financial applications.
+
+Bank transfer
+Crypto transfer
+Pay with stablecoins
+Treasury with stablecoin balance
+
+Use Stripe Treasury to receive, store, send, and spend with stablecoins.
+
+Phantom
+USDC
+Pay 85.00 USDC
+Stablecoin payments
+
+Reach untapped customers and grow your base by offering crypto and stablecoin payments worldwide.
+
+Bank of America
+USD
+USDC
+Stablecoin payouts
+
+Send instant stablecoin payouts to 160+ countries for less than traditional cross-border transfers.
+Private preview
+
+Payment method
+
+Crypto
+
+Pay with stablecoins
+
+Stablecoin subscriptions
+
+Take recurring stablecoin payments from customers around the world.
+Private preview
+
+OUSD
+
+Stablecoin card issuing
+
+Launch a compliant stablecoin card program with a single integration and earn interchange on every transaction.
+
+Build, operate, and extend your Stripe integration
+
+Access everything you need to build and grow—from developer tools and sandboxes to reporting, compliance, and support.
+
+Recommended apps
+QuickBooks Online
+Install
+Xero
+Install
+Apps
+
+Build and distribute custom apps directly in the Dashboard to extend Stripe functionality.
+
+stripe projects add supabase/db
+Provisioning service...
+Projects
+
+Provision and manage third-party services from the Stripe CLI. Connect providers, sync credentials, and pay for services.
+Public preview
+
+Failed payments in the last month
+Find last month’s failed payments over $500
+Task
+Console
+
+Query your Stripe account in plain language and act on the results directly from the Dashboard.
+Public preview
+
+When this happens
+Do this
+Workflows
+
+Automate multistep business processes across Stripe products and third-party applications without writing code.
+
+Rocket, Inc.
+Rocket Deliveries
+Rocket Repairs
+Organizations
+
+Build an organization to maintain separate business entities while centralizing reporting, operations, and team management.
+
+Wednesday 7 September
+
+12:57
+
+50 %
+
+WH-1000XM5
+
+23
+15
+26
+Stripe
+15m ago
+
+You received a payment of $12 from Jenny Rosen.
+
+Personal
+Dashboard mobile app
+
+View business metrics, track and manage payments and customers, accept in-
