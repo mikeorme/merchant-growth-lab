@@ -28,11 +28,11 @@ const payload = { id: exp.id, steps: steps.map((s) => ({ n: s.n, kind: kl(s.kind
     {exp.status === 'blocked' && <span class="stamp">Blocked</span>}
     {stale(exp) && <span class="stamp">Capture may be stale</span>}
   </div>
-  <Title class="exp-title">Site survey</Title>
-  <p class="lead exp-sub"><strong>{exp.name}</strong> · <a href={exp.url} rel="noopener noreferrer">{exp.url.replace(/^https?:\/\//, '')}</a></p>
+  <Title class="exp-title">{exp.name}</Title>
+  <p class="lead exp-sub"><a href={exp.url} rel="noopener noreferrer">{exp.url.replace(/^https?:\/\//, '')}</a></p>
 
   <section class="sec" aria-labelledby="s-plates">
-    <h2 id="s-plates">The survey, page by page</h2>
+    <h2 id="s-plates">Site Survey</h2>
     <p class="mute" style="margin-top:0">Pages are followed from the site's own top-level navigation, then the signup path. Logged out; nothing is entered or bought.</p>
     {steps.length === 0 ? <p class="wall">No pages captured. {exp.blockedReason}</p> : (
     <div class="cols">
