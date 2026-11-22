@@ -1,0 +1,150 @@
+{
+  "retiredAt": "2026-11-22",
+  "reason": "Whole-site surveys replace flow-style items; sub-surfaces merged into one entry per company.",
+  "items": [
+    {
+      "id": "shopify-pricing",
+      "name": "Shopify pricing",
+      "flow": "plan selection",
+      "mergedInto": "shopify"
+    },
+    {
+      "id": "shopify-capital",
+      "name": "Shopify Capital",
+      "flow": "eligibility explanation",
+      "mergedInto": "shopify"
+    },
+    {
+      "id": "shopify-magic-sidekick",
+      "name": "Shopify Magic / Sidekick",
+      "flow": "feature explanation and entry",
+      "mergedInto": "shopify"
+    },
+    {
+      "id": "shopify-pos",
+      "name": "Shopify POS",
+      "flow": "hardware selection to cart",
+      "mergedInto": "shopify"
+    },
+    {
+      "id": "stripe-capital",
+      "name": "Stripe Capital",
+      "flow": "eligibility explanation",
+      "mergedInto": "stripe"
+    },
+    {
+      "id": "stripe-terminal",
+      "name": "Stripe Terminal",
+      "flow": "hardware shop path",
+      "mergedInto": "stripe"
+    },
+    {
+      "id": "klaviyo-pricing",
+      "name": "Klaviyo pricing",
+      "flow": "plan selection and slider",
+      "mergedInto": "klaviyo"
+    },
+    {
+      "id": "klaviyo-ai",
+      "name": "Klaviyo AI",
+      "flow": "feature explanation",
+      "mergedInto": "klaviyo"
+    },
+    {
+      "id": "squarespace-pricing",
+      "name": "Squarespace pricing",
+      "flow": "plan selection",
+      "mergedInto": "squarespace"
+    },
+    {
+      "id": "squarespace-blueprint-ai",
+      "name": "Squarespace Blueprint AI",
+      "flow": "generate site flow",
+      "mergedInto": "squarespace"
+    },
+    {
+      "id": "square-pos",
+      "name": "Square POS",
+      "flow": "hardware selection to cart",
+      "mergedInto": "square"
+    },
+    {
+      "id": "square-loans",
+      "name": "Square Loans",
+      "flow": "eligibility explanation",
+      "mergedInto": "square"
+    },
+    {
+      "id": "square-online",
+      "name": "Square Online",
+      "flow": "signup to online store",
+      "mergedInto": "square"
+    },
+    {
+      "id": "paypal-working-capital",
+      "name": "PayPal Working Capital",
+      "flow": "explanation and apply path",
+      "mergedInto": "paypal-business"
+    },
+    {
+      "id": "paypal-zettle",
+      "name": "PayPal Zettle",
+      "flow": "signup to hardware",
+      "mergedInto": "paypal-business"
+    },
+    {
+      "id": "mailchimp-pricing",
+      "name": "Mailchimp pricing",
+      "flow": "plan selection",
+      "mergedInto": "mailchimp"
+    },
+    {
+      "id": "amazon-lending",
+      "name": "Amazon Lending",
+      "flow": "explanation path",
+      "mergedInto": "amazon-seller-central"
+    },
+    {
+      "id": "wix-ai-site-builder",
+      "name": "Wix AI Site Builder",
+      "flow": "generate site flow",
+      "mergedInto": "wix"
+    },
+    {
+      "id": "wix-pricing",
+      "name": "Wix pricing",
+      "flow": "plan selection",
+      "mergedInto": "wix"
+    },
+    {
+      "id": "godaddy-airo",
+      "name": "GoDaddy Airo",
+      "flow": "getting started flow",
+      "mergedInto": "godaddy"
+    },
+    {
+      "id": "poynt-godaddy-smart-terminal",
+      "name": "Poynt (GoDaddy Smart Terminal)",
+      "flow": "hardware purchase path",
+      "mergedInto": "godaddy"
+    },
+    {
+      "id": "gorgias-ai-agent",
+      "name": "Gorgias AI Agent",
+      "flow": "explanation and trial",
+      "mergedInto": "gorgias"
+    },
+    {
+      "id": "canva-pricing",
+      "name": "Canva pricing",
+      "flow": "plan selection",
+      "mergedInto": "canva"
+    },
+    {
+      "id": "tidio-lyro",
+      "name": "Tidio Lyro",
+      "flow": "explanation and trial",
+      "mergedInto": "tidio"
+    }
+  ]
+}

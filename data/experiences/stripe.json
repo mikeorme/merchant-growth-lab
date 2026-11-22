@@ -3,9 +3,9 @@
   "name": "Stripe",
   "category": "payments-checkout",
   "url": "https://stripe.com",
-  "flow": "create account to first payment link",
+  "flow": "site survey",
   "capturedAt": "2026-11-22",
-  "rubricVersion": "1.1.0",
+  "rubricVersion": "1.2.0",
   "status": "evaluated",
   "blockedReason": "account form reached after 1 click from home",
   "surveyMode": "full",
@@ -92,7 +92,53 @@
         "150.00 Subtotal Zwischensumme 小計 Subtotal $150.00 €41.70 ¥1,886 $150.00 Tax VAT JCT Tax $15.38 €7.92 ¥189."
       ],
       "description": "Stripe is a financial services platform that helps all types of businesses accept payments, build flexible billing models, and manage money movement.",
-      "mobileScreenshot": "shots/stripe/step-1-mobile.webp"
+      "mobileScreenshot": "shots/stripe/step-1-mobile.webp",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "sohne-var",
+            "body": "sohne-var",
+            "distinct": [
+              "sohne-var"
+            ]
+          },
+          "h1Px": 48,
+          "bodyPx": 16,
+          "bodyLineHeight": "19.6px",
+          "backgrounds": [
+            "#ffffff",
+            "#e5edf5",
+            "#f8fafd",
+            "#0d1738"
+          ],
+          "accents": [
+            "#533afd"
+          ],
+          "textColor": "#ffffff",
+          "buttonRadius": "4px",
+          "buttonHeightPx": 40,
+          "images": 40,
+          "videos": 0,
+          "svgs": 258,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 15036,
+          "domNodes": 4037,
+          "domContentLoadedMs": 421,
+          "loadMs": 612
+        },
+        "merch": {
+          "planCards": 4,
+          "priceElements": 70,
+          "badges": [
+            "Free"
+          ],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 176
+        }
+      }
     },
     {
       "n": 2,
@@ -186,7 +232,61 @@
         "action + 1.5% for international transactions + 1% if currency conversion is required Reduce proce"
       ],
       "description": "Find Stripe fees and pricing information. Find our processing fees for credit cards, pricing models and pay-as-you-go fees for businesses.",
-      "mobileScreenshot": "shots/stripe/step-2-mobile.webp"
+      "mobileScreenshot": "shots/stripe/step-2-mobile.webp",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "sohne-var",
+            "body": "sohne-var",
+            "distinct": [
+              "sohne-var"
+            ]
+          },
+          "h1Px": 56,
+          "bodyPx": 15,
+          "bodyLineHeight": "16.8px",
+          "backgrounds": [
+            "#f6f9fc",
+            "#ffffff",
+            "#f8fafd",
+            "#0c2e4e"
+          ],
+          "accents": [
+            "#635bff",
+            "#00d4ff"
+          ],
+          "textColor": "#0a2540",
+          "buttonRadius": "16.5px",
+          "buttonHeightPx": 33,
+          "images": 55,
+          "videos": 0,
+          "svgs": 468,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 23309,
+          "domNodes": 6209,
+          "domContentLoadedMs": 175,
+          "loadMs": 175
+        },
+        "merch": {
+          "planCards": 4,
+          "priceElements": 50,
+          "badges": [
+            "Included"
+          ],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [
+            "Volume discounts",
+            "Multi-product discounts",
+            "IC+ pricing, discounted flat rates, subscriptions, and buy-rates for platforms.",
+            "Volume-based discounts",
+            "Discounts based on volume tiers, commitments, and product usage.",
+            "Do you offer any discounts?"
+          ],
+          "links": 377
+        }
+      }
     },
     {
       "n": 3,
@@ -243,7 +343,53 @@
         "d team management. Wednesday 7 September 12:57 50 % WH-1000XM5 23 15 26 Stripe 15m ago You receive",
         "3 15 26 Stripe 15m ago You received a payment of $12 from Jenny Rosen. Personal Dashboard mobile app"
       ],
-      "description": "Browse Stripe’s full product catalog to find the products you need, from accepting payments and preventing fraud to automating billing and moving money."
+      "description": "Browse Stripe’s full product catalog to find the products you need, from accepting payments and preventing fraud to automating billing and moving money.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "sohne-var",
+            "body": "sohne-var",
+            "distinct": [
+              "sohne-var",
+              "SourceCodePro",
+              "SF Pro Text"
+            ]
+          },
+          "h1Px": 16,
+          "bodyPx": 16,
+          "bodyLineHeight": "19.6px",
+          "backgrounds": [
+            "#ffffff",
+            "#f8fafd",
+            "#1658bc",
+            "#a8c3de"
+          ],
+          "accents": [
+            "#533afd"
+          ],
+          "textColor": "#50617a",
+          "buttonRadius": "4px",
+          "buttonHeightPx": 40,
+          "images": 10,
+          "videos": 0,
+          "svgs": 222,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 15484,
+          "domNodes": 3902,
+          "domContentLoadedMs": 217,
+          "loadMs": 478
+        },
+        "merch": {
+          "planCards": 5,
+          "priceElements": 12,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 162
+        }
+      }
     },
     {
       "n": 4,
@@ -290,7 +436,51 @@
         "Contact Support",
         "Contact Sales"
       ],
-      "prices": []
+      "prices": [],
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "-apple-system",
+            "body": "-apple-system",
+            "distinct": [
+              "-apple-system"
+            ]
+          },
+          "h1Px": 24,
+          "bodyPx": 14,
+          "bodyLineHeight": "22px",
+          "backgrounds": [
+            "#ffffff",
+            "#f4f7fa",
+            "#3e444f",
+            "#ecf1f6"
+          ],
+          "accents": [
+            "#533afd"
+          ],
+          "textColor": "#1a2c44",
+          "buttonRadius": null,
+          "buttonHeightPx": null,
+          "images": 0,
+          "videos": 0,
+          "svgs": 276,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 900,
+          "domNodes": 4951,
+          "domContentLoadedMs": 1070,
+          "loadMs": 1445
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 3,
+          "promos": [],
+          "links": 200
+        }
+      }
     },
     {
       "n": 5,
@@ -377,7 +567,53 @@
         "services 200+ category leaders processing over $1B in annual payment volume on Stripe 500M+ API r",
         "l services to accelerate growth and revenue. Join 75% of the world’s top marketplaces, who onboard serv"
       ],
-      "description": "Get enterprise payment and financial solutions that maximize conversion, add revenue streams, and automate financial operations. Learn why enterprises build on Stripe."
+      "description": "Get enterprise payment and financial solutions that maximize conversion, add revenue streams, and automate financial operations. Learn why enterprises build on Stripe.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "sohne-var",
+            "body": "sohne-var",
+            "distinct": [
+              "sohne-var"
+            ]
+          },
+          "h1Px": 76,
+          "bodyPx": 14,
+          "bodyLineHeight": "16.8px",
+          "backgrounds": [
+            "#ffffff",
+            "#f8fafd"
+          ],
+          "accents": [
+            "#635bff",
+            "#0a2540"
+          ],
+          "textColor": "#0a2540",
+          "buttonRadius": "16.5px",
+          "buttonHeightPx": 33,
+          "images": 61,
+          "videos": 0,
+          "svgs": 328,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 14416,
+          "domNodes": 4217,
+          "domContentLoadedMs": 149,
+          "loadMs": 162
+        },
+        "merch": {
+          "planCards": 5,
+          "priceElements": 7,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [
+            "Volume discounts",
+            "Multiproduct discounts"
+          ],
+          "links": 389
+        }
+      }
     },
     {
       "n": 6,
@@ -464,7 +700,54 @@
         "1,232 No 3DS 137,678 Screened by Radar Block rate 0.95% Blocked by Radar 1,320 Blocked by Stripe 139 Sent",
         "6,002 1500 750 0 Disputed Fraudulent dispute rate 0.0076% Fraudulent disputes 1,048 Other disputes 243 Cre"
       ],
-      "description": "Learn about Stripe customers and why millions of global businesses have chosen Stripe as their payments platform."
+      "description": "Learn about Stripe customers and why millions of global businesses have chosen Stripe as their payments platform.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "sohne-var",
+            "body": "sohne-var",
+            "distinct": [
+              "sohne-var"
+            ]
+          },
+          "h1Px": 56,
+          "bodyPx": 14,
+          "bodyLineHeight": "16.8px",
+          "backgrounds": [
+            "#f6f9fc",
+            "#ffffff",
+            "#f8fafd",
+            "#ffb100"
+          ],
+          "accents": [
+            "#0a2540",
+            "#635bff"
+          ],
+          "textColor": "#0a2540",
+          "buttonRadius": "16.5px",
+          "buttonHeightPx": 33,
+          "images": 117,
+          "videos": 0,
+          "svgs": 444,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 9684,
+          "domNodes": 4851,
+          "domContentLoadedMs": 106,
+          "loadMs": 161
+        },
+        "merch": {
+          "planCards": 3,
+          "priceElements": 18,
+          "badges": [
+            "Recommended"
+          ],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 308
+        }
+      }
     },
     {
       "n": 7,
@@ -484,7 +767,49 @@
       "prices": [
         "of dollars a year on Stripe, equivalent to around 1.8% of global GDP. While economic growth makes every"
       ],
-      "description": "Stripe is a financial services platform that helps all types of businesses accept payments, build flexible billing models, and manage money movement."
+      "description": "Stripe is a financial services platform that helps all types of businesses accept payments, build flexible billing models, and manage money movement.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": null,
+            "body": "sohne-var",
+            "distinct": [
+              "sohne-var"
+            ]
+          },
+          "h1Px": null,
+          "bodyPx": 19,
+          "bodyLineHeight": "28.5px",
+          "backgrounds": [
+            "#ffffff",
+            "#533afd"
+          ],
+          "accents": [
+            "#533afd"
+          ],
+          "textColor": "#50617a",
+          "buttonRadius": "4px",
+          "buttonHeightPx": 40,
+          "images": 23,
+          "videos": 0,
+          "svgs": 16,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 2122,
+          "domNodes": 403,
+          "domContentLoadedMs": 105,
+          "loadMs": 105
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 20
+        }
+      }
     },
     {
       "n": 8,
@@ -544,7 +869,52 @@
         "Startups"
       ],
       "prices": [],
-      "description": "Find Stripe’s guides and resources for developers and businesses. We have everything from machine learning and global payments to building marketplaces."
+      "description": "Find Stripe’s guides and resources for developers and businesses. We have everything from machine learning and global payments to building marketplaces.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "sohne-var",
+            "body": "sohne-var",
+            "distinct": [
+              "sohne-var"
+            ]
+          },
+          "h1Px": 56,
+          "bodyPx": 14,
+          "bodyLineHeight": "16.8px",
+          "backgrounds": [
+            "#f6f9fc",
+            "#ffffff",
+            "#f8fafd",
+            "#1981e8"
+          ],
+          "accents": [
+            "#635bff",
+            "#0a2540"
+          ],
+          "textColor": "#0a2540",
+          "buttonRadius": "16.5px",
+          "buttonHeightPx": 33,
+          "images": 47,
+          "videos": 0,
+          "svgs": 317,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 11535,
+          "domNodes": 5333,
+          "domContentLoadedMs": 122,
+          "loadMs": 131
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 367
+        }
+      }
     },
     {
       "n": 9,
@@ -624,7 +994,59 @@
         "an ITEMS Professional Plan $60.00 Qty 1 Tax (10%) $6.00 Total due $66.00 Amount paid $0.00 Amount remaini",
         "ional Plan $60.00 Qty 1 Tax (10%) $6.00 Total due $66.00 Amount paid $0.00 Amount remaining $66.00 The op"
       ],
-      "description": "Power your subscriptions with Stripe Billing. Set up recurring and usage-based pricing with APIs or within the Dashboard. Reduce churn with AI-powered tools."
+      "description": "Power your subscriptions with Stripe Billing. Set up recurring and usage-based pricing with APIs or within the Dashboard. Reduce churn with AI-powered tools.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "sohne-var",
+            "body": "sohne-var",
+            "distinct": [
+              "sohne-var"
+            ]
+          },
+          "h1Px": 32,
+          "bodyPx": 16,
+          "bodyLineHeight": "19.6px",
+          "backgrounds": [
+            "#ffffff",
+            "#f8fafd",
+            "#e5edf5",
+            "#ff9744"
+          ],
+          "accents": [
+            "#533afd"
+          ],
+          "textColor": "#061b31",
+          "buttonRadius": "4px",
+          "buttonHeightPx": 40,
+          "images": 11,
+          "videos": 0,
+          "svgs": 237,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 10724,
+          "domNodes": 3394,
+          "domContentLoadedMs": 153,
+          "loadMs": 170
+        },
+        "merch": {
+          "planCards": 4,
+          "priceElements": 27,
+          "badges": [
+            "Best for individuals",
+            "Best value",
+            "Best for growing teams",
+            "Best for large teams",
+            "Best for small teams",
+            "Popular",
+            "Free"
+          ],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 153
+        }
+      }
     },
     {
       "n": 10,
@@ -651,7 +1073,58 @@
         "Contact Sales"
       ],
       "prices": [],
-      "description": "Learn about all the changes to the Stripe API through monthly updates."
+      "description": "Learn about all the changes to the Stripe API through monthly updates.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "-apple-system",
+            "body": "-apple-system",
+            "distinct": [
+              "-apple-system"
+            ]
+          },
+          "h1Px": 32,
+          "bodyPx": 13,
+          "bodyLineHeight": "18px",
+          "backgrounds": [
+            "#ffffff",
+            "#f4f7fa",
+            "#f7fafc",
+            "#d4dee9"
+          ],
+          "accents": [
+            "#273951"
+          ],
+          "textColor": "#3c4257",
+          "buttonRadius": null,
+          "buttonHeightPx": null,
+          "images": 0,
+          "videos": 0,
+          "svgs": 612,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 900,
+          "domNodes": 11339,
+          "domContentLoadedMs": 1165,
+          "loadMs": 1933
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [
+            "Adds item-level discount support for pending updates",
+            "Adds discount eligibility options for add-on invoice items on Subscriptions and Preview Invoice APIs",
+            "Adds discount and discounts properties to pending subscription updates",
+            "Adds the Discount source property and removes the Discount coupon property",
+            "Adds the ability to itemize proration discount amounts",
+            "Removes support for discount coupons that don’t have a specified end time"
+          ],
+          "links": 987
+        }
+      }
     },
     {
       "n": 11,
@@ -742,7 +1215,53 @@
         "s $4,244,870.34 Less refunds $22.38 Less disputes $8,813.74 Less bad debts $190.56 Use consolidated data and",
         "nds $22.38 Less disputes $8,813.74 Less bad debts $190.56 Use consolidated data and custom reports to keep"
       ],
-      "description": "Stripe helps startups launch quickly and effectively. Venture-backed startups can apply to Stripe Startups for access to exclusive discounts, events, and content."
+      "description": "Stripe helps startups launch quickly and effectively. Venture-backed startups can apply to Stripe Startups for access to exclusive discounts, events, and content.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "sohne-var",
+            "body": "sohne-var",
+            "distinct": [
+              "sohne-var",
+              "Arial"
+            ]
+          },
+          "h1Px": 76,
+          "bodyPx": 14,
+          "bodyLineHeight": "16.8px",
+          "backgrounds": [
+            "#f6f9fc",
+            "#ffffff",
+            "#f8fafd",
+            "#635bff"
+          ],
+          "accents": [
+            "#635bff",
+            "#0a2540"
+          ],
+          "textColor": "#0a2540",
+          "buttonRadius": "16.5px",
+          "buttonHeightPx": 33,
+          "images": 54,
+          "videos": 0,
+          "svgs": 313,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 12186,
+          "domNodes": 4243,
+          "domContentLoadedMs": 308,
+          "loadMs": 360
+        },
+        "merch": {
+          "planCards": 5,
+          "priceElements": 24,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 327
+        }
+      }
     },
     {
       "n": 12,
@@ -814,7 +1333,53 @@
         "$195 Day 2 $1,300 $49 $66 $82 Day 3 $550 $103 $138 $172 Day 4 $1,150 No payment Day 5 No sales $",
         "Day 2 $1,300 $49 $66 $82 Day 3 $550 $103 $138 $172 Day 4 $1,150 No payment Day 5 No sales $72 $9"
       ],
-      "description": "Tap into the financing you need to grow. Stripe Capital provides access to small business financing and loans with flexible payments and no lengthy application."
+      "description": "Tap into the financing you need to grow. Stripe Capital provides access to small business financing and loans with flexible payments and no lengthy application.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "sohne-var",
+            "body": "sohne-var",
+            "distinct": [
+              "sohne-var",
+              "Arial"
+            ]
+          },
+          "h1Px": 56,
+          "bodyPx": 14,
+          "bodyLineHeight": "16.8px",
+          "backgrounds": [
+            "#f6f9fc",
+            "#ffffff",
+            "#f8fafd",
+            "#15be53"
+          ],
+          "accents": [
+            "#15be53",
+            "#0a2540"
+          ],
+          "textColor": "#0a2540",
+          "buttonRadius": "16.5px",
+          "buttonHeightPx": 33,
+          "images": 49,
+          "videos": 0,
+          "svgs": 227,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 6208,
+          "domNodes": 2842,
+          "domContentLoadedMs": 100,
+          "loadMs": 133
+        },
+        "merch": {
+          "planCards": 3,
+          "priceElements": 24,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 265
+        }
+      }
     },
     {
       "n": 13,
@@ -911,7 +1476,53 @@
         "$8.32 13:37 Personal Select Lyft Rider $8.32 Lyft $1.00 Driver $7.32 Use Stripe-hosted or embedded funct",
         "ersonal Select Lyft Rider $8.32 Lyft $1.00 Driver $7.32 Use Stripe-hosted or embedded functionality to g"
       ],
-      "description": "Stripe Connect is the fastest and easiest way to integrate payments and financial services into your software platform or marketplace."
+      "description": "Stripe Connect is the fastest and easiest way to integrate payments and financial services into your software platform or marketplace.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "sohne-var",
+            "body": "sohne-var",
+            "distinct": [
+              "sohne-var",
+              "Arial"
+            ]
+          },
+          "h1Px": 56,
+          "bodyPx": 14,
+          "bodyLineHeight": "16.8px",
+          "backgrounds": [
+            "#f6f9fc",
+            "#ffffff",
+            "#f8fafd",
+            "#0073e6"
+          ],
+          "accents": [
+            "#0073e6",
+            "#0a2540"
+          ],
+          "textColor": "#0a2540",
+          "buttonRadius": "16.5px",
+          "buttonHeightPx": 33,
+          "images": 53,
+          "videos": 0,
+          "svgs": 383,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 14789,
+          "domNodes": 5401,
+          "domContentLoadedMs": 89,
+          "loadMs": 141
+        },
+        "merch": {
+          "planCards": 6,
+          "priceElements": 52,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 333
+        }
+      }
     },
     {
       "n": 14,
@@ -946,7 +1557,49 @@
         "y 7:50 AM Net volume from sales $0.00 $0.00 $0.01 $0 Apr 20 Today Updated today 7:50 AM Create your St"
       ],
       "description": "Sign up to quickly create a new Stripe account today and get started accepting payments in minutes.",
-      "note": "Stopped: account form or bot check reached."
+      "note": "Stopped: account form or bot check reached.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": null,
+            "body": "sohne-var",
+            "distinct": [
+              "sohne-var"
+            ]
+          },
+          "h1Px": null,
+          "bodyPx": 14,
+          "bodyLineHeight": "22.4px",
+          "backgrounds": [
+            "#ffffff",
+            "#f7fafc",
+            "#635bff",
+            "#bac8da"
+          ],
+          "accents": [],
+          "textColor": "#635bff",
+          "buttonRadius": null,
+          "buttonHeightPx": null,
+          "images": 0,
+          "videos": 0,
+          "svgs": 52,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 900,
+          "domNodes": 750,
+          "domContentLoadedMs": 421,
+          "loadMs": 447
+        },
+        "merch": {
+          "planCards": 4,
+          "priceElements": 8,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 3
+        }
+      }
     }
   ],
   "navMap": [
@@ -1600,6 +2253,62 @@
         ]
       },
       {
+        "id": "merchandising",
+        "title": "Merchandising",
+        "summary": "Stripe merchandises its own offer as a two-lane ladder: a published standard rate for self-serve, and a custom lane for volume and unusual models. The product index helps a lost visitor choose. For merchants, the tools are pricing and checkout models rather than catalogue, search or recommendations.",
+        "facts": [
+          {
+            "text": "The pricing page has a floating tab bar to jump between Standard pricing, Custom pricing and FAQs.",
+            "step": 2,
+            "type": "observation"
+          },
+          {
+            "text": "The custom lane lists the levers it can pull.",
+            "step": 2,
+            "type": "fact",
+            "quote": "IC+ pricing Volume discounts Multi-product discounts Country-specific rates"
+          },
+          {
+            "text": "Add-ons are packaged as included with the standard rate.",
+            "step": 2,
+            "type": "fact",
+            "quote": "Included at no additional charge for businesses on standard payments pricing"
+          },
+          {
+            "text": "The product index has filters and a recommender for visitors who don't know what to pick.",
+            "step": 3,
+            "type": "fact",
+            "quote": "Not sure where to start? Get a recommendation"
+          },
+          {
+            "text": "Filters are by use case and by product area.",
+            "step": 3,
+            "type": "fact",
+            "quote": "Use case Product area"
+          },
+          {
+            "text": "Merchants can sell through no-code payment links.",
+            "step": 2,
+            "type": "fact",
+            "quote": "Accept payments in minutes by generating no-code links."
+          },
+          {
+            "text": "Billing is pitched as the tool for pricing, metering and invoicing models.",
+            "step": 9,
+            "type": "fact",
+            "quote": "One platform to price, meter, bill, invoice, and grow."
+          },
+          {
+            "text": "The Standard card (white, one headline rate) sits beside a dark Custom card with four levers, so the self-serve price reads as the default and sales as the exception.",
+            "step": 2,
+            "type": "observation"
+          }
+        ],
+        "gaps": [
+          "No catalogue, collections, product search or recommendation tooling is presented; Stripe sells the payment and billing layer, not a storefront."
+        ]
+      },
+      {
         "id": "platform",
         "title": "Technical platform",
         "summary": "The strongest part of the site. A public REST API reference with sandboxes, date-and-name versioned releases, SDKs, a CLI, an app and extension model, and AI-agent tooling, all readable logged out.",
@@ -1649,6 +2358,74 @@
         ],
         "gaps": [
           "Rate limits, webhooks reliability and SLAs were not read."
+        ]
+      },
+      {
+        "id": "design",
+        "title": "Design",
+        "summary": "Large, confident type on a single typeface, a purple accent, and gradient ribbons used as the signature graphic. The marketing site is tightly built; the docs and the pricing page drift from it in small ways.",
+        "facts": [
+          {
+            "text": "One typeface, sohne-var, sets the home page headline and body.",
+            "step": 1,
+            "type": "fact",
+            "signal": "sohne-var"
+          },
+          {
+            "text": "The home page accent is one purple.",
+            "step": 1,
+            "type": "fact",
+            "signal": "#533afd"
+          },
+          {
+            "text": "The pricing page accent is a different purple.",
+            "step": 2,
+            "type": "fact",
+            "signal": "#635bff"
+          },
+          {
+            "text": "Home buttons have 4px corners.",
+            "step": 1,
+            "type": "fact",
+            "signal": "\"buttonRadius\":\"4px\""
+          },
+          {
+            "text": "Pricing page buttons are near-pills at 16.5px.",
+            "step": 2,
+            "type": "fact",
+            "signal": "16.5px"
+          },
+          {
+            "text": "The API reference sets text in the system font rather than the brand typeface.",
+            "step": 4,
+            "type": "fact",
+            "signal": "-apple-system"
+          },
+          {
+            "text": "The pricing page is long: 23,309px tall.",
+            "step": 2,
+            "type": "fact",
+            "signal": "\"pageHeightPx\":23309"
+          },
+          {
+            "text": "On the home page a multicolour gradient ribbon runs diagonally through the headline, crossing words such as 'your revenue' and 'banking'.",
+            "step": 1,
+            "type": "observation"
+          },
+          {
+            "text": "The product index leads with a search box, two filters and a side navigation of eight product areas.",
+            "step": 3,
+            "type": "observation"
+          },
+          {
+            "text": "Merchants can customise the payment UI.",
+            "step": 3,
+            "type": "fact",
+            "quote": "Launch a secure, customizable, conversion-optimized checkout."
+          }
+        ],
+        "gaps": [
+          "Dark mode, motion and the signup form's own styling were not assessed."
         ]
       },
       {
@@ -1773,6 +2550,36 @@
       "score": 4,
       "evidence": "Same infrastructure story from home to About to Enterprise. Volume is stated as 'trillions' on About but 'hundreds of billions' on Customers.",
       "step": 7
+    },
+    "offer_packaging": {
+      "score": 4,
+      "evidence": "Standard and custom lanes are clear and each product fee is listed separately. 53 products and per-product fee tables make total cost hard to add up.",
+      "step": 2
+    },
+    "offer_architecture": {
+      "score": 4,
+      "evidence": "Self-serve default rate, add-ons, a startup program and a volume lane through sales form a deliberate ladder. There is no entry trial because there is no plan fee.",
+      "step": 2
+    },
+    "merchant_merch_tools": {
+      "score": 3,
+      "evidence": "No-code payment links, Checkout and Billing's pricing models are shown. Catalogue, search and recommendation tools are not part of the offer.",
+      "step": 9
+    },
+    "visual_craft": {
+      "score": 4,
+      "evidence": "Strong hierarchy: one typeface, large headline, one primary button. The ribbon crossing the headline costs some legibility.",
+      "step": 1
+    },
+    "system_coherence": {
+      "score": 3,
+      "evidence": "Two purples (#533afd and #635bff), button corners of 4px on home and 16.5px on pricing, and system-font docs show small drifts between pages.",
+      "step": 2
+    },
+    "merchant_design_control": {
+      "score": 4,
+      "evidence": "Checkout is described as customizable and Elements is a listed product; no theme or brand-kit tooling was surveyed.",
+      "step": 3
     }
   },
   "read": {
@@ -1816,6 +2623,34 @@
       "metric": "Signup-start to account-created rate for non-developer traffic",
       "guardrail": "Developer-segment signup rate and sales-contact volume",
       "decisionRule": "Ship to the segment if completion rises by a pre-agreed margin over two weeks and the developer rate holds."
+    },
+    "subjects": {
+      "merchandising": {
+        "summary": "A clean two-lane offer with the standard rate as the default and sales as the exception. The weakness is the number of separate fee tables, not the packaging of any one product.",
+        "pros": [
+          "The standard rate is the first thing on the pricing page, and the custom lane is clearly separate.",
+          "The product index lets a lost visitor filter or ask for a recommendation.",
+          "Add-ons are described as included with the standard rate."
+        ],
+        "cons": [
+          "Fees are spread across products with no all-in estimate.",
+          "53 products are listed with insider names.",
+          "No catalogue or storefront merchandising tools are presented."
+        ]
+      },
+      "design": {
+        "summary": "Confident and consistent on the home page, looser on the pricing page and docs. The ribbon is the one decision that hurts: it sits behind the headline it should be supporting.",
+        "pros": [
+          "A single typeface and a single primary button give each page one focus.",
+          "The Standard and Custom cards contrast on purpose.",
+          "Merchants get real design control over checkout."
+        ],
+        "cons": [
+          "The gradient ribbon crosses the home headline.",
+          "Two purple accents and two button shapes between home and pricing.",
+          "Docs switch to the system font."
+        ]
+      }
     }
   },
   "claims": [
@@ -1861,5 +2696,6 @@
       "step": 6,
       "evidenceStep": 7
     }
-  ]
+  ],
+  "focus": "create account to first payment link; eligibility explanation; hardware shop path"
 }

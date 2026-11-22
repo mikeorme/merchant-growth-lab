@@ -153,6 +153,62 @@
         ]
       },
       {
+        "id": "merchandising",
+        "title": "Merchandising",
+        "summary": "Stripe merchandises its own offer as a two-lane ladder: a published standard rate for self-serve, and a custom lane for volume and unusual models. The product index helps a lost visitor choose. For merchants, the tools are pricing and checkout models rather than catalogue, search or recommendations.",
+        "facts": [
+          {
+            "text": "The pricing page has a floating tab bar to jump between Standard pricing, Custom pricing and FAQs.",
+            "step": 2,
+            "type": "observation"
+          },
+          {
+            "text": "The custom lane lists the levers it can pull.",
+            "step": 2,
+            "type": "fact",
+            "quote": "IC+ pricing Volume discounts Multi-product discounts Country-specific rates"
+          },
+          {
+            "text": "Add-ons are packaged as included with the standard rate.",
+            "step": 2,
+            "type": "fact",
+            "quote": "Included at no additional charge for businesses on standard payments pricing"
+          },
+          {
+            "text": "The product index has filters and a recommender for visitors who don't know what to pick.",
+            "step": 3,
+            "type": "fact",
+            "quote": "Not sure where to start? Get a recommendation"
+          },
+          {
+            "text": "Filters are by use case and by product area.",
+            "step": 3,
+            "type": "fact",
+            "quote": "Use case Product area"
+          },
+          {
+            "text": "Merchants can sell through no-code payment links.",
+            "step": 2,
+            "type": "fact",
+            "quote": "Accept payments in minutes by generating no-code links."
+          },
+          {
+            "text": "Billing is pitched as the tool for pricing, metering and invoicing models.",
+            "step": 9,
+            "type": "fact",
+            "quote": "One platform to price, meter, bill, invoice, and grow."
+          },
+          {
+            "text": "The Standard card (white, one headline rate) sits beside a dark Custom card with four levers, so the self-serve price reads as the default and sales as the exception.",
+            "step": 2,
+            "type": "observation"
+          }
+        ],
+        "gaps": [
+          "No catalogue, collections, product search or recommendation tooling is presented; Stripe sells the payment and billing layer, not a storefront."
+        ]
+      },
+      {
         "id": "platform",
         "title": "Technical platform",
         "summary": "The strongest part of the site. A public REST API reference with sandboxes, date-and-name versioned releases, SDKs, a CLI, an app and extension model, and AI-agent tooling, all readable logged out.",
@@ -202,6 +258,74 @@
         ],
         "gaps": [
           "Rate limits, webhooks reliability and SLAs were not read."
+        ]
+      },
+      {
+        "id": "design",
+        "title": "Design",
+        "summary": "Large, confident type on a single typeface, a purple accent, and gradient ribbons used as the signature graphic. The marketing site is tightly built; the docs and the pricing page drift from it in small ways.",
+        "facts": [
+          {
+            "text": "One typeface, sohne-var, sets the home page headline and body.",
+            "step": 1,
+            "type": "fact",
+            "signal": "sohne-var"
+          },
+          {
+            "text": "The home page accent is one purple.",
+            "step": 1,
+            "type": "fact",
+            "signal": "#533afd"
+          },
+          {
+            "text": "The pricing page accent is a different purple.",
+            "step": 2,
+            "type": "fact",
+            "signal": "#635bff"
+          },
+          {
+            "text": "Home buttons have 4px corners.",
+            "step": 1,
+            "type": "fact",
+            "signal": "\"buttonRadius\":\"4px\""
+          },
+          {
+            "text": "Pricing page buttons are near-pills at 16.5px.",
+            "step": 2,
+            "type": "fact",
+            "signal": "16.5px"
+          },
+          {
+            "text": "The API reference sets text in the system font rather than the brand typeface.",
+            "step": 4,
+            "type": "fact",
+            "signal": "-apple-system"
+          },
+          {
+            "text": "The pricing page is long: 23,309px tall.",
+            "step": 2,
+            "type": "fact",
+            "signal": "\"pageHeightPx\":23309"
+          },
+          {
+            "text": "On the home page a multicolour gradient ribbon runs diagonally through the headline, crossing words such as 'your revenue' and 'banking'.",
+            "step": 1,
+            "type": "observation"
+          },
+          {
+            "text": "The product index leads with a search box, two filters and a side navigation of eight product areas.",
+            "step": 3,
+            "type": "observation"
+          },
+          {
+            "text": "Merchants can customise the payment UI.",
+            "step": 3,
+            "type": "fact",
+            "quote": "Launch a secure, customizable, conversion-optimized checkout."
+          }
+        ],
+        "gaps": [
+          "Dark mode, motion and the signup form's own styling were not assessed."
         ]
       },
       {
@@ -326,6 +450,36 @@
       "score": 4,
       "evidence": "Same infrastructure story from home to About to Enterprise. Volume is stated as 'trillions' on About but 'hundreds of billions' on Customers.",
       "step": 7
+    },
+    "offer_packaging": {
+      "score": 4,
+      "evidence": "Standard and custom lanes are clear and each product fee is listed separately. 53 products and per-product fee tables make total cost hard to add up.",
+      "step": 2
+    },
+    "offer_architecture": {
+      "score": 4,
+      "evidence": "Self-serve default rate, add-ons, a startup program and a volume lane through sales form a deliberate ladder. There is no entry trial because there is no plan fee.",
+      "step": 2
+    },
+    "merchant_merch_tools": {
+      "score": 3,
+      "evidence": "No-code payment links, Checkout and Billing's pricing models are shown. Catalogue, search and recommendation tools are not part of the offer.",
+      "step": 9
+    },
+    "visual_craft": {
+      "score": 4,
+      "evidence": "Strong hierarchy: one typeface, large headline, one primary button. The ribbon crossing the headline costs some legibility.",
+      "step": 1
+    },
+    "system_coherence": {
+      "score": 3,
+      "evidence": "Two purples (#533afd and #635bff), button corners of 4px on home and 16.5px on pricing, and system-font docs show small drifts between pages.",
+      "step": 2
+    },
+    "merchant_design_control": {
+      "score": 4,
+      "evidence": "Checkout is described as customizable and Elements is a listed product; no theme or brand-kit tooling was surveyed.",
+      "step": 3
     }
   },
   "read": {
@@ -369,6 +523,34 @@
       "metric": "Signup-start to account-created rate for non-developer traffic",
       "guardrail": "Developer-segment signup rate and sales-contact volume",
       "decisionRule": "Ship to the segment if completion rises by a pre-agreed margin over two weeks and the developer rate holds."
+    },
+    "subjects": {
+      "merchandising": {
+        "summary": "A clean two-lane offer with the standard rate as the default and sales as the exception. The weakness is the number of separate fee tables, not the packaging of any one product.",
+        "pros": [
+          "The standard rate is the first thing on the pricing page, and the custom lane is clearly separate.",
+          "The product index lets a lost visitor filter or ask for a recommendation.",
+          "Add-ons are described as included with the standard rate."
+        ],
+        "cons": [
+          "Fees are spread across products with no all-in estimate.",
+          "53 products are listed with insider names.",
+          "No catalogue or storefront merchandising tools are presented."
+        ]
+      },
+      "design": {
+        "summary": "Confident and consistent on the home page, looser on the pricing page and docs. The ribbon is the one decision that hurts: it sits behind the headline it should be supporting.",
+        "pros": [
+          "A single typeface and a single primary button give each page one focus.",
+          "The Standard and Custom cards contrast on purpose.",
+          "Merchants get real design control over checkout."
+        ],
+        "cons": [
+          "The gradient ribbon crosses the home headline.",
+          "Two purple accents and two button shapes between home and pricing.",
+          "Docs switch to the system font."
+        ]
+      }
     }
   },
   "claims": [

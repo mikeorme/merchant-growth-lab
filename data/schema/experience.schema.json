@@ -134,6 +134,9 @@
             "items": {
               "type": "string"
             }
+          },
+          "signals": {
+            "type": "object"
           }
         }
       }
@@ -277,6 +280,64 @@
               "type": "string"
             }
           }
+        },
+        "subjects": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "merchandising": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "summary",
+                "pros",
+                "cons"
+              ],
+              "properties": {
+                "summary": {
+                  "type": "string"
+                },
+                "pros": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "cons": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "design": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "summary",
+                "pros",
+                "cons"
+              ],
+              "properties": {
+                "summary": {
+                  "type": "string"
+                },
+                "pros": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "cons": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
         }
       }
     },
@@ -345,7 +406,9 @@
                   "pricing",
                   "platform",
                   "company",
-                  "positioning"
+                  "positioning",
+                  "merchandising",
+                  "design"
                 ]
               },
               "title": {
@@ -375,12 +438,17 @@
                     "type": {
                       "enum": [
                         "fact",
-                        "inference"
+                        "inference",
+                        "observation"
                       ]
                     },
                     "quote": {
                       "type": "string",
                       "description": "Verbatim text from the page; checked against the saved page text"
+                    },
+                    "signal": {
+                      "type": "string",
+                      "description": "For measured facts: a value that appears in the cited step's signals"
                     }
                   }
                 }
@@ -395,6 +463,9 @@
           }
         }
       }
+    },
+    "focus": {
+      "type": "string"
     }
   }
 }

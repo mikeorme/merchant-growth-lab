@@ -11,6 +11,9 @@ const p = path.join(root, 'data/experiences', id + '.json');
 const e = JSON.parse(fs.readFileSync(p, 'utf8'));
 for (const k of ['dossier', 'scores', 'read', 'claims']) if (ev[k] !== undefined) e[k] = ev[k]; else delete e[k];
 e.status = 'evaluated';
+e.rubricVersion = JSON.parse(fs.readFileSync(path.join(root, 'data/rubric.json'), 'utf8')).version;
+const ci = JSON.parse(fs.readFileSync(path.join(root, 'data/corpus.json'), 'utf8')).items.find((i) => i.id === id);
+if (ci) { e.name = ci.name; e.flow = ci.flow; if (ci.focus) e.focus = ci.focus; else delete e.focus; }
 fs.writeFileSync(p, JSON.stringify(e, null, 2));
 const c = JSON.parse(fs.readFileSync(path.join(root, 'data/corpus.json'), 'utf8'));
 const it = c.items.find((i) => i.id === id); if (it) { it.status = 'evaluated'; fs.writeFileSync(path.join(root, 'data/corpus.json'), JSON.stringify(c, null, 2)); }

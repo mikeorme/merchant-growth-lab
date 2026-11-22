@@ -1,5 +1,5 @@
 {
-  "version": "1.1.0",
+  "version": "1.2.0",
   "scale": {
     "min": 1,
     "max": 5,
@@ -171,6 +171,74 @@
           }
         }
       ]
+    },
+    {
+      "id": "merchandising",
+      "label": "Merchandising",
+      "question": "Does it package, price and present what it sells well, and equip merchants to do the same?",
+      "dimensions": [
+        {
+          "id": "offer_packaging",
+          "label": "Plan and product packaging",
+          "anchors": {
+            "1": "Hard to tell what each level includes",
+            "3": "Tiers listed, differences take effort",
+            "5": "Each option has a clear buyer, fit and next step; comparison is easy"
+          }
+        },
+        {
+          "id": "offer_architecture",
+          "label": "Entry offer, anchors and upsell path",
+          "anchors": {
+            "1": "One price, no path beyond it",
+            "3": "Some tiers or add-ons",
+            "5": "Deliberate ladder: low-risk entry, anchor, add-ons, route for large buyers"
+          }
+        },
+        {
+          "id": "merchant_merch_tools",
+          "label": "Merchandising tools for merchants",
+          "anchors": {
+            "1": "Not shown",
+            "3": "Basic catalog or promotions",
+            "5": "Collections, search, recommendations, promotions and pricing tools all shown"
+          }
+        }
+      ]
+    },
+    {
+      "id": "design",
+      "label": "Design",
+      "question": "Does it look and behave like a considered product, and does it let merchants do the same?",
+      "dimensions": [
+        {
+          "id": "visual_craft",
+          "label": "Visual craft and hierarchy",
+          "anchors": {
+            "1": "Cluttered, no clear focus",
+            "3": "Competent but generic",
+            "5": "Clear hierarchy; type, colour and imagery chosen on purpose"
+          }
+        },
+        {
+          "id": "system_coherence",
+          "label": "System coherence across pages",
+          "anchors": {
+            "1": "Pages look like different sites",
+            "3": "Mostly consistent",
+            "5": "One system from marketing to docs to signup"
+          }
+        },
+        {
+          "id": "merchant_design_control",
+          "label": "Design control offered to merchants",
+          "anchors": {
+            "1": "Not shown",
+            "3": "Templates only",
+            "5": "Themes, brand tools and checkout or storefront customization all shown"
+          }
+        }
+      ]
     }
   ],
   "persuasionTactics": [
@@ -191,6 +259,7 @@
     "high"
   ],
   "changelog": {
-    "1.1.0": "Survey depth: added product_breadth, platform_depth, company_narrative. capability_visible and pricing_transparency now judged across the whole surveyed site, not one landing page."
+    "1.1.0": "Survey depth: added product_breadth, platform_depth, company_narrative. capability_visible and pricing_transparency now judged across the whole surveyed site, not one landing page.",
+    "1.2.0": "Added two subjects as separate lenses: Merchandising (offer_packaging, offer_architecture, merchant_merch_tools) and Design (visual_craft, system_coherence, merchant_design_control). Each is judged on how the company presents itself and on what it gives merchants."
   }
 }

@@ -3,9 +3,9 @@
   "name": "Klaviyo",
   "category": "retention-messaging",
   "url": "https://www.klaviyo.com",
-  "flow": "signup to first flow",
+  "flow": "site survey",
   "capturedAt": "2026-11-22",
-  "rubricVersion": "1.1.0",
+  "rubricVersion": "1.2.0",
   "status": "evaluated",
   "blockedReason": "account form reached after 1 click from home",
   "surveyMode": "full",
@@ -67,7 +67,51 @@
         "brands build more valuable customer relationships 21% YoY growth in revenue from CRM in last 12 months"
       ],
       "description": "Klaviyo unifies AI-powered email marketing and SMS to drive growth, retention, and measurable results. Build personalized, omnichannel experiences across WhatsApp, ecommerce, and more with K:AI Agents.",
-      "mobileScreenshot": "shots/klaviyo/step-1-mobile.webp"
+      "mobileScreenshot": "shots/klaviyo/step-1-mobile.webp",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Klaviyo Degular",
+            "body": "Klaviyo Degular",
+            "distinct": [
+              "Instrument Sans",
+              "Klaviyo Degular",
+              "DM Mono"
+            ]
+          },
+          "h1Px": 56,
+          "bodyPx": 20,
+          "bodyLineHeight": "32px",
+          "backgrounds": [
+            "#ffffff",
+            "#ff4b33",
+            "#deff00",
+            "#dfddda"
+          ],
+          "accents": [],
+          "textColor": "#1d1e20",
+          "buttonRadius": "2px",
+          "buttonHeightPx": 40,
+          "images": 198,
+          "videos": 0,
+          "svgs": 93,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 8777,
+          "domNodes": 3334,
+          "domContentLoadedMs": 498,
+          "loadMs": 1901
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 204
+        }
+      }
     },
     {
       "n": 2,
@@ -113,7 +157,52 @@
         "tomer Hub Up to 250 profiles Add on AI Composer $10 of usage per month Add on Add on Custom Customer"
       ],
       "description": "Explore Klaviyo pricing and start free. Get email marketing sends, text message credits, Customer Hub, and reporting—all in one platform.",
-      "mobileScreenshot": "shots/klaviyo/step-2-mobile.webp"
+      "mobileScreenshot": "shots/klaviyo/step-2-mobile.webp",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Klaviyo Degular",
+            "body": "Klaviyo Degular",
+            "distinct": [
+              "Instrument Sans",
+              "Klaviyo Degular"
+            ]
+          },
+          "h1Px": 64,
+          "bodyPx": 14,
+          "bodyLineHeight": "32px",
+          "backgrounds": [
+            "#ffffff",
+            "#1d1e20",
+            "#f3f2f1",
+            "#deff00"
+          ],
+          "accents": [],
+          "textColor": "#1d1e20",
+          "buttonRadius": "2px",
+          "buttonHeightPx": 40,
+          "images": 42,
+          "videos": 0,
+          "svgs": 95,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 4436,
+          "domNodes": 2623,
+          "domContentLoadedMs": 273,
+          "loadMs": 688
+        },
+        "merch": {
+          "planCards": 2,
+          "priceElements": 6,
+          "badges": [
+            "RECOMMENDED"
+          ],
+          "billingToggles": [],
+          "tables": 1,
+          "promos": [],
+          "links": 115
+        }
+      }
     },
     {
       "n": 3,
@@ -162,7 +251,53 @@
         "Facebook"
       ],
       "prices": [],
-      "description": "Meet Composer, the AI agent for marketing that works for you. Create campaigns, automate tasks, and optimize performance through powerful marketing conversations."
+      "description": "Meet Composer, the AI agent for marketing that works for you. Create campaigns, automate tasks, and optimize performance through powerful marketing conversations.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Klaviyo Degular",
+            "body": "Klaviyo Degular",
+            "distinct": [
+              "Instrument Sans",
+              "Klaviyo Degular",
+              "DM Mono"
+            ]
+          },
+          "h1Px": 56,
+          "bodyPx": 16,
+          "bodyLineHeight": "32px",
+          "backgrounds": [
+            "#ffffff",
+            "#1d1e20",
+            "#590b2c",
+            "#252628"
+          ],
+          "accents": [
+            "#deff00"
+          ],
+          "textColor": "#1d1e20",
+          "buttonRadius": "2px",
+          "buttonHeightPx": 40,
+          "images": 76,
+          "videos": 0,
+          "svgs": 80,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 8458,
+          "domNodes": 3110,
+          "domContentLoadedMs": 266,
+          "loadMs": 698
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 147
+        }
+      }
     },
     {
       "n": 4,
@@ -188,7 +323,54 @@
         "Get started"
       ],
       "prices": [],
-      "description": "Guides, API reference and developer tools for building apps and integrations with Klaviyo."
+      "description": "Guides, API reference and developer tools for building apps and integrations with Klaviyo.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Geist Pixel Square",
+            "body": "Geist",
+            "distinct": [
+              "Geist",
+              "Geist Mono",
+              "Geist Pixel Square",
+              "Arial"
+            ]
+          },
+          "h1Px": 64,
+          "bodyPx": 17,
+          "bodyLineHeight": "24px",
+          "backgrounds": [
+            "#ffffff",
+            "#000000",
+            "#f5f5f5",
+            "#fafafa"
+          ],
+          "accents": [
+            "#303b43"
+          ],
+          "textColor": "#0a0a0a",
+          "buttonRadius": "12px",
+          "buttonHeightPx": 147,
+          "images": 7,
+          "videos": 0,
+          "svgs": 9,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 3117,
+          "domNodes": 546,
+          "domContentLoadedMs": 473,
+          "loadMs": 723
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 67
+        }
+      }
     },
     {
       "n": 5,
@@ -240,7 +422,50 @@
       "prices": [
         "eader Summer 2026 leader Migration case studies 21% YoY growth in revenue from CRM in last 12 months"
       ],
-      "description": "Klaviyo’s enterprise marketing platform turns data into personalized, cross-channel campaigns with AI, automation, and professional support every step of the way."
+      "description": "Klaviyo’s enterprise marketing platform turns data into personalized, cross-channel campaigns with AI, automation, and professional support every step of the way.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": null,
+            "body": "Klaviyo Degular",
+            "distinct": [
+              "Instrument Sans",
+              "Klaviyo Degular"
+            ]
+          },
+          "h1Px": null,
+          "bodyPx": 16,
+          "bodyLineHeight": "32px",
+          "backgrounds": [
+            "#ffffff",
+            "#1d1e20",
+            "#deff00",
+            "#dfddda"
+          ],
+          "accents": [],
+          "textColor": "#1d1e20",
+          "buttonRadius": "2px",
+          "buttonHeightPx": 40,
+          "images": 230,
+          "videos": 0,
+          "svgs": 78,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 10542,
+          "domNodes": 3322,
+          "domContentLoadedMs": 217,
+          "loadMs": 616
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 135
+        }
+      }
     },
     {
       "n": 6,
@@ -278,7 +503,49 @@
       "prices": [
         "d service. Read case study Dollar Shave Club sees 30%+ reduction in TCO by consolidating CRM stack in K"
       ],
-      "description": "Klaviyo case studies and testimonials from customers who used our email and sms marketing platform, database and analysis services to grow their business."
+      "description": "Klaviyo case studies and testimonials from customers who used our email and sms marketing platform, database and analysis services to grow their business.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Instrument Sans",
+            "body": "Klaviyo Degular",
+            "distinct": [
+              "Instrument Sans"
+            ]
+          },
+          "h1Px": 48,
+          "bodyPx": 32,
+          "bodyLineHeight": "32px",
+          "backgrounds": [
+            "#1d1e20",
+            "#fffcf9",
+            "#ffffff",
+            "#deff00"
+          ],
+          "accents": [],
+          "textColor": "#1d1e20",
+          "buttonRadius": "2px",
+          "buttonHeightPx": 40,
+          "images": 54,
+          "videos": 0,
+          "svgs": 53,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 7762,
+          "domNodes": 2250,
+          "domContentLoadedMs": 711,
+          "loadMs": 719
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 125
+        }
+      }
     },
     {
       "n": 7,
@@ -314,7 +581,49 @@
         "Facebook"
       ],
       "prices": [],
-      "description": "This is your official stop for Klaviyo news and updates."
+      "description": "This is your official stop for Klaviyo news and updates.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Instrument Sans",
+            "body": "Klaviyo Degular",
+            "distinct": [
+              "Instrument Sans"
+            ]
+          },
+          "h1Px": 48,
+          "bodyPx": 32,
+          "bodyLineHeight": "32px",
+          "backgrounds": [
+            "#1d1e20",
+            "#ffffff",
+            "#fffcf9",
+            "#deff00"
+          ],
+          "accents": [],
+          "textColor": "#1d1e20",
+          "buttonRadius": "2px",
+          "buttonHeightPx": 40,
+          "images": 54,
+          "videos": 0,
+          "svgs": 66,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 6203,
+          "domNodes": 2211,
+          "domContentLoadedMs": 561,
+          "loadMs": 3597
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 142
+        }
+      }
     },
     {
       "n": 8,
@@ -365,7 +674,50 @@
         "Facebook"
       ],
       "prices": [],
-      "description": "Klaviyo resources in one place: Academy courses, the Help Center, Community, and live office hours. Find your answer fast and pick your next step in Klaviyo."
+      "description": "Klaviyo resources in one place: Academy courses, the Help Center, Community, and live office hours. Find your answer fast and pick your next step in Klaviyo.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Klaviyo Degular",
+            "body": "Klaviyo Degular",
+            "distinct": [
+              "Instrument Sans",
+              "Klaviyo Degular"
+            ]
+          },
+          "h1Px": 48,
+          "bodyPx": 16,
+          "bodyLineHeight": "32px",
+          "backgrounds": [
+            "#ffffff",
+            "#1d1e20",
+            "#fffcf9",
+            "#f3f2f1"
+          ],
+          "accents": [],
+          "textColor": "#1d1e20",
+          "buttonRadius": "2px",
+          "buttonHeightPx": 40,
+          "images": 55,
+          "videos": 0,
+          "svgs": 85,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 6978,
+          "domNodes": 2606,
+          "domContentLoadedMs": 240,
+          "loadMs": 602
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 143
+        }
+      }
     },
     {
       "n": 9,
@@ -401,7 +753,52 @@
         "Facebook"
       ],
       "prices": [],
-      "description": "See how Klaviyo pricing works, from active profiles and email sends to flexible sending and auto downgrade, so your bill tracks the audience you actually reach."
+      "description": "See how Klaviyo pricing works, from active profiles and email sends to flexible sending and auto downgrade, so your bill tracks the audience you actually reach.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Instrument Sans",
+            "body": "Klaviyo Degular",
+            "distinct": [
+              "Instrument Sans",
+              "Klaviyo Degular"
+            ]
+          },
+          "h1Px": 40,
+          "bodyPx": 16,
+          "bodyLineHeight": "32px",
+          "backgrounds": [
+            "#ffffff",
+            "#1d1e20",
+            "#f9f6f0",
+            "#cccccc"
+          ],
+          "accents": [
+            "#744a6e"
+          ],
+          "textColor": "#1d1e20",
+          "buttonRadius": "2px",
+          "buttonHeightPx": 40,
+          "images": 41,
+          "videos": 0,
+          "svgs": 68,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 6033,
+          "domNodes": 2698,
+          "domContentLoadedMs": 221,
+          "loadMs": 627
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 2,
+          "promos": [],
+          "links": 139
+        }
+      }
     },
     {
       "n": 10,
@@ -466,7 +863,50 @@
         "resources Email marketing should drive at least 30% of your B2C business revenue. These guides and re",
         "eting executives in the restaurant industry doing $30M+ in revenue. Download now More Klaviyo Resource"
       ],
-      "description": "Resources on email marketing best practices and benchmarks, SMS compliance guides, data privacy and Customer-First Data guides, and more."
+      "description": "Resources on email marketing best practices and benchmarks, SMS compliance guides, data privacy and Customer-First Data guides, and more.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Instrument Sans",
+            "body": "Klaviyo Degular",
+            "distinct": [
+              "Instrument Sans",
+              "Reckless Neue"
+            ]
+          },
+          "h1Px": 48,
+          "bodyPx": 16,
+          "bodyLineHeight": "32px",
+          "backgrounds": [
+            "#fffcf9",
+            "#ffffff",
+            "#ff4b32",
+            "#1d1e20"
+          ],
+          "accents": [],
+          "textColor": "#1d1e20",
+          "buttonRadius": "2px",
+          "buttonHeightPx": 40,
+          "images": 42,
+          "videos": 0,
+          "svgs": 118,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 12322,
+          "domNodes": 3068,
+          "domContentLoadedMs": 222,
+          "loadMs": 617
+        },
+        "merch": {
+          "planCards": 1,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 167
+        }
+      }
     },
     {
       "n": 11,
@@ -507,7 +947,53 @@
       "prices": [
         "TLIGHT Top brands helping customers, autonomously 86% of Customer Agent queries in 90 days resolved by"
       ],
-      "description": "Unite marketing and support with Klaviyo Service, an AI platform for customer service. Deliver personalized customer service across all touchpoints with a helpdesk, Customer Hub, and AI agents for web chat, email, SMS, mobile push, and WhatsApp."
+      "description": "Unite marketing and support with Klaviyo Service, an AI platform for customer service. Deliver personalized customer service across all touchpoints with a helpdesk, Customer Hub, and AI agents for web chat, email, SMS, mobile push, and WhatsApp.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "DM Mono",
+            "body": "Klaviyo Degular",
+            "distinct": [
+              "Instrument Sans",
+              "DM Mono",
+              "Klaviyo Degular"
+            ]
+          },
+          "h1Px": 14,
+          "bodyPx": 16,
+          "bodyLineHeight": "32px",
+          "backgrounds": [
+            "#ffffff",
+            "#deff00",
+            "#1d1e20",
+            "#dfddda"
+          ],
+          "accents": [],
+          "textColor": "#1d1e20",
+          "buttonRadius": "2px",
+          "buttonHeightPx": 40,
+          "images": 190,
+          "videos": 0,
+          "svgs": 64,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 8592,
+          "domNodes": 3276,
+          "domContentLoadedMs": 288,
+          "loadMs": 649
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [
+            "Are there any discounts for Klaviyo Service?"
+          ],
+          "links": 129
+        }
+      }
     },
     {
       "n": 12,
@@ -568,7 +1054,51 @@
         "Facebook"
       ],
       "prices": [],
-      "description": "Automate timely marketing across email, SMS, mobile push, and WhatsApp, and more with Klaviyo’s AI-powered marketing automation tools."
+      "description": "Automate timely marketing across email, SMS, mobile push, and WhatsApp, and more with Klaviyo’s AI-powered marketing automation tools.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "DM Mono",
+            "body": "Klaviyo Degular",
+            "distinct": [
+              "Instrument Sans",
+              "DM Mono",
+              "Klaviyo Degular"
+            ]
+          },
+          "h1Px": 14,
+          "bodyPx": 16,
+          "bodyLineHeight": "32px",
+          "backgrounds": [
+            "#ffffff",
+            "#deff00",
+            "#1d1e20",
+            "#dfddda"
+          ],
+          "accents": [],
+          "textColor": "#1d1e20",
+          "buttonRadius": "2px",
+          "buttonHeightPx": 40,
+          "images": 202,
+          "videos": 0,
+          "svgs": 77,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 13374,
+          "domNodes": 3521,
+          "domContentLoadedMs": 241,
+          "loadMs": 614
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 142
+        }
+      }
     },
     {
       "n": 13,
@@ -621,7 +1151,52 @@
         "automated flows. Active profiles 500 $20 $19 OFF $1 Keep the conversation going across every channel",
         "CUSTOMER SPOTLIGHT Real results from real brands 82% Flow revenue growth using Klaviyo email and SMS"
       ],
-      "description": "Create personalized, data-driven email campaigns with Klaviyo’s email marketing platform. Automate messages, engage customers, and drive more revenue."
+      "description": "Create personalized, data-driven email campaigns with Klaviyo’s email marketing platform. Automate messages, engage customers, and drive more revenue.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Klaviyo Degular",
+            "body": "Klaviyo Degular",
+            "distinct": [
+              "Instrument Sans",
+              "Klaviyo Degular"
+            ]
+          },
+          "h1Px": 64,
+          "bodyPx": 16,
+          "bodyLineHeight": "32px",
+          "backgrounds": [
+            "#ffffff",
+            "#deff00",
+            "#1d1e20",
+            "#dfddda"
+          ],
+          "accents": [],
+          "textColor": "#1d1e20",
+          "buttonRadius": "2px",
+          "buttonHeightPx": 40,
+          "images": 217,
+          "videos": 0,
+          "svgs": 80,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 12963,
+          "domNodes": 3737,
+          "domContentLoadedMs": 285,
+          "loadMs": 658
+        },
+        "merch": {
+          "planCards": 2,
+          "priceElements": 2,
+          "badges": [
+            "INCLUDED"
+          ],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 149
+        }
+      }
     },
     {
       "n": 14,
@@ -639,7 +1214,49 @@
       "ctas": [],
       "prices": [],
       "description": "Get started today. Send your first campaign in minutes and put your marketing on autopilot with targeted SMS and email messages that convert into sales.",
-      "note": "Stopped: account form or bot check reached."
+      "note": "Stopped: account form or bot check reached.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Instrument Sans",
+            "body": "Instrument Sans",
+            "distinct": [
+              "Instrument Sans",
+              "system-ui"
+            ]
+          },
+          "h1Px": 24,
+          "bodyPx": 16,
+          "bodyLineHeight": "24px",
+          "backgrounds": [
+            "#ffffff",
+            "#000000",
+            "#1d1e20"
+          ],
+          "accents": [],
+          "textColor": "#1d1e20",
+          "buttonRadius": null,
+          "buttonHeightPx": null,
+          "images": 5,
+          "videos": 0,
+          "svgs": 3,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 900,
+          "domNodes": 378,
+          "domContentLoadedMs": 213,
+          "loadMs": 620
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 4
+        }
+      }
     }
   ],
   "navMap": [
@@ -1285,6 +1902,76 @@
         ]
       },
       {
+        "id": "merchandising",
+        "title": "Merchandising",
+        "summary": "A free plan that includes small amounts of every new product, a paid Email plan, a recommended Marketing plan with a $1 first month, and a custom lane. Pricing scales with a profile slider, so most of the price list is behind an interaction. For merchants, personalisation, product recommendations in messages and cart recovery are the merchandising tools.",
+        "facts": [
+          {
+            "text": "The pricing page has a toggle between plans and all products.",
+            "step": 2,
+            "type": "fact",
+            "quote": "Plans All products"
+          },
+          {
+            "text": "The Marketing plan carries a recommended badge.",
+            "step": 2,
+            "type": "fact",
+            "quote": "RECOMMENDED Marketing Scale across channels. Turn traffic into repeat customers."
+          },
+          {
+            "text": "Pricing beyond 250 profiles requires choosing a profile count.",
+            "step": 2,
+            "type": "fact",
+            "quote": "For more than 250 active profiles, choose the plan that's right for you"
+          },
+          {
+            "text": "The slider is the control for choosing a profile count.",
+            "step": 2,
+            "type": "fact",
+            "quote": "Select your number of active profiles"
+          },
+          {
+            "text": "The plan table shows AI and service products as add-ons.",
+            "step": 2,
+            "type": "fact",
+            "quote": "Customer Agent 10 resolutions/mo Add on Add on Custom"
+          },
+          {
+            "text": "There is a table for comparing plans.",
+            "step": 2,
+            "type": "fact",
+            "quote": "Compare plans A closer look at what’s included in each plan."
+          },
+          {
+            "text": "Product pages pair signup with a pricing link.",
+            "step": 13,
+            "type": "fact",
+            "quote": "Sign up View pricing Take a tour"
+          },
+          {
+            "text": "Email personalisation uses purchase history and predicted value.",
+            "step": 13,
+            "type": "fact",
+            "quote": "Personalize every email with purchase history, browsing behavior, and predicted value—all powered by the built-in Klaviyo Data Platform."
+          },
+          {
+            "text": "Service conversations are meant to sell as well as solve.",
+            "step": 11,
+            "type": "fact",
+            "quote": "opportunities to recommend products, recover carts, and keep customers coming back"
+          },
+          {
+            "text": "The pricing page opens with a free-plan card listing nine included allowances, then a grey band with a profile slider set to 500.",
+            "step": 2,
+            "type": "observation"
+          }
+        ],
+        "gaps": [
+          "Prices above the first profile tier were not captured.",
+          "No catalogue or search tooling; Klaviyo works on messages and data, not the storefront."
+        ]
+      },
+      {
         "id": "platform",
         "title": "Technical platform",
         "summary": "A public developer site with API reference, SDKs for server and mobile languages, a CLI, an MCP server and an agent-ready docs index. Enterprise copy stresses custom objects, 400+ integrations and warehouse sync.",
@@ -1328,6 +2015,74 @@
         ],
         "gaps": [
           "Rate limits and webhook behaviour were not read."
+        ]
+      },
+      {
+        "id": "design",
+        "title": "Design",
+        "summary": "A distinctive palette (white and black with an orange-red band and lime accent), real product UI shown in device frames, and a custom typeface. Marketing, docs and signup each use a different typeface.",
+        "facts": [
+          {
+            "text": "The home page uses a custom typeface, Klaviyo Degular.",
+            "step": 1,
+            "type": "fact",
+            "signal": "Klaviyo Degular"
+          },
+          {
+            "text": "The developer docs headline uses a different typeface.",
+            "step": 4,
+            "type": "fact",
+            "signal": "Geist Pixel Square"
+          },
+          {
+            "text": "The signup page uses another typeface again.",
+            "step": 14,
+            "type": "fact",
+            "signal": "Instrument Sans"
+          },
+          {
+            "text": "The home page has an orange-red background band.",
+            "step": 1,
+            "type": "fact",
+            "signal": "#ff4b33"
+          },
+          {
+            "text": "A lime colour is the accent on home.",
+            "step": 1,
+            "type": "fact",
+            "signal": "#deff00"
+          },
+          {
+            "text": "Home buttons have 2px corners.",
+            "step": 1,
+            "type": "fact",
+            "signal": "\"buttonRadius\":\"2px\""
+          },
+          {
+            "text": "Docs buttons have 12px corners.",
+            "step": 4,
+            "type": "fact",
+            "signal": "\"buttonRadius\":\"12px\""
+          },
+          {
+            "text": "The pricing page is short: 4,436px tall.",
+            "step": 2,
+            "type": "fact",
+            "signal": "\"pageHeightPx\":4436"
+          },
+          {
+            "text": "A lime promo bar sits above the nav, and the home hero pairs a large headline with a laptop-framed screenshot of the product.",
+            "step": 1,
+            "type": "observation"
+          },
+          {
+            "text": "The Composer page switches to a dark theme with a chat-style product mockup and tabs for Analyze, Audit, Create, Automate and Connect.",
+            "step": 3,
+            "type": "observation"
+          }
+        ],
+        "gaps": [
+          "Email and form template design tools were not surveyed, so design control for merchants is not judged."
         ]
       },
       {
@@ -1458,6 +2213,36 @@
       "score": 3,
       "evidence": "Homepage says AI agents and CRM; the Email page still sells email ROI. Newsroom supports the agent story.",
       "step": 13
+    },
+    "offer_packaging": {
+      "score": 4,
+      "evidence": "Free, Email, Marketing and Custom are clearly separated with a comparison table and a recommended badge. Most prices sit behind a slider.",
+      "step": 2
+    },
+    "offer_architecture": {
+      "score": 4,
+      "evidence": "Free plan with small allowances of every product, a $1 first month, add-ons for AI and service, and a custom lane above 150,000 profiles.",
+      "step": 2
+    },
+    "merchant_merch_tools": {
+      "score": 3,
+      "evidence": "Personalisation, product recommendations in messages and cart recovery are shown; there are no catalogue, collections or search tools.",
+      "step": 13
+    },
+    "visual_craft": {
+      "score": 4,
+      "evidence": "A distinctive palette and real product UI in device frames. The lime bar, orange band and white sections compete on the home page.",
+      "step": 1
+    },
+    "system_coherence": {
+      "score": 3,
+      "evidence": "Three typefaces across home, docs and signup; button corners of 2px on home and 12px on docs; dark Composer page next to white pages.",
+      "step": 4
+    },
+    "merchant_design_control": {
+      "score": null,
+      "evidence": "The surveyed pages did not show email or form design tools.",
+      "step": null
     }
   },
   "read": {
@@ -1503,6 +2288,34 @@
       "metric": "Email page to signup-start rate",
       "guardrail": "Organic search entry traffic to the page",
       "decisionRule": "Ship if signup-start rises by a pre-agreed margin and organic entries do not fall in a four-week split."
+    },
+    "subjects": {
+      "merchandising": {
+        "summary": "A free plan with a sample of every product is the most generous entry offer of the three. The weakness is how much of the price list is behind a slider.",
+        "pros": [
+          "Free plan allowances introduce every new product.",
+          "The Marketing plan is marked recommended and has a $1 first month.",
+          "Product pages carry a pricing link next to signup."
+        ],
+        "cons": [
+          "Prices above the first tier require using a slider.",
+          "Add-on prices were not shown.",
+          "No catalogue or search tools."
+        ]
+      },
+      "design": {
+        "summary": "Recognisable and showing real product, but built from separate pieces: a different typeface on home, docs and signup, and dark and white sections that don't share a rule.",
+        "pros": [
+          "Real product UI in device frames on the home and Composer pages.",
+          "A palette that does not look like a template.",
+          "Pricing page is short and scannable."
+        ],
+        "cons": [
+          "Three typefaces across home, docs and signup.",
+          "Different button corner radii between home and docs.",
+          "Promo bar, orange band and white sections compete."
+        ]
+      }
     }
   },
   "claims": [
@@ -1536,5 +2349,6 @@
       "step": 2,
       "evidenceStep": 2
     }
-  ]
+  ],
+  "focus": "signup to first flow; plan selection and slider; feature explanation"
 }

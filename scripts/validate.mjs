@@ -33,10 +33,12 @@ for (const f of fs.existsSync(path.join(root, 'data/experiences')) ? fs.readdirS
     if (c.step > nSteps) fail(`${f}: claim step ${c.step} out of range`);
     else if (pageText[c.step] && !quoteOk(c.step, c.text)) fail(`${f}: claim not found verbatim on step ${c.step}: "${c.text.slice(0, 60)}"`);
   }
+  const sigText = {}; for (const st of d.steps ?? []) sigText[st.n] = JSON.stringify(st.signals ?? {});
   for (const sec of d.dossier?.sections ?? []) for (const fa of sec.facts) {
     if (fa.step > nSteps) { fail(`${f}: dossier ${sec.id} step ${fa.step} out of range`); continue; }
-    if (fa.type === 'fact' && !fa.quote) fail(`${f}: dossier ${sec.id} fact lacks a quote: "${fa.text.slice(0, 60)}"`);
+    if (fa.type === 'fact' && !fa.quote && !fa.signal) fail(`${f}: dossier ${sec.id} fact needs a quote or a signal: "${fa.text.slice(0, 60)}"`);
     if (fa.quote && !quoteOk(fa.step, fa.quote)) fail(`${f}: dossier ${sec.id} quote not found on step ${fa.step}: "${fa.quote.slice(0, 60)}"`);
+    if (fa.signal && !(sigText[fa.step] ?? '').includes(fa.signal)) fail(`${f}: dossier ${sec.id} signal not measured on step ${fa.step}: "${fa.signal}"`);
   }
   if (d.status === 'evaluated' && d.surveyMode === 'full' && !d.dossier) fail(`${f}: full survey evaluated without a dossier`);
   for (const [k, v] of Object.entries(d.scores ?? {})) {

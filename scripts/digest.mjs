@@ -15,6 +15,9 @@ for (const s of e.steps) {
   let t = fs.readFileSync(path.join(root, s.textFile), 'utf8').split('\n\n').slice(1).join('\n\n').replace(/\n+/g, ' ¶ ');
   console.log(`\n## [${s.n}] ${s.kind} ${s.url} (${s.via})`);
   console.log('H:', s.headings.slice(0, 10).join(' / '));
+  const g = s.signals?.design, m = s.signals?.merch;
+  if (g) console.log(`DESIGN: font ${g.fonts?.h1}/${g.fonts?.body} | h1 ${g.h1Px}px body ${g.bodyPx}px | bg ${(g.backgrounds ?? []).join(' ')} | accent ${(g.accents ?? []).join(' ') || '-'} | btn r=${g.buttonRadius} h=${g.buttonHeightPx} | img ${g.images} vid ${g.videos} svg ${g.svgs} | sticky ${g.stickyHeader} | page ${g.pageHeightPx}px`);
+  if (m && (m.planCards || m.badges?.length || m.billingToggles?.length || m.tables || m.promos?.length)) console.log(`MERCH: planCards ${m.planCards} badges [${(m.badges ?? []).join(', ')}] toggles [${(m.billingToggles ?? []).join(', ')}] tables ${m.tables} promos [${(m.promos ?? []).slice(0, 3).join(' | ')}]`);
   if (s.prices.length) console.log('$:', [...new Set(s.prices.map((p) => p.replace(/\s+/g, ' ')))].filter((p, i, a) => !a.slice(0, i).some((q) => q.includes(p.slice(20, 40)))).slice(0, 6).join(' || '));
   console.log('T:', t.slice(0, Number(chars)));
 }

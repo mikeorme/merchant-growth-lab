@@ -9,7 +9,8 @@ Live site: https://mikeorme.github.io/merchant-growth-lab/
 - `data/rubric.json`: three lenses (the product, the flow, how it sells), each dimension scored 1 to 5 with cited evidence, or "n/t" when it can't be told.
 - `capture/capture.mjs`: Playwright survey of one site. Follows the site's own top-level nav (about 14 pages full, about 6 with `--lite`), saves each page's screenshot and text, then the signup path. Logged-out only, no purchases or real accounts, stops at an account form or bot check.
 - `data/captures/<id>/page-N.txt`: saved page text. `data/evaluations/<id>.json`: the Lab's dossier, scores, notes and claims; `scripts/apply-evaluation.mjs` merges it into the experience. `npm run validate` checks that every dossier quote and claim appears verbatim on the cited page.
-- `scripts/digest.mjs`: compact text view of a survey for evaluation.
+- `scripts/digest.mjs`: compact text view of a survey (page text plus measured design and merchandising signals). `scripts/montage.mjs`: one image of several pages' tops for design review.
+- `data/corpus-retired.json`: flow-style queue items merged into whole-site entries on 2026-11-22.
 - `site/`: Astro static site. Blind-first scoring, filmstrip scrubber, compare, calibration. A reader's marks stay in their own browser.
 - `scripts/validate.mjs`: schema and evidence checks, run before every deploy.
 
@@ -17,7 +18,7 @@ Live site: https://mikeorme.github.io/merchant-growth-lab/
 ```
 npm install && npm --prefix site install
 npx playwright install chromium
-node capture/capture.mjs <corpus-id> [maxPages] [--lite | --home-only | --signup-only]
+node capture/capture.mjs <corpus-id> [maxPages] [--lite | --home-only | --signup-only | --signals-only]
 npm run validate
 npm run site:build
 ```

@@ -3,9 +3,9 @@
   "name": "Shopify",
   "category": "store-builders",
   "url": "https://www.shopify.com",
-  "flow": "free trial start to first product added",
+  "flow": "site survey",
   "capturedAt": "2026-11-22",
-  "rubricVersion": "1.1.0",
+  "rubricVersion": "1.2.0",
   "status": "evaluated",
   "blockedReason": "account form reached after 1 click from home",
   "surveyMode": "full",
@@ -58,7 +58,50 @@
         "p to $2M US Amounts tailored to meet your needs 0% equity No stakes taken—ever Build fast on Shopi"
       ],
       "description": "Try Shopify free. Build or grow your business fast with AI. Get more than ecommerce software with tools to manage every part of your business.",
-      "mobileScreenshot": "shots/shopify/step-1-mobile.webp"
+      "mobileScreenshot": "shots/shopify/step-1-mobile.webp",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Shopify-Inter",
+            "body": "Shopify-Inter",
+            "distinct": [
+              "Shopify-Inter",
+              "ui-monospace"
+            ]
+          },
+          "h1Px": 96,
+          "bodyPx": 14,
+          "bodyLineHeight": "24px",
+          "backgrounds": [
+            "#02090a",
+            "#000000",
+            "#041e18",
+            "#000a1e"
+          ],
+          "accents": [],
+          "textColor": "#ffffff",
+          "buttonRadius": "9999px",
+          "buttonHeightPx": 44,
+          "images": 90,
+          "videos": 15,
+          "svgs": 93,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 10960,
+          "domNodes": 1998,
+          "domContentLoadedMs": 153,
+          "loadMs": 313
+        },
+        "merch": {
+          "planCards": 2,
+          "priceElements": 6,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 115
+        }
+      }
     },
     {
       "n": 2,
@@ -130,7 +173,60 @@
         "9 Wildflower Framed Print $56 Poppy Shoulder Tote $145 These are selling fast. Make a collection? Let’s"
       ],
       "description": "Get detailed information on Shopify pricing and features. Find the right plan for you and start your business in seconds.",
-      "mobileScreenshot": "shots/shopify/step-2-mobile.webp"
+      "mobileScreenshot": "shots/shopify/step-2-mobile.webp",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Shopify-Inter",
+            "body": "Shopify-Inter",
+            "distinct": [
+              "Shopify-Inter",
+              "AiStoryboard Mincho"
+            ]
+          },
+          "h1Px": 64,
+          "bodyPx": 14,
+          "bodyLineHeight": "24px",
+          "backgrounds": [
+            "#02090a",
+            "#141a1a",
+            "#ffffff",
+            "#f5f5f5"
+          ],
+          "accents": [],
+          "textColor": "#ffffff",
+          "buttonRadius": "9999px",
+          "buttonHeightPx": 44,
+          "images": 367,
+          "videos": 11,
+          "svgs": 117,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 13342,
+          "domNodes": 3688,
+          "domContentLoadedMs": 249,
+          "loadMs": 265
+        },
+        "merch": {
+          "planCards": 4,
+          "priceElements": 6,
+          "badges": [
+            "ADD ON",
+            "Free"
+          ],
+          "billingToggles": [],
+          "tables": 1,
+          "promos": [
+            "Up to 87% off shipping",
+            "Create and share discount codes",
+            "Shipping discounts",
+            "Up to 87% off",
+            "Up to 87% off",
+            "Up to 87% off"
+          ],
+          "links": 95
+        }
+      }
     },
     {
       "n": 3,
@@ -210,7 +306,53 @@
         "get started? 3 days free Extend your trial for $1 Earn up to $10,000 in credits Enter your email",
         "3 days free Extend your trial for $1 Earn up to $10,000 in credits Enter your email You agree to receiv"
       ],
-      "description": "Shopify Checkout, when paired with Shop Pay, is the fastest, highest-converting ecommerce checkout experience anywhere. And now with advanced customization options, you can make your checkout reflect your brand and give shoppers better ways to buy."
+      "description": "Shopify Checkout, when paired with Shop Pay, is the fastest, highest-converting ecommerce checkout experience anywhere. And now with advanced customization options, you can make your checkout reflect your brand and give shoppers better ways to buy.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Shopify-Inter",
+            "body": "Shopify-Inter",
+            "distinct": [
+              "Shopify-Inter"
+            ]
+          },
+          "h1Px": 16,
+          "bodyPx": 18,
+          "bodyLineHeight": "24px",
+          "backgrounds": [
+            "#000000",
+            "#02090a",
+            "#ffffff",
+            "#01072c"
+          ],
+          "accents": [],
+          "textColor": "#ffffff",
+          "buttonRadius": "9999px",
+          "buttonHeightPx": 44,
+          "images": 61,
+          "videos": 5,
+          "svgs": 111,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 11227,
+          "domNodes": 2251,
+          "domContentLoadedMs": 164,
+          "loadMs": 208
+        },
+        "merch": {
+          "planCards": 4,
+          "priceElements": 9,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [
+            "Start your free trial",
+            "Add discounts and gift cards",
+            "Give customers more ways to buy with choices like pre-orders and subscriptions, and options to add personalized discounts."
+          ],
+          "links": 85
+        }
+      }
     },
     {
       "n": 4,
@@ -240,7 +382,53 @@
       ],
       "ctas": [],
       "prices": [],
-      "description": "Learn how to build an app, theme, custom storefront, or marketplace. Whether you're just getting started, deep in the development process, or ready to distribute and monetize your work, Shopify's docs, dev tools and frameworks make building easy and efficient."
+      "description": "Learn how to build an app, theme, custom storefront, or marketplace. Whether you're just getting started, deep in the development process, or ready to distribute and monetize your work, Shopify's docs, dev tools and frameworks make building easy and efficient.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Inter",
+            "body": "Inter",
+            "distinct": [
+              "Inter",
+              "JetBrains Mono"
+            ]
+          },
+          "h1Px": 32,
+          "bodyPx": 14,
+          "bodyLineHeight": "24px",
+          "backgrounds": [
+            "#ffffff",
+            "#fafbfb",
+            "#ddf7fc",
+            "#eef3f7"
+          ],
+          "accents": [
+            "#24393d",
+            "#474f94"
+          ],
+          "textColor": "#44474a",
+          "buttonRadius": null,
+          "buttonHeightPx": null,
+          "images": 18,
+          "videos": 0,
+          "svgs": 37,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 3161,
+          "domNodes": 1540,
+          "domContentLoadedMs": 1570,
+          "loadMs": 1712
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 43
+        }
+      }
     },
     {
       "n": 5,
@@ -312,7 +500,50 @@
         "on 300+ organizations surveyed with GMVs between $50-$500M+ across global key markets and seven compet",
         "300+ organizations surveyed with GMVs between $50-$500M+ across global key markets and seven competitor"
       ],
-      "description": "Shopify is the commerce platform for the world’s boldest brands, with Shopify Plus and Enterprise plans built for unrivaled scale."
+      "description": "Shopify is the commerce platform for the world’s boldest brands, with Shopify Plus and Enterprise plans built for unrivaled scale.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Shopify-Inter",
+            "body": "Shopify-Inter",
+            "distinct": [
+              "Shopify-Inter",
+              "ui-sans-serif"
+            ]
+          },
+          "h1Px": 96,
+          "bodyPx": 20,
+          "bodyLineHeight": "26px",
+          "backgrounds": [
+            "#000000",
+            "#1f1f22",
+            "#1b1b1b",
+            "#151515"
+          ],
+          "accents": [],
+          "textColor": "#ffffff",
+          "buttonRadius": null,
+          "buttonHeightPx": null,
+          "images": 121,
+          "videos": 14,
+          "svgs": 52,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 11259,
+          "domNodes": 2130,
+          "domContentLoadedMs": 122,
+          "loadMs": 162
+        },
+        "merch": {
+          "planCards": 2,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 100
+        }
+      }
     },
     {
       "n": 6,
@@ -350,7 +581,52 @@
         "Free Tools"
       ],
       "prices": [],
-      "description": "Explore the latest Shopify news, product innovation, and industry data. Get stories from the entrepreneurs who are shaping the future of commerce."
+      "description": "Explore the latest Shopify news, product innovation, and industry data. Get stories from the entrepreneurs who are shaping the future of commerce.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": null,
+            "body": "Shopify-Inter",
+            "distinct": [
+              "Shopify-Inter"
+            ]
+          },
+          "h1Px": null,
+          "bodyPx": 16,
+          "bodyLineHeight": "24px",
+          "backgrounds": [
+            "#000000",
+            "#02090a",
+            "#18181b",
+            "#978de7"
+          ],
+          "accents": [
+            "#978ce7",
+            "#978de7"
+          ],
+          "textColor": "#d4d4d8",
+          "buttonRadius": null,
+          "buttonHeightPx": null,
+          "images": 16,
+          "videos": 0,
+          "svgs": 26,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 3304,
+          "domNodes": 676,
+          "domContentLoadedMs": 128,
+          "loadMs": 159
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 70
+        }
+      }
     },
     {
       "n": 7,
@@ -379,7 +655,53 @@
         "R STORIES Beekman 1802: Brand Strategy Behind Its $92M Growth Apr 14, 2026 FOUNDER STORIES Edited Tra",
         "tart for free Start free then enjoy 3 months for $1/month"
       ],
-      "description": "A blog about ecommerce marketing, running an online business and updates to Shopify's ecommerce community."
+      "description": "A blog about ecommerce marketing, running an online business and updates to Shopify's ecommerce community.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": null,
+            "body": "Shopify-Inter",
+            "distinct": [
+              "Shopify-Inter"
+            ]
+          },
+          "h1Px": null,
+          "bodyPx": 14,
+          "bodyLineHeight": "24px",
+          "backgrounds": [
+            "#ffffff",
+            "#f6f6f1",
+            "#000000",
+            "#7be986"
+          ],
+          "accents": [
+            "#7be986"
+          ],
+          "textColor": "#18181b",
+          "buttonRadius": "9999px",
+          "buttonHeightPx": 44,
+          "images": 31,
+          "videos": 3,
+          "svgs": 96,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 6936,
+          "domNodes": 1497,
+          "domContentLoadedMs": 95,
+          "loadMs": 735
+        },
+        "merch": {
+          "planCards": 1,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [
+            "Sign up for Shopify's free trial to access all of the tools and services you need to start, run, and grow your business."
+          ],
+          "links": 190
+        }
+      }
     },
     {
       "n": 8,
@@ -413,7 +735,49 @@
       "prices": [
         "kout Sales run through Shopify Checkout, powering 14% of US e-commerce. Fast, flexible, secure, and wor"
       ],
-      "description": "Agentic Storefronts puts your products in ChatGPT, Gemini, and more. Every sale runs through Shopify Checkout."
+      "description": "Agentic Storefronts puts your products in ChatGPT, Gemini, and more. Every sale runs through Shopify Checkout.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Shopify-Inter",
+            "body": "Shopify-Inter",
+            "distinct": [
+              "Shopify-Inter"
+            ]
+          },
+          "h1Px": 16,
+          "bodyPx": 14,
+          "bodyLineHeight": "24px",
+          "backgrounds": [
+            "#ffffff",
+            "#02090a",
+            "#000000",
+            "#f2f2f0"
+          ],
+          "accents": [],
+          "textColor": "#ffffff",
+          "buttonRadius": "9999px",
+          "buttonHeightPx": 44,
+          "images": 41,
+          "videos": 8,
+          "svgs": 93,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 4952,
+          "domNodes": 1308,
+          "domContentLoadedMs": 162,
+          "loadMs": 252
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 84
+        }
+      }
     },
     {
       "n": 9,
@@ -461,7 +825,54 @@
         "th, streamlined channel management, and prevented $40K in fraud, since implementing Shopify Marketplace",
         "art free trial Start free then enjoy 3 months for $1/month"
       ],
-      "description": "Sync and sell your products on the largest marketplaces, social platforms, and everywhere people search with Shopify sales channels."
+      "description": "Sync and sell your products on the largest marketplaces, social platforms, and everywhere people search with Shopify sales channels.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": null,
+            "body": "Shopify-Inter",
+            "distinct": [
+              "Shopify-Inter",
+              "Arial"
+            ]
+          },
+          "h1Px": null,
+          "bodyPx": 14,
+          "bodyLineHeight": "24px",
+          "backgrounds": [
+            "#ffffff",
+            "#000000",
+            "#f3f3f1",
+            "#f2f2f0"
+          ],
+          "accents": [],
+          "textColor": "#18181b",
+          "buttonRadius": "9999px",
+          "buttonHeightPx": 44,
+          "images": 38,
+          "videos": 4,
+          "svgs": 120,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 8079,
+          "domNodes": 1647,
+          "domContentLoadedMs": 132,
+          "loadMs": 191
+        },
+        "merch": {
+          "planCards": 1,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [
+            "Start free trial",
+            "Try Shopify free for 3 days, no credit card required.",
+            "Start free trial"
+          ],
+          "links": 112
+        }
+      }
     },
     {
       "n": 10,
@@ -526,7 +937,54 @@
         "ale businesses trust Shopify. In 2023 alone, over $1.7B was invested in commerce R&D. Lightning-fast inn",
         "out Sell more with a checkout that converts up to 36% better than competitors in North America.3 Establ"
       ],
-      "description": "Shopify helps manufacturers, wholesalers, and distributors quickly deploy the best self-serve purchasing experience at a surprisingly low cost."
+      "description": "Shopify helps manufacturers, wholesalers, and distributors quickly deploy the best self-serve purchasing experience at a surprisingly low cost.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Shopify-Inter",
+            "body": "Shopify-Inter",
+            "distinct": [
+              "Shopify-Inter",
+              "ui-sans-serif"
+            ]
+          },
+          "h1Px": 16,
+          "bodyPx": 14,
+          "bodyLineHeight": "24px",
+          "backgrounds": [
+            "#ffffff",
+            "#02090a",
+            "#000000",
+            "#f2f2f0"
+          ],
+          "accents": [],
+          "textColor": "#ffffff",
+          "buttonRadius": "9999px",
+          "buttonHeightPx": 44,
+          "images": 41,
+          "videos": 3,
+          "svgs": 100,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 10728,
+          "domNodes": 1720,
+          "domContentLoadedMs": 161,
+          "loadMs": 176
+        },
+        "merch": {
+          "planCards": 1,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [
+            "Access top B2B features including workflow automation, custom discounts, advanced analytics, and the largest app ecosystem in commerce.",
+            "Custom discounts",
+            "Offer promotional discounts on top of wholesale prices, tailored to your B2B buyers."
+          ],
+          "links": 90
+        }
+      }
     },
     {
       "n": 11,
@@ -597,7 +1055,52 @@
         "te. Free Verifone Victa Mobile for each location ($449 USD value) subject to a $10 activation fee, or lo",
         "e for each location ($449 USD value) subject to a $10 activation fee, or local equivalent, per device."
       ],
-      "description": "Shopify Point of Sale integrates everything to run your retail business, from inventory management to checkout. Start your free trial with Shopify POS today."
+      "description": "Shopify Point of Sale integrates everything to run your retail business, from inventory management to checkout. Start your free trial with Shopify POS today.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Shopify-Inter",
+            "body": "Shopify-Inter",
+            "distinct": [
+              "Shopify-Inter"
+            ]
+          },
+          "h1Px": 16,
+          "bodyPx": 14,
+          "bodyLineHeight": "24px",
+          "backgrounds": [
+            "#ffffff",
+            "#18181b",
+            "#f3f3ec",
+            "#02090a"
+          ],
+          "accents": [],
+          "textColor": "#18181b",
+          "buttonRadius": "9999px",
+          "buttonHeightPx": 44,
+          "images": 32,
+          "videos": 3,
+          "svgs": 115,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 11510,
+          "domNodes": 1848,
+          "domContentLoadedMs": 158,
+          "loadMs": 822
+        },
+        "merch": {
+          "planCards": 2,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [
+            "Try Shopify POS for free—no credit card required.",
+            "Get free POS hardware, free migration and setup support, and 25% off subscription costs with a POS Pro yearly subscription."
+          ],
+          "links": 130
+        }
+      }
     },
     {
       "n": 12,
@@ -653,7 +1156,52 @@
         "ns and reduce customer acquisition costs by up to 50%. Explore Shopify Audiences AUTOMATE YOUR MARKETIN",
         "hopify Messaging? Increase sales productivity by 25% Explore engagement data from leading advertising"
       ],
-      "description": "Find more customers, automate your marketing, and analyze results, directly from Shopify."
+      "description": "Find more customers, automate your marketing, and analyze results, directly from Shopify.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Shopify-Inter",
+            "body": "Shopify-Inter",
+            "distinct": [
+              "Shopify-Inter"
+            ]
+          },
+          "h1Px": 64,
+          "bodyPx": 14,
+          "bodyLineHeight": "24px",
+          "backgrounds": [
+            "#ffffff",
+            "#000000",
+            "#02090a",
+            "#f8f8f8"
+          ],
+          "accents": [],
+          "textColor": "#ffffff",
+          "buttonRadius": "9999px",
+          "buttonHeightPx": 44,
+          "images": 17,
+          "videos": 4,
+          "svgs": 110,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 7855,
+          "domNodes": 1756,
+          "domContentLoadedMs": 149,
+          "loadMs": 161
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [
+            "From deep discounts on shipping to centralized order management—it’s all included in your Shopify plan.",
+            "Start free trial"
+          ],
+          "links": 100
+        }
+      }
     },
     {
       "n": 13,
@@ -662,7 +1210,6 @@
       "url": "https://www.shopify.com/start",
       "screenshot": "shots/shopify/step-13.webp",
       "textFile": "data/captures/shopify/page-13.txt",
-      "elapsedMs": 2662787,
       "clicks": 1,
       "via": "click: \"Get started fast You could be selling by tomorrow.\"",
       "headings": [
@@ -714,7 +1261,54 @@
         "3 days free Extend your trial for $1 Earn up to $10,000 in credits Enter your email You agree to receiv"
       ],
       "description": "Choose a design, add products, get paid. Get started for free.",
-      "note": "Stopped: account form or bot check reached."
+      "note": "Stopped: account form or bot check reached.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Shopify-Inter",
+            "body": "Shopify-Inter",
+            "distinct": [
+              "Shopify-Inter",
+              "Instrument Serif",
+              "Instrument Sans",
+              "Newsreader"
+            ]
+          },
+          "h1Px": 200,
+          "bodyPx": 14,
+          "bodyLineHeight": "24px",
+          "backgrounds": [
+            "#02090a",
+            "#ffffff",
+            "#020808",
+            "#000000"
+          ],
+          "accents": [],
+          "textColor": "#ffffff",
+          "buttonRadius": "9999px",
+          "buttonHeightPx": 44,
+          "images": 80,
+          "videos": 13,
+          "svgs": 93,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 10326,
+          "domNodes": 1724,
+          "domContentLoadedMs": 114,
+          "loadMs": 178
+        },
+        "merch": {
+          "planCards": 4,
+          "priceElements": 5,
+          "badges": [
+            "MOST POPULAR"
+          ],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 92
+        }
+      }
     }
   ],
   "navMap": [
@@ -1383,6 +1977,82 @@
         ]
       },
       {
+        "id": "merchandising",
+        "title": "Merchandising",
+        "summary": "The most deliberate offer ladder of the three: a low-cost trial, yearly savings, a rebate paid as subscription credit, a hardware add-on, a $0 plan for a new channel, and a customizable-checkout tier that only the top plan unlocks. For merchants, catalogue, discounts, pre-orders and subscriptions are shown; collections and search were not surveyed.",
+        "facts": [
+          {
+            "text": "Entry offer.",
+            "step": 2,
+            "type": "fact",
+            "quote": "Try 3 days free, then $1/month for 3 months."
+          },
+          {
+            "text": "Yearly billing is a visible toggle next to a link to compare all features.",
+            "step": 2,
+            "type": "fact",
+            "quote": "Pay yearly Compare all features"
+          },
+          {
+            "text": "Each plan names its buyer.",
+            "step": 2,
+            "type": "fact",
+            "quote": "Basic $29/mo For solo entrepreneurs"
+          },
+          {
+            "text": "Every plan returns a share of sales as subscription credit.",
+            "step": 2,
+            "type": "fact",
+            "quote": "Earn 1% back on all sales as subscription credits (0.5% on non-Shopify Payments)."
+          },
+          {
+            "text": "Checkout customization is gated to the top plan.",
+            "step": 2,
+            "type": "fact",
+            "quote": "Fully customizable checkout"
+          },
+          {
+            "text": "Hardware is sold through a POS add-on.",
+            "step": 2,
+            "type": "fact",
+            "quote": "POS Pro ADD ON +$89/mo For physical storefronts"
+          },
+          {
+            "text": "The POS page pairs the add-on with a hardware offer.",
+            "step": 11,
+            "type": "fact",
+            "quote": "Get free hardware and more with 1 year of POS Pro — offer worth $2,400."
+          },
+          {
+            "text": "A $0 plan is pay-per-sale for a new channel.",
+            "step": 2,
+            "type": "fact",
+            "quote": "Agentic $0/mo For selling in AI channels"
+          },
+          {
+            "text": "Merchants are told Shopify structures product data for AI discovery.",
+            "step": 8,
+            "type": "fact",
+            "quote": "Shopify Catalog automatically structures your product data so AI can find and surface your products."
+          },
+          {
+            "text": "Checkout supports pre-orders, subscriptions and personalized discounts.",
+            "step": 3,
+            "type": "fact",
+            "quote": "Give customers more ways to buy with choices like pre-orders and subscriptions, and options to add personalized discounts."
+          },
+          {
+            "text": "Four plan cards sit in a row, each with a bold price, an outlined button and a bullet ladder that starts 'Everything in' the plan below.",
+            "step": 2,
+            "type": "observation"
+          }
+        ],
+        "gaps": [
+          "Collections, on-site search and recommendation tools were not on the surveyed pages.",
+          "The signup path's own packaging after the email step was not seen."
+        ]
+      },
+      {
         "id": "platform",
         "title": "Technical platform",
         "summary": "A separate developer site (shopify.dev) with docs for apps, storefronts and agents, a CLI, and an AI toolkit. Apps can extend admin, online store and checkout. APIs are named for B2B integration. The API reference itself was not surveyed.",
@@ -1426,6 +2096,92 @@
         ],
         "gaps": [
           "No API reference, rate limits or webhook pages were read."
+        ]
+      },
+      {
+        "id": "design",
+        "title": "Design",
+        "summary": "A dark, cinematic system: near-black backgrounds, full-bleed video, very large type and pill buttons, held together by one typeface. Marketing and docs share the family. The page is heavy on media.",
+        "facts": [
+          {
+            "text": "One typeface family sets home and pricing.",
+            "step": 1,
+            "type": "fact",
+            "signal": "Shopify-Inter"
+          },
+          {
+            "text": "The developer docs use the same family under its plain name.",
+            "step": 4,
+            "type": "fact",
+            "signal": "\"h1\":\"Inter\""
+          },
+          {
+            "text": "Buttons are full pills on home.",
+            "step": 1,
+            "type": "fact",
+            "signal": "9999px"
+          },
+          {
+            "text": "The signup page keeps the pill buttons.",
+            "step": 13,
+            "type": "fact",
+            "signal": "9999px"
+          },
+          {
+            "text": "The home background is near-black.",
+            "step": 1,
+            "type": "fact",
+            "signal": "#02090a"
+          },
+          {
+            "text": "The home headline is set at 96px.",
+            "step": 1,
+            "type": "fact",
+            "signal": "\"h1Px\":96"
+          },
+          {
+            "text": "The home page carries 15 videos.",
+            "step": 1,
+            "type": "fact",
+            "signal": "\"videos\":15"
+          },
+          {
+            "text": "The header is sticky.",
+            "step": 1,
+            "type": "fact",
+            "signal": "\"stickyHeader\":true"
+          },
+          {
+            "text": "The home page opens on a full-bleed video of a person, with the headline 'Be the next AI all-star' in very large white type and two pill buttons.",
+            "step": 1,
+            "type": "observation"
+          },
+          {
+            "text": "The pricing page keeps the dark theme: four dark plan cards, a green yearly toggle at top left, and a centered headline above them.",
+            "step": 2,
+            "type": "observation"
+          },
+          {
+            "text": "Merchants can start from AI generation or a theme.",
+            "step": 1,
+            "type": "fact",
+            "quote": "Build your online store instantly with AI. Or use prebuilt themes."
+          },
+          {
+            "text": "Checkout is presented as customizable.",
+            "step": 3,
+            "type": "fact",
+            "quote": "Make checkout your own using customizable features that fit your unique business needs."
+          },
+          {
+            "text": "Developers can build custom themes or Hydrogen storefronts.",
+            "step": 4,
+            "type": "fact",
+            "quote": "Help merchants express their unique brand by building a custom theme or Hydrogen storefront."
+          }
+        ],
+        "gaps": [
+          "Light-mode behaviour and the admin UI were not assessed."
         ]
       },
       {
@@ -1545,6 +2301,36 @@
       "score": 4,
       "evidence": "The agentic-commerce story runs from homepage to newsroom to developer docs to a dedicated product page.",
       "step": 6
+    },
+    "offer_packaging": {
+      "score": 5,
+      "evidence": "Four plans each name a buyer, bullets build on the plan below, and a compare-all-features link and a yearly toggle sit above them.",
+      "step": 2
+    },
+    "offer_architecture": {
+      "score": 5,
+      "evidence": "A $1 trial, yearly saving, sales rebate as credit, POS add-on with a hardware offer, a $0 pay-per-sale plan, and a top plan that unlocks checkout customization.",
+      "step": 2
+    },
+    "merchant_merch_tools": {
+      "score": 4,
+      "evidence": "Catalog, discounts, gift cards, pre-orders, subscriptions, channels and marketing tools are shown. Collections and search were not surveyed.",
+      "step": 3
+    },
+    "visual_craft": {
+      "score": 4,
+      "evidence": "Distinct and consistent: dark theme, one typeface, huge headline, pill buttons. Heavy on video (15 on the home page) and the hero headline does not say what the product does.",
+      "step": 1
+    },
+    "system_coherence": {
+      "score": 4,
+      "evidence": "Same family from home to docs to signup and the same pill buttons; docs use a muted accent.",
+      "step": 4
+    },
+    "merchant_design_control": {
+      "score": 5,
+      "evidence": "AI store generation, themes, Hydrogen, a customizable checkout and developer theme tools are all shown.",
+      "step": 3
     }
   },
   "read": {
@@ -1589,6 +2375,35 @@
       "metric": "Signup start rate and day-3 paid-conversion rate",
       "guardrail": "Refund and support-contact rate in the first week",
       "decisionRule": "Ship if starts hold within 2% and week-one billing contacts fall over a two-week split."
+    },
+    "subjects": {
+      "merchandising": {
+        "summary": "A real ladder with a reason for every rung. The offer is merchandised more cleverly than Stripe's or Klaviyo's, and merchants are given discounting, pre-order and subscription tools to do the same.",
+        "pros": [
+          "Every plan names its buyer and builds on the one below.",
+          "The entry offer, yearly saving and sales rebate each lower a different kind of risk.",
+          "A $0 pay-per-sale plan lowers the barrier to a new channel.",
+          "Checkout customization is held back as a reason to move up."
+        ],
+        "cons": [
+          "The trial terms differ between pricing and channels pages.",
+          "Hardware discount and POS add-on require reading two pages.",
+          "No collections or search tooling was shown."
+        ]
+      },
+      "design": {
+        "summary": "The most art-directed of the three. The system holds from marketing to docs to signup. The cost is weight and a hero that leads with mood over message.",
+        "pros": [
+          "One typeface, one button shape and one dark theme are held across pages.",
+          "Merchants are offered AI, themes, Hydrogen and a customizable checkout.",
+          "Plan cards are easy to compare."
+        ],
+        "cons": [
+          "The home hero headline does not say what Shopify does.",
+          "Fifteen videos on the home page.",
+          "Dark cards give plan text lower contrast than a light theme would."
+        ]
+      }
     }
   },
   "claims": [
@@ -1628,5 +2443,6 @@
       "step": 5,
       "evidenceStep": null
     }
-  ]
+  ],
+  "focus": "free trial start to first product added; plan selection; eligibility explanation; feature explanation and entry; hardware selection to cart"
 }

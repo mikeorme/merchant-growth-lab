@@ -15,8 +15,9 @@ const root = path.resolve(import.meta.dirname, '..');
 const args = process.argv.slice(2);
 const lite = args.includes('--lite');
 const signupOnly = args.includes('--signup-only'); // redo only the signup step of an existing survey
+const signalsOnly = args.includes('--signals-only'); // add design/merchandising signals to an existing survey without recapturing text
 const homeOnly = args.includes('--home-only'); // redo only the home page (step 1) of an existing survey
-const redo = signupOnly || homeOnly;
+const redo = signupOnly || homeOnly || signalsOnly;
 const [id, maxArg] = args.filter((a) => !a.startsWith('--'));
 const maxPages = Math.min(Number(maxArg ?? (lite ? 6 : 14)), 16); // hard cap on discovery pages
 const corpus = JSON.parse(fs.readFileSync(path.join(root, 'data/corpus.json'), 'utf8'));
@@ -65,8 +66,14 @@ async function shot(p, file, w) {
   await sharp(buf).resize({ width: w, withoutEnlargement: true }).webp({ quality: 78 }).toFile(file);
 }
 async function lazyScroll(p) {
-  await p.evaluate(async () => { for (let y = 0; y < Math.min(document.body.scrollHeight, 9000); y += 700) { window.scrollTo(0, y); await new Promise((r) => setTimeout(r, 120)); } window.scrollTo(0, 0); }).catch(() => {});
+  await p.evaluate(async () => { for (let y = 0; y < Math.min(document.body.scrollHeight, 9000); y += 700) { window.scrollTo(0, y); await new Promise((r) => setTimeout(r, 120)); } }).catch(() => {});
   await p.waitForTimeout(400);
+  // Return to the top and confirm: smooth-scroll sites don't snap back on a single call.
+  for (let i = 0; i < 6; i++) {
+    await p.evaluate(() => { document.documentElement.style.scrollBehavior = 'auto'; document.body.style.scrollBehavior = 'auto'; window.scrollTo({ top: 0, left: 0, behavior: 'instant' }); }).catch(() => {});
+    await p.waitForTimeout(250);
+    if ((await p.evaluate(() => window.scrollY).catch(() => 0)) < 2) break;
+  }
 }
 async function extract(p, keepChrome = false) {
   return p.evaluate((keepChrome) => {
@@ -86,6 +93,55 @@ async function extract(p, keepChrome = false) {
     while ((m = priceRe.exec(text)) && prices.length < 30) { const a = Math.max(0, m.index - 50), b = Math.min(text.length, m.index + m[0].length + 50); prices.push(clean(text.slice(a, b))); }
     return { title: clean(document.title), description: clean(document.querySelector('meta[name=description],meta[property="og:description"]')?.content), headings, ctas, prices: [...new Set(prices)].slice(0, 25), text: text.slice(0, 10000) };
   }, keepChrome).catch(() => ({ title: '', headings: [], ctas: [], prices: [], text: '' }));
+}
+
+// Measured design and merchandising signals for the current page (numbers and strings, no judgement).
+async function extractSignals(p) {
+  return p.evaluate(() => {
+    const clean = (s) => (s ?? '').replace(/\s+/g, ' ').trim();
+    const vis = (e) => { const r = e.getBoundingClientRect(); const st = getComputedStyle(e); return r.width > 0 && r.height > 0 && st.visibility !== 'hidden' && st.display !== 'none'; };
+    const rgb = (c) => { const m = c.match(/rgba?\(([^)]+)\)/); if (!m) return null; const [r, g, b, a = 1] = m[1].split(/[ ,/]+/).filter(Boolean).map(Number); return a === 0 ? null : { r, g, b }; };
+    const hex = ({ r, g, b }) => '#' + [r, g, b].map((v) => Math.round(v).toString(16).padStart(2, '0')).join('');
+    const sat = ({ r, g, b }) => { const mx = Math.max(r, g, b), mn = Math.min(r, g, b); return mx === 0 ? 0 : (mx - mn) / mx; };
+    const family = (e) => (e ? getComputedStyle(e).fontFamily.split(',')[0].replace(/["']/g, '').trim() : null);
+    const fs_ = (e) => parseFloat(getComputedStyle(e).fontSize);
+    const h1 = [...document.querySelectorAll('h1')].filter(vis).sort((a, b) => fs_(b) - fs_(a))[0]; // largest visible h1 (eyebrows are often h1 too)
+    const pSizes = {}; for (const e of [...document.querySelectorAll('p')].filter(vis).slice(0, 200)) { const k = Math.round(fs_(e)); pSizes[k] = (pSizes[k] ?? 0) + 1; }
+    const bodyPxMode = Number(Object.entries(pSizes).sort((a, b) => b[1] - a[1])[0]?.[0] ?? 0) || null;
+    const body = document.querySelector('main p, p') ?? document.body;
+    // background colours by visible area
+    const area = {}; for (const e of [...document.querySelectorAll('body, body *')].slice(0, 1500)) { if (!vis(e)) continue; const c = rgb(getComputedStyle(e).backgroundColor); if (!c) continue; const r = e.getBoundingClientRect(); const w = Math.min(r.width, innerWidth) * Math.min(r.height, innerHeight * 3); area[hex(c)] = (area[hex(c)] ?? 0) + w; }
+    const bgs = Object.entries(area).sort((a, b) => b[1] - a[1]).slice(0, 4).map(([h]) => h);
+    // accent: most common saturated background on buttons/links styled as buttons
+    const acc = {}; for (const e of document.querySelectorAll('a,button')) { if (!vis(e)) continue; const c = rgb(getComputedStyle(e).backgroundColor); if (!c || sat(c) < 0.25) continue; acc[hex(c)] = (acc[hex(c)] ?? 0) + 1; }
+    const accent = Object.entries(acc).sort((a, b) => b[1] - a[1]).slice(0, 2).map(([h]) => h);
+    const btn = [...document.querySelectorAll('a,button')].filter((e) => vis(e) && rgb(getComputedStyle(e).backgroundColor) && /get started|sign up|start|try|buy|contact|demo/i.test(e.innerText)).slice(0, 1)[0];
+    const fonts = new Set([...document.querySelectorAll('h1,h2,h3,p,a,button,li')].filter(vis).slice(0, 300).map(family));
+    const nav = performance.getEntriesByType('navigation')[0];
+    // merchandising signals
+    const badgeRe = /^(most popular|popular|recommended|best value|best for [a-z ]{2,24}|new|beta|limited time|save \d+%|free|included|add[- ]on|add on|coming soon)$/i;
+    const badges = [...new Set([...document.querySelectorAll('span,div,p,small,li,strong,em')].filter((e) => e.children.length === 0 && vis(e) && badgeRe.test(clean(e.innerText))).map((e) => clean(e.innerText)))].slice(0, 12);
+    const toggles = [...document.querySelectorAll('button,[role=switch],[role=tab],label,input[type=radio],input[type=checkbox]')].filter((e) => vis(e) && /^(monthly|yearly|annual|annually|pay (monthly|yearly|annually)|billed (monthly|annually))/i.test(clean(e.innerText || e.getAttribute('aria-label') || ''))).map((e) => clean(e.innerText || e.getAttribute('aria-label'))).slice(0, 4);
+    const promos = [...document.querySelectorAll('body *')].filter((e) => e.children.length === 0 && vis(e)).map((e) => clean(e.innerText)).filter((t) => t.length > 12 && t.length < 140 && /(limited time|% off|save up to|free trial|no credit card|money[- ]back|first month|\$\d+ for|discount|offer worth)/i.test(t)).slice(0, 6);
+    const tables = document.querySelectorAll('table').length;
+    const priceEls = [...document.querySelectorAll('body *')].filter((e) => e.children.length === 0 && vis(e) && /^[$€£]\s?\d[\d,.]*(\s?\/\s?\w+)?$/.test(clean(e.innerText))).length;
+    const planCards = (() => { const cands = [...document.querySelectorAll('section,div,ul')].filter((e) => vis(e) && e.children.length >= 2 && e.children.length <= 6); let best = 0; for (const e of cands) { const n = [...e.children].filter((c) => /[$€£]\s?\d/.test(c.innerText ?? '') && c.innerText.length < 900).length; if (n > best) best = n; } return best; })();
+    const internalLinks = [...document.querySelectorAll('main a[href], a[href]')].filter(vis).length;
+    return {
+      design: {
+        fonts: { h1: family(h1), body: family(body), distinct: [...fonts].filter(Boolean).slice(0, 5) },
+        h1Px: h1 ? Math.round(parseFloat(getComputedStyle(h1).fontSize)) : null, bodyPx: bodyPxMode ?? Math.round(parseFloat(getComputedStyle(body).fontSize)), bodyLineHeight: getComputedStyle(body).lineHeight,
+        backgrounds: bgs, accents: accent, textColor: rgb(getComputedStyle(body).color) ? hex(rgb(getComputedStyle(body).color)) : null,
+        buttonRadius: btn ? getComputedStyle(btn).borderRadius : null, buttonHeightPx: btn ? Math.round(btn.getBoundingClientRect().height) : null,
+        images: document.images.length, videos: document.querySelectorAll('video').length, svgs: document.querySelectorAll('svg').length,
+        stickyHeader: !!document.querySelector('header') && ['sticky', 'fixed'].includes(getComputedStyle(document.querySelector('header')).position),
+        colorSchemeMeta: document.querySelector('meta[name=color-scheme]')?.content ?? null,
+        pageHeightPx: document.documentElement.scrollHeight, domNodes: document.getElementsByTagName('*').length,
+        domContentLoadedMs: nav ? Math.round(nav.domContentLoadedEventEnd) : null, loadMs: nav ? Math.round(nav.loadEventEnd) : null
+      },
+      merch: { planCards, priceElements: priceEls, badges, billingToggles: toggles, tables, promos, links: internalLinks }
+    };
+  }).catch(() => ({ design: {}, merch: {} }));
 }
 async function navLinks(p) {
   return p.evaluate(() => {
@@ -112,10 +168,22 @@ async function record(p, kind, via, keepChrome = false) {
   fs.writeFileSync(path.join(root, textFile), `URL: ${p.url()}\nTITLE: ${x.title}\nDESCRIPTION: ${x.description ?? ''}\n\n${x.text}\n`);
   const step = { n, kind, title: (x.title || `Page ${n}`).slice(0, 110), url: p.url(), screenshot: rel, textFile, elapsedMs: Date.now() - t0, clicks: 0, via, headings: x.headings, ctas: x.ctas, prices: x.prices };
   if (x.description) step.description = x.description.slice(0, 300);
+  Object.assign(step, { signals: await extractSignals(p) });
   steps.push(step);
   return step;
 }
 
+if (signalsOnly) {
+  const ex = JSON.parse(fs.readFileSync(path.join(root, 'data/experiences', id + '.json'), 'utf8'));
+  for (const st of ex.steps) {
+    await page.goto(st.url, { waitUntil: 'domcontentloaded', timeout: 30000 }).catch(() => {}); await settle(page, 1500); await dismissBanners(page); await lazyScroll(page);
+    st.signals = await extractSignals(page);
+    await shot(page, path.join(root, 'site/public', st.screenshot), 1280); // refresh the plate too (scroll-position fix)
+    await page.waitForTimeout(500);
+  }
+  fs.writeFileSync(path.join(root, 'data/experiences', id + '.json'), JSON.stringify(ex, null, 2));
+  await browser.close(); console.log(id, 'signals added to', ex.steps.length, 'pages'); process.exit(0);
+}
 let keep = [];
 if (redo) {
   prior = JSON.parse(fs.readFileSync(path.join(root, 'data/experiences', id + '.json'), 'utf8'));

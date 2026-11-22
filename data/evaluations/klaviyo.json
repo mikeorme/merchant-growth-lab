@@ -133,6 +133,76 @@
         ]
       },
       {
+        "id": "merchandising",
+        "title": "Merchandising",
+        "summary": "A free plan that includes small amounts of every new product, a paid Email plan, a recommended Marketing plan with a $1 first month, and a custom lane. Pricing scales with a profile slider, so most of the price list is behind an interaction. For merchants, personalisation, product recommendations in messages and cart recovery are the merchandising tools.",
+        "facts": [
+          {
+            "text": "The pricing page has a toggle between plans and all products.",
+            "step": 2,
+            "type": "fact",
+            "quote": "Plans All products"
+          },
+          {
+            "text": "The Marketing plan carries a recommended badge.",
+            "step": 2,
+            "type": "fact",
+            "quote": "RECOMMENDED Marketing Scale across channels. Turn traffic into repeat customers."
+          },
+          {
+            "text": "Pricing beyond 250 profiles requires choosing a profile count.",
+            "step": 2,
+            "type": "fact",
+            "quote": "For more than 250 active profiles, choose the plan that's right for you"
+          },
+          {
+            "text": "The slider is the control for choosing a profile count.",
+            "step": 2,
+            "type": "fact",
+            "quote": "Select your number of active profiles"
+          },
+          {
+            "text": "The plan table shows AI and service products as add-ons.",
+            "step": 2,
+            "type": "fact",
+            "quote": "Customer Agent 10 resolutions/mo Add on Add on Custom"
+          },
+          {
+            "text": "There is a table for comparing plans.",
+            "step": 2,
+            "type": "fact",
+            "quote": "Compare plans A closer look at what’s included in each plan."
+          },
+          {
+            "text": "Product pages pair signup with a pricing link.",
+            "step": 13,
+            "type": "fact",
+            "quote": "Sign up View pricing Take a tour"
+          },
+          {
+            "text": "Email personalisation uses purchase history and predicted value.",
+            "step": 13,
+            "type": "fact",
+            "quote": "Personalize every email with purchase history, browsing behavior, and predicted value—all powered by the built-in Klaviyo Data Platform."
+          },
+          {
+            "text": "Service conversations are meant to sell as well as solve.",
+            "step": 11,
+            "type": "fact",
+            "quote": "opportunities to recommend products, recover carts, and keep customers coming back"
+          },
+          {
+            "text": "The pricing page opens with a free-plan card listing nine included allowances, then a grey band with a profile slider set to 500.",
+            "step": 2,
+            "type": "observation"
+          }
+        ],
+        "gaps": [
+          "Prices above the first profile tier were not captured.",
+          "No catalogue or search tooling; Klaviyo works on messages and data, not the storefront."
+        ]
+      },
+      {
         "id": "platform",
         "title": "Technical platform",
         "summary": "A public developer site with API reference, SDKs for server and mobile languages, a CLI, an MCP server and an agent-ready docs index. Enterprise copy stresses custom objects, 400+ integrations and warehouse sync.",
@@ -176,6 +246,74 @@
         ],
         "gaps": [
           "Rate limits and webhook behaviour were not read."
+        ]
+      },
+      {
+        "id": "design",
+        "title": "Design",
+        "summary": "A distinctive palette (white and black with an orange-red band and lime accent), real product UI shown in device frames, and a custom typeface. Marketing, docs and signup each use a different typeface.",
+        "facts": [
+          {
+            "text": "The home page uses a custom typeface, Klaviyo Degular.",
+            "step": 1,
+            "type": "fact",
+            "signal": "Klaviyo Degular"
+          },
+          {
+            "text": "The developer docs headline uses a different typeface.",
+            "step": 4,
+            "type": "fact",
+            "signal": "Geist Pixel Square"
+          },
+          {
+            "text": "The signup page uses another typeface again.",
+            "step": 14,
+            "type": "fact",
+            "signal": "Instrument Sans"
+          },
+          {
+            "text": "The home page has an orange-red background band.",
+            "step": 1,
+            "type": "fact",
+            "signal": "#ff4b33"
+          },
+          {
+            "text": "A lime colour is the accent on home.",
+            "step": 1,
+            "type": "fact",
+            "signal": "#deff00"
+          },
+          {
+            "text": "Home buttons have 2px corners.",
+            "step": 1,
+            "type": "fact",
+            "signal": "\"buttonRadius\":\"2px\""
+          },
+          {
+            "text": "Docs buttons have 12px corners.",
+            "step": 4,
+            "type": "fact",
+            "signal": "\"buttonRadius\":\"12px\""
+          },
+          {
+            "text": "The pricing page is short: 4,436px tall.",
+            "step": 2,
+            "type": "fact",
+            "signal": "\"pageHeightPx\":4436"
+          },
+          {
+            "text": "A lime promo bar sits above the nav, and the home hero pairs a large headline with a laptop-framed screenshot of the product.",
+            "step": 1,
+            "type": "observation"
+          },
+          {
+            "text": "The Composer page switches to a dark theme with a chat-style product mockup and tabs for Analyze, Audit, Create, Automate and Connect.",
+            "step": 3,
+            "type": "observation"
+          }
+        ],
+        "gaps": [
+          "Email and form template design tools were not surveyed, so design control for merchants is not judged."
         ]
       },
       {
@@ -306,6 +444,36 @@
       "score": 3,
       "evidence": "Homepage says AI agents and CRM; the Email page still sells email ROI. Newsroom supports the agent story.",
       "step": 13
+    },
+    "offer_packaging": {
+      "score": 4,
+      "evidence": "Free, Email, Marketing and Custom are clearly separated with a comparison table and a recommended badge. Most prices sit behind a slider.",
+      "step": 2
+    },
+    "offer_architecture": {
+      "score": 4,
+      "evidence": "Free plan with small allowances of every product, a $1 first month, add-ons for AI and service, and a custom lane above 150,000 profiles.",
+      "step": 2
+    },
+    "merchant_merch_tools": {
+      "score": 3,
+      "evidence": "Personalisation, product recommendations in messages and cart recovery are shown; there are no catalogue, collections or search tools.",
+      "step": 13
+    },
+    "visual_craft": {
+      "score": 4,
+      "evidence": "A distinctive palette and real product UI in device frames. The lime bar, orange band and white sections compete on the home page.",
+      "step": 1
+    },
+    "system_coherence": {
+      "score": 3,
+      "evidence": "Three typefaces across home, docs and signup; button corners of 2px on home and 12px on docs; dark Composer page next to white pages.",
+      "step": 4
+    },
+    "merchant_design_control": {
+      "score": null,
+      "evidence": "The surveyed pages did not show email or form design tools.",
+      "step": null
     }
   },
   "read": {
@@ -351,6 +519,34 @@
       "metric": "Email page to signup-start rate",
       "guardrail": "Organic search entry traffic to the page",
       "decisionRule": "Ship if signup-start rises by a pre-agreed margin and organic entries do not fall in a four-week split."
+    },
+    "subjects": {
+      "merchandising": {
+        "summary": "A free plan with a sample of every product is the most generous entry offer of the three. The weakness is how much of the price list is behind a slider.",
+        "pros": [
+          "Free plan allowances introduce every new product.",
+          "The Marketing plan is marked recommended and has a $1 first month.",
+          "Product pages carry a pricing link next to signup."
+        ],
+        "cons": [
+          "Prices above the first tier require using a slider.",
+          "Add-on prices were not shown.",
+          "No catalogue or search tools."
+        ]
+      },
+      "design": {
+        "summary": "Recognisable and showing real product, but built from separate pieces: a different typeface on home, docs and signup, and dark and white sections that don't share a rule.",
+        "pros": [
+          "Real product UI in device frames on the home and Composer pages.",
+          "A palette that does not look like a template.",
+          "Pricing page is short and scannable."
+        ],
+        "cons": [
+          "Three typefaces across home, docs and signup.",
+          "Different button corner radii between home and docs.",
+          "Promo bar, orange band and white sections compete."
+        ]
+      }
     }
   },
   "claims": [
