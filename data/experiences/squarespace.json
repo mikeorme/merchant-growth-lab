@@ -1,0 +1,2067 @@
+{
+  "id": "squarespace",
+  "name": "Squarespace",
+  "category": "store-builders",
+  "url": "https://www.squarespace.com",
+  "flow": "site survey",
+  "capturedAt": "2026-11-22",
+  "rubricVersion": "1.2.0",
+  "status": "evaluated",
+  "surveyMode": "full",
+  "signupEnd": {
+    "state": "no-navigation",
+    "clicks": 1,
+    "from": "home",
+    "clicked": "GET STARTED →"
+  },
+  "steps": [
+    {
+      "n": 1,
+      "kind": "home",
+      "title": "Website Builder – Easily Create Your Own Website — Squarespace",
+      "url": "https://www.squarespace.com/",
+      "screenshot": "shots/squarespace/step-1.webp",
+      "textFile": "data/captures/squarespace/page-1.txt",
+      "elapsedMs": 6272,
+      "clicks": 0,
+      "via": "entry",
+      "headings": [
+        "h1: A website makes it real",
+        "h2: Grow your business",
+        "h3: Offer services",
+        "h3: Sell products",
+        "h3: Invoice clients",
+        "h3: Get booked",
+        "h3: Collect donations",
+        "h3: Monetize your content",
+        "h3: Post your ideas",
+        "h3: Showcase your work",
+        "h3: Offer services",
+        "h3: Sell products",
+        "h3: Invoice clients",
+        "h3: Get booked",
+        "h3: Collect donations",
+        "h3: Monetize your content",
+        "h3: Post your ideas",
+        "h3: Showcase your work",
+        "h3: Offer services",
+        "h3: Sell products",
+        "h2: Everything you need on one platform",
+        "h3: Extensions",
+        "h3: Squarespace Payments",
+        "h3: Squarespace Capital",
+        "h3: Analytics",
+        "h3: Website Editing",
+        "h3: Design Intelligence",
+        "h3: Business Email",
+        "h3: Domains",
+        "h3: Search & AI Optimization",
+        "h2: Getting started has never been easier with AI",
+        "h3: Blueprint AI Builder",
+        "h3: Professional Templates",
+        "h2: Find the perfect domain for your website",
+        "h2: Trusted by 14 million entrepreneurs worldwide",
+        "h2: Websites made with Squarespace",
+        "h2: How to build a website",
+        "h2: Frequently asked questions",
+        "h2: 24/7 Support",
+        "h2: Start your free website trial today"
+      ],
+      "ctas": [
+        "GET STARTED →",
+        "Free Tools",
+        "Contact Us",
+        "Facebook"
+      ],
+      "prices": [
+        "Limited time offer 30% off all plans Ends Nov 23 → A website makes it r",
+        "8 9 0 1 2 3 4 5 6 7 8 9 M+ Entrepreneurs Served $ 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 B+ Earned"
+      ],
+      "description": "Create a website and grow your business with a free Squarespace trial. Start with customizable website templates, AI website builder tools, or a domain name.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Clarkson",
+            "body": "Clarkson",
+            "distinct": [
+              "Clarkson",
+              "sans-serif",
+              "Clarkson Serif"
+            ]
+          },
+          "h1Px": 64,
+          "bodyPx": 15,
+          "bodyLineHeight": "43.2px",
+          "backgrounds": [
+            "#000000",
+            "#ffffff",
+            "#242424",
+            "#0072f0"
+          ],
+          "accents": [],
+          "textColor": "#ffffff",
+          "buttonRadius": "4px",
+          "buttonHeightPx": 60,
+          "images": 90,
+          "videos": 12,
+          "svgs": 75,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 7826,
+          "domNodes": 3475,
+          "domContentLoadedMs": 826,
+          "loadMs": 922
+        },
+        "merch": {
+          "planCards": 3,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [
+            "Limited time offer",
+            "30% off all plans",
+            "Start for free. No credit card required.",
+            "No credit card required. Cancel anytime."
+          ],
+          "links": 176
+        }
+      },
+      "mobileScreenshot": "shots/squarespace/step-1-mobile.webp"
+    },
+    {
+      "n": 2,
+      "kind": "pricing",
+      "title": "Squarespace Pricing Plans & Features — Squarespace",
+      "url": "https://www.squarespace.com/pricing",
+      "screenshot": "shots/squarespace/step-2.webp",
+      "textFile": "data/captures/squarespace/page-2.txt",
+      "elapsedMs": 12727,
+      "clicks": 0,
+      "via": "nav: PricingPricing",
+      "headings": [
+        "h1: Beautiful websites",
+        "h2: Free for 14 days. Pay annually to save up to 36%.",
+        "h2: Basic",
+        "h2: Advanced",
+        "h2: Frequently asked questions",
+        "h3: How long is a Squarespace subscription? Is there a discount for annual plans?",
+        "h3: Can I change or cancel my Squarespace plan later?",
+        "h3: Is there a free Squarespace plan?",
+        "h3: How long is the Squarespace free trial?",
+        "h3: Does Squarespace include a free domain?",
+        "h3: Is hosting included with Squarespace plans?",
+        "h3: Does Squarespace offer promo codes?",
+        "h3: Does Squarespace offer student discounts?",
+        "h3: Which Squarespace plans include ecommerce?",
+        "h3: How do I accept payments with Squarespace Payments?",
+        "h3: How much does it cost to process payments through Squarespace Payments?",
+        "h3: What payment options can I use to purchase a Squarespace subscription?",
+        "h2: 24/7 Support",
+        "h3: Help Center",
+        "h3: Webinars",
+        "h2: Start your free website trial today",
+        "h2: Products",
+        "h2: Solutions",
+        "h2: Resources",
+        "h2: From Squarespace",
+        "h2: Programs",
+        "h2: Support",
+        "h2: Company",
+        "h2: Follow"
+      ],
+      "ctas": [
+        "GET STARTED →",
+        "Is there a free Squarespace plan?",
+        "How long is the Squarespace free trial?",
+        "Does Squarespace include a free domain?",
+        "Free Tools",
+        "Contact Us",
+        "Facebook"
+      ],
+      "prices": [
+        "ites Free for 14 days. Pay annually to save up to 36%. Pay annually Pay monthly All plans include: Bu",
+        "ersonal or business website with the essentials. $19 /mo GET STARTED → Free custom domain* 2 contributors",
+        "uilt-in SEO & mobile-optimization Card rates from 2.9% + $0.30 AI credits 10 (one-time) 2% online store transact",
+        "rates from 2.9% + $0.30 AI credits 10 (one-time) 2% online store transaction fee Core Recommended St",
+        "elling with a foundation for service businesses. $29 /mo GET STARTED → Free custom domain* Unlimited cont",
+        "fees on online store transactions Card rates from 2.9% + $0.30 AI credits 20 / mo Advanced discount and promotio",
+        "er an expanding inventory and grow your revenue. $49 /mo GET STARTED → Free custom domain* Unlimited cont",
+        "fees on online store transactions Card rates from 2.7% + $0.30 AI credits 40 / mo Advanced discount and promotio",
+        "ale with the lowest fees to optimize operations. $99 /mo GET STARTED → Free custom domain* Unlimited cont",
+        "fees on online store transactions Card rates from 2.5% + $0.30 AI credits 120 / mo Advanced discount and promoti"
+      ],
+      "description": "Start a 14-day free trial with Squarespace today, no credit card required. Then pick the plan that works for your website.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Clarkson",
+            "body": "Clarkson",
+            "distinct": [
+              "Clarkson",
+              "Arial"
+            ]
+          },
+          "h1Px": 56,
+          "bodyPx": 15,
+          "bodyLineHeight": "12px",
+          "backgrounds": [
+            "#ffffff",
+            "#000000",
+            "#0072f0"
+          ],
+          "accents": [],
+          "textColor": "#898989",
+          "buttonRadius": "4px",
+          "buttonHeightPx": 60,
+          "images": 4,
+          "videos": 0,
+          "svgs": 395,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 4670,
+          "domNodes": 4249,
+          "domContentLoadedMs": 1040,
+          "loadMs": 1575
+        },
+        "merch": {
+          "planCards": 4,
+          "priceElements": 4,
+          "badges": [
+            "Recommended"
+          ],
+          "billingToggles": [
+            "Pay annually",
+            "Pay monthly"
+          ],
+          "tables": 1,
+          "promos": [
+            "Pay annually to save up to 36%.",
+            "Advanced discount and promotion tools",
+            "Advanced discount and promotion tools",
+            "Advanced discount and promotion tools",
+            "How long is a Squarespace subscription? Is there a discount for annual plans?",
+            "How long is the Squarespace free trial?"
+          ],
+          "links": 83
+        }
+      },
+      "mobileScreenshot": "shots/squarespace/step-2-mobile.webp"
+    },
+    {
+      "n": 3,
+      "kind": "product",
+      "title": "Grow your Business with an Online Store — Squarespace",
+      "url": "https://www.squarespace.com/online-stores",
+      "screenshot": "shots/squarespace/step-3.webp",
+      "textFile": "data/captures/squarespace/page-3.txt",
+      "elapsedMs": 21143,
+      "clicks": 0,
+      "via": "nav: Online Stores→",
+      "headings": [
+        "h1: Online stores designed to stand out",
+        "h2: Start with a website template designed to sell",
+        "h2: An online store worthy of your products and brand",
+        "h3: Customizable listing pages",
+        "h3: Mobile-friendly shopping",
+        "h3: Product reviews",
+        "h3: Unlimited products",
+        "h2: Easily manage your online store, no add-ons required",
+        "h3: Shipping and fulfillment",
+        "h3: Order management",
+        "h3: Payment and checkout",
+        "h3: Tax management",
+        "h2: Connect your store to the tools you use",
+        "h3: Third-party commerce extensions",
+        "h3: Invoicing for custom orders",
+        "h3: Flexible selling options",
+        "h2: Get paid easily",
+        "h3: Convenient ways to get paid",
+        "h3: Control your cash flow",
+        "h3: In-person payments, simplified",
+        "h2: Design and sell custom products",
+        "h3: Print-on-demand services",
+        "h3: No upfront costs",
+        "h2: Built to support businesses like you",
+        "h2: With access to tools to sell more products",
+        "h2: Frequently asked questions",
+        "h3: What is an online store?",
+        "h3: How can I start an online store?",
+        "h3: What products can I sell in my online store?",
+        "h3: Does Squarespace offer online store templates?",
+        "h3: What makes a good online store website?",
+        "h3: How can I accept payments for my Squarespace online store?",
+        "h3: How much does an online store with Squarespace cost?",
+        "h3: How can I promote my online store?",
+        "h2: 24/7 Support",
+        "h2: Start your free website trial today"
+      ],
+      "ctas": [
+        "GET STARTED →",
+        "GET STARTED",
+        "EXPLORE ECOMMERCE TOOLS →",
+        "EXPLORE STORE MANAGEMENT →",
+        "EXPLORE EXTENSIONS →",
+        "EXPLORE CUSTOM MERCH →",
+        "How can I start an online store?",
+        "Free Tools",
+        "Contact Us",
+        "Facebook"
+      ],
+      "prices": [
+        "Limited time offer 30% off all plans Ends Nov 23 → Online Stores Onli"
+      ],
+      "description": "Grow your business with Squarespace online stores. Learn more about building and promoting your online store using our award-winning online store templates.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Clarkson",
+            "body": "Clarkson",
+            "distinct": [
+              "Clarkson",
+              "sans-serif",
+              "Clarkson Serif"
+            ]
+          },
+          "h1Px": 72,
+          "bodyPx": 15,
+          "bodyLineHeight": "43.2px",
+          "backgrounds": [
+            "#ffffff",
+            "#000000",
+            "#242424",
+            "#0072f0"
+          ],
+          "accents": [],
+          "textColor": "#ffffff",
+          "buttonRadius": "4px",
+          "buttonHeightPx": 60,
+          "images": 67,
+          "videos": 10,
+          "svgs": 63,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 13800,
+          "domNodes": 2881,
+          "domContentLoadedMs": 451,
+          "loadMs": 463
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [
+            "Limited time offer",
+            "30% off all plans",
+            "No credit card required. Cancel anytime."
+          ],
+          "links": 110
+        }
+      }
+    },
+    {
+      "n": 4,
+      "kind": "platform",
+      "title": "Squarespace Engineering Blog",
+      "url": "https://engineering.squarespace.com/",
+      "screenshot": "shots/squarespace/step-4.webp",
+      "textFile": "data/captures/squarespace/page-4.txt",
+      "elapsedMs": 25963,
+      "clicks": 0,
+      "via": "nav: Developer BlogDeveloper Blog",
+      "headings": [
+        "h2: Stain the Page: How I Prototype with AI",
+        "h2: The Importance of Documentation in B2B API Adoption",
+        "h2: How To Use Standard HTML Video & Audio Lazy-Loading on the Web Today",
+        "h2: Squarespace & Web Standards: How We Helped Bring HTML Video & Audio Lazy Loading to Today’s Browsers",
+        "h2: Making Documentation Simpler and Practical: Our Docs-as-Code Journey",
+        "h2: Leveraging Change Data Capture For Database Migrations At Scale",
+        "h2: Unfold's Modern Mobile Release Process and the Subtle Art of Making Them Boring",
+        "h2: Why We Built a Write Back Cache for Our Asset Library with Google Cloud Spanner",
+        "h2: Outro: What You Did and What’s Next",
+        "h2: Part 4: Test, Edit, And Publish Content",
+        "h2: Part 3: Draft Content That’s Accurate, Consistent, And Concise",
+        "h2: Part 2: Use Good Headings For Structure And Scanning",
+        "h3: PRODUCTS",
+        "h3: COMPANY",
+        "h3: COMMUNITY",
+        "h3: FOLLOW"
+      ],
+      "ctas": [
+        "Contact Us",
+        "Facebook"
+      ],
+      "prices": [
+        "b do not read – they scan¹ . People actually read 25% slower on the web² and they only read 20% of the",
+        "ly read 25% slower on the web² and they only read 20% of the content on a page³. (This data is from 200"
+      ],
+      "description": "At Squarespace, our mission is to provide creative tools that help anyone bring their ideas to life. In this blog you'll learn about the ups and downs of our engineering endeavors.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": null,
+            "body": "Clarkson",
+            "distinct": [
+              "Clarkson",
+              "proxima-nova"
+            ]
+          },
+          "h1Px": null,
+          "bodyPx": 15,
+          "bodyLineHeight": "25.6px",
+          "backgrounds": [
+            "#f6f6f6",
+            "#ffffff"
+          ],
+          "accents": [],
+          "textColor": "#555555",
+          "buttonRadius": null,
+          "buttonHeightPx": null,
+          "images": 14,
+          "videos": 0,
+          "svgs": 18,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 4444,
+          "domNodes": 569,
+          "domContentLoadedMs": 423,
+          "loadMs": 747
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 70
+        }
+      }
+    },
+    {
+      "n": 5,
+      "kind": "solutions",
+      "title": "Finance Tools for Business: Payments, Checkout & Capital — Squarespace",
+      "url": "https://www.squarespace.com/financial-solutions",
+      "screenshot": "shots/squarespace/step-5.webp",
+      "textFile": "data/captures/squarespace/page-5.txt",
+      "elapsedMs": 31580,
+      "clicks": 0,
+      "via": "nav: Financial Solutions→",
+      "headings": [
+        "h1: Build and grow your business with Squarespace",
+        "h2: Sell and manage payments seamlessly",
+        "h3: Process payments",
+        "h3: Expand your audience",
+        "h3: Tailor your payments",
+        "h3: Optimize your checkout flow",
+        "h2: Your payments and business finances, all in one place",
+        "h3: The smarter way to manage your finances",
+        "h2: Invest in your growth",
+        "h3: Secure fast, flexible financing",
+        "h2: Run your business from anywhere",
+        "h3: Get paid instantly",
+        "h3: Manage your business on-the-go",
+        "h2: See how real customers grew with Squarespace",
+        "h2: A safe, secure platform for your finances",
+        "h2: Expert tips for managing your finances",
+        "h2: Frequently asked questions",
+        "h2: 24/7 Support",
+        "h2: Start your free website trial today"
+      ],
+      "ctas": [
+        "GET STARTED →",
+        "GET STARTED",
+        "EXPLORE PAYMENTS",
+        "EXPLORE BALANCE",
+        "EXPLORE CAPITAL",
+        "Free Tools",
+        "Contact Us",
+        "Facebook"
+      ],
+      "prices": [
+        "Limited time offer 30% off all plans Ends Nov 23 → Financial Solutions"
+      ],
+      "description": "Run and grow your business with Squarespace's integrated finance tools. Securely accept payments, get paid instantly, and access funding for your next project.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Clarkson",
+            "body": "Clarkson",
+            "distinct": [
+              "Clarkson",
+              "sans-serif",
+              "Clarkson Serif"
+            ]
+          },
+          "h1Px": 72,
+          "bodyPx": 15,
+          "bodyLineHeight": "43.2px",
+          "backgrounds": [
+            "#ffffff",
+            "#242424",
+            "#0072f0"
+          ],
+          "accents": [],
+          "textColor": "#ffffff",
+          "buttonRadius": "4px",
+          "buttonHeightPx": 60,
+          "images": 47,
+          "videos": 2,
+          "svgs": 62,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 9092,
+          "domNodes": 2673,
+          "domContentLoadedMs": 428,
+          "loadMs": 441
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [
+            "Limited time offer",
+            "30% off all plans",
+            "No credit card required. Cancel anytime."
+          ],
+          "links": 92
+        }
+      }
+    },
+    {
+      "n": 6,
+      "kind": "customers",
+      "title": "Squarespace Website Examples – Made with Squarespace — Squarespace",
+      "url": "https://www.squarespace.com/showcase",
+      "screenshot": "shots/squarespace/step-6.webp",
+      "textFile": "data/captures/squarespace/page-6.txt",
+      "elapsedMs": 37434,
+      "clicks": 0,
+      "via": "nav: Customer ExamplesCustomer Examples",
+      "headings": [
+        "h2: Websites made with Squarespace",
+        "h2: Start your free website trial today"
+      ],
+      "ctas": [
+        "GET STARTED →",
+        "Free Tools",
+        "Contact Us",
+        "Facebook"
+      ],
+      "prices": [
+        "Limited time offer 30% off all plans Ends Nov 23 → Websites made with S"
+      ],
+      "description": "Explore a collection of some of the most beautiful, functional, and inspirational websites built using Squarespace. This is a showcase of website examples built by real Squarespace customers.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": null,
+            "body": "Clarkson",
+            "distinct": [
+              "Clarkson",
+              "sans-serif",
+              "Clarkson Serif"
+            ]
+          },
+          "h1Px": null,
+          "bodyPx": 12,
+          "bodyLineHeight": "43.2px",
+          "backgrounds": [
+            "#000000",
+            "#ffffff",
+            "#242424",
+            "#0072f0"
+          ],
+          "accents": [],
+          "textColor": "#ffffff",
+          "buttonRadius": "4px",
+          "buttonHeightPx": 60,
+          "images": 91,
+          "videos": 2,
+          "svgs": 48,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 9661,
+          "domNodes": 3044,
+          "domContentLoadedMs": 467,
+          "loadMs": 480
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [
+            "Limited time offer",
+            "30% off all plans",
+            "No credit card required. Cancel anytime."
+          ],
+          "links": 170
+        }
+      }
+    },
+    {
+      "n": 7,
+      "kind": "company",
+      "title": "The Official Squarespace Newsroom",
+      "url": "https://newsroom.squarespace.com/",
+      "screenshot": "shots/squarespace/step-7.webp",
+      "textFile": "data/captures/squarespace/page-7.txt",
+      "elapsedMs": 41662,
+      "clicks": 0,
+      "via": "nav: NewsroomNewsroom",
+      "headings": [
+        "h1: THE OFFICIAL SQUARESPACE NEWSROOM",
+        "h1: Squarespace Releases Tools to Support Selling in Limited Releases and Drops"
+      ],
+      "ctas": [],
+      "prices": [],
+      "description": "Follow the latest Squarespace news and official communications from our Newsroom, including company announcements, product updates, and more.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Clarkson",
+            "body": "Clarkson",
+            "distinct": [
+              "Clarkson"
+            ]
+          },
+          "h1Px": 62,
+          "bodyPx": 15,
+          "bodyLineHeight": "24px",
+          "backgrounds": [
+            "#8a9791",
+            "#000000",
+            "#ffffff",
+            "#fefefe"
+          ],
+          "accents": [],
+          "textColor": "#ffffff",
+          "buttonRadius": null,
+          "buttonHeightPx": null,
+          "images": 24,
+          "videos": 0,
+          "svgs": 1,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 900,
+          "domNodes": 535,
+          "domContentLoadedMs": 415,
+          "loadMs": 520
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 6
+        }
+      }
+    },
+    {
+      "n": 8,
+      "kind": "resources",
+      "title": "Create a Blog – Easy-to-Use Blog Builder — Squarespace",
+      "url": "https://www.squarespace.com/websites/create-a-blog",
+      "screenshot": "shots/squarespace/step-8.webp",
+      "textFile": "data/captures/squarespace/page-8.txt",
+      "elapsedMs": 47106,
+      "clicks": 0,
+      "via": "nav: Blogs→",
+      "headings": [
+        "h1: Create a blog that stands out",
+        "h2: Start with a blog website template",
+        "h2: Powerful, flexible blogging tools for every subject",
+        "h3: Create, publish, and manage content",
+        "h3: Easy categorization and tagging for your posts",
+        "h3: Control your design with drag-and-drop website editing tools",
+        "h3: Draft on-brand copy with AI",
+        "h2: Features to reach the right audience",
+        "h3: Metrics to guide your blog strategy",
+        "h3: Marketing and SEO to promote your blog",
+        "h2: Monetize your content with selling tools",
+        "h2: How to build your blog",
+        "h2: Frequently asked questions",
+        "h2: 24/7 Support",
+        "h2: Start your free website trial today"
+      ],
+      "ctas": [
+        "GET STARTED →",
+        "GET STARTED",
+        "GET STARTED WITH AI →",
+        "Free Tools",
+        "Contact Us",
+        "Facebook"
+      ],
+      "prices": [
+        "Limited time offer 30% off all plans Ends Nov 23 → Blogging Platform"
+      ],
+      "description": "Create your own blog with flexible layouts, AI tools, and built-in analytics. Get started today with a professional blog template and a free Squarespace trial.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Clarkson",
+            "body": "Clarkson",
+            "distinct": [
+              "Clarkson",
+              "sans-serif",
+              "Clarkson Serif"
+            ]
+          },
+          "h1Px": 72,
+          "bodyPx": 15,
+          "bodyLineHeight": "43.2px",
+          "backgrounds": [
+            "#ffffff",
+            "#000000",
+            "#242424",
+            "#0072f0"
+          ],
+          "accents": [],
+          "textColor": "#ffffff",
+          "buttonRadius": "4px",
+          "buttonHeightPx": 60,
+          "images": 72,
+          "videos": 10,
+          "svgs": 73,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 8159,
+          "domNodes": 2907,
+          "domContentLoadedMs": 420,
+          "loadMs": 573
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [
+            "Limited time offer",
+            "30% off all plans",
+            "No credit card required. Cancel anytime."
+          ],
+          "links": 120
+        }
+      }
+    },
+    {
+      "n": 9,
+      "kind": "product",
+      "title": "Digital Marketing Tools - Email & Website Marketing — Squarespace",
+      "url": "https://www.squarespace.com/website-marketing",
+      "screenshot": "shots/squarespace/step-9.webp",
+      "textFile": "data/captures/squarespace/page-9.txt",
+      "elapsedMs": 52563,
+      "clicks": 0,
+      "via": "nav: Marketing Tools→",
+      "headings": [
+        "h1: Grow your audience",
+        "h2: Email campaigns",
+        "h2: Squarespace AI is your new marketing tool",
+        "h2: Unfold social media app",
+        "h2: Contacts",
+        "h2: Built-in SEO tools",
+        "h2: Social media integrations",
+        "h2: Banners and promotions",
+        "h2: Check analytics from anywhere."
+      ],
+      "ctas": [
+        "GET STARTED →",
+        "GET STARTED",
+        "LEARN MORE",
+        "START A FREE TRIAL",
+        "Free Tools",
+        "Contact Us",
+        "Facebook"
+      ],
+      "prices": [
+        "Limited time offer 30% off all plans Ends Nov 23 → MARKETING TOOLS Grow"
+      ],
+      "description": "Website marketing to reach and grow your audience. Engage your audience with our online marketing tools to enhance your social media, SEO, and grow your following.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Clarkson",
+            "body": "Clarkson",
+            "distinct": [
+              "Clarkson"
+            ]
+          },
+          "h1Px": 72,
+          "bodyPx": 22,
+          "bodyLineHeight": "43.2px",
+          "backgrounds": [
+            "#ffffff",
+            "#48423f",
+            "#242424",
+            "#0072f0"
+          ],
+          "accents": [],
+          "textColor": "#ffffff",
+          "buttonRadius": "4px",
+          "buttonHeightPx": 60,
+          "images": 104,
+          "videos": 2,
+          "svgs": 47,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 7401,
+          "domNodes": 2789,
+          "domContentLoadedMs": 516,
+          "loadMs": 524
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [
+            "Limited time offer",
+            "30% off all plans",
+            "START A FREE TRIAL"
+          ],
+          "links": 81
+        }
+      }
+    },
+    {
+      "n": 10,
+      "kind": "platform",
+      "title": "Squarespace Developer Platform: APIs, Apps, and Docs",
+      "url": "https://developers.squarespace.com/",
+      "screenshot": "shots/squarespace/step-10.webp",
+      "textFile": "data/captures/squarespace/page-10.txt",
+      "elapsedMs": 57704,
+      "clicks": 0,
+      "via": "nav: Developer PlatformDeveloper Platform",
+      "headings": [
+        "h1: Build on Squarespace",
+        "h2: WHAT CAN YOU BUILD ON SQUARESPACE?",
+        "h3: Integration, customization, or extension. Our docs can get you started, and the rest is up to you.",
+        "h2: WHAT APIS AND TOOLS DOES THE PLATFORM INCLUDE?",
+        "h3: Get deep control with Commerce APIs, Reseller APIs, and a reliable custom code spec.",
+        "h2: STAY IN THE LOOP",
+        "h3: Get notified about API updates, breaking changes, and new developer tools."
+      ],
+      "ctas": [
+        "START BUILDING",
+        "SIGN UP"
+      ],
+      "prices": [],
+      "description": "Build and publish apps on the Squarespace Developer Platform. Use Commerce APIs, webhooks, a custom code spec, and MCP support for Claude and ChatGPT.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Clarkson",
+            "body": "Clarkson",
+            "distinct": [
+              "Clarkson"
+            ]
+          },
+          "h1Px": 60,
+          "bodyPx": 16,
+          "bodyLineHeight": "24px",
+          "backgrounds": [
+            "#ffffff",
+            "#0e0e0e",
+            "#f2f2f2"
+          ],
+          "accents": [],
+          "textColor": "#0e0e0e",
+          "buttonRadius": "4px",
+          "buttonHeightPx": 72,
+          "images": 3,
+          "videos": 0,
+          "svgs": 3,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 2844,
+          "domNodes": 204,
+          "domContentLoadedMs": 924,
+          "loadMs": 924
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 18
+        }
+      }
+    },
+    {
+      "n": 11,
+      "kind": "solutions",
+      "title": "Creative Services Software: All-In-One Business Management Software — Squarespace",
+      "url": "https://www.squarespace.com/solutions/creative-services",
+      "screenshot": "shots/squarespace/step-11.webp",
+      "textFile": "data/captures/squarespace/page-11.txt",
+      "elapsedMs": 63133,
+      "clicks": 0,
+      "via": "nav: Creative Services",
+      "headings": [
+        "h1: Creative pros run their businesses on Squarespace",
+        "h2: One platform to streamline your creative projects",
+        "h2: Join millions of entrepreneurs who run their businesses on Squarespace",
+        "h2: Start with a website template for your creative business",
+        "h2: Explore tips, read stories, and get inspired",
+        "h3: 7 Portfolio Website Examples",
+        "h3: How to Optimize a Portfolio Website for SEO",
+        "h3: Client Intake Forms: Examples and Best Practices",
+        "h2: Frequently asked questions",
+        "h2: 24/7 Support",
+        "h2: Start your free website trial today"
+      ],
+      "ctas": [
+        "GET STARTED →",
+        "EXPLORE PORTFOLIO TOOLS →",
+        "GET STARTED WITH AI →",
+        "EXPLORE THE BLOG →",
+        "Free Tools",
+        "Contact Us",
+        "Facebook"
+      ],
+      "prices": [
+        "Limited time offer 30% off all plans Ends Nov 23 → Creative Services Cr",
+        "8 9 0 1 2 3 4 5 6 7 8 9 M+ Entrepreneurs Served $ 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 B+ Earned"
+      ],
+      "description": "Manage your creative services business with an all-in-one solution for online booking, client management, and payments from Squarespace. Explore our full suite of features and start a free website trial today.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Clarkson",
+            "body": "Clarkson",
+            "distinct": [
+              "Clarkson",
+              "sans-serif"
+            ]
+          },
+          "h1Px": 64,
+          "bodyPx": 20,
+          "bodyLineHeight": "43.2px",
+          "backgrounds": [
+            "#ffffff",
+            "#242424",
+            "#000000",
+            "#0072f0"
+          ],
+          "accents": [],
+          "textColor": "#ffffff",
+          "buttonRadius": "4px",
+          "buttonHeightPx": 60,
+          "images": 72,
+          "videos": 5,
+          "svgs": 79,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 7712,
+          "domNodes": 2943,
+          "domContentLoadedMs": 420,
+          "loadMs": 463
+        },
+        "merch": {
+          "planCards": 3,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [
+            "Limited time offer",
+            "30% off all plans",
+            "Start for free. No credit card required.",
+            "No credit card required. Cancel anytime."
+          ],
+          "links": 112
+        }
+      }
+    },
+    {
+      "n": 12,
+      "kind": "product",
+      "title": "Email Marketing Tools & Templates — Squarespace",
+      "url": "https://www.squarespace.com/email-marketing",
+      "screenshot": "shots/squarespace/step-12.webp",
+      "textFile": "data/captures/squarespace/page-12.txt",
+      "elapsedMs": 68786,
+      "clicks": 0,
+      "via": "nav: Email Campaigns→",
+      "headings": [
+        "h1: Effortless email marketing to grow your business",
+        "h2: Beautiful, on-brand emails that get results",
+        "h3: Easy, intuitive editing",
+        "h3: AI email copy",
+        "h3: Real-time analytics",
+        "h3: On-brand designs",
+        "h2: Grow your list and turn emails into engagement",
+        "h3: Contact list management",
+        "h3: Smart segmentation",
+        "h3: Custom email capture",
+        "h3: Ecommerce tools",
+        "h2: Save time and streamline with automations",
+        "h3: Visual automation builder",
+        "h3: Personalized communication",
+        "h3: Pre-built automations",
+        "h3: All-in-one platform",
+        "h2: Email marketing that grows with you",
+        "h2: Start with a best-in-class, customizable email template",
+        "h2: Emails campaigns that service your entire business",
+        "h2: Frequently asked questions",
+        "h3: What is Squarespace Email Campaigns?",
+        "h3: How much does Squarespace Email Campaigns cost?",
+        "h3: I’m already using an email marketing service. How do I switch?",
+        "h3: How do I create an email campaign on Squarespace?",
+        "h3: What is email marketing?",
+        "h3: How do I start an email list for my business?",
+        "h3: Do I need a Squarespace website to use Squarespace Email Campaigns?",
+        "h3: How do I use Squarespace Domains with Squarespace Email Campaigns?",
+        "h2: 24/7 Support",
+        "h2: Start your free website trial today"
+      ],
+      "ctas": [
+        "TRY CAMPAIGNS →",
+        "TRY CAMPAIGNS",
+        "Contacts",
+        "Free Tools",
+        "Contact Us",
+        "Facebook"
+      ],
+      "prices": [
+        "Limited time offer 30% off all plans Ends Nov 23 → Email Campaigns Ef",
+        "downgrade at any time. Pay annually (save up to 30%) Pay monthly From $8/mo Send up to 500 emails",
+        "Pay annually (save up to 30%) Pay monthly From $8/mo Send up to 500 emails each month 500 500K TRY"
+      ],
+      "description": "Grow your audience with email marketing tools. Create a mailing list and start with easy-to-edit email and newsletter templates with Squarespace Email Campaigns.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Clarkson",
+            "body": "Clarkson",
+            "distinct": [
+              "Clarkson",
+              "sans-serif",
+              "Clarkson Serif"
+            ]
+          },
+          "h1Px": 72,
+          "bodyPx": 15,
+          "bodyLineHeight": "43.2px",
+          "backgrounds": [
+            "#ffffff",
+            "#000000",
+            "#242424",
+            "#0072f0"
+          ],
+          "accents": [],
+          "textColor": "#ffffff",
+          "buttonRadius": "4px",
+          "buttonHeightPx": 60,
+          "images": 70,
+          "videos": 7,
+          "svgs": 71,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 12191,
+          "domNodes": 2937,
+          "domContentLoadedMs": 429,
+          "loadMs": 439
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 1,
+          "badges": [],
+          "billingToggles": [
+            "Pay annually (save up to 30%)",
+            "Pay monthly"
+          ],
+          "tables": 0,
+          "promos": [
+            "Limited time offer",
+            "30% off all plans",
+            "Use premade automated emails to welcome new subscribers, send them a discount to increase sales, win back abandoned carts, and more.",
+            "(save up to 30%)",
+            "Ability to easily add customized discount codes",
+            "Send discounts"
+          ],
+          "links": 88
+        }
+      }
+    },
+    {
+      "n": 13,
+      "kind": "product",
+      "title": "SMS Marketing: Text Marketing for Small Business — Squarespace",
+      "url": "https://www.squarespace.com/sms-marketing",
+      "screenshot": "shots/squarespace/step-13.webp",
+      "textFile": "data/captures/squarespace/page-13.txt",
+      "elapsedMs": 74136,
+      "clicks": 0,
+      "via": "nav: SMS Campaigns→",
+      "headings": [
+        "h1: Grow your business one text at a time",
+        "h2: Marketing your customers won't ignore",
+        "h2: Compliance made easy",
+        "h2: Where you already run your business",
+        "h2: Reach your customers right where they are",
+        "h3: Easy-to-use message composer",
+        "h3: Transparent credit system",
+        "h3: Organized contact management",
+        "h3: Real-time analytics",
+        "h2: Built-in compliance",
+        "h2: Flexible plan options to meet your business needs",
+        "h2: More tools to streamline your marketing operation",
+        "h2: Frequently asked questions",
+        "h3: What is Squarespace SMS Campaigns?",
+        "h3: Who can send SMS Campaigns?",
+        "h3: Who can receive SMS Campaigns?",
+        "h3: How much does Squarespace SMS Campaigns cost?",
+        "h3: What are SMS credits and how do they work?",
+        "h3: Do I need to verify my business before I can send SMS campaigns?",
+        "h3: What types of businesses can't use SMS Campaigns?",
+        "h3: How do I collect SMS subscribers?",
+        "h3: Are there any rules about when I can send SMS campaigns?",
+        "h3: Can I schedule SMS campaigns in advance?",
+        "h3: Can I use SMS Campaigns alongside Email Campaigns?"
+      ],
+      "ctas": [
+        "GET STARTED →",
+        "GET STARTED",
+        "Free Tools",
+        "Contact Us",
+        "Facebook"
+      ],
+      "prices": [
+        "Limited time offer 30% off all plans Ends Nov 23 → SMS Campaigns Grow y",
+        "ET STARTED Marketing your customers won't ignore 90% of SMS messages are read within 3 minutes of deli",
+        "ecipient count, not per send. From Recommended $20/mo 500 SMS credits per month GET STARTED → Also"
+      ],
+      "description": "Grow your business with SMS marketing that makes it easy to create text campaigns and reach customers. Get started with a free website trial today.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Clarkson",
+            "body": "Clarkson",
+            "distinct": [
+              "Clarkson",
+              "sans-serif"
+            ]
+          },
+          "h1Px": 72,
+          "bodyPx": 15,
+          "bodyLineHeight": "43.2px",
+          "backgrounds": [
+            "#000000",
+            "#242424",
+            "#ffffff",
+            "#0072f0"
+          ],
+          "accents": [],
+          "textColor": "#ffffff",
+          "buttonRadius": "4px",
+          "buttonHeightPx": 60,
+          "images": 47,
+          "videos": 2,
+          "svgs": 76,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 7002,
+          "domNodes": 2619,
+          "domContentLoadedMs": 436,
+          "loadMs": 446
+        },
+        "merch": {
+          "planCards": 1,
+          "priceElements": 1,
+          "badges": [
+            "Recommended"
+          ],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [
+            "Limited time offer",
+            "30% off all plans"
+          ],
+          "links": 90
+        }
+      }
+    }
+  ],
+  "navMap": [
+    {
+      "label": "Preise",
+      "href": "https://www.squarespace.com/preise",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Get started→",
+      "href": "https://www.squarespace.com/templates/get-started",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Websites→",
+      "href": "https://www.squarespace.com/website-design",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Website Templates→",
+      "href": "https://www.squarespace.com/templates",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "AI Website Builder→",
+      "href": "https://www.squarespace.com/websites/ai-website-builder",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Ecommerce→",
+      "href": "https://www.squarespace.com/ecommerce-website",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Portfolios→",
+      "href": "https://www.squarespace.com/websites/create-a-portfolio",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Blogs→",
+      "href": "https://www.squarespace.com/websites/create-a-blog",
+      "area": "header",
+      "kind": "resources"
+    },
+    {
+      "label": "Analytics→",
+      "href": "https://www.squarespace.com/websites/analytics",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Services→",
+      "href": "https://www.squarespace.com/services",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Online Stores→",
+      "href": "https://www.squarespace.com/online-stores",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Invoicing→",
+      "href": "https://www.squarespace.com/invoicing",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Scheduling→",
+      "href": "https://www.squarespace.com/scheduling",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Limited Releases→",
+      "href": "https://www.squarespace.com/ecommerce/limited-release-selling",
+      "area": "header",
+      "kind": "resources"
+    },
+    {
+      "label": "Content & Memberships→",
+      "href": "https://www.squarespace.com/content",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Donations→",
+      "href": "https://www.squarespace.com/donations",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Financial Solutions→",
+      "href": "https://www.squarespace.com/financial-solutions",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "Marketing Tools→",
+      "href": "https://www.squarespace.com/website-marketing",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Email Campaigns→",
+      "href": "https://www.squarespace.com/email-marketing",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "SMS Campaigns→",
+      "href": "https://www.squarespace.com/sms-marketing",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "SEO Tools→",
+      "href": "https://www.squarespace.com/marketing/seo",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "AI Visibility→",
+      "href": "https://www.squarespace.com/ai-visibility",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Free Tools→",
+      "href": "https://www.squarespace.com/tools",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Domain Search→",
+      "href": "https://domains.squarespace.com/",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Domain Transfer→",
+      "href": "https://domains.squarespace.com/transfer-a-domain",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Business Email→",
+      "href": "https://www.squarespace.com/professional-email",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "View All Features→",
+      "href": "https://www.squarespace.com/feature-index",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Creative Services",
+      "href": "https://www.squarespace.com/solutions/creative-services",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "Professional Services",
+      "href": "https://www.squarespace.com/solutions/professional-services",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "Education & Training",
+      "href": "https://www.squarespace.com/solutions/education",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "Beauty",
+      "href": "https://www.squarespace.com/solutions/beauty",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "Sports & Fitness",
+      "href": "https://www.squarespace.com/solutions/sports",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "Health & Wellness",
+      "href": "https://www.squarespace.com/solutions/health",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "Home Services",
+      "href": "https://www.squarespace.com/solutions/home-services",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "Events & Experiences",
+      "href": "https://www.squarespace.com/solutions/events",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "Charities & Nonprofits",
+      "href": "https://www.squarespace.com/solutions/nonprofits",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "Personal",
+      "href": "https://www.squarespace.com/solutions/personal",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "Photographers",
+      "href": "https://www.squarespace.com/solutions/creative-services/photographers",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "Graphic Designers",
+      "href": "https://www.squarespace.com/solutions/creative-services/graphic-designers",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "Artists",
+      "href": "https://www.squarespace.com/solutions/creative-services/artists",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "Interior Designers",
+      "href": "https://www.squarespace.com/solutions/creative-services/interior-designers",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "Architects",
+      "href": "https://www.squarespace.com/solutions/creative-services/architects",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "Fashion & Apparel",
+      "href": "https://www.squarespace.com/solutions/creative-services/fashion-apparel",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "Consultants",
+      "href": "https://www.squarespace.com/solutions/professional-services/consultants",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "Professional Coaches",
+      "href": "https://www.squarespace.com/solutions/professional-services/professional-coaches",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "Real Estate Agents",
+      "href": "https://www.squarespace.com/solutions/professional-services/real-estate-agents",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "Marketing Agencies",
+      "href": "https://www.squarespace.com/solutions/professional-services/marketing-agencies",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Tech & IT Services",
+      "href": "https://www.squarespace.com/solutions/professional-services/tech-it-services",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "Exam Prep Tutors",
+      "href": "https://www.squarespace.com/solutions/education/exam-prep-tutors",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "Music Teachers",
+      "href": "https://www.squarespace.com/solutions/education/music-teachers",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "Art Instruction",
+      "href": "https://www.squarespace.com/solutions/education/art-instruction",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "Dance Schools",
+      "href": "https://www.squarespace.com/solutions/education/dance-schools",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "Vocational Training",
+      "href": "https://www.squarespace.com/solutions/education/vocational-training",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "Hair Salons",
+      "href": "https://www.squarespace.com/solutions/beauty/hair-salons",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "Barbershops",
+      "href": "https://www.squarespace.com/solutions/beauty/barbershops",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "Nail Studios",
+      "href": "https://www.squarespace.com/solutions/beauty/nail-studios",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "Tattoos & Piercings",
+      "href": "https://www.squarespace.com/solutions/beauty/tattoos-piercings",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "Makeup Artists",
+      "href": "https://www.squarespace.com/solutions/beauty/makeup-artists",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "Jewelry Makers",
+      "href": "https://www.squarespace.com/solutions/beauty/jewelry-makers",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "Sports Coaches",
+      "href": "https://www.squarespace.com/solutions/sports/sports-coaches",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "Sporting Goods",
+      "href": "https://www.squarespace.com/solutions/sports/sporting-goods",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "Fitness Centers",
+      "href": "https://www.squarespace.com/solutions/sports/fitness-centers",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "Sports Camps",
+      "href": "https://www.squarespace.com/solutions/sports/sports-camps",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "Personal Trainers",
+      "href": "https://www.squarespace.com/solutions/sports/personal-trainers",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "Yoga Studios",
+      "href": "https://www.squarespace.com/solutions/sports/yoga-studios",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "Massage Therapists",
+      "href": "https://www.squarespace.com/solutions/health/massage-therapists",
+      "area": "header",
+      "kind": "platform"
+    },
+    {
+      "label": "Acupuncturists",
+      "href": "https://www.squarespace.com/solutions/health/acupuncturists",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "Wellness Retreats",
+      "href": "https://www.squarespace.com/solutions/health/wellness-retreats",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "Recovery Centers",
+      "href": "https://www.squarespace.com/solutions/health/recovery-centers",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "Nutritionists",
+      "href": "https://www.squarespace.com/solutions/health/nutritionists",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "Medspas",
+      "href": "https://www.squarespace.com/solutions/health/medspas",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "Contractors",
+      "href": "https://www.squarespace.com/solutions/home-services/contractors",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "Home Decor",
+      "href": "https://www.squarespace.com/solutions/home-services/home-decor",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "Landscapers",
+      "href": "https://www.squarespace.com/solutions/home-services/landscapers",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "Cleaning Services",
+      "href": "https://www.squarespace.com/solutions/home-services/cleaning-services",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "Pet Care",
+      "href": "https://www.squarespace.com/solutions/home-services/pet-care",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "Auto Repair",
+      "href": "https://www.squarespace.com/solutions/home-services/auto-repair",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "Travel Agencies",
+      "href": "https://www.squarespace.com/solutions/events/travel-agencies",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "Camps",
+      "href": "https://www.squarespace.com/solutions/events/camps",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "Activities",
+      "href": "https://www.squarespace.com/solutions/events/activities",
+      "area": "header",
+      "kind": "solutions"
+    }
+  ],
+  "stack": {
+    "generator": null,
+    "scriptHosts": [
+      "s.pinimg.com",
+      "bzrcdn.openai.com",
+      "d34r8q7sht0t9k.cloudfront.net",
+      "pixel.byspotify.com",
+      "cdn.mgln.ai",
+      "c.hrzn-nxt.com",
+      "utt.impactcdn.com",
+      "connect.facebook.net",
+      "c.amazon-adsystem.com",
+      "p.teads.tv",
+      "www.redditstatic.com",
+      "bat.bing.com",
+      "www.squarespace.com",
+      "www.googletagmanager.com"
+    ],
+    "signals": [
+      "Google Tag Manager dataLayer"
+    ],
+    "server": "Squarespace",
+    "poweredBy": null
+  },
+  "sources": [
+    "https://www.squarespace.com"
+  ],
+  "dossier": {
+    "sections": [
+      {
+        "id": "positioning",
+        "title": "Positioning",
+        "summary": "Squarespace sells the website as the foundation of a small business: one product for presence, selling, booking, invoicing and content, wrapped in design credibility.",
+        "keyPoints": [
+          "Homepage: 'A website makes it real', with 'Start for free. No credit card required.'",
+          "The jobs listed on the home page are offering services, selling products, invoicing clients, getting booked, collecting donations, monetizing content and showcasing work.",
+          "A banner offers 30% off all plans and says when it ends (Nov 23)."
+        ]
+      },
+      {
+        "id": "offerings",
+        "title": "Products and offerings",
+        "summary": "A website builder at the center, with commerce, marketing and business tools attached.",
+        "keyPoints": [],
+        "table": {
+          "columns": [
+            "Product",
+            "What it does"
+          ],
+          "rows": [
+            [
+              "Websites and templates",
+              "Template-based sites, plus an AI website builder"
+            ],
+            [
+              "Online stores",
+              "Unlimited products, customizable listing pages, product reviews, shipping and order management"
+            ],
+            [
+              "Marketing tools",
+              "Email and SMS campaigns, SEO tools, banners and promotions, analytics"
+            ],
+            [
+              "Business tools",
+              "Scheduling, invoicing, donations, memberships and business email"
+            ],
+            [
+              "Financial solutions",
+              "Squarespace Payments and financing"
+            ],
+            [
+              "Limited releases and drops",
+              "Tools for selling merchandise drops and exclusive bookings"
+            ]
+          ]
+        },
+        "gaps": [
+          "Unfold, the social app, and the free tools were not opened."
+        ]
+      },
+      {
+        "id": "pricing",
+        "title": "Pricing",
+        "summary": "Four monthly plans with a 14-day free trial and an annual-billing saving. Transaction fees drop to zero on the second plan, and card rates fall as the plan rises.",
+        "keyPoints": [
+          "The pricing page says free for 14 days and that paying annually saves up to 36%.",
+          "All plans include built-in AI tools, secure hosting, unlimited bandwidth and selling functionality.",
+          "Basic charges a 2% online store transaction fee; Core and above charge none.",
+          "AI credits scale by plan: 10 one-time on Basic, then 20, 40 and 120 a month."
+        ],
+        "table": {
+          "columns": [
+            "Plan",
+            "Price a month",
+            "Card rate",
+            "Notable additions"
+          ],
+          "rows": [
+            [
+              "Basic",
+              "$19",
+              "2.9% + $0.30",
+              "Free custom domain, 2 contributors, 2% online store fee"
+            ],
+            [
+              "Core (recommended)",
+              "$29",
+              "2.9% + $0.30",
+              "No store fees, advanced discount and promotion tools, advanced lead capture, automated taxes and shipping, free year of Google Workspace email"
+            ],
+            [
+              "Plus",
+              "$49",
+              "2.7% + $0.30",
+              "Reserved cart and countdown timer"
+            ],
+            [
+              "Advanced",
+              "$99",
+              "2.5% + $0.30",
+              "Lowest fees, high-traffic checkout, 120 AI credits a month"
+            ]
+          ]
+        },
+        "gaps": [
+          "Prices shown are annual-billing prices; monthly-billing prices were not captured as text."
+        ]
+      },
+      {
+        "id": "merchandising",
+        "title": "Merchandising",
+        "summary": "A plan ladder organised around selling features, with a recommended middle plan and an urgency banner. Merchants get unusually direct merchandising tools, including a reserved cart and countdown timer.",
+        "keyPoints": [
+          "Core is tagged recommended and is where store transaction fees disappear and discount tools unlock.",
+          "A pay-annually toggle, a 'save up to 36%' line and a 30% off banner with an end date push toward annual billing.",
+          "For merchants: advanced discount and promotion tools, banners and promotions, a reserved cart with countdown timer, customizable listing pages, product reviews and limited-release tools.",
+          "Marketing tools sit in the same product: email campaigns, SMS campaigns with a credit system, SEO and social integrations."
+        ]
+      },
+      {
+        "id": "platform",
+        "title": "Technical platform",
+        "summary": "A developer site offers Commerce APIs, Reseller APIs and a custom-code spec, plus an engineering blog. It is thinner than the developer sites of the payments and subscription companies in this survey.",
+        "keyPoints": [
+          "Developer page: 'Everything you need to build and publish external apps — reliable APIs, clear documentation, and a marketplace.'",
+          "It names Commerce APIs, Reseller APIs and a reliable custom code spec, with notifications for API updates and breaking changes.",
+          "The engineering blog covers docs-as-code, a write-back cache on Google Cloud Spanner and browser standards work."
+        ],
+        "gaps": [
+          "API reference, rate limits and the marketplace were not opened."
+        ]
+      },
+      {
+        "id": "design",
+        "title": "Design",
+        "summary": "Design is the product. Full-bleed photography and short, large headlines on a black-and-white system with one blue, shown through live templates.",
+        "keyPoints": [
+          "One typeface (Clarkson) runs across the home page, pricing and developer site, with 4px button corners and a sticky header.",
+          "Home opens on a full-bleed photograph with a centered white headline and one white button.",
+          "Pricing is plain: a white page, a pay-annually toggle and four cards, with a blue 'Recommended' tag on Core (#0072f0).",
+          "The home page is 7,826px tall and carries 12 videos.",
+          "For merchants: templates designed to sell, an AI builder, customizable listing pages and drag-and-drop editing."
+        ],
+        "gaps": [
+          "Mobile and dark mode were not assessed."
+        ]
+      },
+      {
+        "id": "company",
+        "title": "Company presentation",
+        "summary": "A creative-economy story told through templates, customer websites and product news, rather than metrics.",
+        "keyPoints": [
+          "Home: 'Join millions of entrepreneurs who run their business on Squarespace.'",
+          "The showcase page lists customer websites with no stories or numbers.",
+          "The newsroom leads with tools for selling limited releases and drops."
+        ],
+        "gaps": [
+          "No leadership information in the surveyed pages."
+        ]
+      }
+    ]
+  },
+  "signupPath": "On the first survey run, 'GET STARTED' on the homepage led to squarespace.com/templates/get-started, a page headed 'What's your site about?' with a topic search, popular topics (Photography, Design, Education, Consulting, Art and more), 'I'M JUST BROWSING' and a NEXT button. It asked for no account details at that step. In later runs the same button did not lead to a new page, so that one observation is not reproduced in the saved capture. Nothing was entered.",
+  "scores": {
+    "jtbd_fit": {
+      "score": 4,
+      "evidence": "The homepage lists eight jobs from selling products to getting booked.",
+      "step": 1
+    },
+    "capability_visible": {
+      "score": 4,
+      "evidence": "Templates, plan comparisons and feature pages show a lot; the editor itself is behind signup.",
+      "step": 3
+    },
+    "pricing_transparency": {
+      "score": 4,
+      "evidence": "Four plans with prices, card rates, transaction fee and AI credits; monthly-billing prices not captured as text.",
+      "step": 2
+    },
+    "product_breadth": {
+      "score": 4,
+      "evidence": "Websites, stores, marketing, scheduling, invoicing, donations and finance each have their own page.",
+      "step": 3
+    },
+    "platform_depth": {
+      "score": 3,
+      "evidence": "Commerce and Reseller APIs and a custom-code spec exist, but the developer site is short.",
+      "step": 10
+    },
+    "time_to_value": {
+      "score": null,
+      "evidence": "Capture stops before the product; first-value time was not observed.",
+      "step": null
+    },
+    "friction": {
+      "score": null,
+      "evidence": "The surveyed pages could not tell.",
+      "step": null
+    },
+    "trust": {
+      "score": 3,
+      "evidence": "'Millions of entrepreneurs' and a list of customer sites, with no numbers or stories.",
+      "step": 6
+    },
+    "mobile": {
+      "score": null,
+      "evidence": "Phone captures exist for home and pricing but were not assessed.",
+      "step": null
+    },
+    "states": {
+      "score": null,
+      "evidence": "No error or empty states reached.",
+      "step": null
+    },
+    "a11y_basics": {
+      "score": null,
+      "evidence": "Not tested.",
+      "step": null
+    },
+    "value_prop_clarity": {
+      "score": 4,
+      "evidence": "'A website makes it real' is brief and the subhead and job list explain it.",
+      "step": 1
+    },
+    "proof_quality": {
+      "score": 3,
+      "evidence": "Scale is stated without a figure shown in text; an SMS stat carries a footnote.",
+      "step": 1
+    },
+    "persuasion_integrity": {
+      "score": 3,
+      "evidence": "A 30% off banner states its end date, but the product also sells a countdown timer to merchants.",
+      "step": 1
+    },
+    "cta_logic": {
+      "score": 4,
+      "evidence": "'GET STARTED' is the one repeated action across pages.",
+      "step": 1
+    },
+    "company_narrative": {
+      "score": 3,
+      "evidence": "The hero is generic; the newsroom story (limited releases) is more specific than the homepage.",
+      "step": 7
+    },
+    "offer_packaging": {
+      "score": 5,
+      "evidence": "Four plans with a recommended tag, an annual toggle and a clear feature ladder.",
+      "step": 2
+    },
+    "offer_architecture": {
+      "score": 5,
+      "evidence": "Free trial, annual discount, a limited-time sale, falling card rates and transaction fees that vanish at Core.",
+      "step": 2
+    },
+    "merchant_merch_tools": {
+      "score": 5,
+      "evidence": "Discounts, banners, reserved cart and countdown timer, reviews, listing pages and drops tooling.",
+      "step": 2
+    },
+    "visual_craft": {
+      "score": 4,
+      "evidence": "Strong photography and restrained typography; the hero is image-heavy with little product detail.",
+      "step": 1
+    },
+    "system_coherence": {
+      "score": 4,
+      "evidence": "Same typeface, button shape and header across marketing, pricing and the developer site.",
+      "step": 10
+    },
+    "merchant_design_control": {
+      "score": 5,
+      "evidence": "Templates built to sell, an AI builder and customizable listing pages are the core product.",
+      "step": 3
+    }
+  },
+  "read": {
+    "summary": "A design-led site builder with a very clear plan ladder tied to selling features, an urgency banner and, unusually, merchandising tools that include a reserved cart and countdown timer. The platform story is thin and the proof is generic.",
+    "pros": [
+      "Plan table shows price, card rate, transaction fee and AI credits side by side.",
+      "Transaction fees disappear on the recommended plan, which gives a reason to choose it.",
+      "Consistent type, buttons and header across marketing and developer pages.",
+      "Merchants get discounting, reserved-cart and drop tools."
+    ],
+    "cons": [
+      "Proof is thin: 'millions of entrepreneurs' and a list of sites.",
+      "The developer platform is short next to the payment and subscription sites.",
+      "The countdown-timer tool and the sale banner both use urgency.",
+      "Two of the surveyed pages returned rate-limit errors on the first run."
+    ],
+    "howItSells": "Sells craft and ease: a beautiful site in minutes, with a free trial and no card. Backs it with a clear plan ladder and a time-limited discount.",
+    "copy": [
+      "Tie plan upgrades to specific selling features.",
+      "State a sale's end date in the banner.",
+      "Use one typeface and button shape on every page."
+    ],
+    "avoid": [
+      "Generic proof statements with no figures.",
+      "Urgency on both the offer and the merchant tools."
+    ],
+    "tactics": [
+      "scarcity",
+      "anchoring",
+      "social_proof"
+    ],
+    "confidence": "medium",
+    "unknowns": [
+      "What the account creation flow asks.",
+      "Monthly-billing prices as text.",
+      "The editor itself.",
+      "Mobile experience."
+    ],
+    "hypothesis": {
+      "statement": "Adding two named customer stories with revenue or booking figures to the pricing page will lift plan starts among visitors who compare plans.",
+      "metric": "Pricing-page plan-start rate",
+      "guardrail": "Trial-to-paid conversion",
+      "decisionRule": "Ship if plan starts rise by a pre-agreed margin and trial-to-paid holds over four weeks."
+    },
+    "subjects": {
+      "merchandising": {
+        "summary": "The most sales-feature-driven ladder so far, with tools that let merchants run drops, countdowns and discounts.",
+        "pros": [
+          "Recommended plan is where store fees vanish.",
+          "Annual toggle and save line are above the cards.",
+          "Merchants get a countdown timer and reserved cart."
+        ],
+        "cons": [
+          "Sale banner and countdown tooling lean on urgency.",
+          "Monthly prices were not shown in the text."
+        ]
+      },
+      "design": {
+        "summary": "Design is the product and the site demonstrates it, with good consistency across marketing and developer pages.",
+        "pros": [
+          "Full-bleed photography and short headlines look premium.",
+          "The same typeface and button shape run through every page."
+        ],
+        "cons": [
+          "The hero shows little of the product.",
+          "The engineering blog uses a different style from the main site."
+        ]
+      }
+    }
+  },
+  "claims": [
+    {
+      "text": "Free for 14 days. Pay annually to save up to 36%.",
+      "verdict": "plausible",
+      "step": 2,
+      "evidenceStep": 2
+    },
+    {
+      "text": "Start for free. No credit card required.",
+      "verdict": "plausible",
+      "step": 1,
+      "evidenceStep": null
+    },
+    {
+      "text": "30% off all plans",
+      "verdict": "proven",
+      "step": 1,
+      "evidenceStep": null
+    }
+  ],
+  "focus": "start trial to template chosen; plan selection; generate site flow"
+}

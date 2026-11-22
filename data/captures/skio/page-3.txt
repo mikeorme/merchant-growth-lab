@@ -1,0 +1,239 @@
+URL: https://skio.com/case-studies
+TITLE: case studies | skio
+DESCRIPTION: Brands like Grüns, IM8, and Dose Daily partner with Skio to cut churn, boost LTV, and build experiences subscribers actually stick around for. See why 1,000+ Shopify brands made the move.
+
+Customer Stories
+
+Built the way Shopify intended. Trusted by DTC brands like Everyday Dose,  Magic Mind, and Grüns to reduce churn, boost retention, and actually scale.
+
+Instant Hydration Hit 58% Subscription Revenue in One Quarter with Skio
+
+In less than 90 days with Skio, they transformed from zero recurring revenue to subscription-first business.
+
+Just Ingredients Turned Their Cancel Button Into a Retention Engine with Skio
+
+Kitsch Cut Churn in Half and Doubled Subscribers with Skio
+
+Find out what makes Skio great
+
+All
+Health & Wellness
+Food & Beverage
+Supplements
+Self-Care / Grooming
+Lifestyle
+Beauty & Skincare
+
+Nature's Roots Grew Subscribers 12.5x and Made Saves Stick with Skio
+
+How Nature's Roots used Skio's cancel flow A/B testing to turn short-lived saves into subscribers who stick around, while growing active subscribers from 1,465 to 18,386.
+
+read their story
+
+Health & Wellness
+
+Tuft & Paw More Than Doubled Their Save Rate with Skio's Cancel Flow A/B Testing
+
+How Tuft + Paw used Cancel Flow A/B Testing to more than double their food save rate, starting with the simplest test they could run.
+
+read their story
+
+Purity Coffee Fixed Loyalty Friction and Doubled Redemptions with Skio
+
+Purity Coffee's subscribers are 77% of orders but rarely used their points on Smile. Moving loyalty into the Skio subscription portal nearly doubled redemption orders in 77 days.
+
+read their story
+
+Food & Beverage
+
+Pure TheraPro Rx and ISACC Media Quadrupled Save Rate on Skio's Cancel Flow
+
+After ISACC Media rebuilt Pure TheraPro Rx's Cancel Flow on Skio, save rate climbed from 1.90% to 7.10% in one quarter. The Splash Screen alone saves 37.93%.
+
+read their story
+
+Supplements
+
+Transparent Labs Scaled Retention into a Compounding Growth Engine with Skio
+
+Transparent Labs partnered with Skio to turn retention from a reactive function into a compounding growth engine. Through fast iteration cycles, Skio's flexible portal, and a multi-surface retention strategy spanning cancel flows, email, SMS, and storefront UX, the team drove a ~4-5x lift in save rate from baseline, with breakout quarters delivering +8-10 point gains. Today, retention performance sits consistently above industry benchmarks and reinforces growth as the program scales.
+
+read their story
+
+Supplements
+
+Wellbel Kept Their Full Subscriber History Migrating to Skio with HAM
+
+Wellbel migrated to Skio without losing a single subscriber record, preserving years of retention history that previous platform moves had wiped out. With HAM layered on top, the team replaced 10+ spreadsheets with automated forecasting and surfaces retention drivers 90% faster.
+
+read their story
+
+Health & Wellness
+
+"I and love and you" Grew Subscription Revenue 25.6% YoY with Skio and Softlimit
+
+When the funnel leak is at the top, retention tools can only do so much. "I and love and you" brought in Softlimit to trace the real problem to the product detail page, then used Skio to fix the full funnel from first click to cancel flow. The result: 25.6% more revenue, 20.7% more GMV, and 8,846 additional orders year over year.
+
+read their story
+
+Ancestral Supplements Won Back 22% More Cancelled Subscribers with Paper Run and Skio
+
+Ancestral Supplements had the brand, the product, and the reactivation flows. What they didn't have was a way to reach churned subscribers who'd stopped responding to email and SMS entirely. By connecting Skio's Cancel Flow to Paper Run's direct mail automation, they built a retention channel that works precisely where digital runs out of road. The outcome was validated by a holdout test: 22% more subscription reactivations and a 5.4x return on every dollar spent on postcards.
+
+read their story
+
+Supplements
+
+How DTCPG Quadrupled Absorption Company's Subscription Opt-In with Skio
+
+Absorption Company's subscription opt-in rate was stagnant at baseline levels, with most customers choosing one-time purchases that never came back. DTCPG partnered with the brand to implement a "Buy More, Save More" strategy using Skio's customizable buy box, transparent discount stacking, and volume incentives. The result: subscription opt-in quadrupled in six months.
+
+read their story
+
+Health & Wellness
+
+LIVFRESH Grew from 8,500 to 55,000 Subscribers in Eight Months with Skio
+
+LIVFRESH was pushing serious volume but losing subscribers before they could stick. After migrating to Skio, they flipped their landing page default to subscription overnight, patched their cancel flow with founder video, and went from 8,500 to 55,000 active subscribers in eight months.
+
+read their story
+
+Self-Care / Grooming
+
+Taste Salud Boosted Cancel Saves 400% with Skio
+
+With a product designed for daily consumption and creator-led traffic pouring in, subscriptions weren't optional. They were the foundation for sustainable growth
+
+read their story
+
+Health & Wellness
+
+Cornbread Hemp Grew Subscriber Count 88% and Boosted Cancel Flow Save Rate 150% with Skio
+
+Cornbread Hemp migrated from Stay.AI to Skio after their old platform couldn't deliver on promised features, then more than doubled their cancel save rate, recovered more failed payments, and grew their subscriber base 88%.
+
+read their story
+
+Health & Wellness
+
+Just Ingredients Turned Their Cancel Button Into a Retention Engine with Skio
+
+Just Ingredients needed a new subscription solution when Yotpo sunset their platform. The forced migration revealed what they'd been tolerating.
+
+read their story
+
+Health & Wellness
+
+Kitsch Cut Churn in Half and Doubled Subscribers with Skio
+
+Kitsch wanted to turn subscriptions into a sustainable growth engine. They partnered with Skio to cut churn and half and double subscribers.
+
+read their story
+
+Self-Care / Grooming
+
+Elle Sera Grew Active Subscriptions 25% by Unifying Loyalty with Skio
+
+Elle Sera combined subscription management and loyalty into one platform and managed to grow subscribers while saving the team time.
+
+read their story
+
+Health & Wellness
+
+Attaboy Scaled to $1M ARR in Under 4 Weeks with Middle Out and Skio
+
+Attaboy and Middle Out scaled to $1M ARR in under 4 weeks by automating subscriber conversions with Skio's Journeys.
+
+read their story
+
+Health & Wellness
+
+Instant Hydration Hit 58% Subscription Revenue in One Quarter with Skio
+
+In less than 90 days with Skio, they transformed from zero recurring revenue to subscription-first business.
+
+read their story
+
+Food & Beverage
+
+How YOCTO Helped Gratsi Cut Cancellations 48% and Boost Reactivations 208% with Skio
+
+YOCTO helped Gratsi cut cancellations 48% and boost reactivations 208% by using Skio's Cancel Flow to make subscriber perks visible at the moment of cancellation and Quick Actions to automate win-back campaigns at scale.
+
+read their story
+
+Food & Beverage
+
+ALOHA Protects Ongoing Subscription Orders and Unlocks New Revenue with Skio × SavedBy
+
+ALOHA runs subscriptions on Skio and shipping protection through SavedBy. Together, they built the first FTC-compliant solution for protecting recurring subscription orders.
+
+read their story
+
+Food & Beverage
+
+Omni Used Journeys to Increase Subscription Revenue 66% with Skio
+
+Omni Pet's team burned entire afternoons manually updating prices across thousands of subscriptions whenever costs shifted or discounts expired. Skio Journeys automated the whole pricing workflow, instantly updating rates post-checkout based on product type and order number—freeing the team to focus on growth while revenue climbed 66%.
+
+read their story
+
+Luma Nutrition Scaled Active Subscribers 1,150% with Skio
+
+Luma's old platform bled money through failed payments and hid churn reasons behind "other." Skio's smart dunning recovered 10x more revenue and helped them scale from 2,000 to 25,000 active subscriptions.
+
+read their story
+
+Supplements
+
+Everyday Dose Put Subscriptions on Autopilot and Cut Support Chaos with Skio
+
+Everyday Dose was losing revenue through prior platform's data loss bugs and broken login links that buried their team in support tickets. Skio put their subscriptions on autopilot, eliminated the technical chaos, and freed them to focus on growth instead of firefighting.
+
+read their story
+
+Health & Wellness
+
+MatchaBar Eliminated Support Blockers and Built Partnership for Growth with Skio
+
+MatchaBar drowned in support tickets because Recharge made basic account management impossible for customers. Skio's intuitive design and instant support response dropped tickets to almost zero and freed the team to focus on growth.
+
+read their story
+
+Food & Beverage
+
+Muddy Bites Eliminated Security Flaws and Cut Support Time with Skio
+
+Recharge exposed Muddy Bites customers' data to other users and buried the support team in 10+ click workflows. Skio's passwordless login killed the security breaches and streamlined support to a few clicks.
+
+read their story
+
+Food & Beverage
+
+Bev Cut Subscriber Churn 10% and Support Tickets 30% with Skio
+
+Bev's prior platform's clunky UI buried the team under support tickets and required 5 people to manage basic subscription problems. Skio's self-service portal cut support load 80%, dropped churn 10%, and freed the team to focus on building community.
+
+read their story
+
+Food & Beverage
+
+Ugmonk 4X’d Subscribers and Eliminated Support Chaos with Skio
+
+Bold's clunky interface forced Ugmonk subscribers to email support for basic changes, burying the team in hundreds of tickets. Skio's self-service portal eliminated the support flood and helped them 4x subscribers while maintaining their polished brand aesthetic.
+
+read their story
+
+Lifestyle
+
+KraveBeauty Hit 5% Total Revenue from Subscriptions in 30 Days with Skio
+
+KraveBeauty's prior platform forced them to juggle split payments and duplicate SKUs that turned month-end into a nightmare. Skio unified everything in Shopify, killed the accounting chaos, and hit 5% of total revenue from subscriptions in 30 days.
+
+read their story
+
+Beauty & Skincare
+
+Magic Mind Slashed Support Tickets and Boosted Conversions with Skio
+
+Magic Mind's previous broken portal forced customers 

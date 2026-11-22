@@ -1,0 +1,280 @@
+URL: https://www.yotpo.com/product-releases/
+TITLE: Product releases hub | Yotpo
+DESCRIPTION: Deep dive into new product features & updates built to take your retention strategy to the next level.
+
+New: Your loyalty, now on Google free listings
+What's new at Yotpo
+Smarter reviews, more rewarding loyalty, and stronger visibility in AI search. Explore the latest features helping brands grow.
+Get a demo
+Explore product updates
+FILTER BY
+INTEGRATIONS
+LOYALTY & REFERRALS
+REVIEWS & UGC
+YOTPO DISCOVER
+Featured updates
+LOYALTY & REFERRALS
+Shopify Metafields
+
+Sync loyalty data across Shopify, ESPs, and CRMs for deeper personalization. Automate exclusive discounts and use Flows to auto-tag milestones, powering dynamic storefronts.
+
+Learn more
+LOYALTY & REFERRALS
+Loyalty account extension
+
+Shopify Customer Accounts users can now access our Loyalty Account Extension. Customers can view points, tier status, join the program, or redeem rewards directly from their account page—motivating sign-ups and driving purchases with key info.
+
+Learn more
+REVIEWS & UGC
+AI reviews summary
+
+Showcase a concise summary of key topics from your reviews, enabling shoppers to make quicker, more confident purchase decisions.
+
+Learn more
+REVIEWS & UGC
+Yotpo Reviews MCP
+
+Connect Yotpo Reviews to Claude or ChatGPT to understand review trends, find customer quotes and work through reviews, using the data you already have in Yotpo.
+
+Learn more
+LOYALTY & REFERRALS
+INTEGRATIONS
+Yotpo Loyalty Google
+
+Yotpo collaborates with Google. Show your program on your Google Brand Profile and personalized savings to eligible members on Google free listings.
+
+Learn more
+INTEGRATIONS
+LOYALTY & REFERRALS
+TikTok Shop Integration
+
+Bring TikTok Shop buyers into your loyalty program. Reward every TikTok Shop order with points and VIP progress, and keep those customers coming back to your store.
+
+Learn more
+LOYALTY & REFERRALS
+Loyalty Points Drop
+
+Turn idle points into a reason to buy today. Choose a segment, set the reward and window, launch in minutes, and track the revenue it drives
+
+Learn more
+Yotpo Discover
+Discover MCP Integration
+
+Connect Claude to Yotpo Discover and work with your brand’s AI visibility data in one place. Pull insights, generate content, check citation performance, and run recurring workflows without switching tools.
+
+Learn more
+REVIEWS & UGC
+Product Matching Tool
+
+Help more reviews reach the right retailer pages with smarter product matching across your catalog and retailer catalogs, including AI-suggested matches and manual tools for products that need review.
+
+Learn more
+Yotpo Discover
+Discover Onsite Agent
+
+See which pages need attention for AI visibility. The Onsite Agent scans key pages, surfaces strengths and gaps, and helps teams prioritize what to update first.
+
+Learn more
+REVIEWS & UGC
+Manage reviews workspace
+
+Built for speed and clarity, the new advanced moderation workspace saves your team hours on daily review management without missing what matters.
+
+Learn more
+REVIEWS & UGC
+Reviews for bundled products
+
+Use the reviews you already collected on bundled products. Show shoppers relevant feedback from the individual items inside each bundle, without starting from zero.
+
+Learn more
+LOYALTY & REFERRALS
+Yotpo Spotlight
+
+Drive high-value actions with a mobile-first loyalty hub featuring smart CTAs. Boost engagement by showing status, points, and rewards (including free products) to logged-in or logged-out shoppers, guiding them through your website journey.
+
+Learn more
+REVIEWS & UGC
+Reviews Atlas
+
+Optimize your PDP reviews for conversion. Get insights into quality, authenticity, and recency, plus guidance on refining your strategy to secure sales-driving reviews.
+
+Learn more
+REVIEWS & UGC
+Reviews Translation
+
+Localize your entire reviews experience, including AI summaries and filters, with pre- and on-demand translations powered by AWS and optimized by region for maximum impact.
+
+Learn more
+INTEGRATIONS
+LOYALTY & REFERRALS
+Novel partnership
+
+Mobile-first experience with frictionless in-store redemption, personalized push notifications, and incentives for pass downloads. Exclusive novel discount available.
+
+Learn more
+INTEGRATIONS
+REVIEWS & UGC
+Attentive x Reviews
+
+Leverage authentic customer voices in your marketing. Pull reviews and UGC into campaigns, recommend products based on ratings, and display social proof at the moment of decision to drive higher conversions.
+
+Learn more
+LOYALTY & REFERRALS
+Post checkout referral
+
+Capture post-purchase momentum with easy referrals on thank you page. Shoppers share ready-to-share links via preferred method, no login or dev work. Boost referrals effortlessly!
+
+Learn more
+LOYALTY & REFERRALS
+Shopify Metafields
+
+Sync loyalty data across Shopify, ESPs, and CRMs for deeper personalization. Automate exclusive discounts and use Flows to auto-tag milestones, powering dynamic storefronts.
+
+Learn more
+LOYALTY & REFERRALS
+Loyalty account extension
+
+Shopify Customer Accounts users can now access our Loyalty Account Extension. Customers can view points, tier status, join the program, or redeem rewards directly from their account page—motivating sign-ups and driving purchases with key info.
+
+Learn more
+REVIEWS & UGC
+AI reviews summary
+
+Showcase a concise summary of key topics from your reviews, enabling shoppers to make quicker, more confident purchase decisions.
+
+Learn more
+REVIEWS & UGC
+Yotpo Reviews MCP
+
+Connect Yotpo Reviews to Claude or ChatGPT to understand review trends, find customer quotes and work through reviews, using the data you already have in Yotpo.
+
+Learn more
+LOYALTY & REFERRALS
+INTEGRATIONS
+Yotpo Loyalty Google
+
+Yotpo collaborates with Google. Show your program on your Google Brand Profile and personalized savings to eligible members on Google free listings.
+
+Learn more
+INTEGRATIONS
+LOYALTY & REFERRALS
+TikTok Shop Integration
+
+Bring TikTok Shop buyers into your loyalty program. Reward every TikTok Shop order with points and VIP progress, and keep those customers coming back to your store.
+
+Learn more
+Explore more of what's new
+REVIEWS & UGC
+Yotpo Reviews MCP
+
+Connect Yotpo Reviews to Claude or ChatGPT to understand review trends, find customer quotes and work through reviews, using the data you already have in Yotpo.
+
+Learn more
+LOYALTY & REFERRALS
+INTEGRATIONS
+Yotpo Loyalty Google
+
+Yotpo collaborates with Google. Show your program on your Google Brand Profile and personalized savings to eligible members on Google free listings.
+
+Learn more
+INTEGRATIONS
+LOYALTY & REFERRALS
+TikTok Shop Integration
+
+Bring TikTok Shop buyers into your loyalty program. Reward every TikTok Shop order with points and VIP progress, and keep those customers coming back to your store.
+
+Learn more
+INTEGRATIONS
+LOYALTY & REFERRALS
+Postscript SMS Integration
+
+Connect Yotpo Loyalty with Postscript to power personalized SMS campaigns using real-time loyalty data. Trigger messages based on points balance, VIP tier, and rewards to drive engagement, repeat purchases, and loyalty program participation.
+
+Learn more
+INTEGRATIONS
+LOYALTY & REFERRALS
+Klaviyo Customer Hub
+
+Embed loyalty directly inside Klaviyo Customer Hub. Let customers view points, redeem rewards, and refer friends - all from a personalized on-site drawer experience. No redirects. No friction. Just seamless loyalty engagement.
+
+Learn more
+LOYALTY & REFERRALS
+INTEGRATIONS
+Tapcart Integration
+
+Reward every action in your app to drive downloads and boost push opt-ins. Give your best customers mobile-only perks. Make earning, tracking, and redeeming rewards effortless.
+
+Learn more
+REVIEWS & UGC
+Smart Views
+
+Automatically route review insights to the right teams - so product, marketing, and support get the feedback that matters most to them, and your entire business can act faster.
+
+Learn more
+REVIEWS & UGC
+INTEGRATIONS
+Siena AI
+
+Auto-moderate reviews, respond in your brand's voice, and capture key insights to build trust, personalize touchpoints, and get time back to focus on growing your brand.
+
+Learn more
+LOYALTY & REFERRALS
+INTEGRATIONS
+Attentive x Loyalty
+
+Connect Yotpo Loyalty with Attentive SMS & Email to sync member data, trigger targeted campaigns, and personalize messages—driving deeper engagement and loyalty.
+
+Learn more
+LOYALTY & REFERRALS
+Loyalty Tiers
+
+Create automatic loyalty journeys with advanced tiers. Use Shopify tags and API rules to reward specific behaviors like events or hidden VIPs, giving you flexibility and control.
+
+Learn more
+Yotpo Discover
+Discover MCP Integration
+
+Connect Claude to Yotpo Discover and work with your brand’s AI visibility data in one place. Pull insights, generate content, check citation performance, and run recurring workflows without switching tools.
+
+Learn more
+Yotpo Discover
+Discover Onsite Agent
+
+See which pages need attention for AI visibility. The Onsite Agent scans key pages, surfaces strengths and gaps, and helps teams prioritize what to update first.
+
+Learn more
+REVIEWS & UGC
+Manage reviews workspace
+
+Built for speed and clarity, the new advanced moderation workspace saves your team hours on daily review management without missing what matters.
+
+Learn more
+REVIEWS & UGC
+Reviews for bundled products
+
+Use the reviews you already collected on bundled products. Show shoppers relevant feedback from the individual items inside each bundle, without starting from zero.
+
+Learn more
+LOYALTY & REFERRALS
+Yotpo Spotlight
+
+Drive high-value actions with a mobile-first loyalty hub featuring smart CTAs. Boost engagement by showing status, points, and rewards (including free products) to logged-in or logged-out shoppers, guiding them through your website journey.
+
+Learn more
+REVIEWS & UGC
+Reviews Atlas
+
+Optimize your PDP reviews for conversion. Get insights into quality, authenticity, and recency, plus guidance on refining your strategy to secure sales-driving reviews.
+
+Learn more
+REVIEWS & UGC
+Reviews Translation
+
+Localize your entire reviews experience, including AI summaries and filters, with pre- and on-demand translations powered by AWS and optimized by region for maximum impact.
+
+Learn more
+INTEGRATIONS
+LOYALTY & REFERRALS
+Novel partnership
+
+Mobile-first experience with frictionless in-store redemption, personalized pus

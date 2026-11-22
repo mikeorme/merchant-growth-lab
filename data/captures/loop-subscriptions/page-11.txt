@@ -1,0 +1,335 @@
+URL: https://apps.shopify.com/loop-subscriptions
+TITLE: Loop Subscriptions App - Subscription app to manage subscriptions at scale | Shopify App Store
+DESCRIPTION: Loop is a subscription app built to grow subscriber LTV with bundles, cancel flows, and a portal that boosts retention across the entire subscription journey.
+
+Shopify App Store
+Browse apps
+Log in
+Start for free
+Loop Subscriptions App
+Pricing
+Free plan available. Free trial available.
+Popular with stores like yours
+Based in United States
+Rating
+4.9
+(819)
+Developer
+Loop Solutions Inc
+Install
+View demo store
+Featured images gallery
++ 3 more
+Boost Subscriber Growth with an All-in-One Subscription App for Smart Offers, Bundles & Cancel Flows
+
+Turn one time buyers into loyal subscribers with powerful subscription tools built for fast growing brands. Launch dynamic discounts, flexible bundles, & frictionless checkout. Keep subscriptions customers longer with smart payment recovery, personalized cancel flows, and a gamified customer portal. Use analytics to uncover drop off points & revenue drivers. Scale faster with team permissions, bulk actions, automated workflows & build a box features all in one native subscription app experience.
+
+Automation & Workflows: Boost scale, save time & cut errors
+Subscription Bundles & Build-a-Box Options: Lift AOV & loyalty
+Cancellation Flows: Save at-risk subscribers & slash churn
+Customer Portal: Empower users to manage orders, swaps & skips
+Payment Recovery: Auto retries & dunning reclaim lost revenue
+
+Languages
+
+English
+
+Works with
+
+Checkout
+
+Customer accounts
+ Shopify Flow 35+ Apps- Marketing,Loyalty Attentive,Recart,Postscript Gorgias,Rebuy,Fondue Klaviyo,Omnisend,Postpilot Reviews, Upsell, LP, Checkout Smile,Stamped,Marsello,Glow
+
+Categories
+
+Subscriptions
+Show features
+
+Subscription types
+
+Curated subscriptions
+
+Replenishment subscriptions
+
+Access subscriptions
+
+Memberships
+
+Services
+
+Product bundles
+
+Subscription boxes
+
+Custom subscriptions
+
+Pricing you can set
+
+Recurring payments
+
+Subscribe and save
+
+Fixed pricing
+
+Tiered pricing
+
+Freemium
+
+Trial periods
+
+Usage-based pricing
+
+Per-user pricing
+
+One-time payment
+
+Dynamic pricing
+Product bundles
+Show features
+
+Bundle types
+
+Fixed bundles
+
+Build a box
+
+Gift boxes
+
+Mystery boxes
+
+Subscription boxes
+
+Custom bundles
+
+Pricing you can set
+
+Tiered pricing
+
+Subscriptions
+
+Custom pricing
+Pricing
+
+Choose the plan that best fits your business.
+
+Free Forever
+
+Free
+
+Features
+
+50 active subscriptions
+Mobile friendly customer portal
+Customer alerts for subscription updates
+Subscriptions growth & revenue analytics
+
+Starter
+
+$99
+/ month
+
+1% transaction fee + 15¢ per loyalty order
+
+Features
+
+Native loyalty and referral programs
+Build-your-own and preset bundles
+Advanced payment recovery campaigns
+Smart cancellation flows and winbacks
+Branded customer portal with upsells
+Ready-to-use subscription widgets
+Analytics and custom reports
+Checkout links and one-click actions
+
+14-day free trial
+
+Pro
+
+$399
+/ month
+
+0.75% transaction fee + 10¢ per loyalty order
+
+Features
+
+Dedicated CSM and Slack support
+Native cart & post-purchase offers
+Subscriber journeys and streak rewards
+Personalized upsell and upgrade profiles
+A/B testing for growth and retention
+Customer portal themes & custom sections
+Shopify Markets and Multilingual support
+Loop MCP, APIs and Webhooks
+
+14-day free trial
+
+All charges are billed in USD. Recurring and usage-based charges are billed every 30 days. See all pricing options
+
+Reviews (819)
+Overall rating
+4.9
+5
+802
+4
+9
+3
+2
+2
+0
+1
+6
+Write a review
+All reviews
+What merchants think
+
+Merchants describe this as an intuitive, easy-to-use subscription platform with a clear customer portal and quick setup. They report reduced churn, higher retention, and increased subscription revenue, especially after enabling cancellation/retention flows and anti-churn tools. Key highlights include flexible offers, gamified rewards, bulk actions, one-time add-ons, strong analytics, smooth large-scale performance, seamless migration from other apps, and fast, hands-on support with strategic ...
+
+Show more
+November 16, 2026
+
+Setup was simple, it fits right into our store, and it saves our team real time every week. Our customers find it easy to use, which means fewer support tickets for us. Whenever we've had a question, their support team got back to us quickly and actually solved the problem. If you're on the fence, go for it. We'd recommend Loop to any Shopify brand.
+
+Sima
+United States
+2 months using the app
+November 16, 2026
+
+We’ve been charged US$2,403.50 for Loop since June, despite never completing our migration from Appstle or going live with Loop. This is despite Loop assuring us that we wouldn’t be charged until we went live.
+
+We only discovered the charges by chance, as we hadn’t received any monthly invoices. Finding out we’d been paying US$399 per month for a platform we weren’t using was a significant ...
+
+Show more
+Bondi Records
+Australia
+8 months using the app
+November 12, 2026
+
+We had a great experience working with the Loop team throughout the onboarding and migration process. The team was always responsive, well prepared for every meeting, and came with a clear plan of action. Communication was excellent, and the detailed summaries and next steps shared after each meeting helped keep the entire process organized and moving forward. We truly appreciate all the support ...
+
+Show more
+Wellex
+United States
+4 months using the app
+Support
+
+App support provided by Loop Solutions Inc.
+
+Resources
+Privacy policy
+FAQ
+Tutorial
+App Documentation
+Developer
+Loop Solutions Inc
+Website
+
+251 Little Falls Drive, Wilmington, New Castle Country, DE, 19808, US
+
+Launched
+
+July 27, 2021 · Changelog
+
+More apps like this
+Recharge Subscriptions App
+4.8
+out of 5 stars
+(3,163)
+3163 total reviews
+•
+Free trial available
+The subscription platform built for the fastest-growing brands
+Supr Bundle & Subscription App
+5.0
+out of 5 stars
+(344)
+344 total reviews
+•
+Free plan available
+Grow Sales with Subscriptions, Bundles & More
+Built for Shopify
+Subi Subscriptions App
+4.9
+out of 5 stars
+(937)
+937 total reviews
+•
+Free to install
+Boost sales with subscriptions, memberships, bundles & loyalty
+Built for Shopify
+Want to add an app?
+Try Shopify free for 3 days
+App categories
+Sales channels
+Finding products
+Selling products
+Orders and shipping
+Store design
+Marketing and conversion
+Store management
+Top categories
+Dropshipping
+Marketplaces
+Product reviews
+Upsell and bundles
+Email marketing
+SEO
+Shipping
+Currency and translation
+Resources
+Shopify Help Center
+API documentation
+Shopify Community
+Community Events
+Shopify Blog
+Research
+Shopify
+About
+Careers
+Investors
+Press and media
+Partners
+Affiliates
+Legal
+Service status
+Developer login
+Terms of service
+Privacy policy
+Sitemap
+Your privacy choices
+Čeština
+Dansk
+Deutsch
+English
+Español
+Français
+Hrvatski
+Indonesia
+Italiano
+Lietuvių
+Magyar
+Melayu
+Nederlands
+Norsk (bokmål)
+Polski
+Português (Brasil)
+Português (Portugal)
+Română
+Slovenčina
+Slovenščina
+Suomi
+Svenska
+Tiếng Việt
+Türkçe
+Ελληνικά
+Български
+Русский
+עברית
+اردو
+العربية
+हिन्दी
+ภาษาไทย
+日本語
+简体中文
+繁體中文
+한국어

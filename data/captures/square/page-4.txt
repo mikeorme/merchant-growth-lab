@@ -1,0 +1,112 @@
+URL: https://developer.squareup.com/us/en
+TITLE: Square APIs & SDKs: Build Custom Solutions on Square
+DESCRIPTION: Square APIs and SDKs allow developers to build custom apps and integrations for payments, customers, commerce, and staff solutions.
+
+NOW LAUNCHING
+
+Reporting API (Beta): A new way to access all your business’ data - build custom reports, integrations, and more.
+
+Read the docs
+With Square APIs and SDKs, it’s Square — customized.
+
+Supercharge Square for sellers of every size. Our entire connected commerce platform – from elegant hardware to a rich suite of Square APIs – is yours to build with. Whether you’re developing an app or composing a bespoke solution, this is the place to make it happen.
+
+Start building
+View docs
+Manage clients.
+Bookings API, Customers API, and more
+Analyze data.
+ListPayments, Reporting API, and more
+Sell everywhere.
+Terminal API, Mobile Payments SDK, and more
+Deliver orders.
+Orders API, Catalog API, and more
+Move money.
+Payments API, Payouts API, and more
+Get creative.
+20 Square APIs, 100+ endpoints, and more
+Build it your way with the tools you need and the tech you love.
+Square backend SDKs
+
+Develop in Python, Node.js, Ruby, PHP, Java, and .NET.
+
+API Explorer, GraphQL
+Explorer, and
+Connect Postman
+
+Explore endpoints, test your integration, send http requests, and more with a trio of tools designed to help you validate your build.
+
+API logs
+
+View, search, and filter your log entries for diagnostics, troubleshooting, and auditing. 
+
+Webhooks, event logs,
+and subscriptions
+
+Get notifications about your application(s) with in-depth webhooks features.
+
+Square sample applications
+
+Experiment with OAuth, Square SDKs, GraphQL, and mobile.
+
+Go to dev essentials docs
+Compose your app or integration with a robust suite of Square APIs and developer resources.
+Build with AI agents
+Payment APIs and SDKs
+Commerce APIs
+Customer APIs
+Staff APIs
+Merchant APIs
+Go to all docs
+Connect with us; we’re here to help you out.
+
+Developer forums
+
+This is the place to find answers, make requests, get updates, and give feedback.
+
+Youtube
+
+Watch tutorials, hear from fellow developers, and get inspired to build.
+
+The Corner Blog
+
+Read all about our latest products and features, check out developer spotlights, and more.
+
+It’s all happening on the Square platform.
+Build custom workflows for a Square Terminal. 
+
+VIDEO TUTORIAL
+
+Watch now
+Compare Square Online Payment Solutions.
+
+NEW DOC
+
+Read more
+Mobile Payments SDK (GA) and new Terminal API features
+
+NOW LAUNCHING
+
+Read more
+Build an Order Ahead Menu with Square Catalog API
+
+VIDEO TUTORIAL
+
+Watch now
+Square APIs Explained: Take a high level look at the Square developer platform.
+
+VIDEO TUTORIAL
+
+Watch now
+Build and grow your own business with Square.
+
+Partner with us to help businesses crush it — yours included. If you’re building an app or integration for more than one seller, you could be a great fit for our partner program.
+
+Publish in the Square App Marketplace as an app partner.
+
+Learn more
+Explore partner programs
+What’s your move?
+Start building
+View docs
+Start building

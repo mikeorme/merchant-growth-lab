@@ -1,0 +1,358 @@
+{
+  "dossier": {
+    "sections": [
+      {
+        "id": "positioning",
+        "title": "Positioning",
+        "summary": "Squarespace sells the website as the foundation of a small business: one product for presence, selling, booking, invoicing and content, wrapped in design credibility.",
+        "keyPoints": [
+          "Homepage: 'A website makes it real', with 'Start for free. No credit card required.'",
+          "The jobs listed on the home page are offering services, selling products, invoicing clients, getting booked, collecting donations, monetizing content and showcasing work.",
+          "A banner offers 30% off all plans and says when it ends (Nov 23)."
+        ]
+      },
+      {
+        "id": "offerings",
+        "title": "Products and offerings",
+        "summary": "A website builder at the center, with commerce, marketing and business tools attached.",
+        "keyPoints": [],
+        "table": {
+          "columns": [
+            "Product",
+            "What it does"
+          ],
+          "rows": [
+            [
+              "Websites and templates",
+              "Template-based sites, plus an AI website builder"
+            ],
+            [
+              "Online stores",
+              "Unlimited products, customizable listing pages, product reviews, shipping and order management"
+            ],
+            [
+              "Marketing tools",
+              "Email and SMS campaigns, SEO tools, banners and promotions, analytics"
+            ],
+            [
+              "Business tools",
+              "Scheduling, invoicing, donations, memberships and business email"
+            ],
+            [
+              "Financial solutions",
+              "Squarespace Payments and financing"
+            ],
+            [
+              "Limited releases and drops",
+              "Tools for selling merchandise drops and exclusive bookings"
+            ]
+          ]
+        },
+        "gaps": [
+          "Unfold, the social app, and the free tools were not opened."
+        ]
+      },
+      {
+        "id": "pricing",
+        "title": "Pricing",
+        "summary": "Four monthly plans with a 14-day free trial and an annual-billing saving. Transaction fees drop to zero on the second plan, and card rates fall as the plan rises.",
+        "keyPoints": [
+          "The pricing page says free for 14 days and that paying annually saves up to 36%.",
+          "All plans include built-in AI tools, secure hosting, unlimited bandwidth and selling functionality.",
+          "Basic charges a 2% online store transaction fee; Core and above charge none.",
+          "AI credits scale by plan: 10 one-time on Basic, then 20, 40 and 120 a month."
+        ],
+        "table": {
+          "columns": [
+            "Plan",
+            "Price a month",
+            "Card rate",
+            "Notable additions"
+          ],
+          "rows": [
+            [
+              "Basic",
+              "$19",
+              "2.9% + $0.30",
+              "Free custom domain, 2 contributors, 2% online store fee"
+            ],
+            [
+              "Core (recommended)",
+              "$29",
+              "2.9% + $0.30",
+              "No store fees, advanced discount and promotion tools, advanced lead capture, automated taxes and shipping, free year of Google Workspace email"
+            ],
+            [
+              "Plus",
+              "$49",
+              "2.7% + $0.30",
+              "Reserved cart and countdown timer"
+            ],
+            [
+              "Advanced",
+              "$99",
+              "2.5% + $0.30",
+              "Lowest fees, high-traffic checkout, 120 AI credits a month"
+            ]
+          ]
+        },
+        "gaps": [
+          "Prices shown are annual-billing prices; monthly-billing prices were not captured as text."
+        ]
+      },
+      {
+        "id": "merchandising",
+        "title": "Merchandising",
+        "summary": "A plan ladder organised around selling features, with a recommended middle plan and an urgency banner. Merchants get unusually direct merchandising tools, including a reserved cart and countdown timer.",
+        "keyPoints": [
+          "Core is tagged recommended and is where store transaction fees disappear and discount tools unlock.",
+          "A pay-annually toggle, a 'save up to 36%' line and a 30% off banner with an end date push toward annual billing.",
+          "For merchants: advanced discount and promotion tools, banners and promotions, a reserved cart with countdown timer, customizable listing pages, product reviews and limited-release tools.",
+          "Marketing tools sit in the same product: email campaigns, SMS campaigns with a credit system, SEO and social integrations."
+        ]
+      },
+      {
+        "id": "platform",
+        "title": "Technical platform",
+        "summary": "A developer site offers Commerce APIs, Reseller APIs and a custom-code spec, plus an engineering blog. It is thinner than the developer sites of the payments and subscription companies in this survey.",
+        "keyPoints": [
+          "Developer page: 'Everything you need to build and publish external apps — reliable APIs, clear documentation, and a marketplace.'",
+          "It names Commerce APIs, Reseller APIs and a reliable custom code spec, with notifications for API updates and breaking changes.",
+          "The engineering blog covers docs-as-code, a write-back cache on Google Cloud Spanner and browser standards work."
+        ],
+        "gaps": [
+          "API reference, rate limits and the marketplace were not opened."
+        ]
+      },
+      {
+        "id": "design",
+        "title": "Design",
+        "summary": "Design is the product. Full-bleed photography and short, large headlines on a black-and-white system with one blue, shown through live templates.",
+        "keyPoints": [
+          "One typeface (Clarkson) runs across the home page, pricing and developer site, with 4px button corners and a sticky header.",
+          "Home opens on a full-bleed photograph with a centered white headline and one white button.",
+          "Pricing is plain: a white page, a pay-annually toggle and four cards, with a blue 'Recommended' tag on Core (#0072f0).",
+          "The home page is 7,826px tall and carries 12 videos.",
+          "For merchants: templates designed to sell, an AI builder, customizable listing pages and drag-and-drop editing."
+        ],
+        "gaps": [
+          "Mobile and dark mode were not assessed."
+        ]
+      },
+      {
+        "id": "company",
+        "title": "Company presentation",
+        "summary": "A creative-economy story told through templates, customer websites and product news, rather than metrics.",
+        "keyPoints": [
+          "Home: 'Join millions of entrepreneurs who run their business on Squarespace.'",
+          "The showcase page lists customer websites with no stories or numbers.",
+          "The newsroom leads with tools for selling limited releases and drops."
+        ],
+        "gaps": [
+          "No leadership information in the surveyed pages."
+        ]
+      }
+    ]
+  },
+  "signupPath": "On the first survey run, 'GET STARTED' on the homepage led to squarespace.com/templates/get-started, a page headed 'What's your site about?' with a topic search, popular topics (Photography, Design, Education, Consulting, Art and more), 'I'M JUST BROWSING' and a NEXT button. It asked for no account details at that step. In later runs the same button did not lead to a new page, so that one observation is not reproduced in the saved capture. Nothing was entered.",
+  "scores": {
+    "jtbd_fit": {
+      "score": 4,
+      "evidence": "The homepage lists eight jobs from selling products to getting booked.",
+      "step": 1
+    },
+    "capability_visible": {
+      "score": 4,
+      "evidence": "Templates, plan comparisons and feature pages show a lot; the editor itself is behind signup.",
+      "step": 3
+    },
+    "pricing_transparency": {
+      "score": 4,
+      "evidence": "Four plans with prices, card rates, transaction fee and AI credits; monthly-billing prices not captured as text.",
+      "step": 2
+    },
+    "product_breadth": {
+      "score": 4,
+      "evidence": "Websites, stores, marketing, scheduling, invoicing, donations and finance each have their own page.",
+      "step": 3
+    },
+    "platform_depth": {
+      "score": 3,
+      "evidence": "Commerce and Reseller APIs and a custom-code spec exist, but the developer site is short.",
+      "step": 10
+    },
+    "time_to_value": {
+      "score": null,
+      "evidence": "Capture stops before the product; first-value time was not observed.",
+      "step": null
+    },
+    "friction": {
+      "score": null,
+      "evidence": "The surveyed pages could not tell.",
+      "step": null
+    },
+    "trust": {
+      "score": 3,
+      "evidence": "'Millions of entrepreneurs' and a list of customer sites, with no numbers or stories.",
+      "step": 6
+    },
+    "mobile": {
+      "score": null,
+      "evidence": "Phone captures exist for home and pricing but were not assessed.",
+      "step": null
+    },
+    "states": {
+      "score": null,
+      "evidence": "No error or empty states reached.",
+      "step": null
+    },
+    "a11y_basics": {
+      "score": null,
+      "evidence": "Not tested.",
+      "step": null
+    },
+    "value_prop_clarity": {
+      "score": 4,
+      "evidence": "'A website makes it real' is brief and the subhead and job list explain it.",
+      "step": 1
+    },
+    "proof_quality": {
+      "score": 3,
+      "evidence": "Scale is stated without a figure shown in text; an SMS stat carries a footnote.",
+      "step": 1
+    },
+    "persuasion_integrity": {
+      "score": 3,
+      "evidence": "A 30% off banner states its end date, but the product also sells a countdown timer to merchants.",
+      "step": 1
+    },
+    "cta_logic": {
+      "score": 4,
+      "evidence": "'GET STARTED' is the one repeated action across pages.",
+      "step": 1
+    },
+    "company_narrative": {
+      "score": 3,
+      "evidence": "The hero is generic; the newsroom story (limited releases) is more specific than the homepage.",
+      "step": 7
+    },
+    "offer_packaging": {
+      "score": 5,
+      "evidence": "Four plans with a recommended tag, an annual toggle and a clear feature ladder.",
+      "step": 2
+    },
+    "offer_architecture": {
+      "score": 5,
+      "evidence": "Free trial, annual discount, a limited-time sale, falling card rates and transaction fees that vanish at Core.",
+      "step": 2
+    },
+    "merchant_merch_tools": {
+      "score": 5,
+      "evidence": "Discounts, banners, reserved cart and countdown timer, reviews, listing pages and drops tooling.",
+      "step": 2
+    },
+    "visual_craft": {
+      "score": 4,
+      "evidence": "Strong photography and restrained typography; the hero is image-heavy with little product detail.",
+      "step": 1
+    },
+    "system_coherence": {
+      "score": 4,
+      "evidence": "Same typeface, button shape and header across marketing, pricing and the developer site.",
+      "step": 10
+    },
+    "merchant_design_control": {
+      "score": 5,
+      "evidence": "Templates built to sell, an AI builder and customizable listing pages are the core product.",
+      "step": 3
+    }
+  },
+  "read": {
+    "summary": "A design-led site builder with a very clear plan ladder tied to selling features, an urgency banner and, unusually, merchandising tools that include a reserved cart and countdown timer. The platform story is thin and the proof is generic.",
+    "pros": [
+      "Plan table shows price, card rate, transaction fee and AI credits side by side.",
+      "Transaction fees disappear on the recommended plan, which gives a reason to choose it.",
+      "Consistent type, buttons and header across marketing and developer pages.",
+      "Merchants get discounting, reserved-cart and drop tools."
+    ],
+    "cons": [
+      "Proof is thin: 'millions of entrepreneurs' and a list of sites.",
+      "The developer platform is short next to the payment and subscription sites.",
+      "The countdown-timer tool and the sale banner both use urgency.",
+      "Two of the surveyed pages returned rate-limit errors on the first run."
+    ],
+    "howItSells": "Sells craft and ease: a beautiful site in minutes, with a free trial and no card. Backs it with a clear plan ladder and a time-limited discount.",
+    "copy": [
+      "Tie plan upgrades to specific selling features.",
+      "State a sale's end date in the banner.",
+      "Use one typeface and button shape on every page."
+    ],
+    "avoid": [
+      "Generic proof statements with no figures.",
+      "Urgency on both the offer and the merchant tools."
+    ],
+    "tactics": [
+      "scarcity",
+      "anchoring",
+      "social_proof"
+    ],
+    "confidence": "medium",
+    "unknowns": [
+      "What the account creation flow asks.",
+      "Monthly-billing prices as text.",
+      "The editor itself.",
+      "Mobile experience."
+    ],
+    "hypothesis": {
+      "statement": "Adding two named customer stories with revenue or booking figures to the pricing page will lift plan starts among visitors who compare plans.",
+      "metric": "Pricing-page plan-start rate",
+      "guardrail": "Trial-to-paid conversion",
+      "decisionRule": "Ship if plan starts rise by a pre-agreed margin and trial-to-paid holds over four weeks."
+    },
+    "subjects": {
+      "merchandising": {
+        "summary": "The most sales-feature-driven ladder so far, with tools that let merchants run drops, countdowns and discounts.",
+        "pros": [
+          "Recommended plan is where store fees vanish.",
+          "Annual toggle and save line are above the cards.",
+          "Merchants get a countdown timer and reserved cart."
+        ],
+        "cons": [
+          "Sale banner and countdown tooling lean on urgency.",
+          "Monthly prices were not shown in the text."
+        ]
+      },
+      "design": {
+        "summary": "Design is the product and the site demonstrates it, with good consistency across marketing and developer pages.",
+        "pros": [
+          "Full-bleed photography and short headlines look premium.",
+          "The same typeface and button shape run through every page."
+        ],
+        "cons": [
+          "The hero shows little of the product.",
+          "The engineering blog uses a different style from the main site."
+        ]
+      }
+    }
+  },
+  "claims": [
+    {
+      "text": "Free for 14 days. Pay annually to save up to 36%.",
+      "verdict": "plausible",
+      "step": 2,
+      "evidenceStep": 2
+    },
+    {
+      "text": "Start for free. No credit card required.",
+      "verdict": "plausible",
+      "step": 1,
+      "evidenceStep": null
+    },
+    {
+      "text": "30% off all plans",
+      "verdict": "proven",
+      "step": 1,
+      "evidenceStep": null
+    }
+  ]
+}

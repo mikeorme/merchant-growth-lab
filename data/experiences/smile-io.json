@@ -1,0 +1,1810 @@
+{
+  "id": "smile-io",
+  "name": "Smile.io",
+  "category": "reviews-loyalty",
+  "url": "https://smile.io",
+  "flow": "site survey",
+  "capturedAt": "2026-11-22",
+  "rubricVersion": "1.2.0",
+  "status": "evaluated",
+  "blockedReason": "signup CTA not clickable",
+  "surveyMode": "full",
+  "signupEnd": {
+    "state": "no-signup-path"
+  },
+  "steps": [
+    {
+      "n": 1,
+      "kind": "home",
+      "title": "Smile.io | The Leading Loyalty Platform for Shopify Brands",
+      "url": "https://smile.io/",
+      "screenshot": "shots/smile-io/step-1.webp",
+      "textFile": "data/captures/smile-io/page-1.txt",
+      "elapsedMs": 5996,
+      "clicks": 0,
+      "via": "entry",
+      "headings": [
+        "h2: Loyalty shaped like your brand. Made from the elements you choose.",
+        "h2: One program, everywhere. Rolled out, tested, connected.",
+        "h3: Omnichannel surfaces",
+        "h3: Gradual rollouts",
+        "h3: Measurable promotions",
+        "h3: Rich integrations",
+        "h2: Brands that grow with loyalty.",
+        "h2: Switching from Yotpo, LoyaltyLion, Rivo, or Okendo?",
+        "h2: Enterprise-ready, by Shopify's own measure.",
+        "h3: A dedicated team, not a ticket queue.",
+        "h3: Runs on the stack you already have.",
+        "h2: See what loyalty does at your scale."
+      ],
+      "ctas": [
+        "Book a demo"
+      ],
+      "prices": [
+        "alty strategist. Naturium, part of e.l.f. Beauty 169% QoQ redemption growth ROKA Moved from Yotpo Fiest",
+        "ion growth ROKA Moved from Yotpo Fiesta Tableware 457% member LTV increase HIKOCO Online and in store Sl",
+        "TV increase HIKOCO Online and in store Sloane Tea 370% daily sales lift Mpix 55% higher member AOV Henry",
+        "nd in store Sloane Tea 370% daily sales lift Mpix 55% higher member AOV Henry's House of Coffee 175% hi",
+        "pix 55% higher member AOV Henry's House of Coffee 175% higher member CLV Blue Banana Moved from LoyaltyL",
+        "from LoyaltyLion Naturium, part of e.l.f. Beauty 169% QoQ redemption growth ROKA Moved from Yotpo Fiest",
+        ",250 +250 pts Points Gold Platinum VIP tiers M J +$10 Referrals 5% back Cashback MEMBER Maya R. Members",
+        "Points Gold Platinum VIP tiers M J +$10 Referrals 5% back Cashback MEMBER Maya R. Memberships 2 of 3 B",
+        "ice of shoppers or one market, then widen. Pilot 5% Expand 25% Everyone 100% 03 Measurable promot",
+        "pers or one market, then widen. Pilot 5% Expand 25% Everyone 100% 03 Measurable promotions Every",
+        "rket, then widen. Pilot 5% Expand 25% Everyone 100% 03 Measurable promotions Every promotion has a",
+        "ntrol group, so you see what it actually added. +37% incremental Promotion Control group 04 Rich i",
+        "stomer stories Naturium, part of e.l.f. Beauty 169% QoQ growth in Klaviyo-attributed loyalty point r",
+        "re Shopify Plus Read the story : Naturium ROKA 28% higher average annual spend, members vs. non-mem",
+        "Shopify Read the story : ROKA Fiesta Tableware 457% increase in lifetime value, Plate Pal Perks loya"
+      ],
+      "description": "Smile is the loyalty platform for Shopify Plus brands: points, VIP tiers and referrals built into checkout, customer accounts, Shopify POS and Klaviyo.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Stabil Grotesk",
+            "body": "Inter",
+            "distinct": [
+              "Inter",
+              "Stabil Grotesk"
+            ]
+          },
+          "h1Px": 76,
+          "bodyPx": 14,
+          "bodyLineHeight": "18px",
+          "backgrounds": [
+            "#f4f4f5",
+            "#ffffff",
+            "#ececee",
+            "#18181b"
+          ],
+          "accents": [],
+          "textColor": "#71717a",
+          "buttonRadius": "14px",
+          "buttonHeightPx": 40,
+          "images": 46,
+          "videos": 0,
+          "svgs": 45,
+          "stickyHeader": true,
+          "colorSchemeMeta": "light",
+          "pageHeightPx": 5824,
+          "domNodes": 1161,
+          "domContentLoadedMs": 405,
+          "loadMs": 1564
+        },
+        "merch": {
+          "planCards": 1,
+          "priceElements": 0,
+          "badges": [
+            "New"
+          ],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [
+            "Loyalty that drives repeat revenue, second orders, lifetime value, higher AOV, repeat purchases, fewer discounts and bigger orders.",
+            "fewer discounts."
+          ],
+          "links": 83
+        }
+      },
+      "mobileScreenshot": "shots/smile-io/step-1-mobile.webp"
+    },
+    {
+      "n": 2,
+      "kind": "pricing",
+      "title": "Smile.io Pricing and Plans",
+      "url": "https://smile.io/pricing",
+      "screenshot": "shots/smile-io/step-2.webp",
+      "textFile": "data/captures/smile-io/page-2.txt",
+      "elapsedMs": 11433,
+      "clicks": 0,
+      "via": "nav: Pricing",
+      "headings": [
+        "h1: Simple pricing for everyone.",
+        "h2: Plans and prices",
+        "h3: Growth",
+        "h3: Smile Plus",
+        "h3: Smile Enterprise",
+        "h2: Compare features across plans.",
+        "h2: Frequently asked questions.",
+        "h3: What ecommerce platforms can I install Smile on?",
+        "h3: Do you price based on monthly orders?",
+        "h3: How are monthly orders counted?",
+        "h3: What currency am I billed in?",
+        "h3: I’m looking to switch to Smile. How do I migrate my loyalty program to Smile?",
+        "h3: Does Smile work with my point of sale (POS) system?",
+        "h2: Boost repeat sales. Reward with Smile today."
+      ],
+      "ctas": [
+        "Book a demo",
+        "For Startups"
+      ],
+      "prices": [
+        "For growing brands expanding customer loyalty. $199 per month, monthly billing Book a demo Usage",
+        "rge brands needing greater insights and control. $999 per month, annual billing Book a demo Usage U",
+        "le Enterprise For enterprise retailers with over $40M in annual revenue. Custom annual billing Book",
+        "s Custom reports Key features Advanced security 99.9% historical uptime Custom API rate limits Data war",
+        "o 7,500 orders/mo Unlimited Additional order rate $20 per 100 orders $5 per 100 orders Not applicable",
+        "nlimited Additional order rate $20 per 100 orders $5 per 100 orders Not applicable Features Points pr"
+      ],
+      "description": "Simple pricing for everyone. Compare Growth, Smile Plus and Smile Enterprise, plus Free, Essential and Standard. Book a demo.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Stabil Grotesk",
+            "body": "Inter",
+            "distinct": [
+              "Inter",
+              "Stabil Grotesk"
+            ]
+          },
+          "h1Px": 60,
+          "bodyPx": 13,
+          "bodyLineHeight": "18px",
+          "backgrounds": [
+            "#f4f4f5",
+            "#ffffff",
+            "#09090b"
+          ],
+          "accents": [],
+          "textColor": "#71717a",
+          "buttonRadius": "14px",
+          "buttonHeightPx": 40,
+          "images": 2,
+          "videos": 0,
+          "svgs": 346,
+          "stickyHeader": true,
+          "colorSchemeMeta": "light",
+          "pageHeightPx": 6827,
+          "domNodes": 2268,
+          "domContentLoadedMs": 149,
+          "loadMs": 1139
+        },
+        "merch": {
+          "planCards": 3,
+          "priceElements": 2,
+          "badges": [
+            "Included"
+          ],
+          "billingToggles": [],
+          "tables": 2,
+          "promos": [
+            "Redeem points for discounts"
+          ],
+          "links": 56
+        }
+      },
+      "mobileScreenshot": "shots/smile-io/step-2-mobile.webp"
+    },
+    {
+      "n": 3,
+      "kind": "product",
+      "title": "Loyalty Programs for Shopify Plus | Smile.io",
+      "url": "https://smile.io/shopify-plus",
+      "screenshot": "shots/smile-io/step-3.webp",
+      "textFile": "data/captures/smile-io/page-3.txt",
+      "elapsedMs": 17044,
+      "clicks": 0,
+      "via": "nav: Checkout extensions",
+      "headings": [
+        "h1: Loyalty built for Shopify Plus.",
+        "h2: Native to Shopify Plus. Depth that matches your stack.",
+        "h3: Points redeemed at checkout.",
+        "h3: Automate loyalty with Flow.",
+        "h3: One program, every channel.",
+        "h3: More than points.",
+        "h3: In every tool you run.",
+        "h2: Blue Banana on Smile.",
+        "h2: Shopify Plus loyalty, answered.",
+        "h3: Does Smile work with Shopify Plus checkout?",
+        "h3: Can customers earn and redeem points in-store?",
+        "h3: How do we migrate from LoyaltyLion, Yotpo, or another provider?",
+        "h3: Will Smile pass our security review?",
+        "h3: Does Smile integrate with the rest of our stack?",
+        "h3: Why Shopify Plus brands choose Smile?",
+        "h3: Where can we see loyalty adoption across Shopify Plus?",
+        "h2: Run loyalty the way Shopify Plus brands do."
+      ],
+      "ctas": [
+        "Book a demo",
+        "Explore Points",
+        "Explore bonus events",
+        "Explore Shopify POS",
+        "Explore VIP tiers",
+        "Explore integrations"
+      ],
+      "prices": [
+        "ints Halvard Trail Club, 2,430 points available $20 off, 2,000 points $10 off, 1,000 points $20 off",
+        "ub, 2,430 points available $20 off, 2,000 points $10 off, 1,000 points $20 off applied Remove Delive",
+        "ble $20 off, 2,000 points $10 off, 1,000 points $20 off applied Remove Delivery Standard shipping Fr",
+        "ndard shipping Free Alpine Shell Jacket Spruce, M $340.00 Earn 340 points with this order Subtotal $340.0",
+        "340.00 Earn 340 points with this order Subtotal $340.00 Shipping Free Points discount −$20.00 Total $320.",
+        "Subtotal $340.00 Shipping Free Points discount −$20.00 Total $320.00 430 points left after this order",
+        "40.00 Shipping Free Points discount −$20.00 Total $320.00 430 points left after this order Certified Tech",
+        "RD TRAIL CLUB Welcome back, Maya POINTS 2,430 $20 off ready to use VIP TIER Ridge $238 more to r",
+        "TS 2,430 $20 off ready to use VIP TIER Ridge $238 more to reach Summit REFERRALS $20 off for frie",
+        "IER Ridge $238 more to reach Summit REFERRALS $20 off for friends 500 points for each first order",
+        "tores. Javier Millan, Loyalty Lead, Blue Banana 40% higher average annual purchase frequency, redeem"
+      ],
+      "description": "Points at checkout, Shopify Flow automation, POS, and dual Shopify certification. Book a demo.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Stabil Grotesk",
+            "body": "Inter",
+            "distinct": [
+              "Inter",
+              "Stabil Grotesk",
+              "JetBrains Mono"
+            ]
+          },
+          "h1Px": 76,
+          "bodyPx": 11,
+          "bodyLineHeight": "18px",
+          "backgrounds": [
+            "#f4f4f5",
+            "#ffffff",
+            "#fafafa",
+            "#fbfbfa"
+          ],
+          "accents": [],
+          "textColor": "#71717a",
+          "buttonRadius": "14px",
+          "buttonHeightPx": 40,
+          "images": 24,
+          "videos": 0,
+          "svgs": 58,
+          "stickyHeader": true,
+          "colorSchemeMeta": "light",
+          "pageHeightPx": 5934,
+          "domNodes": 1002,
+          "domContentLoadedMs": 103,
+          "loadMs": 1101
+        },
+        "merch": {
+          "planCards": 3,
+          "priceElements": 3,
+          "badges": [
+            "Free"
+          ],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [
+            "Points discount"
+          ],
+          "links": 60
+        }
+      }
+    },
+    {
+      "n": 4,
+      "kind": "platform",
+      "title": "Home - Smile.io Developer Documentation",
+      "url": "https://dev.smile.io/",
+      "screenshot": "shots/smile-io/step-4.webp",
+      "textFile": "data/captures/smile-io/page-4.txt",
+      "elapsedMs": 20372,
+      "clicks": 0,
+      "via": "nav: Developers",
+      "headings": [
+        "h2: Documentation Index",
+        "h1: Enterprise loyalty. Built for developers.",
+        "h2: Guides",
+        "h2: API Reference",
+        "h2: JavaScript SDK",
+        "h2: Smile UI"
+      ],
+      "ctas": [
+        "Get started",
+        "Explore docs",
+        "Learn more"
+      ],
+      "prices": [],
+      "description": "Build custom loyalty experiences with Smile's REST API, JavaScript SDK, and Smile UI.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Inter",
+            "body": "Inter",
+            "distinct": [
+              "Inter"
+            ]
+          },
+          "h1Px": 48,
+          "bodyPx": 16,
+          "bodyLineHeight": "24px",
+          "backgrounds": [
+            "#ffffff",
+            "#1e38fb",
+            "#ffc419"
+          ],
+          "accents": [],
+          "textColor": "#000000",
+          "buttonRadius": null,
+          "buttonHeightPx": null,
+          "images": 4,
+          "videos": 0,
+          "svgs": 41,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 900,
+          "domNodes": 367,
+          "domContentLoadedMs": 396,
+          "loadMs": 539
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 9
+        }
+      }
+    },
+    {
+      "n": 5,
+      "kind": "solutions",
+      "title": "Smile Plus: Enterprise Loyalty for Shopify Plus Brands | Smile.io",
+      "url": "https://smile.io/enterprise",
+      "screenshot": "shots/smile-io/step-5.webp",
+      "textFile": "data/captures/smile-io/page-5.txt",
+      "elapsedMs": 24486,
+      "clicks": 0,
+      "via": "nav: Enterprise",
+      "headings": [
+        "h1: Grow lifetime value. At enterprise scale.",
+        "h2: Enterprise brands run on Smile. Results from Shopify Plus brands.",
+        "h2: Enterprise loyalty. A team behind it.",
+        "h2: Meet your success team. From launch to every quarterly review.",
+        "h2: Security your IT team can sign off on. Certified by Shopify and independently audited.",
+        "h3: Certified Technology Partner",
+        "h3: SOC 2 Type II",
+        "h2: Ready for enterprise scale. From the switch to peak season.",
+        "h2: Integrations",
+        "h3: Connects to the tools you already run.",
+        "h2: Your data, under your control. Warehouse sync, roles, audit logs and an API.",
+        "h2: Let's build your program. We bring the numbers."
+      ],
+      "ctas": [
+        "Book a demo"
+      ],
+      "prices": [
+        "ards Halvard Trail Club 2,430points Enough for $20 off at checkout Ridge $238 to Summit Base Camp R",
+        ",430points Enough for $20 off at checkout Ridge $238 to Summit Base Camp Ridge Summit Ways to earn P",
+        "dge Summit Ways to earn Place an order 1 pt per $1 Create an account 100 pts Celebrate a birthday 20",
+        "birthday 200 pts Write a review 200 pts Rewards $10 off 1,000 points REDEEM $20 off 2,000 points REDE",
+        "iew 200 pts Rewards $10 off 1,000 points REDEEM $20 off 2,000 points REDEEM Merino Rib Beanie 4,800 p",
+        "0 TO GO Halvard Trail Club Welcome to Ridge, Maya $15 off your next order, plus early access. Fiesta Ta",
+        "omer stories PLATE PAL PERKS · VIP TIERS Up to 25% off Coaster Salad Plate Luncheon Plate Dinner",
+        "Fiesta Tableware Home & Lifestyle Shopify Plus 32% average month-over-month increase in Smile-influ",
+        "d Nutrition Read the story : Applied Nutrition 215% higher lifetime value, members vs non-members. B",
+        "ers. Blue Banana Read the story : Blue Banana 40% higher purchase frequency, redeemers vs non-redee",
+        "tions. Blue Banana customer story. Peak season 99.9% Historical uptime, listed on the Smile Enterpris"
+      ],
+      "description": "Smile Plus and Smile Enterprise: white-glove migration, a dedicated success team, SOC 2 Type II and security review support. Book a demo.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Stabil Grotesk",
+            "body": "Inter",
+            "distinct": [
+              "Inter",
+              "Stabil Grotesk",
+              "JetBrains Mono"
+            ]
+          },
+          "h1Px": 76,
+          "bodyPx": 13,
+          "bodyLineHeight": "18px",
+          "backgrounds": [
+            "#f4f4f5",
+            "#ffffff",
+            "#fafafa",
+            "#ececee"
+          ],
+          "accents": [],
+          "textColor": "#71717a",
+          "buttonRadius": "14px",
+          "buttonHeightPx": 40,
+          "images": 32,
+          "videos": 0,
+          "svgs": 50,
+          "stickyHeader": true,
+          "colorSchemeMeta": "light",
+          "pageHeightPx": 6976,
+          "domNodes": 1261,
+          "domContentLoadedMs": 209,
+          "loadMs": 1206
+        },
+        "merch": {
+          "planCards": 3,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [
+            "Up to 25% off"
+          ],
+          "links": 57
+        }
+      }
+    },
+    {
+      "n": 6,
+      "kind": "company",
+      "title": "Smile Brand Guidelines: Logos, Colors & Brand Assets",
+      "url": "https://smile.io/press-kit",
+      "screenshot": "shots/smile-io/step-6.webp",
+      "textFile": "data/captures/smile-io/page-6.txt",
+      "elapsedMs": 27781,
+      "clicks": 0,
+      "via": "nav: Press kit",
+      "headings": [
+        "h1: Using our brand. Logos and colors.",
+        "h2: Primary logo",
+        "h2: Glyph",
+        "h2: Colors",
+        "h2: See the platform behind the brand."
+      ],
+      "ctas": [
+        "Book a demo"
+      ],
+      "prices": [],
+      "description": "Discover the official Smile brand guidelines, including logos, glyphs, and color palette specifications. Download brand assets to represent Smile consistently and professionally across all channels.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Stabil Grotesk",
+            "body": "Inter",
+            "distinct": [
+              "Inter",
+              "Stabil Grotesk"
+            ]
+          },
+          "h1Px": 76,
+          "bodyPx": 13,
+          "bodyLineHeight": "18px",
+          "backgrounds": [
+            "#f4f4f5",
+            "#ffffff",
+            "#fcfcfd",
+            "#424242"
+          ],
+          "accents": [],
+          "textColor": "#71717a",
+          "buttonRadius": "14px",
+          "buttonHeightPx": 40,
+          "images": 8,
+          "videos": 0,
+          "svgs": 25,
+          "stickyHeader": true,
+          "colorSchemeMeta": "light",
+          "pageHeightPx": 2490,
+          "domNodes": 543,
+          "domContentLoadedMs": 117,
+          "loadMs": 1103
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 59
+        }
+      }
+    },
+    {
+      "n": 7,
+      "kind": "resources",
+      "title": "Learn: Loyalty Program Guides for Shopify Brands",
+      "url": "https://smile.io/learn",
+      "screenshot": "shots/smile-io/step-7.webp",
+      "textFile": "data/captures/smile-io/page-7.txt",
+      "elapsedMs": 31537,
+      "clicks": 0,
+      "via": "nav: Learn hub",
+      "headings": [
+        "h1: Loyalty, explained. For Shopify brands.",
+        "h2: Guides by topic",
+        "h3: Best of",
+        "h3: Compare",
+        "h3: Industry guides",
+        "h3: Guides",
+        "h3: Examples",
+        "h3: Glossary",
+        "h2: Research and benchmarks. How loyalty performs.",
+        "h3: The State of Loyalty on Shopify Plus",
+        "h3: Beyond the Discount",
+        "h3: Loyalty program benchmarks",
+        "h3: More research and tools",
+        "h2: Ready to build yours? Plan it with our team."
+      ],
+      "ctas": [
+        "Book a demo"
+      ],
+      "prices": [],
+      "description": "Guides, comparisons, industry playbooks and research on running a loyalty program on Shopify: points, VIP tiers, referrals and choosing a loyalty platform.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Stabil Grotesk",
+            "body": "Inter",
+            "distinct": [
+              "Inter",
+              "Stabil Grotesk"
+            ]
+          },
+          "h1Px": 76,
+          "bodyPx": 15,
+          "bodyLineHeight": "18px",
+          "backgrounds": [
+            "#f4f4f5",
+            "#ffffff",
+            "#fafafa",
+            "#09090b"
+          ],
+          "accents": [],
+          "textColor": "#71717a",
+          "buttonRadius": "14px",
+          "buttonHeightPx": 40,
+          "images": 2,
+          "videos": 0,
+          "svgs": 89,
+          "stickyHeader": true,
+          "colorSchemeMeta": "light",
+          "pageHeightPx": 5206,
+          "domNodes": 911,
+          "domContentLoadedMs": 108,
+          "loadMs": 1108
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [
+            "How to reduce discounting with a VIP program",
+            "Store credit vs discount codes",
+            "Beyond the Discount",
+            "Beyond the Discount",
+            "Research on discounting, acquisition and what brings customers back after BFCM.",
+            ": Beyond the Discount"
+          ],
+          "links": 124
+        }
+      }
+    },
+    {
+      "n": 8,
+      "kind": "product",
+      "title": "Smile x Klaviyo | The Most Complete Loyalty Integration for Email Marketers",
+      "url": "https://smile.io/klaviyo",
+      "screenshot": "shots/smile-io/step-8.webp",
+      "textFile": "data/captures/smile-io/page-8.txt",
+      "elapsedMs": 35567,
+      "clicks": 0,
+      "via": "nav: Klaviyo email and SMS",
+      "headings": [
+        "h1: The most complete loyalty integration for Klaviyo.",
+        "h2: Naturium on Smile.",
+        "h2: Loyalty data on every profile. Updated as it happens.",
+        "h2: Pre-built flows, in your brand. Loyalty emails sent from Klaviyo.",
+        "h3: Points Earned on Order",
+        "h3: VIP Tier Achieved",
+        "h3: Birthday Reward",
+        "h3: Referral Completed",
+        "h2: Beyond the inbox. Customer Hub and Klaviyo Reviews.",
+        "h3: In Klaviyo Customer Hub",
+        "h3: Points for Klaviyo Reviews",
+        "h2: Connected in three steps. From Smile Admin, synced once.",
+        "h3: Step 1: Connect your Klaviyo account",
+        "h3: Step 2: Sync customer data",
+        "h3: Step 3: Turn on the pre-built flows",
+        "h2: Smile and Klaviyo, answered.",
+        "h3: Does Smile work with Klaviyo?",
+        "h3: What loyalty data syncs to Klaviyo profiles?",
+        "h3: Which loyalty events does Smile send to Klaviyo?",
+        "h3: Are there pre-built Klaviyo flows for loyalty emails?",
+        "h3: Does it work with Klaviyo Customer Hub?",
+        "h3: Can customers earn points for Klaviyo Reviews?",
+        "h3: Which Smile plans include the Klaviyo integration?",
+        "h2: See Smile in your Klaviyo flows."
+      ],
+      "ctas": [
+        "Book a demo"
+      ],
+      "prices": [
+        "Smile. CONSISTENCY CLUB · VIP TIERS 1 point per $1 spent Skintrigued Free Skintellectual $300 Ski",
+        "nt per $1 spent Skintrigued Free Skintellectual $300 Skinfluencer $500 Customer story Smile is a ve",
+        "intrigued Free Skintellectual $300 Skinfluencer $500 Customer story Smile is a very user-friendly ap",
+        "iez, Senior Manager of CRM and Loyalty, Naturium 64% of Smile loyalty point redemptions attributed to",
+        "8 points, order #20418 2 days ago Points Redeemed $20 off for 2,000 points 3 weeks ago Referral Complet",
+        "ed 388 points. Your balance is 2,430, enough for $20 off. REDEEM POINTS Points Earned on Order Repla",
+        "t Halvard Trail Club 2,430 points Best reward $20 off Tier Ridge In Klaviyo Customer Hub Once S"
+      ],
+      "description": "Transform your Klaviyo email marketing into a loyalty engine with Smile, the most complete loyalty integration for Klaviyo. Natively built into Customer Hub, Smile makes every message more personal, relevant, and rewarding.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Stabil Grotesk",
+            "body": "Inter",
+            "distinct": [
+              "Inter",
+              "Stabil Grotesk",
+              "JetBrains Mono"
+            ]
+          },
+          "h1Px": 76,
+          "bodyPx": 12,
+          "bodyLineHeight": "18px",
+          "backgrounds": [
+            "#f4f4f5",
+            "#ffffff",
+            "#fafafa",
+            "#1b1c1f"
+          ],
+          "accents": [],
+          "textColor": "#71717a",
+          "buttonRadius": "14px",
+          "buttonHeightPx": 40,
+          "images": 3,
+          "videos": 0,
+          "svgs": 44,
+          "stickyHeader": true,
+          "colorSchemeMeta": "light",
+          "pageHeightPx": 6919,
+          "domNodes": 914,
+          "domContentLoadedMs": 117,
+          "loadMs": 1116
+        },
+        "merch": {
+          "planCards": 2,
+          "priceElements": 2,
+          "badges": [
+            "Free"
+          ],
+          "billingToggles": [],
+          "tables": 1,
+          "promos": [],
+          "links": 60
+        }
+      }
+    },
+    {
+      "n": 9,
+      "kind": "platform",
+      "title": "Smile Integrations | Klaviyo, Judge.me, Recharge & More",
+      "url": "https://smile.io/integrations",
+      "screenshot": "shots/smile-io/step-9.webp",
+      "textFile": "data/captures/smile-io/page-9.txt",
+      "elapsedMs": 39508,
+      "clicks": 0,
+      "via": "nav: Integrations",
+      "headings": [
+        "h1: Power up your loyalty with integrations.",
+        "h2: Discover integrations. Connect Smile to other tools you use.",
+        "h2: Build on Smile. The platform behind every integration.",
+        "h2: Integrations, answered.",
+        "h3: Does Smile integrate with Klaviyo?",
+        "h3: Does Smile work with Recharge?",
+        "h3: Which reviews apps work with Smile?",
+        "h3: Who builds Smile’s integrations?",
+        "h3: Does Smile have an API?",
+        "h2: Boost repeat sales. Reward with Smile today."
+      ],
+      "ctas": [
+        "Book a demo"
+      ],
+      "prices": [
+        "00 points\" }, 5 \"receiver_reward\": { \"name\": \"$20 off coupon\" } 6 } 7 } Integrations, answered. D"
+      ],
+      "description": "Connect Smile with your entire Shopify stack across email marketing, reviews, subscriptions, customer support, and more. Power up your loyalty program with every tool you already use.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Stabil Grotesk",
+            "body": "Inter",
+            "distinct": [
+              "Inter",
+              "Stabil Grotesk"
+            ]
+          },
+          "h1Px": 76,
+          "bodyPx": 13,
+          "bodyLineHeight": "18px",
+          "backgrounds": [
+            "#f4f4f5",
+            "#ffffff",
+            "#fafafa",
+            "#18181b"
+          ],
+          "accents": [],
+          "textColor": "#71717a",
+          "buttonRadius": "14px",
+          "buttonHeightPx": 40,
+          "images": 31,
+          "videos": 0,
+          "svgs": 39,
+          "stickyHeader": true,
+          "colorSchemeMeta": "light",
+          "pageHeightPx": 6179,
+          "domNodes": 1123,
+          "domContentLoadedMs": 124,
+          "loadMs": 1103
+        },
+        "merch": {
+          "planCards": 1,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 102
+        }
+      }
+    },
+    {
+      "n": 10,
+      "kind": "solutions",
+      "title": "Loyalty Programs for Fashion and Apparel Brands | Smile.io",
+      "url": "https://smile.io/industries/fashion-apparel",
+      "screenshot": "shots/smile-io/step-10.webp",
+      "textFile": "data/captures/smile-io/page-10.txt",
+      "elapsedMs": 43670,
+      "clicks": 0,
+      "via": "nav: Fashion and apparel",
+      "headings": [
+        "h1: Turn seasonal shoppers into year-round customers.",
+        "h2: Three pressures. Every apparel brand manages them at once.",
+        "h3: Acquisition costs keep climbing",
+        "h3: Discounting is a race to the bottom",
+        "h3: Seasons create revenue whiplash",
+        "h2: Three moves. Built for how apparel sells.",
+        "h3: Reward full-price buying.",
+        "h3: Give your best customers status they can wear.",
+        "h3: Your customers are already your lookbook.",
+        "h2: What to reward. And what to give back.",
+        "h2: ROKA on Smile.",
+        "h2: Apparel brands on Smile. Read their stories.",
+        "h2: Fashion loyalty, answered.",
+        "h3: How does a loyalty program reduce our reliance on discounting?",
+        "h3: Do points work across retail and online?",
+        "h3: Can we move our program from Yotpo, LoyaltyLion or Rivo?",
+        "h3: Does Smile work with Klaviyo?",
+        "h3: How is Smile priced?",
+        "h2: Build the reason they come back next season."
+      ],
+      "ctas": [
+        "Book a demo",
+        "Explore points",
+        "Explore VIP tiers",
+        "Explore referrals"
+      ],
+      "prices": [
+        "oyalty strategist. Blue Banana · , Shopify Plus 40% higher average annual purchase frequency, redeem",
+        "a race to the bottom Matching every competitor's 20% off devalues the brand while teaching your audien",
+        "iced items Explore points Alpine Shell Jacket $340.00, Spruce Earn 680 points with this purchase 2x AD",
+        "t Explore VIP tiers HALVARD TRAIL CLUB Ridge $15 off welcome reward, early access Base Camp Join",
+        "ard, early access Base Camp Join Ridge Your tier $500 a year Summit $238 to go $1,000 a year Referrals",
+        "Base Camp Join Ridge Your tier $500 a year Summit $238 to go $1,000 a year Referrals Your customers are",
+        "oin Ridge Your tier $500 a year Summit $238 to go $1,000 a year Referrals Your customers are already your",
+        "r. Double-sided give and get offers, the classic $20 for $20 Advocate rewards paid in points, so claim",
+        "le-sided give and get offers, the classic $20 for $20 Advocate rewards paid in points, so claiming one",
+        "HALVARD Halvard Trail Club REFER A FRIEND Give $20, get 500 points Your friend gets $20 off a first",
+        "RIEND Give $20, get 500 points Your friend gets $20 off a first order over $100. You get 500 points w",
+        "ints Your friend gets $20 off a first order over $100. You get 500 points when they order. halvard.com",
+        "h card. Fixed-dollar rewards, not percentages A $10 reward is easier to understand than 10% off and p",
+        "ntages A $10 reward is easier to understand than 10% off and protects margin on your higher-priced pie",
+        "Yotpo. Anna Pappas, Director of Marketing, ROKA 75% redemption rate, loyalty members. ROKA’s loyalt"
+      ],
+      "description": "How fashion and apparel brands use loyalty to break the discount cycle, build VIP status worth keeping, and turn word of mouth into an acquisition channel. Results from brands running on Smile.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Stabil Grotesk",
+            "body": "Inter",
+            "distinct": [
+              "Inter",
+              "Stabil Grotesk"
+            ]
+          },
+          "h1Px": 76,
+          "bodyPx": 15,
+          "bodyLineHeight": "18px",
+          "backgrounds": [
+            "#f4f4f5",
+            "#ffffff",
+            "#fafafa",
+            "#09090b"
+          ],
+          "accents": [],
+          "textColor": "#71717a",
+          "buttonRadius": "14px",
+          "buttonHeightPx": 40,
+          "images": 22,
+          "videos": 0,
+          "svgs": 51,
+          "stickyHeader": true,
+          "colorSchemeMeta": "light",
+          "pageHeightPx": 7276,
+          "domNodes": 897,
+          "domContentLoadedMs": 94,
+          "loadMs": 1093
+        },
+        "merch": {
+          "planCards": 3,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [
+            "Discounting is a race to the bottom",
+            "How does a loyalty program reduce our reliance on discounting?"
+          ],
+          "links": 63
+        }
+      }
+    },
+    {
+      "n": 11,
+      "kind": "product",
+      "title": "Cashback rewards: store credit on every order | Smile.io",
+      "url": "https://smile.io/features/cashback",
+      "screenshot": "shots/smile-io/step-11.webp",
+      "textFile": "data/captures/smile-io/page-11.txt",
+      "elapsedMs": 47715,
+      "clicks": 0,
+      "via": "nav: Cashback",
+      "headings": [
+        "h1: Cashback. Branded your way.",
+        "h2: Here's what $20 is worth. One order brings the next.",
+        "h2: Here's what it's worth to you. Incremental revenue, after the cash.",
+        "h2: Earned on one order. Spent on the next.",
+        "h3: They see it before they buy",
+        "h3: The order earns it",
+        "h3: It lands in their account",
+        "h3: It spends itself",
+        "h2: Live before Black Friday. Our team sets it up with you.",
+        "h3: A 30-minute call",
+        "h3: Set your terms",
+        "h3: Press Activate",
+        "h2: Cashback, answered.",
+        "h3: Is Cashback available now?",
+        "h3: Do we need a developer?",
+        "h3: Can Cashback run alongside points?",
+        "h3: Where can customers spend their credit?",
+        "h3: What happens when an order is returned?",
+        "h3: Does the credit expire?",
+        "h3: Do I need Shopify?",
+        "h2: Name your money. We'll have it live before Black Friday."
+      ],
+      "ctas": [
+        "Book a demo"
+      ],
+      "prices": [
+        "CO + thousands more on Shopify Plus Here's what $20 is worth. One order brings the next. THANK-YOU P",
+        "rder brings the next. THANK-YOU PAGE You earned $20 back On a $400 Black Friday order. EMAIL 1 You",
+        "next. THANK-YOU PAGE You earned $20 back On a $400 Black Friday order. EMAIL 1 Your $20 is ready t",
+        "ack On a $400 Black Friday order. EMAIL 1 Your $20 is ready to spend Sent when it lands. EMAIL 2",
+        "Sent when it lands. EMAIL 2 7 days left on your $20 Sent a week before it expires. EMAIL 3 Last ch",
+        "before it expires. EMAIL 3 Last chance for your $20 Sent the day before it expires. CHECKOUT $20 a",
+        "r $20 Sent the day before it expires. CHECKOUT $20 applied On a $220 second order. Held 30 days $",
+        "y before it expires. CHECKOUT $20 applied On a $220 second order. Held 30 days $20 ready to spend",
+        "0 applied On a $220 second order. Held 30 days $20 ready to spend Nov 27 Dec 27 Jan 19 Jan 25 Jan 2",
+        "25 WHAT ONE CUSTOMER SPENDS One order and done $400 With cashback $400 +$200 $600 Here's what it's",
+        "SPENDS One order and done $400 With cashback $400 +$200 $600 Here's what it's worth to you. Increme",
+        "S One order and done $400 With cashback $400 +$200 $600 Here's what it's worth to you. Incremental r",
+        "e order and done $400 With cashback $400 +$200 $600 Here's what it's worth to you. Incremental revenu",
+        "nt on anything you exclude. Alpine Shell Jacket $340.00, Spruce Earn $17.00 back on this Thank-you page",
+        "lude. Alpine Shell Jacket $340.00, Spruce Earn $17.00 back on this Thank-you page The order earns it O",
+        "ALVARD Order #20418 Thank you, Maya. You earned $19.40 in store credit It lands in your account Novembe",
+        "It lands in your account November 12. Cashback, 5% of your $388.00 order Customer account It lands",
+        "n your account November 12. Cashback, 5% of your $388.00 order Customer account It lands in their account",
+        "pires. HALVARD Store credit Available to spend $42.60 $19.40 lands November 12 Cashback from order #20",
+        "HALVARD Store credit Available to spend $42.60 $19.40 lands November 12 Cashback from order #20418 Land",
+        "12 Cashback from order #20418 Lands November 12 +$19.40 Cashback from order #20166 Available +$10.70 Spen",
+        "12 +$19.40 Cashback from order #20166 Available +$10.70 Spent on order #20311 Applied at checkout −$24.00",
+        "$10.70 Spent on order #20311 Applied at checkout −$24.00 Checkout It spends itself Shopify applies the ba",
+        ". HALVARD Checkout Alpine Shell Jacket Spruce, M $340.00 Subtotal $340.00 Store credit, applied −$42.60 To",
+        "ut Alpine Shell Jacket Spruce, M $340.00 Subtotal $340.00 Store credit, applied −$42.60 Total $297.40 You’"
+      ],
+      "description": "Give customers a share of every order back as Shopify store credit. It applies itself at the next checkout, online, at Shopify POS and in the Shop app.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Stabil Grotesk",
+            "body": "Inter",
+            "distinct": [
+              "Inter",
+              "Stabil Grotesk"
+            ]
+          },
+          "h1Px": 76,
+          "bodyPx": 12,
+          "bodyLineHeight": "18px",
+          "backgrounds": [
+            "#f4f4f5",
+            "#ffffff",
+            "#fafafa",
+            "#1b1c1f"
+          ],
+          "accents": [],
+          "textColor": "#71717a",
+          "buttonRadius": "14px",
+          "buttonHeightPx": 40,
+          "images": 25,
+          "videos": 0,
+          "svgs": 27,
+          "stickyHeader": true,
+          "colorSchemeMeta": "light",
+          "pageHeightPx": 6321,
+          "domNodes": 1091,
+          "domContentLoadedMs": 120,
+          "loadMs": 1133
+        },
+        "merch": {
+          "planCards": 3,
+          "priceElements": 7,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 54
+        }
+      }
+    },
+    {
+      "n": 12,
+      "kind": "product",
+      "title": "Loyalty Bonus Campaigns: Real Sales Uplift Data | Smile.io",
+      "url": "https://smile.io/features/loyalty-bonus-campaigns-results",
+      "screenshot": "shots/smile-io/step-12.webp",
+      "textFile": "data/captures/smile-io/page-12.txt",
+      "elapsedMs": 51456,
+      "clicks": 0,
+      "via": "nav: Bonus events",
+      "headings": [
+        "h1: Bonus events. Measured in sales.",
+        "h2: Short bursts work. Points, not markdowns.",
+        "h3: Measured against each store's own baseline.",
+        "h3: Schedule it once.",
+        "h3: Highlighted across your program.",
+        "h2: Bonus events, answered.",
+        "h3: What is a bonus event?",
+        "h3: How were these results measured?",
+        "h3: Do bonus events train customers to wait for a sale?",
+        "h3: How long can a bonus campaign run?",
+        "h3: Do in-store orders earn the bonus?",
+        "h3: Can a campaign target VIP tiers?",
+        "h3: Which plans include bonus events?",
+        "h2: Run your next bonus event with a plan."
+      ],
+      "ctas": [
+        "Book a demo",
+        "Explore points",
+        "Explore Loyalty Hub"
+      ],
+      "prices": [
+        "CLUB 2x points weekend Earn 2 points for every $1 on orders until Sunday. Alpine Shell Jacket $34",
+        "$1 on orders until Sunday. Alpine Shell Jacket $340.00, Spruce Earn 680 points with this purchase 2x AD",
+        "ore's own baseline. Top-quartile campaigns drove 50%+ higher daily sales, and the median merchant saw",
+        "+ higher daily sales, and the median merchant saw 7.5%. Daily sales inside the event window Campaigns f",
+        "Against the prior 30 days Top-quartile campaigns 50%+ The median merchant 7.5% 1-7 day bonus campaign",
+        "s Top-quartile campaigns 50%+ The median merchant 7.5% 1-7 day bonus campaigns across 1,000+ Smile merc",
+        "ber 8 2x WAYS TO EARN Place an order 2 pts per $1 2x bonus Create an account 100 pts Celebrate a bi"
+      ],
+      "description": "Results from 1-7 day loyalty bonus campaigns on Smile: top-quartile campaigns drove 50%+ higher daily sales and the median merchant saw 7.5%, measured against a 30-day baseline.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Stabil Grotesk",
+            "body": "Inter",
+            "distinct": [
+              "Inter",
+              "Stabil Grotesk"
+            ]
+          },
+          "h1Px": 76,
+          "bodyPx": 13,
+          "bodyLineHeight": "18px",
+          "backgrounds": [
+            "#f4f4f5",
+            "#ffffff",
+            "#fafafa",
+            "#efede8"
+          ],
+          "accents": [],
+          "textColor": "#71717a",
+          "buttonRadius": "14px",
+          "buttonHeightPx": 40,
+          "images": 25,
+          "videos": 0,
+          "svgs": 47,
+          "stickyHeader": true,
+          "colorSchemeMeta": "light",
+          "pageHeightPx": 4380,
+          "domNodes": 831,
+          "domContentLoadedMs": 142,
+          "loadMs": 1121
+        },
+        "merch": {
+          "planCards": 2,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 56
+        }
+      }
+    },
+    {
+      "n": 13,
+      "kind": "customers",
+      "title": "Customer stories | Smile.io",
+      "url": "https://smile.io/customers",
+      "screenshot": "shots/smile-io/step-13.webp",
+      "textFile": "data/captures/smile-io/page-13.txt",
+      "elapsedMs": 55542,
+      "clicks": 0,
+      "via": "nav: probe /customers",
+      "headings": [
+        "h1: Customer stories. Loyalty, measured.",
+        "h2: Customer voices and results.",
+        "h3: Results from customer stories.",
+        "h2: Every customer story. Enterprise brands first.",
+        "h2: Loyalty that pays off. In repeat revenue."
+      ],
+      "ctas": [
+        "Book a demo"
+      ],
+      "prices": [
+        "the story : ROKA Results from customer stories. 40% higher purchase frequency, redeemers vs. non-red",
+        "leware customer story Enterprise · Shopify Plus 50% higher CLV, members vs. non-members. Great Gard",
+        "carves customer story Mid-market · Shopify Plus 60% higher member CLV vs. non-members. HIKOCO custo",
+        "ise Mid-market Small business 30 stories shown. 30% conversion lift since launch. Fiesta Tableware c",
+        "Home and lifestyle · Enterprise · Shopify Plus 64% of loyalty redemptions driven by email flows, att",
+        "Beauty and cosmetics · Enterprise · Shopify Plus 76% higher purchase frequency, members vs. non-member",
+        "Health and wellness · Enterprise · Shopify Plus 186% increase in Smile Generated Value, orders with a",
+        "er story Electronics · Enterprise · BigCommerce 26% higher redemption rate after one year. Mpix cust",
+        "stomer story Photography and print · Enterprise 10% higher member LTV within the first 30 days on Smi",
+        "Fashion and apparel · Mid-market · Shopify Plus 62% membership rate, above the Smile benchmark. Burb",
+        "Fashion and apparel · Mid-market · Shopify Plus 36% higher purchase frequency, members vs. non-member",
+        "Home and lifestyle · Mid-market · Shopify Plus 254% higher average annual spend, members vs. non-memb",
+        "omer story Pet care · Mid-market · Shopify Plus 169% higher annual spend, redeemers vs. non-redeemers.",
+        "er story Automotive · Mid-market · Shopify Plus 31% higher purchase frequency, members vs. non-member",
+        "hion and apparel · Mid-market · Headless Shopify 140% higher purchase frequency, redeemers vs. non-rede",
+        "cosmetics · Mid-market · Shopify and Shopify POS $1.67M in Smile-generated revenue, all time, since the",
+        "ustomer story Beauty and cosmetics · Mid-market 6.59% referral conversion rate, ALP Pouches referral pr",
+        "story Vape and regulated · Mid-market · Shopify 158% higher purchase frequency, members. Bully Sticks",
+        "tomer story Pet care · Mid-market · BigCommerce 27% higher AOV, members vs. non-members. IMGadgets c",
+        "story Home and lifestyle · Mid-market · Shopify 325% higher annual spend, redeemers vs. non-redeemers.",
+        "er story Arts and crafts · Mid-market · Shopify 48% redemption rate across Shine On Rewards members.",
+        "customer story Fashion and apparel · Mid-market 362% higher annual spend, redeemers vs. non-redeemers.",
+        "tory Health and wellness · Mid-market · Shopify 1028% more annual spend, Diamond vs. base tier. Snuzon",
+        "story Vape and regulated · Mid-market · Shopify 105% growth in loyalty revenue, year over year. Mushi",
+        "omer story Baby and kids · Mid-market · Shopify 115% higher CLV, members vs. non-members. Foxhound Be"
+      ],
+      "description": "Results from Shopify Plus and enterprise brands that run loyalty on Smile. Book a demo.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Stabil Grotesk",
+            "body": "Inter",
+            "distinct": [
+              "Inter",
+              "Stabil Grotesk"
+            ]
+          },
+          "h1Px": 76,
+          "bodyPx": 16,
+          "bodyLineHeight": "18px",
+          "backgrounds": [
+            "#f4f4f5",
+            "#ffffff",
+            "#ececee",
+            "#09090b"
+          ],
+          "accents": [],
+          "textColor": "#71717a",
+          "buttonRadius": "14px",
+          "buttonHeightPx": 40,
+          "images": 42,
+          "videos": 0,
+          "svgs": 62,
+          "stickyHeader": true,
+          "colorSchemeMeta": "light",
+          "pageHeightPx": 6687,
+          "domNodes": 1326,
+          "domContentLoadedMs": 114,
+          "loadMs": 1110
+        },
+        "merch": {
+          "planCards": 1,
+          "priceElements": 1,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [
+            "average LTV for loyalty members, compared with $386 for customers who don’t engage with loyalty."
+          ],
+          "links": 91
+        }
+      }
+    }
+  ],
+  "navMap": [
+    {
+      "label": "Points",
+      "href": "https://smile.io/points",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Cashback",
+      "href": "https://smile.io/features/cashback",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "VIP tiers",
+      "href": "https://smile.io/vip",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Referrals",
+      "href": "https://smile.io/referrals",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Bonus events",
+      "href": "https://smile.io/features/loyalty-bonus-campaigns-results",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Subscriptions",
+      "href": "https://smile.io/features/subscriptions",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Shopify",
+      "href": "https://smile.io/shopify",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Loyalty Hub",
+      "href": "https://smile.io/features/loyalty-hub",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Checkout extensions",
+      "href": "https://smile.io/shopify-plus",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Shopify POS",
+      "href": "https://smile.io/features/shopify-pos",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Loyalty landing page",
+      "href": "https://smile.io/features/loyalty-landing-page",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Klaviyo email and SMS",
+      "href": "https://smile.io/klaviyo",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Analytics",
+      "href": "https://smile.io/features/analytics",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Loyalty benchmarks",
+      "href": "https://smile.io/features/loyalty-benchmarks",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Headless and JS SDK",
+      "href": "https://smile.io/features/headless",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Integrations",
+      "href": "https://smile.io/integrations",
+      "area": "header",
+      "kind": "platform"
+    },
+    {
+      "label": "Switch to Smile",
+      "href": "https://smile.io/features/switch-to-smile",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Customers",
+      "href": "https://smile.io/customers",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Enterprise",
+      "href": "https://smile.io/enterprise",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "Pricing",
+      "href": "https://smile.io/pricing",
+      "area": "header",
+      "kind": "pricing"
+    },
+    {
+      "label": "Learn hub",
+      "href": "https://smile.io/learn",
+      "area": "header",
+      "kind": "resources"
+    },
+    {
+      "label": "State of Loyalty report",
+      "href": "https://smile.io/lp/state-of-loyalty",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Blog",
+      "href": "https://blog.smile.io/",
+      "area": "header",
+      "kind": "resources"
+    },
+    {
+      "label": "Smile vs Yotpo",
+      "href": "https://smile.io/compare/smile-vs-yotpo",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Smile vs LoyaltyLion",
+      "href": "https://smile.io/compare/smile-vs-loyalty-lion",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Smile vs Rivo",
+      "href": "https://smile.io/compare/smile-vs-rivo",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Smile vs Okendo",
+      "href": "https://smile.io/compare/smile-vs-okendo",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Fashion and apparel",
+      "href": "https://smile.io/industries/fashion-apparel",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "Beauty and cosmetics",
+      "href": "https://smile.io/industries/beauty-cosmetics",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "Food and beverage",
+      "href": "https://smile.io/industries/food-beverage",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "Pet care",
+      "href": "https://smile.io/industries/pet-care",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "ROI calculator",
+      "href": "https://resources.smile.io/roi-calculator",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Free loyalty audit",
+      "href": "https://resources.smile.io/free-loyalty-audit",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Help center",
+      "href": "https://help.smile.io/",
+      "area": "header",
+      "kind": "resources"
+    },
+    {
+      "label": "Developers",
+      "href": "https://dev.smile.io/",
+      "area": "header",
+      "kind": "platform"
+    },
+    {
+      "label": "Partners",
+      "href": "https://smile.io/partners",
+      "area": "header",
+      "kind": "platform"
+    },
+    {
+      "label": "Book a demo",
+      "href": "https://smile.io/book-a-demo",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Shopify loyalty apps",
+      "href": "https://smile.io/learn/best-loyalty-apps-for-shopify",
+      "area": "footer",
+      "kind": "platform"
+    },
+    {
+      "label": "Top 5 loyalty apps",
+      "href": "https://smile.io/learn/top-loyalty-apps-on-shopify",
+      "area": "footer",
+      "kind": "platform"
+    },
+    {
+      "label": "Enterprise loyalty",
+      "href": "https://smile.io/learn/best-enterprise-loyalty-platforms-for-ecommerce",
+      "area": "footer",
+      "kind": "platform"
+    },
+    {
+      "label": "Careers",
+      "href": "https://smile.io/careers",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Press kit",
+      "href": "https://smile.io/press-kit",
+      "area": "footer",
+      "kind": "company"
+    },
+    {
+      "label": "Build Award",
+      "href": "https://smile.io/features/build-award",
+      "area": "footer",
+      "kind": "product"
+    },
+    {
+      "label": "Support policy",
+      "href": "https://smile.io/support-policy",
+      "area": "footer",
+      "kind": "resources"
+    },
+    {
+      "label": "Accessibility policy",
+      "href": "https://smile.io/accessibility",
+      "area": "footer",
+      "kind": "other"
+    }
+  ],
+  "stack": {
+    "generator": null,
+    "scriptHosts": [
+      "snap.licdn.com",
+      "www.googletagmanager.com",
+      "smile-web-ecru.vercel.app",
+      "p.smile.io",
+      "assets.apollo.io",
+      "googleads.g.doubleclick.net",
+      "d-code.liadm.com"
+    ],
+    "signals": [
+      "Google Tag Manager dataLayer"
+    ],
+    "server": "cloudflare",
+    "poweredBy": null
+  },
+  "sources": [
+    "https://smile.io"
+  ],
+  "dossier": {
+    "sections": [
+      {
+        "id": "positioning",
+        "title": "Positioning",
+        "summary": "Smile sells loyalty to ambitious Shopify brands with one specific outcome: more second orders. The site now leads with Shopify Plus and enterprise customers.",
+        "keyPoints": [
+          "Homepage: 'Loyalty that drives second orders', cycling through repeat revenue, lifetime value and higher AOV.",
+          "'The loyalty platform for ambitious Shopify brands. Join thousands on Shopify Plus accelerating growth through modern loyalty programs.'",
+          "A section asks 'Switching from Yotpo, LoyaltyLion, Rivo, or Okendo?', naming four rivals.",
+          "Enterprise credentials are prominent: certified by Shopify and independently audited with SOC 2 Type II."
+        ]
+      },
+      {
+        "id": "offerings",
+        "title": "Products and offerings",
+        "summary": "A loyalty platform built on points, VIP tiers and referrals, with newer modules for cashback and bonus events, and deep Shopify and Klaviyo integration.",
+        "keyPoints": [],
+        "table": {
+          "columns": [
+            "Product",
+            "What it does"
+          ],
+          "rows": [
+            [
+              "Points, VIP tiers and referrals",
+              "The core loyalty program, fully embedded in the storefront"
+            ],
+            [
+              "Cashback (early access)",
+              "Store credit in the brand's name held in Shopify, spent online, in store and in the Shop app"
+            ],
+            [
+              "Bonus events",
+              "Short, time-bound bonus points and multipliers measured in sales"
+            ],
+            [
+              "Checkout extensions and Shopify POS",
+              "Points redeemed at Shopify Plus checkout and earned in store"
+            ],
+            [
+              "Loyalty Hub",
+              "A branded loyalty page and hub for members"
+            ],
+            [
+              "Klaviyo integration",
+              "Loyalty data on every profile and pre-built flows for points, tiers and referrals"
+            ],
+            [
+              "Headless and JavaScript SDK",
+              "Build loyalty into custom storefronts and apps"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "pricing",
+        "title": "Pricing",
+        "summary": "Published plans on the 'For Scale' tab, priced by monthly orders with a clear overage rate. Enterprise is custom, and a separate 'For Startups' tab was not read.",
+        "keyPoints": [
+          "All plans lead with 'Book a demo'; no self-serve checkout is offered.",
+          "Growth is billed monthly; Plus and Enterprise are billed annually.",
+          "Extra orders cost $20 per 100 on Growth and $5 per 100 on Plus.",
+          "Enterprise is for retailers with over $40M in annual revenue, with advanced security and 99.9% historical uptime.",
+          "The page notes prices are in USD and were reviewed as of September 25, 2026."
+        ],
+        "table": {
+          "columns": [
+            "Plan",
+            "Price a month",
+            "Orders included",
+            "Notable features"
+          ],
+          "rows": [
+            [
+              "Growth",
+              "$199 (monthly billing)",
+              "2,500 a month",
+              "VIP program, Loyalty Hub, fully embedded loyalty, performance benchmarks, 25 specialized reports"
+            ],
+            [
+              "Smile Plus",
+              "$999 (annual billing)",
+              "7,500 a month",
+              "Migration and launch plan, quarterly program monitoring, priority support, API access, 30+ reports"
+            ],
+            [
+              "Smile Enterprise",
+              "Custom (annual billing)",
+              "Unlimited",
+              "Advanced security, 99.9% historical uptime, custom API rate limits, data warehouse sync"
+            ]
+          ]
+        },
+        "gaps": [
+          "The 'For Startups' tab and its plans were not read."
+        ]
+      },
+      {
+        "id": "merchandising",
+        "title": "Merchandising",
+        "summary": "A usage-based ladder where the plan jump is tied to migration help, monitoring and API access, plus unusually concrete advice for merchants on how to merchandise loyalty itself.",
+        "keyPoints": [
+          "Plans are scaled by monthly orders with an explicit overage rate, so cost tracks the merchant's size.",
+          "Higher plans add services (migration and launch plan, quarterly monitoring, priority support), not just features.",
+          "For merchants: bonus events to create short bursts with points instead of markdowns, cashback, VIP status, referrals and checkout redemption.",
+          "Industry pages (fashion and apparel, beauty, food and beverage, pet care) argue for rewarding full-price buying and giving customers status.",
+          "A Learn hub carries guides, comparisons and benchmark research on loyalty."
+        ]
+      },
+      {
+        "id": "platform",
+        "title": "Technical platform",
+        "summary": "A dedicated developer site with a guides section, an API reference, a JavaScript SDK and UI components, plus an llms.txt index; a headless option and a large integration directory support custom builds.",
+        "keyPoints": [
+          "dev.smile.io describes 'Enterprise loyalty. Built for developers.' with Guides, API Reference, a JavaScript SDK and Smile UI.",
+          "The docs publish a documentation index at /llms.txt for machine readers.",
+          "A headless and JS SDK page, a Klaviyo integration and answers about Recharge and reviews apps show a connected stack.",
+          "Plus adds API access; Enterprise adds custom API rate limits and data warehouse sync."
+        ],
+        "gaps": [
+          "API reference depth and webhooks were not read."
+        ]
+      },
+      {
+        "id": "design",
+        "title": "Design",
+        "summary": "Quiet and editorial: a light grey canvas, a heavy black grotesque with a grey second line, soft rounded cards and photography. The developer site switches to a different type and blue.",
+        "keyPoints": [
+          "Marketing pages use Stabil Grotesk on a light grey (#f4f4f5) background with black buttons and 14px corners.",
+          "A two-tone headline repeats the pattern: black first line, grey second line, on both the home and pricing pages.",
+          "The home page shows a strip of customer-brand photographs in rounded cards under the headline.",
+          "The developer site uses Inter with a blue (#1e38fb) on white.",
+          "Pages are compact: the home page is 5,824px tall and pricing 6,827px.",
+          "For merchants: 'Loyalty shaped like your brand. Made from the elements you choose', with embedded loyalty and a UI kit."
+        ],
+        "gaps": [
+          "Dark mode was not assessed."
+        ]
+      },
+      {
+        "id": "company",
+        "title": "Company presentation",
+        "summary": "A specialist's story: Shopify-only focus, enterprise credentials and customer results, with a dedicated team as the promise.",
+        "keyPoints": [
+          "Smile Editions Fall 2026 announces 50+ product updates, mirroring Shopify's own Editions cadence.",
+          "'Enterprise-ready, by Shopify's own measure' and 'A dedicated team, not a ticket queue' are the trust claims.",
+          "Customer stories are 'Enterprise brands first', with Blue Banana among them.",
+          "A press kit gives logo and color guidance."
+        ],
+        "gaps": [
+          "No About page or leadership information in the surveyed pages."
+        ]
+      }
+    ]
+  },
+  "signupPath": "No self-serve signup was found. Every plan on the pricing page and every call to action on the homepage is 'Book a demo' with the line '30 minutes with a loyalty strategist'. The booking form was not followed. Nothing was entered.",
+  "scores": {
+    "jtbd_fit": {
+      "score": 5,
+      "evidence": "One job in the headline: second orders and repeat revenue.",
+      "step": 1
+    },
+    "capability_visible": {
+      "score": 3,
+      "evidence": "Mockups and results are shown; trial and demo environments are not.",
+      "step": 11
+    },
+    "pricing_transparency": {
+      "score": 4,
+      "evidence": "Growth and Plus prices, orders included and overage rates are published; Enterprise is custom and the startup tab was not read.",
+      "step": 2
+    },
+    "product_breadth": {
+      "score": 4,
+      "evidence": "Points, VIP, referrals, cashback, bonus events, checkout and POS are each explained.",
+      "step": 3
+    },
+    "platform_depth": {
+      "score": 4,
+      "evidence": "Developer site with API reference, JS SDK, UI kit and llms.txt; headless option.",
+      "step": 4
+    },
+    "time_to_value": {
+      "score": null,
+      "evidence": "Capture stops before the product; first-value time was not observed.",
+      "step": null
+    },
+    "friction": {
+      "score": null,
+      "evidence": "The surveyed pages could not tell.",
+      "step": null
+    },
+    "trust": {
+      "score": 4,
+      "evidence": "Shopify certification, SOC 2 Type II and enterprise customer stories.",
+      "step": 5
+    },
+    "mobile": {
+      "score": null,
+      "evidence": "Phone captures exist for home and pricing but were not assessed.",
+      "step": null
+    },
+    "states": {
+      "score": null,
+      "evidence": "No error or empty states reached.",
+      "step": null
+    },
+    "a11y_basics": {
+      "score": null,
+      "evidence": "Not tested.",
+      "step": null
+    },
+    "value_prop_clarity": {
+      "score": 5,
+      "evidence": "'Loyalty that drives second orders' is specific and measurable.",
+      "step": 1
+    },
+    "proof_quality": {
+      "score": 3,
+      "evidence": "Customer results are shown, but 'thousands on Shopify Plus' has no source.",
+      "step": 13
+    },
+    "persuasion_integrity": {
+      "score": 4,
+      "evidence": "No urgency tactics; pricing carries a review date.",
+      "step": 2
+    },
+    "cta_logic": {
+      "score": 4,
+      "evidence": "'Book a demo' with '30 minutes with a loyalty strategist' is the one consistent action.",
+      "step": 1
+    },
+    "company_narrative": {
+      "score": 4,
+      "evidence": "A Shopify-specialist and enterprise story across home, pricing, customers and docs.",
+      "step": 5
+    },
+    "offer_packaging": {
+      "score": 4,
+      "evidence": "Three plans sized by monthly orders with overage rates; the startup tab sits behind a toggle.",
+      "step": 2
+    },
+    "offer_architecture": {
+      "score": 4,
+      "evidence": "Usage-based ladder where higher plans add services and API access.",
+      "step": 2
+    },
+    "merchant_merch_tools": {
+      "score": 5,
+      "evidence": "Points, VIP tiers, referrals, cashback, bonus events and checkout redemption with measurement.",
+      "step": 12
+    },
+    "visual_craft": {
+      "score": 4,
+      "evidence": "Clean hierarchy, strong two-tone headline and brand photography.",
+      "step": 1
+    },
+    "system_coherence": {
+      "score": 3,
+      "evidence": "Marketing pages are consistent; the developer site uses a different font and a blue accent.",
+      "step": 4
+    },
+    "merchant_design_control": {
+      "score": 5,
+      "evidence": "Loyalty 'shaped like your brand', fully embedded, with a UI kit and branded cashback.",
+      "step": 1
+    }
+  },
+  "read": {
+    "summary": "A specialist loyalty platform with a precise promise, a published usage-based price list and, rare in this set, a lot of guidance on how merchants should merchandise rewards. It is sales-led throughout: there is no self-serve start.",
+    "pros": [
+      "A one-line outcome promise: second orders.",
+      "Plan prices, order limits and overage rates are shown.",
+      "Merchants get bonus events, cashback, VIP tiers and checkout redemption with measurement.",
+      "Developer docs include an llms.txt index and a JS SDK."
+    ],
+    "cons": [
+      "No self-serve start: every plan leads to 'Book a demo'.",
+      "The developer site looks different from the marketing site.",
+      "Scale claims have no source.",
+      "The 'For Startups' pricing tab sits behind a toggle."
+    ],
+    "howItSells": "Sells a measurable outcome to Shopify Plus brands, with enterprise credentials, a named list of rivals and a team behind the product.",
+    "copy": [
+      "Name the single outcome in the headline.",
+      "Publish overage rates beside included volume.",
+      "Offer short bonus events as a merchandising tool."
+    ],
+    "avoid": [
+      "No way to try the product without a call.",
+      "A second visual system for developer pages."
+    ],
+    "tactics": [
+      "authority",
+      "social_proof",
+      "anchoring"
+    ],
+    "confidence": "medium",
+    "unknowns": [
+      "The 'For Startups' plans.",
+      "What the demo-booking form asks.",
+      "Mobile experience.",
+      "Customer stories beyond the headline results."
+    ],
+    "hypothesis": {
+      "statement": "Adding a self-serve sandbox with a sample program will raise qualified demo requests among visitors who want to see the product first.",
+      "metric": "Qualified demo requests per visitor",
+      "guardrail": "Sales time per qualified lead",
+      "decisionRule": "Ship if qualified requests rise by a pre-agreed margin over four weeks."
+    },
+    "subjects": {
+      "merchandising": {
+        "summary": "A usage-based ladder and a deep set of loyalty merchandising tools with guidance on using them.",
+        "pros": [
+          "Usage-based ladder with overage rates shown.",
+          "Services in the higher plans, not just features.",
+          "Guides on how to run bonus events."
+        ],
+        "cons": [
+          "No self-serve entry.",
+          "The startup tab is hidden behind a toggle."
+        ]
+      },
+      "design": {
+        "summary": "Calm, consistent and editorial on the main site; a separate look on the developer site.",
+        "pros": [
+          "A confident two-tone headline and brand photography give the site an editorial feel.",
+          "The light grey canvas keeps focus on the content."
+        ],
+        "cons": [
+          "The developer site switches font and accent.",
+          "Very little color outside photographs."
+        ]
+      }
+    }
+  },
+  "claims": [
+    {
+      "text": "Join thousands on Shopify Plus accelerating growth through modern loyalty programs.",
+      "verdict": "unsupported",
+      "step": 1,
+      "evidenceStep": null
+    },
+    {
+      "text": "Prices in USD. Reviewed as of September 25, 2026.",
+      "verdict": "proven",
+      "step": 2,
+      "evidenceStep": null
+    },
+    {
+      "text": "Enterprise-ready, by Shopify's own measure.",
+      "verdict": "plausible",
+      "step": 1,
+      "evidenceStep": 5
+    }
+  ],
+  "focus": "install path"
+}

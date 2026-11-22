@@ -1,0 +1,49 @@
+URL: https://api-docs.omnisend.com/
+TITLE: Omnisend API
+DESCRIPTION: API reference and technical documentation for creating your Omnisend integration.
+
+OMNISEND DEVELOPERS
+Build with Omnisend API
+
+Designed for developers, here is an easy-to-follow resource to integrating with Omnisend via our API.
+
+Explore documentation
+Getting started
+
+Not sure where to begin? Browse our guides & API reference to get started. Plus, use our Postman collection for easy API calls.
+
+API Reference
+
+Dive into detailed API documentation designed to streamline your development process.
+
+Read API Reference
+Guides
+
+Step into a library of guides dedicated to developers looking to integrate with Omnisend.
+
+Read Guides
+Postman collection
+
+Make streamlined API calls with our pre-built Postman collection.
+
+Go to Postman collection
+Get award-winning 24/7 support
+
+With two consecutive Stevie Awards for fantastic customer support, we know how to get support right. Get top-notch 24/7 customer support to help you integrate with ease.
+
+24/7
+support
+12
+team members
+2:37
+minutes response time
+Contact support
+Join others which are integrated with Omnisend
+
+and many more...
+
+Build with Omnisend API
+
+Learn about Omnisend API. Our documentation is here to help with your integration needs.
+
+Explore documentation

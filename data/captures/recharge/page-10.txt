@@ -1,0 +1,43 @@
+URL: https://docs.getrecharge.com/docs/understanding-recharge
+TITLE: Understanding Recharge
+DESCRIPTION: Recharge is the leading subscription payments solution providing you with an easy way to launch and scale your subscription business.
+
+What is Recharge?
+
+Recharge empowers ecommerce businesses to offer subscriptions and recurring billing for their customers. We offer two ways to get started with Recharge:
+
+Pre-built ecommerce platform integrations: No-code integrations with Shopify allow you to get up and running in no time if you use those platforms
+Custom integration. Recharge offers a comprehensive and flexible API that allows users who have a bespoke setup to directly fit Recharge within their existing stack
+
+Recharge uses a subscription widget to let online shoppers purchase their favorite products on a recurring basis. You can configure the widget to display different subscription frequency options. Customers can then see subscription frequency options on product pages, and select how often they want to receive an item.
+
+Recharge offers different subscription models and core features that take subscriptions to the next level. Check out Getting Started with Recharge in the Recharge Help Center for more information.
+
+The Recharge Developer Docs
+
+The Recharge Developer Docs provides curated knowledge to assist developers in effectively utilizing Recharge's tools and features. Within the DevDocs you'll find:
+
+Product overviews
+Configuration tutorials
+Step-by-step guides
+
+This content helps you maximize the subscriber experience, and unlock the full potential of your integration with Recharge.
+
+Other resources
+Support documentation
+
+Visit the Recharge Help Center for more information on using Recharge's out-of-the-box integration.
+
+Changelogs
+
+Subscribe to our business changelog for updates on new features, deprecations and breaking changes.
+
+Become a Recharge Agency Partner
+
+Agency partners are uniquely positioned to help merchants achieve their full potential by offering subscriptions tailored to their brand and values.
+
+We maintain an ecosystem of tools and programs specifically dedicated to our agency partners to allow them to keep up to date with Recharge. See Recharge Partner Program for more information.
+
+Updated about 1 year ago
+
+Copy Page

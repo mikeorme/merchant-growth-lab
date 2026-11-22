@@ -1,0 +1,233 @@
+URL: https://getrecharge.com/pricing/
+TITLE: Subscription pricing plans for every stage of growth | Recharge
+DESCRIPTION: Explore Recharge pricing plans designed to support ecommerce brands at every stage, with flexible features for scaling subscription growth.
+
+Scalable rates for every
+stage of growth
+
+Starter
+
+For emerging brands launching their subscription program
+
+$149/mo
+
+TRY FOR FREE
+MOST POPULAR
+
+Scale
+
+For scaling brands ready to optimize their subscription strategy
+
+$499/mo
+
+TALK TO US
+
+Custom
+
+For high-volume subscription brands, looking to improve subscriber retention
+
+Volume-based rates
+
+CONTACT US
+
+Processing fees at:
+
+1.50% + 20¢ per transaction
+
+What’s inside
+
+Subscription-first product page widget
+Acquire 4x more subscribers with a customizable subscription widget
+No-code customer portal
+Customize your portal in minutes—no code required—and empower subscribers with a streamlined, self-serve experience
+Upsell & cross-sell tools
+Increase subscription conversion & AOV with strategic upsell & cross-sell touchpoints across the customer journey
+Smart Cancellation Prevention
+Craft personalized, no-code cancellation journeys that give subscribers compelling reasons to stay and surface insights that help prevent future churn.
+Failed Payment Recovery
+Recover up to 88% of failed payments with AI-powered retries and smart notifications that make updating payment details effortless.
+Win Back solutions
+Recover more lapsed subscribers with targeted offers, custom reactivation pages, and instant charge processing that speeds their return
+Automated workflows
+Boost retention, conversion & LTV with automated, high-impact flows like welcome offers and starter-to-refill transitions
+Analytics & industry benchmarks
+Track key metrics in real time and measure your performance against industry benchmarks
+
+Processing fees at:
+
+1.25% + 20¢ per transaction, with scalable transaction rates to support your growth
+
+Everything in Starter, and:
+
+Hands-on implementation
+Get expert project support with regular check-ins, best-practice guidance, and dedicated resources to ensure a smooth, confident path to launch
+End-to-end migration support
+Move to Recharge with confidence through precise data validation, automated preparation tools, and a cutover strategy proven to prevent disruption and eliminate errors
+Customizable bundles
+Increase retention and AOV with curated or build-your-own bundles that speed up checkout and encourage repeat purchases
+Tiered discounts
+Reward larger orders automatically with discounts that grow as subscribers buy more, lifting AOV without manual work
+Surprise & delight gifting
+Boost retention by surprising subscribers with free gifts and incentives; then A/B test different strategies to find the most impactful approach
+Subscriber journey A/B testing
+Test offers, flows, and experiences across the full subscriber journey, from acquisition through retention to find what actually works
+Remi – AI Agent
+Ask anything about your store and get instant answers from your own data; churn drivers, MRR, failed charges, and setup guidance, right in your dashboard
+Concierge SMS*
+Allow customers to manage subscriptions by text—skip, delay, ship sooner, or add products instantly. Reduce churn, strengthen retention, and lift order values with proactive, AI-powered messages
+Javascript SDK & Storefront API
+Create highly personalized subscription experiences by seamlessly integrating Recharge into your storefront
+
+*+$0.03 US & Canada / + $0.06 International per message segment
+
+Custom implementations
+Get tailored workflows and integrations built around your unique business needs, designed to scale
+Dedicated priority technical support
+Priority access to technical specialists who know your setup and keep everything running smoothly
+Review of solution architecture
+Expert evaluation of subscription infrastructure to optimize performance and scalability
+Enterprise business reviews
+Receive strategic, recurring reviews to track results, uncover opportunities, and guide long-term growth
+Starter
+Scale
+Custom
+
+Subscription Platform
+
+Unified checkout on Shopify
+
+Native integration with Shopify discounts, tax, and shipping
+
+Secure and flexible payment support*
+End-to-end payment flexibility and secure vaulting so shoppers can pay their way—safely and seamlessly
+
+Customer portal
+An intuitive, self-serve portal that allows customers to add and swap products, reschedule deliveries, and engage with your brand
+
+Smart Cancellation Prevention
+Personalize cancellation flows with targeted offers, A/B testing, and smart branching to retain more customers
+
+Failed Payment Recovery
+Recover more revenue with smart retries, frictionless payment updates, and analytics that optimize passive churn recovery
+
+Win Backs
+Bring lapsed subscribers back with personalized incentives, branded reactivation pages, and one-tap, passwordless reactivation
+
+Passwordless customer login
+
+Prepaid subscriptions
+
+Surprise & delight gifting
+Boost retention by surprising subscribers with free gifts and incentives; then A/B test different strategies to find the most impactful approach
+
+Merchant admin portal
+Your central hub for managing all Recharge configurations and subscription settings
+
+Third-party integrations library
+Integrate with the major tools you use across ecommerce, marketing, and operations
+
+Permissions management
+Manage accessibility for every admin and team member in your Recharge portal
+
+Bulk manage subscriptions
+Make bulk updates to subscriptions for fast, efficient changes at scale
+
+Robust and flexible API
+
+Javascript SDK & Storefront API access
+Integrate Recharge into your storefront for highly personalized subscription experiences
+
+Configurable rate limits
+Access higher rate limits as usage of the Recharge API grows
+
+Upsell & Cross-Sell
+
+Checkout Upsell & Cross-sell
+Boost conversion with targeted offers at checkout
+
+Post-purchase Cross-sell
+Show personalized, one-click add-ons after checkout to boost AOV with no extra friction
+
+Cart & Cart Overlay Upsell
+Convert one-time purchases to subscriptions with full upsell analytics and expandable options for future cross-sells and other features
+
+Workflow Automations
+
+Subscription setup & product transitions
+Automate subscription setup and product transitions with Kit Unpacking and Starter Packs to Refills workflow templates
+
+Product journeys & scheduled experiences
+Design product journeys with looping or fixed sequences and schedule recurring shipments to create engaging subscriber experiences
+
+Subscriber acquisition offers
+Convert first-time buyers with trial-to-subscription and welcome offer flows that transition customers into long-term subscribers
+
+Bundles
+
+One-time purchase bundling functionality
+
+Subscription based bundling functionality
+
+Preset Bundles
+Create pre-configured bundles of products at a set price
+
+Customizable Bundles
+Allow customers to mix and match products to create their own personalized bundles
+
+Bundles SDK
+Build custom bundle experiences using pre-made developer components.
+
+Bundles API
+API access for full control over bundle logic and workflows.
+
+SMS & Email (Communications)
+
+Concierge SMS
+Allow customers to manage subscriptions by text—skip, delay, ship sooner, or add products
+
+$0.03 US / $0.06 International per message
+
+$0.03 US / $0.06 International per message
+
+Upcoming order email
+Deliver branded, actionable reminders that let customers delay shipments or add products in a single click—no login required
+
+Subscriber reactivation campaigns
+Automated win-back campaigns that re-engage canceled subscribers with targeted offers and seamless reactivation links
+
+Analytics
+
+Remi – AI Agent
+Ask anything about your store and get instant answers from your own data; churn drivers, MRR, failed charges, and setup guidance, right in your dashboard
+
+Revenue and order performance
+Track revenue, recurring orders, upcoming shipments to understand how subscriptions contribute to your business growth
+
+Conversion, retention, & subscription health
+Monitor churn, subscriber lifecycle trends, and subscription performance to identify what’s working and where customers drop off
+
+Customer behavior & lifecycle actions
+See how customers engage with their subscriptions to optimize experiences
+
+Campaign performance
+Measure the impact of Upsell and Cross-sell experiences, Win Back campaigns, and recovery flows to see which campaigns drive higher retention and revenue
+
+Rewards & Referrals program performance
+Analyze how your rewards and referral programs influence repeat purchases, subscriber growth, and customer LTV
+
+Support & Services
+
+24/7 Support
+
+Within 8 hours
+
+Within 6 hours
+
+Live video support within 4 hours
+
+*Not applicable with Shopify Checkout Integration.
+**Business hours: Monday-Friday, 6AM-6PM PST
+
+SHOW COMPARISON
+
+Powering the leading brands in every vertical

@@ -1,0 +1,359 @@
+{
+  "dossier": {
+    "sections": [
+      {
+        "id": "positioning",
+        "title": "Positioning",
+        "summary": "Mailchimp, now presented under the Intuit brand, sells email and SMS marketing with AI and automation to small and growing businesses, with industry pages for restaurants, ecommerce, nonprofits and more.",
+        "keyPoints": [
+          "Homepage: 'Turn ideas into emails & SMS that connect', with an Intuit Intelligence line about winning back customers who've gone quiet.",
+          "A banner offers a free 14-day trial or 15% off on 10,000+ contacts.",
+          "The homepage names a competitor: 'Save up to 42% by switching from Klaviyo to Mailchimp*'.",
+          "Industry pages such as the restaurants page repeat the unified email and SMS pitch in each trade's terms."
+        ]
+      },
+      {
+        "id": "offerings",
+        "title": "Products and offerings",
+        "summary": "An email and SMS marketing suite with AI content tools, automation and a large integration catalog.",
+        "keyPoints": [],
+        "table": {
+          "columns": [
+            "Product",
+            "What it does"
+          ],
+          "rows": [
+            [
+              "Email marketing",
+              "Campaigns, templates, an email builder, A/B testing and popup forms"
+            ],
+            [
+              "SMS marketing",
+              "Texting alongside email, with consent and compliance"
+            ],
+            [
+              "Marketing automation flows",
+              "Behavior-based triggers; customers see up to 8x more orders with flows, by Mailchimp's claim"
+            ],
+            [
+              "AI and content tools",
+              "Generative AI features, Content Studio and dynamic content"
+            ],
+            [
+              "Landing pages and social",
+              "Landing pages and social media marketing"
+            ],
+            [
+              "Transactional email",
+              "A separate API product for developers"
+            ],
+            [
+              "Integrations",
+              "300+ apps including Shopify, WooCommerce, Square, Stripe and Canva"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "pricing",
+        "title": "Pricing",
+        "summary": "Priced by contact count, with a free plan, a 14-day free trial of the Standard plan and paid tiers from $20 a month. The page is a configurator, so most prices appear only after you choose a contact tier.",
+        "keyPoints": [
+          "'Under 250 contacts? It's free.'",
+          "Standard is the lead plan: free for 14 days, then from $20 a month, sending up to 6,000 emails a month at the lowest contact tier.",
+          "A contacts menu steps from 0-500 up to 1,000,000+; a 15% discount applies from 10,000+ contacts.",
+          "Overages apply if the contact or email-send limit is exceeded, and the page notes a 'Find the right plan' recommendation flow and nonprofit rates."
+        ],
+        "table": {
+          "columns": [
+            "Plan",
+            "What the page shows"
+          ],
+          "rows": [
+            [
+              "Free",
+              "For under 250 contacts"
+            ],
+            [
+              "Essentials",
+              "A cheaper step down from Standard; price depends on contacts"
+            ],
+            [
+              "Standard",
+              "Free for 14 days, then from $20 a month; generative AI, enhanced automations, custom-coded templates, popup forms, personalized onboarding"
+            ],
+            [
+              "Premium",
+              "Higher tier for large senders; price depends on contacts"
+            ]
+          ]
+        },
+        "gaps": [
+          "Essentials and Premium prices were not on the page text; a currency selector and the contact configurator hide most prices."
+        ]
+      },
+      {
+        "id": "merchandising",
+        "title": "Merchandising",
+        "summary": "A configurator-led ladder that leads with the middle plan on a free trial and lets visitors downgrade later. Promotions are used heavily, including against a named competitor.",
+        "keyPoints": [
+          "Standard is the default offer: 'Try our Standard plan for free!', with a note that you can downgrade to Essentials or Free at any time.",
+          "A contact-tier menu, a currency selector, a 'Find the right plan' flow and a 15% volume discount make the price list interactive.",
+          "A switch offer ('Save up to 42% by switching from Klaviyo') targets a rival's customers.",
+          "For merchants: automation flows, A/B testing, dynamic content, SMS and email together, landing pages and 300+ integrations."
+        ]
+      },
+      {
+        "id": "platform",
+        "title": "Technical platform",
+        "summary": "A developer section covers the Marketing API and Transactional API with release notes, and the docs advertise a machine-readable index for AI agents.",
+        "keyPoints": [
+          "A public changelog lists API changes for Transactional and the Marketing API, including new Audiences endpoints in beta and a longer webhook retry interval.",
+          "A line on the page tells AI agents that a documentation index is available at /llms.txt, with a markdown version of each page.",
+          "The integrations directory has 300+ apps, filterable, including a developer-tools category."
+        ],
+        "gaps": [
+          "API reference and rate limits were not read."
+        ]
+      },
+      {
+        "id": "design",
+        "title": "Design",
+        "summary": "Warm and friendly: a rounded serif display, a signature yellow and dark brown, pill buttons and a photographic hero. The signup and developer pages use different styles.",
+        "keyPoints": [
+          "Marketing pages use Means Web with yellow (#ffe01b) and dark brown (#231e15) and 26px button corners.",
+          "The home hero is a darkened photograph with a white headline and an italic yellow 'that connect', with a star rating and review-site logos below.",
+          "The pricing page puts a white Standard plan card with a contact-tier menu at the right of a headline and a checklist.",
+          "The signup page switches to Graphik Web with teal (#017e89) and 38px corners, and the developer release notes use teal-blue with 8px corners.",
+          "A strip of Intuit brand links (TurboTax, Credit Karma, QuickBooks, Mailchimp) sits above the header.",
+          "The home page is 8,340px tall."
+        ],
+        "gaps": [
+          "Dark mode was not assessed."
+        ]
+      },
+      {
+        "id": "company",
+        "title": "Company presentation",
+        "summary": "A scale and ratings story, now under the Intuit umbrella, with big numbers that differ from page to page.",
+        "keyPoints": [
+          "Homepage: customers generated $1.1 billion in gross revenue in 62 days, with a rating based on 33,000+ reviews.",
+          "The pricing page says customers see up to 27x ROI; the content-tools page says up to 30x.",
+          "The content-tools page claims 11M+ users and more than 99% deliverability.",
+          "Success stories include Budget Atlanta's 4x open rates from segmentation."
+        ],
+        "gaps": [
+          "No leadership information in the surveyed pages."
+        ]
+      }
+    ]
+  },
+  "signupPath": "From the homepage 'Start Free Trial' goes to the pricing page, where the plan card's own 'Start Free Trial' and a 'Sign Up' button lead on, three clicks in total, to login.mailchimp.com/signup headed 'Start with Mailchimp for Free'. It is a real account form asking language, business email, username and password, with a line saying you agree to the Terms and have read the Global Privacy Statement. Nothing was entered.",
+  "scores": {
+    "jtbd_fit": {
+      "score": 5,
+      "evidence": "Every page is about reaching customers by email and SMS; industry pages name the trade.",
+      "step": 1
+    },
+    "capability_visible": {
+      "score": 4,
+      "evidence": "Features pages, an interactive product tour and a free plan show a lot; the app itself is behind signup.",
+      "step": 3
+    },
+    "pricing_transparency": {
+      "score": 3,
+      "evidence": "Free, and 'from $20' for Standard are clear; other prices appear only after choosing a contact tier.",
+      "step": 2
+    },
+    "product_breadth": {
+      "score": 4,
+      "evidence": "Email, SMS, flows, AI tools, landing pages and transactional are each explained.",
+      "step": 3
+    },
+    "platform_depth": {
+      "score": 4,
+      "evidence": "Marketing and Transactional APIs with a public changelog and an llms.txt index.",
+      "step": 9
+    },
+    "time_to_value": {
+      "score": null,
+      "evidence": "Capture stops before the product; first-value time was not observed.",
+      "step": null
+    },
+    "friction": {
+      "score": 3,
+      "evidence": "The trial path takes three clicks and ends at a form asking language, business email, username and password.",
+      "step": 13
+    },
+    "trust": {
+      "score": 4,
+      "evidence": "A rating based on 33,000+ reviews, review-site logos and case studies with numbers.",
+      "step": 1
+    },
+    "mobile": {
+      "score": null,
+      "evidence": "Phone captures exist for home and pricing but were not assessed.",
+      "step": null
+    },
+    "states": {
+      "score": null,
+      "evidence": "No error or empty states reached.",
+      "step": null
+    },
+    "a11y_basics": {
+      "score": null,
+      "evidence": "Not tested.",
+      "step": null
+    },
+    "value_prop_clarity": {
+      "score": 4,
+      "evidence": "'Turn ideas into emails and SMS that connect' is clear about the channels.",
+      "step": 1
+    },
+    "proof_quality": {
+      "score": 3,
+      "evidence": "ROI claims carry asterisks and differ across pages (27x vs 30x); revenue and rating figures are not sourced on the page.",
+      "step": 2
+    },
+    "persuasion_integrity": {
+      "score": 3,
+      "evidence": "A '42% switch from Klaviyo' offer has an asterisk; trial terms are linked but long.",
+      "step": 1
+    },
+    "cta_logic": {
+      "score": 4,
+      "evidence": "'Start Free Trial' is the one consistent primary action, with 'Get a demo' beside it.",
+      "step": 1
+    },
+    "company_narrative": {
+      "score": 4,
+      "evidence": "The email-and-SMS-with-AI story holds across pages; the Intuit framing is added on top.",
+      "step": 7
+    },
+    "offer_packaging": {
+      "score": 4,
+      "evidence": "Four plans with a configurator and clear lead plan; prices beyond the lowest tier are hidden.",
+      "step": 2
+    },
+    "offer_architecture": {
+      "score": 4,
+      "evidence": "Free tier, a 14-day trial of the middle plan, a downgrade path, a volume discount and a competitor-switch offer.",
+      "step": 2
+    },
+    "merchant_merch_tools": {
+      "score": 4,
+      "evidence": "Automation flows, A/B testing, dynamic content, SMS plus email and landing pages; no catalogue tools.",
+      "step": 3
+    },
+    "visual_craft": {
+      "score": 4,
+      "evidence": "Warm, legible hierarchy with a distinctive yellow; busy top bars.",
+      "step": 1
+    },
+    "system_coherence": {
+      "score": 3,
+      "evidence": "Marketing, signup and developer pages use different fonts, colors and button shapes.",
+      "step": 13
+    },
+    "merchant_design_control": {
+      "score": 4,
+      "evidence": "Branded templates, custom-coded email templates, popup forms and a Canva integration.",
+      "step": 5
+    }
+  },
+  "read": {
+    "summary": "A mature email and SMS platform with a trial-first, configurator-led pricing page and a lot of promotional energy, including an offer aimed at a named competitor. Proof numbers are large but unsourced and inconsistent between pages.",
+    "pros": [
+      "A free plan and a 14-day trial of the middle plan lower the entry bar.",
+      "A public API changelog and an llms.txt index.",
+      "Many merchant tools: flows, A/B tests, SMS plus email and landing pages.",
+      "Case studies and a ratings count add proof."
+    ],
+    "cons": [
+      "Most prices appear only after choosing a contact tier.",
+      "ROI claims differ between pages (27x and 30x) and carry asterisks.",
+      "The trial path takes three clicks and a long form.",
+      "Signup, marketing and developer pages look like different products."
+    ],
+    "howItSells": "Sells approachability and results: a friendly brand, a free start, big revenue and ROI numbers, and a direct switch offer against a competitor.",
+    "copy": [
+      "Make a trial of the middle plan the default offer.",
+      "Let visitors downgrade later and say so.",
+      "Use a configurator for contact-based pricing."
+    ],
+    "avoid": [
+      "ROI numbers that change from page to page.",
+      "A form that asks for username as well as email."
+    ],
+    "tactics": [
+      "anchoring",
+      "social_proof",
+      "commitment_ladder",
+      "loss_aversion"
+    ],
+    "confidence": "medium",
+    "unknowns": [
+      "Prices above the lowest contact tier.",
+      "What the trial includes in practice.",
+      "Mobile experience.",
+      "Essentials and Premium plan details."
+    ],
+    "hypothesis": {
+      "statement": "Showing a plain price table for the first three contact tiers next to the configurator will raise trial starts among visitors who leave before choosing a tier.",
+      "metric": "Pricing-page trial-start rate",
+      "guardrail": "Plan-change and support contacts about billing",
+      "decisionRule": "Ship if trial starts rise by a pre-agreed margin and billing contacts do not rise over four weeks."
+    },
+    "subjects": {
+      "merchandising": {
+        "summary": "A trial-first ladder with a heavy use of promotions, strongest on merchant tools and weakest on showing prices.",
+        "pros": [
+          "Free plan plus a trial of the middle plan.",
+          "Volume discount at 10,000+ contacts.",
+          "A competitor-switch offer."
+        ],
+        "cons": [
+          "Prices hidden behind a configurator.",
+          "Asterisked savings claims."
+        ]
+      },
+      "design": {
+        "summary": "Friendly and distinctive on the marketing site, with a clear seam at signup and the developer pages.",
+        "pros": [
+          "A recognisable yellow and a warm serif give personality.",
+          "The pricing page puts one plan card next to a clear promise."
+        ],
+        "cons": [
+          "Signup and developer pages switch fonts and colors.",
+          "Two stacked top bars before the page starts."
+        ]
+      }
+    }
+  },
+  "claims": [
+    {
+      "text": "Mailchimp customers generated $1.1 billion in gross revenue in just 62 days.",
+      "verdict": "unsupported",
+      "step": 1,
+      "evidenceStep": null
+    },
+    {
+      "text": "Find out why customers see up to 27x ROI* using the Standard plan with a 14-day trial†.",
+      "verdict": "unsupported",
+      "step": 2,
+      "evidenceStep": 5
+    },
+    {
+      "text": "Save up to 42% by switching from Klaviyo to Mailchimp*",
+      "verdict": "unsupported",
+      "step": 1,
+      "evidenceStep": null
+    },
+    {
+      "text": "Under 250 contacts? It's free.",
+      "verdict": "proven",
+      "step": 2,
+      "evidenceStep": null
+    }
+  ]
+}

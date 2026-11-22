@@ -1,0 +1,331 @@
+URL: https://www.wix.com/features/main
+TITLE: Explore Wix Features | Wix.com
+DESCRIPTION: Browse all of Wix’s advanced design features and professional solutions by category to help you create a website plus manage and grow your business
+
+Pricing plans
+
+Wix Features
+
+Explore all the features you need to create your website and grow online.
+
+Design features
+
+CREATE A WEBSITE
+
+Create Your Site
+Learn more
+Mobile site editor
+
+Customize the design and layout of your site for a seamless mobile experience.
+
+Entrance animations
+
+Draw attention to where you want it most by adding dozens of animation effects to your site.
+
+Image shape crop
+
+Crop your images however you want, whether it's manually, by shape, or by ratio.
+
+Image filters
+
+Edit and enhance your images with a large selection of filter options.
+
+VideoBox
+
+Showcase videos in a unique way. Edit the design of the box and 'play' button, add overlays and more, to make your videos really pop.
+
+Custom fonts
+
+Upload and use your own fonts so that your site fully matches the vibe of your brand.
+
+Gradients
+
+Create eye-catching backgrounds for elements on your site using gradients.
+
+Transparent videos
+
+Add videos with a transparent background made by leading designers or upload your own.
+
+Website templates
+
+Choose from 900+ pro-designed templates and customize one to make it your own.
+
+Text Mask
+
+Fill your text with a unique video, image or gradient to create an extraordinary visual.
+
+Shape Dividers
+
+Add Shape Dividers to your strips and sections, and customize them to split the layout of your site in a more interesting way.
+
+Sections
+
+Add and customize sections on your site to begin structuring your pages and their content.
+
+Custom interactions
+
+Make your site interactive by triggering animations when visitors perform specific actions, like hovering, scrolling or clicking.
+
+Vector Art
+
+Add Vector Art to bring life to your site. Choose from 100s of free options or upload your own.
+
+Slideshows
+
+Customize slideshows to display images and content on your site in a unique way.
+
+Background scroll effects
+
+Grab people's attention and add some fun to your site with a scrolling background effect.
+
+Color & text themes
+
+Customize your color and text themes to easily change your entire site's look, feel, and aesthetic.
+
+My Designs
+
+Save an element or group of elements to My Designs to reuse on any site in your account.
+
+Mobile welcome screen
+
+Create a mobile site welcome screen to introduce your brand, while allowing the site to fully load in the background.
+
+Pro Gallery
+
+Showcase your photos and videos in the highest quality with a customizable gallery.
+
+Drag & drop editor
+
+Customize every aspect of your site's design to match your vision with an intuitive editor.
+
+Video Mask
+
+Shape VideoBoxes in a unique way—choose from shapes and vector art, or upload your own.
+
+Essentials
+
+CREATE A WEBSITE
+
+Create Your Site
+App Market
+
+Gain access to hundreds of third-party apps to help you enhance your site and grow your business.
+
+Code development platform
+
+Add code to your site for advanced design control and functionality.
+
+Multiple site collaborators
+
+Invite people to collaborate on your site and manage their roles and permissions.
+
+Multilingual website
+
+Translate your site into multiple languages to communicate with visitors around the world and expand to new markets.
+
+Page duplication
+
+Duplicate pages on your site, or copy a page into a different site for increased efficiency and convenience.
+
+Accessibility Wizard
+
+Make your website accessible to people with disabilities.
+
+Customizable 404 error pages
+
+Customize the 404 page that visitors see when trying to access a page that doesn’t exist on your site.
+
+Landing page builder
+
+Create all different types of landing pages to generate leads and drive traffic to your site.
+
+Site menu design
+
+Customize your site menu to improve navigation and promote specific pages with mega menus and submenus.
+
+Image upload
+
+Populate your site with images of your choice to make it look more professional and truly make it your own.
+
+Video upload
+
+Upload your own content to your site, or add videos from YouTube, Facebook and more to engage your visitors.
+
+Social bar
+
+Add a social bar to your site to display icons that link directly to your social media platforms.
+
+Free media from Wix
+
+Choose from thousands of free high-quality images, videos, icons, and more to make your site stand out.
+
+Affiliate links
+
+Add affiliate links to text, images or buttons to direct your site visitors to websites you're affiliated with to earn money.
+
+Text & icon buttons
+
+Customize buttons to encourage your site visitors to click and perform the action you want.
+
+AI generated text
+
+Enter a few keywords and let AI help you generate unique text for your site's pages.
+
+Photo Studio 
+
+Add filters, edit and enhance your images straight from the Editor.
+
+Site search
+
+Add a site search to help your visitors find the most relevant content, products and services on your website.
+
+Anchor links
+
+Link to specific sections of a page to help improve your site navigation.
+
+Google Maps
+
+Add Google Maps to showcase your location and make it easy for visitors to get directions to you in one click. 
+
+Audio player
+
+Feature music or podcasts on your site to engage visitors.
+
+YouTube feed
+
+Add a YouTube feed to your site and enable each new video you add to automatically sync to your site.
+
+Lightbox pop-ups
+
+Add a pop-up to draw your visitors' attention and showcase important info, discounts and more.
+
+Content Management System
+
+Store and manage all of your site content in one place, plus create CMS collections and dynamic pages without writing a line of code.
+
+Site backups
+
+Access your site history to see when a change was made, who performed the change or to restore a previous version.
+
+Branded app builder
+
+Create your own fully branded native mobile app. No code needed.
+
+Infrastructure
+
+CREATE A WEBSITE
+
+Create Your Site
+Domain registration
+
+Search, buy and register a domain name for your website—all in one place.
+
+Web hosting
+
+Get reliable, scalable and free web hosting to build your online presence.
+
+High perfomance
+
+Get industry-leading performance at the core of every site you build.
+
+Accessibility
+
+Use our built-in accessibility features to create a website that is accessible to everyone, regardless of ability.
+
+Website security
+
+Get enterprise-grade security with every site all the way from threat prevention to real-time detection and rapid response.
+
+SSL certificate validation
+
+All Wix sites include the HTTPS and SSL protocols to ensure secure communication between your site and its visitors.
+
+99.98% uptime
+
+Reliable infrastructure ensures your site stays up and running 99.98% of the time so site vistors can enjoy a seamless online experience.
+
+Domain transfer
+
+Seamlessly transfer a domain purchased elsewhere to your Wix site.
+
+Generate with AI
+AI Website Builder | Wix Harmony
+
+Use a prompt to generate a professional, business-ready site—complete with content, images and your brand kit already set up, with business solutions connected and ready to go. Then customize anything through vibe-coding or hands-on editing.
+
+Create a Site
+
+Marketing Agent | Kleo
+
+Grow your audience with a personalized AI marketing plan. Kleo drafts social posts, runs email campaigns and optimizes your SEO, all automatically and on your approval.
+
+Custom Agent | Omni
+
+Automate complex, multi-step business workflows by giving Omni a single goal. It independently plans, executes and reports back, asking for your final sign-off.
+
+Front Desk Agent | Juno
+
+Manage your customer communications smarter. Juno automatically prioritizes incoming messages, drafts tailored responses, gives insights and suggests actions to grow revenue—across all your channels.
+
+Agentic power
+Wix AI Agents are a fleet of specialized experts, each built to autonomously handle a distinct business function, on your terms and on your cue. 
+Web Design & Business Agent | Aria 
+
+Tell Aria what you want, and she'll generate a complete, business-ready site for you. From there, she's your always-on expert that knows every corner of your site and business, so whether you need new elements built or your performance analyzed, just ask and it's done.
+
+Advanced AI tools
+Page & section generation
+
+Generate a complete site page or section from a simple description, with Aria handling the layout, content and imagery to fit your brand.
+
+AI image creator
+
+Generate a high-quality image in a click by simply describing the image you want, and then seamlessly adding it to your website.
+
+Image editing
+
+Edit any image by typing what you want changed—swap backgrounds, remove or cut out objects and get professional results instantly.
+
+Image background remover
+
+Refine and edit the background of any image, be it a person or product shot, by automatically removing the background.
+
+Upscale image resolution
+
+Enhance the quality of your photos in a click. Sharpen previously blurred images to make them look more professional.
+
+Image enhancer 
+
+Use the built-in image enhancer to edit and beautify your photos in seconds.
+
+Extend image
+
+Pull the edge of a photo and AI will fill in the rest matching the original texture, light and depth so seamlessly you’ll forget it wasn’t always there.
+
+AI product descriptions
+
+Speedily create product descriptions at scale. Answer a few questions about the product and instantly get options to choose from.
+
+AI Site Chat
+
+Your AI-powered chat learns everything about your business and uses that knowledge to guide visitors, answer questions and drive conversions 24/7.
+
+AI email generator
+
+Choose the type of email campaign you want to send out and let AI do the rest, all the way from the layout to content creation.
+
+AI blog creation
+
+Generate complete blog posts with AI, including custom images, SEO meta tags and a tone tailored to your brand.
+
+AI social captions
+
+Enhance your social posts with AI captions using marketing best practices. Pick the tone and get three options plus trending hashtags.
+
+AI Google ads
+
+Generate titles, descriptions and keywords for your Google ads using AI and then publish them directly from the Wix editor.
+
+AI SEO metatags
+
+Instantly generate optimized meta titles 

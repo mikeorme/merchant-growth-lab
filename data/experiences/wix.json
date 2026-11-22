@@ -1,0 +1,1946 @@
+{
+  "id": "wix",
+  "name": "Wix",
+  "category": "store-builders",
+  "url": "https://www.wix.com",
+  "flow": "site survey",
+  "capturedAt": "2026-11-22",
+  "rubricVersion": "1.2.0",
+  "status": "evaluated",
+  "surveyMode": "full",
+  "signupEnd": {
+    "state": "email-capture",
+    "url": "https://users.wix.com/signin/signup/password?view=sign-up&sendEmail=true&loginCompName=SignUp_H&referralInfo=SignUp_H&postSignUp=https%3A%2F%2Fwww.wix.com%2Fnew%2Fintro%2F&postLogin=https%3A%2F%2Fmanage.wix.com%2Faccount%2Froute&loginDialogContext=signup&originUrl=https%3A%2F%2Fwww.wix.com%2F&_gl=1*jbknf0*_gcl_au*NjIwNTA3NTM4LjE3OTUzMzE1OTM.",
+    "clicks": 1,
+    "fields": [
+      {
+        "type": "email",
+        "label": "Email"
+      }
+    ],
+    "alternatives": [
+      "Continue with Google",
+      "Continue with Facebook",
+      "Continue with Apple",
+      "Continue with Email"
+    ],
+    "submit": [
+      "Continue with Google",
+      "Continue with Facebook",
+      "Continue with Apple",
+      "Continue with Email"
+    ],
+    "consent": [
+      "* By signing up, you agree to our Terms of Use and acknowledge you’ve read our Privacy Policy",
+      "* By signing up, you agree to our Terms of Use and acknowledge you’ve read our Privacy Policy",
+      "* By signing up, you agree to our Terms of Use and acknowledge you’ve read our Privacy Policy"
+    ],
+    "pageHeightPx": 900,
+    "passwordAsked": false
+  },
+  "steps": [
+    {
+      "n": 1,
+      "kind": "home",
+      "title": "Wix.com - The platform trusted by millions of businesses",
+      "url": "https://www.wix.com/",
+      "screenshot": "shots/wix/step-1.webp",
+      "textFile": "data/captures/wix/page-1.txt",
+      "elapsedMs": 7012,
+      "clicks": 0,
+      "via": "entry",
+      "headings": [
+        "h1: Create your future on the leading website builder",
+        "h2: Wix Harmony is where you create a site that means business.",
+        "h2: Website creation, as natural as thinking",
+        "h2: Solutions to fuel every business move",
+        "h3: eCommerce",
+        "h3: Scheduling",
+        "h3: Lead management",
+        "h3: Portfolio",
+        "h3: Online courses",
+        "h3: Events",
+        "h3: Payments",
+        "h2: Templates for any industry",
+        "h2: Radical customization, remarkably simple",
+        "h3: Vibe-style creation",
+        "h3: Drag and drop freedom",
+        "h3: A library of possibilities",
+        "h3: Define your brand",
+        "h2: Meet Aria, your unfair advantage.",
+        "h2: Build your website on unshakeable foundations",
+        "h3: Reliability",
+        "h3: Security",
+        "h3: Expert core",
+        "h3: Functionality",
+        "h2: Create a website, get the perfect domain to match",
+        "h2: Spot the gaps, grab the opportunities",
+        "h2: A better way to run your day-to-day",
+        "h3: Custom automations",
+        "h3: Contact management",
+        "h3: Unified inbox",
+        "h2: Turn first click into repeat visits",
+        "h3: GEO and AI visibility",
+        "h3: Social media",
+        "h3: Google and Meta ads",
+        "h3: Email marketing",
+        "h2: Manage it all, wherever you are",
+        "h3: Owner App",
+        "h3: Dashboard",
+        "h2: You’re in good company",
+        "h2: This is what ready feels like.",
+        "h2: Wix FAQ"
+      ],
+      "ctas": [
+        "Start for free",
+        "Get Started",
+        "Explore Sites",
+        "Free Business Tools",
+        "Online Booking",
+        "Contact Us"
+      ],
+      "prices": [
+        "firmation emails Draft a new blog post Create a $250 pay link Create a new membership plan Make my s",
+        "Reliability Multi-cloud hosting that guarantees 99.99% uptime and lightning-fast load times give your si"
+      ],
+      "description": "Build the business you have in mind on a platform trusted by millions. Hosting, business tools, domains and marketing built in. Try it for free.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "wix-madefor-display-v2",
+            "body": "Madefor-Text",
+            "distinct": [
+              "Madefor-Display",
+              "Arial",
+              "wix-madefor-display-v2",
+              "wix-madefor-text-v2",
+              "Madefor-Text-MediumBold"
+            ]
+          },
+          "h1Px": 83,
+          "bodyPx": 16,
+          "bodyLineHeight": "24px",
+          "backgrounds": [
+            "#ffffff",
+            "#fff1ac",
+            "#ffe0ff",
+            "#000000"
+          ],
+          "accents": [
+            "#166aea"
+          ],
+          "textColor": "#5e5e5e",
+          "buttonRadius": "42px",
+          "buttonHeightPx": 40,
+          "images": 97,
+          "videos": 19,
+          "svgs": 196,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 17325,
+          "domNodes": 4434,
+          "domContentLoadedMs": 317,
+          "loadMs": 1728
+        },
+        "merch": {
+          "planCards": 1,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [
+            "Start for free. No credit card required."
+          ],
+          "links": 114
+        }
+      },
+      "mobileScreenshot": "shots/wix/step-1-mobile.webp"
+    },
+    {
+      "n": 2,
+      "kind": "pricing",
+      "title": "Wix Pricing Information | Upgrade to a Premium Plan | Wix.com",
+      "url": "https://www.wix.com/plans",
+      "screenshot": "shots/wix/step-2.webp",
+      "textFile": "data/captures/wix/page-2.txt",
+      "elapsedMs": 13655,
+      "clicks": 0,
+      "via": "nav: Pricing",
+      "headings": [
+        "h1: Find the right plan for you",
+        "h2: Light",
+        "h2: Business",
+        "h2: Business Elite",
+        "h2: Get a strong foundation with every plan",
+        "h3: AI website builder",
+        "h3: 2,000+ templates",
+        "h3: Powerful business tools",
+        "h3: Domain registration",
+        "h3: Reliable web hosting",
+        "h3: Advanced marketing",
+        "h2: Build your site in 5 simple steps",
+        "h2: See what's possible",
+        "h2: Solutions for agencies and enterprises",
+        "h3: Agencies & freelancers",
+        "h3: Enterprises",
+        "h2: We're here for you",
+        "h3: Get answers",
+        "h3: Contact us",
+        "h3: Hire a pro",
+        "h2: Create your site and scale with the right plan.",
+        "h3: What is Premium plan?",
+        "h3: Can I try a Wix Premium plan for free?",
+        "h3: How do I get my free domain?",
+        "h3: Why do I need a custom domain?",
+        "h3: How can I get my own personalized email address?",
+        "h3: Where can I find my billing information?",
+        "h3: What online payments are accepted?",
+        "h3: How do I know if the Enterprise plan is right for my business?",
+        "h3: How do I contact the Enterprise team?",
+        "h3: How do you support builds for large-scale projects?",
+        "h3: How does Wix handle security assessments / questionnaires?",
+        "h3: Are there special programs for schools or universities?"
+      ],
+      "ctas": [
+        "Start for free",
+        "Start for Free",
+        "Explore Sites",
+        "Free Business Tools",
+        "Online Booking",
+        "Contact Us"
+      ],
+      "prices": [
+        "web hosting with advanced security monitoring and 99.99% uptime for maximum reliability. Advanced marketi"
+      ],
+      "description": "Upgrade your Wix website to a premium plan and get a custom domain name, extra storage, traffic analytics and more. Check out Wix’s Premium Pricing Plans!",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "madefor-display",
+            "body": "Madefor-Text",
+            "distinct": [
+              "Madefor-Display",
+              "Arial",
+              "madefor-text",
+              "madefor-display",
+              "wix-madefor-text-v2"
+            ]
+          },
+          "h1Px": 60,
+          "bodyPx": 12,
+          "bodyLineHeight": "24px",
+          "backgrounds": [
+            "#ffffff",
+            "#e2efff",
+            "#c7d1ff",
+            "#101585"
+          ],
+          "accents": [
+            "#166aea",
+            "#101585"
+          ],
+          "textColor": "#5e5e5e",
+          "buttonRadius": "42px",
+          "buttonHeightPx": 40,
+          "images": 17,
+          "videos": 0,
+          "svgs": 250,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 7613,
+          "domNodes": 5521,
+          "domContentLoadedMs": 332,
+          "loadMs": 411
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [
+            "RECOMMENDED"
+          ],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [
+            "14-day money-back guarantee",
+            "No credit card required"
+          ],
+          "links": 82
+        }
+      },
+      "mobileScreenshot": "shots/wix/step-2-mobile.webp"
+    },
+    {
+      "n": 3,
+      "kind": "product",
+      "title": "Accept Payments Online, In Person and On The Go | Wix Payments",
+      "url": "https://www.wix.com/payments",
+      "screenshot": "shots/wix/step-3.webp",
+      "textFile": "data/captures/wix/page-3.txt",
+      "elapsedMs": 19940,
+      "clicks": 0,
+      "via": "nav: Payment solutions",
+      "headings": [
+        "h1: Accept payments with one powerful solution",
+        "h2: Let your customers choose how they pay",
+        "h3: Multiple payment methods",
+        "h3: Optimized checkout",
+        "h3: Wix Point of Sale (POS)",
+        "h3: Flexible payment options",
+        "h2: Manage your business on one platform",
+        "h3: All-in-one business solution",
+        "h3: Competitive processing fees",
+        "h3: Integrated payment dashboard",
+        "h3: Built-in dispute tool",
+        "h2: Get financial resources to grow your business directly from Wix",
+        "h3: Get instant access to your earnings with Wix Checking",
+        "h3: Get a cash advance to invest in growing your business",
+        "h2: Protect customers with secure transactions",
+        "h2: Get expert tips on how to accept payments online",
+        "h2: We’re here for you",
+        "h3: Find quick solutions",
+        "h3: Contact us",
+        "h3: Hire a pro",
+        "h2: Accepting payments online FAQ",
+        "h3: Why should I choose Wix Payments?",
+        "h3: How do I connect Wix Payments?",
+        "h3: What payment methods are available with Wix Payments?",
+        "h3: In which countries and currencies is Wix Payments available?",
+        "h3: What types of businesses are supported by Wix Payments?",
+        "h3: Can I use Wix Payments to accept payments in person?",
+        "h3: What are the processing fees for using Wix Payments?",
+        "h3: How do payouts work with Wix Payments?",
+        "h3: What else do I need to know about using Wix Payments?",
+        "h3: Why should I accept multiple payment options?",
+        "h3: How can I accept credit card payments online?",
+        "h3: How can I offer PayPal as a payment option for customers?",
+        "h2: Accept payments with Wix."
+      ],
+      "ctas": [
+        "Start for free",
+        "Get Started",
+        "Learn more",
+        "Free Business Tools",
+        "Online Booking",
+        "Contact Us"
+      ],
+      "prices": [],
+      "description": "Accept payments online with our own provider Wix Payments. Take payments securely using credit cards, Apple Pay and more from your website.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "madefor-display",
+            "body": "Madefor-Text",
+            "distinct": [
+              "Madefor-Display",
+              "Arial",
+              "madefor-display",
+              "madefor-text",
+              "madefor-display-bold"
+            ]
+          },
+          "h1Px": 48,
+          "bodyPx": 12,
+          "bodyLineHeight": "24px",
+          "backgrounds": [
+            "#ffffff",
+            "#014051",
+            "#000000",
+            "#f1f5f9"
+          ],
+          "accents": [
+            "#166aea",
+            "#d2ffa0"
+          ],
+          "textColor": "#5e5e5e",
+          "buttonRadius": "42px",
+          "buttonHeightPx": 40,
+          "images": 18,
+          "videos": 2,
+          "svgs": 75,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 9435,
+          "domNodes": 2315,
+          "domContentLoadedMs": 112,
+          "loadMs": 174
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [
+            "Discount pricing strategies to help you sell"
+          ],
+          "links": 82
+        }
+      }
+    },
+    {
+      "n": 4,
+      "kind": "platform",
+      "title": "Find Expert Services and Digital Assets | Wix Marketplace",
+      "url": "https://www.wix.com/marketplace",
+      "screenshot": "shots/wix/step-4.webp",
+      "textFile": "data/captures/wix/page-4.txt",
+      "elapsedMs": 23737,
+      "clicks": 0,
+      "via": "nav: Hire a professional",
+      "headings": [
+        "h1: Find expert skills in a global Marketplace",
+        "h2: Explore services",
+        "h2: Explore templates",
+        "h2: Hire an expert to fit your brief",
+        "h3: Web design",
+        "h3: Web development",
+        "h3: Marketing & SEO",
+        "h3: eCommerce websites",
+        "h2: Buy a template to kickstart your projects",
+        "h2: Turn your skills into revenue streams",
+        "h3: Sell your services",
+        "h3: Sell Wix Studio templates"
+      ],
+      "ctas": [
+        "Explore now",
+        "Learn more",
+        "Free Business Tools",
+        "Online Booking",
+        "Contact Us"
+      ],
+      "prices": [],
+      "description": "Explore specialist services and digital assets offered by web experts worldwide, and find what you need for your Wix and Wix Studio projects.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "madefor-display",
+            "body": "madefor-text",
+            "distinct": [
+              "Madefor",
+              "madefor-display",
+              "madefor-display-bold",
+              "Arial",
+              "madefor-text"
+            ]
+          },
+          "h1Px": 73,
+          "bodyPx": 14,
+          "bodyLineHeight": "24.2143px",
+          "backgrounds": [
+            "#ffffff",
+            "#f6f6f6",
+            "#dce8ff",
+            "#f1f5f8"
+          ],
+          "accents": [],
+          "textColor": "#000000",
+          "buttonRadius": null,
+          "buttonHeightPx": null,
+          "images": 49,
+          "videos": 1,
+          "svgs": 46,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 5141,
+          "domNodes": 1222,
+          "domContentLoadedMs": 138,
+          "loadMs": 217
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 69
+        }
+      }
+    },
+    {
+      "n": 5,
+      "kind": "solutions",
+      "title": "Enterprise web platform for teams that move fast | Wix Enterprise",
+      "url": "https://www.wix.com/studio/enterprise",
+      "screenshot": "shots/wix/step-5.webp",
+      "textFile": "data/captures/wix/page-5.txt",
+      "elapsedMs": 28140,
+      "clicks": 0,
+      "via": "nav: Enterprise",
+      "headings": [
+        "h1: The enterprise web platform for organizations that want to move fast",
+        "h2: What do you want to build today?",
+        "h3: Streamline multi-site management",
+        "h3: Generate new revenue opportunities with your partner networks",
+        "h2: Wix Enterprise is for organizations who:",
+        "h2: Everything you need in an enterprise web platform",
+        "h3: Centralized dashboard",
+        "h3: Analytics",
+        "h3: Enterprise-grade security",
+        "h3: Multi-site management",
+        "h3: Access and workflow",
+        "h3: Resilience",
+        "h2: Take a tour through the product",
+        "h2: Wix Enterprise FAQ",
+        "h3: How does Wix Enterprise use AI?",
+        "h3: Is Wix Enterprise secure?",
+        "h3: What is Wix Enterprise?",
+        "h3: What can Wix Enterprise be used for?",
+        "h3: How is Wix Enterprise different from Wix Studio?",
+        "h3: How is Wix Enterprise different from other enterprise website platforms?"
+      ],
+      "ctas": [
+        "Get a Demo",
+        "Book a demo",
+        "Learn more",
+        "Contact Us"
+      ],
+      "prices": [
+        "orkflows for proper go-live approval Resilience 99.99% uptime SLA with automatic disaster recovery Take"
+      ],
+      "description": "Launch websites faster, manage them at scale and keep every site on brand. Wix Enterprise is the web platform for organizations running many sites at once.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "wix-madefor-display-v2",
+            "body": "Madefor-Text",
+            "distinct": [
+              "Madefor-Display",
+              "Arial",
+              "Madefor-Text",
+              "wix-madefor-display-v2",
+              "wix-madefor-text-v2"
+            ]
+          },
+          "h1Px": 60,
+          "bodyPx": 18,
+          "bodyLineHeight": "22px",
+          "backgrounds": [
+            "#ffffff",
+            "#000000",
+            "#0e0e0e",
+            "#06063b"
+          ],
+          "accents": [],
+          "textColor": "#666666",
+          "buttonRadius": "0px",
+          "buttonHeightPx": 57,
+          "images": 24,
+          "videos": 1,
+          "svgs": 63,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 9797,
+          "domNodes": 1556,
+          "domContentLoadedMs": 93,
+          "loadMs": 166
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 65
+        }
+      }
+    },
+    {
+      "n": 6,
+      "kind": "company",
+      "title": "Latest Updates and News from Wix.com | Newsroom",
+      "url": "https://www.wix.com/press-room/home",
+      "screenshot": "shots/wix/step-6.webp",
+      "textFile": "data/captures/wix/page-6.txt",
+      "elapsedMs": 32750,
+      "clicks": 0,
+      "via": "nav: Press & Media",
+      "headings": [
+        "h1: Newsroom",
+        "h2: IN THE NEWS",
+        "h2: SPOTLIGHT",
+        "h2: CONTACT",
+        "h2: SOCIAL"
+      ],
+      "ctas": [
+        "Start for free",
+        "contact page",
+        "Free Business Tools",
+        "Online Booking",
+        "Contact Us"
+      ],
+      "prices": [
+        "News Sep 1 2026 HOSTING ADVICE .Org Sites Are 34% Likelier To Generate Ecommerce Revenue Than .Com"
+      ],
+      "description": "Stay informed with the latest news, updates, and developments from Wix",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "wfont_baac51_c83742bc2fc348b4b0eebb746a189ef7",
+            "body": "Madefor-Text",
+            "distinct": [
+              "Madefor-Display",
+              "Arial",
+              "wfont_baac51_c83742bc2fc348b4b0eebb746a189ef7",
+              "wfont_1f4e5a_a4dab464d39a4954a3f7d14cdb48d3ed",
+              "madefor-display"
+            ]
+          },
+          "h1Px": 68,
+          "bodyPx": 14,
+          "bodyLineHeight": "24px",
+          "backgrounds": [
+            "#ffffff",
+            "#000000",
+            "#e0e0e0",
+            "#166aea"
+          ],
+          "accents": [
+            "#166aea"
+          ],
+          "textColor": "#5e5e5e",
+          "buttonRadius": "42px",
+          "buttonHeightPx": 40,
+          "images": 19,
+          "videos": 0,
+          "svgs": 34,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 6322,
+          "domNodes": 1234,
+          "domContentLoadedMs": 677,
+          "loadMs": 943
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 120
+        }
+      }
+    },
+    {
+      "n": 7,
+      "kind": "resources",
+      "title": "Wix Blog | Web Design & Small Business Tips to Promote Your Site",
+      "url": "https://www.wix.com/blog",
+      "screenshot": "shots/wix/step-7.webp",
+      "textFile": "data/captures/wix/page-7.txt",
+      "elapsedMs": 36404,
+      "clicks": 0,
+      "via": "nav: Wix Blog",
+      "headings": [
+        "h1: How to create a website from scratch in 10 steps (for beginners)",
+        "h2: Top Articles",
+        "h3: HOME MAIN POSTS",
+        "h3: WEBSITE INSPIRATION",
+        "h3: WEBSITE ESSENTIALS",
+        "h3: DOMAIN NAMES & SETUP GUIDES",
+        "h3: BLOG LIKE A PRO",
+        "h3: WEBSITE ESSENTIALS",
+        "h2: Your always up-to-date guide to Wix’s AI tools",
+        "h2: Editor's Pick",
+        "h3: Create a website that can do it all",
+        "h2: Website Essentials",
+        "h2: Business Strategies"
+      ],
+      "ctas": [
+        "Start Now",
+        "Free Business Tools",
+        "Online Booking",
+        "Contact Us"
+      ],
+      "prices": [],
+      "description": "Get expert tips for a successful business, web design inspiration, online marketing guidance and all the latest Wix related news.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "wix-madefor-display-v2",
+            "body": "Madefor-Text",
+            "distinct": [
+              "Madefor-Display",
+              "Arial",
+              "wix-madefor-display-v2",
+              "wix-madefor-text-v2",
+              "madefor-display"
+            ]
+          },
+          "h1Px": 48,
+          "bodyPx": 18,
+          "bodyLineHeight": "24px",
+          "backgrounds": [
+            "#ffffff",
+            "#dff994",
+            "#000000",
+            "#166aea"
+          ],
+          "accents": [
+            "#166aea"
+          ],
+          "textColor": "#5e5e5e",
+          "buttonRadius": "50px",
+          "buttonHeightPx": 54,
+          "images": 26,
+          "videos": 0,
+          "svgs": 48,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 4887,
+          "domNodes": 1469,
+          "domContentLoadedMs": 110,
+          "loadMs": 252
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 84
+        }
+      }
+    },
+    {
+      "n": 8,
+      "kind": "product",
+      "title": "Point of Sale | Complete POS solution for business | Wix POS",
+      "url": "https://www.wix.com/pos",
+      "screenshot": "shots/wix/step-8.webp",
+      "textFile": "data/captures/wix/page-8.txt",
+      "elapsedMs": 40767,
+      "clicks": 0,
+      "via": "nav: POS",
+      "headings": [
+        "h1: One omnichannel point of sale solution",
+        "h2: Unify in-person and online sales with Wix POS software",
+        "h2: Succeed with our advanced Point of Sale features",
+        "h3: Omnichannel solution",
+        "h3: Integrated payments dashboard",
+        "h3: Ready-to-go software",
+        "h3: Synced inventory",
+        "h3: Unified reporting",
+        "h3: Built-in marketing tools",
+        "h3: Robust infrastructure",
+        "h3: Wix customer support",
+        "h2: POS systems tailored to your business",
+        "h3: POS Register",
+        "h3: Wix POS Go",
+        "h3: Mobile Card Reader",
+        "h2: Create your bespoke POS hardware solution",
+        "h2: How to connect POS to your business with Wix",
+        "h3: Get started with Wix",
+        "h3: Set up Wix Payments",
+        "h3: Buy your POS system",
+        "h3: Get a POS Plan",
+        "h3: Set up Wix POS",
+        "h3: Start selling",
+        "h2: Accept payments quickly with your phone",
+        "h3: Tap to Pay on iPhone",
+        "h3: Tap to Pay on Android",
+        "h2: Learn more about POS for your business",
+        "h2: POS system FAQ",
+        "h3: What is a POS (point of sale)?",
+        "h3: Which POS system should I choose for my business?",
+        "h3: What should I consider when choosing a POS system? ​​",
+        "h3: How can I order Wix POS hardware?",
+        "h3: What is included in Wix POS hardware?",
+        "h3: Can I use any POS hardware with Wix POS?",
+        "h3: What payment options are available with Wix POS?",
+        "h3: What do I need to pay for when I purchase a Wix POS system?",
+        "h3: What will happen if my Wix Premium plan is expired or canceled?",
+        "h3: How long will it take to set up my point of sale?",
+        "h3: Where is Wix POS available?",
+        "h2: Power your business with Wix Point of Sale."
+      ],
+      "ctas": [
+        "Start for free",
+        "Talk to Sales",
+        "Explore POS Hardware",
+        "Free Business Tools",
+        "Online Booking",
+        "Contact Us"
+      ],
+      "prices": [],
+      "description": "Accept secure in-person payments and manage your entire business with Wix POS systems. Unify online and in-person sales with our point of sale solution.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "madefor-display",
+            "body": "Madefor-Text",
+            "distinct": [
+              "Madefor-Display",
+              "Arial",
+              "madefor-display",
+              "madefor-text",
+              "madefor-text-mediumbold"
+            ]
+          },
+          "h1Px": 68,
+          "bodyPx": 15,
+          "bodyLineHeight": "24px",
+          "backgrounds": [
+            "#ffffff",
+            "#8fa3ff",
+            "#000000",
+            "#014051"
+          ],
+          "accents": [
+            "#166aea",
+            "#101585"
+          ],
+          "textColor": "#5e5e5e",
+          "buttonRadius": "42px",
+          "buttonHeightPx": 40,
+          "images": 28,
+          "videos": 1,
+          "svgs": 75,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 12626,
+          "domNodes": 2206,
+          "domContentLoadedMs": 104,
+          "loadMs": 119
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 98
+        }
+      }
+    },
+    {
+      "n": 9,
+      "kind": "platform",
+      "title": "Wix App | Manage Your Site From Mobile | Wix.com",
+      "url": "https://www.wix.com/mobile/wix-app",
+      "screenshot": "shots/wix/step-9.webp",
+      "textFile": "data/captures/wix/page-9.txt",
+      "elapsedMs": 45156,
+      "clicks": 0,
+      "via": "nav: Mobile app",
+      "headings": [
+        "h1: Go Mobile and Run Your Business from Anywhere",
+        "h2: Powerful Features Right in Your Pocket",
+        "h3: Manage and Promote Your Website",
+        "h3: Chat Live with Visitors",
+        "h3: Track Analytics in Real-Time",
+        "h3: Build and Manage Your Online Store",
+        "h3: Grow Your Blog From Your Phone",
+        "h3: Review and Manage Your Bookings Anytime",
+        "h3: Run Your Restaurant From Anywhere",
+        "h3: Give Your Members a Mobile App Experience",
+        "h2: Get the Wix App. Your Essential Business Tool."
+      ],
+      "ctas": [
+        "Start for free",
+        "Take Bookings and Payments",
+        "Free Business Tools",
+        "Online Booking",
+        "Contact Us"
+      ],
+      "prices": [],
+      "description": "Manage your site on the go with the Wix app. Grow your online store, run your blog, take bookings and payments and more.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "madefor-display-bold",
+            "body": "Madefor-Text",
+            "distinct": [
+              "Madefor-Display",
+              "Arial",
+              "madefor-display-bold",
+              "madefor-text",
+              "wfont_311dce_e4e88aeb4c9a409681ae8380393fb761"
+            ]
+          },
+          "h1Px": 56,
+          "bodyPx": 16,
+          "bodyLineHeight": "24px",
+          "backgrounds": [
+            "#ffffff",
+            "#cfd6e8",
+            "#00524e",
+            "#166aea"
+          ],
+          "accents": [
+            "#166aea"
+          ],
+          "textColor": "#5e5e5e",
+          "buttonRadius": "42px",
+          "buttonHeightPx": 40,
+          "images": 32,
+          "videos": 1,
+          "svgs": 26,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 9546,
+          "domNodes": 1330,
+          "domContentLoadedMs": 101,
+          "loadMs": 398
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [
+            "Offer coupons and special discounts to boost sales"
+          ],
+          "links": 84
+        }
+      }
+    },
+    {
+      "n": 10,
+      "kind": "product",
+      "title": "Explore Wix Features | Wix.com",
+      "url": "https://www.wix.com/features/main",
+      "screenshot": "shots/wix/step-10.webp",
+      "textFile": "data/captures/wix/page-10.txt",
+      "elapsedMs": 49633,
+      "clicks": 0,
+      "via": "nav: All product features",
+      "headings": [
+        "h1: Wix Features",
+        "h2: Design features",
+        "h3: Mobile site editor",
+        "h3: Entrance animations",
+        "h3: Image shape crop",
+        "h3: Image filters",
+        "h3: VideoBox",
+        "h3: Custom fonts",
+        "h3: Gradients",
+        "h3: Transparent videos",
+        "h3: Website templates",
+        "h3: Text Mask",
+        "h3: Shape Dividers",
+        "h3: Sections",
+        "h3: Custom interactions",
+        "h3: Vector Art",
+        "h3: Slideshows",
+        "h3: Background scroll effects",
+        "h3: Color & text themes",
+        "h3: My Designs",
+        "h3: Mobile welcome screen",
+        "h3: Pro Gallery",
+        "h3: Drag & drop editor",
+        "h3: Video Mask",
+        "h2: Essentials",
+        "h3: App Market",
+        "h3: Code development platform",
+        "h3: Multiple site collaborators",
+        "h3: Multilingual website",
+        "h3: Page duplication",
+        "h3: Accessibility Wizard",
+        "h3: Customizable 404 error pages",
+        "h3: Landing page builder",
+        "h3: Site menu design",
+        "h3: Image upload",
+        "h3: Video upload",
+        "h3: Social bar",
+        "h3: Free media from Wix",
+        "h3: Affiliate links",
+        "h3: Text & icon buttons"
+      ],
+      "ctas": [
+        "Start for free",
+        "Learn more",
+        "Free media from Wix",
+        "Free business tools",
+        "Facebook & Instagram Ads",
+        "Class bookings",
+        "SMS & email booking reminders",
+        "Custom booking forms",
+        "Customizable bookings cart",
+        "Course booking",
+        "Services & bookings",
+        "Commission-free online ordering",
+        "External booking channels",
+        "Learn More"
+      ],
+      "prices": [
+        "ommunication between your site and its visitors. 99.98% uptime Reliable infrastructure ensures your site",
+        "astructure ensures your site stays up and running 99.98% of the time so site vistors can enjoy a seamless"
+      ],
+      "description": "Browse all of Wix’s advanced design features and professional solutions by category to help you create a website plus manage and grow your business",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "madefor-display",
+            "body": "Madefor-Text",
+            "distinct": [
+              "Madefor-Display",
+              "Arial",
+              "madefor-text-mediumbold",
+              "madefor-text",
+              "madefor-display"
+            ]
+          },
+          "h1Px": 90,
+          "bodyPx": 14,
+          "bodyLineHeight": "24px",
+          "backgrounds": [
+            "#ffffff",
+            "#91a5ff",
+            "#000000",
+            "#166aea"
+          ],
+          "accents": [
+            "#166aea",
+            "#dff994"
+          ],
+          "textColor": "#5e5e5e",
+          "buttonRadius": "42px",
+          "buttonHeightPx": 40,
+          "images": 15,
+          "videos": 0,
+          "svgs": 75,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 23975,
+          "domNodes": 4460,
+          "domContentLoadedMs": 162,
+          "loadMs": 178
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [
+            "Add a pop-up to draw your visitors' attention and showcase important info, discounts and more.",
+            "Coupons & discounts",
+            "Attract more customers, foster brand loyalty, and drive sales with discounted offerings on products, services, event tickets, and more.",
+            "Coupons & discounts",
+            "Attract customers and increase sales with custom coupons and autuomatic discounts.",
+            "Coupons & discounts"
+          ],
+          "links": 376
+        }
+      }
+    },
+    {
+      "n": 11,
+      "kind": "product",
+      "title": "Professional Business Email Address | Custom Email Domain",
+      "url": "https://www.wix.com/domains/business-email",
+      "screenshot": "shots/wix/step-11.webp",
+      "textFile": "data/captures/wix/page-11.txt",
+      "elapsedMs": 54277,
+      "clicks": 0,
+      "via": "nav: Business email",
+      "headings": [
+        "h1: Create a professional business email address",
+        "h2: Start by finding the right domain for your business email",
+        "h2: A business email suite at your fingertips",
+        "h3: Gemini AI, built in",
+        "h3: 24/7 support",
+        "h3: A connected workspace",
+        "h3: Security you can trust",
+        "h3: Plenty of storage",
+        "h3: Custom email domain",
+        "h2: Business email plans that grow with you",
+        "h3: Standard",
+        "h3: Starter",
+        "h2: Why a professional email address isn’t just a nice-to-have",
+        "h3: Look legit—instantly",
+        "h3: Build brand power",
+        "h3: Meet industry standards",
+        "h2: How to create a business email",
+        "h2: One place to build, brand and grow your business",
+        "h3: Find the perfect domain",
+        "h3: Get free multi-cloud hosting",
+        "h3: Build your dream site",
+        "h2: Choose a platform trusted by 300M+ people, across 190 countries and growing by 90K+ new sites every day.",
+        "h2: Brush up on business email best practices",
+        "h3: How to create a business email",
+        "h3: What is the best email for business",
+        "h3: How much does a business email cost",
+        "h2: Business email FAQ",
+        "h3: What is a professional business email?",
+        "h3: What is email hosting and how does it work?",
+        "h3: How do I create my own custom email domain with Wix?",
+        "h3: How much does a business email cost?",
+        "h3: What's the cheapest way to get a business email?",
+        "h3: Does Wix integrate with Google Workspace?",
+        "h3: Can I transfer an existing Google Workspace account to Wix?",
+        "h3: What is a good business email domain?",
+        "h2: First impressions start with your email."
+      ],
+      "ctas": [
+        "Buy Domains",
+        "Get Started",
+        "Start Now",
+        "Explore the Blog",
+        "get a free domain",
+        "Free Business Tools",
+        "Online Booking",
+        "Contact Us"
+      ],
+      "prices": [
+        "phishing and malware protection that blocks over 99.9% of attacks. Plenty of storage Scale with up to",
+        "tches your storage and feature needs, starting at $7 per mailbox, per month. Say hello to your brand-new inbox Wi"
+      ],
+      "description": "Create a professional business email address with your domain. Get a custom domain email, reliable email hosting and earn customer trust—starting at $7/month.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "wix-madefor-display-v2",
+            "body": "Madefor-Text",
+            "distinct": [
+              "Madefor-Display",
+              "Arial",
+              "wix-madefor-display-v2",
+              "wix-madefor-text-v2",
+              "madefor-display"
+            ]
+          },
+          "h1Px": 72,
+          "bodyPx": 11,
+          "bodyLineHeight": "24px",
+          "backgrounds": [
+            "#ffffff",
+            "#f1f5fd",
+            "#000000",
+            "#2f5dff"
+          ],
+          "accents": [
+            "#2f5dff"
+          ],
+          "textColor": "#5e5e5e",
+          "buttonRadius": "50px",
+          "buttonHeightPx": 60,
+          "images": 18,
+          "videos": 0,
+          "svgs": 330,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 9308,
+          "domNodes": 7144,
+          "domContentLoadedMs": 281,
+          "loadMs": 332
+        },
+        "merch": {
+          "planCards": 1,
+          "priceElements": 0,
+          "badges": [
+            "RECOMMENDED"
+          ],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 76
+        }
+      }
+    },
+    {
+      "n": 12,
+      "kind": "signup",
+      "title": "Log In to Your Wix Account - Wix.com",
+      "url": "https://users.wix.com/signin/signup/password?view=sign-up&sendEmail=true&loginCompName=SignUp_H&referralInfo=SignUp_H&postSignUp=https%3A%2F%2Fwww.wix.com%2Fnew%2Fintro%2F&postLogin=https%3A%2F%2Fmanage.wix.com%2Faccount%2Froute&loginDialogContext=signup&originUrl=https%3A%2F%2Fwww.wix.com%2F&_gl=1*jbknf0*_gcl_au*NjIwNTA3NTM4LjE3OTUzMzE1OTM.",
+      "screenshot": "shots/wix/step-12.webp",
+      "textFile": "data/captures/wix/page-12.txt",
+      "elapsedMs": 2897,
+      "clicks": 1,
+      "via": "click: \"Start for free\"",
+      "headings": [
+        "h1: Sign up"
+      ],
+      "ctas": [
+        "Continue with Facebook"
+      ],
+      "prices": [],
+      "description": "Sign in to your Wix account to access the website editor and complete business solutions.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Madefor Display",
+            "body": "Times",
+            "distinct": [
+              "Madefor",
+              "Madefor Display",
+              "Arial"
+            ]
+          },
+          "h1Px": 36,
+          "bodyPx": 16,
+          "bodyLineHeight": "normal",
+          "backgrounds": [
+            "#f4f1f2",
+            "#ffffff",
+            "#2f5dff",
+            "#f2f2f2"
+          ],
+          "accents": [
+            "#2f5dff"
+          ],
+          "textColor": "#000000",
+          "buttonRadius": null,
+          "buttonHeightPx": null,
+          "images": 12,
+          "videos": 0,
+          "svgs": 0,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 900,
+          "domNodes": 184,
+          "domContentLoadedMs": 520,
+          "loadMs": 1113
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 6
+        }
+      },
+      "form": {
+        "fields": [
+          {
+            "type": "email",
+            "label": "Email"
+          }
+        ],
+        "alternatives": [
+          "Continue with Google",
+          "Continue with Facebook",
+          "Continue with Apple",
+          "Continue with Email"
+        ],
+        "submit": [
+          "Continue with Google",
+          "Continue with Facebook",
+          "Continue with Apple",
+          "Continue with Email"
+        ],
+        "consent": [
+          "* By signing up, you agree to our Terms of Use and acknowledge you’ve read our Privacy Policy",
+          "* By signing up, you agree to our Terms of Use and acknowledge you’ve read our Privacy Policy",
+          "* By signing up, you agree to our Terms of Use and acknowledge you’ve read our Privacy Policy"
+        ],
+        "pageHeightPx": 900,
+        "passwordAsked": false
+      },
+      "note": "Stopped here: the page asks for an email or password. Nothing is typed."
+    }
+  ],
+  "navMap": [
+    {
+      "label": "Website builder",
+      "href": "https://www.wix.com/website-builder",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "AI website builder",
+      "href": "https://www.wix.com/ai-website-builder",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Landing page builder",
+      "href": "https://www.wix.com/landing-page-builder",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Website templates",
+      "href": "https://www.wix.com/website/templates",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Website design",
+      "href": "https://www.wix.com/website/design",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Ecommerce site",
+      "href": "https://www.wix.com/ecommerce/website",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Online portfolio",
+      "href": "https://www.wix.com/portfolio-website",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Restaurant website",
+      "href": "https://www.wix.com/restaurant/website",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Blog website",
+      "href": "https://www.wix.com/start/blog",
+      "area": "header",
+      "kind": "resources"
+    },
+    {
+      "label": "Event website",
+      "href": "https://www.wix.com/event/website",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "All product features",
+      "href": "https://www.wix.com/features/main",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Domain registration",
+      "href": "https://www.wix.com/domains",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Web hosting",
+      "href": "https://www.wix.com/free/web-hosting",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Business email",
+      "href": "https://www.wix.com/domains/business-email",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Payment solutions",
+      "href": "https://www.wix.com/payments",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "POS",
+      "href": "https://www.wix.com/pos",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Mobile app",
+      "href": "https://www.wix.com/mobile/wix-app",
+      "area": "header",
+      "kind": "platform"
+    },
+    {
+      "label": "Wix Headless",
+      "href": "https://www.wix.com/headless",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "CRM system",
+      "href": "https://www.wix.com/business-software/crm",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Scheduling system",
+      "href": "https://www.wix.com/scheduling-software",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Email marketing",
+      "href": "https://www.wix.com/features/email-marketing",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "SEO tools",
+      "href": "https://www.wix.com/seo",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Website analytics",
+      "href": "https://www.wix.com/manage/analytics",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Logo Maker",
+      "href": "https://www.wix.com/logo/maker",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Business Name Generator",
+      "href": "https://www.wix.com/tools/business-name-generator",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "More free tools",
+      "href": "https://www.wix.com/tools",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Wix Blog",
+      "href": "https://www.wix.com/blog",
+      "area": "header",
+      "kind": "resources"
+    },
+    {
+      "label": "Help Center",
+      "href": "https://support.wix.com/en",
+      "area": "header",
+      "kind": "resources"
+    },
+    {
+      "label": "Hire a professional",
+      "href": "https://www.wix.com/marketplace",
+      "area": "header",
+      "kind": "platform"
+    },
+    {
+      "label": "Releases & updates",
+      "href": "https://www.wix.com/updates",
+      "area": "header",
+      "kind": "resources"
+    },
+    {
+      "label": "Learn how to build a website →",
+      "href": "https://www.wix.com/blog/how-to-build-website-from-scratch-guide",
+      "area": "header",
+      "kind": "resources"
+    },
+    {
+      "label": "Pricing",
+      "href": "https://www.wix.com/plans",
+      "area": "header",
+      "kind": "pricing"
+    },
+    {
+      "label": "Wix Studio",
+      "href": "https://www.wix.com/studio",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Enterprise",
+      "href": "https://www.wix.com/studio/enterprise",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "WHOIS Lookup",
+      "href": "https://www.wix.com/domains/whois",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Domain Name Search",
+      "href": "https://www.wix.com/domains/domain-name-search",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Mobile App Builder",
+      "href": "https://www.wix.com/app-builder",
+      "area": "footer",
+      "kind": "platform"
+    },
+    {
+      "label": "Business website",
+      "href": "https://www.wix.com/business/website",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Online Store Builder",
+      "href": "https://www.wix.com/ecommerce/online-store",
+      "area": "footer",
+      "kind": "product"
+    },
+    {
+      "label": "Business Software",
+      "href": "https://www.wix.com/business-software",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Wix University",
+      "href": "https://www.wix.com/university",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "SEO Learning Hub",
+      "href": "https://www.wix.com/seo/learn",
+      "area": "footer",
+      "kind": "resources"
+    },
+    {
+      "label": "App Market",
+      "href": "https://www.wix.com/app-market",
+      "area": "footer",
+      "kind": "platform"
+    },
+    {
+      "label": "Website Accessibility",
+      "href": "https://www.wix.com/accessibility",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Report Abuse",
+      "href": "https://www.wix.com/abuse",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Channel Partnerships",
+      "href": "https://www.wix.com/channels",
+      "area": "footer",
+      "kind": "platform"
+    },
+    {
+      "label": "Press & Media",
+      "href": "https://www.wix.com/press-room/home",
+      "area": "footer",
+      "kind": "company"
+    },
+    {
+      "label": "Wix Ventures",
+      "href": "https://www.wix.com/wix-ventures",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Patent Notice",
+      "href": "https://www.wix.com/about/patent-notice",
+      "area": "footer",
+      "kind": "company"
+    },
+    {
+      "label": "Sitemap",
+      "href": "https://www.wix.com/about/sitemap",
+      "area": "footer",
+      "kind": "company"
+    },
+    {
+      "label": "Careers",
+      "href": "https://careers.wix.com/",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "About",
+      "href": "https://www.wix.com/about/us",
+      "area": "footer",
+      "kind": "company"
+    },
+    {
+      "label": "Contact Us",
+      "href": "https://www.wix.com/about/contact-us",
+      "area": "footer",
+      "kind": "company"
+    }
+  ],
+  "stack": {
+    "generator": "Wix.com Website Builder",
+    "scriptHosts": [
+      "www.googletagmanager.com",
+      "bzrcdn.openai.com",
+      "cdn.mgln.ai",
+      "s.yimg.com",
+      "snap.licdn.com",
+      "static.ads-twitter.com",
+      "bat.bing.com",
+      "browser.sentry-cdn.com",
+      "static.parastorage.com",
+      "accounts.google.com",
+      "bundler-velo.parastorage.com",
+      "googleads.g.doubleclick.net"
+    ],
+    "signals": [
+      "React global",
+      "Google Tag Manager dataLayer"
+    ],
+    "server": "Pepyaka",
+    "poweredBy": null
+  },
+  "sources": [
+    "https://www.wix.com"
+  ],
+  "dossier": {
+    "sections": [
+      {
+        "id": "positioning",
+        "title": "Positioning",
+        "summary": "Wix presents itself as the leading website builder, now led by an AI builder called Wix Harmony, and as a business platform with solutions for stores, bookings, courses and events.",
+        "keyPoints": [
+          "Homepage: 'Create your future on the leading website builder', with 'Start for free. No credit card required.'",
+          "Scale is the proof: 300M+ sites built on Wix and 90K+ sites created daily.",
+          "Solutions listed on the home page include eCommerce, scheduling, lead management, portfolios, online courses and events; a separate Enterprise page targets multi-site organizations."
+        ]
+      },
+      {
+        "id": "offerings",
+        "title": "Products and offerings",
+        "summary": "A website builder with a wide set of business tools around it, plus a services marketplace and an enterprise product.",
+        "keyPoints": [],
+        "table": {
+          "columns": [
+            "Product",
+            "What it does"
+          ],
+          "rows": [
+            [
+              "Wix Harmony",
+              "AI website builder for creating a site from a prompt"
+            ],
+            [
+              "Online store and payments",
+              "Accept payments online, in person and on the go; competitive processing fees and an integrated payment dashboard"
+            ],
+            [
+              "Wix POS",
+              "Omnichannel point of sale with synced inventory; available in the US, Canada and UK"
+            ],
+            [
+              "Marketing and analytics",
+              "Email marketing, website analytics and marketing suites by plan"
+            ],
+            [
+              "Domains and business email",
+              "Custom domains and business email with built-in AI"
+            ],
+            [
+              "Marketplace and App Market",
+              "Hire experts, buy Wix Studio templates and add apps"
+            ],
+            [
+              "Wix Studio and Enterprise",
+              "Pro editor and multi-site management for organizations"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "pricing",
+        "title": "Pricing",
+        "summary": "A free plan and five paid ones, shown as yearly prices paid in full. The pricing page lists the most expensive plan first.",
+        "keyPoints": [
+          "'Create your site for free and choose a plan when you're ready.' A 14-day money-back guarantee sits at the top of the page.",
+          "Displayed prices are for yearly subscriptions paid in full at purchase, and exclude taxes.",
+          "Every paid plan includes a free domain for 1 year; storage grows from 2 GB to unlimited.",
+          "Business is tagged recommended; only the top plan adds an advanced developer platform."
+        ],
+        "table": {
+          "columns": [
+            "Plan",
+            "Price a month (yearly)",
+            "Notable additions"
+          ],
+          "rows": [
+            [
+              "Free",
+              "$0",
+              "Hosting, drag-and-drop editor, no-code design features, 1000s of templates"
+            ],
+            [
+              "Light",
+              "$17",
+              "2 GB storage, light marketing suite, 2 collaborators"
+            ],
+            [
+              "Core",
+              "$29",
+              "50 GB storage, basic marketing suite, accept payments, basic ecommerce, scheduling, 5 collaborators"
+            ],
+            [
+              "Business (recommended)",
+              "$39",
+              "100 GB storage, standard marketing suite, standard ecommerce, 10 collaborators"
+            ],
+            [
+              "Business Elite",
+              "$159",
+              "Unlimited storage, advanced marketing suite, advanced ecommerce, advanced developer platform, 100 collaborators"
+            ]
+          ]
+        },
+        "gaps": [
+          "Monthly-billing prices were not captured as text."
+        ]
+      },
+      {
+        "id": "merchandising",
+        "title": "Merchandising",
+        "summary": "An anchored ladder: a free plan, a recommended mid-tier plan and, on the page itself, the most expensive plan displayed first. Commerce depth scales across the plans, and merchants get broad selling tools.",
+        "keyPoints": [
+          "The pricing page shows Business Elite at the left and Free at the right, so the highest price is the first one read.",
+          "A money-back guarantee and 'no credit card required' remove risk; 'Business' carries the recommended tag.",
+          "Commerce is tiered: basic, standard and advanced ecommerce, and basic to advanced marketing suites.",
+          "Experts and templates are sold through a marketplace, and apps through an App Market.",
+          "For merchants: scheduling and services, payments, POS with synced inventory, business email and analytics."
+        ]
+      },
+      {
+        "id": "platform",
+        "title": "Technical platform",
+        "summary": "A mix of no-code products and a developer-oriented layer: an advanced developer platform on the top plan, Wix Studio, an App Market and a newly announced AI-native editor.",
+        "keyPoints": [
+          "The top plan lists an 'advanced developer platform'.",
+          "The newsroom announces Studio Two, described as a truly open, AI-native visual editor for professional web creation.",
+          "A marketplace lets developers sell services and templates and turn skills into revenue."
+        ],
+        "gaps": [
+          "API documentation and app-development guides were not surveyed."
+        ]
+      },
+      {
+        "id": "design",
+        "title": "Design",
+        "summary": "Light and airy: a large rounded headline, soft gradients, a blue accent and pill buttons. The home page is extremely long and uses many videos.",
+        "keyPoints": [
+          "One display family (Madefor) runs through the home page, pricing and sign-up, with blue (#166aea) and 42px button corners.",
+          "The home page is 17,325px tall with 19 videos; pricing is 7,613px.",
+          "The home hero is a centered headline on a pale yellow gradient above a product mockup.",
+          "The pricing page sits inside a pale blue panel with a banner for the guarantee and five plan cards.",
+          "For merchants: an AI website builder, 2,000+ templates and drag-and-drop and no-code design features."
+        ],
+        "gaps": [
+          "Mobile and dark mode were not assessed."
+        ]
+      },
+      {
+        "id": "company",
+        "title": "Company presentation",
+        "summary": "A scale story with AI as the current chapter, and a newsroom that mixes results, product launches and a startup accelerator.",
+        "keyPoints": [
+          "Newsroom items include third-quarter 2026 results and the Studio Two launch, plus an accelerator for Base44.",
+          "Home claims 300M+ sites and 90K+ new sites a day.",
+          "The enterprise page says Wix is trusted by hundreds of millions of users worldwide."
+        ],
+        "gaps": [
+          "No leadership information in the surveyed pages."
+        ]
+      }
+    ]
+  },
+  "signupPath": "'Start for free' on the homepage opens users.wix.com/signin/signup, a page headed 'Sign up' with 'Continue with Google', 'Continue with Facebook' and 'Continue with Apple', or an email box and 'Continue with Email'. A line says that signing up means agreeing to the Terms of Use and acknowledging the Privacy Policy, with a reCAPTCHA notice. Only an email is asked on this page; what follows was not reached. Nothing was entered.",
+  "scores": {
+    "jtbd_fit": {
+      "score": 4,
+      "evidence": "Homepage lists solutions by job: store, scheduling, leads, portfolio, courses, events.",
+      "step": 1
+    },
+    "capability_visible": {
+      "score": 4,
+      "evidence": "Feature pages, templates and an AI builder preview show a lot; the editor is behind signup.",
+      "step": 10
+    },
+    "pricing_transparency": {
+      "score": 4,
+      "evidence": "All six plans have prices and included features; yearly billing and taxes are stated; monthly prices not captured.",
+      "step": 2
+    },
+    "product_breadth": {
+      "score": 4,
+      "evidence": "Builder, payments, POS, marketing, email, domains and marketplace are each explained.",
+      "step": 1
+    },
+    "platform_depth": {
+      "score": 3,
+      "evidence": "An App Market, an advanced developer platform and Studio exist, but no developer docs were surveyed.",
+      "step": 4
+    },
+    "time_to_value": {
+      "score": null,
+      "evidence": "Capture stops before the product; first-value time was not observed.",
+      "step": null
+    },
+    "friction": {
+      "score": 4,
+      "evidence": "One click to a page offering Google, Facebook, Apple or email.",
+      "step": 12
+    },
+    "trust": {
+      "score": 4,
+      "evidence": "300M+ sites, press releases and a money-back guarantee.",
+      "step": 1
+    },
+    "mobile": {
+      "score": null,
+      "evidence": "Phone captures exist for home and pricing but were not assessed.",
+      "step": null
+    },
+    "states": {
+      "score": null,
+      "evidence": "No error or empty states reached.",
+      "step": null
+    },
+    "a11y_basics": {
+      "score": null,
+      "evidence": "Not tested.",
+      "step": null
+    },
+    "value_prop_clarity": {
+      "score": 4,
+      "evidence": "'Create your future on the leading website builder' is broad but the AI-builder subhead is clear.",
+      "step": 1
+    },
+    "proof_quality": {
+      "score": 3,
+      "evidence": "Scale numbers have no source on the page.",
+      "step": 1
+    },
+    "persuasion_integrity": {
+      "score": 4,
+      "evidence": "Free plan and a 14-day money-back guarantee are stated plainly, with yearly billing noted.",
+      "step": 2
+    },
+    "cta_logic": {
+      "score": 4,
+      "evidence": "'Start for free' and 'Get Started' are one consistent action.",
+      "step": 1
+    },
+    "company_narrative": {
+      "score": 4,
+      "evidence": "The AI-native builder story runs from homepage to Studio Two in the newsroom.",
+      "step": 6
+    },
+    "offer_packaging": {
+      "score": 4,
+      "evidence": "Six plans with a recommended tag and a compare link; plan names and tiers are many.",
+      "step": 2
+    },
+    "offer_architecture": {
+      "score": 5,
+      "evidence": "A free entry, a guarantee, a reversed price order, a free domain and a services marketplace.",
+      "step": 2
+    },
+    "merchant_merch_tools": {
+      "score": 5,
+      "evidence": "Tiered ecommerce and marketing suites, scheduling, payments, POS with synced inventory and business email.",
+      "step": 3
+    },
+    "visual_craft": {
+      "score": 4,
+      "evidence": "Clear, airy hierarchy; the home page is very long.",
+      "step": 1
+    },
+    "system_coherence": {
+      "score": 4,
+      "evidence": "One display family and blue accent across home, pricing and sign-up.",
+      "step": 12
+    },
+    "merchant_design_control": {
+      "score": 5,
+      "evidence": "2,000+ templates, an AI builder, drag-and-drop editing and no-code design features.",
+      "step": 2
+    }
+  },
+  "read": {
+    "summary": "A broad, AI-forward website builder with a free start, a guarantee and a clearly anchored plan page. The pricing and sign-up are easy; the proof is scale numbers with no source, and the home page is very long.",
+    "pros": [
+      "A free plan, no credit card and a 14-day money-back guarantee.",
+      "Plan page shows prices, storage and commerce tiers side by side.",
+      "Sign-up offers Google, Facebook, Apple or email on one screen.",
+      "One typeface and blue accent run across pages."
+    ],
+    "cons": [
+      "Scale numbers have no source.",
+      "Prices are yearly-in-full; monthly prices were not shown as text.",
+      "The home page is 17,325px tall with 19 videos.",
+      "Developer information is thin."
+    ],
+    "howItSells": "Sells ease and breadth: an AI builder, a free start and a guarantee, then a ladder that moves merchants toward commerce and marketing suites.",
+    "copy": [
+      "Order plans from highest to lowest price.",
+      "Offer a money-back guarantee beside the free plan.",
+      "Offer social sign-in with email on one screen."
+    ],
+    "avoid": [
+      "Unsourced scale numbers.",
+      "A very long, media-heavy home page."
+    ],
+    "tactics": [
+      "anchoring",
+      "social_proof",
+      "loss_aversion"
+    ],
+    "confidence": "medium",
+    "unknowns": [
+      "What the first-time editor experience is.",
+      "Monthly-billing prices.",
+      "Developer docs.",
+      "Mobile experience."
+    ],
+    "hypothesis": {
+      "statement": "Showing monthly and yearly prices together on each plan card will lift paid conversion by reducing surprise at checkout.",
+      "metric": "Free-to-paid conversion within 30 days",
+      "guardrail": "Refund requests under the 14-day guarantee",
+      "decisionRule": "Ship if conversion rises by a pre-agreed margin and refund rate does not rise over four weeks."
+    },
+    "subjects": {
+      "merchandising": {
+        "summary": "A well-anchored free-to-premium ladder with broad merchant tools.",
+        "pros": [
+          "A free plan plus a money-back guarantee.",
+          "Highest-priced plan shown first as an anchor.",
+          "Commerce depth tiered by plan."
+        ],
+        "cons": [
+          "Prices only for yearly billing.",
+          "Many plan names."
+        ]
+      },
+      "design": {
+        "summary": "Consistent and approachable across pages, with a very long home page.",
+        "pros": [
+          "Airy layout, rounded type and soft gradients feel friendly.",
+          "Blue pill buttons are easy to find."
+        ],
+        "cons": [
+          "Very long home page.",
+          "Videos and gradients load heavily."
+        ]
+      }
+    }
+  },
+  "claims": [
+    {
+      "text": "Start for free. No credit card required.",
+      "verdict": "plausible",
+      "step": 1,
+      "evidenceStep": 2
+    },
+    {
+      "text": "14-day money-back guarantee",
+      "verdict": "plausible",
+      "step": 2,
+      "evidenceStep": null
+    },
+    {
+      "text": "Displayed prices are for yearly subscriptions, paid in full at the time of purchase.",
+      "verdict": "proven",
+      "step": 2,
+      "evidenceStep": 2
+    }
+  ],
+  "focus": "online store signup to first product; generate site flow; plan selection"
+}

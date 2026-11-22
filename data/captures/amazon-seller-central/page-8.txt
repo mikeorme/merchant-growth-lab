@@ -1,0 +1,95 @@
+URL: https://sell.amazon.com/tools/amazon-brand-analytics
+TITLE: Amazon Brand Analytics | Sell on Amazon
+DESCRIPTION: Use Amazon Brand Analytics dashboards to understand how customers search and purchase your brand's products on Amazon. Get actionable insights and build a data-driven selling strategy.
+
+Brand Analytics
+Inform your selling strategy with customer insights
+Turn customer search and purchase data into smarter selling decisions.
+
+ 
+
+Get started
+
+ 
+
+ 
+
+Watch overview (2:07)
+
+ 
+
+What is Brand Analytics?
+Brand Analytics is a tool in Seller Central that brands can use to review aggregate customer data. It’s made up of a series of dashboards:
+Customer Journey Analytics
+Customer Loyalty Analytics
+Search Analytics
+Consumer Behavior Analytics
+Insights into the stages of the customer journey
+Trends over time
+Search Catalog Performance
+Repeat Purchase Behavior
+High-impact products
+Customer segments
+Search Query Performance
+Demographics
+Top Search Terms
+Market Basket Analysis
+Whether you’re optimizing the customer experience or assessing your marketing campaigns to drive more repeat purchases, having the right data can help inform your strategy and grow your business.
+Learn more about each dashboard
+Who can use Brand Analytics?
+To access Brand Analytics, you need a Professional selling account. You also need to be a Brand Representative for a brand enrolled in Amazon Brand Registry.
+Learn more about Brand Registry
+"Quarterly sales jumped over 40% after optimizing for best search terms using the Amazon Brand Analytics Search Terms and Search Query Performance dashboard."
+Guy Arad
+Co-Founder, thefitguy
+View case study
+"It [Market Basket Analysis] helped us determine which items we should try to cross-sell or upsell because we can identify typical purchase combinations."
+Jason Panzer
+President, HexClad
+View case study
+Boost customer lifetime value and optimize engagement
+Create customer segments and analyze purchase patterns
+The Customer Loyalty Analytics dashboard can help you engage with loyal customers and increase your overall customer lifetime value. Unlock insights into shopping behavior and historical trends. Identify and reward your most valuable customers. Or contact customers who haven’t made a purchase in a while. You can also get recommendations for programs like Brand Tailored Promotions.
+Download the Customer Loyalty Analytics guide
+Make data-driven decisions with key metrics
+Monitor impressions, clicks, cart adds, and purchases so you can strategically enhance the shopping experience, resolve issues, and capitalize on trends.
+Optimize product listings for more clicks
+The Search Catalog Performance dashboard can help you understand customer behavior. Identify drop-off points and address problems with product discoverability and sales conversion.
+Identify profitable trends and opportunities
+The Search Query Performance dashboard lists keywords customers use to find your brand. Look at query volume, impressions, clicks, cart adds, and purchases to spot ways to expand your catalog.
+Identify the right keywords
+The Top Search Terms dashboard gives a broad view of customer search activity across Amazon stores. It lists what keywords customers use to find products, along with the top three products, categories, and brands associated with each keyword. Use this to inform your SEO strategy, add keywords to product detail pages, and uncover advertising opportunities.
+Did you know?
+Understanding your audience can help you sell more products
+When you sell online, it can be challenging to learn about customer preferences. Who’s clicking? Why are they buying? And what can you do to drive more conversions and distinguish your products from the competition? In ecommerce, customer behavior analytics can help you spot trends and make decisions about selecting and positioning products.
+Increase revenue and grow traffic
+Get the data you need to assess customer satisfaction, build customer loyalty, and earn more repeat business.
+Improve customer engagement and drive repeat purchases
+The Repeat Purchase Behavior dashboard provides a detailed breakdown of how often customers repeatedly buy from your brand. Track orders received, sales from repeat purchases, and the number of repeat customers to better understand customer engagement.
+Learn about your audiences
+The Demographics dashboard breaks down sales by customer age, income, education, gender, and marital status. Use this data to tailor your advertising campaigns to reach your intended customers more effectively.
+Create virtual product bundles
+The Market Basket Analysis dashboard reveals what products customers frequently buy together. See how the products you offer correlate with popular combos to enhance your cross-selling potential.
+Ready to get started?
+Step 1
+Log in to Seller Central
+Log in to your Seller Central account or sign up as a seller. Make sure you have a Professional selling plan so you can access Brand Analytics.
+Step 2
+Enroll your brand
+If you’re the Rights Owner, enroll your brand in Brand Registry. Or, if you’re employed by an enrolled brand, ask the Rights Owner or another Administrator to assign you the Brand Representative selling role.
+Step 3
+Access Brand Analytics
+Access Brand Analytics from the Seller Central main menu by selecting Brands, then Brand Analytics.
+Start selling today
+Reach customers in over 100 countries.
+Sign up*
+Get 10% back on your first
+$50,000 in branded sales
+*A Professional selling account is $39.99/month + selling fees. Learn more
+Home
+Tools
+Brand Analytics
+Over 11,000 US-based independent sellers grew their sales by more than 10X in 2025
+Terms of Service
+Privacy Policy
+© 2026, Amazon.com Services LLC.

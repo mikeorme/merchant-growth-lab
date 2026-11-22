@@ -1,0 +1,13 @@
+URL: https://sellercentral.amazon.com/ap/signin?openid.return_to=https%3A%2F%2Fsellercentral.amazon.com%2Fmario%2Fua%2Forbis-welcome%2Fregional%2Fnode%2Fwelcome%2Frender%3Fpassthrough%252Faccount%3Dfba_soa%26passthrough%252FmarketplaceID%3DATVPDKIKX0DER%26passthrough%252FsuperSource%3DOAR%26ref_%3Dsdus_soa_sell_rp_n_mm%26passthrough%252FinitialSessionID%3D140-0774838-9197432%26passthrough%252Fld%3DSDUSSOADirect_SDRP_N_MM%26passthrough%252FpageName%3DUS%253ASD%253ASOA-home%26passthrough%252FldStackingCodes%3DSDUSSOADirect%26productTier%3DFBA%253ASILVER%26productType%3DFulfillmentByAmazon%253ASellOnAmazon%26marketplaceId%3DATVPDKIKX0DER%26language%3Den_US%26ingressMarketplace%3DATVPDKIKX0DER%26marketplace%3DATVPDKIKX0DER%26primaryMarketplace%3DATVPDKIKX0DER&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=amzn_sw_signup_us&openid.mode=checkid_setup&intercept=false&language=en_US&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&ssoResponse=eyJ6aXAiOiJERUYiLCJlbmMiOiJBMjU2R0NNIiwiYWxnIjoiQTI1NktXIn0.eFx8Hgp0ga0CTT59JEtdkh6guIiEmeqMKG6RJFqDsxc8yX3-TDAG7w.zY34k3AiKOmrtml4.jTAJH_SOm_cM99E0QmNfW8b2q4x3EuhmIBwT3ujRqVduuCMoPqHm5m0pOdv2moloHd4cx0H3Umcy1DZBIp0fnzVyz5UnUnXWD8fvzywijUXVGzFmwATm-aXfEt3y98m0xMlt-azHnUmoegEQcSCInsb_8QYAQYcyoJeCUwy_FsU3YZxuQgCoxOy26RG9zSyLx6dubu5gZg.iBGI9K7MMVE6J-ppqIfPYA
+TITLE: Amazon Next
+DESCRIPTION: 
+
+Start selling with Amazon
+To register, sign in with your existing Amazon account.
+Enter mobile number or email
+Continue
+By continuing, you agree to Amazon's Conditions of Use and Privacy Notice.
+Need help?
+New to Amazon?
+Create your Amazon account
+© 1996-2026, Amazon.com, Inc. or its affiliates

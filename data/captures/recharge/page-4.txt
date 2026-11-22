@@ -1,0 +1,224 @@
+URL: https://developer.rechargepayments.com/v2
+TITLE: Introduction (V2) · Recharge API
+DESCRIPTION: Reference documentation for the Recharge API: resources, endpoints, attributes, webhooks and code samples.
+
+RECHARGE API
+/
+V2
+LATEST
+The Recharge API reference
+
+The Recharge API is primarily a REST API with some RPC endpoints to support common operations. It has predictable, resource-oriented URLs, accepts JSON-encoded request bodies, returns JSON-encoded responses, and uses standard HTTP response codes, authentication, and methods.
+
+V2 was previously called 2021-11. It is the same API under a new name. X-Recharge-Version: v2 and X-Recharge-Version: 2021-11 both work. How versioning works
+
+GET AN API TOKEN
+WHAT’S NEW IN V2
+BASE URL
+https://api.rechargeapps.com
+AUTHENTICATION
+X-Recharge-Access-Token
+VERSION HEADER
+X-Recharge-Version: v2 or 2021-11
+GET
+/subscriptions
+Copy
+cURL
+Node.js
+Python
+Ruby
+PHP
+curl 'https://api.rechargeapps.com/subscriptions?limit=5' \
+  -H 'X-Recharge-Version: v2' \
+  -H 'X-Recharge-Access-Token: your_api_token'
+31
+resources
+161
+endpoints
+743
+additions in V2
+Start with the fundamentals
+
+How requests are authenticated, versioned, paginated and sorted.
+
+01
+Authentication
+→
+02
+Versioning
+→
+03
+Responses
+→
+04
+Extending responses
+→
+05
+Cursor pagination
+→
+06
+Sorting
+→
+Core Resources
+Addresses
+An Addresses record represents a shipping address. Each customer can have multiple addresses. Subscriptions are a child object of…
+8 ENDPOINTS
+→
+Bundle products
+NEW
+A Bundle Product describes a product that is sold as a bundle: its variants, the collections customers can choose the contents…
+2 ENDPOINTS
+→
+Bundle Selections
+A bundle selection represents the contents within a Bundle linked to an individual Subscription. It can represent the selection…
+5 ENDPOINTS
+→
+Charge activities
+NEW
+A charge activity is a record of something that happened to a Charge , such as a payment attempt, a payment failure, a skip, a…
+1 ENDPOINT
+→
+Charges
+A charge is the representation of a financial transaction linked to the purchase of an item (past or future). It can be a…
+11 ENDPOINTS
+→
+Checkouts
+Checkouts allow you to create, update, and process a Checkout programmatically. Shipping cost and sales tax determination are…
+13 ENDPOINTS
+→
+Collections
+Collections allow to create and manage a logical list of Products called a Collection . A Collection contains an ordered list of…
+9 ENDPOINTS
+→
+Credits
+The Credit Account object represents a set of positive and negative credit adjustments that when summed equal an available…
+11 ENDPOINTS
+→
+Customer notification preferences
+NEW
+Notification preferences record whether a Customer has opted in or out of transactional, promotional and replenishment…
+2 ENDPOINTS
+→
+Customer sessions
+NEW
+Customer sessions are short-lived tokens scoped to a single Customer . They allow a storefront or application to act on behalf of…
+1 ENDPOINT
+→
+Customers
+The Customer object holds account information. Email is unique on the Customer ; no two customers for a store can have the same…
+7 ENDPOINTS
+→
+Discounts
+Discounts can be applied to a Checkout , or can be applied directly to an Address . Depending on configuration they allow for…
+5 ENDPOINTS
+→
+Entitlements
+A Customer Entitlement represents access to a specific entitlement feature granted to a customer, typically driven by an active…
+4 ENDPOINTS
+→
+Gift purchases
+NEW
+A Gift purchase is created when a customer buys a gift for someone else. It links the sender, the recipient and the Credit…
+3 ENDPOINTS
+→
+Metafields
+Metafields allow users to add additional information to other resources. They can be used for adding custom fields to objects,…
+5 ENDPOINTS
+→
+Notifications
+The Customer Notifications resource is used to dispatch email notifications to customers within Recharge. The endpoint uses your…
+1 ENDPOINT
+→
+Onetimes
+Onetimes represent non-recurring line items on a QUEUED Charge .
+5 ENDPOINTS
+→
+Orders
+An order is created after a Charge is successfully processed. The Order contains all the same json data as the Charge . In case…
+6 ENDPOINTS
+→
+Payment methods
+The Payment Method object holds payment and billing information. A Customer may be associated with many Payment Methods , and an…
+5 ENDPOINTS
+→
+Plans
+The Plans resource is used to create and configure the transactional options for the Product (subscription, prepaid, and onetime…
+9 ENDPOINTS
+→
+Products
+Representation of the Products from your catalog in Recharge.
+5 ENDPOINTS
+→
+Retention strategies
+NEW
+A Retention strategy is a cancellation reason a customer can choose when cancelling, together with the message and optional…
+5 ENDPOINTS
+→
+Reward credits
+NEW
+A Reward credit is store credit issued to a Customer as a reward. Each reward credit keeps track of its initial value, the…
+3 ENDPOINTS
+→
+Store
+The store endpoint includes ReCharge settings and other store specific information.
+1 ENDPOINT
+→
+Subscriptions
+Subscriptions are individual items a customer receives on a recurring basis. A Subscription is a Product added to an Address .
+14 ENDPOINTS
+→
+Webhooks
+Webhook endpoints
+Webhooks are a mechanism for reacting to specific events that are triggered in the Recharge system. For example, a checkout…
+6 ENDPOINTS
+→
+Webhooks explained
+Here you will find what specific action triggers a given webhook. Address webhooks To use these webhooks your API Token must have…
+GUIDE
+→
+Webhook validation
+Webhooks created through the API are signed using your API Client Secret so you can verify that each request came from Recharge.…
+GUIDE
+→
+Async Batch
+Async batch Endpoints
+The Async batches API can be used for processing large volumes of operations asynchronously, in order to reduce aggregate…
+6 ENDPOINTS
+→
+Async batch Tasks
+Most commonly, the response from listing tasks on an async_batch id will be identical to the body of a singular request to…
+3 ENDPOINTS
+→
+Admin Resources
+Token information
+This resource allows a caller to inspect basic information regarding the token in use. It will only return a single object…
+2 ENDPOINTS
+→
+Accounts
+This resource allows a caller to inspect basic information regarding the staff accounts in the store.
+2 ENDPOINTS
+→
+Events
+This resource allows a caller to inspect recent events in the store.
+1 ENDPOINT
+→
+
+Related guides: Generate API tokens, Using the API
+
+API and Platforms compatibility
+
+Recharge offers hosted solutions and integrates with various ecommerce platforms to process recurring transactions with the setup of your choice. In order to be compatible with those platforms some of our API resources and endpoints may be limited in use to a subset of platforms. When that is the case we will flag with the help of tags the checkout/platform association for which that feature is compatible.
+When there is no restriction of compatibility no tags will appear.
+Below is a legend of the tags you may come across:
+
+TAG	CHECKOUT SOLUTION	ECOMMERCE PLATFORM
+BigCommerce	Recharge hosted	BigCommerce
+Custom	Recharge hosted or API-first	Custom
+RCS	Recharge hosted	Shopify
+SCI	Shopify hosted	Shopify
+
+You may also come across other tags specifying regional restrictions (e.g. USA Only) or new releases (e.g. Alpha, Beta).
+
+BASE URL
+Copy
+https://api.rechargeapps.com

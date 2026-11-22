@@ -1,0 +1,360 @@
+{
+  "dossier": {
+    "sections": [
+      {
+        "id": "positioning",
+        "title": "Positioning",
+        "summary": "Loop sells a subscription platform for Shopify brands on a promise of retention and fewer fees, with service as a differentiator.",
+        "keyPoints": [
+          "Homepage: 'The last subscription platform you'll ever need', trusted by 2400+ Shopify subscription brands.",
+          "A dedicated Slack channel with real people is promoted as part of the product, and migrations are described as fully managed.",
+          "The case-study filter lists brands migrated from Recharge, Skio, Bold and Smartrr, which names the competitors directly."
+        ]
+      },
+      {
+        "id": "offerings",
+        "title": "Products and offerings",
+        "summary": "Retention and subscription-management tools built around a customer portal.",
+        "keyPoints": [],
+        "table": {
+          "columns": [
+            "Product",
+            "What it does"
+          ],
+          "rows": [
+            [
+              "Customer portal",
+              "Self-serve portal for subscribers, with multi-language capability on Pro"
+            ],
+            [
+              "Cancellation flows",
+              "Ask why subscribers leave, suggest alternatives and hook them with offers"
+            ],
+            [
+              "Loop Flows",
+              "IF-THEN workflows without code across the subscriber lifecycle"
+            ],
+            [
+              "Bundles",
+              "Build-your-own, buy-more-save-more and preset bundles"
+            ],
+            [
+              "Failed payment recovery and dunning",
+              "Recovers failed renewals"
+            ],
+            [
+              "Loyalty and referral",
+              "New: streaks and mystery rewards inside cancellation flows, portal and storefront"
+            ],
+            [
+              "Manage",
+              "Bulk operations, automation and an alert center for subscription changes"
+            ],
+            [
+              "Upsell",
+              "Offers across the subscriber journey"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "pricing",
+        "title": "Pricing",
+        "summary": "Flat monthly plans with a transaction percentage, a 14-day free trial on the entry plan and a negotiable enterprise lane. The headline copy and the fee lines disagree.",
+        "keyPoints": [
+          "The pricing page promises 'flat monthly plans, $0 per-order fees, free migration', yet each plan lists a transaction fee and a charge per loyalty order.",
+          "Starter has a 14-day free trial; Pro is tagged best value and most chosen and sends buyers to book a demo.",
+          "API and webhooks access sits on Pro, not Starter.",
+          "A feature-by-plan comparison table lists retention features such as loyalty, streaks and mystery rewards."
+        ],
+        "table": {
+          "columns": [
+            "Plan",
+            "Price a month",
+            "Transaction fee",
+            "Adds"
+          ],
+          "rows": [
+            [
+              "Starter",
+              "$99",
+              "1.0% plus 15¢ per loyalty order",
+              "Failed payment recovery, cancellation prevention, portal, bundles, out-of-stock protection, 30+ integrations"
+            ],
+            [
+              "Pro (best value)",
+              "$399",
+              "0.75% plus 10¢ per loyalty order",
+              "Dedicated CSM, surprise and delight flows, targeted campaigns, prepaid and gifting, multi-language portal, API and webhooks"
+            ],
+            [
+              "Enterprise",
+              "Let's talk",
+              "Negotiable",
+              "Volume-based pricing, custom development, custom contract terms, tailored onboarding"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "merchandising",
+        "title": "Merchandising",
+        "summary": "A three-plan ladder with the middle plan tagged best value and most chosen. The merchant toolset is the deepest of the subscription sites in this survey: bundles, flows, cancellation offers and loyalty.",
+        "keyPoints": [
+          "The Pro plan is raised and tagged, and gates API access and a dedicated CSM, which pulls growing brands up.",
+          "A site-wide Black Friday countdown and an A-to-Z guide for BFCM run above the navigation.",
+          "For merchants: three bundle types, upsell offers, targeted cancellation offers, surprise and delight flows and loyalty rewards.",
+          "Case results are attached to each feature: OSEA Malibu cut churn from 10% to 5%, and Lilac St. Curls reported 72.7% more revenue."
+        ]
+      },
+      {
+        "id": "platform",
+        "title": "Technical platform",
+        "summary": "A developer hub with a REST API, an Admin API, a Storefront API and webhooks, plus a deep help center.",
+        "keyPoints": [
+          "The API is REST with JSON bodies and standard response codes; the reference has sections for Admin API, Storefront API and webhooks.",
+          "The help center has a developer hub and covers integrations, customer portal, experiments and migration.",
+          "Starter lists 30+ integrations, and API and webhook access is a Pro feature."
+        ],
+        "gaps": [
+          "Rate limits and SLAs were not read."
+        ]
+      },
+      {
+        "id": "design",
+        "title": "Design",
+        "summary": "Friendly and a little playful: a purple brand color, a serif display type on pricing, a sticky promotional banner and an always-on chat widget. Pages from different parts of the site look like different systems.",
+        "keyPoints": [
+          "Home uses Inter with purples (#6b13f9 and #9839ff); the pricing page switches to a serif display (Fraunces) with 0px button corners and a cream-lilac background.",
+          "The home hero is a video of a person holding a coffee bag with the headline over it; a chat bubble overlaps the lower right.",
+          "The pricing page raises the Pro card above Starter and Enterprise and sets 'Not your fees' with an italic.",
+          "The developer hub uses a different font again, and the Shopify App Store page it links to uses its own system.",
+          "The home page is 8,386px tall."
+        ],
+        "gaps": [
+          "Merchant design control was not shown in the surveyed pages."
+        ]
+      },
+      {
+        "id": "company",
+        "title": "Company presentation",
+        "summary": "A challenger story told through customer results, migrations and white-glove service.",
+        "keyPoints": [
+          "Scale and reviews: 2400+ brands and 760+ 5.0-star reviews on the Shopify App Store, while the app listing shows 4.9 from 819 reviews.",
+          "Customer stories are filterable by industry and by the platform the brand migrated from.",
+          "The company runs a content push (a BFCM encyclopedia) as the main promotion."
+        ],
+        "gaps": [
+          "No About page or leadership information in the surveyed pages."
+        ]
+      }
+    ]
+  },
+  "signupPath": "On the pricing page 'Start 14 days free trial' opens the Shopify App Store listing for Loop Subscriptions (apps.shopify.com), a page with an 'Install' button, a 'View demo store' link, the $99 and $399 plans, a 4.9 rating from 819 reviews and the note 'Free plan available. Free trial available.' It is not a signup form; installing would require a Shopify login. The homepage itself offers only 'Book your consultation call'. Nothing was entered.",
+  "scores": {
+    "jtbd_fit": {
+      "score": 5,
+      "evidence": "Every page is about running subscriptions on Shopify and reducing churn.",
+      "step": 1
+    },
+    "capability_visible": {
+      "score": 4,
+      "evidence": "A demo store and feature pages with results; the admin itself is behind install.",
+      "step": 7
+    },
+    "pricing_transparency": {
+      "score": 4,
+      "evidence": "Two plans with prices and fees plus a comparison table; the '$0 per-order fees' headline conflicts with the fee lines.",
+      "step": 2
+    },
+    "product_breadth": {
+      "score": 4,
+      "evidence": "Portal, flows, bundles, loyalty, dunning and bulk management are each explained.",
+      "step": 3
+    },
+    "platform_depth": {
+      "score": 4,
+      "evidence": "REST Admin and Storefront APIs, webhooks and a developer hub; API access is gated to Pro.",
+      "step": 4
+    },
+    "time_to_value": {
+      "score": null,
+      "evidence": "Capture stops before the product; first-value time was not observed.",
+      "step": null
+    },
+    "friction": {
+      "score": 4,
+      "evidence": "'Start 14 days free trial' leads to the Shopify App Store listing with a one-click install.",
+      "step": 11
+    },
+    "trust": {
+      "score": 4,
+      "evidence": "2400+ brands, App Store ratings and case results on every feature page.",
+      "step": 1
+    },
+    "mobile": {
+      "score": null,
+      "evidence": "Phone captures exist for home and pricing but were not assessed.",
+      "step": null
+    },
+    "states": {
+      "score": null,
+      "evidence": "No error or empty states reached.",
+      "step": null
+    },
+    "a11y_basics": {
+      "score": null,
+      "evidence": "Not tested.",
+      "step": null
+    },
+    "value_prop_clarity": {
+      "score": 4,
+      "evidence": "'The last subscription platform you'll ever need' is a superlative but the subhead and feature names are clear.",
+      "step": 1
+    },
+    "proof_quality": {
+      "score": 3,
+      "evidence": "Home says 760+ five-star reviews; the App Store listing shows 4.9 from 819. The '$0 per-order fees' line conflicts with listed fees.",
+      "step": 11
+    },
+    "persuasion_integrity": {
+      "score": 3,
+      "evidence": "A Black Friday countdown runs on every page.",
+      "step": 1
+    },
+    "cta_logic": {
+      "score": 3,
+      "evidence": "'Book your consultation call', 'Book a demo' and 'Start 14 days free trial' compete across pages.",
+      "step": 2
+    },
+    "company_narrative": {
+      "score": 4,
+      "evidence": "Retention-and-service story repeats from homepage to features to success stories.",
+      "step": 5
+    },
+    "offer_packaging": {
+      "score": 5,
+      "evidence": "Three plans with 'everything in' lists and a feature-by-plan table.",
+      "step": 2
+    },
+    "offer_architecture": {
+      "score": 4,
+      "evidence": "A free trial, a best-value plan that gates API and CSM, and an enterprise lane.",
+      "step": 2
+    },
+    "merchant_merch_tools": {
+      "score": 5,
+      "evidence": "Bundles of three types, upsell, cancellation offers, flows and loyalty rewards.",
+      "step": 9
+    },
+    "visual_craft": {
+      "score": 4,
+      "evidence": "Clear hierarchy and a recognisable purple; chat bubbles and a banner clutter the top of each page.",
+      "step": 1
+    },
+    "system_coherence": {
+      "score": 3,
+      "evidence": "Home, pricing, developer hub and the App Store page use different fonts and button styles.",
+      "step": 2
+    },
+    "merchant_design_control": {
+      "score": null,
+      "evidence": "The surveyed pages could not tell.",
+      "step": null
+    }
+  },
+  "read": {
+    "summary": "A subscription platform that sells retention outcomes with specific case results and the deepest merchandising toolset in its category in this survey. The pricing page is open but contradicts itself on fees, and the proof numbers do not match the App Store listing.",
+    "pros": [
+      "Case results sit on each feature page with a named brand.",
+      "A comparison table lists each feature by plan.",
+      "Free trial goes straight to a one-click App Store install.",
+      "Merchants get bundles, flows, upsells and cancellation offers."
+    ],
+    "cons": [
+      "'$0 per-order fees' sits above plans that list a transaction fee.",
+      "'760+ reviews, 5.0' on the homepage differs from 4.9 from 819 on the App Store.",
+      "A Black Friday countdown runs on every page.",
+      "Several different CTAs compete."
+    ],
+    "howItSells": "Sells churn reduction through concrete numbers and human help: a Slack channel, fully managed migration and named competitors' customers.",
+    "copy": [
+      "Attach a named result to each feature page.",
+      "List features by plan in a table.",
+      "Send trial starts to the app-store listing in one click."
+    ],
+    "avoid": [
+      "A zero-fee headline above plans that list fees.",
+      "Review counts that do not match the listing."
+    ],
+    "tactics": [
+      "social_proof",
+      "scarcity",
+      "anchoring"
+    ],
+    "confidence": "medium",
+    "unknowns": [
+      "What the install flow asks.",
+      "Pro features beyond the table.",
+      "Mobile experience.",
+      "The customer portal's theming options."
+    ],
+    "hypothesis": {
+      "statement": "Changing the headline to 'flat monthly plans plus a 0.75% to 1.0% transaction fee' will cut early-stage price objections on sales calls.",
+      "metric": "Share of demo calls where pricing is raised as an objection",
+      "guardrail": "Pricing-page demo bookings",
+      "decisionRule": "Ship if objections fall and bookings hold over four weeks."
+    },
+    "subjects": {
+      "merchandising": {
+        "summary": "A clear ladder and the strongest merchant toolset among subscription sites here, with one pricing contradiction to fix.",
+        "pros": [
+          "Pro is tagged best value and gates API and CSM.",
+          "Features come with named results.",
+          "A comparison table shows exactly what each plan includes."
+        ],
+        "cons": [
+          "Countdown banner on every page.",
+          "Fee headline and fee lines disagree."
+        ]
+      },
+      "design": {
+        "summary": "Personable and recognisable, with visible variation between marketing, pricing and developer pages.",
+        "pros": [
+          "A recognisable purple and a serif display give personality.",
+          "Pro raised above its neighbours makes the ladder obvious."
+        ],
+        "cons": [
+          "Banner and chat bubbles crowd the top and corner of pages.",
+          "Different fonts across home, pricing and developer pages."
+        ]
+      }
+    }
+  },
+  "claims": [
+    {
+      "text": "Transparent Loop Subscriptions pricing for Shopify — flat monthly plans, $0 per-order fees, free migration.",
+      "verdict": "unsupported",
+      "step": 2,
+      "evidenceStep": 2
+    },
+    {
+      "text": "760+ 5.0 ★ reviews on shopify app store",
+      "verdict": "plausible",
+      "step": 1,
+      "evidenceStep": 11
+    },
+    {
+      "text": "OSEA Malibu cut churn in half, from 10% to 5%",
+      "verdict": "plausible",
+      "step": 7,
+      "evidenceStep": null
+    },
+    {
+      "text": "Trusted by 2400+ Shopify subscription brands",
+      "verdict": "plausible",
+      "step": 1,
+      "evidenceStep": null
+    }
+  ]
+}

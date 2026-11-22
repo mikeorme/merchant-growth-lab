@@ -1,0 +1,346 @@
+{
+  "dossier": {
+    "sections": [
+      {
+        "id": "positioning",
+        "title": "Positioning",
+        "summary": "Yotpo sells a retention-marketing suite of reviews, loyalty and, newest, AI visibility: tracking and shaping how AI engines recommend a brand's products.",
+        "keyPoints": [
+          "Homepage: 'Your marketing solutions should work for you. Drive more revenue with best-in-class solutions for loyalty, reviews, and AI visibility.'",
+          "The AI angle is the lead: Yotpo Discover tracks how AI engines recommend products, and a dedicated page argues that AI has never tried the product but customers have.",
+          "The enterprise page targets ecommerce leaders with authenticated reviews and loyalty programs built for global scale."
+        ]
+      },
+      {
+        "id": "offerings",
+        "title": "Products and offerings",
+        "summary": "Three product lines sold alone or bundled.",
+        "keyPoints": [],
+        "table": {
+          "columns": [
+            "Product",
+            "What it does"
+          ],
+          "rows": [
+            [
+              "Reviews and UGC",
+              "Collects and displays reviews with AI summaries, Smart Sorting and retail syndication"
+            ],
+            [
+              "Loyalty and Referrals",
+              "Points, VIP tiers and referrals, with Shopify, Magento and other store integrations"
+            ],
+            [
+              "Yotpo Discover (AI visibility)",
+              "Tracks and controls how AI engines recommend products; beta access for enterprise"
+            ],
+            [
+              "Integrations",
+              "180+ integrations across email, helpdesk, ads and commerce platforms"
+            ]
+          ]
+        },
+        "gaps": [
+          "The Visual UGC product and free tools (calculators, generators) were not opened."
+        ]
+      },
+      {
+        "id": "pricing",
+        "title": "Pricing",
+        "summary": "Priced by product and monthly order volume, with a slider on the pricing page. Entry plans are free or low-cost, higher tiers are custom quotes.",
+        "keyPoints": [
+          "Reviews and UGC has a limited free plan up to 50 monthly orders and paid plans from $15 a month.",
+          "Loyalty and Referrals has a free plan with paid tiers from $199 a month.",
+          "Discover is custom-priced; reviews and loyalty can be bundled to save.",
+          "At the default slider position the page shows monthly prices for the two entry reviews plans, with Premium and Enterprise as 'reach out for a custom quote'."
+        ],
+        "table": {
+          "columns": [
+            "Reviews plan",
+            "Who it is for",
+            "Adds"
+          ],
+          "rows": [
+            [
+              "Starter",
+              "Launching a reviews program",
+              "Branded review experience, on-site display, collection and sharing tools"
+            ],
+            [
+              "Pro (recommended)",
+              "Growing a reviews program",
+              "Seller ratings, AI-driven display, AI tools for shoppers, chatbot and email support, product sampling add-on"
+            ],
+            [
+              "Premium",
+              "Deeper insight and guidance",
+              "Reviews AI summary, roles and permissions, translations, syndication across domains, retail syndication"
+            ],
+            [
+              "Enterprise",
+              "Scale across markets and brands",
+              "Custom API setup, omni-channel collection, dedicated security and compliance, priority professional services"
+            ]
+          ]
+        },
+        "gaps": [
+          "Exact plan prices appear only in the live slider widget and were not in the page text."
+        ]
+      },
+      {
+        "id": "merchandising",
+        "title": "Merchandising",
+        "summary": "The pricing page works as a configurator: pick a product, set order volume, see the plan. A recommended tag and free entry plans pull visitors in; custom quotes catch the rest.",
+        "keyPoints": [
+          "Tabs for Reviews and UGC, Loyalty and Referrals, AI Visibility and a Bundle sit above a monthly-order-volume slider.",
+          "The Pro plan carries a 'recommended' tag; Premium and Enterprise go to sales.",
+          "Entry plans are free or low-cost, and bundling reviews with loyalty is offered as a saving.",
+          "For merchants: reviews display with AI summaries and Smart Sorting, loyalty points and VIP tiers, referral programs and syndication of reviews to retailers."
+        ]
+      },
+      {
+        "id": "platform",
+        "title": "Technical platform",
+        "summary": "API documentation and a public API changelog sit alongside 180+ integrations and a help center with a machine-readable index.",
+        "keyPoints": [
+          "API changelog covers App Developer, Core, Loyalty and Referrals, and UGC APIs; the entries surveyed date from March 2024.",
+          "The help center publishes an llms.txt index of its documentation.",
+          "Integrations page lists Attentive, Omnisend, Gorgias and Klaviyo Customer Hub among featured partners, filterable by product and category.",
+          "Loyalty data can be synced through Shopify Metafields."
+        ],
+        "gaps": [
+          "The API reference itself was not opened."
+        ]
+      },
+      {
+        "id": "design",
+        "title": "Design",
+        "summary": "Bright and approachable: cream backgrounds, big serif headlines on the home page, blue pill buttons and product UI cards. The pricing page switches to a black header and a grey configurator canvas.",
+        "keyPoints": [
+          "Home uses Inter with a blue accent (#0042e4) and pill buttons (100px corners).",
+          "Pricing switches to neue-haas-grotesk with a black header and grey canvas.",
+          "The home hero pairs a large headline and a business-email field with an AI Visibility card.",
+          "Pricing puts a product switcher and order-volume slider above four plan columns.",
+          "For merchants: customizable on-site review widgets are listed on higher plans."
+        ],
+        "gaps": [
+          "Light and dark modes were not assessed."
+        ]
+      },
+      {
+        "id": "company",
+        "title": "Company presentation",
+        "summary": "A trust-and-loyalty-in-the-AI-era story with global reach and named brand outcomes.",
+        "keyPoints": [
+          "About page: 'Leading the next era of trust and loyalty in eCommerce', with 100 countries on 5 continents.",
+          "Case studies: Dr. Martens collects 1.8 million reviews; loyalty redeemers spend 15% more, driving a 7.7x return on a loyalty program.",
+          "Partner programs for agencies and integration builders are prominent."
+        ],
+        "gaps": [
+          "No leadership information in the surveyed pages."
+        ]
+      }
+    ]
+  },
+  "signupPath": "No signup button is on the homepage ('Get a demo' beside a business-email field). From the pricing page, 'Sign up' on the Starter reviews plan opens accounts.yotpo.com, a real account form headed 'Create your free account': name, email and password, a 'Continue' button and an agreement to the Terms of Service. The plan is pre-selected in the address. Nothing was entered.",
+  "scores": {
+    "jtbd_fit": {
+      "score": 4,
+      "evidence": "Each product page names its job: collect trusted reviews, grow repeat purchase, win AI recommendations.",
+      "step": 9
+    },
+    "capability_visible": {
+      "score": 3,
+      "evidence": "Product pages and a pricing configurator are shown; limited in-product demonstration.",
+      "step": 2
+    },
+    "pricing_transparency": {
+      "score": 3,
+      "evidence": "Entry prices and plan contents are published, but exact prices sit in a slider widget and higher tiers are quotes.",
+      "step": 2
+    },
+    "product_breadth": {
+      "score": 4,
+      "evidence": "Three product lines with a clear job each and a bundle option.",
+      "step": 1
+    },
+    "platform_depth": {
+      "score": 3,
+      "evidence": "API changelog, help center and 180+ integrations; the API reference was not read and sampled changelog entries are from 2024.",
+      "step": 4
+    },
+    "time_to_value": {
+      "score": null,
+      "evidence": "Capture stops before the product; first-value time was not observed.",
+      "step": null
+    },
+    "friction": {
+      "score": 4,
+      "evidence": "Pricing-page Sign up opens a short account form: name, email and password.",
+      "step": 13
+    },
+    "trust": {
+      "score": 4,
+      "evidence": "Named brand outcomes and analyst-review mentions.",
+      "step": 6
+    },
+    "mobile": {
+      "score": null,
+      "evidence": "Phone captures exist for home and pricing but were not assessed.",
+      "step": null
+    },
+    "states": {
+      "score": null,
+      "evidence": "No error or empty states reached.",
+      "step": null
+    },
+    "a11y_basics": {
+      "score": null,
+      "evidence": "Not tested.",
+      "step": null
+    },
+    "value_prop_clarity": {
+      "score": 3,
+      "evidence": "The AI visibility framing is new and needs explaining; reviews and loyalty are clear.",
+      "step": 1
+    },
+    "proof_quality": {
+      "score": 3,
+      "evidence": "Case-study numbers are specific; 'best-in-class' has no source.",
+      "step": 6
+    },
+    "persuasion_integrity": {
+      "score": 4,
+      "evidence": "No urgency tactics; a free tier is stated with its limit.",
+      "step": 2
+    },
+    "cta_logic": {
+      "score": 3,
+      "evidence": "'Get a demo' leads; the self-serve sign-up is found only on the pricing page.",
+      "step": 2
+    },
+    "company_narrative": {
+      "score": 4,
+      "evidence": "The trust-and-loyalty-in-the-AI-era story holds from homepage to About to product pages.",
+      "step": 7
+    },
+    "offer_packaging": {
+      "score": 4,
+      "evidence": "Four review plans with 'everything in' ladders and a configurator; plan prices sit in a widget.",
+      "step": 2
+    },
+    "offer_architecture": {
+      "score": 4,
+      "evidence": "Free entry, recommended middle plan, custom quotes and bundles.",
+      "step": 2
+    },
+    "merchant_merch_tools": {
+      "score": 4,
+      "evidence": "Review display with AI summaries and sorting, loyalty tiers and referrals, retail syndication.",
+      "step": 9
+    },
+    "visual_craft": {
+      "score": 4,
+      "evidence": "Clear hierarchy and friendly illustration; busy product cards in the home hero.",
+      "step": 1
+    },
+    "system_coherence": {
+      "score": 3,
+      "evidence": "Home and pricing use different typefaces and header styles.",
+      "step": 2
+    },
+    "merchant_design_control": {
+      "score": 4,
+      "evidence": "Fully customizable on-site widgets on higher plans; branded review experience on Starter.",
+      "step": 2
+    }
+  },
+  "read": {
+    "summary": "A three-product retention suite repositioning around AI visibility. The pricing configurator and free entry plans are a good model; the weak points are a price list hidden in a widget and an unevenly consistent design.",
+    "pros": [
+      "Free and low-cost entry plans with stated limits.",
+      "A product and order-volume configurator on the pricing page.",
+      "The signup is a short account form (name, email, password).",
+      "Specific case-study numbers."
+    ],
+    "cons": [
+      "Exact prices live inside a widget, not the page text.",
+      "AI visibility is a new idea that needs more explanation.",
+      "Pricing and home look like different sites.",
+      "API changelog entries surveyed date from 2024."
+    ],
+    "howItSells": "Sells trust and loyalty as revenue drivers, now framed around being recommended by AI. A free start and a configurator make it feel low-risk.",
+    "copy": [
+      "Offer a free tier with a stated limit.",
+      "Use a configurator for volume-based pricing.",
+      "Pair product claims with specific case numbers."
+    ],
+    "avoid": [
+      "Prices that appear only in an interactive widget.",
+      "Two different visual systems for home and pricing."
+    ],
+    "tactics": [
+      "social_proof",
+      "anchoring",
+      "commitment_ladder"
+    ],
+    "confidence": "medium",
+    "unknowns": [
+      "What happens after account creation.",
+      "Loyalty and Discover pricing.",
+      "Mobile experience.",
+      "The API reference."
+    ],
+    "hypothesis": {
+      "statement": "Showing the entry-plan prices as plain text above the slider will lift pricing-page sign-ups among visitors who do not use the slider.",
+      "metric": "Pricing-page sign-up rate",
+      "guardrail": "Sales-contact volume",
+      "decisionRule": "Ship if sign-ups rise by a pre-agreed margin and sales contacts do not fall over four weeks."
+    },
+    "subjects": {
+      "merchandising": {
+        "summary": "A configurator-led ladder with free entry; weaker on showing prices as plain text.",
+        "pros": [
+          "Free entry plan with a stated limit.",
+          "Product tabs plus an order-volume slider.",
+          "Recommended tag on the middle plan."
+        ],
+        "cons": [
+          "Real prices appear only in a widget.",
+          "Higher tiers are quotes."
+        ]
+      },
+      "design": {
+        "summary": "Approachable and clear, with a visible shift in style between the home and pricing pages.",
+        "pros": [
+          "Cream backgrounds and big headlines feel friendly and legible.",
+          "Blue pill buttons are easy to find."
+        ],
+        "cons": [
+          "Pricing swaps typeface and header style.",
+          "Home hero crowds an email field and a product card."
+        ]
+      }
+    }
+  },
+  "claims": [
+    {
+      "text": "Don't miss out on revenue growth",
+      "verdict": "plausible",
+      "step": 1,
+      "evidenceStep": null
+    },
+    {
+      "text": "Dr. Martens collects 1.8 million reviews & lifts buyer confidence with Yotpo",
+      "verdict": "plausible",
+      "step": 6,
+      "evidenceStep": null
+    },
+    {
+      "text": "Loyalty redeemers spend 15% more, driving a 7.7x ROI for the brand's loyalty program",
+      "verdict": "plausible",
+      "step": 6,
+      "evidenceStep": null
+    }
+  ]
+}

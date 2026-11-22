@@ -1,0 +1,335 @@
+URL: https://app.omnisend.com/apps/home
+TITLE: Omnisend Integrations | App Market
+DESCRIPTION: Omnisend is a powerful omnichannel marketing automation platform built for growing ecommerce businesses.
+
+App Market
+Sign Up
+App market home
+COLLECTIONS
+Newest apps (131)
+Email Capture (125)
+Advertising (25)
+Reviews (26)
+Automations & Middleware (37)
+Loyalty & Rewards (57)
+Shipping & Logistics (24)
+Customer support (21)
+Affiliate & Influencer marketing (12)
+Back-in-stock & wishlist (10)
+Subscriptions (28)
+Email Builder (27)
+Connect your store (11)
+Upcoming (4)
+WordPress (49)
+All apps (358)
+Build your own app
+Choose powerful solutions to make your marketing a whole lot smarter
+Select from 355+ available apps
+Trending app
+Check out apps that have been stealing all the spotlight.
+Google Ads Customer Match
+by Omnisend
+
+Sync your contact segments to easily set accurate and targeted ads
+
+Facebook Lead Ads
+by Omnisend
+
+Add subscribers who sign up via Facebook Lead Ad forms to Omnisend.
+
+Buy with Prime
+by Alloy Automation
+
+Boost conversion rates, recover more abandoned checkouts, and more!
+
+Newest apps
+Be among the first ones to get your hands on our latest additions to the app market.
+View all apps
+Figma
+Editor's pick
+by Omnisend
+
+Integration with Figma
+
+Recurpay
+Editor's pick
+by Omnisend
+
+Sync subscription events to Omnisend
+
+Tickvio
+by Tickvio
+
+Add real-time countdown timers to your emails.
+
+Email Capture
+Spark your email list growth with a range of conversion-oriented apps.
+View all apps
+Lapio
+by Lapio
+
+Lapio ranks customers by future revenue to target spend.
+
+Klaviyo Data Import Tool
+Editor's pick
+by Omnisend
+
+Klaviyo Data Import Tool
+
+Facebook Lead Ads
+by Omnisend
+
+Add subscribers who sign up via Facebook Lead Ad forms to Omnisend.
+
+Advertising
+Drive more traffic to your store with improved targeting and reporting.
+View all apps
+Facebook Lead Ads
+by Omnisend
+
+Add subscribers who sign up via Facebook Lead Ad forms to Omnisend.
+
+Facebook Auto-Post Campaigns
+Editor's pick
+by Omnisend
+
+Post email campaigns to your Facebook page and promote your store
+
+Facebook Custom Audiences
+Editor's pick
+by Omnisend
+
+Sync your segments to Custom Audiences to retarget users who are familiar with your business
+
+Reviews
+Show your customers you care about them by following up on their reviews.
+View all apps
+Loox ‑ Visual Product Reviews
+Editor's pick
+by Loox
+
+Collect and showcase beautiful photo & video UGC, build out referrals and boost sales
+
+Yotpo Product Reviews
+Editor's pick
+by Omnisend
+
+Create smarter segments and trigger campaigns in Omnisend using Yotpo reviews data
+
+Judge.me
+Editor's pick
+by Judge.me
+
+Reviews that grow your store from your first sale to global scale
+
+Automations & Middleware
+Set up and customize automations between Omnisend and your favorite apps.
+View all apps
+Coefficient
+by Coefficient.io
+
+Coefficient connects Google Sheets and Excel to live business data
+
+Triple Whale
+Editor's pick
+by Triple Whale
+
+Sync the Omnisend data into Triple Whale.
+
+Zapier
+Editor's pick
+by Omnisend
+
+Connect Omnisend to hundreds of other apps via Zapier
+
+Loyalty & Rewards
+Discover apps that’ll help you turn one-time customers into repeat customers.
+View all apps
+Joy Loyalty Program
+Editor's pick
+by Joy Loyalty
+
+Joy Loyalty boosts retention with customizable rewards programs.
+
+Smile
+Editor's pick
+by Omnisend
+
+Build your brand community with a rewards program
+
+Subscribfy
+by Omnisend
+
+Send Subscribfy membership and loyalty events to Omnisend.
+
+Shipping & Logistics
+Keep your customers up-to-date about their order status and shipping information.
+View all apps
+Nash
+by Omnisend
+
+Send Nash delivery updates to Omnisend as custom events.
+
+Logistia
+by Omnisend
+
+Trigger Omnisend workflows from new Logistia orders.
+
+Swap Commerce
+by Omnisend
+
+Sync return activity to Omnisend
+
+Customer support
+Apps to help you keep your brand top of mind.
+View all apps
+Agenola
+by ElliSekiz LLC
+
+AI website assistant that turns chat visitors into Omnisend contacts
+
+eDesk
+by Omnisend
+
+Sync ticket status to Omnisend
+
+Commslayer
+by Omnisend
+
+Sync conversation events to Omnisend
+
+Affiliate & Influencer marketing
+Use influencer marketing and affiliate data to make your workflows more relevant.
+View all apps
+Growsurf
+by Omnisend
+
+Sync referral events to Omnisend
+
+Influencer Hero
+by Influencer Hero
+
+Identify influencers in Omnisend contacts
+
+Webplanex: Loyalty Wallet
+by Webplanex
+
+Unique way to engage and encourage customers for more purchase
+
+Back-in-stock & wishlist
+Build workflows based on back-in-stock items and your contact’s wishlists.
+View all apps
+StockIQ ‑ Out‑of‑Stock Manager
+by EGNITION
+
+Push down or hide sold-out items. Back in stock notifications.
+
+Flits Wishlist
+by Flits Wishlist
+
+Send wishlist and back-in-stock events to Omnisend.
+
+STOQ
+by STOQ
+
+Sync back-in-stock alerts from STOQ to Omnisend.
+
+Subscriptions
+Send targeted campaigns and trigger automated messages based on contact subscription status and activity.
+View all apps
+Recurpay
+Editor's pick
+by Omnisend
+
+Sync subscription events to Omnisend
+
+Churn Solution
+by churnsolution.com
+
+Sync cancellation session outcomes to Omnisend contacts.
+
+Privy
+by Omnisend
+
+With the Privy integration, new signups sync automatically to Omnisend as contacts.
+
+Email Builder
+Unleash your creative performance and enhance your emails.
+View all apps
+Figma
+Editor's pick
+by Omnisend
+
+Integration with Figma
+
+Tickvio
+by Tickvio
+
+Add real-time countdown timers to your emails.
+
+Doran: Shoppable Videos
+by Doran: Shoppable Videos
+
+Sync Shoppable Videos widgets to Omnisend as Universal Layouts.
+
+Connect your store
+Enable and explore the ecommerce marketing features that'll help you sell more.
+View all apps
+SureCart
+by SureCart
+
+No-code eCommerce solution for WordPress
+
+Big Cartel
+by Infinite Apps
+
+Big Cartel makes it easy to sell your work online
+
+WordPress
+by Omnisend
+
+Most popular open-source content management system (CMS)
+
+Upcoming
+What app should we release next?
+View all apps
+Trustpilot Reviews
+by Trustpilot
+
+To be released if requested
+
+Squarespace
+by Omnisend
+
+To be released if requested
+
+Livechat
+by Omnisend
+
+To be released if requested
+
+WordPress
+Apps that are compatible with WordPress
+View all apps
+Yotpo Product Reviews
+Editor's pick
+by Omnisend
+
+Create smarter segments and trigger campaigns in Omnisend using Yotpo reviews data
+
+Zapier
+Editor's pick
+by Omnisend
+
+Connect Omnisend to hundreds of other apps via Zapier
+
+SureCart
+by SureCart
+
+No-code eCommerce solution for WordPress
+
+Join the
+150,000+ ecommerce brands that grow with Omnisend every day.
+Start freeSee pricing
+
+5100+ glowing reviews on Shopify

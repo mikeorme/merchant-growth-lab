@@ -1,0 +1,235 @@
+URL: https://smile.io/integrations
+TITLE: Smile Integrations | Klaviyo, Judge.me, Recharge & More
+DESCRIPTION: Connect Smile with your entire Shopify stack across email marketing, reviews, subscriptions, customer support, and more. Power up your loyalty program with every tool you already use.
+
+Skip to content
+Power up your loyalty
+with integrations.
+
+Our integrations allow you to connect Smile with your favorite ecommerce tools.
+
+Browse all integrations 
+NATURIUM
+Klaviyo-attributed redemptions.
+, with Klaviyo
+FAME ON CENTRAL
+FAME VIP Club, in the app too.
+, with Tapcart
+APPLIED NUTRITION
+One-time buyers to subscribers.
+, with Recharge
+BIRDIE BEAN
+Birdie Bucks in Redo Recover.
+, with Redo
+FOXHOUND BEE COMPANY
+Honey Money, wired into flows.
+, with Klaviyo
+LIQUID DEATH
+Retail purchases earn Skulls.
+, with Subtotal
+CREEKSIDE NURSERY
+Email, SMS and POS, as one.
+, with Klaviyo
+EDDIE BAUER
+Agents see Adventure Rewards.
+, with Gorgias
+Certified Technology Partner
+Shopify's enterprise tier
+SOC
+2
+SOC 2 Type II
+Audited May 2026
+(opens in a new tab)
+Ford
+Billabong
+Liquid Death
+Quiksilver
+Naturium
+Eddie Bauer
+Nine West
+K-Swiss
+ROKA
+TP-Link
+Fiesta Tableware
+Hush Puppies
+Blue Banana
+HIKOCO
+
++ thousands more
+on Shopify Plus
+
+Discover integrations.
+Connect Smile to other tools you use.
+All
+35
+Email & Marketing
+13
+Reviews
+9
+Customer Support
+2
+Subscriptions
+2
+Mobile App
+2
+Omnichannel
+1
+Returns & Exchanges
+1
+Analytics & Insights
+2
+Upsell & Cross-Sell
+2
+Social Good
+1
+Search integrations
+
+35 integrations shown
+
+Digioh
+Featured partner
+Reward points for completing quizzes, surveys, and pop-ups.
+Redo
+Featured partner
+Show loyalty points in your marketing messages.
+Built by Redo
+Privy
+Featured partner
+Sync loyalty data into your email, SMS, and popup campaigns.
+Built by Privy
+Subtotal
+Featured partner
+Reward points for verified retail purchases at major retailers.
+Built by Subtotal
+Klaviyo
+Sync loyalty data into your email and SMS campaigns.
+Built by Smile
+Dotdigital
+Sync points balance and VIP tier into your email campaigns.
+Built by Smile
+Mailchimp
+Sync points balance and VIP tier into your email campaigns.
+Built by Smile
+HubSpot
+Sync points balance and VIP tier into your CRM and email campaigns.
+Built by Smile
+Omnisend
+Sync points balance and VIP tier into your email and SMS campaigns.
+Built by Omnisend
+Hive
+Sync points balance and VIP tier into your email and SMS campaigns.
+Built by Hive
+Remarkety
+Sync points balance and VIP tier into your email and SMS campaigns.
+Built by Remarkety
+ReSci
+Sync points balance and VIP tier into your email and SMS campaigns.
+Built by ReSci
+Sendlane
+Sync points balance and VIP tier into your email and SMS campaigns.
+Built by Sendlane
+PushOwl
+Sync points balance and VIP tier into your email, web push, and SMS campaigns.
+Built by PushOwl
+ConvertCart
+Sync loyalty data into your email campaigns and trigger workflows from loyalty events.
+Built by ConvertCart
+Judge.me
+Reward customers with points when they write a product review.
+Built by Judge.me
+Okendo Reviews
+Reward customers with points for writing product reviews.
+Built by Okendo
+Yotpo Reviews
+Reward customers with points for writing product reviews.
+Built by Smile
+Stamped.io
+Reward customers with points for writing product reviews.
+Built by Stamped.io
+Fera
+Reward customers with points for writing product, photo, and video reviews.
+Built by Fera
+Loox
+Reward customers with points for writing product, photo, and video reviews.
+Built by Loox
+REVIEWS.io
+Reward customers with points for writing product and company reviews.
+Built by REVIEWS.io
+Verified Reviews
+Reward customers with points for writing product and website reviews.
+Built by Verified Reviews
+Moast
+Reward points when customers submit photos or videos.
+Gorgias
+Display loyalty data alongside support tickets.
+Built by Gorgias
+Re:amaze
+Display loyalty data alongside support conversations.
+Built by Re:amaze
+Recharge
+Automatically reward points on recurring subscription orders.
+Built by Smile
+Stay AI
+Display loyalty information in the Stay AI customer portal.
+Tapcart
+Reward and redeem loyalty points inside your mobile app.
+Built by Tapcart
+Makappi
+View and redeem loyalty points inside your mobile app.
+Built by Makappi
+Loop Returns
+Offer enhanced return experiences based on a customer's loyalty status.
+Built by Loop Returns
+Glew
+Analyze loyalty program performance alongside your other ecommerce metrics.
+Built by Glew
+Lifetimely
+AI-powered loyalty analytics, from profit to lifetime value, and more.
+Built by Lifetimely
+Rep AI
+Use customer points data in AI shopping conversations.
+Built by Rep AI
+Shop for Good
+Reward customers with points for donating to charitable causes.
+Built by DailyKarma
+Build on Smile.
+The platform behind every integration.
+
+A REST API with OAuth and webhooks, the JavaScript SDK and Smile UI.
+
+Read the developer docs 
+(opens in a new tab)
+
+25+
+partners have built integrations on the platform.
+
+GET
+https://api.smile.io/v1/referral_settings
+OAuth, scope referral_settings:read
+200 OK
+1
+{
+2
+  "referral_settings": {
+3
+    "status": "active",
+4
+    "sender_reward": { "name": "500 points" },
+5
+    "receiver_reward": { "name": "$20 off coupon" }
+6
+  }
+7
+}
+Integrations, answered.
+Does Smile integrate with Klaviyo?
+Does Smile work with Recharge?
+Which reviews apps work with Smile?
+Who builds Smile’s integrations?
+Does Smile have an API?
+Boost repeat sales.
+Reward with Smile today.
+Book a demo
+The plan that fits your monthly orders
+What migration and launch look like on that plan
+The revenue loyalty could add at your scale

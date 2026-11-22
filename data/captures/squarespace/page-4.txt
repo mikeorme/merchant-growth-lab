@@ -1,0 +1,61 @@
+URL: https://engineering.squarespace.com/
+TITLE: Squarespace Engineering Blog
+DESCRIPTION: At Squarespace, our mission is to provide creative tools that help anyone bring their ideas to life. In this blog you'll learn about the ups and downs of our engineering endeavors.
+
+HANNAH TIPPERMAN
+
+AI is incredible for rapid idea and hypothesis testing by prototyping. It isn't about writing code — it’s about protecting your most valuable resource: cognitive energy. As engineers, we often face the overwhelming task of determining the look, feel, and architecture of an idea through hundreds of tiny decisions. By the time we get to the novel part of the problem we’re trying to solve, our brains are tired. We can burn out before we even truly begin.
+
+To solve this, we can steal a trick from artists and writers.
+
+ANILA ZAIDI
+
+We read reviews before buying a TV, a sweater, almost anything. Businesses do the same – potential enterprise partners evaluate APIs through every piece of content they come across. So, what happens when you improve all of it?
+
+SCOTT JEHL
+
+HTML video and audio lazy loading is now a web standard and quickly gaining support in all major browsers. Given Squarespace’s role in proposing and implementing it, we’re very excited to see how developers use it on the web. Let’s cover some best practices for using video and audio lazy loading in any website, as well as some gotchas to avoid.
+
+SCOTT JEHL
+
+At Squarespace, many of our core products are built on web standards, and our engineers are constantly pushing the boundaries of the web’s capabilities. Occasionally, those boundaries reveal a limitation: an opportunity for the web’s native capabilities to grow. This post is the story of how we found such an opportunity to work with the standards community to improve the web in a way that we – and everyone who uses it – can benefit.
+
+RAFAEL PEIXINHO
+
+In the fast-paced world of software development, documentation often gets a bad rap. It's perceived as a chore, a necessary evil, and sometimes, unfortunately, an afterthought. But what if writing documentation could be as dynamic and collaborative as writing the code itself? What if it could be simpler to write and more practical to use?
+
+PRAVISH SOOD
+
+Our teams love relational databases and the benefits ACID properties bring to us as engineers, but they have their limits, especially in horizontal scaling. We had to adopt new database tech across a fleet of highly available services while eliminating as much risk as possible… but how? Enter: change data capture patterning.
+
+ALAN COOKE
+
+On the Unfold team at Squarespace, our mobile releases don't require much in the way of manual intervention or human oversight. In fact, we don’t have to give releases much thought at all.
+
+But, this was not always true. This post is a look into what these non-eventful mobile releases are like, dig into how much more eventful they used to be, and walk through the work it took us to get here.
+
+WENSHUO LIU
+
+Recently we introduced a write back cache to our Asset Library. This improvement makes life easier for both our customers and our developers. This post walks through the why, the why not and the how.
+
+ANILA ZAIDI
+
+The outro recaps what you did – write technical documentation! – and introduces next steps like organizing a collection of documentation, revising existing content, and expanding your technical writing skills by joining the technical writing community.
+
+ANILA ZAIDI
+
+After completing Parts 1, 2, and 3 of this tutorial, your once blank page now has technical writing – you're officially in the home stretch! Technical writing on a page becomes technical documentation only after you test, edit, and publish the content.
+
+Do not underestimate the exponential payoff that comes from testing and revising content. More than one technical writer can claim that revision has either uncovered bugs in software or improved it.
+
+ANILA ZAIDI
+
+In my opinion, creating good headings and organizing them in a way that’s helpful to readers is much more challenging than drafting content. So pat yourself on the back for completing Part 2 of this series and making it to Part 3. 👏 👏 👏
+
+However, there are three things that undo exceptional headings and structure in technical documentation: content that is inaccurate, content that’s inconsistent, and content that’s inflated.
+
+ANILA ZAIDI
+
+Part 1 of this tutorial introduced you to the content types that are most common in technical documentation. You also evaluated a real-life example as a reader, and you may have realized how headings are essential to a good reader experience. It’s because readers on the web do not read – they scan¹ . People actually read 25% slower on the web² and they only read 20% of the content on a page³. (This data is from 2008; I’m scared to know the percentage today.)
+
+Load More

@@ -31,7 +31,7 @@ fs.mkdirSync(shotDir, { recursive: true }); fs.mkdirSync(textDir, { recursive: t
 
 const host0 = new URL(item.url).hostname.replace(/^www\./, '');
 const brands = new Set([host0.split('.').slice(-2, -1)[0]]); // also add the landed host's brand: entry URLs often redirect to another domain
-const PRIMARY = /(sign up|get started|start (for )?free|start (your|now|selling|building)|create (your )?(account|store|site)|free trial)/i;
+const PRIMARY = /(sign up|get started|start (for )?free|start (your|now|selling|building)|create (your )?(account|store|site)|free trial|try (it |for |it for )?free)/i;
 const SKIP = /(log ?in|sign ?in|login|signin|privacy|terms|legal|cookie|status\.|mailto:|tel:|\/locale|language|investor|careers\/|jobs\.|\.pdf$|\/search)/i;
 // Quotas per kind, in visiting order. Lite mode trims them.
 const KINDS = [
@@ -49,6 +49,7 @@ const ctx = await browser.newContext({ viewport: { width: 1440, height: 900 } })
 const page = await ctx.newPage();
 const mctx = await browser.newContext({ ...devices['iPhone 14'] });
 const mpage = await mctx.newPage();
+const popups = []; ctx.on('page', (p) => { if (p !== page) popups.push(p); });
 const t0 = Date.now();
 let prior = null;
 const steps = [];
@@ -157,7 +158,7 @@ async function describeForm(p) {
     return { fields, alternatives: alts, submit, consent, pageHeightPx: document.documentElement.scrollHeight, passwordAsked: fields.some((f) => f.type === 'password') };
   }).catch(() => ({ fields: [], alternatives: [], submit: [], consent: [], pageHeightPx: 0, passwordAsked: false }));
 }
-const classifyEnd = (f) => f.passwordAsked || f.fields.length >= 3 ? 'account-form' : f.fields.length >= 1 ? 'email-capture' : 'no-form';
+const classifyEnd = (f) => { const real = f.fields.filter((x) => !(x.type === 'select' && /language|locale|country|region|currency/i.test(x.label))); return f.passwordAsked || real.length >= 3 ? 'account-form' : real.some((x) => x.type === 'email') ? 'email-capture' : 'no-form'; };
 async function navLinks(p) {
   return p.evaluate(() => {
     const out = []; const seen = new Set();
@@ -264,6 +265,8 @@ try {
     const resp = await page.goto(pk.href, { waitUntil: 'domcontentloaded', timeout: 25000 }).catch(() => null);
     if (!resp || (pk.area === 'probe' && (resp.status() >= 400 || !new URL(page.url()).pathname.startsWith(new URL(pk.href).pathname)))) continue; // probe must land where it asked
     await settle(page, 1200); await dismissBanners(page);
+    const probe = ((await page.locator('body').innerText().catch(() => '')).slice(0, 160) + ' ' + (await page.title().catch(() => ''))).toLowerCase();
+    if (resp.status() >= 400 || /^(429|403|503)\b|too many requests|access denied|request blocked|just a moment/.test(probe.trim())) { await page.waitForTimeout(4000); continue; } // rate-limited or blocked: never record an error page as a survey page
     const finalUrl = page.url().replace(/[#?].*$/, '').replace(/\/$/, '');
     if (steps.some((x) => x.url.replace(/[#?].*$/, '').replace(/\/$/, '') === finalUrl)) continue; // redirected to a page already captured
     const s = await record(page, pk.k, `nav: ${pk.label}`);
@@ -271,14 +274,18 @@ try {
       await mpage.goto(pk.href, { waitUntil: 'domcontentloaded', timeout: 25000 }).catch(() => {}); await settle(mpage); await dismissBanners(mpage);
       await shot(mpage, path.join(root, 'site/public', `shots/${id}/step-${s.n}-mobile.webp`), 390); s.mobileScreenshot = `shots/${id}/step-${s.n}-mobile.webp`;
     }
-    await page.waitForTimeout(700); // polite pacing
+    await page.waitForTimeout(1500); // polite pacing
   }
 
   }
   }
   if (!homeOnly) {
   // ---- 3. Signup funnel from home
-  await page.goto(item.url, { waitUntil: 'domcontentloaded', timeout: 30000 }); await settle(page); await dismissBanners(page);
+  await page.goto(item.url, { waitUntil: 'domcontentloaded', timeout: 30000 }); await settle(page, 3500); await dismissBanners(page); // single-page sites need time to hydrate before a click does anything
+  // If the homepage has no signup button, start from the pricing page (many sites only offer 'Try for free' there).
+  const homeHasCta = await page.locator('a,button').filter({ hasText: PRIMARY }).evaluateAll((els) => els.some((e) => { const r = e.getBoundingClientRect(); return r.width > 0 && r.height > 0; })).catch(() => false);
+  let funnelStart = 'home';
+  if (!homeHasCta) { const pr = steps.find((x) => x.kind === 'pricing'); if (pr) { await page.goto(pr.url, { waitUntil: 'domcontentloaded', timeout: 30000 }).catch(() => {}); await settle(page); await dismissBanners(page); funnelStart = 'pricing'; } }
   const tried = new Set(); let funnelClicks = 0; const tf = Date.now();
   for (let f = 0; f < 3; f++) {
     const cands = page.locator('a,button').filter({ hasText: PRIMARY });
@@ -288,20 +295,28 @@ try {
       const c = cands.nth(k);
       if (!(await c.isVisible().catch(() => false))) continue;
       label = (await c.innerText().catch(() => '')).trim().replace(/\s+/g, ' ').slice(0, 60);
-      if (!label || tried.has(label)) continue; tried.add(label);
+      if (!label || tried.has(label) || /terms|conditions|policy|learn more|compare/i.test(label)) continue; tried.add(label); // never follow legal or comparison links
       clicked = await c.click({ timeout: 3000 }).then(() => true).catch(() => false);
       if (!clicked) clicked = await c.click({ timeout: 3000, force: true }).then(() => true).catch(() => false);
       if (!clicked) { const href = await c.getAttribute('href').catch(() => null); if (href) clicked = await page.goto(new URL(href, page.url()).href, { waitUntil: 'domcontentloaded', timeout: 20000 }).then(() => true).catch(() => false); }
     }
     if (!clicked) { blockedReason = blockedReason ?? (total ? 'signup CTA not clickable' : 'no signup CTA found'); break; }
-    funnelClicks++; await settle(page); await dismissBanners(page);
-    const formUp = await page.locator('input[type=password], input[type=email]').first().isVisible().catch(() => false);
-    const body = (await page.locator('body').innerText().catch(() => '')).slice(0, 3000);
+    const urlBefore = page.url().replace(/[#].*$/, '');
+    funnelClicks++;
+    if (!popups.length) await page.waitForURL((u) => u.href.replace(/#.*$/, '') !== urlBefore, { timeout: 6000 }).catch(() => {}); // slow single-page navigations
+    await settle(page); await dismissBanners(page);
+    // A button may open a new tab; if so, follow it.
+    const tp = popups.length ? popups[popups.length - 1] : page;
+    if (tp !== page) { await tp.waitForLoadState('domcontentloaded').catch(() => {}); await tp.waitForTimeout(1500); }
+    const dialogOpen = await tp.locator('[role=dialog]:visible, dialog[open]').count().catch(() => 0);
+    if (tp === page && page.url().replace(/[#].*$/, '') === urlBefore && !dialogOpen) { if (!signupEnd) signupEnd = { state: 'no-navigation', clicks: funnelClicks, from: funnelStart, clicked: label }; break; } // the button did not lead anywhere new
+    const formUp = await tp.locator('input[type=password], input[type=email]').first().isVisible().catch(() => false);
+    const body = (await tp.locator('body').innerText().catch(() => '')).slice(0, 3000);
     const wall = formUp || /captcha|verify you are human|are you a robot/i.test(body);
-    const s = await record(page, 'signup', `click: "${label}"`, true); // keep chrome: the form may live in a dialog/header
+    const s = await record(tp, 'signup', `click: "${label}"`, true); // keep chrome: the form may live in a dialog/header
     s.elapsedMs = Date.now() - tf; s.clicks = funnelClicks;
-    s.form = await describeForm(page);
-    signupEnd = { state: classifyEnd(s.form), url: s.url, clicks: funnelClicks, ...s.form };
+    s.form = await describeForm(tp);
+    signupEnd = { state: classifyEnd(s.form), url: s.url, clicks: funnelClicks, from: funnelStart, ...s.form };
     if (wall) { s.note = 'Stopped here: the page asks for an email or password. Nothing is typed.'; break; }
   }
   }
@@ -319,6 +334,8 @@ const exp = {
 };
 fs.mkdirSync(path.join(root, 'data/experiences'), { recursive: true });
 fs.writeFileSync(path.join(root, 'data/experiences', id + '.json'), JSON.stringify(exp, null, 2));
-item.status = exp.status;
-fs.writeFileSync(path.join(root, 'data/corpus.json'), JSON.stringify(corpus, null, 2));
+// Re-read just before writing so parallel captures can't overwrite each other's status.
+const fresh = JSON.parse(fs.readFileSync(path.join(root, 'data/corpus.json'), 'utf8'));
+const fi = fresh.items.find((i) => i.id === id); if (fi) fi.status = exp.status;
+fs.writeFileSync(path.join(root, 'data/corpus.json'), JSON.stringify(fresh, null, 2));
 console.log(id, exp.status, `${steps.length} pages:`, steps.map((s) => s.kind).join(','), blockedReason ?? '');

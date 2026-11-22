@@ -1,0 +1,344 @@
+{
+  "dossier": {
+    "sections": [
+      {
+        "id": "positioning",
+        "title": "Positioning",
+        "summary": "Amazon's seller site sells access: reach, fulfillment and a large new-seller incentive package, framed around helping independent sellers grow.",
+        "keyPoints": [
+          "Homepage: 'Sell more with Amazon', with an offer of 10% back on your first $50,000 in branded sales.",
+          "A top banner repeats the pitch: unlock $50K in new seller credits, bonuses and exclusive benefits.",
+          "Proof is scale: more than 75,000 independent sellers surpassed $1 million in sales in 2025."
+        ]
+      },
+      {
+        "id": "offerings",
+        "title": "Products and offerings",
+        "summary": "A marketplace selling account with a menu of fulfillment, advertising, brand and B2B programs around it.",
+        "keyPoints": [],
+        "table": {
+          "columns": [
+            "Product",
+            "What it does"
+          ],
+          "rows": [
+            [
+              "Selling account (Individual or Professional)",
+              "The right to list and sell in the Amazon store"
+            ],
+            [
+              "Fulfillment by Amazon",
+              "Outsourced storage and delivery"
+            ],
+            [
+              "Amazon Ads",
+              "Optional advertising with added costs"
+            ],
+            [
+              "Brand tools",
+              "Brand Registry, enhanced product pages, a digital store and Brand Analytics"
+            ],
+            [
+              "Amazon Business",
+              "Selling to business customers in larger quantities"
+            ],
+            [
+              "Online store builder",
+              "Learn-and-build guide for creating a store with Amazon"
+            ],
+            [
+              "Selling Partner Appstore and Seller app",
+              "Third-party apps and a mobile app to create listings and manage orders"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "pricing",
+        "title": "Pricing",
+        "summary": "Two selling plans plus category-based referral fees. Many costs, including fulfillment and advertising, are optional and priced separately.",
+        "keyPoints": [
+          "Individual is pay-per-sale; Professional is a monthly subscription with bulk listing, advertising, brand and API features.",
+          "Referral fees vary by product category and are on their own tab, next to a revenue calculator.",
+          "After registration a seller can switch or cancel a plan at any time.",
+          "New sellers can get over $50,000 in credits, bonuses and benefits, marked with an asterisk."
+        ],
+        "table": {
+          "columns": [
+            "Plan",
+            "Price",
+            "Notable features"
+          ],
+          "rows": [
+            [
+              "Individual",
+              "$0.99 per item sold",
+              "List one product at a time, static prices, FBA or fulfill yourself"
+            ],
+            [
+              "Professional",
+              "$39.99 a month",
+              "Bulk operations, Amazon Ads, brand-building tools, Automate Pricing, Amazon Business, Global Selling, apps and APIs"
+            ]
+          ]
+        },
+        "gaps": [
+          "Referral fee rates by category, FBA fees and advertising costs were not read."
+        ]
+      },
+      {
+        "id": "merchandising",
+        "title": "Merchandising",
+        "summary": "The offer is merchandised with a two-plan ladder, a large incentive and a three-question quiz. For sellers, Amazon provides some of the deepest selling tools in the survey.",
+        "keyPoints": [
+          "A 'Not sure where to begin?' quiz asks three questions, starting with where your business is based.",
+          "Incentives are the main hook: 10% back on the first $50,000 in branded sales and over $50,000 in credits and benefits for new sellers.",
+          "Plan choice is simple: pay per item or pay monthly for bulk tools and advertising.",
+          "For merchants: Brand Analytics on customer search and purchase data, enhanced product pages, a digital store, Automate Pricing, advertising and B2B selling."
+        ]
+      },
+      {
+        "id": "platform",
+        "title": "Technical platform",
+        "summary": "The seller site points to apps and APIs and a Selling Partner Appstore; the surveyed pages carry little API detail, but the blog mentions an MCP-based advertising tool.",
+        "keyPoints": [
+          "The Professional plan lists 'Sell with apps and APIs'.",
+          "The Selling Partner Appstore lists Amazon-approved third-party apps that connect to a selling account.",
+          "The Selling Partner Blog announces a Selling Partner plugin and an Ads MCP for holiday preparation."
+        ],
+        "gaps": [
+          "No API documentation, rate limits or developer pages were surveyed."
+        ]
+      },
+      {
+        "id": "design",
+        "title": "Design",
+        "summary": "Bold and orange: a very large headline, a pill-shaped orange button, an illustrated seller dashboard and a green incentives bar. The sign-in page drops to Amazon's plain account style.",
+        "keyPoints": [
+          "Marketing pages use an Ember Modern typeface with orange (#ff6200) and a near-black (#161d26) and pill buttons (31.986px corners).",
+          "The home hero pairs a large two-tone headline with an illustrated Seller Central dashboard.",
+          "The pricing page uses a headline, a photo and rounded tab pills for plans, referral fees and the revenue calculator.",
+          "The sign-in page is plain Arial with a yellow (#ffd814) button.",
+          "Pages are comparatively short: the home page is 3,920px and pricing is 4,619px."
+        ],
+        "gaps": [
+          "Merchant design control beyond the store builder was not surveyed."
+        ]
+      },
+      {
+        "id": "company",
+        "title": "Company presentation",
+        "summary": "A seller-success story with a specific scale number, footnoted, and a content hub rather than a company page.",
+        "keyPoints": [
+          "Home: more than 75,000 independent sellers surpassed $1 million in sales in 2025, with a footnote.",
+          "The pricing page cites 'Amazon internal data, FY2023, US store' for an FBA claim.",
+          "A Selling Partner Blog carries announcements and tips; no About or leadership page appeared."
+        ],
+        "gaps": [
+          "No About page or leadership information in the surveyed pages."
+        ]
+      }
+    ]
+  },
+  "signupPath": "The homepage 'Sign up*' and the incentives banner lead to sellercentral.amazon.com/ap/signin, headed 'Start selling with Amazon'. It says 'To register, sign in with your existing Amazon account', asks for a mobile number or email with a Continue button, and links 'Create your Amazon account' for new users, with a Conditions of Use and Privacy Notice line. It is a sign-in step, not a seller registration form. Nothing was entered.",
+  "scores": {
+    "jtbd_fit": {
+      "score": 5,
+      "evidence": "Everything is about selling products in the Amazon store.",
+      "step": 1
+    },
+    "capability_visible": {
+      "score": 4,
+      "evidence": "A dashboard illustration, an overview video for Brand Analytics, a revenue calculator and a seller app page.",
+      "step": 8
+    },
+    "pricing_transparency": {
+      "score": 4,
+      "evidence": "Two plans and a referral-fee tab are published; category rates, FBA and ad costs are separate.",
+      "step": 2
+    },
+    "product_breadth": {
+      "score": 4,
+      "evidence": "Fulfillment, ads, brand tools, B2B, global selling and an appstore are explained.",
+      "step": 1
+    },
+    "platform_depth": {
+      "score": 3,
+      "evidence": "Appstore and 'apps and APIs' are mentioned and a blog covers an Ads MCP; no developer docs were surveyed.",
+      "step": 4
+    },
+    "time_to_value": {
+      "score": null,
+      "evidence": "Capture stops before the product; first-value time was not observed.",
+      "step": null
+    },
+    "friction": {
+      "score": 3,
+      "evidence": "Registration requires signing in with an existing Amazon account; a separate link creates one.",
+      "step": 11
+    },
+    "trust": {
+      "score": 4,
+      "evidence": "A scale number for sellers and an Amazon brand; claims are footnoted.",
+      "step": 1
+    },
+    "mobile": {
+      "score": null,
+      "evidence": "Phone captures exist for home and pricing but were not assessed.",
+      "step": null
+    },
+    "states": {
+      "score": null,
+      "evidence": "No error or empty states reached.",
+      "step": null
+    },
+    "a11y_basics": {
+      "score": null,
+      "evidence": "Not tested.",
+      "step": null
+    },
+    "value_prop_clarity": {
+      "score": 5,
+      "evidence": "'Sell more with Amazon' and the incentive line are plain.",
+      "step": 1
+    },
+    "proof_quality": {
+      "score": 3,
+      "evidence": "Claims carry footnotes, but sources are 'Amazon internal data'.",
+      "step": 2
+    },
+    "persuasion_integrity": {
+      "score": 3,
+      "evidence": "Most calls to action carry an asterisk against incentive terms.",
+      "step": 1
+    },
+    "cta_logic": {
+      "score": 4,
+      "evidence": "A single orange 'Sign up' or 'Start selling' action on every page.",
+      "step": 1
+    },
+    "company_narrative": {
+      "score": 3,
+      "evidence": "The story is entirely about seller success; the company itself is not presented.",
+      "step": 1
+    },
+    "offer_packaging": {
+      "score": 4,
+      "evidence": "Two plans with a feature list each; the fee structure beyond them is spread across tabs.",
+      "step": 2
+    },
+    "offer_architecture": {
+      "score": 5,
+      "evidence": "Incentive credits, cash back on branded sales, a pay-per-item entry, a monthly plan and optional fulfillment and ads.",
+      "step": 1
+    },
+    "merchant_merch_tools": {
+      "score": 5,
+      "evidence": "Brand analytics, enhanced pages, a digital store, price automation, ads and B2B.",
+      "step": 8
+    },
+    "visual_craft": {
+      "score": 4,
+      "evidence": "Strong hierarchy and a clear single action; the green incentives bar and orange headline compete.",
+      "step": 1
+    },
+    "system_coherence": {
+      "score": 3,
+      "evidence": "Marketing pages use Ember Modern and pill buttons; sign-in uses Arial with a rectangular yellow button.",
+      "step": 11
+    },
+    "merchant_design_control": {
+      "score": 4,
+      "evidence": "Enhanced product pages, a digital store and an online store builder guide.",
+      "step": 3
+    }
+  },
+  "read": {
+    "summary": "A marketplace pitch led by incentives rather than features: 10% back and over $50,000 in credits, a simple two-plan ladder and a deep toolset behind it. Registration requires an existing Amazon account, and most calls to action carry asterisks.",
+    "pros": [
+      "Two plans with clear prices and a plain 'switch or cancel any time' note.",
+      "A calculator, quiz and referral-fee tab help sellers estimate cost.",
+      "The incentive offer is specific and repeated.",
+      "A deep set of brand, ad and B2B tools."
+    ],
+    "cons": [
+      "Sign-in is required to register; account creation is a separate link.",
+      "Incentive terms sit behind asterisks.",
+      "Referral fees vary by category and are on a different tab.",
+      "Little developer detail on the surveyed pages."
+    ],
+    "howItSells": "Sells access and money: reach, fulfillment, cash back and credits, with a scale number and a promise that Amazon runs the heavy parts.",
+    "copy": [
+      "Lead with a specific incentive and say what it is worth.",
+      "Offer a pay-per-item plan next to a monthly plan.",
+      "Add a short quiz for newcomers."
+    ],
+    "avoid": [
+      "Asterisks on every call to action.",
+      "A different look at the sign-in page."
+    ],
+    "tactics": [
+      "anchoring",
+      "authority",
+      "social_proof"
+    ],
+    "confidence": "medium",
+    "unknowns": [
+      "Referral fee rates by category.",
+      "What registration asks after sign-in.",
+      "Developer docs.",
+      "Mobile experience."
+    ],
+    "hypothesis": {
+      "statement": "Showing an estimated first-year net amount from the incentives beside the sign-up button will lift registration starts among new sellers.",
+      "metric": "Sign-up button click-through",
+      "guardrail": "Registration completion and early listing rate",
+      "decisionRule": "Ship if click-through rises by a pre-agreed margin and completion holds over four weeks."
+    },
+    "subjects": {
+      "merchandising": {
+        "summary": "Incentive-led and plan-simple, backed by powerful seller tools, but dependent on asterisked terms.",
+        "pros": [
+          "Incentives are the entry offer.",
+          "A three-question quiz and a revenue calculator.",
+          "Two plans with a plain upgrade story."
+        ],
+        "cons": [
+          "Terms behind asterisks.",
+          "Fees are on several tabs."
+        ]
+      },
+      "design": {
+        "summary": "Confident and clear on the marketing pages, with a plain, different look at sign-in.",
+        "pros": [
+          "Big two-tone headlines and a dashboard picture make the offer concrete.",
+          "A single orange action is easy to find."
+        ],
+        "cons": [
+          "The sign-in page looks like a different brand.",
+          "Orange headline and green banner compete."
+        ]
+      }
+    }
+  },
+  "claims": [
+    {
+      "text": "More than 75,000 independent sellers surpassed $1 million in sales in 2025",
+      "verdict": "plausible",
+      "step": 1,
+      "evidenceStep": null
+    },
+    {
+      "text": "Get 10% back on your first $50,000 in branded sales",
+      "verdict": "plausible",
+      "step": 1,
+      "evidenceStep": 5
+    },
+    {
+      "text": "New-to-Amazon sellers can get over $50,000 in credits, bonuses, and exclusive benefits.",
+      "verdict": "plausible",
+      "step": 2,
+      "evidenceStep": 5
+    }
+  ]
+}

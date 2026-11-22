@@ -1,0 +1,360 @@
+{
+  "dossier": {
+    "sections": [
+      {
+        "id": "positioning",
+        "title": "Positioning",
+        "summary": "Wix presents itself as the leading website builder, now led by an AI builder called Wix Harmony, and as a business platform with solutions for stores, bookings, courses and events.",
+        "keyPoints": [
+          "Homepage: 'Create your future on the leading website builder', with 'Start for free. No credit card required.'",
+          "Scale is the proof: 300M+ sites built on Wix and 90K+ sites created daily.",
+          "Solutions listed on the home page include eCommerce, scheduling, lead management, portfolios, online courses and events; a separate Enterprise page targets multi-site organizations."
+        ]
+      },
+      {
+        "id": "offerings",
+        "title": "Products and offerings",
+        "summary": "A website builder with a wide set of business tools around it, plus a services marketplace and an enterprise product.",
+        "keyPoints": [],
+        "table": {
+          "columns": [
+            "Product",
+            "What it does"
+          ],
+          "rows": [
+            [
+              "Wix Harmony",
+              "AI website builder for creating a site from a prompt"
+            ],
+            [
+              "Online store and payments",
+              "Accept payments online, in person and on the go; competitive processing fees and an integrated payment dashboard"
+            ],
+            [
+              "Wix POS",
+              "Omnichannel point of sale with synced inventory; available in the US, Canada and UK"
+            ],
+            [
+              "Marketing and analytics",
+              "Email marketing, website analytics and marketing suites by plan"
+            ],
+            [
+              "Domains and business email",
+              "Custom domains and business email with built-in AI"
+            ],
+            [
+              "Marketplace and App Market",
+              "Hire experts, buy Wix Studio templates and add apps"
+            ],
+            [
+              "Wix Studio and Enterprise",
+              "Pro editor and multi-site management for organizations"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "pricing",
+        "title": "Pricing",
+        "summary": "A free plan and five paid ones, shown as yearly prices paid in full. The pricing page lists the most expensive plan first.",
+        "keyPoints": [
+          "'Create your site for free and choose a plan when you're ready.' A 14-day money-back guarantee sits at the top of the page.",
+          "Displayed prices are for yearly subscriptions paid in full at purchase, and exclude taxes.",
+          "Every paid plan includes a free domain for 1 year; storage grows from 2 GB to unlimited.",
+          "Business is tagged recommended; only the top plan adds an advanced developer platform."
+        ],
+        "table": {
+          "columns": [
+            "Plan",
+            "Price a month (yearly)",
+            "Notable additions"
+          ],
+          "rows": [
+            [
+              "Free",
+              "$0",
+              "Hosting, drag-and-drop editor, no-code design features, 1000s of templates"
+            ],
+            [
+              "Light",
+              "$17",
+              "2 GB storage, light marketing suite, 2 collaborators"
+            ],
+            [
+              "Core",
+              "$29",
+              "50 GB storage, basic marketing suite, accept payments, basic ecommerce, scheduling, 5 collaborators"
+            ],
+            [
+              "Business (recommended)",
+              "$39",
+              "100 GB storage, standard marketing suite, standard ecommerce, 10 collaborators"
+            ],
+            [
+              "Business Elite",
+              "$159",
+              "Unlimited storage, advanced marketing suite, advanced ecommerce, advanced developer platform, 100 collaborators"
+            ]
+          ]
+        },
+        "gaps": [
+          "Monthly-billing prices were not captured as text."
+        ]
+      },
+      {
+        "id": "merchandising",
+        "title": "Merchandising",
+        "summary": "An anchored ladder: a free plan, a recommended mid-tier plan and, on the page itself, the most expensive plan displayed first. Commerce depth scales across the plans, and merchants get broad selling tools.",
+        "keyPoints": [
+          "The pricing page shows Business Elite at the left and Free at the right, so the highest price is the first one read.",
+          "A money-back guarantee and 'no credit card required' remove risk; 'Business' carries the recommended tag.",
+          "Commerce is tiered: basic, standard and advanced ecommerce, and basic to advanced marketing suites.",
+          "Experts and templates are sold through a marketplace, and apps through an App Market.",
+          "For merchants: scheduling and services, payments, POS with synced inventory, business email and analytics."
+        ]
+      },
+      {
+        "id": "platform",
+        "title": "Technical platform",
+        "summary": "A mix of no-code products and a developer-oriented layer: an advanced developer platform on the top plan, Wix Studio, an App Market and a newly announced AI-native editor.",
+        "keyPoints": [
+          "The top plan lists an 'advanced developer platform'.",
+          "The newsroom announces Studio Two, described as a truly open, AI-native visual editor for professional web creation.",
+          "A marketplace lets developers sell services and templates and turn skills into revenue."
+        ],
+        "gaps": [
+          "API documentation and app-development guides were not surveyed."
+        ]
+      },
+      {
+        "id": "design",
+        "title": "Design",
+        "summary": "Light and airy: a large rounded headline, soft gradients, a blue accent and pill buttons. The home page is extremely long and uses many videos.",
+        "keyPoints": [
+          "One display family (Madefor) runs through the home page, pricing and sign-up, with blue (#166aea) and 42px button corners.",
+          "The home page is 17,325px tall with 19 videos; pricing is 7,613px.",
+          "The home hero is a centered headline on a pale yellow gradient above a product mockup.",
+          "The pricing page sits inside a pale blue panel with a banner for the guarantee and five plan cards.",
+          "For merchants: an AI website builder, 2,000+ templates and drag-and-drop and no-code design features."
+        ],
+        "gaps": [
+          "Mobile and dark mode were not assessed."
+        ]
+      },
+      {
+        "id": "company",
+        "title": "Company presentation",
+        "summary": "A scale story with AI as the current chapter, and a newsroom that mixes results, product launches and a startup accelerator.",
+        "keyPoints": [
+          "Newsroom items include third-quarter 2026 results and the Studio Two launch, plus an accelerator for Base44.",
+          "Home claims 300M+ sites and 90K+ new sites a day.",
+          "The enterprise page says Wix is trusted by hundreds of millions of users worldwide."
+        ],
+        "gaps": [
+          "No leadership information in the surveyed pages."
+        ]
+      }
+    ]
+  },
+  "signupPath": "'Start for free' on the homepage opens users.wix.com/signin/signup, a page headed 'Sign up' with 'Continue with Google', 'Continue with Facebook' and 'Continue with Apple', or an email box and 'Continue with Email'. A line says that signing up means agreeing to the Terms of Use and acknowledging the Privacy Policy, with a reCAPTCHA notice. Only an email is asked on this page; what follows was not reached. Nothing was entered.",
+  "scores": {
+    "jtbd_fit": {
+      "score": 4,
+      "evidence": "Homepage lists solutions by job: store, scheduling, leads, portfolio, courses, events.",
+      "step": 1
+    },
+    "capability_visible": {
+      "score": 4,
+      "evidence": "Feature pages, templates and an AI builder preview show a lot; the editor is behind signup.",
+      "step": 10
+    },
+    "pricing_transparency": {
+      "score": 4,
+      "evidence": "All six plans have prices and included features; yearly billing and taxes are stated; monthly prices not captured.",
+      "step": 2
+    },
+    "product_breadth": {
+      "score": 4,
+      "evidence": "Builder, payments, POS, marketing, email, domains and marketplace are each explained.",
+      "step": 1
+    },
+    "platform_depth": {
+      "score": 3,
+      "evidence": "An App Market, an advanced developer platform and Studio exist, but no developer docs were surveyed.",
+      "step": 4
+    },
+    "time_to_value": {
+      "score": null,
+      "evidence": "Capture stops before the product; first-value time was not observed.",
+      "step": null
+    },
+    "friction": {
+      "score": 4,
+      "evidence": "One click to a page offering Google, Facebook, Apple or email.",
+      "step": 12
+    },
+    "trust": {
+      "score": 4,
+      "evidence": "300M+ sites, press releases and a money-back guarantee.",
+      "step": 1
+    },
+    "mobile": {
+      "score": null,
+      "evidence": "Phone captures exist for home and pricing but were not assessed.",
+      "step": null
+    },
+    "states": {
+      "score": null,
+      "evidence": "No error or empty states reached.",
+      "step": null
+    },
+    "a11y_basics": {
+      "score": null,
+      "evidence": "Not tested.",
+      "step": null
+    },
+    "value_prop_clarity": {
+      "score": 4,
+      "evidence": "'Create your future on the leading website builder' is broad but the AI-builder subhead is clear.",
+      "step": 1
+    },
+    "proof_quality": {
+      "score": 3,
+      "evidence": "Scale numbers have no source on the page.",
+      "step": 1
+    },
+    "persuasion_integrity": {
+      "score": 4,
+      "evidence": "Free plan and a 14-day money-back guarantee are stated plainly, with yearly billing noted.",
+      "step": 2
+    },
+    "cta_logic": {
+      "score": 4,
+      "evidence": "'Start for free' and 'Get Started' are one consistent action.",
+      "step": 1
+    },
+    "company_narrative": {
+      "score": 4,
+      "evidence": "The AI-native builder story runs from homepage to Studio Two in the newsroom.",
+      "step": 6
+    },
+    "offer_packaging": {
+      "score": 4,
+      "evidence": "Six plans with a recommended tag and a compare link; plan names and tiers are many.",
+      "step": 2
+    },
+    "offer_architecture": {
+      "score": 5,
+      "evidence": "A free entry, a guarantee, a reversed price order, a free domain and a services marketplace.",
+      "step": 2
+    },
+    "merchant_merch_tools": {
+      "score": 5,
+      "evidence": "Tiered ecommerce and marketing suites, scheduling, payments, POS with synced inventory and business email.",
+      "step": 3
+    },
+    "visual_craft": {
+      "score": 4,
+      "evidence": "Clear, airy hierarchy; the home page is very long.",
+      "step": 1
+    },
+    "system_coherence": {
+      "score": 4,
+      "evidence": "One display family and blue accent across home, pricing and sign-up.",
+      "step": 12
+    },
+    "merchant_design_control": {
+      "score": 5,
+      "evidence": "2,000+ templates, an AI builder, drag-and-drop editing and no-code design features.",
+      "step": 2
+    }
+  },
+  "read": {
+    "summary": "A broad, AI-forward website builder with a free start, a guarantee and a clearly anchored plan page. The pricing and sign-up are easy; the proof is scale numbers with no source, and the home page is very long.",
+    "pros": [
+      "A free plan, no credit card and a 14-day money-back guarantee.",
+      "Plan page shows prices, storage and commerce tiers side by side.",
+      "Sign-up offers Google, Facebook, Apple or email on one screen.",
+      "One typeface and blue accent run across pages."
+    ],
+    "cons": [
+      "Scale numbers have no source.",
+      "Prices are yearly-in-full; monthly prices were not shown as text.",
+      "The home page is 17,325px tall with 19 videos.",
+      "Developer information is thin."
+    ],
+    "howItSells": "Sells ease and breadth: an AI builder, a free start and a guarantee, then a ladder that moves merchants toward commerce and marketing suites.",
+    "copy": [
+      "Order plans from highest to lowest price.",
+      "Offer a money-back guarantee beside the free plan.",
+      "Offer social sign-in with email on one screen."
+    ],
+    "avoid": [
+      "Unsourced scale numbers.",
+      "A very long, media-heavy home page."
+    ],
+    "tactics": [
+      "anchoring",
+      "social_proof",
+      "loss_aversion"
+    ],
+    "confidence": "medium",
+    "unknowns": [
+      "What the first-time editor experience is.",
+      "Monthly-billing prices.",
+      "Developer docs.",
+      "Mobile experience."
+    ],
+    "hypothesis": {
+      "statement": "Showing monthly and yearly prices together on each plan card will lift paid conversion by reducing surprise at checkout.",
+      "metric": "Free-to-paid conversion within 30 days",
+      "guardrail": "Refund requests under the 14-day guarantee",
+      "decisionRule": "Ship if conversion rises by a pre-agreed margin and refund rate does not rise over four weeks."
+    },
+    "subjects": {
+      "merchandising": {
+        "summary": "A well-anchored free-to-premium ladder with broad merchant tools.",
+        "pros": [
+          "A free plan plus a money-back guarantee.",
+          "Highest-priced plan shown first as an anchor.",
+          "Commerce depth tiered by plan."
+        ],
+        "cons": [
+          "Prices only for yearly billing.",
+          "Many plan names."
+        ]
+      },
+      "design": {
+        "summary": "Consistent and approachable across pages, with a very long home page.",
+        "pros": [
+          "Airy layout, rounded type and soft gradients feel friendly.",
+          "Blue pill buttons are easy to find."
+        ],
+        "cons": [
+          "Very long home page.",
+          "Videos and gradients load heavily."
+        ]
+      }
+    }
+  },
+  "claims": [
+    {
+      "text": "Start for free. No credit card required.",
+      "verdict": "plausible",
+      "step": 1,
+      "evidenceStep": 2
+    },
+    {
+      "text": "14-day money-back guarantee",
+      "verdict": "plausible",
+      "step": 2,
+      "evidenceStep": null
+    },
+    {
+      "text": "Displayed prices are for yearly subscriptions, paid in full at the time of purchase.",
+      "verdict": "proven",
+      "step": 2,
+      "evidenceStep": 2
+    }
+  ]
+}

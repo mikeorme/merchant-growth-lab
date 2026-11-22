@@ -1,0 +1,350 @@
+{
+  "dossier": {
+    "sections": [
+      {
+        "id": "positioning",
+        "title": "Positioning",
+        "summary": "Omnisend positions itself as the smaller-bill alternative to the big ecommerce marketing platforms: email and SMS with the same power, free migration, and a plain, almost deadpan tone.",
+        "keyPoints": [
+          "Homepage: 'Email & SMS marketing so good, it's boring', with 'Big-platform features, smaller bill, migration's on us.'",
+          "It names Klaviyo directly: 'Save up to 35%* compared to Klaviyo. Free migration included.'",
+          "'Trusted by 150K+ brands' repeats across feature pages, and a WordPress plugin page extends the pitch beyond Shopify."
+        ]
+      },
+      {
+        "id": "offerings",
+        "title": "Products and offerings",
+        "summary": "An email, SMS and push marketing suite for ecommerce with automation, forms and an app market.",
+        "keyPoints": [],
+        "table": {
+          "columns": [
+            "Product",
+            "What it does"
+          ],
+          "rows": [
+            [
+              "Campaigns and Automation",
+              "No-code omnichannel workflows triggered by real-time customer data"
+            ],
+            [
+              "Segmentation and forms",
+              "Behavioral segments, popups and email capture forms"
+            ],
+            [
+              "Social Capture (new)",
+              "Turns Instagram comments and DMs into email subscribers"
+            ],
+            [
+              "Omnisend AI",
+              "AI marketing tools, including an Omnisend Agent on paid plans"
+            ],
+            [
+              "Reports",
+              "Revenue, engagement and deliverability across email, SMS and push"
+            ],
+            [
+              "App market",
+              "Apps for email capture, reviews, loyalty and rewards, shipping, support and more"
+            ],
+            [
+              "Multi-store accounts and subscriptions",
+              "Manage several stores and recurring orders"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "pricing",
+        "title": "Pricing",
+        "summary": "A free plan, two paid plans priced by list size and a per-message SMS price. The headline prices are discounted for paying three months up front.",
+        "keyPoints": [
+          "A list-size selector sets the price; the page offers a 30% saving for paying 3 months upfront, after which you are billed monthly.",
+          "SMS starts at $0.007 per message; a $50 monthly spend buys 5,882 messages at $0.0085 each.",
+          "The Shopify App Store listing shows $16 and $59 a month for the two paid plans, which matches the prepay prices before the 30% discount.",
+          "Free migration in up to 5 days is offered on every plan, and the page says savings of up to 35% against Klaviyo."
+        ],
+        "table": {
+          "columns": [
+            "Plan",
+            "Price a month (prepay)",
+            "Includes"
+          ],
+          "rows": [
+            [
+              "Free",
+              "$0",
+              "500 monthly emails, 250 contacts, 500 web push notifications"
+            ],
+            [
+              "Standard",
+              "$11.20",
+              "6,000 emails a month, 500 contacts, 2 tools, unlimited web push, the Omnisend Agent"
+            ],
+            [
+              "Pro",
+              "$41.30",
+              "Unlimited emails, 2,500 contacts, 5 tools, unlimited web push, the Omnisend Agent Pro, SMS credits as an add-on"
+            ]
+          ]
+        },
+        "gaps": [
+          "Full list-price tables for higher list sizes were behind the selector."
+        ]
+      },
+      {
+        "id": "merchandising",
+        "title": "Merchandising",
+        "summary": "A configurator-led ladder that leans on a competitor comparison and a risk-removal package: free plan, free migration and a prepay discount. For merchants, the toolset is broad and ecommerce-specific.",
+        "keyPoints": [
+          "The pricing page is a list-size slider above three cards, with a toggle for the 3-month prepay discount.",
+          "Savings versus Klaviyo, 5-day free migration and 24/7 support are the three promises under the headline.",
+          "A Black Friday banner offers 30% off for 3 months.",
+          "For merchants: behavioral segmentation, product recommendations, back-in-stock and wishlist apps, loyalty and rewards, popups and a new Instagram capture tool.",
+          "An agency program pays partners a 20% lifetime revenue share."
+        ]
+      },
+      {
+        "id": "platform",
+        "title": "Technical platform",
+        "summary": "A developer center with an API reference, a Postman collection and an app market with hundreds of apps, plus agency and affiliate partner programs.",
+        "keyPoints": [
+          "The developer site offers guides, an API reference and a Postman collection for easy API calls.",
+          "The app market has collections such as Email Capture, Loyalty and Rewards, Reviews and Shipping, with 131 newest apps.",
+          "Partner tiers (Agency Network Member, Partner, Pro Partner) come with referral earnings and free migration for clients."
+        ],
+        "gaps": [
+          "API rate limits and webhooks were not read."
+        ]
+      },
+      {
+        "id": "design",
+        "title": "Design",
+        "summary": "Confident and playful: a heavy sans headline, deep green with a lime accent, and photography that undercuts the 'boring' joke. Marketing, docs and signup share a type family.",
+        "keyPoints": [
+          "The home hero is a dark photograph of a man knitting on a laptop under a large white headline, with a lime 'Start free' button.",
+          "A lime banner and dark green (#02564e) with lime (#83ed80) carry the brand; buttons have 8px corners and the header is sticky.",
+          "Faktum Bold is used on the home page, pricing and the API docs; the help center uses Roboto and the Shopify listing uses Shopify's own style.",
+          "The pricing page sits on a warm beige canvas with a slider and three cards, with a chat assistant bubble in the corner.",
+          "The home page is 11,374px tall with 19 videos."
+        ],
+        "gaps": [
+          "Merchant design control was limited to a drag-and-drop mention."
+        ]
+      },
+      {
+        "id": "company",
+        "title": "Company presentation",
+        "summary": "A friendly challenger: lots of customers, a ratings count and direct comparison to bigger platforms, plus a partner economy.",
+        "keyPoints": [
+          "Scale claims: 150K+ brands, 150k users on the WordPress plugin page and 4.7 stars from 3,235 reviews on the Shopify App Store.",
+          "The WordPress page claims $79 ROI for every $1.",
+          "Success stories come from both brands and agency partners; an Omnisend Partner directory lets merchants hire help."
+        ],
+        "gaps": [
+          "No leadership information in the surveyed pages."
+        ]
+      }
+    ]
+  },
+  "signupPath": "'Start free' on the homepage opens app.omnisend.com/registrationv2, headed 'Start using Omnisend for free' with 'No Credit Card needed' and two choices: 'Sign up with Shopify' or 'Sign up with Email'. Choosing Shopify opens the Omnisend listing in the Shopify App Store ('Install', 'Free plan available', 4.7 from 3,235 reviews). It is not an account form with fields. Nothing was entered.",
+  "scores": {
+    "jtbd_fit": {
+      "score": 5,
+      "evidence": "Everything is about email and SMS for ecommerce merchants.",
+      "step": 1
+    },
+    "capability_visible": {
+      "score": 4,
+      "evidence": "Feature pages, an App Market and reports pages show a lot; the app itself is behind signup.",
+      "step": 3
+    },
+    "pricing_transparency": {
+      "score": 4,
+      "evidence": "Plans, list-size selector and SMS rates are shown; headline prices are discounted prepay prices.",
+      "step": 2
+    },
+    "product_breadth": {
+      "score": 4,
+      "evidence": "Campaigns, automation, segmentation, forms, reports, AI and an app market.",
+      "step": 3
+    },
+    "platform_depth": {
+      "score": 4,
+      "evidence": "API docs with a Postman collection, an app market and partner programs.",
+      "step": 4
+    },
+    "time_to_value": {
+      "score": null,
+      "evidence": "Capture stops before the product; first-value time was not observed.",
+      "step": null
+    },
+    "friction": {
+      "score": 4,
+      "evidence": "'Start free' opens a page offering sign up with Shopify or email, no credit card.",
+      "step": 12
+    },
+    "trust": {
+      "score": 4,
+      "evidence": "150K+ brands, a 4.7 rating from 3,235 reviews and named success stories.",
+      "step": 13
+    },
+    "mobile": {
+      "score": null,
+      "evidence": "Phone captures exist for home and pricing but were not assessed.",
+      "step": null
+    },
+    "states": {
+      "score": null,
+      "evidence": "No error or empty states reached.",
+      "step": null
+    },
+    "a11y_basics": {
+      "score": null,
+      "evidence": "Not tested.",
+      "step": null
+    },
+    "value_prop_clarity": {
+      "score": 4,
+      "evidence": "'Email & SMS marketing so good, it's boring' is clear about the category.",
+      "step": 1
+    },
+    "proof_quality": {
+      "score": 3,
+      "evidence": "'Save up to 35%' carries an asterisk; ROI figures have no source.",
+      "step": 1
+    },
+    "persuasion_integrity": {
+      "score": 3,
+      "evidence": "A 30%-off banner and an asterisked competitor saving.",
+      "step": 1
+    },
+    "cta_logic": {
+      "score": 4,
+      "evidence": "'Start free' is primary with 'Request demo' or 'Book migration call' secondary.",
+      "step": 1
+    },
+    "company_narrative": {
+      "score": 4,
+      "evidence": "The smaller-bill alternative story is consistent from home to pricing to the WordPress page.",
+      "step": 1
+    },
+    "offer_packaging": {
+      "score": 4,
+      "evidence": "Three plans with a list-size selector; discounts change the shown price.",
+      "step": 2
+    },
+    "offer_architecture": {
+      "score": 5,
+      "evidence": "Free plan, free migration, prepay discount, SMS add-on and a revenue-share partner program.",
+      "step": 2
+    },
+    "merchant_merch_tools": {
+      "score": 5,
+      "evidence": "Segmentation, product recommendations, popups, back-in-stock, loyalty and an Instagram capture tool.",
+      "step": 3
+    },
+    "visual_craft": {
+      "score": 4,
+      "evidence": "A distinctive green and lime palette and a witty hero; busy banner stack at the top.",
+      "step": 1
+    },
+    "system_coherence": {
+      "score": 4,
+      "evidence": "The same display type, green palette and button shape run through home, pricing and the API docs.",
+      "step": 9
+    },
+    "merchant_design_control": {
+      "score": 4,
+      "evidence": "Email builder and forms with drag-and-drop customization.",
+      "step": 3
+    }
+  },
+  "read": {
+    "summary": "An ecommerce email and SMS platform that wins on price transparency, migration and tone. Its pricing and offer are built around Klaviyo's customers. The headline prices are discounted prepay figures, so the page needs a careful read.",
+    "pros": [
+      "Free plan plus free migration lower the cost of switching.",
+      "SMS has published per-message rates and a volume example.",
+      "A distinctive, consistent brand across home, pricing and docs.",
+      "A broad toolset for ecommerce merchants."
+    ],
+    "cons": [
+      "Headline prices are 30% off for prepaying three months.",
+      "Savings versus Klaviyo carry an asterisk.",
+      "The paid-plan sign-up path ends in a Shopify listing for Shopify stores.",
+      "ROI claims have no source."
+    ],
+    "howItSells": "Sells being the practical, cheaper, easier-to-move-to option: a deadpan tone, a named competitor and a free migration.",
+    "copy": [
+      "Offer migration help as part of the pitch.",
+      "Publish per-message SMS prices with a worked example.",
+      "Name the platform you want to win customers from."
+    ],
+    "avoid": [
+      "Headline prices that assume a prepay discount.",
+      "Asterisked competitor savings."
+    ],
+    "tactics": [
+      "anchoring",
+      "loss_aversion",
+      "social_proof"
+    ],
+    "confidence": "medium",
+    "unknowns": [
+      "What account creation asks beyond sign-up with Shopify.",
+      "Full price tables above the lowest list size.",
+      "Mobile experience.",
+      "API reference depth."
+    ],
+    "hypothesis": {
+      "statement": "Showing the list price and the prepay price side by side on each plan card will reduce billing surprise without lowering sign-ups.",
+      "metric": "Free-to-paid upgrade rate",
+      "guardrail": "Support tickets about billing",
+      "decisionRule": "Ship if upgrades hold and billing tickets fall over four weeks."
+    },
+    "subjects": {
+      "merchandising": {
+        "summary": "A challenger ladder tuned to win Klaviyo-style switchers, with a very ecommerce-specific merchant toolset.",
+        "pros": [
+          "Free migration plus a free plan.",
+          "List-size slider on the pricing page.",
+          "20% lifetime revenue share for agencies."
+        ],
+        "cons": [
+          "Prepay-discounted prices in the headline.",
+          "Asterisked comparison."
+        ]
+      },
+      "design": {
+        "summary": "Distinctive and consistent; slightly busy at the top of each page.",
+        "pros": [
+          "A distinctive green and lime palette and photography with a sense of humor.",
+          "The same type and button shape on every page."
+        ],
+        "cons": [
+          "A lime banner, a utility bar and a main nav stack above the fold.",
+          "A chat assistant bubble covers part of the pricing page."
+        ]
+      }
+    }
+  },
+  "claims": [
+    {
+      "text": "Save up to 35%* compared to Klaviyo. Free migration included.",
+      "verdict": "unsupported",
+      "step": 1,
+      "evidenceStep": null
+    },
+    {
+      "text": "$79 ROI for every $1",
+      "verdict": "unsupported",
+      "step": 6,
+      "evidenceStep": null
+    },
+    {
+      "text": "Trusted by 150K+ brands.",
+      "verdict": "plausible",
+      "step": 3,
+      "evidenceStep": 11
+    }
+  ]
+}

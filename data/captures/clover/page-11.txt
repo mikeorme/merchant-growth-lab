@@ -1,0 +1,332 @@
+URL: https://www.fiserv.com/en/who-we-serve/integrated-payments-isv.html?rdf=/en/who-we-serve/integrated-payments.html&rdc=2025/08/18&rdr=2026/08/17
+TITLE: Integrated Payment Solutions for ISVs & Software Platforms | Fiserv
+DESCRIPTION: Embed payments into your software with Fiserv integrated payment solutions for ISVs. Monetize transactions, simplify integration and create seamless payment experiences
+
+FOR SOFTWARE PROVIDERS, PLATFORMS AND ISVS
+Drive growth through integrated payments
+Deliver seamless payment experiences and unlock new revenue with a partner built for software providers and ISVs. 
+Start the Conversation
+Take the Tour
+Why Fiserv
+
+Fiserv partners with software providers and ISVs to help them integrate payments, drive adoption and grow. We combine technology, operational tools and dedicated teams to support your platform beyond integration.
+
+	A Partner You Can Rely On
+Count on Fiserv as a long-term partner. Our teams are aligned, responsive and focused on supporting your growth at every stage.
+
+	One Integration Across Every Payment Type
+Support in‑person, online, mobile and unattended payments through a single integration that scales with your platform, including a wide range of reliable, modern payment devices.
+
+	CoPilot for ISVs
+Get real‑time visibility into onboarding, reporting, and day‑to‑day payment operations. Our CoPilot portfolio management system helps your team manage growth without added complexity.
+
+	Built for Developers
+Access modern APIs, clear documentation and hands‑on support help your teams integrate faster.
+
+	A Better Experience for Your Merchants
+Deliver fast, secure and consistent payments that keep checkouts smooth and merchants confident, whether they’re taking payments online or face‑to‑face.
+
+	Enterprise‑Grade Payments, Proven Scale
+Benefit from the stability, security and performance of one of the most experienced payments companies in the world.
+Learn more from client testimonials
+
+Real Time Technologies
+
+Wireless technology solutions that simplify connectivity, device management, and mobile operations.
+
+Watch the video
+Read the story
+
+The ability for [Fiserv] to understand our business and adapt has been great.
+
+Omar Azrag
+
+CEO, Real Time Technologies
+
+Autoagent
+
+Local government software that streamlines payments, billing, and citizen services.
+
+Watch the video
+Read the story
+
+More than a vendor. A true partner.
+
+Niko Spyridonos
+
+CEO, Autoagent
+
+FinnlySport
+
+Recreation management software that streamlines facility bookings, registrations, memberships, and payments.
+
+Watch the video
+Read the story
+
+Fiserv is not pushing a product. They're pushing a partnership in payments.
+
+Jesse Parker
+
+CEO/ President, FinnlySport
+
+iDonate
+
+Helping nonprofits streamline online fundraising, donor management, and recurring giving.
+
+Watch the video
+Read the story
+
+Fiserv is a great partner for us.
+
+Brad Little
+
+CEO, iDonate
+
+Club Caddie
+
+Golf course management software that streamlines tee times, memberships, payments, and operations.
+
+Watch the video
+Read the story
+
+We needed to make sure that we had a partner that we trusted so our customers could trust us.
+
+Jason Pearsall
+
+CEO and Co-Founder, Club Caddie
+
+Real Time Technologies
+
+Wireless technology solutions that simplify connectivity, device management, and mobile operations.
+
+Watch the video
+Read the story
+
+The ability for [Fiserv] to understand our business and adapt has been great.
+
+Omar Azrag
+
+CEO, Real Time Technologies
+
+Autoagent
+
+Local government software that streamlines payments, billing, and citizen services.
+
+Watch the video
+Read the story
+
+More than a vendor. A true partner.
+
+Niko Spyridonos
+
+CEO, Autoagent
+
+FinnlySport
+
+Recreation management software that streamlines facility bookings, registrations, memberships, and payments.
+
+Watch the video
+Read the story
+
+Fiserv is not pushing a product. They're pushing a partnership in payments.
+
+Jesse Parker
+
+CEO/ President, FinnlySport
+
+iDonate
+
+Helping nonprofits streamline online fundraising, donor management, and recurring giving.
+
+Watch the video
+Read the story
+
+Fiserv is a great partner for us.
+
+Brad Little
+
+CEO, iDonate
+
+Club Caddie
+
+Golf course management software that streamlines tee times, memberships, payments, and operations.
+
+Watch the video
+Read the story
+
+We needed to make sure that we had a partner that we trusted so our customers could trust us.
+
+Jason Pearsall
+
+CEO and Co-Founder, Club Caddie
+
+Real Time Technologies
+
+Wireless technology solutions that simplify connectivity, device management, and mobile operations.
+
+Watch the video
+Read the story
+
+The ability for [Fiserv] to understand our business and adapt has been great.
+
+Omar Azrag
+
+CEO, Real Time Technologies
+
+‹
+›
+CoPilot: Portfolio Management Built for ISVs
+
+CoPilot is Fiserv’s partner portfolio management platform, designed for software providers and ISVs using CardPointe® or Clover. It gives you the visibility and control needed to support merchants and run a growing payments business inside your platform.
+
+Do more with less lift from your team
+
+Launch products, features and value‑added services
+
+Access reporting without relying on third‑party tools
+
+Manage users and permissions in one place
+
+Move faster where it matters
+
+Direct boarding that streamlines merchant applications
+
+Account maintenance tools to manage merchants and support requests
+
+Access to underwriting and risk support when questions arise
+
+Access the data that keeps your portfolio running
+
+Residuals and reporting with Schedule A transparency
+
+Real‑time equipment and device order tracking
+
+Partner‑level portfolio management in a single dashboard
+
+A complete solution for integrated payments, growth and merchant success
+ 
+
+In-person payments
+
+Design flexible, seamless in-person payments experiences on a variety of payments devices with one simple integration.
+
+Online payments
+
+Create innovative online payments solutions that help businesses streamline transactions and improve the overall checkout experience for their customers.
+
+Partner support
+
+Collaborate with your dedicated partner team, and lean on your CoPilot portfolio management system for tools to grow efficiently.
+
+Use cases
+
+Explore how integrating payments can differentiate your software in a variety of industries and unlock new revenue streams for your business.
+
+Value-added services
+
+Go beyond payments to provide a comprehensive, future-forward suite of services to add value and help optimize operations.
+
+See the partner experience in action
+
+Explore how Fiserv helps software providers onboard merchants, manage their merchants portfolio with CoPilot® and access tools designed to support growth. Take an interactive, self-guided tour of the partner experience.
+
+ 
+
+Take the tour
+
+Explore insights and resources
+ 
+
+ARTICLE
+
+Autoagent partners with Fiserv to drive reliable payments for local governments
+
+In Fiserv, Autoagent found a partner that could simplify operations, scale quickly…
+
+VIDEO
+
+CardPointe Unattended: Seemless and secure unattended payments
+
+CardPointe Unattended from Fiserv delivers secure, contactless kiosk payments with simplified integration, rugged hardware…
+
+VIDEO
+
+ISV Partner Program: Monetize, manage, scale payments
+
+The ISV Partner Program gives software platforms integrated payments, rapid onboarding, white-glove support, and…
+
+ARTICLE
+
+2026 Merchant trends: What’s shaping business growth this year
+
+The first months of 2026 show meaningful shifts in how consumers shop, spend and engage. ISV platforms are helping…
+
+ARTICLE
+
+BookedBy: Better payments for salons & beauty businesses
+
+This ISV found a capable partner in its search for a more robust payments framework.
+
+ARTICLE
+
+2026 ISV Playbook: Three Imperatives
+
+Independent Software Vendors (ISVs) face a web of new challenges in facilitating payments. To succeed, ISVs must focus on what's most important.
+
+ARTICLE
+
+Autoagent partners with Fiserv to drive reliable payments for local governments
+
+In Fiserv, Autoagent found a partner that could simplify operations, scale quickly…
+
+VIDEO
+
+CardPointe Unattended: Seemless and secure unattended payments
+
+CardPointe Unattended from Fiserv delivers secure, contactless kiosk payments with simplified integration, rugged hardware…
+
+VIDEO
+
+ISV Partner Program: Monetize, manage, scale payments
+
+The ISV Partner Program gives software platforms integrated payments, rapid onboarding, white-glove support, and…
+
+ARTICLE
+
+2026 Merchant trends: What’s shaping business growth this year
+
+The first months of 2026 show meaningful shifts in how consumers shop, spend and engage. ISV platforms are helping…
+
+ARTICLE
+
+BookedBy: Better payments for salons & beauty businesses
+
+This ISV found a capable partner in its search for a more robust payments framework.
+
+ARTICLE
+
+2026 ISV Playbook: Three Imperatives
+
+Independent Software Vendors (ISVs) face a web of new challenges in facilitating payments. To succeed, ISVs must focus on what's most important.
+
+‹
+›
+
+Ready to Build Payments Into Your Platform?
+
+Talk with our ISV team about online payments, in‑person payments, and value‑added services designed to help software platforms grow.
+
+ 
+
+FAQs
+
+Clear answers to the questions people ask most, so you can find what you need fast.
+
+View all
+
+Do Not Sell My Personal Data   |    Security    |    Accessibility Statement
+
+About Cookies On This Site
+We and our partners use cookies, pixels and other technologies to support website functionality, share content on social media, measure traffic to this website, and display customized ads based on your browsing activity. By using this site, you agree to the use of these technologies. You can manage your preferences at any time by selecting “Manage Preferences”. Visit the following links for further information:Cookie NoticePrivacy Notice
+Manage Preferences
+Accept all

@@ -1,0 +1,272 @@
+URL: https://smile.io/shopify-plus
+TITLE: Loyalty Programs for Shopify Plus | Smile.io
+DESCRIPTION: Points at checkout, Shopify Flow automation, POS, and dual Shopify certification. Book a demo.
+
+Skip to content
+Solutions
+/
+Shopify Plus
+Loyalty built
+for Shopify Plus.
+
+Points at checkout, automation through Shopify Flow, and in-store earning on POS, all native to the stack you already run.
+
+Book a demo
+
+30 minutes with a loyalty strategist.
+
+HALVARD
+
+Cart
+/
+Information
+/
+Shipping
+/
+Payment
+
+Contact
+Maya R.
+
+Redeem points
+
+Halvard Trail Club, 2,430 points available
+
+$20 off, 2,000 points
+$10 off, 1,000 points
+
+$20 off applied
+Remove
+
+Delivery
+Standard shipping
+Free
+Alpine Shell Jacket
+Spruce, M
+$340.00
+
+Earn 340 points with this order
+
+Subtotal
+$340.00
+Shipping
+Free
+Points discount
+−$20.00
+Total
+$320.00
+
+430 points left after this order
+
+Certified Technology Partner
+Shopify's enterprise tier
+SOC
+2
+SOC 2 Type II
+Audited May 2026
+(opens in a new tab)
+Ford
+Billabong
+Liquid Death
+Quiksilver
+Naturium
+Eddie Bauer
+Nine West
+K-Swiss
+ROKA
+TP-Link
+Fiesta Tableware
+Hush Puppies
+Blue Banana
+HIKOCO
+
++ thousands more
+on Shopify Plus
+
+Native to Shopify Plus.
+Depth that matches your stack.
+
+Shopify Flow actions, VIP tiers synced to Shopify metafields, Shopify SSO, and native management in Shopify admin with no separate tab. One program runs through checkout, Shopify Flow, Shopify POS and the tools your team already uses.
+
+Checkout extensions
+Points redeemed at checkout.
+
+Shopify Plus checkout extensibility lets customers apply their points without leaving the purchase flow. Redemption happens at the moment of highest intent, instead of on a page shoppers have to go find.
+
+Native checkout extensions, no scripts to maintain
+Redeem points, and show the points an order earns
+Styled by your Shopify checkout branding
+
+Explore Points 
+
+CHECKOUT EDITOR
+
+Add app block
+
+Smile
+
+Smile: Loyalty & Rewards
+
+Redeem points
+Added
+Show points customer will earn
+Added
+
+Section: Information
+
+Shopify Flow
+Automate loyalty with Flow.
+
+Connect Smile to Shopify Flow and reward customers when they meet the criteria you define. Bonus points on a first order, purchases over a threshold, or specific products.
+
+Award points from order and customer triggers
+Adjust a balance by formula, such as double points
+Ready-made Flow templates from the Smile team
+
+Explore bonus events 
+
+SHOPIFY FLOW
+
+Fifth order bonus
+
+On
+
+TRIGGER
+Shopify
+
+Order paid
+
+CONDITION
+
+numberOfOrders is equal to 5
+
+ACTIONTRUE
+Smile
+
+Send Smile activity
+
+Order ID: {{order.id}}
+
+Earning value in Smile
+250 points
+Omnichannel
+One program, every channel.
+
+Shopify Plus brands rarely sell in one place. Smile runs the same program across your online store, Shopify POS locations, and receipt scanning for purchases made anywhere else, with one balance following the customer everywhere.
+
+Customers earn and redeem in-store on Shopify POS
+One points balance across every channel
+Receipt scanning, on Smile Enterprise
+
+Explore Shopify POS 
+
+HALVARD TRAIL CLUB
+
+Maya R.
+
+Ridge
+Online store
+halvard.com
+2,430 points
+Shopify POS
+Halvard, Mercer Street
+2,430 points
+Receipt scan
+Purchases at other retailers
+Earns here too
+
+Points earned anywhere spend everywhere, online and in store.
+
+The full platform
+More than points.
+
+Smile runs the whole loyalty stack in one program your team manages without a developer.
+
+Referrals as an acquisition channel
+VIP tiers with perks and exclusive rewards
+Bonus events that lift sales without discounting
+
+Explore VIP tiers 
+
+HALVARD TRAIL CLUB
+
+Welcome back, Maya
+
+POINTS
+
+2,430
+
+$20 off ready to use
+
+VIP TIER
+
+Ridge
+
+$238 more to reach Summit
+
+REFERRALS
+
+$20 off for friends
+
+500 points for each first order
+
+BONUS EVENT
+
+2x points weekend
+
+Friday to Sunday, online and in store
+
+Integrations
+In every tool you run.
+
+Smile connects to Klaviyo, Gorgias, Recharge, and the other tools your team already uses, so points and VIP status flow into email, support, and subscriptions.
+
+More than 25 partner-built integrations
+OAuth connections, not copy-pasted API keys
+A REST API with webhooks for your own builds
+
+Explore integrations 
+
+H
+Halvard
+admin.shopify.com/store/halvard/apps/smile/integrations
+
+SMILE / INTEGRATIONS
+
+Integrations
+
+Email and SMS
+Connected
+Customer support
+Connected
+Subscriptions
+Connected
+Browse all integrations
+Blue Banana on Smile.
+Customer story
+
+We went from a platform that needed developers for every small change to one where our marketing team has full control. The migration took a week, and we were live everywhere, online and in all our stores.
+
+Javier Millan, Loyalty Lead, Blue Banana
+
+40%
+
+higher average annual purchase frequency, redeemers vs non-redeemers.
+
+Blue Banana’s loyalty program on Smile. Reviewed as of September 25, 2026.
+
+Read the Blue Banana story 
+
+Shopify Plus loyalty, answered.
+Does Smile work with Shopify Plus checkout?
+Can customers earn and redeem points in-store?
+How do we migrate from LoyaltyLion, Yotpo, or another provider?
+Will Smile pass our security review?
+Does Smile integrate with the rest of our stack?
+Why Shopify Plus brands choose Smile?
+Where can we see loyalty adoption across Shopify Plus?
+Run loyalty the way Shopify Plus brands do.
+Book a demo
+Checkout redemption on Shopify Plus
+Migration from your current provider
+What a program at your scale can return

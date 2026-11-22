@@ -1,0 +1,47 @@
+URL: https://developer.loopwork.co/reference/api-reference
+TITLE: Loop API reference
+DESCRIPTION: The Loop API is primarily a REST API with predictable, resource-oriented URLs. It accepts JSON-encoded request bodies, returns JSON-encoded responses, and uses standard HTTP response codes, authentication, and methods. This design ensures a consistent and reliable interface for developers to interac…
+
+The Loop API is primarily a REST API with predictable, resource-oriented URLs. It accepts JSON-encoded request bodies, returns JSON-encoded responses, and uses standard HTTP response codes, authentication, and methods. This design ensures a consistent and reliable interface for developers to interact with the Loop platform.
+
+This guide covers the essentials of using the Loop Admin APIs and Storefront APIs, outlining their differences, functionalities, and link to their respective documentation.
+
+Loop APIs Overview
+
+The Loop API is divided into two primary categories:
+
+Storefront APIs
+
+Storefront APIs are tailored for customer-specific actions, providing a more secure and isolated approach. These APIs are primarily used to build a headless storefront experience. These APIs authenticate using a session token, which is unique to each customer and expires after 24 hours. Refer to the Storefront API documentation from here for more detailed information on authentication, rate limiting, and other essential aspects of using the Loop API effectively and securely.
+
+Admin APIs
+
+Admin APIs are designed for broad administrative control. They enable you to manage all subscriptions, ensuring that you have the necessary permissions to make changes at an administrative level. Admin APIs are intended for handling a range of subscription management tasks within a Shopify-based platform, with all operations conducted at the individual store level. Typical applications include:
+
+Integration with third-party services
+Utilization of webhooks for event-driven actions
+Customization of backend systems
+Generation of tokens for secure API access.
+
+These APIs are essential for automating subscription processes and enhancing the functionality of Shopify stores through custom integrations.
+
+Refer to the documentation from here for more detailed information on authentication, rate limiting, and other essential aspects of using the Loop API effectively and securely.
+
+Error handling in Loop APIs
+
+Loop uses standard HTTP status codes to indicate whether an API request was successful or not.
+
+2xx – Success
+The request worked as expected.
+
+4xx – Client error
+Something is wrong with the request you sent (for example, a required parameter is missing or invalid). Fix the request before trying again.
+
+5xx – Server error
+Something went wrong on Loop’s side. These are rare. You can usually retry after some time, and contact Loop support if the issue continues.
+
+Updated 3 months ago
+
+Did this page help you?
+Yes
+No

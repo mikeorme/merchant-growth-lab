@@ -35,7 +35,7 @@ for (const f of fs.existsSync(path.join(root, 'data/experiences')) ? fs.readdirS
   }
   // Site messaging carries no per-fact citations, so guard against invented specifics instead:
   // every price, percentage, count and colour in a summary, key point or table cell must appear in this site's saved text or signals.
-  const stripC = (t) => t.toLowerCase().replace(/(\d),(?=\d{3})/g, '$1');
+  const stripC = (t) => t.toLowerCase().replace(/(\d),(?=\d{3})/g, '$1').replace(/([$€£])\s+(?=\d)/g, '$1'); // sites often split a price across lines: '$' then '17'
   const corpusText = stripC(Object.values(pageText).join(' ') + ' ' + JSON.stringify((d.steps ?? []).map((st) => st.signals ?? {})) + ' ' + JSON.stringify(d.navMap ?? []));
   const specifics = (t) => stripC(t).match(/[$€£]\d[\d]*(?:\.\d+)?|\d+(?:\.\d+)?(?:%|¢)|\d+\.\d+|\b\d{3,}\b|#[0-9a-f]{6}/g) ?? [];
   for (const sec of d.dossier?.sections ?? []) {

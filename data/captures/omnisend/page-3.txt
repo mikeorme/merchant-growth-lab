@@ -1,0 +1,180 @@
+URL: https://www.omnisend.com/features/automation/
+TITLE: Omnichannel Marketing Automation for Ecommerce | Omnisend
+DESCRIPTION: Create seamless omnichannel marketing automation with Omnisend. Automate email, SMS, and more to convert, retain, and grow your ecommerce audience.
+
+Features
+Automation
+You rest. Omnichannel marketing automation will sell for you.
+Start free
+See pricing
+Full access. Trusted by 150K+ brands.
+Time back on your calendar
+
+Skip the repetitive tasks. No-code workflows handle them in the background, quietly saving your time.
+
+Don’t lose the almost-buyers
+
+Bring shoppers back with well-timed messages that rescue carts and re-open conversations automatically.
+
+All your channels, one builder
+
+Combine email, SMS, and push in a single automation builder — no integrations or switching tabs.
+
+AUTOMATION BUILDER
+Build omnichannel automations without coding
+Drag-and-drop automation builder
+
+Build automations visually by dragging in steps, delays, and conditions, without ever touching the code.
+
+Pre-built automation templates
+
+Choose from a library of high-performing customizable templates like welcome, cart recovery, and post-purchase automations.
+
+Multi-step automation creation
+
+Create advanced customer journeys with multiple messages, split paths, and conditional logic — all in a single unified automation.
+
+Omnisend MCP
+
+Connect your account to ChatGPT or Claude. Then audit your automations, get insights, and have flows built for you, without leaving AI chat.
+
++$61K
+per month from automations
+
+Our client account only had a basic welcome flow when we started. We implemented all the core automations and even added custom ones tailored to their business. These automations alone ended up generating nearly half a million dollars in a year.
+
+Karolina Uvarkina
+Co-Founder of Enflow Digital agency
+Read their success story
+PRODUCT TOUR
+See how it works
+CHANNELS
+Reach customers where it matters most
+
+Add multiple channels into a single automation and reach customers in more than one way. Just drag, drop, and connect with your audience on their terms.
+
+WORKFLOWS
+Automations for every business goal
+Email
+
+Greet new signups automatically and help them take the first step toward buying.
+
+Product abandonment
+
+Remind visitors of what they looked at and bring them back to finish browsing.
+
+Cart abandonment
+
+Follow up when shoppers leave items behind and guide them back to checkout.
+
+Order confirmation
+
+Confirm each purchase instantly so customers feel assured and know what to expect.
+
+Shipping confirmation
+
+Update customers on their order status so they’re never left wondering where it is.
+
+Cross-sell
+
+Recommend products that fit naturally with past purchases to increase order value.
+
+Coming from Klaviyo?
+
+We rebuild every existing flow during migration — abandoned cart, post-purchase, win-back, your custom ones. 5 days, free, you don't touch a thing.
+
+How migration works
+PERSONALIZATION
+Match customer actions with the right message in real time
+Behavioral segmentation
+
+Group contacts by what they do — like browsing, buying, or clicking — for more precise targeting.
+
+Real-time data triggers
+
+Start omnichannel marketing automations the second someone takes action, like viewing a product or placing an order.
+
+Personalised product recommendations
+
+Suggest items based on what each shopper actually wants, no manual setup needed.
+
+2% of sends. 30% of revenue. Switch one on and watch it work.
+Start free
+See pricing
+Full access. No credit card required.
+INSIGHTS
+See what’s
+working — and why
+Automation performance reports
+
+View opens, clicks, and conversions at each step of every workflow.
+
+Revenue attribution
+
+See exactly how much revenue each automation brings in and what’s worth scaling.
+
+A/B testing data
+
+Compare versions of emails inside an automation to find what performs best.
+
+FEATURES
+If you can think it, you can automate it
+Pre-built automation templates
+Custom automation
+Multi-step logic
+Audience filters
+Exit conditions
+Lifecycle stages
+A/B testing
+Frequency capping
+Automation analytics
+Custom events support
+Delay and timing controls
+Product recommender block
+Channel branching
+Conditional splits
+Event-based triggers
+Make an average $79* for every $1 you spend.
+Start free
+See pricing
+Full access. Trusted by 150K+ brands.
+LEARN MORE ABOUT CAMPAIGNS
+We’ll help you get
+started
+15 WooCommerce automations to increase sales and save time
+BLOG
+15 WooCommerce automations to increase sales and save time
+Email automation in 2025: Complete guide + examples & tools
+BLOG
+Email automation in 2025: Complete guide + examples & tools
+Omnisend Automation Workflow Settings
+KNOWLEDGE BASE
+Omnisend Automation Workflow Settings
+FAQ
+What types of automations can I create with Omnisend?
+
+With Omnisend, you can create a wide range of automated workflows tailored to your marketing needs. This includes welcome series for new subscribers, abandoned cart reminders to recover lost sales, post-purchase follow-ups to encourage repeat business, and more.
+
+Do automations help increase sales?
+
+Yes! By automating targeted communications like abandoned cart reminders and personalized product recommendations, you can significantly boost conversion rates and encourage repeat purchases. These automated messages ensure you're always engaging customers with minimal effort, helping you drive sales on autopilot.
+
+Can I personalize my automated emails and SMS messages?
+
+Absolutely! You can use customer data such as browsing behavior, purchase history, and personal details to create highly personalized messages. Our omnichannel marketing automation platform allows you to segment your audience and tailor content, ensuring that each customer receives relevant and engaging messages.
+
+How easy is it to set up automations with Omnisend?
+
+Setting up automations with Omnisend is designed to be user-friendly, regardless of your technical expertise. Our visual automation editor guides you through the process, allowing you to easily define triggers, conditions, and actions for your workflows. Plus, with pre-built automation templates, you can get started quickly and customize the templates to fit your needs, making the setup process straightforward and efficient.
+
+Start free
+today
+
+Built on feedback from 150,000+ brands. Try Omnisend and see why they stay.
+
+Feedback
+Rate your experience at our website
+Select an option from 😠 to 😍, with 😠 being Hate and 😍 being Love
+Hate
+Love
+Next

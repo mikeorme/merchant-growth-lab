@@ -1,0 +1,189 @@
+URL: https://changelog.getrecharge.com/
+TITLE: Recharge - Changelog
+DESCRIPTION: What's New at Recharge?
+
+EARLY ADOPTER PROGRAMENHANCEMENT
+11/12/2026
+Explore customer portal analytics and deeper cohort insights with Recharge MCP
+
+Ask more detailed questions about customer behavior, portal engagement, and subscription retention directly in Claude or ChatGPT.
+
+The Recharge Analytics MCP now supports customer portal analytics and additional cohort filters, giving you more ways to explore your store's performance using AI tools like Claude and ChatGPT.
+
+With these updates, you can:
+
+Analyze customer portal engagement — Explore sessions, unique visitors, page views, and average session duration.
+Track self-service actions — Understand how customers interact with the portal, including action starts, completions, and completion times. Analyze swaps, cancellations, and one-time product additions by product.
+Compare retention by product or variant — Filter cohort data to identify which products and variants retain subscribers most effectively.
+Filter by shopper segment — Analyze cohort retention across different customer segments to uncover trends and opportunities.
+
+These improvements make it easier to understand customer behavior, identify retention opportunities, and explore detailed analytics without manually building reports.
+
+See Recharge Analytics MCP for more information.
+
+READ MORE
+ENHANCEMENT
+11/12/2026
+New Referrals custom extension available for Affinity
+
+Create a more engaging referral experience with customizable sharing options and interactive content.
+
+A new Referrals custom extension is now available in the Affinity Custom Extensions library, giving you greater flexibility in how customers share referral links.
+
+The extension includes:
+
+Personalized referral links pulled directly from Recharge
+An interactive timeline explaining how referrals work, from sharing a link to earning credits
+One-click copying so customers can easily copy and share their referral link
+Multiple sharing options including WhatsApp, SMS, and email
+
+This extension provides a starting point for creating a more engaging, branded referral experience in your customer portal.
+
+To get started, your store must have Referrals enabled and support custom extensions.
+
+Explore the Affinity Custom Extensions library for this example and more.
+
+READ MORE
+ENHANCEMENT
+11/12/2026
+Hide gift prices in the Affinity 2.0 customer portal
+
+Keep gift prices private with customizable recipient messaging.
+
+You can now hide gift prices in the Affinity 2.0 customer portal when gift credits fully cover an order, creating a more seamless gifting experience.
+
+When enabled, gift prices are hidden across the next order details, order summary, and subscription edit pages. Instead of displaying the price, you can show a customizable message that can also indicate how many additional orders the recipient's remaining gift credits will cover.
+
+To get started, enable this option in your Customer Portal settings and customize the message in Copy & Translations.
+
+Available now for all stores using Affinity 2.0. Gift prices remain visible by default until you enable this setting. See Gift price visibility for more information.
+
+READ MORE
+FIX
+11/2/2026
+Fixed-price bundles now fully support prepaid subscriptions
+
+Offer prepaid subscription plans with preset and customizable fixed-price bundles.
+
+Fixed-price bundles are now fully compatible with both legacy prepaid plans and prepaid plans using Variant Level Plans (VLP).
+
+You can now configure prepaid subscriptions for both preset and customizable fixed-price bundles, giving you more flexibility to offer bundled products with prepaid billing options.
+
+This update resolves previous compatibility issues that prevented certain prepaid configurations from working correctly with bundles.
+
+Available now for all stores.
+
+Note: Dynamically priced bundles are not compatible with prepaid subscription plans.
+
+READ MORE
+ENHANCEMENT
+11/2/2026
+Tiered discount offers now available in guest SDK sessions
+
+Show shoppers relevant tiered discounts and encourage larger purchases without requiring them to log in.
+
+The Recharge SDK now supports tiered discount offers in guest sessions, making it easier to display available discounts and progress toward the next reward tier directly on product pages, in the cart, or throughout the shopping experience.
+
+Guest sessions can retrieve published tiered discounts that aren't restricted to specific customer segments, allowing you to highlight savings opportunities before shoppers log in.
+
+To enable this functionality, you must activate the new Read tiered discounts permission for your Storefront Token.
+
+For implementation details, see the Recharge SDK documentation.
+
+READ MORE
+ENHANCEMENT
+10/30/2026
+Target Cancellation Prevention offers with detailed subscription conditions
+
+Create more personalized cancellation experiences by tailoring retention offers based on subscription details.
+
+Cancellation Prevention flows now support detailed subscription conditions, giving you more control over how customers move through your cancellation flows.
+
+When configuring a Subscription being cancelled condition, you can now use additional subscription attributes to tailor retention offers, including:
+
+Customer tenure and loyalty: Target customers based on recurring order count, subscription creation date, or migration status.
+Subscription type and frequency: Create different experiences based on prepaid status, delivery frequency, quantity, or price.
+Product details: Tailor offers based on product, variant, SKU, collection, or subscription properties.
+Billing timing: Customize offers based on the next scheduled charge date, day of the week, or day of the month.
+
+These additional conditions make it easier to deliver relevant retention offers, whether you're rewarding long-term subscribers, targeting specific products, or tailoring cancellation experiences based on subscription value.
+
+READ MORE
+ENHANCEMENT
+10/30/2026
+Run multiple Rewards flows in your preferred order
+
+Create more flexible rewards programs by running all active flows in the order you choose.
+
+You can now run multiple active Rewards flows and control the order in which they execute, making it easier to manage different rewards programs without combining everything into a single flow.
+
+Previously, only the most recently created flow with an After order processed trigger would run. Now, all active flows using this trigger can execute in your preferred order.
+
+With this update, you can:
+
+Run multiple Rewards flows to support different products, customer segments, or reward milestones
+Set the execution order by dragging and rearranging flows on the Rewards Overview page
+Review run order when activating new flows to ensure they're evaluated in the correct sequence
+
+This gives you more flexibility to create targeted rewards experiences, such as offering credits on every order while also rewarding customers at specific milestones or managing VIP programs through separate flows.
+
+READ MORE
+ENHANCEMENT
+10/19/2026
+Customize the Subscription details page in Affinity 2.0
+
+The Subscription details page is now available in the Page Builder for Affinity 2.0. Your customers use this page to reschedule, skip, or swap an upcoming order, change product options, upgrade to prepaid, and cancel. Instead of a fixed layout, you can now arrange and customize its sections to fit your store.
+
+There are two templates, one for standard products and one for bundles, so you can configure each layout separately. You can:
+
+Reorder the Upgrade to prepaid, Product options, Swap carousel, and Cancel subscription sections, and remove the Swap carousel or Cancel subscription section
+Choose how product details appear: in a modal, inline, or hidden
+Edit the swap carousel title and show or hide the Browse all button
+Customize standard text and apply Global styles
+
+Customer Portal settings still control which actions your customers see. A section you include in the Page Builder won't appear if its matching setting is turned off.
+
+See Understanding the Affinity 2.0 Subscription details page for more information.
+
+READ MORE
+ENHANCEMENT
+10/19/2026
+Universal search now available in the merchant portal
+
+Find pages and records faster with a new universal search and keyboard shortcuts.
+
+You can now use universal search in the Recharge merchant portal to quickly find pages and records without navigating through multiple menus.
+
+Open search from the side navigation or press ⌘K (Mac) or Ctrl+K (Windows) to search for customers, subscriptions, orders, charges, products, plans, discounts, addresses, and more.
+
+You can also use keyboard shortcuts to jump directly to key areas of the merchant portal, including Home, Customers, Subscriptions, Orders, Products, Analytics, and Settings. Press ? to view the full list of available shortcuts.
+
+Search results respect your existing permissions, and record searches begin after you enter at least three characters.
+
+READ MORE
+ENHANCEMENT
+10/19/2026
+Export detailed Subscription Journey data
+
+Dive deeper into subscriber behavior with renewal-level data you can analyze and explore outside Recharge.
+
+You can now export detailed Subscription Journey data directly from the dashboard, giving you greater visibility into how customers interact with their subscriptions over time.
+
+The export includes renewal-level data for every subscription in the dashboard view, including:
+
+Renewal history for each subscription, organized by order number
+Customer actions such as skips, reschedules, and swaps that impact each renewal
+Before-and-after details showing exactly what changed when a customer took an action
+
+Use this data to uncover subscription trends, build custom reports, or analyze customer behavior with external tools like ChatGPT or Claude.
+
+To get started, click Export in the upper-right corner of the Subscription Journey dashboard.
+
+Available now for all merchants.
+
+READ MORE
+ENHANCEMENT
+10/19/2026
+Create Discounts with Remi
+
+Save time configuring discounts by describing to Remi what 

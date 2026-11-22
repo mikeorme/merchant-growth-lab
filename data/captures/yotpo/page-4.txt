@@ -1,0 +1,166 @@
+URL: https://www.yotpo.com/api-changelog/
+TITLE: API Changelog | Yotpo
+DESCRIPTION: Keep track of changes and upgrades to the Yotpo API.
+
+API Changelog
+
+Keep track of changes and upgrades to the Yotpo API.
+
+API TYPE
+App Developer
+Core
+Loyalty & Referrals
+UGC
+UPDATE
+March 11, 2024
+Updated the 'Create/Update Customer Records' endpoint
+The 'Create/Update Customer Records' endpoint now includes the ‘platform_account_created_at’ parameter.
+Loyalty & Referrals
+UPDATE
+March 12, 2024
+Added new example response
+The 'Create or update subscriber' endpoint now includes an example payload and example response for suppressing a customer's email address from receiving emails.
+Core
+UPDATE
+March 12, 2024
+Added new body parameters
+The 'Create or update subscriber' endpoint now includes many parameters to help you better manage subscribers in Yotpo.
+App Developer
+UPDATE
+March 13, 2024
+Updated 'Retrieve bottom line for a specific pr...' endpoint
+The 'Retrieve bottom line (total reviews and average score) for a specific product' now has a new URL.
+UGC
+UPDATE
+March 14, 2024
+Updated 'About customers' page
+We've added further explanation and a vast list of parameters to the 'About customers' page to help better understand the capabilities of the endpoints.
+Core
+UPDATE
+March 17, 2024
+Updated 'Retrieve bottom line (total reviews an...' endpoint
+The 'Retrieve bottom line (total reviews and average score) for all products' now has a new URL.
+UGC
+March 2024
+UPDATE
+April 24, 2024
+New webhook header available
+We've added the x-yotpo-webhooks-event-type header, which specifies the event type that triggered the webhook. This allows quick identification of the event without parsing the payload.
+App Developer
+NEW FEATURE
+April 24, 2024
+New and updated SMS & Email events
+We've added new events for Yotpo SMS & Email, and updated the names of existing events.
+App Developer
+April 2024
+UPDATE
+May 20, 2024
+Added new query parameter
+The 'segment_id' parameter has been added to the 'Retrieve Customers' endpoint.
+App Developer
+May 2024
+NEW FEATURE
+June 13, 2024
+Added new 'Retrieve Products' endpoint
+The 'Retrieve Products' endpoint provides a list of all of the store's products. It's built on top of the new Yotpo infrastructure. It can be used instead of the 'All Products' endpoint as it can support larger product catalogs.
+App Developer
+UPDATE
+June 23, 2024
+Updated "custom_properties" name format
+For consistency and usability across different product flows in Yotpo, property names should use underscores (_) instead of spaces:
+- https://develop.yotpo.com/reference/create-or-update-custom-customer-event - https://develop.yotpo.com/reference/create-or-update-customer
+App Developer
+Core
+June 2024
+UPDATE
+July 1, 2024
+Added new properties
+The "Intro to audience management" page now lists subscriber properties by section.
+App Developer
+UPDATE
+July 1, 2024
+Added new body parameters
+The "Create or update subscriber" endpoint now includes many parameters to help you better manage subscribers in Yotpo.
+Core
+UPDATE
+July 4, 2024
+Updated endpoint limitations
+The "Update incentivized reviews by review ID" endpoint can now process 5,000 review IDs per request.
+UGC
+UPDATE
+July 4, 2024
+Updated body parameter
+The "Create an answer to a question" endpoint now requires the "answer" parameter to be in object format.
+UGC
+NEW FEATURE
+July 7, 2024
+Added 4 new endpoints
+The "Audience management" section now has 4 new endpoints: "Get Lists", "Create List", "Add contacts to List", and "Remove contacts from List".
+App Developer
+NEW FEATURE
+July 9, 2024
+New and updated SMS & Email events
+We've added new events for Yotpo SMS & Email, and updated the names of existing events.
+Core
+NEW FEATURE
+July 14, 2024
+New "Testing a Custom Event Integration" Guide
+We've added a new how-to guide to test your Custom Event integration with Yotpo SMS & Email.
+App Developer
+UPDATE
+July 14, 2024
+Added information about incentivized reviews
+The "Product Reviews" and "All Reviews" endpoints now include the following fields: 'is_incentivized' and ‘incentive_type’.
+App Developer
+July 2024
+UPDATE
+August 5, 2024
+Added new query parameter
+Added an "id" query parameter to the "Retrieve all reviews" endpoint so you can retrieve reviews according to their ID in Yotpo.
+UGC
+August 2024
+RELEASE DATE
+2026
+January
+0
+February
+0
+March
+0
+April
+0
+May
+0
+June
+0
+July
+0
+August
+0
+September
+0
+October
+0
+November
+0
+2025
+2024
+2023
+2022
+2021
+Ecommerce retention marketing platform
+
+Yotpo’s connected ecommerce marketing platform helps brands win and retain customers for life with Reviews & Loyalty.
+
+Loyalty & Referrals
+
+Promote desirable customer behaviors with on-brand loyalty and referral programs
+
+Explore more
+Reviews & UGC
+
+Enhance your site with AI-driven displays of quality reviews and customizable galleries
+
+Explore more
+Join The World's Fastest-Growing Brands
+Request a demo

@@ -1,0 +1,72 @@
+URL: https://developers.squarespace.com/
+TITLE: Squarespace Developer Platform: APIs, Apps, and Docs
+DESCRIPTION: Build and publish apps on the Squarespace Developer Platform. Use Commerce APIs, webhooks, a custom code spec, and MCP support for Claude and ChatGPT.
+
+Build on Squarespace
+
+Everything you need to build and publish external apps — reliable APIs, clear documentation, and a marketplace to reach Squarespace's global customer base.
+
+READ THE DOCS
+START BUILDING
+WHAT CAN YOU BUILD ON SQUARESPACE?
+Integration, customization, or extension. Our docs can get you started, and the rest is up to you.
+01
+App creation
+
+Use our APIs to connect your business to Squarespace and reach more customers.
+
+02
+Advanced commerce management
+
+Manage your storefront's orders, inventory, transactions, and more.
+
+03
+Website & domain reselling
+
+Add Squarespace websites and domains to your business offering.
+
+04
+Custom themes & code
+
+Inject CSS, JavaScript, and full code blocks against the 7.1 layout model.
+
+05
+Webhooks & automation
+
+Subscribe to order, inventory, content, and customer events with signed delivery.
+
+06
+AI compatibility
+
+Integrate our API docs directly into Claude or ChatGPT.
+
+WHAT APIS AND TOOLS DOES THE PLATFORM INCLUDE?
+Get deep control with Commerce APIs, Reseller APIs, and a reliable custom code spec.
+Commerce APIs
+
+Read and write orders, products, inventory, and transactions. REST endpoints, webhooks for order events, and signed payloads for safe server-to-server delivery.
+
+→
+Custom Code Spec
+
+A documented contract for injecting code into 7.1 sites — code blocks, code injection points, and the Fluid Engine layout model. No version drift.
+
+→
+Reseller APIs
+
+Provision, configure and bill for Squarespace sites and domains on behalf of clients. Built for companies looking to integrate our products into their offering.
+
+→
+STAY IN THE LOOP
+Get notified about API updates, breaking changes, and new developer tools.
+Email address
+SIGN UP
+
+By pressing Sign Up, I consent to receive updates about Squarespace developer tools and acknowledge that my information is subject to the Squarespace Privacy Policy.
+
+Ready to build?
+
+Get started.
+
+READ THE DOCS
+START BUILDING

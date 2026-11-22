@@ -1,0 +1,351 @@
+{
+  "dossier": {
+    "sections": [
+      {
+        "id": "positioning",
+        "title": "Positioning",
+        "summary": "Skio sells a subscription platform to fast-growing consumer-goods brands on Shopify, with a challenger's voice and a lot of customer proof.",
+        "keyPoints": [
+          "Homepage: 'The fastest-growing CPG brands scale subscriptions with Skio', with 1,000+ subscription brands named.",
+          "The About page says 'We're here to make subscriptions not suck' and stresses a team from Klaviyo, Recharge, Loop and Shopify.",
+          "A small 'a Recharge company' tag sits beside the logo, which is not mentioned in the page text; Recharge is also its closest competitor in pricing."
+        ]
+      },
+      {
+        "id": "offerings",
+        "title": "Products and offerings",
+        "summary": "Subscription management with strong retention tooling, sold as a platform plus a separate loyalty product.",
+        "keyPoints": [],
+        "table": {
+          "columns": [
+            "Product",
+            "What it does"
+          ],
+          "rows": [
+            [
+              "Customer portal",
+              "No-code portal subscribers can manage themselves"
+            ],
+            [
+              "Cancel flow builder",
+              "Multi-step cancel flows with A/B testing"
+            ],
+            [
+              "Journeys and SkioSMS",
+              "Lifecycle automation and one- and two-way texting"
+            ],
+            [
+              "Merchandising tools",
+              "Volume discounting, build-a-box, an AI-driven upsell carousel and surprise gifts"
+            ],
+            [
+              "Analytics and segmentation",
+              "Full analytics suite with advanced segmentation"
+            ],
+            [
+              "Loyalty",
+              "Loyalty, rewards and referrals, sold separately"
+            ],
+            [
+              "Migration and support",
+              "Comprehensive migration and onboarding with a human support team"
+            ]
+          ]
+        },
+        "gaps": [
+          "Only four pages were surveyed; the product, platform and integration pages were not linked in the navigation."
+        ]
+      },
+      {
+        "id": "pricing",
+        "title": "Pricing",
+        "summary": "Two published plans plus a separately priced loyalty product. Monthly billing costs more than annual.",
+        "keyPoints": [
+          "The Scale plan is $499 a month on annual billing or $599 on monthly billing, plus a 1.25% + 20¢ fee on orders involving a subscription.",
+          "Loyalty starts at $549 a month and is sold separately; it is not included in Scale or Enterprise.",
+          "Scale and its fee match Recharge's Scale plan, which also lists $499 a month and 1.25% + 20¢.",
+          "Every plan leads with 'Get a demo'; the FAQ asks whether there is a free trial."
+        ],
+        "table": {
+          "columns": [
+            "Plan",
+            "Price",
+            "Notes"
+          ],
+          "rows": [
+            [
+              "Scale",
+              "$499 a month annually, $599 monthly",
+              "1.25% + 20¢ on subscription orders; analytics, journeys, SkioSMS, cancel flow builder, upsell carousel, portal, migration"
+            ],
+            [
+              "Enterprise",
+              "Custom",
+              "Larger programs"
+            ],
+            [
+              "Loyalty",
+              "from $549 a month",
+              "Loyalty, rewards and referrals, sold separately"
+            ]
+          ]
+        },
+        "gaps": [
+          "Enterprise inclusions and the free-trial answer were not read."
+        ]
+      },
+      {
+        "id": "merchandising",
+        "title": "Merchandising",
+        "summary": "A two-plan ladder with the heavy lifting in features. The product itself is a merchandising toolkit: volume discounts, boxes, upsell carousels and gifting.",
+        "keyPoints": [
+          "Pricing is Scale versus Enterprise with a separately sold loyalty add-on, which creates a clear upsell.",
+          "For merchants: advanced volume discounting, advanced build-a-box, a smart upsell carousel, surprise-and-delight gifting with anti-fraud protection and flexible rewards (free gifts, shipping, discounts, bonus credits).",
+          "Case studies lead with specific saves: a cancel-flow save rate that climbed from 1.90% to 7.10% in one quarter.",
+          "Annual billing is the cheaper path: $499 a month against $599 monthly."
+        ]
+      },
+      {
+        "id": "platform",
+        "title": "Technical platform",
+        "summary": "The pricing page lists native integrations, webhooks and an API in the Scale plan, but no developer pages were reachable from the navigation.",
+        "keyPoints": [
+          "Scale lists 'Native Integrations + Webhooks + API', a visual bulk-ops tool and granular user permissions with audit logs.",
+          "Skio advertises moving 50k+ subscriptions as part of migration."
+        ],
+        "gaps": [
+          "No developer site, API reference or integration directory was surveyed."
+        ]
+      },
+      {
+        "id": "design",
+        "title": "Design",
+        "summary": "Playful and branded: a lilac panel with floating product bubbles, a cartoon astronaut cat, a purple palette and hand-drawn highlights over the headline. Consistent across the pages seen.",
+        "keyPoints": [
+          "Purple (#5d38a0) and pale lilac dominate; the headline highlights words with a pink ring and an italic script.",
+          "The home hero is a lilac panel with product photos in bubbles and an illustrated cat in a space helmet.",
+          "Poppins sets the pricing headline and Inter the body text, with a single purple 'Get a demo' button.",
+          "The pages are long: the home page is 10,283px, pricing 6,946px and the case-studies page 14,344px.",
+          "For merchants: a no-code customer portal and visual flow builders."
+        ],
+        "gaps": [
+          "Mobile and dark mode were not assessed."
+        ]
+      },
+      {
+        "id": "company",
+        "title": "Company presentation",
+        "summary": "A candid, people-forward story: the team, their past employers, tenure and customer count.",
+        "keyPoints": [
+          "About page numbers: 4 years building, 1,000+ subscription brands and 67 team members.",
+          "A named leadership team lists prior roles at Klaviyo, HubSpot, Pinterest, Amazon and Shopify Plus.",
+          "Case studies include Instant Hydration at 58% subscription revenue in one quarter and Nature's Roots growing subscribers from 1,465 to 18,386."
+        ],
+        "gaps": [
+          "The Recharge relationship is only indicated by a small tag beside the logo."
+        ]
+      }
+    ]
+  },
+  "signupPath": "No self-serve signup was found. The homepage, pricing page and every plan lead to 'Get a demo'. The demo form was not followed, and the FAQ question 'Is there a free trial?' was not read. Nothing was entered.",
+  "scores": {
+    "jtbd_fit": {
+      "score": 5,
+      "evidence": "The homepage and pricing page both name one job: scaling subscriptions on Shopify.",
+      "step": 1
+    },
+    "capability_visible": {
+      "score": 3,
+      "evidence": "Feature lists and case studies are strong; no product screens or demo environment were surveyed.",
+      "step": 2
+    },
+    "pricing_transparency": {
+      "score": 4,
+      "evidence": "Scale and Loyalty prices and the transaction fee are published; Enterprise is custom.",
+      "step": 2
+    },
+    "product_breadth": {
+      "score": 3,
+      "evidence": "Features are listed on the pricing page; no product pages were reachable.",
+      "step": 2
+    },
+    "platform_depth": {
+      "score": 2,
+      "evidence": "'Native integrations, webhooks and API' are listed on Scale; no developer pages were surveyed.",
+      "step": 2
+    },
+    "time_to_value": {
+      "score": null,
+      "evidence": "Capture stops before the product; first-value time was not observed.",
+      "step": null
+    },
+    "friction": {
+      "score": null,
+      "evidence": "The surveyed pages could not tell.",
+      "step": null
+    },
+    "trust": {
+      "score": 4,
+      "evidence": "A named leadership team, named customers and specific results.",
+      "step": 4
+    },
+    "mobile": {
+      "score": null,
+      "evidence": "Phone captures exist for home and pricing but were not assessed.",
+      "step": null
+    },
+    "states": {
+      "score": null,
+      "evidence": "No error or empty states reached.",
+      "step": null
+    },
+    "a11y_basics": {
+      "score": null,
+      "evidence": "Not tested.",
+      "step": null
+    },
+    "value_prop_clarity": {
+      "score": 4,
+      "evidence": "'The fastest-growing CPG brands scale subscriptions' is specific to the audience.",
+      "step": 1
+    },
+    "proof_quality": {
+      "score": 4,
+      "evidence": "Case studies give before-and-after numbers such as 1.90% to 7.10% and 1,465 to 18,386.",
+      "step": 3
+    },
+    "persuasion_integrity": {
+      "score": 4,
+      "evidence": "No urgency tactics; the annual discount is stated in the price.",
+      "step": 2
+    },
+    "cta_logic": {
+      "score": 4,
+      "evidence": "'Get a demo' is the single, consistent action.",
+      "step": 1
+    },
+    "company_narrative": {
+      "score": 3,
+      "evidence": "The about story is clear, but the Recharge relationship appears only in a small tag beside the logo.",
+      "step": 4
+    },
+    "offer_packaging": {
+      "score": 4,
+      "evidence": "Scale, Enterprise and a separate Loyalty product are clear; inclusions per plan are not tabulated.",
+      "step": 2
+    },
+    "offer_architecture": {
+      "score": 3,
+      "evidence": "An annual saving and a loyalty add-on, but no trial and a short ladder.",
+      "step": 2
+    },
+    "merchant_merch_tools": {
+      "score": 5,
+      "evidence": "Volume discounting, build-a-box, upsell carousel, gifting, flexible rewards and cancel-flow A/B tests.",
+      "step": 2
+    },
+    "visual_craft": {
+      "score": 4,
+      "evidence": "A memorable illustrated look with a clear single action; busy imagery around the headline.",
+      "step": 1
+    },
+    "system_coherence": {
+      "score": 4,
+      "evidence": "The same purple, type and button across home, pricing, case studies and about pages.",
+      "step": 3
+    },
+    "merchant_design_control": {
+      "score": 4,
+      "evidence": "A no-code portal and visual flow builders for customer-facing experiences.",
+      "step": 2
+    }
+  },
+  "read": {
+    "summary": "A subscription platform with a playful brand, loud case-study numbers and a mostly sales-led site. The survey only reached four pages, so product and developer depth are not judged. The pricing is notably identical to Recharge's Scale plan.",
+    "pros": [
+      "Case studies carry specific before-and-after numbers.",
+      "Scale and loyalty prices are published, with the annual saving stated.",
+      "A distinctive, consistent brand across the pages seen.",
+      "Merchants get build-a-box, volume discounts and an upsell carousel."
+    ],
+    "cons": [
+      "Only four pages were reachable, so the site is thin for evaluation.",
+      "Every call to action is 'Get a demo'; there is no visible trial.",
+      "The Recharge connection is a tiny tag, not part of the story.",
+      "Developer information is limited to a feature-list line."
+    ],
+    "howItSells": "Sells momentum and fit for CPG brands: named customers, results in numbers, and a human team with a candid voice.",
+    "copy": [
+      "Pair every feature with a named customer result.",
+      "State the annual saving in the price.",
+      "Publish the team's backgrounds."
+    ],
+    "avoid": [
+      "Leaving ownership to a footnote-sized tag.",
+      "No visible way to try without a call."
+    ],
+    "tactics": [
+      "social_proof",
+      "authority",
+      "anchoring"
+    ],
+    "confidence": "low",
+    "unknowns": [
+      "Product and developer pages.",
+      "What the demo request asks.",
+      "The free-trial answer in the FAQ.",
+      "Mobile experience."
+    ],
+    "hypothesis": {
+      "statement": "Adding a short product tour to the pricing page will raise demo requests among visitors who want to see the product first.",
+      "metric": "Demo-request rate from the pricing page",
+      "guardrail": "Demo no-show rate",
+      "decisionRule": "Ship if demo requests rise by a pre-agreed margin and no-shows do not rise over four weeks."
+    },
+    "subjects": {
+      "merchandising": {
+        "summary": "A short ladder with a loyalty upsell and an unusually broad merchandising toolkit.",
+        "pros": [
+          "Loyalty sold as a separate upsell.",
+          "Annual saving shown in the price.",
+          "Merchandising features listed by name."
+        ],
+        "cons": [
+          "No trial.",
+          "Plan inclusions are not tabulated."
+        ]
+      },
+      "design": {
+        "summary": "Playful, consistent and memorable on the pages surveyed.",
+        "pros": [
+          "A friendly illustrated style with floating product shots makes the brand easy to remember.",
+          "One purple and one button keep the page simple."
+        ],
+        "cons": [
+          "Long pages with heavy imagery.",
+          "The tag showing ownership is very small."
+        ]
+      }
+    }
+  },
+  "claims": [
+    {
+      "text": "1,000+ subscription brands like IM8, Grüns, and Everyday Dose run their subscription program on Skio.",
+      "verdict": "plausible",
+      "step": 1,
+      "evidenceStep": 4
+    },
+    {
+      "text": "Nature's Roots Grew Subscribers 12.5x and Made Saves Stick with Skio",
+      "verdict": "plausible",
+      "step": 3,
+      "evidenceStep": null
+    },
+    {
+      "text": "Actual smart humans, not AI™️.",
+      "verdict": "plausible",
+      "step": 2,
+      "evidenceStep": null
+    }
+  ]
+}

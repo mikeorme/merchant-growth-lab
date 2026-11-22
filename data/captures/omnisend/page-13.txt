@@ -1,0 +1,438 @@
+URL: https://apps.shopify.com/omnisend
+TITLE: Omnisend Email Marketing & SMS - Drive sales with email marketing, newsletters, SMS, and popups | Shopify App Store
+DESCRIPTION: Omnisend is the Shopify email marketing app for email, SMS & popups, used by 100K+ brands. Create AI campaigns in ChatGPT or Claude via MCP and sell more.
+
+Shopify App Store
+Browse apps
+Log in
+Start for free
+Omnisend Email Marketing & SMS
+Pricing
+Free plan available
+Popular with stores like yours
+Based in United States
+Rating
+4.7
+(3,235)
+Developer
+Omnisend
+Install
+View demo store
+Featured images gallery
++ 3 more
+Run email marketing & SMS campaigns with AI marketing tools. Collect emails with popups & sell more.
+
+Sell more with the Omnisend email marketing app, plus SMS, newsletters, and web push — turn visitors into repeat customers. Connect ChatGPT or Claude to Omnisend via MCP: create campaigns and build segments without leaving the chat. Omnisend's AI marketing writes on-brand copy and powers product recommendations. Grow your email list with popups and signup forms, then let marketing automation run abandoned cart and welcome automation. Plus 24/7 email & live chat support and 250+ integrations.
+
+Create & send email marketing, newsletters & SMS from ready-made templates
+Grow your email list with exit-intent popups, spin-to-win, & more signup forms
+Recover sales with welcome, abandoned cart & post-purchase automation workflows
+Personalize emails with AI product recommendations, subject lines & content
+Ask ChatGPT or Claude to build campaigns & automations in Omnisend via MCP
+
+Languages
+
+English
+
+Works with
+
+Checkout
+ Shopify Flow Aftership Gorgias Justuno Loox Recharge Yotpo
+
+Categories
+
+Email marketing
+Show features
+
+Campaign types
+
+Email campaigns
+
+SMS campaigns
+
+Push notifications
+
+Newsletters
+
+Pop-ups
+
+Forms
+
+Landing pages
+
+Discounts
+
+Promotions
+
+Upsell emails
+
+Cross-sell emails
+
+Cart emails
+
+Checkout emails
+
+Exit intent
+
+Abandoned cart
+
+Browse abandonment
+
+Welcome emails
+
+Price drop emails
+
+Back-in-stock emails
+
+Win-back emails
+
+Product recommendations
+
+Drip campaigns
+
+Subscriptions
+
+Product reviews
+
+Custom campaigns
+
+Managing campaigns
+
+Editor tool
+
+Templates
+
+AI generation
+
+Translation
+
+Localization
+
+Custom code
+
+Custom fonts
+
+Import and export
+
+Email domains
+
+Consent collection
+
+Email capture list
+
+SMS capture list
+
+Triggers and rules
+
+Automations
+
+Targeting
+
+Geolocation
+
+Segmentation
+
+Tagging
+
+Tracking
+
+Reporting
+
+Insights and tips
+
+Analytics
+
+A/B testing
+
+APIs and webhooks
+SMS marketing
+Show features
+
+Managing campaigns
+
+A/B testing
+
+Personalized messages
+
+Scheduled messages
+
+Templates
+
+Real-time analytics
+
+Segmentation
+
+Workflow automation
+
+Cart recovery
+
+Birthday messages
+
+Discount codes
+
+Order confirmations
+
+Payment reminders
+
+Order tracking
+
+Welcome messages
+
+Win-back campaigns
+Pricing
+
+Choose the plan that best fits your business.
+
+External charges may be billed by Omnisend separately from your Shopify invoice. Learn more
+
+FREE
+
+Free
+
+Features
+
+Email up to 250 people
+Send 500 emails per month
+Use Omnisend inside ChatGPT/Claude (MCP)
+Grow your email list with popups & forms
+Automate abandoned cart & welcome emails
+Describe a segment, built-in AI makes it
+250+ customizable email templates
+24/7 live support — even on Free
+
+STANDARD
+
+$16
+/ month
+
+Starting price covers up to 500 contacts and rises as your list grows. Plus 30% off your first 3 months.
+
+Features
+
+EVERYTHING in Free plan, plus:
+Send 6,000 emails per month
+Send unlimited web push notifications
+Describe a popup and Forms AI builds it
+No Omnisend branding on emails & forms
+Meet our email expert on $400/mo+ plans
+Starter deal: 30% off for first 3 months
+
+PRO
+
+$59
+/ month
+
+Starting price covers up to 2,500 contacts and rises as your list grows. Plus 30% off your first 3 months.
+
+Features
+
+EVERYTHING in Standard plan, plus:
+Send unlimited emails
+Advanced reporting
+Personalized product recommender AI
+Dynamic content personalization
+Add SMS starting at $0.007/message
+Starter deal: 30% off for first 3 months
+
+All charges are billed in USD. Recurring and usage-based charges are billed every 30 days. See all pricing options
+
+Reviews (3,235)
+Overall rating
+4.7
+5
+2.9K
+4
+136
+3
+19
+2
+26
+1
+162
+Write a review
+All reviews
+What merchants think
+
+Merchants say this platform is a revenue-driving backbone, with some attributing over a third of sales to its campaigns and automations. They highlight easy-to-build flows (welcome, abandoned cart/checkout, recapture), intuitive drag-and-drop emails, and profitable email+SMS. Integration and migration with Shopify are called seamless, pricing is seen as good value, and support is frequently praised as fast, hands-on, and highly knowledgeable.
+
+November 19, 2026
+
+We use Omnisend for all of Fresh Chile's email and SMS, from weekly recipe emails to product launches and Black Friday.
+
+We switched from Klaviyo and Sendlane, and Omnisend gives us almost every feature we used before at a much lower cost.
+
+Day to day, I run it through my AI with the Omnisend MCP.
+
+I build segments and schedule campaigns without logging in, while Klaviyo still makes you log back in ...
+
+Show more
+Fresh Chile
+United States
+About 1 year using the app
+Omnisend replied November 20, 2026
+
+Running Fresh Chile's email and SMS through your own AI with the Omnisend MCP is exactly how we hoped it would be used! Thank you for sharing this. Building segments and ...
+
+Show more
+November 19, 2026
+
+Since switching to Omnisend from Klaviyo - not only have we effectively halved our costs. Sales from our email channel have only continued to increase. The switch was seamless, handled almost 100% by the Omnisend team so we were quick to go.
+
+The Omnisend MCP has allowed me to create and launch our automated flows, and campaigns like all our Black Friday emails without needing to manually copy ...
+
+Show more
+Village Cricket Co.
+United Kingdom
+7 months using the app
+Omnisend replied November 20, 2026
+
+What a great review to read, thank you! Cutting costs in half after leaving Klaviyo while your email revenue keeps rising is a fantastic result. We're happy our team handled ...
+
+Show more
+November 19, 2026
+
+I've been using Omnisend for over a year now, and what I like most is the email automations, especially the welcome flows, abandoned checkout emails and customer follow-ups.
+
+Once these automations are set up properly, they work in the background, bringing customers back without me having to constantly manage everything.
+
+We switched from another email marketing platform, and the move was much ...
+
+Show more
+Showery
+United Kingdom
+About 1 year using the app
+Omnisend replied November 20, 2026
+
+Calling the switch one of the best decisions for your business means a lot to us! We really appreciate you taking the time to write this. It's great that your welcome, ...
+
+Show more
+Support
+
+App support provided by Omnisend.
+
+Resources
+Privacy policy
+FAQ
+Developer
+Omnisend
+Website
+
+Verkiu 25C, Vilnius, 08223, LT
+
+Launched
+
+March 10, 2014
+
+Featured in
+Build a business
+Get the apps you need to get your brand new business off the ground.
+Scale your email marketing
+Capture more customers with effective emails.
+More apps like this
+Shopify Messaging
+4.8
+out of 5 stars
+(4,906)
+4906 total reviews
+•
+Free to install
+Email, SMS, and WhatsApp marketing made for commerce
+Klaviyo: Email Marketing & SMS
+4.7
+out of 5 stars
+(3,464)
+3464 total reviews
+•
+Free to install
+Email marketing, SMS, & WhatsApp that turn messages into sales
+Mailchimp Email SMS Marketing
+4.8
+out of 5 stars
+(1,599)
+1599 total reviews
+•
+Free plan available
+Drive sales with email marketing, SMS, forms, and automation
+Want to add an app?
+Try Shopify free for 3 days
+App categories
+Sales channels
+Finding products
+Selling products
+Orders and shipping
+Store design
+Marketing and conversion
+Store management
+Top categories
+Dropshipping
+Marketplaces
+Product reviews
+Upsell and bundles
+Email marketing
+SEO
+Shipping
+Currency and translation
+Resources
+Shopify Help Center
+API documentation
+Shopify Community
+Community Events
+Shopify Blog
+Research
+Shopify
+About
+Careers
+Investors
+Press and media
+Partners
+Affiliates
+Legal
+Service status
+Developer login
+Terms of service
+Privacy policy
+Sitemap
+Your privacy choices
+Čeština
+Dansk
+Deutsch
+English
+Español
+Français
+Hrvatski
+Indonesia
+Italiano
+Lietuvių
+Magyar
+Melayu
+Nederlands
+Norsk (bokmål)
+Polski
+Português (Brasil)
+Português (Portugal)
+Română
+Slovenčina
+Slovenščina
+Suomi
+Svenska
+Tiếng Việt
+Türkçe
+Ελληνικά
+Български
+Русский
+עברית
+اردو
+العربية
+हिन्दी
+ภาษาไทย
+日本語
+简体中文
+繁體中文
+한국어
+Log in to your Shopify store
+Store URL
+
+Don’t have a store yet? Sign up
+
+Log in
+Developer login

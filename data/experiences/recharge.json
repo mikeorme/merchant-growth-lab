@@ -1,0 +1,1781 @@
+{
+  "id": "recharge",
+  "name": "Recharge",
+  "category": "subscription-commerce",
+  "url": "https://rechargepayments.com",
+  "flow": "site survey",
+  "capturedAt": "2026-11-22",
+  "rubricVersion": "1.2.0",
+  "status": "evaluated",
+  "blockedReason": "capture error: popups is not defined",
+  "surveyMode": "full",
+  "signupEnd": {
+    "state": "account-form",
+    "url": "https://getrecharge.com/forms/starter/",
+    "clicks": 1,
+    "from": "pricing",
+    "fields": [
+      {
+        "type": "text",
+        "label": "First name*"
+      },
+      {
+        "type": "text",
+        "label": "Last name*"
+      },
+      {
+        "type": "email",
+        "label": "Email address*"
+      },
+      {
+        "type": "text",
+        "label": "Store URL*"
+      },
+      {
+        "type": "text",
+        "label": "What’s your projected revenue over the n"
+      },
+      {
+        "type": "text",
+        "label": "What vertical do you sell in?*"
+      },
+      {
+        "type": "text",
+        "label": "How did you hear about Recharge?*"
+      }
+    ],
+    "alternatives": [],
+    "submit": [
+      "SUBMIT"
+    ],
+    "consent": [],
+    "pageHeightPx": 1357,
+    "passwordAsked": false
+  },
+  "steps": [
+    {
+      "n": 1,
+      "kind": "home",
+      "title": "Recharge: The world’s leading subscription platform",
+      "url": "https://getrecharge.com/",
+      "screenshot": "shots/recharge/step-1.webp",
+      "textFile": "data/captures/recharge/page-1.txt",
+      "elapsedMs": 6441,
+      "clicks": 0,
+      "via": "entry",
+      "headings": [
+        "h1: The world’s leading subscription platform",
+        "h2: We’re relentless in pushing our product forward",
+        "h2: Built on three unshakeable pillars",
+        "h2: Guidance at every step",
+        "h2: Easily start, scale, and manage your subscription business",
+        "h3: Subscriptions",
+        "h3: Loyalty",
+        "h3: Support",
+        "h2: Make more money on Recharge",
+        "h2: Engineered to give you control",
+        "h2: Made for Shopify",
+        "h2: Backed by an ecosystem",
+        "h2: Powering the leading brands in every vertical",
+        "h2: Partner with the best"
+      ],
+      "ctas": [
+        "BOOK A DEMO",
+        "TALK TO US",
+        "Explore the docs",
+        "Contact",
+        "Facebook"
+      ],
+      "prices": [
+        "e world’s leading subscription platform Powering 71% of subscriptions sold on Shopify stores. TALK TO",
+        "support help you hit every goal with confidence. $1B+ $1B+ Processed per month 94%+ 95%+ Custome",
+        "t help you hit every goal with confidence. $1B+ $1B+ Processed per month 94%+ 95%+ Customer sati",
+        "ith confidence. $1B+ $1B+ Processed per month 94%+ 95%+ Customer satisfaction RELENTLESS PRODUCT",
+        "nfidence. $1B+ $1B+ Processed per month 94%+ 95%+ Customer satisfaction RELENTLESS PRODUCT INNOV",
+        "Recharge helps you focus on what drives results. 10% 11% Higher subscriber conversion 3x 3x Incre",
+        "rge helps you focus on what drives results. 10% 11% Higher subscriber conversion 3x 3x Increase i",
+        "ption vision. Explore the docs Made for Shopify $42B in GMV and counting. The most innovative Shopify"
+      ],
+      "description": "The world’s leading subscription platform, powering 71% of subscriptions sold on Shopify stores and helping brands grow recurring revenue.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "p22-mackinac-pro",
+            "body": "p22-mackinac-pro",
+            "distinct": [
+              "p22-mackinac-pro",
+              "inter-variable",
+              "space-mono"
+            ]
+          },
+          "h1Px": 80,
+          "bodyPx": 18,
+          "bodyLineHeight": "17.92px",
+          "backgrounds": [
+            "#000000",
+            "#fcfaf9",
+            "#f7f3f0",
+            "#131313"
+          ],
+          "accents": [
+            "#0129f1"
+          ],
+          "textColor": "#ffffff",
+          "buttonRadius": "9999px",
+          "buttonHeightPx": 48,
+          "images": 224,
+          "videos": 33,
+          "svgs": 6,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 10353,
+          "domNodes": 1441,
+          "domContentLoadedMs": 912,
+          "loadMs": 5997
+        },
+        "merch": {
+          "planCards": 2,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 72
+        }
+      },
+      "mobileScreenshot": "shots/recharge/step-1-mobile.webp"
+    },
+    {
+      "n": 2,
+      "kind": "pricing",
+      "title": "Subscription pricing plans for every stage of growth | Recharge",
+      "url": "https://getrecharge.com/pricing/",
+      "screenshot": "shots/recharge/step-2.webp",
+      "textFile": "data/captures/recharge/page-2.txt",
+      "elapsedMs": 12400,
+      "clicks": 0,
+      "via": "nav: Pricing",
+      "headings": [
+        "h1: Scalable rates for every stage of growth"
+      ],
+      "ctas": [
+        "BOOK A DEMO",
+        "TRY FOR FREE",
+        "TALK TO US",
+        "CONTACT US"
+      ],
+      "prices": [
+        "ging brands launching their subscription program $149/mo TRY FOR FREE MOST POPULAR Scale For scaling br",
+        "ds ready to optimize their subscription strategy $499/mo TALK TO US Custom For high-volume subscription",
+        "ume-based rates CONTACT US Processing fees at: 1.50% + 20¢ per transaction What’s inside Subscription-firs",
+        "ture churn. Failed Payment Recovery Recover up to 88% of failed payments with AI-powered retries and sm",
+        "against industry benchmarks Processing fees at: 1.25% + 20¢ per transaction, with scalable transaction rates",
+        "ssly integrating Recharge into your storefront *+$0.03 US & Canada / + $0.06 International per message s",
+        "rge into your storefront *+$0.03 US & Canada / + $0.06 International per message segment Custom impleme",
+        "y text—skip, delay, ship sooner, or add products $0.03 US / $0.06 International per message $0.03 US /",
+        ", delay, ship sooner, or add products $0.03 US / $0.06 International per message $0.03 US / $0.06 Inter",
+        "ucts $0.03 US / $0.06 International per message $0.03 US / $0.06 International per message Upcoming or",
+        "US / $0.06 International per message $0.03 US / $0.06 International per message Upcoming order email D"
+      ],
+      "description": "Explore Recharge pricing plans designed to support ecommerce brands at every stage, with flexible features for scaling subscription growth.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "p22-mackinac-pro",
+            "body": "p22-mackinac-pro",
+            "distinct": [
+              "inter-variable",
+              "space-mono",
+              "p22-mackinac-pro"
+            ]
+          },
+          "h1Px": 64,
+          "bodyPx": 16,
+          "bodyLineHeight": "60px",
+          "backgrounds": [
+            "#000000",
+            "#fcfaf9",
+            "#f7f3f0",
+            "#ffffff"
+          ],
+          "accents": [
+            "#0129f1"
+          ],
+          "textColor": "#000000",
+          "buttonRadius": "9999px",
+          "buttonHeightPx": 48,
+          "images": 138,
+          "videos": 0,
+          "svgs": 6,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 5059,
+          "domNodes": 1679,
+          "domContentLoadedMs": 142,
+          "loadMs": 507
+        },
+        "merch": {
+          "planCards": 2,
+          "priceElements": 2,
+          "badges": [
+            "MOST POPULAR"
+          ],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [
+            "Reward larger orders automatically with discounts that grow as subscribers buy more, lifting AOV without manual work",
+            "Native integration with Shopify discounts, tax, and shipping"
+          ],
+          "links": 65
+        }
+      },
+      "mobileScreenshot": "shots/recharge/step-2-mobile.webp"
+    },
+    {
+      "n": 3,
+      "kind": "product",
+      "title": "Subscription platform for Shopify brands | Recharge",
+      "url": "https://getrecharge.com/subscriptions/",
+      "screenshot": "shots/recharge/step-3.webp",
+      "textFile": "data/captures/recharge/page-3.txt",
+      "elapsedMs": 18688,
+      "clicks": 0,
+      "via": "nav: Subscriptions",
+      "headings": [
+        "h1: The world’s leading subscription platform",
+        "h2: The #1 most trusted subscription platform",
+        "h2: Subscriptions that work for your unique brand"
+      ],
+      "ctas": [
+        "BOOK A DEMO",
+        "TALK TO US"
+      ],
+      "prices": [
+        "20K 20K brands served 100M 100M subscribers $30B+ $30B+ processed Recharge as a tool definitel",
+        "K brands served 100M 100M subscribers $30B+ $30B+ processed Recharge as a tool definitely helps"
+      ],
+      "description": "Recharge subscriptions help ecommerce brands launch, manage, and scale recurring revenue with flexible tools built for growth and retention.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "p22-mackinac-pro",
+            "body": "inter-variable",
+            "distinct": [
+              "inter-variable",
+              "space-mono",
+              "p22-mackinac-pro"
+            ]
+          },
+          "h1Px": 64,
+          "bodyPx": 18,
+          "bodyLineHeight": "30px",
+          "backgrounds": [
+            "#f7f3f0",
+            "#000000",
+            "#ffffff",
+            "#fcfaf9"
+          ],
+          "accents": [
+            "#0129f1"
+          ],
+          "textColor": "#ffffff",
+          "buttonRadius": "9999px",
+          "buttonHeightPx": 48,
+          "images": 38,
+          "videos": 0,
+          "svgs": 6,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 9253,
+          "domNodes": 1025,
+          "domContentLoadedMs": 110,
+          "loadMs": 498
+        },
+        "merch": {
+          "planCards": 2,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [
+            "Promote subscriptions with exclusive deals and discounts."
+          ],
+          "links": 68
+        }
+      }
+    },
+    {
+      "n": 4,
+      "kind": "platform",
+      "title": "Introduction (V2) · Recharge API",
+      "url": "https://developer.rechargepayments.com/v2",
+      "screenshot": "shots/recharge/step-4.webp",
+      "textFile": "data/captures/recharge/page-4.txt",
+      "elapsedMs": 22735,
+      "clicks": 0,
+      "via": "nav: API",
+      "headings": [
+        "h1: The Recharge API reference",
+        "h2: Start with the fundamentals",
+        "h2: Core Resources",
+        "h2: Webhooks",
+        "h2: Async Batch",
+        "h2: Admin Resources",
+        "h2: API and Platforms compatibility"
+      ],
+      "ctas": [],
+      "prices": [],
+      "description": "Reference documentation for the Recharge API: resources, endpoints, attributes, webhooks and code samples.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Fraunces",
+            "body": "Inter",
+            "distinct": [
+              "Inter",
+              "Space Mono",
+              "Fraunces"
+            ]
+          },
+          "h1Px": 68,
+          "bodyPx": 16,
+          "bodyLineHeight": "28px",
+          "backgrounds": [
+            "#fcfaf9",
+            "#ffffff",
+            "#f7f3f0",
+            "#0c0d13"
+          ],
+          "accents": [
+            "#0129f1"
+          ],
+          "textColor": "#4d4a47",
+          "buttonRadius": "18px",
+          "buttonHeightPx": 168,
+          "images": 0,
+          "videos": 0,
+          "svgs": 7,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 4808,
+          "domNodes": 679,
+          "domContentLoadedMs": 419,
+          "loadMs": 516
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [
+            "NEW"
+          ],
+          "billingToggles": [],
+          "tables": 1,
+          "promos": [
+            "Discounts can be applied to a Checkout , or can be applied directly to an Address . Depending on configuration they allow for…"
+          ],
+          "links": 93
+        }
+      }
+    },
+    {
+      "n": 5,
+      "kind": "solutions",
+      "title": "Enterprise subscription platform | Recharge",
+      "url": "https://getrecharge.com/enterprise/",
+      "screenshot": "shots/recharge/step-5.webp",
+      "textFile": "data/captures/recharge/page-5.txt",
+      "elapsedMs": 27468,
+      "clicks": 0,
+      "via": "nav: For enterprise",
+      "headings": [
+        "h1: Subscriptions for enterprise",
+        "h2: Launch & scale rapidly",
+        "h2: Easy to migrate, easy to launch"
+      ],
+      "ctas": [
+        "BOOK A DEMO",
+        "TALK TO US"
+      ],
+      "prices": [
+        "ubscription platform designed for brands managing $100M to $1B+ in annual revenue, across DTC, retail, a",
+        "on platform designed for brands managing $100M to $1B+ in annual revenue, across DTC, retail, and omni"
+      ],
+      "description": "Explore how Recharge’s enterprise subscription solutions help ecommerce brands scale efficiently with secure, flexible capabilities.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "p22-mackinac-pro",
+            "body": "inter-variable",
+            "distinct": [
+              "inter-variable",
+              "space-mono",
+              "p22-mackinac-pro"
+            ]
+          },
+          "h1Px": 64,
+          "bodyPx": 18,
+          "bodyLineHeight": "30px",
+          "backgrounds": [
+            "#000000",
+            "#fcfaf9",
+            "#f7f3f0",
+            "#1a1a1a"
+          ],
+          "accents": [
+            "#0129f1"
+          ],
+          "textColor": "#ffffff",
+          "buttonRadius": "9999px",
+          "buttonHeightPx": 48,
+          "images": 37,
+          "videos": 0,
+          "svgs": 6,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 9029,
+          "domNodes": 1084,
+          "domContentLoadedMs": 172,
+          "loadMs": 748
+        },
+        "merch": {
+          "planCards": 1,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 77
+        }
+      }
+    },
+    {
+      "n": 6,
+      "kind": "customers",
+      "title": "Recharge case studies | Subscription revenue growth in action",
+      "url": "https://getrecharge.com/case-studies/",
+      "screenshot": "shots/recharge/step-6.webp",
+      "textFile": "data/captures/recharge/page-6.txt",
+      "elapsedMs": 31235,
+      "clicks": 0,
+      "via": "nav: Case studies",
+      "headings": [
+        "h1: Our brands are changing the game",
+        "h2: Browse all"
+      ],
+      "ctas": [
+        "BOOK A DEMO"
+      ],
+      "prices": [
+        "How subscriptions became the backbone of Arrae’s $100M business FOOD & BEVERAGE ButcherBox migrates 400",
+        "ers Clear SAVE FOOD & BEVERAGE Cadence went from 30% to 75% subscription opt-in by betting on gifts ov",
+        "ar SAVE FOOD & BEVERAGE Cadence went from 30% to 75% subscription opt-in by betting on gifts over disc",
+        "ESS How Ancient + Brave built subscriptions into 90% of their DTC revenue HEALTH & WELLNESS VIVAZEN",
+        "How subscriptions became the backbone of Arrae’s $100M business FOOD & BEVERAGE ButcherBox migrates 4",
+        "ness days BEAUTY & PERSONAL CARE POV Beauty hit $1M in subscription sales by building for retention",
+        "replatform HOME GOODS Naked Paper recovers CAC 20% faster with Recharge’s Checkout Upsell Swap HEAL"
+      ],
+      "description": "Explore real-world case studies showing how leading brands grow recurring revenue and retention with Recharge’s subscription platform.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "p22-mackinac-pro",
+            "body": "inter-variable",
+            "distinct": [
+              "inter-variable",
+              "space-mono",
+              "p22-mackinac-pro"
+            ]
+          },
+          "h1Px": 56,
+          "bodyPx": 20,
+          "bodyLineHeight": "27px",
+          "backgrounds": [
+            "#fcfaf9",
+            "#000000",
+            "#ffffff",
+            "#0129f1"
+          ],
+          "accents": [
+            "#0129f1"
+          ],
+          "textColor": "#000000",
+          "buttonRadius": "9999px",
+          "buttonHeightPx": 48,
+          "images": 57,
+          "videos": 0,
+          "svgs": 6,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 3843,
+          "domNodes": 937,
+          "domContentLoadedMs": 134,
+          "loadMs": 481
+        },
+        "merch": {
+          "planCards": 1,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [
+            "Cadence went from 30% to 75% subscription opt-in by betting on gifts over discounts"
+          ],
+          "links": 72
+        }
+      }
+    },
+    {
+      "n": 7,
+      "kind": "company",
+      "title": "Why Recharge is the leading subscription platform",
+      "url": "https://getrecharge.com/why-recharge/",
+      "screenshot": "shots/recharge/step-7.webp",
+      "textFile": "data/captures/recharge/page-7.txt",
+      "elapsedMs": 35371,
+      "clicks": 0,
+      "via": "nav: Why Recharge",
+      "headings": [
+        "h1: Be the brand they can’t live without",
+        "h2: Don’t leave your subscription business to chance",
+        "h2: No more set-it-and-forget-it subscription strategies"
+      ],
+      "ctas": [
+        "BOOK A DEMO",
+        "TALK TO US"
+      ],
+      "prices": [],
+      "description": "Learn why leading ecommerce brands choose Recharge to power subscriptions, improve retention, and grow recurring revenue with confidence.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "p22-mackinac-pro",
+            "body": "inter-variable",
+            "distinct": [
+              "inter-variable",
+              "space-mono",
+              "p22-mackinac-pro"
+            ]
+          },
+          "h1Px": 64,
+          "bodyPx": 18,
+          "bodyLineHeight": "30px",
+          "backgrounds": [
+            "#000000",
+            "#fcfaf9",
+            "#f7f3f0",
+            "#ffffff"
+          ],
+          "accents": [
+            "#0129f1"
+          ],
+          "textColor": "#000000",
+          "buttonRadius": "9999px",
+          "buttonHeightPx": 48,
+          "images": 59,
+          "videos": 0,
+          "svgs": 6,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 6384,
+          "domNodes": 932,
+          "domContentLoadedMs": 117,
+          "loadMs": 390
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 70
+        }
+      }
+    },
+    {
+      "n": 8,
+      "kind": "resources",
+      "title": "Recharge - Changelog",
+      "url": "https://changelog.getrecharge.com/",
+      "screenshot": "shots/recharge/step-8.webp",
+      "textFile": "data/captures/recharge/page-8.txt",
+      "elapsedMs": 39364,
+      "clicks": 0,
+      "via": "nav: Changelog",
+      "headings": [
+        "h1: CHANGELOG",
+        "h2: LABELS",
+        "h1: Explore customer portal analytics and deeper cohort insights with Recharge MCP",
+        "h1: New Referrals custom extension available for Affinity",
+        "h1: Hide gift prices in the Affinity 2.0 customer portal",
+        "h1: Fixed-price bundles now fully support prepaid subscriptions",
+        "h1: Tiered discount offers now available in guest SDK sessions",
+        "h1: Target Cancellation Prevention offers with detailed subscription conditions",
+        "h1: Run multiple Rewards flows in your preferred order",
+        "h1: Customize the Subscription details page in Affinity 2.0",
+        "h1: Universal search now available in the merchant portal",
+        "h1: Export detailed Subscription Journey data",
+        "h1: Create Discounts with Remi",
+        "h1: Shopify’s new collections model is now supported",
+        "h3: Variant-level collection limitation",
+        "h1: Guided setup now available for spend-based Rewards programs",
+        "h1: Automatically manage loyalty credits after refunds",
+        "h1: Fixed amount discounts now available for subscription plans",
+        "h1: Customize the Accounts page with the Affinity 2.0 Page Builder",
+        "h1: Seamless authentication now available in Quick Actions 2.0",
+        "h1: Dynamic pricing progression now preserved in the customer portal",
+        "h1: Card Declined email for hard declines now available",
+        "h1: See Rewards discounts clearly across customer and merchant portals",
+        "h1: More control when disabling Win Back flows",
+        "h1: Customize the Subscriptions page with the Affinity 2.0 Page Builder",
+        "h1: Dynamic pricing now supported in the customer portal",
+        "h1: AI-powered auto-translate now available in the Affinity Portal Builder",
+        "h1: Meet Remi, a brand new way to get your questions answered",
+        "h1: Use saved addresses directly from the Next Order page for Affinity 2.0",
+        "h1: Subscription Journey Dashboard now in Open EAP",
+        "h1: Coming soon: Support for Shopify customer segment discounts",
+        "h3: What's changing?",
+        "h3: Is any action required?",
+        "h1: Custom extensions now available on all Affinity landing pages",
+        "h1: Bundle Widget 2.0 now supports URL prefills"
+      ],
+      "ctas": [],
+      "prices": [
+        "For example, ask Remi to create a discount for \"15% off the first order for new subscribers,\" and it",
+        "initial setup. Define spend milestones, such as $25, $50, or $100, choose the reward customers earn at",
+        "ial setup. Define spend milestones, such as $25, $50, or $100, choose the reward customers earn at each",
+        "p. Define spend milestones, such as $25, $50, or $100, choose the reward customers earn at each mileston",
+        "unt, you can offer straightforward discounts like $10 off every order. Fixed amount discounts now supp"
+      ],
+      "description": "What's New at Recharge?",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Public Sans",
+            "body": "Public Sans",
+            "distinct": [
+              "Public Sans",
+              "Arial"
+            ]
+          },
+          "h1Px": 16,
+          "bodyPx": 16,
+          "bodyLineHeight": "48px",
+          "backgrounds": [
+            "#ffffff",
+            "#eff8f6",
+            "#8263e3",
+            "#3901f1"
+          ],
+          "accents": [
+            "#3901f1"
+          ],
+          "textColor": "#4a4a4a",
+          "buttonRadius": null,
+          "buttonHeightPx": null,
+          "images": 2,
+          "videos": 0,
+          "svgs": 123,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 6589,
+          "domNodes": 1853,
+          "domContentLoadedMs": 444,
+          "loadMs": 503
+        },
+        "merch": {
+          "planCards": 1,
+          "priceElements": 0,
+          "badges": [
+            "NEW"
+          ],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [
+            "Tiered discount offers now available in guest SDK sessions",
+            "Show shoppers relevant tiered discounts and encourage larger purchases without requiring them to log in.",
+            "Read tiered discounts",
+            "Create Discounts with Remi",
+            "Save time configuring discounts by describing to Remi what you want in plain language. Available on all stores.",
+            "Creating discount codes"
+          ],
+          "links": 57
+        }
+      }
+    },
+    {
+      "n": 9,
+      "kind": "product",
+      "title": "SMS for subscriptions and customer retention | Recharge",
+      "url": "https://getrecharge.com/sms/",
+      "screenshot": "shots/recharge/step-9.webp",
+      "textFile": "data/captures/recharge/page-9.txt",
+      "elapsedMs": 43662,
+      "clicks": 0,
+      "via": "nav: Concierge SMS",
+      "headings": [
+        "h1: Seamless subscriptions with Concierge SMS",
+        "h2: AI at Recharge",
+        "h2: Modern subscriptions weren’t built for modern life—until now.",
+        "h2: Built on intelligence. Trained for real life."
+      ],
+      "ctas": [
+        "BOOK A DEMO",
+        "TALK TO US"
+      ],
+      "prices": [],
+      "description": "Concierge SMS helps ecommerce brands drive retention and revenue through personalized, compliant messaging across the customer lifecycle.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "p22-mackinac-pro",
+            "body": "p22-mackinac-pro",
+            "distinct": [
+              "inter-variable",
+              "space-mono",
+              "p22-mackinac-pro"
+            ]
+          },
+          "h1Px": 90,
+          "bodyPx": 16,
+          "bodyLineHeight": "27px",
+          "backgrounds": [
+            "#000000",
+            "#fcfaf9",
+            "#f7f3f0",
+            "#1a1a1a"
+          ],
+          "accents": [
+            "#0129f1"
+          ],
+          "textColor": "#ffffff",
+          "buttonRadius": "9999px",
+          "buttonHeightPx": 48,
+          "images": 32,
+          "videos": 5,
+          "svgs": 6,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 6832,
+          "domNodes": 902,
+          "domContentLoadedMs": 153,
+          "loadMs": 961
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 61
+        }
+      }
+    },
+    {
+      "n": 10,
+      "kind": "platform",
+      "title": "Understanding Recharge",
+      "url": "https://docs.getrecharge.com/docs/understanding-recharge",
+      "screenshot": "shots/recharge/step-10.webp",
+      "textFile": "data/captures/recharge/page-10.txt",
+      "elapsedMs": 47315,
+      "clicks": 0,
+      "via": "nav: Full documentation",
+      "headings": [
+        "h2: INTRODUCTION",
+        "h2: PARTNER RESOURCES",
+        "h2: CURATING THE BUNDLES EXPERIENCE",
+        "h2: CUSTOM CART ENHANCEMENTS",
+        "h2: CUSTOMIZING THE SUBSCRIPTION WIDGET",
+        "h2: BUILDING A CUSTOM INTEGRATION",
+        "h2: ENHANCING THE CUSTOMER EXPERIENCE",
+        "h2: LEVERAGING DISCOUNTS",
+        "h2: PRODUCTS AND SUBSCRIPTIONS",
+        "h2: USING THE RECHARGE API",
+        "h2: USING RECHARGE WITH BIGCOMMERCE",
+        "h1: Understanding Recharge",
+        "h2: What is Recharge?",
+        "h2: The Recharge Developer Docs",
+        "h2: Other resources",
+        "h3: Support documentation",
+        "h3: Changelogs",
+        "h2: Become a Recharge Agency Partner"
+      ],
+      "ctas": [
+        "Getting started with Bundles",
+        "Getting started with the Recharge API",
+        "Getting started with discounts",
+        "Getting Started with Recharge"
+      ],
+      "prices": [],
+      "description": "Recharge is the leading subscription payments solution providing you with an easy way to launch and scale your subscription business.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Fraunces",
+            "body": "Inter",
+            "distinct": [
+              "Inter",
+              "Twemoji Country Flags",
+              "Arial"
+            ]
+          },
+          "h1Px": 30,
+          "bodyPx": 16,
+          "bodyLineHeight": "24.8896px",
+          "backgrounds": [
+            "#ffffff",
+            "#4751bf",
+            "#384248",
+            "#000000"
+          ],
+          "accents": [
+            "#4751bf"
+          ],
+          "textColor": "#32343a",
+          "buttonRadius": null,
+          "buttonHeightPx": null,
+          "images": 3,
+          "videos": 0,
+          "svgs": 11,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 900,
+          "domNodes": 1057,
+          "domContentLoadedMs": 286,
+          "loadMs": 679
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [
+            "Offering discounts for bundles",
+            "Offering Tiered Discounts with a custom bundles widget",
+            "LEVERAGING DISCOUNTS",
+            "Getting started with discounts",
+            "Understanding discounts",
+            "Implementing commonly used discounts"
+          ],
+          "links": 162
+        }
+      }
+    },
+    {
+      "n": 11,
+      "kind": "product",
+      "title": "Customer portal for subscription management | Recharge",
+      "url": "https://getrecharge.com/subscriptions/customer-portal/",
+      "screenshot": "shots/recharge/step-11.webp",
+      "textFile": "data/captures/recharge/page-11.txt",
+      "elapsedMs": 52294,
+      "clicks": 0,
+      "via": "nav: Customer portal",
+      "headings": [
+        "h1: Our most advanced, intuitive customer portal",
+        "h2: Control for you, control for your subscribers",
+        "h2: All-in-one interface built for functionality",
+        "h2: Optimized for any device & any location"
+      ],
+      "ctas": [
+        "BOOK A DEMO",
+        "TALK TO US"
+      ],
+      "prices": [],
+      "description": "Recharge’s customer portal lets subscribers manage orders, update preferences, and control subscriptions with a seamless, branded experience.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "p22-mackinac-pro",
+            "body": "inter-variable",
+            "distinct": [
+              "inter-variable",
+              "space-mono",
+              "p22-mackinac-pro"
+            ]
+          },
+          "h1Px": 64,
+          "bodyPx": 16,
+          "bodyLineHeight": "30px",
+          "backgrounds": [
+            "#000000",
+            "#fcfaf9",
+            "#f7f3f0",
+            "#ffffff"
+          ],
+          "accents": [
+            "#0129f1"
+          ],
+          "textColor": "#ffffff",
+          "buttonRadius": "9999px",
+          "buttonHeightPx": 48,
+          "images": 54,
+          "videos": 1,
+          "svgs": 6,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 4924,
+          "domNodes": 913,
+          "domContentLoadedMs": 155,
+          "loadMs": 563
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 64
+        }
+      }
+    },
+    {
+      "n": 12,
+      "kind": "product",
+      "title": "Subscription churn prevention for Shopify brands | Recharge",
+      "url": "https://getrecharge.com/subscriptions/churn-prevention/",
+      "screenshot": "shots/recharge/step-12.webp",
+      "textFile": "data/captures/recharge/page-12.txt",
+      "elapsedMs": 56812,
+      "clicks": 0,
+      "via": "nav: Churn prevention",
+      "headings": [
+        "h1: You’ve earned your subscribers. Now hold on to them",
+        "h2: Good things don’t have to end"
+      ],
+      "ctas": [
+        "BOOK A DEMO",
+        "TALK TO US"
+      ],
+      "prices": [
+        "ding. Engage, incentivize, and save subscribers. 64% 65% more cancellations saved 87% 88% of fail",
+        "Engage, incentivize, and save subscribers. 64% 65% more cancellations saved 87% 88% of failed tr",
+        "subscribers. 64% 65% more cancellations saved 87% 88% of failed transactions recovered 43% 44%",
+        "ribers. 64% 65% more cancellations saved 87% 88% of failed transactions recovered 43% 44% chur",
+        "aved 87% 88% of failed transactions recovered 43% 44% churn reduction I genuinely think having a",
+        "87% 88% of failed transactions recovered 43% 44% churn reduction I genuinely think having all of"
+      ],
+      "description": "Recharge churn prevention tools help ecommerce brands reduce cancellations, retain subscribers, and protect recurring revenue.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "p22-mackinac-pro",
+            "body": "inter-variable",
+            "distinct": [
+              "inter-variable",
+              "space-mono",
+              "p22-mackinac-pro"
+            ]
+          },
+          "h1Px": 64,
+          "bodyPx": 20,
+          "bodyLineHeight": "30px",
+          "backgrounds": [
+            "#000000",
+            "#fcfaf9",
+            "#f7f3f0",
+            "#ffffff"
+          ],
+          "accents": [
+            "#0129f1"
+          ],
+          "textColor": "#ffffff",
+          "buttonRadius": "9999px",
+          "buttonHeightPx": 48,
+          "images": 37,
+          "videos": 0,
+          "svgs": 6,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 6573,
+          "domNodes": 982,
+          "domContentLoadedMs": 146,
+          "loadMs": 591
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 68
+        }
+      }
+    },
+    {
+      "n": 13,
+      "kind": "signup",
+      "title": "Starter | Recharge",
+      "url": "https://getrecharge.com/forms/starter/",
+      "screenshot": "shots/recharge/step-13.webp",
+      "textFile": "data/captures/recharge/page-13.txt",
+      "elapsedMs": 4048,
+      "clicks": 1,
+      "via": "click: \"TRY FOR FREE\"",
+      "headings": [
+        "h1: Making retention better for everyone",
+        "h2: Why choose Recharge?"
+      ],
+      "ctas": [],
+      "prices": [],
+      "description": "Making retention better for everyone Join the thousands of fast‑growing brands using Recharge to set-up, manage, and grow their subscription revenue. Why choose Recharge? A partner, not just a platform – Hands-on support to manage and scale your subscription business. Relentless innovation – Stay ah",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "p22-mackinac-pro",
+            "body": "inter-variable",
+            "distinct": [
+              "inter-variable",
+              "p22-mackinac-pro",
+              "space-mono"
+            ]
+          },
+          "h1Px": 48,
+          "bodyPx": 18,
+          "bodyLineHeight": "27px",
+          "backgrounds": [
+            "#fcfaf9",
+            "#ffffff",
+            "#000000",
+            "#0129f1"
+          ],
+          "accents": [
+            "#0129f1"
+          ],
+          "textColor": "#000000",
+          "buttonRadius": null,
+          "buttonHeightPx": null,
+          "images": 5,
+          "videos": 0,
+          "svgs": 6,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 1357,
+          "domNodes": 476,
+          "domContentLoadedMs": 197,
+          "loadMs": 875
+        },
+        "merch": {
+          "planCards": 1,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 2
+        }
+      },
+      "form": {
+        "fields": [
+          {
+            "type": "text",
+            "label": "First name*"
+          },
+          {
+            "type": "text",
+            "label": "Last name*"
+          },
+          {
+            "type": "email",
+            "label": "Email address*"
+          },
+          {
+            "type": "text",
+            "label": "Store URL*"
+          },
+          {
+            "type": "text",
+            "label": "What’s your projected revenue over the n"
+          },
+          {
+            "type": "text",
+            "label": "What vertical do you sell in?*"
+          },
+          {
+            "type": "text",
+            "label": "How did you hear about Recharge?*"
+          }
+        ],
+        "alternatives": [],
+        "submit": [
+          "SUBMIT"
+        ],
+        "consent": [],
+        "pageHeightPx": 1357,
+        "passwordAsked": false
+      },
+      "note": "Stopped here: the page asks for an email or password. Nothing is typed."
+    }
+  ],
+  "navMap": [
+    {
+      "label": "Subscriptions",
+      "href": "https://getrecharge.com/subscriptions/",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Customer portal",
+      "href": "https://getrecharge.com/subscriptions/customer-portal/",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Churn prevention",
+      "href": "https://getrecharge.com/subscriptions/churn-prevention/",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Upsell & Cross-sell",
+      "href": "https://getrecharge.com/subscriptions/upsell-and-cross-sell/",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Bundles",
+      "href": "https://getrecharge.com/subscriptions/bundles/",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Analytics",
+      "href": "https://getrecharge.com/subscriptions/analytics/",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Loyalty",
+      "href": "https://getrecharge.com/",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Rewards",
+      "href": "https://getrecharge.com/rewards/",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Referrals",
+      "href": "https://getrecharge.com/referrals/",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Concierge SMS",
+      "href": "https://getrecharge.com/sms/",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Integrations",
+      "href": "https://getrecharge.com/integrations/",
+      "area": "header",
+      "kind": "platform"
+    },
+    {
+      "label": "Health & Wellness",
+      "href": "https://getrecharge.com/verticals/health-and-wellness/",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Beauty & Personal Care",
+      "href": "https://getrecharge.com/verticals/beauty-and-personal-care/",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Food & Beverage",
+      "href": "https://getrecharge.com/verticals/food-and-beverage/",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Pets",
+      "href": "https://getrecharge.com/verticals/pets/",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Home Goods",
+      "href": "https://getrecharge.com/verticals/home-goods/",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Meal Kits",
+      "href": "https://getrecharge.com/verticals/meal-kits/",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Digital Subscriptions",
+      "href": "https://getrecharge.com/verticals/digital-subscriptions/",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Direct Selling",
+      "href": "https://getrecharge.com/verticals/direct-selling/",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "All verticals",
+      "href": "https://getrecharge.com/verticals/",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Pricing",
+      "href": "https://getrecharge.com/pricing/",
+      "area": "header",
+      "kind": "pricing"
+    },
+    {
+      "label": "Case studies",
+      "href": "https://getrecharge.com/case-studies/",
+      "area": "header",
+      "kind": "customers"
+    },
+    {
+      "label": "Blog",
+      "href": "https://getrecharge.com/blog/",
+      "area": "header",
+      "kind": "resources"
+    },
+    {
+      "label": "Events",
+      "href": "https://getrecharge.com/events/",
+      "area": "header",
+      "kind": "resources"
+    },
+    {
+      "label": "Partnerships",
+      "href": "https://getrecharge.com/partnerships/",
+      "area": "header",
+      "kind": "platform"
+    },
+    {
+      "label": "Changelog",
+      "href": "https://changelog.getrecharge.com/",
+      "area": "header",
+      "kind": "resources"
+    },
+    {
+      "label": "Subscription Trend Report 2026",
+      "href": "https://getrecharge.com/reports/subscription-trend-report-2026/",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Help Center",
+      "href": "https://support.getrecharge.com/hc/en-us",
+      "area": "header",
+      "kind": "resources"
+    },
+    {
+      "label": "API",
+      "href": "https://developer.getrecharge.com/2021-11",
+      "area": "header",
+      "kind": "platform"
+    },
+    {
+      "label": "Developer Hub",
+      "href": "https://getrecharge.com/developers/",
+      "area": "header",
+      "kind": "platform"
+    },
+    {
+      "label": "Full documentation",
+      "href": "https://docs.getrecharge.com/docs",
+      "area": "header",
+      "kind": "platform"
+    },
+    {
+      "label": "For enterprise",
+      "href": "https://getrecharge.com/enterprise/",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "JavaScript SDK",
+      "href": "https://storefront.getrecharge.com/client/docs/category/getting-started/",
+      "area": "header",
+      "kind": "platform"
+    },
+    {
+      "label": "Security & compliance",
+      "href": "https://getrecharge.com/trust-center/",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Shopify Hydrogen",
+      "href": "https://getrecharge.com/shopify-subscriptions/hydrogen/",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Book a demo",
+      "href": "https://getrecharge.com/forms/get-started/",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Why Recharge",
+      "href": "https://getrecharge.com/why-recharge/",
+      "area": "footer",
+      "kind": "company"
+    },
+    {
+      "label": "Shopify and Recharge",
+      "href": "https://getrecharge.com/shopify-subscriptions/",
+      "area": "footer",
+      "kind": "product"
+    },
+    {
+      "label": "Migrations",
+      "href": "https://getrecharge.com/migrations/",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Merchant HQ",
+      "href": "https://getrecharge.com/merchant-hq/",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Glossary",
+      "href": "https://getrecharge.com/glossary/",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "About",
+      "href": "https://getrecharge.com/about/",
+      "area": "footer",
+      "kind": "company"
+    },
+    {
+      "label": "Contact",
+      "href": "https://getrecharge.com/contact/",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "DPA",
+      "href": "https://getrecharge.com/dpa/",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Vulnerability reporting",
+      "href": "https://getrecharge.com/vulnerability-reporting/",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Find an agency",
+      "href": "https://getrecharge.com/find-an-agency/",
+      "area": "footer",
+      "kind": "other"
+    }
+  ],
+  "stack": {
+    "generator": "Site Kit by Google 1.192.0",
+    "scriptHosts": [
+      "www.googletagmanager.com",
+      "scripts.clarity.ms",
+      "www.clarity.ms",
+      "j.6sc.co",
+      "bat.bing.com",
+      "connect.facebook.net",
+      "cdn.vector.co",
+      "cdn.dreamdata.cloud",
+      "snap.licdn.com",
+      "www.redditstatic.com",
+      "js.hs-banner.com",
+      "js.hsadspixel.net",
+      "js.hs-analytics.net",
+      "cdn.claydar.com"
+    ],
+    "signals": [
+      "Google Tag Manager dataLayer"
+    ],
+    "server": "cloudflare",
+    "poweredBy": "WP Engine"
+  },
+  "sources": [
+    "https://rechargepayments.com"
+  ],
+  "dossier": {
+    "sections": [
+      {
+        "id": "positioning",
+        "title": "Positioning",
+        "summary": "Recharge positions itself as the leading subscription platform for Shopify brands, selling retention and revenue per subscriber rather than just recurring billing.",
+        "keyPoints": [
+          "Homepage: 'The world's leading subscription platform', powering 71% of subscriptions sold on Shopify stores.",
+          "The story is hands-on partnership plus relentless product pace: 104 major updates in the last year.",
+          "An enterprise page targets brands with $100M to $1B+ in annual revenue; the Why Recharge page speaks to selling buyer routines that last."
+        ]
+      },
+      {
+        "id": "offerings",
+        "title": "Products and offerings",
+        "summary": "A subscription layer on top of the storefront, plus retention, loyalty and messaging tools.",
+        "keyPoints": [],
+        "table": {
+          "columns": [
+            "Product",
+            "What it does"
+          ],
+          "rows": [
+            [
+              "Subscriptions",
+              "Subscription widget on the product page and recurring billing"
+            ],
+            [
+              "Customer portal",
+              "No-code Affinity portal where subscribers swap products, reschedule orders and change quantities"
+            ],
+            [
+              "Churn prevention",
+              "Cancellation-prevention journeys and failed-payment recovery"
+            ],
+            [
+              "Upsell and cross-sell, Bundles",
+              "Offers across the customer journey; fixed-price and customizable bundles"
+            ],
+            [
+              "Loyalty, Rewards, Referrals",
+              "Rewards flows run in a chosen order"
+            ],
+            [
+              "Concierge SMS",
+              "AI text conversations with subscribers"
+            ],
+            [
+              "Analytics",
+              "Metrics and industry benchmarks; an MCP server for asking questions in Claude or ChatGPT"
+            ]
+          ]
+        },
+        "gaps": [
+          "Digital subscriptions and Health and Wellness vertical pages were in the navigation but not opened."
+        ]
+      },
+      {
+        "id": "pricing",
+        "title": "Pricing",
+        "summary": "Two published plans and a custom lane, each with a transaction fee. Texting is billed per message.",
+        "keyPoints": [
+          "Starter is the self-serve plan and carries 'Try for free'; Scale is labelled most popular and is sales-led ('Talk to us').",
+          "Both plans take a processing fee per transaction that is lower on Scale.",
+          "Concierge SMS costs $0.03 per message in the US and $0.06 internationally.",
+          "Failed-payment recovery is advertised as recovering up to 88% of failed payments."
+        ],
+        "table": {
+          "columns": [
+            "Plan",
+            "Price",
+            "Processing fee",
+            "Adds"
+          ],
+          "rows": [
+            [
+              "Starter",
+              "$149 a month",
+              "1.50% + 20¢ per transaction",
+              "Product-page widget, customer portal, upsell tools, cancellation prevention, failed-payment recovery, win-back, analytics"
+            ],
+            [
+              "Scale (most popular)",
+              "$499 a month",
+              "1.25% + 20¢ per transaction",
+              "Everything in Starter plus hands-on implementation, migration support and customizable bundles"
+            ],
+            [
+              "Custom",
+              "Volume-based rates",
+              "Volume-based",
+              "For high-volume subscription brands"
+            ]
+          ]
+        },
+        "gaps": [
+          "Custom rates and the cost of add-ons beyond SMS were not shown."
+        ]
+      },
+      {
+        "id": "merchandising",
+        "title": "Merchandising",
+        "summary": "A simple good-better-best ladder where the free-trial lane is the cheaper plan and the sales-led plan is the one marked popular. Recharge also gives merchants the tools to raise order value.",
+        "keyPoints": [
+          "Scale carries a most-popular tag, which steers self-serve visitors up the ladder.",
+          "Processing fees fall as the plan rises, so heavier subscription volume rewards the higher tier.",
+          "For merchants: tiered discounts that grow as subscribers buy more, upsell and cross-sell touchpoints, bundles, win-back offers and targeted cancellation-prevention offers.",
+          "A customer portal lets subscribers swap products and change quantities, which the merchant can theme."
+        ]
+      },
+      {
+        "id": "platform",
+        "title": "Technical platform",
+        "summary": "A full developer surface: a versioned REST API with webhooks and batch operations, a JavaScript SDK, a developer hub, documentation for custom integrations and a public changelog.",
+        "keyPoints": [
+          "REST API with JSON, standard response codes, resources, webhooks and async batch; version v2 is selected with a request header.",
+          "Docs cover pre-built Shopify integrations and custom integrations, including custom cart enhancements and widget customization.",
+          "A public changelog lists weekly changes, including an MCP server for portal analytics inside Claude or ChatGPT."
+        ],
+        "gaps": [
+          "Rate limits and SLAs were not read."
+        ]
+      },
+      {
+        "id": "design",
+        "title": "Design",
+        "summary": "A warm editorial look: a serif display typeface, black and cream surfaces, a strong blue and playful stickers. The developer and changelog sites drift from it.",
+        "keyPoints": [
+          "Marketing and pricing use p22-mackinac-pro with an accent of #0129f1 and pill buttons (9999px corners).",
+          "The API reference uses a different serif (Fraunces) with 18px button corners; the changelog switches to Public Sans with a different blue (#3901f1).",
+          "Home opens on dark video with a centered serif headline; the pricing page puts three light cards on black, with the popular one tagged in lime.",
+          "The home page is 10,353px tall with a sticky header.",
+          "For merchants: the portal can be styled with the Shopify Theme Editor and customized themes."
+        ],
+        "gaps": [
+          "Dark and light modes were not assessed."
+        ]
+      },
+      {
+        "id": "company",
+        "title": "Company presentation",
+        "summary": "A confident category-leader story backed by scale numbers and named case studies, with a news-style changelog as proof of pace.",
+        "keyPoints": [
+          "Scale claims: 20K brands, 100M subscribers and $30B+ processed.",
+          "Case studies include ButcherBox migrating 400,000 subscribers in 76 business days and Arrae's $100M business.",
+          "The Why Recharge page frames the product as selling buyer routines that last rather than just products."
+        ],
+        "gaps": [
+          "No leadership or funding information in the surveyed pages."
+        ]
+      }
+    ]
+  },
+  "signupPath": "No self-serve button is on the homepage ('Talk to us', 'Book a demo'). From the pricing page, 'Try for free' on the Starter plan opens getrecharge.com/forms/starter, a request form with seven fields: first name, last name, email, store URL, projected revenue over the next 12 months, vertical, and how you heard about Recharge, plus 'I'm interested in migrating' and agency checkboxes. It is not an account form. Nothing was entered.",
+  "scores": {
+    "jtbd_fit": {
+      "score": 5,
+      "evidence": "Every page is about one job: running and growing subscriptions on Shopify.",
+      "step": 1
+    },
+    "capability_visible": {
+      "score": 4,
+      "evidence": "Product pages, a public API reference, docs and a customer-portal demo are all open; the admin is behind a form.",
+      "step": 11
+    },
+    "pricing_transparency": {
+      "score": 4,
+      "evidence": "Starter and Scale prices and fees are published; Custom and add-on costs are not.",
+      "step": 2
+    },
+    "product_breadth": {
+      "score": 4,
+      "evidence": "Portal, churn tools, bundles, loyalty and SMS are clear; some product names are internal.",
+      "step": 3
+    },
+    "platform_depth": {
+      "score": 5,
+      "evidence": "Versioned REST API with webhooks and batch, SDK, docs for custom integrations, changelog and an MCP server.",
+      "step": 4
+    },
+    "time_to_value": {
+      "score": null,
+      "evidence": "Capture stops before the product; first-value time was not observed.",
+      "step": null
+    },
+    "friction": {
+      "score": 2,
+      "evidence": "The free-trial button opens a form with seven fields including store URL and projected revenue.",
+      "step": 13
+    },
+    "trust": {
+      "score": 4,
+      "evidence": "71% share, 20K brands and named case studies.",
+      "step": 3
+    },
+    "mobile": {
+      "score": null,
+      "evidence": "Phone captures exist for home and pricing but were not assessed.",
+      "step": null
+    },
+    "states": {
+      "score": null,
+      "evidence": "No error or empty states reached.",
+      "step": null
+    },
+    "a11y_basics": {
+      "score": null,
+      "evidence": "Not tested.",
+      "step": null
+    },
+    "value_prop_clarity": {
+      "score": 4,
+      "evidence": "'The world's leading subscription platform' is clear to Shopify merchants.",
+      "step": 1
+    },
+    "proof_quality": {
+      "score": 3,
+      "evidence": "'World's leading' and '#1 most trusted' have no source on the page; case studies are specific.",
+      "step": 3
+    },
+    "persuasion_integrity": {
+      "score": 4,
+      "evidence": "No urgency tactics; plan tags are limited to 'most popular'.",
+      "step": 2
+    },
+    "cta_logic": {
+      "score": 3,
+      "evidence": "'Talk to us' and 'Book a demo' lead everywhere; the self-serve 'Try for free' appears only on the pricing page.",
+      "step": 2
+    },
+    "company_narrative": {
+      "score": 4,
+      "evidence": "Leader-in-subscriptions story repeats from homepage to Why Recharge to case studies.",
+      "step": 7
+    },
+    "offer_packaging": {
+      "score": 4,
+      "evidence": "Two plans with clear 'what's inside' lists; the custom lane is vague.",
+      "step": 2
+    },
+    "offer_architecture": {
+      "score": 4,
+      "evidence": "Free trial on the entry plan, a most-popular middle plan, fee decreases and a custom top lane.",
+      "step": 2
+    },
+    "merchant_merch_tools": {
+      "score": 5,
+      "evidence": "Tiered discounts, upsell and cross-sell, bundles, win-back offers, cancellation offers and a styleable portal.",
+      "step": 11
+    },
+    "visual_craft": {
+      "score": 4,
+      "evidence": "Warm, distinctive serif type and sticker graphics; the home hero is dark and low on product.",
+      "step": 1
+    },
+    "system_coherence": {
+      "score": 3,
+      "evidence": "Fonts, blues and button radii differ between marketing, API reference and changelog.",
+      "step": 4
+    },
+    "merchant_design_control": {
+      "score": 4,
+      "evidence": "The portal can be branded with the Shopify Theme Editor and customizable themes.",
+      "step": 11
+    }
+  },
+  "read": {
+    "summary": "A category-leader pitch for Shopify subscription brands: a clear two-plan price page, a very open developer platform and a merchandising toolset (bundles, tiered discounts, win-back offers) that goes beyond billing. The weak spot is the entry path: the free-trial button leads to a seven-field request form.",
+    "pros": [
+      "Plans, fees and what's inside are published for both self-serve tiers.",
+      "Developer docs, API reference, changelog and an MCP server are public.",
+      "Merchants get a broad set of retention and order-value tools.",
+      "Case studies carry specific numbers."
+    ],
+    "cons": [
+      "'Try for free' opens a long request form rather than a signup.",
+      "Most calls to action say 'Talk to us' or 'Book a demo'.",
+      "'World's leading' and '#1' claims have no source.",
+      "Fonts and blues differ between marketing, API reference and changelog."
+    ],
+    "howItSells": "Sells leadership and retention: a market-share number, big-brand case studies, and tools that keep subscribers. The ladder nudges toward the sales-led plan.",
+    "copy": [
+      "Publish processing fees next to each plan price.",
+      "Put a self-serve start on the homepage, not only on pricing.",
+      "Name the market-share basis next to the 71% claim."
+    ],
+    "avoid": [
+      "A free-trial button that opens a seven-field form.",
+      "Superlatives with no source."
+    ],
+    "tactics": [
+      "authority",
+      "social_proof",
+      "anchoring"
+    ],
+    "confidence": "medium",
+    "unknowns": [
+      "What the trial looks like after the form.",
+      "Custom plan pricing.",
+      "Mobile experience.",
+      "Digital subscriptions pages."
+    ],
+    "hypothesis": {
+      "statement": "Replacing the seven-field trial form with email only, then asking for store URL and revenue after signup, will raise trial starts.",
+      "metric": "Pricing-page trial-start rate",
+      "guardrail": "Lead quality and sales-accepted rate",
+      "decisionRule": "Ship if starts rise by a pre-agreed margin and sales acceptance holds over four weeks."
+    },
+    "subjects": {
+      "merchandising": {
+        "summary": "A ladder built to push self-serve visitors toward the sales-led plan, plus the broadest order-value toolset of the subscription sites in this queue.",
+        "pros": [
+          "Most-popular tag on the sales-led plan.",
+          "Fees fall with plan.",
+          "Rich order-value tools for merchants."
+        ],
+        "cons": [
+          "The self-serve plan hides the form until after the click.",
+          "Custom lane has no indication of rates."
+        ]
+      },
+      "design": {
+        "summary": "A warm, distinctive brand on the marketing site that loosens on the developer and changelog pages.",
+        "pros": [
+          "Distinctive serif type and sticker graphics give a recognisable brand.",
+          "Lime 'most popular' tag stands out on black."
+        ],
+        "cons": [
+          "Different fonts and button shapes across marketing, API reference and changelog.",
+          "The home hero shows little product."
+        ]
+      }
+    }
+  },
+  "claims": [
+    {
+      "text": "Powering 71% of subscriptions sold on Shopify stores.",
+      "verdict": "unsupported",
+      "step": 1,
+      "evidenceStep": null
+    },
+    {
+      "text": "The #1 most trusted subscription platform",
+      "verdict": "unsupported",
+      "step": 3,
+      "evidenceStep": null
+    },
+    {
+      "text": "104 major updates in the last year.",
+      "verdict": "plausible",
+      "step": 1,
+      "evidenceStep": 8
+    },
+    {
+      "text": "ButcherBox migrates 400,000 subscribers to Recharge in 76 business days",
+      "verdict": "plausible",
+      "step": 6,
+      "evidenceStep": null
+    }
+  ],
+  "focus": "get started path"
+}

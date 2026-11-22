@@ -1,0 +1,112 @@
+URL: https://sell.amazon.com/tools/selling-partner-appstore
+TITLE: Selling Partner Appstore | Sell on Amazon
+DESCRIPTION: Find Amazon-approved third-party selling apps to automate, manage, and grow your ecommerce business.
+
+Selling Partner Appstore
+Scale faster with apps
+Automate, manage, and grow your business with the support of Amazon-approved third-party apps. Apps are software solutions that connect with your selling account and help you streamline operations and business-critical tasks.
+
+New to Amazon?
+
+Sign up*
+
+ 
+
+Already selling on Amazon?
+
+Visit the Selling Partner Appstore
+
+ 
+
+On average, sellers see a 10% uplift in sales after adopting apps.1
+Find solutions in the Selling Partner Appstore
+Watch overview
+Shop with assurance
+We vet all apps and continuously monitor their data-privacy compliance and overall performance, ensuring the Selling Partner Appstore is stocked with trusted solutions.
+Find what you need
+Explore trending apps or personalized recommendations. Filter by category, supported programs and marketplaces, ratings, language, and more to find the best solutions for your business.
+Purchase with confidence
+Apps are built on secure, Amazon-provided data pipelines and are reviewed by verified users. Use their ratings to make informed purchasing decisions.
+Streamline operations
+Automate time-consuming tasks like product research, filling out tax forms, or building customized reports so you can focus more energy on meeting your goals.
+Synchronize efforts
+Use apps to sync your efforts when selling in multiple channels, or help multiple employees update product information simultaneously.
+Centralize notifications
+See notifications from participating apps in a single location in Seller Central. Stay on top of updates and ahead of issues without visiting multiple apps.
+"For us, apps are critical. One of the most important resources is the Selling Partner Appstore because you can go in there and find apps that meet your most important needs."
+Aishetu Fatima Dozie
+Founder
+Watch seller story
+"The apps within Amazon’s Selling Partner Appstore allow us to look at market trends, keyword optimization, advertising campaigns."
+Jack Pickering
+Business Development
+Watch seller story
+Tap into a store of possibilities
+The Selling Partner Appstore houses a growing catalog of more than 3,000 apps, all designed to help streamline tasks throughout the selling lifecycle. Some apps focus on singular solutions, such as automating pricing or listing new products, while others offer a full-service or all-in-one solution.
+On average, sellers who use apps experience 43% shorter time to get their first sale after listing.*
+App categories
+Product listing
+Research and source products to sell, create and manage listings, and automate competitive pricing.
+Inventory and shipping
+Automate order management, sync inventory levels across channels, and simplify fulfillment processes.
+Marketing
+Improve product visibility and potential sales, optimize your ad budget, and create promotions.
+Ecommerce management
+Integrate your business’s site with Amazon for faster listing and cross-channel synching, or find a full-service solution.
+Finances
+Get help with analytics, reporting, accounting, tax filing, payment reconciliation, disbursements, and securing financing.
+Customer engagement
+Improve response times to customer inquiries, offer great customer service, and get feedback and reviews from customers.
+Ready to get started?
+Step 1
+Visit the Appstore
+Sign up for a Professional selling account, or log in to Seller Central if you already have one. From the main menu in Seller Central, select Apps and Services, then Selling Partner Appstore.
+Step 2
+Discover solutions
+Search by keyword, filter by category, or browse by curated collections. Filter further by supported programs—such as Amazon Business, Fulfilment by Amazon (FBA), and Global Selling—languages , currency, reviews, and more.
+Step 3
+Evaluate your options
+Select an app to review more information on its detail page, including specific features, a “Who should use this?” recommendation, pricing, and more. Look for the “Notifications in Seller Central” badge to spot apps with this capability enabled.
+Step 4
+Get the app
+Select Visit Developer Website to go to the third-party’s site where you can purchase or download the app.
+Step 5
+Authorize the app
+From the app’s detail page, select Authorize Now to authorize the app to access your selling data.
+
+You can also authorize, re-authorize, disable authorization, or opt out of notifications in Manage Your Apps in Seller Central.
+Attention: Developers
+Build apps for sellers
+Over one million Amazon Sellers worldwide use apps built with Selling Partner APIs to automate their businesses. Join the growing community of developers using our API to power their Amazon applications.
+Learn more
+Frequently Asked Questions
+Do apps integrate with Seller Central?
+How much do apps cost?
+How does Amazon vet third-party apps?
+Where can I find support for a third-party app?
+How is the Selling Partner Appstore different from the Service Provider Network?
+How can I develop an app for myself or other Amazon sellers?
+Scale faster with apps
+Discover Amazon-approved third-party apps to automate, manage, and grow your business.
+
+New to Amazon?
+
+Sign up*
+
+ 
+
+Already selling on Amazon?
+
+Visit the Selling Partner Appstore
+
+ 
+
+*A Professional selling plan is $39.99 a month + selling fees. Learn more
+1Amazon internal data 2022
+Home
+Tools
+Selling Partner Appstore
+Over 11,000 US-based independent sellers grew their sales by more than 10X in 2025
+Terms of Service
+Privacy Policy
+© 2026, Amazon.com Services LLC.

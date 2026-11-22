@@ -1,0 +1,205 @@
+URL: https://www.yotpo.com/integrations/
+TITLE: Integrations & app market | Yotpo
+DESCRIPTION: Easily integrate Yotpo with the leading ecommerce apps and platforms to create seamless, engaging, and high-converting shopping experiences using rich customer data.
+
+New: Your loyalty, now on Google free listings
+Yotpo integrations
+
+Easily integrate Yotpo with the leading ecommerce apps and platforms to create seamless, engaging, and high-converting shopping experiences using rich customer data.
+
+Get a demo
+PRODUCT
+Loyalty & Referrals
+Reviews & UGC
+CATEGORY
+Ads
+BI & Analytics
+Social Platforms
+Data & Automation
+eCommerce Platform
+Email Marketing
+Gift Cards
+Help Desk & CRM
+In-store & POS
+Influencer Marketing
+Loyalty & Referrals
+Mobile App Builder
+Mobile Wallet Pass
+On-site Engagement
+On-site Chatbots
+Other
+Page Builder & PWA
+Payment & Checkout
+Personalization and Product Recs
+Privacy & Data Subject Requests
+Product Sampling
+Quiz & Gamification
+Retailers & Review Syndication
+Reviews & Visual UGC
+On-site Search
+Shipping & Returns
+SMS Marketing
+Subscription & Recurring Billing
+Sustainability & Donations
+WhatsApp & Social DMs
+Featured integrations
+REVIEWS & UGC
+Attentive
+
+Yotpo and Attentive’s integration, allows you to sync review & loyalty program data to your Attentive account. This enables you to segment your customers based on Yotpo data, and trigger sms and email communications to your customers.
+
+Learn more
+REVIEWS & UGC
+Omnisend
+
+Integrate Yotpo and Omnisend and leverage powerful reviews and loyalty data to create hyper-targeted and high-converting campaigns, across all the channels your customers use most.
+
+Learn more
+REVIEWS & UGC
+Gorgias
+
+Yotpo's integration with Gorgias enables support teams to address customer reviews and questions without ever having to leave Gorgias. Support agents can also manage customers’ loyalty plans directly from the admin.
+
+Learn more
+LOYALTY & REFERRALS
+Klaviyo Customer Hub
+
+The Yotpo Loyalty & Klaviyo Customer Hub integration brings loyalty directly into the customer experience, letting shoppers view points, rewards, and VIP status in one seamless destination. By surfacing loyalty value where customers already engage, brands can drive higher program participation, boost retention, and create a more connected, high-converting post-purchase journey.
+
+Learn more
+Explore all integrations
+NEW
+REVIEWS & UGC
+Brevo PushOwl
+
+Yotpo and Brevo PushOwl’s integration seamlessly feeds Yotpo review events and customer rating data into Brevo to automate post-purchase messaging. Brands can automatically trigger email and SMS review requests based on order delivery, follow up with rewards or support messages when reviews are submitted or edited, and build customer segments using average star ratings and total review counts.
+
+Learn more
+NEW
+LOYALTY & REFERRALS
+Brevo PushOwl
+
+Yotpo and Brevo PushOwl’s integration syncs real time loyalty events and program data directly into Brevo to power automated, highly personalized marketing workflows. Merchants can dynamically populate emails with customer level loyalty metrics like point balances and VIP tier statuses, trigger near real time messages when key events occur like tier upgrades or reward redemptions, and segment customer lists based on underlying loyalty data to refine targeting strategies.
+
+Learn more
+NEW
+LOYALTY & REFERRALS
+Teamwork Commerce
+
+Yotpo and Teamwork Commerce’s integration unifies your online and in-store loyalty strategies into a seamless omnichannel experience. Retailers using Teamwork Commerce POS can surface Yotpo loyalty details, including available rewards, points balances, and VIP status directly on the register. With live reward redemption and automatic point syncing for purchases and returns, merchants can effortlessly drive retention and increase lifetime customer value across all retail channels.
+
+Learn more
+NEW
+REVIEWS & UGC
+Try & Review
+
+Try & Review & Yotpo Reviews integration bridges targeted product sampling and post-purchase social proof. By connecting Try & Review’s global consumer trial network directly into Yotpo, merchants can quickly seed new product launches with high-quality, verified customer feedback, star ratings, and rich visual content.
+
+Learn more
+NEW
+LOYALTY & REFERRALS
+Mailchimp
+
+Yotpo & Mailchimp’s integration enables brands to enhance their email and SMS marketing strategies by syncing loyalty data with Mailchimp to trigger flows, create loyalty-based segments, and personalize communications.
+
+Learn more
+REVIEWS & UGC
+Dotdigital
+
+The Yotpo & Dotdigital Personalization integration automatically syncs Yotpo star ratings and review counts into Dotdigital’s AI-powered product recommendations across email and web pages. Combine authentic social proof with cross-channel personalization to deliver high-converting shopping experiences that boost merchant sales.
+
+Learn more
+REVIEWS & UGC
+Checkout Review
+
+The Yotpo & Checkout Review integration allows Shopify Plus merchants to display verified product reviews and star ratings directly within the native checkout. By surfacing high-impact social proof at the exact moment of purchase, brands can eliminate buyer hesitation and increase checkout conversion rates.
+
+Learn more
+LOYALTY & REFERRALS
+Postscript
+
+Yotpo and Postscript's integration, allows you to sync loyalty program data to your Postscript account. This enables you to build targeted segments based on loyalty insights, personalize and trigger timely sms communications to your customers.
+
+Learn more
+REVIEWS & UGC
+Checkout Plus
+
+The Yotpo & Checkout Plus integration transforms your Shopify checkout by surfacing dynamic star ratings and product reviews tailored directly to the items in a customer’s cart. By bringing powerful social proof to the final stage of the buyer's journey, this connection builds instant trust, optimizes checkout upsells, and drives higher conversion rates.
+
+Learn more
+REVIEWS & UGC
+Fuego
+
+Yotpo & Fuego’s Reviews integration displays star ratings and customer reviews natively on product detail pages inside your mobile app. Merchants can also display curated customer photos and videos, showcasing shoppable UGC galleries on home screens and product detail pages.
+
+Learn more
+LOYALTY & REFERRALS
+Fuego
+
+Yotpo & Fuego’s integration brings your full loyalty program natively into your mobile app. Customers can view their points balance, earn points by completing actions (purchases, downloading the app, referrals, social follows, account creation), and redeem rewards — all without leaving the app or loading a WebView.
+
+Learn more
+REVIEWS & UGC
+Zembula
+
+Zembula enables brands to easily design and customize emails without code. With a powerful visual designer, brands can add personalized data that dynamically updates with each unique email open.
+
+Learn more
+LOYALTY & REFERRALS
+Zembula Loyalty
+
+This powerful integration between Yotpo and Zembula enables brands to easily add dynamic content to emails without the restrictions of email HTML, no matter which email service provider they are on. The content Zembula powers within each email updates dynamically as the information changes within Yotpo, including recent reviews, visual UGC and loyalty status.
+
+Learn more
+REVIEWS & UGC
+Mailchimp
+
+Yotpo & Mailchimp’s integration enables brands to enhance their email and SMS marketing strategies by leveraging the power of reviews and social proof as well as valuable loyalty-based data.
+
+Learn more
+REVIEWS & UGC
+Dixa
+
+Yotpo & Dixa’s integration surfaces customer sentiment and review history directly within the help desk. By providing agents with real-time access to UGC and ratings data, teams can address feedback instantly, turn negative experiences around, and foster deeper brand trust.
+
+Learn more
+LOYALTY & REFERRALS
+Dixa
+
+The Dixa and Yotpo integration syncs loyalty points and VIP tiers into every ticket. Empower agents to reward customers and boost retention during support.
+
+Learn more
+LOYALTY & REFERRALS
+Optimizely (Zaius)
+
+The Optimizely & Yotpo integration provides brands with full access to loyalty and reviews data that can enhance the precision of customer predictions generated by Optimizely’ data science capability, making campaigns more personal and timely.
+
+Learn more
+LOYALTY & REFERRALS
+Gladly
+
+Yotpo and Gladly's integration empowers brands to turn support interactions into loyalty-building moments by bringing deep customer context directly into the Gladly platform. By syncing real-time Yotpo Loyalty data, support teams and AI agents gain a unified view of the customer’s value and history, ensuring every conversation is personalized and impactful.
+
+Learn more
+REVIEWS & UGC
+Gladly
+
+Yotpo and Gladly's integration for Reviews bridges the gap between customer feedback and live support. By surfacing review history and sentiment directly within the Gladly platform, brands can eliminate repetitive customer explanations and transform negative feedback into retention opportunities.
+
+Learn more
+REVIEWS & UGC
+Rep AI
+
+Yotpo and Rep AI's integration empowers your AI concierge to act as a high-converting sales associate by surfacing real-time social proof. When shoppers inquire about products, the AI instantly retrieves star ratings, total review counts, and highlights from top-rated 5-star reviews. By delivering these insights naturally within the chat, the integration builds immediate trust and provides the essential social proof needed to overcome purchase hesitation at the moment of intent.
+
+Learn more
+LOYALTY & REFERRALS
+Rep AI
+
+Yotpo and Rep AI's integration drives retention and higher LTV by personalizing every shopper interaction with real-time loyalty data. The AI concierge identifies customers to share their points balance and VIP tier status during the conversation. Whether it’s reminding a shopper of an expiring discount to prevent exit intent or celebrating their VIP status to increase brand affinity, this integration turns your loyalty program into a proactive revenue driver.
+
+Learn more
+REVIEWS & UGC
+DaitaFix
+
+Yotpo & DaitaFix’s integration allows brands to seamlessly sync customer reviews and sentiment data into a centralized AI engine. By layering DaitaFix’s advanced analytics over Yotpo’s social proof, businesses can identify hidden revenue opportunities,

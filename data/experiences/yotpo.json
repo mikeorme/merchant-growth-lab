@@ -1,0 +1,1894 @@
+{
+  "id": "yotpo",
+  "name": "Yotpo",
+  "category": "reviews-loyalty",
+  "url": "https://www.yotpo.com",
+  "flow": "site survey",
+  "capturedAt": "2026-11-22",
+  "rubricVersion": "1.2.0",
+  "status": "evaluated",
+  "blockedReason": "capture error: popups is not defined",
+  "surveyMode": "full",
+  "signupEnd": {
+    "state": "account-form",
+    "url": "https://accounts.yotpo.com/#/signup?product=reviews&plan=Reviews%20-%20Growth%2050&signup_utm_source=yotpoweb&signup_utm_campaign=pricing_page_2024&signup_utm_page=pricing",
+    "clicks": 1,
+    "from": "pricing",
+    "fields": [
+      {
+        "type": "text",
+        "label": "name"
+      },
+      {
+        "type": "email",
+        "label": "email"
+      },
+      {
+        "type": "password",
+        "label": "password"
+      }
+    ],
+    "alternatives": [],
+    "submit": [
+      "Continue"
+    ],
+    "consent": [
+      "Create your free account Continue Already have an account? Log in By signing up you agree to ourTerms of Service",
+      "Already have an account? Log in By signing up you agree to ourTerms of Service",
+      "By signing up you agree to ourTerms of Service"
+    ],
+    "pageHeightPx": 900,
+    "passwordAsked": true
+  },
+  "steps": [
+    {
+      "n": 1,
+      "kind": "home",
+      "title": "Yotpo: loyalty, reviews & AI visibility for ecommerce",
+      "url": "https://www.yotpo.com/",
+      "screenshot": "shots/yotpo/step-1.webp",
+      "textFile": "data/captures/yotpo/page-1.txt",
+      "elapsedMs": 5726,
+      "clicks": 0,
+      "via": "entry",
+      "headings": [
+        "h1: Your marketing solutions should work for you. Drive more revenue with best-in-class solutions for loyalty, reviews, and AI visibility.",
+        "h2: AI Visibility",
+        "h2: Reviews & UGC",
+        "h2: Loyalty & Referrals",
+        "h3: Don’t just take our word for it. Meet our brands.",
+        "h3: Marketing that actually moves the needle",
+        "h2: 180+ integrations to unify your martech",
+        "h2: Read the latest from Yotpo"
+      ],
+      "ctas": [
+        "Get a demo",
+        "Learn more",
+        "Contact us",
+        "Request a demo",
+        "Contact support"
+      ],
+      "prices": [
+        "Don’t just take our word for it. Meet our brands. 38% Increase in sales from repeat customers “Loyalt",
+        "entzen, Senior Associate at Brooklinen Read more 65% Increase in AOV per user “Loyalty offers a new",
+        "ounts, we communicate that they’ve already earned $20 off—highlighting rewards and creating a new way t",
+        "RM & Loyalty Read more +8X ROI from loyalty and 44% increase in AOV from loyalty members \"The perfor",
+        "Digital Director at Revolution Beauty Read more 112% Increase in AOV “Customer reviews are invaluabl",
+        "Kim Zorn, Global Performance Director Read more +56% Of all sales are from engaged shoppers who have"
+      ],
+      "description": "Drive ecommerce growth with Yotpo. Build loyalty programs, collect reviews, and boost AI visibility to get found, earn trust, and turn shoppers into advocates.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Inter",
+            "body": "Inter",
+            "distinct": [
+              "Inter",
+              "ivypresto-headline"
+            ]
+          },
+          "h1Px": 18,
+          "bodyPx": 14,
+          "bodyLineHeight": "18px",
+          "backgrounds": [
+            "#fffcf5",
+            "#ffffff",
+            "#fad2c4",
+            "#f9f3e4"
+          ],
+          "accents": [
+            "#0042e4"
+          ],
+          "textColor": "#313438",
+          "buttonRadius": "100px",
+          "buttonHeightPx": 40,
+          "images": 181,
+          "videos": 4,
+          "svgs": 43,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 6340,
+          "domNodes": 2056,
+          "domContentLoadedMs": 955,
+          "loadMs": 2714
+        },
+        "merch": {
+          "planCards": 1,
+          "priceElements": 0,
+          "badges": [
+            "NEW",
+            "New"
+          ],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 81
+        }
+      },
+      "mobileScreenshot": "shots/yotpo/step-1-mobile.webp"
+    },
+    {
+      "n": 2,
+      "kind": "pricing",
+      "title": "Pricing & plans | Yotpo",
+      "url": "https://www.yotpo.com/pricing/",
+      "screenshot": "shots/yotpo/step-2.webp",
+      "textFile": "data/captures/yotpo/page-2.txt",
+      "elapsedMs": 11687,
+      "clicks": 0,
+      "via": "nav: Pricing",
+      "headings": [
+        "h1: Flexible pricing to boost your growth",
+        "h3: Starter",
+        "h3: Premium",
+        "h3: Enterprise",
+        "h2: Start collecting and displaying Reviews & UGC today.",
+        "h3: How much does Yotpo cost?",
+        "h3: What products does Yotpo offer, and can I buy just one?",
+        "h3: How is Yotpo pricing calculated?",
+        "h3: Is there a free plan or a free trial?",
+        "h3: Do I need to talk to sales to get pricing?",
+        "h3: Can I bundle products to save money?",
+        "h2: We help brands grow by building trust and brand loyalty."
+      ],
+      "ctas": [
+        "Get a demo",
+        "Sign up",
+        "Contact us",
+        "Talk to us",
+        "Request a demo",
+        "Contact support"
+      ],
+      "prices": [
+        "to 50 monthly orders) and paid plans starting at $15/month; Loyalty & Referrals has a free plan with paid ti",
+        "rrals has a free plan with paid tiers starting at $199/month; Discover is custom-priced around your AI visibil"
+      ],
+      "description": "Compare Yotpo pricing for reviews, Loyalty & Referrals, Discover, and bundles. Transparent plans that scale with your monthly order volume. Book a demo.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "neue-haas-grotesk-display",
+            "body": "neue-haas-grotesk-text",
+            "distinct": [
+              "neue-haas-grotesk-text",
+              "neue-haas-grotesk-display"
+            ]
+          },
+          "h1Px": 62,
+          "bodyPx": 12,
+          "bodyLineHeight": "28px",
+          "backgrounds": [
+            "#e9e9e9",
+            "#ffffff",
+            "#000000",
+            "#2532b7"
+          ],
+          "accents": [],
+          "textColor": "#383838",
+          "buttonRadius": "100px",
+          "buttonHeightPx": 40,
+          "images": 68,
+          "videos": 0,
+          "svgs": 68,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 5673,
+          "domNodes": 3225,
+          "domContentLoadedMs": 148,
+          "loadMs": 212
+        },
+        "merch": {
+          "planCards": 2,
+          "priceElements": 2,
+          "badges": [
+            "Recommended"
+          ],
+          "billingToggles": [
+            "Monthly order volume"
+          ],
+          "tables": 12,
+          "promos": [
+            "Is there a free plan or a free trial?"
+          ],
+          "links": 75
+        }
+      },
+      "mobileScreenshot": "shots/yotpo/step-2-mobile.webp"
+    },
+    {
+      "n": 3,
+      "kind": "product",
+      "title": "Product releases hub | Yotpo",
+      "url": "https://www.yotpo.com/product-releases/",
+      "screenshot": "shots/yotpo/step-3.webp",
+      "textFile": "data/captures/yotpo/page-3.txt",
+      "elapsedMs": 17402,
+      "clicks": 0,
+      "via": "nav: Product releases",
+      "headings": [
+        "h2: What's new at Yotpo",
+        "h2: Featured updates",
+        "h2: Explore more of what's new",
+        "h2: All updates",
+        "h2: Don't miss out on revenue growth"
+      ],
+      "ctas": [
+        "Get a demo",
+        "Learn more",
+        "Contact us",
+        "Request a demo",
+        "Contact support"
+      ],
+      "prices": [
+        "ity of redemptoin opportunitiy at checkout. See a 108% improvement in loyalty participation rate. Learn",
+        "nsite via sticky bar. Increase redemption rate by 50%! Learn more REVIEWS & UGC TikTok Shop Seamlessl"
+      ],
+      "description": "Deep dive into new product features & updates built to take your retention strategy to the next level.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": null,
+            "body": "Inter",
+            "distinct": [
+              "Inter",
+              "ivypresto-headline"
+            ]
+          },
+          "h1Px": null,
+          "bodyPx": 14,
+          "bodyLineHeight": "20px",
+          "backgrounds": [
+            "#f9f3e4",
+            "#fffcf5",
+            "#c3ddff",
+            "#313438"
+          ],
+          "accents": [
+            "#0042e4"
+          ],
+          "textColor": "#f9f3e4",
+          "buttonRadius": "100px",
+          "buttonHeightPx": 40,
+          "images": 105,
+          "videos": 0,
+          "svgs": 89,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 5535,
+          "domNodes": 2968,
+          "domContentLoadedMs": 316,
+          "loadMs": 340
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [
+            "NEW",
+            "New"
+          ],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [
+            "Discount combinations",
+            "Let loyalty rewards combine with Shopify discounts at checkout, so shoppers can use their points even when a sale is running."
+          ],
+          "links": 121
+        }
+      }
+    },
+    {
+      "n": 4,
+      "kind": "platform",
+      "title": "API Changelog | Yotpo",
+      "url": "https://www.yotpo.com/api-changelog/",
+      "screenshot": "shots/yotpo/step-4.webp",
+      "textFile": "data/captures/yotpo/page-4.txt",
+      "elapsedMs": 21628,
+      "clicks": 0,
+      "via": "nav: API changelog",
+      "headings": [
+        "h1: API Changelog"
+      ],
+      "ctas": [
+        "Get a demo",
+        "Add contacts to List",
+        "Remove contacts from List",
+        "Explore more",
+        "Request a demo",
+        "Contact us",
+        "Contact support"
+      ],
+      "prices": [],
+      "description": "Keep track of changes and upgrades to the Yotpo API.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "graphie",
+            "body": "graphie",
+            "distinct": [
+              "Inter",
+              "graphie",
+              "Helvetica Neue"
+            ]
+          },
+          "h1Px": 64,
+          "bodyPx": 12,
+          "bodyLineHeight": "30px",
+          "backgrounds": [
+            "#ffffff",
+            "#eef3f6",
+            "#fffcf5",
+            "#0042e4"
+          ],
+          "accents": [
+            "#0042e4"
+          ],
+          "textColor": "#272850",
+          "buttonRadius": "100px",
+          "buttonHeightPx": 40,
+          "images": 52,
+          "videos": 0,
+          "svgs": 36,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 10823,
+          "domNodes": 1745,
+          "domContentLoadedMs": 257,
+          "loadMs": 347
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [
+            "NEW",
+            "New"
+          ],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 88
+        }
+      }
+    },
+    {
+      "n": 5,
+      "kind": "solutions",
+      "title": "Enterprise reviews and loyalty for ecommerce leaders | Yotpo",
+      "url": "https://www.yotpo.com/enterprise/",
+      "screenshot": "shots/yotpo/step-5.webp",
+      "textFile": "data/captures/yotpo/page-5.txt",
+      "elapsedMs": 25955,
+      "clicks": 0,
+      "via": "nav: Enterprise",
+      "headings": [
+        "h1: Enterprise solutions for ecommerce leaders",
+        "h3: Yotpo Discover",
+        "h3: Reviews & UGC",
+        "h3: Loyalty & Referrals",
+        "h2: Experience Yotpo enterprise",
+        "h2: Why enterprise brands choose Yotpo",
+        "h2: 180+ integrations across your stack",
+        "h2: Meet the brands",
+        "h3: G2 and capterra",
+        "h2: Things you might be asking yourself",
+        "h3: What makes Yotpo suitable for enterprise-scale operations?",
+        "h3: How does Yotpo ensure data privacy and compliance?",
+        "h3: What level of customer support is available for enterprise clients?",
+        "h3: Can Yotpo integrate with our existing tech stack?",
+        "h3: What is the typical onboarding timeline for enterprise clients?",
+        "h3: Does Yotpo support multi-brand or multi-region businesses?",
+        "h3: How does Yotpo handle data migration from existing systems?",
+        "h3: What type of analytics and reporting does Yotpo provide?",
+        "h3: How customizable is Yotpo for enterprise-specific workflows?",
+        "h3: How does Yotpo support innovation and future-proofing?",
+        "h2: Lead with Yotpo enterprise growth engine"
+      ],
+      "ctas": [
+        "Get a demo",
+        "Learn more",
+        "Contact us",
+        "Request a demo",
+        "Contact support"
+      ],
+      "prices": [
+        "ise brands choose Yotpo Enterprise infrastructure 99.9% uptime and multi-region architecture support high"
+      ],
+      "description": "Drive measurable growth with authenticated reviews and loyalty programs built for global scale, performance, and reliability.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "ivypresto-headline",
+            "body": "Inter",
+            "distinct": [
+              "Inter",
+              "ivypresto-headline"
+            ]
+          },
+          "h1Px": 60,
+          "bodyPx": 14,
+          "bodyLineHeight": "23px",
+          "backgrounds": [
+            "#313438",
+            "#fffcf5",
+            "#c3ddff",
+            "#f9f3e4"
+          ],
+          "accents": [],
+          "textColor": "#ffffff",
+          "buttonRadius": "42px",
+          "buttonHeightPx": 55,
+          "images": 185,
+          "videos": 0,
+          "svgs": 32,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 7006,
+          "domNodes": 1925,
+          "domContentLoadedMs": 229,
+          "loadMs": 698
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [
+            "NEW",
+            "New"
+          ],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 67
+        }
+      }
+    },
+    {
+      "n": 6,
+      "kind": "customers",
+      "title": "Loyalty & reviews case studies: real growth examples | Yotpo",
+      "url": "https://www.yotpo.com/case-studies/",
+      "screenshot": "shots/yotpo/step-6.webp",
+      "textFile": "data/captures/yotpo/page-6.txt",
+      "elapsedMs": 29953,
+      "clicks": 0,
+      "via": "nav: Case studies",
+      "headings": [
+        "h1: Real growth examples",
+        "h2: How brands turn customer experiences into sales",
+        "h2: Don't Miss Out On Revenue Growth"
+      ],
+      "ctas": [
+        "Get a demo",
+        "Explore more",
+        "Contact us",
+        "Request a demo",
+        "Contact support"
+      ],
+      "prices": [
+        "with Yotpo Explore more Loyalty redeemers spend 15% more, driving a 7.7x ROI for the brand's loyalty",
+        "ty program Explore more Loyalty redeemers spend 15% more, driving a 7.7x ROI for the brand's loyalty",
+        "ation ANZ EMEA FRANCE Global UK USA REVIEWS & UGC 90% Conversion on new products vs. last year 265% Uni",
+        "UGC 90% Conversion on new products vs. last year 265% Units sold in first 30 days vs. last year INDUSTR",
+        "duct CVR and units sold. Learn more REVIEWS & UGC 90% Samples resulted in customer reviews 85% Sampled",
+        "WS & UGC 90% Samples resulted in customer reviews 85% Sampled reviews included detailed feedback INDUST",
+        "LATFORM Shopify Dyper used Yotpo Sampling to turn 90% of samples into detailed reviews and UGC from rea",
+        "S & UGC 3 weeks from sampling campaign to reviews 100% CVR lift on sampled style vs. prior period INDUST",
+        "ify No Nonsense used Yotpo Sampling to turn about 65% of samples into reviews and close review gaps on",
+        "rn more LOYALTY & REFERRALS 550K+ loyalty members 75% repeat purchase rate for members INDUSTRY Health",
+        "embers with Yotpo. Learn more LOYALTY & REFERRALS 17% CVR on points expiration journey 103% CVR on poin",
+        "& REFERRALS 17% CVR on points expiration journey 103% CVR on points earned journey INDUSTRY Health & Be",
+        "ntive x Yotpo Learn more DISCOVER - AI VISIBILITY 36% Awareness-stage shopper visibility 38% Increase i",
+        "VISIBILITY 36% Awareness-stage shopper visibility 38% Increase in unbranded mention rate INDUSTRY Fashi",
+        "with discover Learn more DISCOVER - AI VISIBILITY 17% Awareness-stage shopper visibility 62% #1 product",
+        "VISIBILITY 17% Awareness-stage shopper visibility 62% #1 product placements in AI answers INDUSTRY Fash",
+        "e AI shelf with discover Learn more REVIEWS & UGC 155% More reviews vs. last year 3x Faster review colle",
+        "Shopify See how WeNatal grew their review volume +155% with in-mail requests after migrating to Yotpo Le",
+        "after migrating to Yotpo Learn more REVIEWS & UGC 100% AI visibility 69% boost in upsells INDUSTRY Fashi",
+        "Yotpo Learn more REVIEWS & UGC 100% AI visibility 69% boost in upsells INDUSTRY Fashion & Accessories L",
+        "w capture by 130x. Learn more LOYALTY & REFERRALS 21% Participation rate 2.5X Increase in loyalty sign",
+        "LS 4.5X Higher repeat purchase rate for redeemers 53% Higher avg revenue among redeemers INDUSTRY Healt",
+        "REFERRALS 206$ Higher annual spend for redeemers 36% Incremental revenue from loyalty INDUSTRY Health",
+        "hopify SuperFeast increased loyalty participation 41% & drove incremental revenue with a loyalty progra",
+        "sts customer spend Learn more LOYALTY & REFERRALS 42% More revenue from loyalty members 59% Repeat purc"
+      ],
+      "description": "Discover how top ecommerce brands are using loyalty programs and customer reviews to drive growth. Get inspired with real-world examples and case studies.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "ivypresto-headline",
+            "body": "Inter",
+            "distinct": [
+              "Inter",
+              "ivypresto-headline"
+            ]
+          },
+          "h1Px": 60,
+          "bodyPx": 25,
+          "bodyLineHeight": "25.9999px",
+          "backgrounds": [
+            "#fffcf5",
+            "#f9f3e4",
+            "#ffffff",
+            "#f68b6e"
+          ],
+          "accents": [
+            "#0042e4"
+          ],
+          "textColor": "#313438",
+          "buttonRadius": "100px",
+          "buttonHeightPx": 40,
+          "images": 259,
+          "videos": 12,
+          "svgs": 115,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 5450,
+          "domNodes": 4721,
+          "domContentLoadedMs": 275,
+          "loadMs": 879
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [
+            "NEW",
+            "New"
+          ],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 161
+        }
+      }
+    },
+    {
+      "n": 7,
+      "kind": "company",
+      "title": "About us | Yotpo",
+      "url": "https://www.yotpo.com/about/",
+      "screenshot": "shots/yotpo/step-7.webp",
+      "textFile": "data/captures/yotpo/page-7.txt",
+      "elapsedMs": 34165,
+      "clicks": 0,
+      "via": "nav: About Yotpo",
+      "headings": [
+        "h1: Leading the next era of trust and loyalty in eCommerce",
+        "h2: Our vision",
+        "h2: Our mission",
+        "h3: 100 countries",
+        "h3: 5 continents",
+        "h3: Every size",
+        "h2: Built for the AI era of customer interaction",
+        "h3: Seamless integrations",
+        "h3: Proven at scale",
+        "h3: AI-powered tools",
+        "h3: Operator-first design",
+        "h2: Our Story",
+        "h2: Looking to shape the future of commerce?",
+        "h2: Our offices",
+        "h3: New York",
+        "h3: Tel Aviv",
+        "h3: Sofia",
+        "h3: Sydney",
+        "h3: London",
+        "h3: Toronto",
+        "h2: Driving ecommerce into its next era"
+      ],
+      "ctas": [
+        "Get a demo",
+        "Get a Demo",
+        "Contact us",
+        "Request a demo",
+        "Contact support"
+      ],
+      "prices": [],
+      "description": "With the most advanced solutions for user-generated content marketing, referrals, and loyalty programs, Yotpo helps brands accelerate growth by enabling advocacy and maximizing customer lifetime value.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Inter",
+            "body": "Helvetica Neue",
+            "distinct": [
+              "Inter",
+              "Helvetica Neue",
+              "Arial",
+              "ivypresto-headline"
+            ]
+          },
+          "h1Px": 99,
+          "bodyPx": 14,
+          "bodyLineHeight": "25.9999px",
+          "backgrounds": [
+            "#ffffff",
+            "#cbcac9",
+            "#f9f3e4",
+            "#2532b7"
+          ],
+          "accents": [
+            "#2532b7"
+          ],
+          "textColor": "#313438",
+          "buttonRadius": "100px",
+          "buttonHeightPx": 40,
+          "images": 85,
+          "videos": 3,
+          "svgs": 25,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 6383,
+          "domNodes": 2041,
+          "domContentLoadedMs": 250,
+          "loadMs": 868
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [
+            "NEW",
+            "New"
+          ],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 66
+        }
+      }
+    },
+    {
+      "n": 8,
+      "kind": "resources",
+      "title": "Yotpo",
+      "url": "https://support.yotpo.com/?utm_source=YotpoWeb&utm_medium=web-menu",
+      "screenshot": "shots/yotpo/step-8.webp",
+      "textFile": "data/captures/yotpo/page-8.txt",
+      "elapsedMs": 38369,
+      "clicks": 0,
+      "via": "nav: Help center",
+      "headings": [
+        "h2: Documentation Index",
+        "h3: Reviews",
+        "h3: Loyalty",
+        "h3: Visual UGC",
+        "h3: See what happens when our products work together",
+        "h2: Find Out More",
+        "h3: Integrations",
+        "h3: Success stories",
+        "h3: Contact support",
+        "h3: Connect with Yotpo users in the community"
+      ],
+      "ctas": [
+        "Get a demo",
+        "Explore more",
+        "Contact Us",
+        "Request a Demo",
+        "Contact Support"
+      ],
+      "prices": [],
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Graphie",
+            "body": "Graphie",
+            "distinct": [
+              "Graphie",
+              "Inter",
+              "Geist"
+            ]
+          },
+          "h1Px": 64,
+          "bodyPx": 16,
+          "bodyLineHeight": "20.15px",
+          "backgrounds": [
+            "#ffffff",
+            "#272850",
+            "#0042e4",
+            "#f4f4f5"
+          ],
+          "accents": [
+            "#0042e4"
+          ],
+          "textColor": "#18181b",
+          "buttonRadius": "100px",
+          "buttonHeightPx": 40,
+          "images": 21,
+          "videos": 0,
+          "svgs": 1,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 3544,
+          "domNodes": 420,
+          "domContentLoadedMs": 602,
+          "loadMs": 1138
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 64
+        }
+      }
+    },
+    {
+      "n": 9,
+      "kind": "product",
+      "title": "AI has never tried the product | Yotpo",
+      "url": "https://www.yotpo.com/ai-has-never-tried-your-product/",
+      "screenshot": "shots/yotpo/step-9.webp",
+      "textFile": "data/captures/yotpo/page-9.txt",
+      "elapsedMs": 42939,
+      "clicks": 0,
+      "via": "nav: Collect reviews LLMs cite",
+      "headings": [
+        "h1: AI has never tried the product. Your customers have.",
+        "h2: The reviews shoppers trust and AI cites",
+        "h2: Collect reviews LLMs cite",
+        "h3: Smart AI prompts",
+        "h3: Media-rich reviews",
+        "h3: Authentic by design",
+        "h3: Always on collection",
+        "h2: AUTHENTICITY THAT CONVERTS",
+        "h2: Surface content AI platforms trust",
+        "h3: AI-powered summaries",
+        "h3: Smart Sorting",
+        "h3: Review highlights",
+        "h3: Real voices, real trust",
+        "h2: Meet Discover, Yotpo’s AEO platform",
+        "h2: Explore reviews resources",
+        "h3: What makes a review valuable for AI?",
+        "h3: Why do authentic reviews matter in the AI era?",
+        "h3: How does Yotpo make reviews easier for LLMs to use?",
+        "h3: What’s the connection between reviews and Discover?",
+        "h3: How does Yotpo help collect high-quality reviews?"
+      ],
+      "ctas": [
+        "Get a demo",
+        "Explore more",
+        "Learn more",
+        "Contact us",
+        "Request a demo",
+        "Contact support"
+      ],
+      "prices": [
+        "t starts with how you collect. Smart AI prompts +10% SUBMISSIONS AI-suggested topics increase review",
+        "I-suggested topics increase review submissions by 10% while guiding shoppers to share the detailed, str",
+        "d to recommend your brand. AI-powered summaries +5.4% CVR AI Review Summaries boost conversion by 5.4%",
+        "5.4% CVR AI Review Summaries boost conversion by 5.4% and surface structured, topic-focused content AI",
+        "s can crawl, interpret, and cite. Smart Sorting +8% CVR AI surfaces the most relevant, high-quality",
+        "first, helping boost onsite conversions by up to 8% while giving LLMs stronger PDP signals. Review h",
+        "Manager 2x Increase in review volume Explore more 29% Higher PDP-to-purchase CVR 112% Increase in AOV E",
+        "olume Explore more 29% Higher PDP-to-purchase CVR 112% Increase in AOV EARLY ACCESS Meet Discover, Yotpo",
+        "on lift AI Review Summary boosted engagement with 25% higher conversions and improves shopper experienc"
+      ],
+      "description": "Collect authentic reviews AI can cite with Yotpo Reviews. Build shopper trust and give AI engines stronger signals to recommend your brand.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "neue-haas-grotesk-display",
+            "body": "neue-haas-grotesk-text",
+            "distinct": [
+              "neue-haas-grotesk-text",
+              "neue-haas-grotesk-display"
+            ]
+          },
+          "h1Px": 62,
+          "bodyPx": 14,
+          "bodyLineHeight": "24px",
+          "backgrounds": [
+            "#000000",
+            "#e9e9e9",
+            "#333333",
+            "#383838"
+          ],
+          "accents": [],
+          "textColor": "#e5e5e5",
+          "buttonRadius": "100px",
+          "buttonHeightPx": 40,
+          "images": 99,
+          "videos": 0,
+          "svgs": 35,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 8282,
+          "domNodes": 1717,
+          "domContentLoadedMs": 120,
+          "loadMs": 127
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 64
+        }
+      }
+    },
+    {
+      "n": 10,
+      "kind": "platform",
+      "title": "Integrations & app market | Yotpo",
+      "url": "https://www.yotpo.com/integrations/",
+      "screenshot": "shots/yotpo/step-10.webp",
+      "textFile": "data/captures/yotpo/page-10.txt",
+      "elapsedMs": 47653,
+      "clicks": 0,
+      "via": "nav: Integrations",
+      "headings": [
+        "h1: Yotpo integrations",
+        "h2: Featured integrations",
+        "h3: Attentive",
+        "h3: Omnisend",
+        "h3: Gorgias",
+        "h3: Klaviyo Customer Hub",
+        "h2: Explore all integrations",
+        "h3: Brevo PushOwl",
+        "h3: Brevo PushOwl",
+        "h3: Teamwork Commerce",
+        "h3: Try & Review",
+        "h3: Mailchimp",
+        "h3: Dotdigital",
+        "h3: Checkout Review",
+        "h3: Postscript",
+        "h3: Checkout Plus",
+        "h3: Fuego",
+        "h3: Fuego",
+        "h3: Zembula",
+        "h3: Zembula Loyalty",
+        "h3: Mailchimp",
+        "h3: Optimizely (Zaius)",
+        "h3: Gladly",
+        "h3: Gladly",
+        "h3: Rep AI",
+        "h3: Rep AI",
+        "h3: DaitaFix",
+        "h3: Dotdigital",
+        "h3: Dotdigital",
+        "h3: LimeSpot",
+        "h3: Siena",
+        "h3: Listrak",
+        "h3: Klaviyo Customer Hub",
+        "h3: Shopeaks",
+        "h3: Reactiv",
+        "h3: Reactiv",
+        "h3: Dondy",
+        "h3: Subtotal",
+        "h3: Omnisend",
+        "h3: Klaviyo"
+      ],
+      "ctas": [
+        "Get a demo",
+        "Contact us",
+        "Request a demo",
+        "Contact support"
+      ],
+      "prices": [],
+      "description": "Easily integrate Yotpo with the leading ecommerce apps and platforms to create seamless, engaging, and high-converting shopping experiences using rich customer data.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "ivypresto-headline",
+            "body": "Inter",
+            "distinct": [
+              "Inter",
+              "Helvetica Neue",
+              "ivypresto-headline"
+            ]
+          },
+          "h1Px": 60,
+          "bodyPx": 12,
+          "bodyLineHeight": "23px",
+          "backgrounds": [
+            "#ffffff",
+            "#f9f3e4",
+            "#fffcf5",
+            "#ebebeb"
+          ],
+          "accents": [
+            "#0042e4"
+          ],
+          "textColor": "#333333",
+          "buttonRadius": "100px",
+          "buttonHeightPx": 40,
+          "images": 271,
+          "videos": 0,
+          "svgs": 199,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 16677,
+          "domNodes": 4157,
+          "domContentLoadedMs": 252,
+          "loadMs": 375
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [
+            "NEW",
+            "New"
+          ],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 245
+        }
+      }
+    },
+    {
+      "n": 11,
+      "kind": "solutions",
+      "title": "Solutions & resources | Yotpo",
+      "url": "https://www.yotpo.com/pages/",
+      "screenshot": "shots/yotpo/step-11.webp",
+      "textFile": "data/captures/yotpo/page-11.txt",
+      "elapsedMs": 52245,
+      "clicks": 0,
+      "via": "nav: Loyalty solutions",
+      "headings": [
+        "h1: Solutions & resources",
+        "h2: Join the world's Fastest-growing brands"
+      ],
+      "ctas": [
+        "Get a demo",
+        "Learn more",
+        "Contact us",
+        "Request a demo",
+        "Contact support"
+      ],
+      "prices": [],
+      "description": "Explore Yotpo’s solutions and resources designed to help ecommerce brands grow, engage customers, and build long-term loyalty.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "ivypresto-headline",
+            "body": "Helvetica Neue",
+            "distinct": [
+              "Inter",
+              "ivypresto-headline",
+              "Helvetica Neue",
+              "Open Sans"
+            ]
+          },
+          "h1Px": 60,
+          "bodyPx": 14,
+          "bodyLineHeight": "20px",
+          "backgrounds": [
+            "#f9f3e4",
+            "#ffffff",
+            "#fffcf5",
+            "#2532b7"
+          ],
+          "accents": [
+            "#0042e4"
+          ],
+          "textColor": "#313438",
+          "buttonRadius": "100px",
+          "buttonHeightPx": 40,
+          "images": 50,
+          "videos": 0,
+          "svgs": 79,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 2627,
+          "domNodes": 1995,
+          "domContentLoadedMs": 253,
+          "loadMs": 394
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [
+            "NEW",
+            "New"
+          ],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 125
+        }
+      }
+    },
+    {
+      "n": 12,
+      "kind": "product",
+      "title": "Yotpo's ecommerce marketing agency partners | Yotpo",
+      "url": "https://www.yotpo.com/agencies/",
+      "screenshot": "shots/yotpo/step-12.webp",
+      "textFile": "data/captures/yotpo/page-12.txt",
+      "elapsedMs": 58403,
+      "clicks": 0,
+      "via": "nav: Connect with an agency",
+      "headings": [
+        "h1: Meet Yotpo’s top agency partners",
+        "h2: Featured Agencies",
+        "h2: All Agencies"
+      ],
+      "ctas": [
+        "Get a demo",
+        "Contact us",
+        "Request a demo",
+        "Contact support"
+      ],
+      "prices": [
+        "lobal businesses boost their online revenue by 20-30% within the first 90 days. As your trusted marketi",
+        "d on Guidance's expertise to facilitate more than $50 billion in GMV. For over 30 years, brands such as",
+        "ail, loyalty, and more. We'll help you build your $100M retention roadmap. Global North America Contact",
+        "health, wellness, and beauty brands. We work with $5M–$50M DTC companies—especially those with subscri",
+        "th, wellness, and beauty brands. We work with $5M–$50M DTC companies—especially those with subscription"
+      ],
+      "description": "Connect with the ecommerce agencies leading the industry forward. Learn about Yotpo's top ecommerce partners here.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "graphie",
+            "body": "graphie",
+            "distinct": [
+              "Inter",
+              "graphie",
+              "Helvetica Neue"
+            ]
+          },
+          "h1Px": 47,
+          "bodyPx": 14,
+          "bodyLineHeight": "23px",
+          "backgrounds": [
+            "#eef3f6",
+            "#ffffff",
+            "#fad2c4",
+            "#e7edf7"
+          ],
+          "accents": [
+            "#0042e4"
+          ],
+          "textColor": "#272850",
+          "buttonRadius": "100px",
+          "buttonHeightPx": 40,
+          "images": 231,
+          "videos": 0,
+          "svgs": 18,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 19323,
+          "domNodes": 4771,
+          "domContentLoadedMs": 251,
+          "loadMs": 827
+        },
+        "merch": {
+          "planCards": 1,
+          "priceElements": 0,
+          "badges": [
+            "NEW",
+            "New"
+          ],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 67
+        }
+      }
+    },
+    {
+      "n": 13,
+      "kind": "signup",
+      "title": "Yotpo | Signup",
+      "url": "https://accounts.yotpo.com/#/signup?product=reviews&plan=Reviews%20-%20Growth%2050&signup_utm_source=yotpoweb&signup_utm_campaign=pricing_page_2024&signup_utm_page=pricing",
+      "screenshot": "shots/yotpo/step-13.webp",
+      "textFile": "data/captures/yotpo/page-13.txt",
+      "elapsedMs": 4068,
+      "clicks": 1,
+      "via": "click: \"Sign up\"",
+      "headings": [],
+      "ctas": [],
+      "prices": [],
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": null,
+            "body": "Open Sans",
+            "distinct": [
+              "Open Sans"
+            ]
+          },
+          "h1Px": null,
+          "bodyPx": 13,
+          "bodyLineHeight": "normal",
+          "backgrounds": [
+            "#ffffff",
+            "#0042e4"
+          ],
+          "accents": [
+            "#0042e4"
+          ],
+          "textColor": "#676a6c",
+          "buttonRadius": null,
+          "buttonHeightPx": null,
+          "images": 10,
+          "videos": 0,
+          "svgs": 0,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 900,
+          "domNodes": 127,
+          "domContentLoadedMs": 1358,
+          "loadMs": 2341
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 2
+        }
+      },
+      "form": {
+        "fields": [
+          {
+            "type": "text",
+            "label": "name"
+          },
+          {
+            "type": "email",
+            "label": "email"
+          },
+          {
+            "type": "password",
+            "label": "password"
+          }
+        ],
+        "alternatives": [],
+        "submit": [
+          "Continue"
+        ],
+        "consent": [
+          "Create your free account Continue Already have an account? Log in By signing up you agree to ourTerms of Service",
+          "Already have an account? Log in By signing up you agree to ourTerms of Service",
+          "By signing up you agree to ourTerms of Service"
+        ],
+        "pageHeightPx": 900,
+        "passwordAsked": true
+      },
+      "note": "Stopped here: the page asks for an email or password. Nothing is typed."
+    }
+  ],
+  "navMap": [
+    {
+      "label": "Integrations",
+      "href": "https://www.yotpo.com/integrations/",
+      "area": "header",
+      "kind": "platform"
+    },
+    {
+      "label": "Product releases",
+      "href": "https://www.yotpo.com/product-releases/",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Pricing",
+      "href": "https://www.yotpo.com/pricing/",
+      "area": "header",
+      "kind": "pricing"
+    },
+    {
+      "label": "Enterprise",
+      "href": "https://www.yotpo.com/enterprise/",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "See this week's #1 brands in AI search Learn more",
+      "href": "https://www.yotpo.com/gated/discover-ai-visibility-index/",
+      "area": "header",
+      "kind": "resources"
+    },
+    {
+      "label": "80+ trends shaping AI-led shopping in 2026",
+      "href": "https://www.yotpo.com/shoppers-have-prompted/",
+      "area": "header",
+      "kind": "platform"
+    },
+    {
+      "label": "Contact us",
+      "href": "https://www.yotpo.com/contact-us/",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Help center",
+      "href": "https://support.yotpo.com/?utm_source=YotpoWeb&utm_medium=web-menu",
+      "area": "header",
+      "kind": "resources"
+    },
+    {
+      "label": "Become a partner",
+      "href": "https://www.yotpo.com/partners/",
+      "area": "header",
+      "kind": "platform"
+    },
+    {
+      "label": "Reviews & UGC",
+      "href": "https://www.yotpo.com/platform/reviews/",
+      "area": "header",
+      "kind": "platform"
+    },
+    {
+      "label": "Loyalty & Referrals",
+      "href": "https://www.yotpo.com/platform/loyalty/",
+      "area": "header",
+      "kind": "platform"
+    },
+    {
+      "label": "Discover",
+      "href": "https://www.yotpo.com/discover/",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Case studies",
+      "href": "https://www.yotpo.com/case-studies/",
+      "area": "header",
+      "kind": "customers"
+    },
+    {
+      "label": "Customer success",
+      "href": "https://www.yotpo.com/customer-success/",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Resources hub",
+      "href": "https://www.yotpo.com/resources/",
+      "area": "header",
+      "kind": "resources"
+    },
+    {
+      "label": "Ebooks & guides",
+      "href": "https://www.yotpo.com/resources/?page-ebook&type=ebooks-guides",
+      "area": "header",
+      "kind": "resources"
+    },
+    {
+      "label": "Yotpo blog",
+      "href": "https://www.yotpo.com/blog/",
+      "area": "header",
+      "kind": "resources"
+    },
+    {
+      "label": "BFCM 2026 AI visibility guide",
+      "href": "https://www.yotpo.com/gated/bfcm-2026-ai-visibility-guide/",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Collect reviews LLMs cite",
+      "href": "https://www.yotpo.com/ai-has-never-tried-your-product/",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "The new rules of loyalty",
+      "href": "https://www.yotpo.com/new-rules-of-loyalty-lobby/",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "About Yotpo",
+      "href": "https://www.yotpo.com/about/",
+      "area": "footer",
+      "kind": "company"
+    },
+    {
+      "label": "Press",
+      "href": "https://www.yotpo.com/press/",
+      "area": "footer",
+      "kind": "company"
+    },
+    {
+      "label": "Request a demo",
+      "href": "https://www.yotpo.com/request-a-demo/",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Insights NEW",
+      "href": "https://www.yotpo.com/blog/collection/insights/",
+      "area": "footer",
+      "kind": "resources"
+    },
+    {
+      "label": "Ecommerce glossary",
+      "href": "https://www.yotpo.com/glossary/",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Loyalty program software",
+      "href": "https://www.yotpo.com/loyalty-program-software/",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Shopify reviews app",
+      "href": "https://www.yotpo.com/shopify-product-reviews-app/",
+      "area": "footer",
+      "kind": "product"
+    },
+    {
+      "label": "Shopify loyalty app",
+      "href": "https://www.yotpo.com/shopify-loyalty-app/",
+      "area": "footer",
+      "kind": "platform"
+    },
+    {
+      "label": "Loyalty solutions",
+      "href": "https://www.yotpo.com/pages/",
+      "area": "footer",
+      "kind": "solutions"
+    },
+    {
+      "label": "CommerceGPT newsletter New",
+      "href": "https://www.yotpo.com/commerce-gpt/",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "All solutions",
+      "href": "https://www.yotpo.com/explore/",
+      "area": "footer",
+      "kind": "solutions"
+    },
+    {
+      "label": "Profit margin calculator",
+      "href": "https://www.yotpo.com/tools/profit-margin-calculator/",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Barcode generator",
+      "href": "https://www.yotpo.com/tools/barcode-generator/",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Invoice generator",
+      "href": "https://www.yotpo.com/tools/invoice-generator/",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Review calculator NEW",
+      "href": "https://www.yotpo.com/tools/review-calculator/",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "All tools",
+      "href": "https://www.yotpo.com/tools/",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Agency partner program",
+      "href": "https://www.yotpo.com/new-partner-program/",
+      "area": "footer",
+      "kind": "platform"
+    },
+    {
+      "label": "Build an integration",
+      "href": "https://www.yotpo.com/integration-partners/",
+      "area": "footer",
+      "kind": "platform"
+    },
+    {
+      "label": "Commission board",
+      "href": "https://www.yotpo.com/commissionboard/",
+      "area": "footer",
+      "kind": "company"
+    },
+    {
+      "label": "Yotpo vs. Judge.me",
+      "href": "https://www.yotpo.com/competitors/yotpo-vs-judge-me/",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Yotpo vs Okendo",
+      "href": "https://www.yotpo.com/competitors/yotpo-vs-okendo/",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Yotpo vs PowerReviews",
+      "href": "https://www.yotpo.com/competitors/yotpo-vs-powerreviews/",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Yotpo vs Bazaarvoice",
+      "href": "https://www.yotpo.com/competitors/yotpo-vs-bazaarvoice/",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Yotpo vs Reviews.io",
+      "href": "https://www.yotpo.com/competitors/yotpo-vs-reviews-io/",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Yotpo vs Rivo",
+      "href": "https://www.yotpo.com/competitors/yotpo-vs-rivo/",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Contact support",
+      "href": "https://yap.yotpo.com/",
+      "area": "footer",
+      "kind": "resources"
+    },
+    {
+      "label": "Connect with an agency",
+      "href": "https://www.yotpo.com/agencies/",
+      "area": "footer",
+      "kind": "product"
+    },
+    {
+      "label": "Accessibility statement",
+      "href": "https://www.yotpo.com/accessibility-statement/",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "API documentation",
+      "href": "https://core-api.yotpo.com/reference/",
+      "area": "footer",
+      "kind": "platform"
+    },
+    {
+      "label": "API changelog",
+      "href": "https://www.yotpo.com/api-changelog/",
+      "area": "footer",
+      "kind": "platform"
+    },
+    {
+      "label": "FAQs",
+      "href": "https://www.yotpo.com/faqs/",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Français",
+      "href": "https://www.yotpo.com/fr/",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Português",
+      "href": "https://www.yotpo.com/pt-pt/",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Deutsch",
+      "href": "https://www.yotpo.com/de/",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Italiano",
+      "href": "https://www.yotpo.com/it/",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Español",
+      "href": "https://www.yotpo.com/es/",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Security",
+      "href": "https://www.yotpo.com/security/",
+      "area": "footer",
+      "kind": "other"
+    }
+  ],
+  "stack": {
+    "generator": "WPML ver:5.2.0 stt:9,12,37,1,4,3,13,23,27,38,40,41,44,45,2,50,53;",
+    "scriptHosts": [
+      "snap.licdn.com",
+      "web-data.yotpo.com",
+      "js-eu1.hscollectedforms.net",
+      "js-eu1.hsadspixel.net",
+      "js-eu1.hs-analytics.net",
+      "js-eu1.hs-banner.com",
+      "sc.lfeeder.com",
+      "bzrcdn.openai.com",
+      "www.redditstatic.com",
+      "unpkg.com",
+      "connect.facebook.net",
+      "js-eu1.hs-scripts.com",
+      "stapecdn.com",
+      "cdn.cookiehub.eu"
+    ],
+    "signals": [
+      "Google Tag Manager dataLayer",
+      "Segment analytics"
+    ],
+    "server": "nginx",
+    "poweredBy": null
+  },
+  "sources": [
+    "https://www.yotpo.com"
+  ],
+  "dossier": {
+    "sections": [
+      {
+        "id": "positioning",
+        "title": "Positioning",
+        "summary": "Yotpo sells a retention-marketing suite of reviews, loyalty and, newest, AI visibility: tracking and shaping how AI engines recommend a brand's products.",
+        "keyPoints": [
+          "Homepage: 'Your marketing solutions should work for you. Drive more revenue with best-in-class solutions for loyalty, reviews, and AI visibility.'",
+          "The AI angle is the lead: Yotpo Discover tracks how AI engines recommend products, and a dedicated page argues that AI has never tried the product but customers have.",
+          "The enterprise page targets ecommerce leaders with authenticated reviews and loyalty programs built for global scale."
+        ]
+      },
+      {
+        "id": "offerings",
+        "title": "Products and offerings",
+        "summary": "Three product lines sold alone or bundled.",
+        "keyPoints": [],
+        "table": {
+          "columns": [
+            "Product",
+            "What it does"
+          ],
+          "rows": [
+            [
+              "Reviews and UGC",
+              "Collects and displays reviews with AI summaries, Smart Sorting and retail syndication"
+            ],
+            [
+              "Loyalty and Referrals",
+              "Points, VIP tiers and referrals, with Shopify, Magento and other store integrations"
+            ],
+            [
+              "Yotpo Discover (AI visibility)",
+              "Tracks and controls how AI engines recommend products; beta access for enterprise"
+            ],
+            [
+              "Integrations",
+              "180+ integrations across email, helpdesk, ads and commerce platforms"
+            ]
+          ]
+        },
+        "gaps": [
+          "The Visual UGC product and free tools (calculators, generators) were not opened."
+        ]
+      },
+      {
+        "id": "pricing",
+        "title": "Pricing",
+        "summary": "Priced by product and monthly order volume, with a slider on the pricing page. Entry plans are free or low-cost, higher tiers are custom quotes.",
+        "keyPoints": [
+          "Reviews and UGC has a limited free plan up to 50 monthly orders and paid plans from $15 a month.",
+          "Loyalty and Referrals has a free plan with paid tiers from $199 a month.",
+          "Discover is custom-priced; reviews and loyalty can be bundled to save.",
+          "At the default slider position the page shows monthly prices for the two entry reviews plans, with Premium and Enterprise as 'reach out for a custom quote'."
+        ],
+        "table": {
+          "columns": [
+            "Reviews plan",
+            "Who it is for",
+            "Adds"
+          ],
+          "rows": [
+            [
+              "Starter",
+              "Launching a reviews program",
+              "Branded review experience, on-site display, collection and sharing tools"
+            ],
+            [
+              "Pro (recommended)",
+              "Growing a reviews program",
+              "Seller ratings, AI-driven display, AI tools for shoppers, chatbot and email support, product sampling add-on"
+            ],
+            [
+              "Premium",
+              "Deeper insight and guidance",
+              "Reviews AI summary, roles and permissions, translations, syndication across domains, retail syndication"
+            ],
+            [
+              "Enterprise",
+              "Scale across markets and brands",
+              "Custom API setup, omni-channel collection, dedicated security and compliance, priority professional services"
+            ]
+          ]
+        },
+        "gaps": [
+          "Exact plan prices appear only in the live slider widget and were not in the page text."
+        ]
+      },
+      {
+        "id": "merchandising",
+        "title": "Merchandising",
+        "summary": "The pricing page works as a configurator: pick a product, set order volume, see the plan. A recommended tag and free entry plans pull visitors in; custom quotes catch the rest.",
+        "keyPoints": [
+          "Tabs for Reviews and UGC, Loyalty and Referrals, AI Visibility and a Bundle sit above a monthly-order-volume slider.",
+          "The Pro plan carries a 'recommended' tag; Premium and Enterprise go to sales.",
+          "Entry plans are free or low-cost, and bundling reviews with loyalty is offered as a saving.",
+          "For merchants: reviews display with AI summaries and Smart Sorting, loyalty points and VIP tiers, referral programs and syndication of reviews to retailers."
+        ]
+      },
+      {
+        "id": "platform",
+        "title": "Technical platform",
+        "summary": "API documentation and a public API changelog sit alongside 180+ integrations and a help center with a machine-readable index.",
+        "keyPoints": [
+          "API changelog covers App Developer, Core, Loyalty and Referrals, and UGC APIs; the entries surveyed date from March 2024.",
+          "The help center publishes an llms.txt index of its documentation.",
+          "Integrations page lists Attentive, Omnisend, Gorgias and Klaviyo Customer Hub among featured partners, filterable by product and category.",
+          "Loyalty data can be synced through Shopify Metafields."
+        ],
+        "gaps": [
+          "The API reference itself was not opened."
+        ]
+      },
+      {
+        "id": "design",
+        "title": "Design",
+        "summary": "Bright and approachable: cream backgrounds, big serif headlines on the home page, blue pill buttons and product UI cards. The pricing page switches to a black header and a grey configurator canvas.",
+        "keyPoints": [
+          "Home uses Inter with a blue accent (#0042e4) and pill buttons (100px corners).",
+          "Pricing switches to neue-haas-grotesk with a black header and grey canvas.",
+          "The home hero pairs a large headline and a business-email field with an AI Visibility card.",
+          "Pricing puts a product switcher and order-volume slider above four plan columns.",
+          "For merchants: customizable on-site review widgets are listed on higher plans."
+        ],
+        "gaps": [
+          "Light and dark modes were not assessed."
+        ]
+      },
+      {
+        "id": "company",
+        "title": "Company presentation",
+        "summary": "A trust-and-loyalty-in-the-AI-era story with global reach and named brand outcomes.",
+        "keyPoints": [
+          "About page: 'Leading the next era of trust and loyalty in eCommerce', with 100 countries on 5 continents.",
+          "Case studies: Dr. Martens collects 1.8 million reviews; loyalty redeemers spend 15% more, driving a 7.7x return on a loyalty program.",
+          "Partner programs for agencies and integration builders are prominent."
+        ],
+        "gaps": [
+          "No leadership information in the surveyed pages."
+        ]
+      }
+    ]
+  },
+  "signupPath": "No signup button is on the homepage ('Get a demo' beside a business-email field). From the pricing page, 'Sign up' on the Starter reviews plan opens accounts.yotpo.com, a real account form headed 'Create your free account': name, email and password, a 'Continue' button and an agreement to the Terms of Service. The plan is pre-selected in the address. Nothing was entered.",
+  "scores": {
+    "jtbd_fit": {
+      "score": 4,
+      "evidence": "Each product page names its job: collect trusted reviews, grow repeat purchase, win AI recommendations.",
+      "step": 9
+    },
+    "capability_visible": {
+      "score": 3,
+      "evidence": "Product pages and a pricing configurator are shown; limited in-product demonstration.",
+      "step": 2
+    },
+    "pricing_transparency": {
+      "score": 3,
+      "evidence": "Entry prices and plan contents are published, but exact prices sit in a slider widget and higher tiers are quotes.",
+      "step": 2
+    },
+    "product_breadth": {
+      "score": 4,
+      "evidence": "Three product lines with a clear job each and a bundle option.",
+      "step": 1
+    },
+    "platform_depth": {
+      "score": 3,
+      "evidence": "API changelog, help center and 180+ integrations; the API reference was not read and sampled changelog entries are from 2024.",
+      "step": 4
+    },
+    "time_to_value": {
+      "score": null,
+      "evidence": "Capture stops before the product; first-value time was not observed.",
+      "step": null
+    },
+    "friction": {
+      "score": 4,
+      "evidence": "Pricing-page Sign up opens a short account form: name, email and password.",
+      "step": 13
+    },
+    "trust": {
+      "score": 4,
+      "evidence": "Named brand outcomes and analyst-review mentions.",
+      "step": 6
+    },
+    "mobile": {
+      "score": null,
+      "evidence": "Phone captures exist for home and pricing but were not assessed.",
+      "step": null
+    },
+    "states": {
+      "score": null,
+      "evidence": "No error or empty states reached.",
+      "step": null
+    },
+    "a11y_basics": {
+      "score": null,
+      "evidence": "Not tested.",
+      "step": null
+    },
+    "value_prop_clarity": {
+      "score": 3,
+      "evidence": "The AI visibility framing is new and needs explaining; reviews and loyalty are clear.",
+      "step": 1
+    },
+    "proof_quality": {
+      "score": 3,
+      "evidence": "Case-study numbers are specific; 'best-in-class' has no source.",
+      "step": 6
+    },
+    "persuasion_integrity": {
+      "score": 4,
+      "evidence": "No urgency tactics; a free tier is stated with its limit.",
+      "step": 2
+    },
+    "cta_logic": {
+      "score": 3,
+      "evidence": "'Get a demo' leads; the self-serve sign-up is found only on the pricing page.",
+      "step": 2
+    },
+    "company_narrative": {
+      "score": 4,
+      "evidence": "The trust-and-loyalty-in-the-AI-era story holds from homepage to About to product pages.",
+      "step": 7
+    },
+    "offer_packaging": {
+      "score": 4,
+      "evidence": "Four review plans with 'everything in' ladders and a configurator; plan prices sit in a widget.",
+      "step": 2
+    },
+    "offer_architecture": {
+      "score": 4,
+      "evidence": "Free entry, recommended middle plan, custom quotes and bundles.",
+      "step": 2
+    },
+    "merchant_merch_tools": {
+      "score": 4,
+      "evidence": "Review display with AI summaries and sorting, loyalty tiers and referrals, retail syndication.",
+      "step": 9
+    },
+    "visual_craft": {
+      "score": 4,
+      "evidence": "Clear hierarchy and friendly illustration; busy product cards in the home hero.",
+      "step": 1
+    },
+    "system_coherence": {
+      "score": 3,
+      "evidence": "Home and pricing use different typefaces and header styles.",
+      "step": 2
+    },
+    "merchant_design_control": {
+      "score": 4,
+      "evidence": "Fully customizable on-site widgets on higher plans; branded review experience on Starter.",
+      "step": 2
+    }
+  },
+  "read": {
+    "summary": "A three-product retention suite repositioning around AI visibility. The pricing configurator and free entry plans are a good model; the weak points are a price list hidden in a widget and an unevenly consistent design.",
+    "pros": [
+      "Free and low-cost entry plans with stated limits.",
+      "A product and order-volume configurator on the pricing page.",
+      "The signup is a short account form (name, email, password).",
+      "Specific case-study numbers."
+    ],
+    "cons": [
+      "Exact prices live inside a widget, not the page text.",
+      "AI visibility is a new idea that needs more explanation.",
+      "Pricing and home look like different sites.",
+      "API changelog entries surveyed date from 2024."
+    ],
+    "howItSells": "Sells trust and loyalty as revenue drivers, now framed around being recommended by AI. A free start and a configurator make it feel low-risk.",
+    "copy": [
+      "Offer a free tier with a stated limit.",
+      "Use a configurator for volume-based pricing.",
+      "Pair product claims with specific case numbers."
+    ],
+    "avoid": [
+      "Prices that appear only in an interactive widget.",
+      "Two different visual systems for home and pricing."
+    ],
+    "tactics": [
+      "social_proof",
+      "anchoring",
+      "commitment_ladder"
+    ],
+    "confidence": "medium",
+    "unknowns": [
+      "What happens after account creation.",
+      "Loyalty and Discover pricing.",
+      "Mobile experience.",
+      "The API reference."
+    ],
+    "hypothesis": {
+      "statement": "Showing the entry-plan prices as plain text above the slider will lift pricing-page sign-ups among visitors who do not use the slider.",
+      "metric": "Pricing-page sign-up rate",
+      "guardrail": "Sales-contact volume",
+      "decisionRule": "Ship if sign-ups rise by a pre-agreed margin and sales contacts do not fall over four weeks."
+    },
+    "subjects": {
+      "merchandising": {
+        "summary": "A configurator-led ladder with free entry; weaker on showing prices as plain text.",
+        "pros": [
+          "Free entry plan with a stated limit.",
+          "Product tabs plus an order-volume slider.",
+          "Recommended tag on the middle plan."
+        ],
+        "cons": [
+          "Real prices appear only in a widget.",
+          "Higher tiers are quotes."
+        ]
+      },
+      "design": {
+        "summary": "Approachable and clear, with a visible shift in style between the home and pricing pages.",
+        "pros": [
+          "Cream backgrounds and big headlines feel friendly and legible.",
+          "Blue pill buttons are easy to find."
+        ],
+        "cons": [
+          "Pricing swaps typeface and header style.",
+          "Home hero crowds an email field and a product card."
+        ]
+      }
+    }
+  },
+  "claims": [
+    {
+      "text": "Don't miss out on revenue growth",
+      "verdict": "plausible",
+      "step": 1,
+      "evidenceStep": null
+    },
+    {
+      "text": "Dr. Martens collects 1.8 million reviews & lifts buyer confidence with Yotpo",
+      "verdict": "plausible",
+      "step": 6,
+      "evidenceStep": null
+    },
+    {
+      "text": "Loyalty redeemers spend 15% more, driving a 7.7x ROI for the brand's loyalty program",
+      "verdict": "plausible",
+      "step": 6,
+      "evidenceStep": null
+    }
+  ],
+  "focus": "get started path"
+}

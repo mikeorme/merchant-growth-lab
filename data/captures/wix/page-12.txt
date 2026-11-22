@@ -1,0 +1,15 @@
+URL: https://users.wix.com/signin/signup/password?view=sign-up&sendEmail=true&loginCompName=SignUp_H&referralInfo=SignUp_H&postSignUp=https%3A%2F%2Fwww.wix.com%2Fnew%2Fintro%2F&postLogin=https%3A%2F%2Fmanage.wix.com%2Faccount%2Froute&loginDialogContext=signup&originUrl=https%3A%2F%2Fwww.wix.com%2F&_gl=1*jbknf0*_gcl_au*NjIwNTA3NTM4LjE3OTUzMzE1OTM.
+TITLE: Log In to Your Wix Account - Wix.com
+DESCRIPTION: Sign in to your Wix account to access the website editor and complete business solutions.
+
+Sign up
+Already have an account?
+Log In
+Continue with Google
+Continue with Facebook
+Continue with Apple
+or
+Email
+Continue with Email
+* By signing up, you agree to our Terms of Use and acknowledge you’ve read our Privacy Policy
+This site is protected by reCAPTCHA Enterprise. Google's Privacy Policy and Terms of Service apply.

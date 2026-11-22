@@ -1,0 +1,2378 @@
+{
+  "id": "mailchimp",
+  "name": "Mailchimp",
+  "category": "retention-messaging",
+  "url": "https://mailchimp.com",
+  "flow": "site survey",
+  "capturedAt": "2026-11-22",
+  "rubricVersion": "1.2.0",
+  "status": "evaluated",
+  "surveyMode": "full",
+  "signupEnd": {
+    "state": "account-form",
+    "url": "https://login.mailchimp.com/signup/?plan=free_monthly_plan_v0&locale=en&experiments=DT-3273-cc-gated-cta-pathing:IXP2_T_1686006,x704-checkout-placement-v2:IXP2_T_1707152&subscribers=250",
+    "clicks": 3,
+    "from": "home",
+    "fields": [
+      {
+        "type": "select",
+        "label": "English Español Português Italiano Deuts"
+      },
+      {
+        "type": "email",
+        "label": "Business email"
+      },
+      {
+        "type": "password",
+        "label": "Password"
+      }
+    ],
+    "alternatives": [],
+    "submit": [
+      "Sign up"
+    ],
+    "consent": [
+      "Create a free account or log in. By creating an account, you agree to our Terms and have read and acknowledged the Global Privacy Statement.",
+      "©2026 Intuit Inc. All rights reserved. Mailchimp® is a registered trademark of The Rocket Science Group, Cookie Preferences, Privacy, and Terms"
+    ],
+    "pageHeightPx": 900,
+    "passwordAsked": true
+  },
+  "steps": [
+    {
+      "n": 1,
+      "kind": "home",
+      "title": "Email & SMS Marketing Platform | Mailchimp",
+      "url": "https://mailchimp.com/",
+      "screenshot": "shots/mailchimp/step-1.webp",
+      "textFile": "data/captures/mailchimp/page-1.txt",
+      "elapsedMs": 10939,
+      "clicks": 0,
+      "via": "entry",
+      "headings": [
+        "h1: Turn ideas into emails & SMS that connect",
+        "h2: Recommended for your business",
+        "h3: Design with ease",
+        "h3: Get more sales",
+        "h3: Reach your audience on any device",
+        "h3: Connect all your apps",
+        "h2: Take an interactive product tour",
+        "h2: Mailchimp customers generated $1.1 billion in gross revenue in just 62 days.",
+        "h2: Mailchimp customers saw up to 8x more orders on average with automation flows.",
+        "h2: Businesses like yours are thriving with Mailchimp",
+        "h2: Try our Standard plan for free!",
+        "h2: Standard",
+        "h2: One marketing platform to unite 300+ apps",
+        "h2: Millions of users trust us with their email marketing. You can too.",
+        "h3: Related Links:",
+        "h3: Products",
+        "h3: Resources",
+        "h3: Community",
+        "h3: Company"
+      ],
+      "ctas": [
+        "Start today.",
+        "Get a demo: +1 (855) 332-2567",
+        "Start Free Trial",
+        "See all demos",
+        "See pricing",
+        "Try it for free",
+        "Request demo",
+        "Sign Up",
+        "Free",
+        "Free Trial Terms",
+        "Free Marketing Tools",
+        "Agencies & Freelancers",
+        "Contact Us",
+        "Talk to Sales"
+      ],
+      "prices": [
+        "Join Mailchimp with a free 14-day trial or save 15% off on 10,000+ contacts. Start today. Turn ideas",
+        "tions Powerful e-commerce integrations Save up to 42% by switching from Klaviyo to Mailchimp* Learn abo",
+        "-powered content tips Mailchimp users saw up to a 97% click rate when they used both Email and SMS See",
+        "free Peak Season Mailchimp customers generated $1.1 billion in gross revenue in just 62 days. Based o",
+        "ur expectations.\" 142x ROI on first SMS launch 30% of revenue attributed to Mailchimp Hume Merritt",
+        "nsparency, true partnership, and great service.\" 40% estimated cost savings 10x lift in email signu",
+        "open and click-through rates.\" 30x revenue ROI 58% open rate Simon Dahl, Email Marketing Manager,",
+        "o slide 3 of 3 Request demo Sign Up Try free Save 15% on 10,000+ contacts Try our Standard plan for fre",
+        "+ Try for free Free for 14 days Then, starts at $20/month† per month† Save 15% on 10,000+ contacts Start F",
+        "days Then, starts at $20/month† per month† Save 15% on 10,000+ contacts Start Free Trial †See Free T"
+      ],
+      "description": "Utilize real-time user behavior data and artificial intelligence to convert more customers. Easy to use, get started for free!",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Means Web",
+            "body": "Tally",
+            "distinct": [
+              "Tally",
+              "Means Web"
+            ]
+          },
+          "h1Px": 64,
+          "bodyPx": 16,
+          "bodyLineHeight": "17.55px",
+          "backgrounds": [
+            "#ffffff",
+            "#231e15",
+            "#000000",
+            "#f5f5f5"
+          ],
+          "accents": [
+            "#ffe01b",
+            "#231e15"
+          ],
+          "textColor": "#ffffff",
+          "buttonRadius": "26px",
+          "buttonHeightPx": 44,
+          "images": 167,
+          "videos": 0,
+          "svgs": 44,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 8340,
+          "domNodes": 3074,
+          "domContentLoadedMs": 832,
+          "loadMs": 1108
+        },
+        "merch": {
+          "planCards": 1,
+          "priceElements": 1,
+          "badges": [
+            "Save 15%",
+            "free",
+            "Free"
+          ],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [
+            "Start Free Trial",
+            "Start Free Trial",
+            "Save up to 42% by switching from Klaviyo to Mailchimp*",
+            "Start Free Trial",
+            "Free Trial Terms",
+            "Start Free Trial"
+          ],
+          "links": 134
+        }
+      },
+      "mobileScreenshot": "shots/mailchimp/step-1-mobile.webp"
+    },
+    {
+      "n": 2,
+      "kind": "pricing",
+      "title": "Mailchimp Pricing Plans | Get Started Today | Mailchimp",
+      "url": "https://mailchimp.com/pricing/marketing/",
+      "screenshot": "shots/mailchimp/step-2.webp",
+      "textFile": "data/captures/mailchimp/page-2.txt",
+      "elapsedMs": 17521,
+      "clicks": 0,
+      "via": "nav: Pricing",
+      "headings": [
+        "h2: Try our Standard plan for free!",
+        "h2: Standard",
+        "h2: Customize plans & offers",
+        "h2: Under 250 contacts? It's free.",
+        "h2: Premium",
+        "h2: Standard",
+        "h2: Essentials",
+        "h2: Work with a trusted industry leader",
+        "h2: Get started easily with a personalized product tour",
+        "h2: Rates for nonprofits and charities",
+        "h2: Prefer to pay as you go?",
+        "h2: Basic plans for smaller businesses",
+        "h3: How long is the free trial?",
+        "h3: Can I upgrade or downgrade my plan during the free trial?",
+        "h3: What happens if I pause or cancel during the free trial?",
+        "h3: Will I get billing reminders before the free trial ends?",
+        "h3: How do I get access to SMS?",
+        "h3: How do SMS credits work?",
+        "h3: Can I buy email credits instead of a monthly or annual marketing plan?",
+        "h3: How do I switch to a different plan?",
+        "h3: What payment methods do you offer?",
+        "h3: What happens if I hit the contact or sending limit?",
+        "h3: Do you have pricing for high-volume email senders?",
+        "h3: Related Links:",
+        "h3: Products",
+        "h3: Resources",
+        "h3: Community",
+        "h3: Company"
+      ],
+      "ctas": [
+        "Get a demo: +1 (855) 332-2567",
+        "Start Free Trial",
+        "Free",
+        "Request a demo",
+        "Free Trial Terms",
+        "Sign Up",
+        "Buy Now",
+        "Learn more about onboarding",
+        "Get started",
+        "Learn more",
+        "About Free",
+        "How long is the free trial?",
+        "Contact sales",
+        "Free Marketing Tools"
+      ],
+      "prices": [
+        "___ Skip to main content Try free Save 15% on 10,000+ contacts Try our Standard plan for fre",
+        "+ Try for free Free for 14 days Then, starts at $20/month† per month† Save 15% on 10,000+ contacts Start F",
+        "days Then, starts at $20/month† per month† Save 15% on 10,000+ contacts Start Free Trial †See Free T",
+        "cts, and priority support; built for teams. Save 15% on 10,000+ contacts $ 297 50 /mo for 12 months",
+        "; built for teams. Save 15% on 10,000+ contacts $ 297 50 /mo for 12 months $297.50 per month for 12 mo",
+        "on 10,000+ contacts $ 297 50 /mo for 12 months $297.50 per month for 12 months Then, starts at $350 /month† per m",
+        "$297.50 per month for 12 months Then, starts at $350 /month† per month† Request a demo Buy Now †See Offer T",
+        "Try for free Free for 14 days Then, starts at $20 /month† per month† Save 15% on 10,000+ contacts Start F",
+        "ays Then, starts at $20 /month† per month† Save 15% on 10,000+ contacts Start Free Trial †See Free T",
+        "Try for free Free for 14 days Then, starts at $13 /month† per month† Save 15% on 10,000+ contacts Start F",
+        "ays Then, starts at $13 /month† per month† Save 15% on 10,000+ contacts Start Free Trial †See Free T",
+        "for nonprofits and charities Mailchimp offers a 15% discount to nonprofits and charities. To request",
+        "h limited features on a 14-day free trial or save 15% for 12 months with 10,000+ contacts on our Essent",
+        "uded with select custom plans that spend at least $299 per month with Mailchimp, All calls with the Mailchimp cust",
+        "and functionality of Flows varies by plan. Up to 141% more revenue: Up to 141% more revenue for users'",
+        "ws varies by plan. Up to 141% more revenue: Up to 141% more revenue for users' connected stores using pr",
+        "l 1 2023 period. Standard and Premium plans only. 58% Higher Click Rate: Based on US users who sent bot",
+        ": Standard and Premium users saw 2x more revenue (266%) on average for their connected ecommerce stores"
+      ],
+      "description": "Create beautiful emails, automate campaigns, and track performance. Try it now and see how our tools can drive your business.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": null,
+            "body": "Tally",
+            "distinct": [
+              "Tally",
+              "Means Web"
+            ]
+          },
+          "h1Px": null,
+          "bodyPx": 13,
+          "bodyLineHeight": "21.6px",
+          "backgrounds": [
+            "#ffffff",
+            "#000000",
+            "#f5f5f5",
+            "#ffe01b"
+          ],
+          "accents": [
+            "#ffe01b",
+            "#231e15"
+          ],
+          "textColor": "#004e56",
+          "buttonRadius": "26px",
+          "buttonHeightPx": 44,
+          "images": 100,
+          "videos": 0,
+          "svgs": 126,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 7477,
+          "domNodes": 4859,
+          "domContentLoadedMs": 513,
+          "loadMs": 1032
+        },
+        "merch": {
+          "planCards": 2,
+          "priceElements": 5,
+          "badges": [
+            "Save 15%",
+            "free",
+            "Free",
+            "Best value",
+            "Included"
+          ],
+          "billingToggles": [],
+          "tables": 4,
+          "promos": [
+            "Start Free Trial",
+            "Start Free Trial",
+            "Free Trial Terms",
+            "Start Free Trial",
+            "Free Trial Terms",
+            "Start Free Trial"
+          ],
+          "links": 94
+        }
+      },
+      "mobileScreenshot": "shots/mailchimp/step-2-mobile.webp"
+    },
+    {
+      "n": 3,
+      "kind": "product",
+      "title": "Top Mailchimp Features: Email, SMS, Automation & More for Business | Mailchimp",
+      "url": "https://mailchimp.com/features/",
+      "screenshot": "shots/mailchimp/step-3.webp",
+      "textFile": "data/captures/mailchimp/page-3.txt",
+      "elapsedMs": 25005,
+      "clicks": 0,
+      "via": "nav: See all features and solutions",
+      "headings": [
+        "h1: Powerful marketing features that help your business grow faster",
+        "h2: Marketing Essentials",
+        "h3: A/B Testing",
+        "h3: Marketing Automation Flows",
+        "h3: Email Builder",
+        "h3: Email Marketing",
+        "h3: Landing Pages",
+        "h2: Content Creation",
+        "h3: Content Studio",
+        "h3: Dynamic Content",
+        "h3: Email Templates",
+        "h3: Generative AI",
+        "h3: Subject Line Helper",
+        "h2: Audience Management",
+        "h3: Behavioral Targeting",
+        "h3: Marketing CRM",
+        "h3: Predictive Demographics",
+        "h3: Segmentation",
+        "h3: Sign-Up Forms",
+        "h3: Surveys",
+        "h3: Tags & Customer Profiles",
+        "h2: Marketing Automation",
+        "h3: Marketing Automation Flows",
+        "h3: Dynamic Content",
+        "h3: Integrations",
+        "h3: Retargeting Ads",
+        "h3: Transactional Emails",
+        "h3: Webhooks",
+        "h2: Reporting & Analytics Tools",
+        "h3: A/B Testing",
+        "h3: Dynamic Content",
+        "h3: Marketing Reports",
+        "h3: Send Time Optimization",
+        "h3: Smart Recommendations",
+        "h3: Subject Line Helper",
+        "h2: AI Marketing Tools",
+        "h3: Marketing Automation Flows",
+        "h3: Generative AI",
+        "h3: Predictive Demographics",
+        "h3: Smart Recommendations"
+      ],
+      "ctas": [
+        "Start today.",
+        "Get a demo: +1 (855) 332-2567",
+        "Start Free Trial",
+        "Get started",
+        "Start onboarding",
+        "Free Marketing Tools",
+        "Agencies & Freelancers",
+        "Contact Us",
+        "Talk to Sales"
+      ],
+      "prices": [
+        "Join Mailchimp with a free 14-day trial or save 15% off on 10,000+ contacts. Start today. MAILCHIMP"
+      ],
+      "description": "Wondering what Mailchimp can do? The platform offers email marketing, automation, SMS, social ads, landing pages, and more to help businesses of all sizes grow their revenue.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Means Web",
+            "body": "Tally",
+            "distinct": [
+              "Tally",
+              "Means Web"
+            ]
+          },
+          "h1Px": 48,
+          "bodyPx": 16,
+          "bodyLineHeight": "17.55px",
+          "backgrounds": [
+            "#ffffff",
+            "#000000",
+            "#f5f5f5",
+            "#f0f0eb"
+          ],
+          "accents": [
+            "#ffe01b"
+          ],
+          "textColor": "#ffffff",
+          "buttonRadius": "26px",
+          "buttonHeightPx": 44,
+          "images": 147,
+          "videos": 0,
+          "svgs": 48,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 8383,
+          "domNodes": 2378,
+          "domContentLoadedMs": 922,
+          "loadMs": 1487
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [
+            "Start Free Trial"
+          ],
+          "links": 124
+        }
+      }
+    },
+    {
+      "n": 4,
+      "kind": "platform",
+      "title": "Mailchimp Tools & Apps Integration Directory | Mailchimp",
+      "url": "https://mailchimp.com/integrations/?categories=Developer+Tools",
+      "screenshot": "shots/mailchimp/step-4.webp",
+      "textFile": "data/captures/mailchimp/page-4.txt",
+      "elapsedMs": 29307,
+      "clicks": 0,
+      "via": "nav: Developer tools",
+      "headings": [
+        "h1: Integrations & App Directory",
+        "h2: Need hands-on help? Hire a Mailchimp expert.",
+        "h3: Related Links:",
+        "h3: Products",
+        "h3: Resources",
+        "h3: Community",
+        "h3: Company"
+      ],
+      "ctas": [
+        "Start today.",
+        "Get a demo: +1 (855) 332-2567",
+        "Start Free Trial",
+        "Free Marketing Tools",
+        "Agencies & Freelancers",
+        "Contact Us",
+        "Talk to Sales"
+      ],
+      "prices": [
+        "Join Mailchimp with a free 14-day trial or save 15% off on 10,000+ contacts. Start today. INTEGRATIO"
+      ],
+      "description": "Find an Integration — See how Mailchimp integrates with your favorite tools and apps to help you do more with your marketing.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Means Web",
+            "body": "Tally",
+            "distinct": [
+              "Tally",
+              "Means Web"
+            ]
+          },
+          "h1Px": 48,
+          "bodyPx": 14,
+          "bodyLineHeight": "17.55px",
+          "backgrounds": [
+            "#ffffff",
+            "#e7b75f",
+            "#000000",
+            "#f5f5f5"
+          ],
+          "accents": [
+            "#ffe01b",
+            "#231e15"
+          ],
+          "textColor": "#ffffff",
+          "buttonRadius": "26px",
+          "buttonHeightPx": 44,
+          "images": 113,
+          "videos": 0,
+          "svgs": 11,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 3207,
+          "domNodes": 1874,
+          "domContentLoadedMs": 718,
+          "loadMs": 1101
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [
+            "Start Free Trial"
+          ],
+          "links": 78
+        }
+      }
+    },
+    {
+      "n": 5,
+      "kind": "solutions",
+      "title": "Content Creation Tools to Make Marketing Easy | Mailchimp",
+      "url": "https://mailchimp.com/solutions/content-creation-tools/",
+      "screenshot": "shots/mailchimp/step-5.webp",
+      "textFile": "data/captures/mailchimp/page-5.txt",
+      "elapsedMs": 35318,
+      "clicks": 0,
+      "via": "nav: Content creation tools",
+      "headings": [
+        "h1: Drive engagement, build trust, and earn loyalty with AI-assisted content creation tools",
+        "h2: Email marketing, powered by AI — your partner for converting more customers",
+        "h3: Up to 30x ROI",
+        "h3: >99% deliverability rate",
+        "h3: 11M+ Users",
+        "h3: 50+ behavior-based triggers",
+        "h2: Create effective marketing campaigns in minutes with AI-built email and automations*",
+        "h2: Use branded templates to stay consistent every time",
+        "h2: Elevate your branding with Canva and Mailchimp integration",
+        "h2: Test, understand, and optimize your content with Mailchimp",
+        "h2: Boost engagement with data-driven recommendations",
+        "h2: Use A/B testing to find out what your audience really wants",
+        "h2: Get started today",
+        "h2: Premium",
+        "h2: Standard",
+        "h2: Essentials",
+        "h2: What's new in Mailchimp?",
+        "h2: Learn more about content creation",
+        "h3: ChatGPT: What to know about this AI content writing tool",
+        "h3: 10 AI writing tools everyone should know about",
+        "h3: What is an AI content generator? Pros, cons & examples",
+        "h3: What are the basic tools for content creators?",
+        "h3: What is a digital content creation tool?",
+        "h3: Why use content creation tools?",
+        "h3: How to start content creation",
+        "h3: Why is content creation important?",
+        "h3: What is content creation?",
+        "h3: How to automate content creation",
+        "h3: What is content creation in social media?",
+        "h2: Need to hire a helping hand? We got you.",
+        "h2: Transform content into revenue",
+        "h3: Related Links:",
+        "h3: Products",
+        "h3: Resources",
+        "h3: Community",
+        "h3: Company"
+      ],
+      "ctas": [
+        "Start today.",
+        "Get a demo: +1 (855) 332-2567",
+        "Start Free Trial",
+        "Learn more about templates",
+        "Explore AI Tools",
+        "Explore A/B testing",
+        "Buy Now",
+        "Sign Up Free",
+        "Free Trial Terms",
+        "Learn more",
+        "How to start content creation",
+        "Explore Mailchimp Experts",
+        "Get started",
+        "Free Marketing Tools"
+      ],
+      "prices": [
+        "Join Mailchimp with a free 14-day trial or save 15% off on 10,000+ contacts. Start today. CONTENT CR",
+        "sales. Up to 30x ROI seen by Mailchimp users* >99% deliverability rate for email (average) 11M+ Us",
+        "cts, and priority support; built for teams. Save 15% on 10,000+ contacts $ 297 50 /mo for 12 months",
+        "; built for teams. Save 15% on 10,000+ contacts $ 297 50 /mo for 12 months $297.50 per month for 12 mo",
+        "on 10,000+ contacts $ 297 50 /mo for 12 months $297.50 per month for 12 months Then, starts at $350/month† per mo",
+        "$297.50 per month for 12 months Then, starts at $350/month† per month† Phone & Priority Support tooltip Pop",
+        "Try for free Free for 14 days Then, starts at $20/month† per month† Save 15% on 10,000+ contacts 24/7 Em",
+        "days Then, starts at $20/month† per month† Save 15% on 10,000+ contacts 24/7 Email & Chat Support too",
+        "Try for free Free for 14 days Then, starts at $13/month† per month† Save 15% on 10,000+ contacts 24/7 Em",
+        "days Then, starts at $13/month† per month† Save 15% on 10,000+ contacts 24/7 Email & Chat Support too",
+        "ore about your customers. Limit of 250 contacts $ 0 /month† per month† Email support for first 30 days tool"
+      ],
+      "description": "See how Mailchimp’s content creation tools can automate your process for creating emails, social posts and more.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Means Web",
+            "body": "Tally",
+            "distinct": [
+              "Tally",
+              "Means Web",
+              "Lato"
+            ]
+          },
+          "h1Px": 48,
+          "bodyPx": 11,
+          "bodyLineHeight": "17.55px",
+          "backgrounds": [
+            "#ffffff",
+            "#f6f6f4",
+            "#000000",
+            "#ffe01b"
+          ],
+          "accents": [
+            "#ffe01b"
+          ],
+          "textColor": "#ffffff",
+          "buttonRadius": "26px",
+          "buttonHeightPx": 44,
+          "images": 101,
+          "videos": 1,
+          "svgs": 76,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 9140,
+          "domNodes": 3235,
+          "domContentLoadedMs": 1083,
+          "loadMs": 2797
+        },
+        "merch": {
+          "planCards": 4,
+          "priceElements": 4,
+          "badges": [
+            "Save 15%",
+            "Best value",
+            "Free"
+          ],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [
+            "Start Free Trial",
+            "Free Trial Terms",
+            "Free Trial Terms"
+          ],
+          "links": 81
+        }
+      }
+    },
+    {
+      "n": 6,
+      "kind": "customers",
+      "title": "SMS and Email Marketing Case Studies | Mailchimp",
+      "url": "https://mailchimp.com/case-studies/",
+      "screenshot": "shots/mailchimp/step-6.webp",
+      "textFile": "data/captures/mailchimp/page-6.txt",
+      "elapsedMs": 39564,
+      "clicks": 0,
+      "via": "nav: Case Studies",
+      "headings": [
+        "h2: Marketing Library",
+        "h1: Success Stories",
+        "h2: Latest items",
+        "h3: Budget Atlanta’s email open rates jumped 4x with segmentation",
+        "h3: Mailchimp is the ‘heartbeat’ of High Fives Foundation",
+        "h3: 3form Uses automation to Stay Top of Mind",
+        "h3: Riot Fest builds a loyal audience with SMS marketing",
+        "h3: Related Links:",
+        "h3: Products",
+        "h3: Resources",
+        "h3: Community",
+        "h3: Company"
+      ],
+      "ctas": [
+        "Start today.",
+        "Get a demo: +1 (855) 332-2567",
+        "Start Free Trial",
+        "Explore Topics",
+        "Free Marketing Tools",
+        "Agencies & Freelancers",
+        "Contact Us",
+        "Talk to Sales"
+      ],
+      "prices": [
+        "Join Mailchimp with a free 14-day trial or save 15% off on 10,000+ contacts. Start today. Success St"
+      ],
+      "description": "See how businesses use Mailchimp. Whether you're just starting out or getting ready to scale, learn from entrepreneurs who have been there.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Means Web",
+            "body": "Tally",
+            "distinct": [
+              "Tally",
+              "Means Web"
+            ]
+          },
+          "h1Px": 48,
+          "bodyPx": 16,
+          "bodyLineHeight": "17.55px",
+          "backgrounds": [
+            "#ffffff",
+            "#e7b75f",
+            "#000000",
+            "#ffccd8"
+          ],
+          "accents": [
+            "#ffe01b"
+          ],
+          "textColor": "#ffffff",
+          "buttonRadius": "26px",
+          "buttonHeightPx": 44,
+          "images": 99,
+          "videos": 0,
+          "svgs": 7,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 2765,
+          "domNodes": 1628,
+          "domContentLoadedMs": 1061,
+          "loadMs": 1497
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [
+            "Start Free Trial"
+          ],
+          "links": 76
+        }
+      }
+    },
+    {
+      "n": 7,
+      "kind": "company",
+      "title": "Why You Should Use Mailchimp As Your Marketing Platform | Mailchimp",
+      "url": "https://mailchimp.com/why-mailchimp/",
+      "screenshot": "shots/mailchimp/step-7.webp",
+      "textFile": "data/captures/mailchimp/page-7.txt",
+      "elapsedMs": 45234,
+      "clicks": 0,
+      "via": "nav: Why Mailchimp?",
+      "headings": [
+        "h1: Why Mailchimp is built for growing businesses",
+        "h2: The marketing and commerce tools you need, all in one place",
+        "h2: Keep pushing forward. We've got your back.",
+        "h2: Ready to get started?",
+        "h2: Award-winning support",
+        "h2: 300+ app integrations",
+        "h2: Expert guidance",
+        "h2: You'll be in good company",
+        "h2: Ready to grow your business?",
+        "h2: Continue reading about Mailchimp",
+        "h3: Email Marketing for Beginners: How to Use Mailchimp",
+        "h3: Mailchimp vs Hubspot and Klaviyo: See how we compare",
+        "h3: Marketing Resources",
+        "h3: Related Links:",
+        "h3: Products",
+        "h3: Resources",
+        "h3: Community",
+        "h3: Company"
+      ],
+      "ctas": [
+        "Start today.",
+        "Get a demo: +1 (855) 332-2567",
+        "Start Free Trial",
+        "Learn more",
+        "Explore apps",
+        "Sign Up",
+        "Free Marketing Tools",
+        "Agencies & Freelancers",
+        "Contact Us",
+        "Talk to Sales"
+      ],
+      "prices": [
+        "Join Mailchimp with a free 14-day trial or save 15% off on 10,000+ contacts. Start today. WHY MAILCH"
+      ],
+      "description": "See why Mailchimp is a marketing platform for growing businesses, with tools for email, automation, audience management, campaigns, and customer engagement.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Means Web",
+            "body": "Tally",
+            "distinct": [
+              "Tally",
+              "Means Web"
+            ]
+          },
+          "h1Px": 48,
+          "bodyPx": 16,
+          "bodyLineHeight": "17.55px",
+          "backgrounds": [
+            "#ffffff",
+            "#e7b75f",
+            "#ffe01b",
+            "#000000"
+          ],
+          "accents": [
+            "#ffe01b"
+          ],
+          "textColor": "#ffffff",
+          "buttonRadius": "26px",
+          "buttonHeightPx": 44,
+          "images": 106,
+          "videos": 1,
+          "svgs": 7,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 6119,
+          "domNodes": 1729,
+          "domContentLoadedMs": 1602,
+          "loadMs": 2053
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [
+            "Start Free Trial",
+            "Start Free Trial"
+          ],
+          "links": 77
+        }
+      }
+    },
+    {
+      "n": 8,
+      "kind": "resources",
+      "title": "Help Center | Mailchimp",
+      "url": "https://mailchimp.com/help/",
+      "screenshot": "shots/mailchimp/step-8.webp",
+      "textFile": "data/captures/mailchimp/page-8.txt",
+      "elapsedMs": 49783,
+      "clicks": 0,
+      "via": "nav: Help Center",
+      "headings": [
+        "h1: Know More, Do More with Mailchimp",
+        "h2: Popular guides and tutorials",
+        "h3: Know to Grow: Feature guide for smart marketing",
+        "h3: Getting Started with Tags",
+        "h3: Requirements and Best Practices for Audiences",
+        "h3: Import Contacts to Mailchimp",
+        "h3: About Mailchimp Pricing Plans",
+        "h3: About SMS Marketing with Mailchimp",
+        "h2: Quick start video tutorials",
+        "h3: How to Create a New Audience for Smarter Growth",
+        "h3: How to Organize Add, Remove, and Bulk Tag Contacts in 3 Simple Ways",
+        "h3: Create a Successful Email: A Step-by-Step Guide",
+        "h2: Contact our Support team",
+        "h2: Help by topic",
+        "h3: Accounts",
+        "h3: Audiences",
+        "h3: Automation",
+        "h3: Data Privacy",
+        "h3: Edit and Design",
+        "h3: Email Delivery",
+        "h3: Emails",
+        "h3: Getting Started",
+        "h3: Google Remarketing Ads",
+        "h3: Integrations",
+        "h3: Landing Pages",
+        "h3: Mailchimp & Co",
+        "h3: Merge Tags",
+        "h3: Mobile Apps",
+        "h3: Reports",
+        "h3: Templates",
+        "h3: Transactional Email",
+        "h3: Websites",
+        "h2: Get help from an expert",
+        "h2: Still have questions?",
+        "h3: Related Links:",
+        "h3: Products",
+        "h3: Resources",
+        "h3: Community",
+        "h3: Company"
+      ],
+      "ctas": [
+        "Start today.",
+        "Get a demo: +1 (855) 332-2567",
+        "Start Free Trial",
+        "Getting Started with Tags",
+        "Import Contacts to Mailchimp",
+        "Sign up free",
+        "Contact us",
+        "Free Marketing Tools",
+        "Agencies & Freelancers",
+        "Contact Us",
+        "Talk to Sales"
+      ],
+      "prices": [
+        "Join Mailchimp with a free 14-day trial or save 15% off on 10,000+ contacts. Start today. Know More,"
+      ],
+      "description": "Learn about Mailchimp's features. Find tutorials, guides, videos and more.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Means Web",
+            "body": "Tally",
+            "distinct": [
+              "Tally",
+              "Means Web"
+            ]
+          },
+          "h1Px": 48,
+          "bodyPx": 13,
+          "bodyLineHeight": "17.55px",
+          "backgrounds": [
+            "#ffffff",
+            "#e7b75f",
+            "#000000",
+            "#ebe1cd"
+          ],
+          "accents": [
+            "#ffe01b"
+          ],
+          "textColor": "#ffffff",
+          "buttonRadius": "26px",
+          "buttonHeightPx": 44,
+          "images": 102,
+          "videos": 0,
+          "svgs": 11,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 6104,
+          "domNodes": 1793,
+          "domContentLoadedMs": 447,
+          "loadMs": 879
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [
+            "Start Free Trial"
+          ],
+          "links": 95
+        }
+      }
+    },
+    {
+      "n": 9,
+      "kind": "platform",
+      "title": "Changelog | Mailchimp | Developer",
+      "url": "https://mailchimp.com/developer/release-notes/",
+      "screenshot": "shots/mailchimp/step-9.webp",
+      "textFile": "data/captures/mailchimp/page-9.txt",
+      "elapsedMs": 55946,
+      "clicks": 0,
+      "via": "nav: Release notes",
+      "headings": [
+        "h1: Changelog",
+        "h3: Mailchimp Transactional status added to server status page",
+        "h3: New Audiences endpoints (BETA)",
+        "h3: Overwriting campaign_id and outreach_id",
+        "h3: Webhook retry interval increased",
+        "h3: Updated Mailchimp Transactional client libraries",
+        "h3: New sending domain authentication requirements",
+        "h3: Changing API server response for client errors",
+        "h3: Response code updated for invalid template name",
+        "h3: Retiring legacy versions of Transport Layer Security (TLS) protocol",
+        "h3: Export API 1.0 and API 2.0 no longer supported",
+        "h3: Added client secret rotation functionality",
+        "h3: Subject and TO header no longer require encoding",
+        "h3: Changing messages/info server response",
+        "h3: Message search rate limit now enforced",
+        "h3: Added support for 401 Unauthorized response code",
+        "h3: Updated export download security",
+        "h3: Added empty alt tag to tracking pixels",
+        "h3: Added a field to various Transactional responses when messages are queued",
+        "h3: Added time limit to message scheduling",
+        "h3: IP validation now enforced on Add or Update List Member",
+        "h2: Join Mailchimp"
+      ],
+      "ctas": [
+        "Sign Up",
+        "Webhook retry interval increased",
+        "Contact Us"
+      ],
+      "prices": [],
+      "description": "Find all the Mailchimp API documentation and tools developers need to send marketing and transactional emails.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Means Web",
+            "body": "Graphik Web",
+            "distinct": [
+              "Graphik Web",
+              "Means Web"
+            ]
+          },
+          "h1Px": 50,
+          "bodyPx": 14,
+          "bodyLineHeight": "24px",
+          "backgrounds": [
+            "#efeeea",
+            "#0c2832",
+            "#241c15",
+            "#201000"
+          ],
+          "accents": [
+            "#007c89",
+            "#068bb9"
+          ],
+          "textColor": "#060500",
+          "buttonRadius": "8px",
+          "buttonHeightPx": 32,
+          "images": 26,
+          "videos": 0,
+          "svgs": 21,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 4183,
+          "domNodes": 1041,
+          "domContentLoadedMs": 1160,
+          "loadMs": 1925
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 66
+        }
+      }
+    },
+    {
+      "n": 10,
+      "kind": "product",
+      "title": "Marketing Tools for Restaurants | Mailchimp",
+      "url": "https://mailchimp.com/solutions/marketing-tools-restaurants/",
+      "screenshot": "shots/mailchimp/step-10.webp",
+      "textFile": "data/captures/mailchimp/page-10.txt",
+      "elapsedMs": 63754,
+      "clicks": 0,
+      "via": "nav: Restaurants",
+      "headings": [
+        "h1: Drive repeat diners with unified email & SMS",
+        "h2: 500 million",
+        "h2: >99% email",
+        "h2: Learn about Mailchimp’s recipe for marketing success",
+        "h2: Convert more customers",
+        "h2: See more and scale faster",
+        "h2: Use SMS to expand your reach",
+        "h2: SMS marketing is a game-changer for restaurants",
+        "h2: At Gruppo Terroni, Mailchimp is the key to driving repeat business",
+        "h2: Businesses like yours trust Mailchimp",
+        "h2: Leveraging AI for mid-market growth",
+        "h2: The Art of the Opt‑In: Why List Building is Just the Beginning",
+        "h3: Get actionable insights to help build opt-in form experiences that balance customer expectations with business goals—so you can create lasting relationships and drive revenue growth.",
+        "h2: There’s even more to learn",
+        "h3: 8 Ways to Upgrade Your Email Marketing for Restaurants",
+        "h3: Texting the Table: SMS Marketing for Restaurants",
+        "h3: Top Restaurant CRM Features to Boost Marketing Success",
+        "h3: Why should a restaurant use Mailchimp for email marketing?",
+        "h3: How can Mailchimp help grow a restaurant's email marketing list?",
+        "h3: How can a restaurant use SMS marketing from Mailchimp?",
+        "h3: What are the benefits of using Mailchimp's SMS marketing tools for a restaurant?",
+        "h2: Millions of users trust us with their marketing. You can too.",
+        "h3: Related Links:",
+        "h3: Products",
+        "h3: Resources",
+        "h3: Community",
+        "h3: Company"
+      ],
+      "ctas": [
+        "Start today.",
+        "Get a demo: +1 (855) 332-2567",
+        "Start Free Trial",
+        "Schedule a demo",
+        "Sign up",
+        "Free Marketing Tools",
+        "Agencies & Freelancers",
+        "Contact Us",
+        "Talk to Sales"
+      ],
+      "prices": [
+        "Join Mailchimp with a free 14-day trial or save 15% off on 10,000+ contacts. Start today. MARKETING",
+        "s* 500 million emails sent each day (average) >99% email delivery rate (average) for Mailchimp tran",
+        "ils, view Mailchimp’s various plans and pricing. >99% Delivery Rate for Transactional and Marketing Ema"
+      ],
+      "description": "See how Mailchimp's marketing tools for restaurants help you stay connected with diners and bring them back again and again.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Means Web",
+            "body": "Tally",
+            "distinct": [
+              "Tally",
+              "Means Web"
+            ]
+          },
+          "h1Px": 48,
+          "bodyPx": 16,
+          "bodyLineHeight": "17.55px",
+          "backgrounds": [
+            "#ffffff",
+            "#231e15",
+            "#000000",
+            "#ebe1cd"
+          ],
+          "accents": [
+            "#ffe01b"
+          ],
+          "textColor": "#ffffff",
+          "buttonRadius": "26px",
+          "buttonHeightPx": 44,
+          "images": 109,
+          "videos": 0,
+          "svgs": 11,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 8013,
+          "domNodes": 2131,
+          "domContentLoadedMs": 1183,
+          "loadMs": 1588
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [
+            "Start Free Trial"
+          ],
+          "links": 69
+        }
+      }
+    },
+    {
+      "n": 11,
+      "kind": "signup",
+      "title": "Email & SMS Marketing Platform | Mailchimp",
+      "url": "https://mailchimp.com/",
+      "screenshot": "shots/mailchimp/step-11.webp",
+      "textFile": "data/captures/mailchimp/page-11.txt",
+      "elapsedMs": 13062,
+      "clicks": 1,
+      "via": "click: \"Start Free Trial\"",
+      "headings": [
+        "h1: Turn ideas into emails & SMS that connect",
+        "h2: Recommended for your business",
+        "h3: Design with ease",
+        "h3: Get more sales",
+        "h3: Reach your audience on any device",
+        "h3: Connect all your apps",
+        "h2: Take an interactive product tour",
+        "h2: Mailchimp customers generated $1.1 billion in gross revenue in just 62 days.",
+        "h2: Mailchimp customers saw up to 8x more orders on average with automation flows.",
+        "h2: Businesses like yours are thriving with Mailchimp",
+        "h2: Try our Standard plan for free!",
+        "h2: Standard",
+        "h2: One marketing platform to unite 300+ apps",
+        "h2: Millions of users trust us with their email marketing. You can too.",
+        "h3: Related Links:",
+        "h3: Products",
+        "h3: Resources",
+        "h3: Community",
+        "h3: Company"
+      ],
+      "ctas": [
+        "Start today.",
+        "Get a demo: +1 (855) 336-8916",
+        "Start Free Trial",
+        "See all demos",
+        "See pricing",
+        "Try it for free",
+        "Request demo",
+        "Sign Up",
+        "Free",
+        "Free Trial Terms",
+        "Free Marketing Tools",
+        "Agencies & Freelancers",
+        "Contact Us",
+        "Talk to Sales"
+      ],
+      "prices": [
+        "Join Mailchimp with a free 14-day trial or save 15% off on 10,000+ contacts. Start today. Industries",
+        "tions Powerful e-commerce integrations Save up to 42% by switching from Klaviyo to Mailchimp* Learn abo",
+        "-powered content tips Mailchimp users saw up to a 97% click rate when they used both Email and SMS See",
+        "free Peak Season Mailchimp customers generated $1.1 billion in gross revenue in just 62 days. Based o",
+        "ur expectations.\" 142x ROI on first SMS launch 30% of revenue attributed to Mailchimp Hume Merritt",
+        "nsparency, true partnership, and great service.\" 40% estimated cost savings 10x lift in email signu",
+        "open and click-through rates.\" 30x revenue ROI 58% open rate Simon Dahl, Email Marketing Manager,",
+        "o slide 3 of 3 Request demo Sign Up Try free Save 15% on 10,000+ contacts Try our Standard plan for fre",
+        "+ Try for free Free for 14 days Then, starts at $20/month† per month† Save 15% on 10,000+ contacts Start F",
+        "days Then, starts at $20/month† per month† Save 15% on 10,000+ contacts Start Free Trial †See Free T"
+      ],
+      "description": "Utilize real-time user behavior data and artificial intelligence to convert more customers. Easy to use, get started for free!",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Means Web",
+            "body": "Tally",
+            "distinct": [
+              "Tally",
+              "Means Web"
+            ]
+          },
+          "h1Px": 64,
+          "bodyPx": 16,
+          "bodyLineHeight": "17.55px",
+          "backgrounds": [
+            "#ffffff",
+            "#231e15",
+            "#000000",
+            "#f5f5f5"
+          ],
+          "accents": [
+            "#ffe01b",
+            "#231e15"
+          ],
+          "textColor": "#ffffff",
+          "buttonRadius": "26px",
+          "buttonHeightPx": 44,
+          "images": 172,
+          "videos": 0,
+          "svgs": 44,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 8276,
+          "domNodes": 3083,
+          "domContentLoadedMs": 591,
+          "loadMs": 899
+        },
+        "merch": {
+          "planCards": 1,
+          "priceElements": 1,
+          "badges": [
+            "Save 15%",
+            "free",
+            "Free"
+          ],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [
+            "Start Free Trial",
+            "Start Free Trial",
+            "Save up to 42% by switching from Klaviyo to Mailchimp*",
+            "Start Free Trial",
+            "Free Trial Terms",
+            "Start Free Trial"
+          ],
+          "links": 133
+        }
+      },
+      "form": {
+        "fields": [
+          {
+            "type": "select",
+            "label": "Currency"
+          },
+          {
+            "type": "select",
+            "label": "Contacts"
+          },
+          {
+            "type": "select",
+            "label": "This page is now available in other lang"
+          }
+        ],
+        "alternatives": [],
+        "submit": [],
+        "consent": [],
+        "pageHeightPx": 8276,
+        "passwordAsked": false
+      }
+    },
+    {
+      "n": 12,
+      "kind": "signup",
+      "title": "Mailchimp Pricing Plans | Get Started Today | Mailchimp",
+      "url": "https://mailchimp.com/pricing/marketing/",
+      "screenshot": "shots/mailchimp/step-12.webp",
+      "textFile": "data/captures/mailchimp/page-12.txt",
+      "elapsedMs": 23257,
+      "clicks": 2,
+      "via": "click: \"Try it for free\"",
+      "headings": [
+        "h2: Try our Standard plan for free!",
+        "h2: Standard",
+        "h2: Customize plans & offers",
+        "h2: Under 250 contacts? It's free.",
+        "h2: Premium",
+        "h2: Standard",
+        "h2: Essentials",
+        "h2: Work with a trusted industry leader",
+        "h2: Get started easily with a personalized product tour",
+        "h2: Rates for nonprofits and charities",
+        "h2: Prefer to pay as you go?",
+        "h2: Basic plans for smaller businesses",
+        "h3: How long is the free trial?",
+        "h3: Can I upgrade or downgrade my plan during the free trial?",
+        "h3: What happens if I pause or cancel during the free trial?",
+        "h3: Will I get billing reminders before the free trial ends?",
+        "h3: How do I get access to SMS?",
+        "h3: How do SMS credits work?",
+        "h3: Can I buy email credits instead of a monthly or annual marketing plan?",
+        "h3: How do I switch to a different plan?",
+        "h3: What payment methods do you offer?",
+        "h3: What happens if I hit the contact or sending limit?",
+        "h3: Do you have pricing for high-volume email senders?",
+        "h3: Related Links:",
+        "h3: Products",
+        "h3: Resources",
+        "h3: Community",
+        "h3: Company"
+      ],
+      "ctas": [
+        "Get a demo: +1 (855) 336-8916",
+        "Start Free Trial",
+        "Free",
+        "Request a demo",
+        "Free Trial Terms",
+        "Sign Up",
+        "Buy Now",
+        "Learn more about onboarding",
+        "Get started",
+        "Learn more",
+        "About Free",
+        "How long is the free trial?",
+        "Contact sales",
+        "Free Marketing Tools"
+      ],
+      "prices": [
+        "Marketing Email & SMS Transactional Try free Save 15% on 10,000+ contacts Try our Standard plan for fre",
+        "+ Try for free Free for 14 days Then, starts at $20/month† per month† Save 15% on 10,000+ contacts Start F",
+        "days Then, starts at $20/month† per month† Save 15% on 10,000+ contacts Start Free Trial †See Free T",
+        "cts, and priority support; built for teams. Save 15% on 10,000+ contacts $ 297 50 /mo for 12 months",
+        "; built for teams. Save 15% on 10,000+ contacts $ 297 50 /mo for 12 months $297.50 per month for 12 mo",
+        "on 10,000+ contacts $ 297 50 /mo for 12 months $297.50 per month for 12 months Then, starts at $350 /month† per m",
+        "$297.50 per month for 12 months Then, starts at $350 /month† per month† Request a demo Buy Now †See Offer T",
+        "Try for free Free for 14 days Then, starts at $20 /month† per month† Save 15% on 10,000+ contacts Start F",
+        "ays Then, starts at $20 /month† per month† Save 15% on 10,000+ contacts Start Free Trial †See Free T",
+        "Try for free Free for 14 days Then, starts at $13 /month† per month† Save 15% on 10,000+ contacts Start F",
+        "ays Then, starts at $13 /month† per month† Save 15% on 10,000+ contacts Start Free Trial †See Free T",
+        "for nonprofits and charities Mailchimp offers a 15% discount to nonprofits and charities. To request",
+        "h limited features on a 14-day free trial or save 15% for 12 months with 10,000+ contacts on our Essent",
+        "uded with select custom plans that spend at least $299 per month with Mailchimp, All calls with the Mailchimp cust",
+        "and functionality of Flows varies by plan. Up to 141% more revenue: Up to 141% more revenue for users'",
+        "ws varies by plan. Up to 141% more revenue: Up to 141% more revenue for users' connected stores using pr",
+        "l 1 2023 period. Standard and Premium plans only. 58% Higher Click Rate: Based on US users who sent bot",
+        ": Standard and Premium users saw 2x more revenue (266%) on average for their connected ecommerce stores"
+      ],
+      "description": "Create beautiful emails, automate campaigns, and track performance. Try it now and see how our tools can drive your business.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": null,
+            "body": "Tally",
+            "distinct": [
+              "Tally",
+              "Means Web"
+            ]
+          },
+          "h1Px": null,
+          "bodyPx": 13,
+          "bodyLineHeight": "21.6px",
+          "backgrounds": [
+            "#ffffff",
+            "#000000",
+            "#f5f5f5",
+            "#ffe01b"
+          ],
+          "accents": [
+            "#ffe01b",
+            "#231e15"
+          ],
+          "textColor": "#004e56",
+          "buttonRadius": "26px",
+          "buttonHeightPx": 44,
+          "images": 103,
+          "videos": 0,
+          "svgs": 126,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 7477,
+          "domNodes": 4876,
+          "domContentLoadedMs": 435,
+          "loadMs": 881
+        },
+        "merch": {
+          "planCards": 2,
+          "priceElements": 5,
+          "badges": [
+            "Save 15%",
+            "free",
+            "Free",
+            "Best value",
+            "Included"
+          ],
+          "billingToggles": [],
+          "tables": 4,
+          "promos": [
+            "Start Free Trial",
+            "Start Free Trial",
+            "Free Trial Terms",
+            "Start Free Trial",
+            "Free Trial Terms",
+            "Start Free Trial"
+          ],
+          "links": 94
+        }
+      },
+      "form": {
+        "fields": [
+          {
+            "type": "select",
+            "label": "Currency"
+          },
+          {
+            "type": "select",
+            "label": "Contacts"
+          },
+          {
+            "type": "select",
+            "label": "Contacts"
+          },
+          {
+            "type": "select",
+            "label": "This page is now available in other lang"
+          }
+        ],
+        "alternatives": [],
+        "submit": [],
+        "consent": [],
+        "pageHeightPx": 7477,
+        "passwordAsked": false
+      }
+    },
+    {
+      "n": 13,
+      "kind": "signup",
+      "title": "Sign Up for Mailchimp",
+      "url": "https://login.mailchimp.com/signup/?plan=free_monthly_plan_v0&locale=en&experiments=DT-3273-cc-gated-cta-pathing:IXP2_T_1686006,x704-checkout-placement-v2:IXP2_T_1707152&subscribers=250",
+      "screenshot": "shots/mailchimp/step-13.webp",
+      "textFile": "data/captures/mailchimp/page-13.txt",
+      "elapsedMs": 32636,
+      "clicks": 3,
+      "via": "click: \"Sign Up\"",
+      "headings": [
+        "h1: Start with Mailchimp for Free"
+      ],
+      "ctas": [
+        "Sign up"
+      ],
+      "prices": [],
+      "description": "Sign up for Mailchimp. #1 AI-Powered Email Marketing and Automations Platform",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Graphik Web",
+            "body": "Graphik Web",
+            "distinct": [
+              "Graphik Web"
+            ]
+          },
+          "h1Px": 40,
+          "bodyPx": 12,
+          "bodyLineHeight": "20px",
+          "backgrounds": [
+            "#f8fafb",
+            "#ffffff",
+            "#ededed",
+            "#241c15"
+          ],
+          "accents": [
+            "#017e89",
+            "#ffe01b"
+          ],
+          "textColor": "#21262a",
+          "buttonRadius": "38px",
+          "buttonHeightPx": 48,
+          "images": 16,
+          "videos": 0,
+          "svgs": 4,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 900,
+          "domNodes": 484,
+          "domContentLoadedMs": 1129,
+          "loadMs": 3014
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 11
+        }
+      },
+      "form": {
+        "fields": [
+          {
+            "type": "select",
+            "label": "English Español Português Italiano Deuts"
+          },
+          {
+            "type": "email",
+            "label": "Business email"
+          },
+          {
+            "type": "password",
+            "label": "Password"
+          }
+        ],
+        "alternatives": [],
+        "submit": [
+          "Sign up"
+        ],
+        "consent": [
+          "Create a free account or log in. By creating an account, you agree to our Terms and have read and acknowledged the Global Privacy Statement.",
+          "©2026 Intuit Inc. All rights reserved. Mailchimp® is a registered trademark of The Rocket Science Group, Cookie Preferences, Privacy, and Terms"
+        ],
+        "pageHeightPx": 900,
+        "passwordAsked": true
+      },
+      "note": "Stopped here: the page asks for an email or password. Nothing is typed."
+    }
+  ],
+  "navMap": [
+    {
+      "label": "See what’s new",
+      "href": "https://mailchimp.com/whats-new/",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Restaurants",
+      "href": "https://mailchimp.com/solutions/marketing-tools-restaurants/",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Entertainment + Leisure",
+      "href": "https://mailchimp.com/solutions/marketing-tools-hotels/",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Non-profit",
+      "href": "https://mailchimp.com/solutions/marketing-tools-nonprofits/",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Ecommerce",
+      "href": "https://mailchimp.com/solutions/ecommerce-marketing-tools/",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Small Business",
+      "href": "https://mailchimp.com/solutions/email-sms-small-businesses/",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Professional Services",
+      "href": "https://mailchimp.com/solutions/email-sms-professional-services/",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Mid Market",
+      "href": "https://mailchimp.com/solutions/email-sms-growing-businesses/",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Email marketing",
+      "href": "https://mailchimp.com/solutions/email-marketing-platform/",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "SMS marketing",
+      "href": "https://mailchimp.com/solutions/sms-marketing-tools/",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "AI marketing tools",
+      "href": "https://mailchimp.com/solutions/ai-tools/",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Marketing automations",
+      "href": "https://mailchimp.com/solutions/marketing-automation-tools/",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Content creation tools",
+      "href": "https://mailchimp.com/solutions/content-creation-tools/",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "Social media marketing",
+      "href": "https://mailchimp.com/solutions/social-media-marketing-tools/",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Reporting and analytics",
+      "href": "https://mailchimp.com/solutions/analytics-reporting-tools/",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Lead generation platform",
+      "href": "https://mailchimp.com/solutions/lead-generation-platform/",
+      "area": "header",
+      "kind": "platform"
+    },
+    {
+      "label": "Templates",
+      "href": "https://mailchimp.com/solutions/digital-marketing-templates/",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "All audience tools",
+      "href": "https://mailchimp.com/audience/",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "See all features and solutions",
+      "href": "https://mailchimp.com/features/",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Help Center",
+      "href": "https://mailchimp.com/help/",
+      "area": "header",
+      "kind": "resources"
+    },
+    {
+      "label": "Case Studies",
+      "href": "https://mailchimp.com/case-studies/",
+      "area": "header",
+      "kind": "customers"
+    },
+    {
+      "label": "Events",
+      "href": "https://mailchimp.com/events/",
+      "area": "header",
+      "kind": "resources"
+    },
+    {
+      "label": "Hire an Expert",
+      "href": "https://mailchimp.com/experts/",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Personalized onboarding",
+      "href": "https://mailchimp.com/services/onboarding/",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Customer success",
+      "href": "https://mailchimp.com/services/customer-success-management/",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "See 300+ Integrations",
+      "href": "https://mailchimp.com/integrations/",
+      "area": "header",
+      "kind": "platform"
+    },
+    {
+      "label": "Shopify",
+      "href": "https://mailchimp.com/integrations/shopify-mailchimp/",
+      "area": "header",
+      "kind": "platform"
+    },
+    {
+      "label": "WooCommerce",
+      "href": "https://mailchimp.com/integrations/woocommerce-mailchimp/",
+      "area": "header",
+      "kind": "platform"
+    },
+    {
+      "label": "Canva",
+      "href": "https://mailchimp.com/integrations/canva/",
+      "area": "header",
+      "kind": "platform"
+    },
+    {
+      "label": "Zapier",
+      "href": "https://mailchimp.com/integrations/zapier/",
+      "area": "header",
+      "kind": "platform"
+    },
+    {
+      "label": "Square",
+      "href": "https://mailchimp.com/integrations/square/",
+      "area": "header",
+      "kind": "platform"
+    },
+    {
+      "label": "Wix",
+      "href": "https://mailchimp.com/integrations/wix/",
+      "area": "header",
+      "kind": "platform"
+    },
+    {
+      "label": "Squarespace",
+      "href": "https://mailchimp.com/integrations/squarespace-commerce/",
+      "area": "header",
+      "kind": "platform"
+    },
+    {
+      "label": "Stripe",
+      "href": "https://mailchimp.com/integrations/stripe/",
+      "area": "header",
+      "kind": "platform"
+    },
+    {
+      "label": "Salesforce",
+      "href": "https://mailchimp.com/integrations/salesforce/",
+      "area": "header",
+      "kind": "platform"
+    },
+    {
+      "label": "LinkedIn",
+      "href": "https://mailchimp.com/integrations/linkedin-lead-gen-forms/",
+      "area": "header",
+      "kind": "platform"
+    },
+    {
+      "label": "Wordpress",
+      "href": "https://mailchimp.com/integrations/wordpress/",
+      "area": "header",
+      "kind": "platform"
+    },
+    {
+      "label": "Facebook",
+      "href": "https://mailchimp.com/integrations/facebook/",
+      "area": "header",
+      "kind": "platform"
+    },
+    {
+      "label": "E-commerce",
+      "href": "https://mailchimp.com/integrations/?categories=E-commerce",
+      "area": "header",
+      "kind": "platform"
+    },
+    {
+      "label": "Analytics",
+      "href": "https://mailchimp.com/integrations/?categories=Analytics",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Booking & Scheduling",
+      "href": "https://mailchimp.com/integrations/?categories=Booking+%26+Scheduling",
+      "area": "header",
+      "kind": "platform"
+    },
+    {
+      "label": "Loyalty",
+      "href": "https://mailchimp.com/integrations/?categories=Loyalty",
+      "area": "header",
+      "kind": "platform"
+    },
+    {
+      "label": "Subscription management",
+      "href": "https://mailchimp.com/integrations/?categories=Subscription+Management",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Customer service",
+      "href": "https://mailchimp.com/integrations/?categories=Customer+Service",
+      "area": "header",
+      "kind": "platform"
+    },
+    {
+      "label": "Forms & Surveys",
+      "href": "https://mailchimp.com/integrations/?categories=Forms+%26+Surveys",
+      "area": "header",
+      "kind": "platform"
+    },
+    {
+      "label": "Developer tools",
+      "href": "https://mailchimp.com/integrations/?categories=Developer+Tools",
+      "area": "header",
+      "kind": "platform"
+    },
+    {
+      "label": "Content",
+      "href": "https://mailchimp.com/integrations/?categories=Content",
+      "area": "header",
+      "kind": "platform"
+    },
+    {
+      "label": "Getting started",
+      "href": "https://mailchimp.com/developer/marketing/docs/fundamentals/",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Developer guides",
+      "href": "https://mailchimp.com/developer/marketing/guides/quick-start/",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "API docs",
+      "href": "https://mailchimp.com/developer/marketing/api/",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Webhooks",
+      "href": "https://mailchimp.com/developer/marketing/guides/sync-audience-data-webhooks/",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "See all resources",
+      "href": "https://mailchimp.com/resources/",
+      "area": "header",
+      "kind": "resources"
+    },
+    {
+      "label": "E-commerce",
+      "href": "https://mailchimp.com/resources/e-commerce/",
+      "area": "header",
+      "kind": "resources"
+    },
+    {
+      "label": "Digital content",
+      "href": "https://mailchimp.com/resources/digital-content/",
+      "area": "header",
+      "kind": "resources"
+    },
+    {
+      "label": "Audience management",
+      "href": "https://mailchimp.com/resources/crm/",
+      "area": "header",
+      "kind": "resources"
+    },
+    {
+      "label": "Websites",
+      "href": "https://mailchimp.com/resources/free-marketing-features-overview/",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Email marketing",
+      "href": "https://mailchimp.com/resources/email/",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Social media",
+      "href": "https://mailchimp.com/resources/social-media/",
+      "area": "header",
+      "kind": "resources"
+    },
+    {
+      "label": "Intuit QuickBooks",
+      "href": "https://mailchimp.com/landers/quickbooks/",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Transactional API",
+      "href": "https://mailchimp.com/developer/transactional/guides/quick-start",
+      "area": "header",
+      "kind": "platform"
+    },
+    {
+      "label": "Release notes",
+      "href": "https://mailchimp.com/developer/release-notes/",
+      "area": "header",
+      "kind": "platform"
+    },
+    {
+      "label": "Transactional email",
+      "href": "https://mailchimp.com/features/transactional-email/",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Switch to Mailchimp",
+      "href": "https://mailchimp.com/switch-to-mailchimp/",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Pricing",
+      "href": "https://mailchimp.com/pricing/marketing/",
+      "area": "header",
+      "kind": "pricing"
+    },
+    {
+      "label": "ES Español",
+      "href": "https://mailchimp.com/es/",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "FR Français",
+      "href": "https://mailchimp.com/fr/",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "BR Português",
+      "href": "https://mailchimp.com/pt-br/",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "DE Deutsch",
+      "href": "https://mailchimp.com/de/",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "IT Italiano",
+      "href": "https://mailchimp.com/it/",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Google My Business",
+      "href": "https://mailchimp.com/marketing-glossary/google-my-business/",
+      "area": "footer",
+      "kind": "product"
+    },
+    {
+      "label": "Why Mailchimp?",
+      "href": "https://mailchimp.com/why-mailchimp/",
+      "area": "footer",
+      "kind": "company"
+    },
+    {
+      "label": "Email Marketing",
+      "href": "https://mailchimp.com/features/email/",
+      "area": "footer",
+      "kind": "product"
+    },
+    {
+      "label": "How We Compare",
+      "href": "https://mailchimp.com/resources/mailchimp-comparisons/",
+      "area": "footer",
+      "kind": "resources"
+    },
+    {
+      "label": "GDPR Compliance",
+      "href": "https://mailchimp.com/gdpr/",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Security",
+      "href": "https://mailchimp.com/about/security/",
+      "area": "footer",
+      "kind": "company"
+    },
+    {
+      "label": "Mobile App",
+      "href": "https://mailchimp.com/features/mailchimp-mobile/",
+      "area": "footer",
+      "kind": "product"
+    },
+    {
+      "label": "Marketing Glossary",
+      "href": "https://mailchimp.com/marketing-glossary/",
+      "area": "footer",
+      "kind": "product"
+    },
+    {
+      "label": "Agencies & Freelancers",
+      "href": "https://mailchimp.com/andco/",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Developers",
+      "href": "https://mailchimp.com/developer/",
+      "area": "footer",
+      "kind": "platform"
+    },
+    {
+      "label": "Our Story",
+      "href": "https://mailchimp.com/about/",
+      "area": "footer",
+      "kind": "company"
+    }
+  ],
+  "stack": {
+    "generator": null,
+    "scriptHosts": [
+      "mailchimp.com",
+      "analytics.tiktok.com",
+      "bat.bing.com",
+      "script.infinity-tracking.com",
+      "cdn.segment.com",
+      "s.pinimg.com",
+      "tag.demandbase.com",
+      "bzrcdn.openai.com",
+      "img.en25.com",
+      "s.yimg.com",
+      "cdn.pdst.fm",
+      "static.ads-twitter.com",
+      "c.amazon-adsystem.com",
+      "vi.ml314.com"
+    ],
+    "signals": [
+      "Google Tag Manager dataLayer",
+      "Segment analytics"
+    ],
+    "server": "istio-envoy",
+    "poweredBy": null
+  },
+  "sources": [
+    "https://mailchimp.com"
+  ],
+  "dossier": {
+    "sections": [
+      {
+        "id": "positioning",
+        "title": "Positioning",
+        "summary": "Mailchimp, now presented under the Intuit brand, sells email and SMS marketing with AI and automation to small and growing businesses, with industry pages for restaurants, ecommerce, nonprofits and more.",
+        "keyPoints": [
+          "Homepage: 'Turn ideas into emails & SMS that connect', with an Intuit Intelligence line about winning back customers who've gone quiet.",
+          "A banner offers a free 14-day trial or 15% off on 10,000+ contacts.",
+          "The homepage names a competitor: 'Save up to 42% by switching from Klaviyo to Mailchimp*'.",
+          "Industry pages such as the restaurants page repeat the unified email and SMS pitch in each trade's terms."
+        ]
+      },
+      {
+        "id": "offerings",
+        "title": "Products and offerings",
+        "summary": "An email and SMS marketing suite with AI content tools, automation and a large integration catalog.",
+        "keyPoints": [],
+        "table": {
+          "columns": [
+            "Product",
+            "What it does"
+          ],
+          "rows": [
+            [
+              "Email marketing",
+              "Campaigns, templates, an email builder, A/B testing and popup forms"
+            ],
+            [
+              "SMS marketing",
+              "Texting alongside email, with consent and compliance"
+            ],
+            [
+              "Marketing automation flows",
+              "Behavior-based triggers; customers see up to 8x more orders with flows, by Mailchimp's claim"
+            ],
+            [
+              "AI and content tools",
+              "Generative AI features, Content Studio and dynamic content"
+            ],
+            [
+              "Landing pages and social",
+              "Landing pages and social media marketing"
+            ],
+            [
+              "Transactional email",
+              "A separate API product for developers"
+            ],
+            [
+              "Integrations",
+              "300+ apps including Shopify, WooCommerce, Square, Stripe and Canva"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "pricing",
+        "title": "Pricing",
+        "summary": "Priced by contact count, with a free plan, a 14-day free trial of the Standard plan and paid tiers from $20 a month. The page is a configurator, so most prices appear only after you choose a contact tier.",
+        "keyPoints": [
+          "'Under 250 contacts? It's free.'",
+          "Standard is the lead plan: free for 14 days, then from $20 a month, sending up to 6,000 emails a month at the lowest contact tier.",
+          "A contacts menu steps from 0-500 up to 1,000,000+; a 15% discount applies from 10,000+ contacts.",
+          "Overages apply if the contact or email-send limit is exceeded, and the page notes a 'Find the right plan' recommendation flow and nonprofit rates."
+        ],
+        "table": {
+          "columns": [
+            "Plan",
+            "What the page shows"
+          ],
+          "rows": [
+            [
+              "Free",
+              "For under 250 contacts"
+            ],
+            [
+              "Essentials",
+              "A cheaper step down from Standard; price depends on contacts"
+            ],
+            [
+              "Standard",
+              "Free for 14 days, then from $20 a month; generative AI, enhanced automations, custom-coded templates, popup forms, personalized onboarding"
+            ],
+            [
+              "Premium",
+              "Higher tier for large senders; price depends on contacts"
+            ]
+          ]
+        },
+        "gaps": [
+          "Essentials and Premium prices were not on the page text; a currency selector and the contact configurator hide most prices."
+        ]
+      },
+      {
+        "id": "merchandising",
+        "title": "Merchandising",
+        "summary": "A configurator-led ladder that leads with the middle plan on a free trial and lets visitors downgrade later. Promotions are used heavily, including against a named competitor.",
+        "keyPoints": [
+          "Standard is the default offer: 'Try our Standard plan for free!', with a note that you can downgrade to Essentials or Free at any time.",
+          "A contact-tier menu, a currency selector, a 'Find the right plan' flow and a 15% volume discount make the price list interactive.",
+          "A switch offer ('Save up to 42% by switching from Klaviyo') targets a rival's customers.",
+          "For merchants: automation flows, A/B testing, dynamic content, SMS and email together, landing pages and 300+ integrations."
+        ]
+      },
+      {
+        "id": "platform",
+        "title": "Technical platform",
+        "summary": "A developer section covers the Marketing API and Transactional API with release notes, and the docs advertise a machine-readable index for AI agents.",
+        "keyPoints": [
+          "A public changelog lists API changes for Transactional and the Marketing API, including new Audiences endpoints in beta and a longer webhook retry interval.",
+          "A line on the page tells AI agents that a documentation index is available at /llms.txt, with a markdown version of each page.",
+          "The integrations directory has 300+ apps, filterable, including a developer-tools category."
+        ],
+        "gaps": [
+          "API reference and rate limits were not read."
+        ]
+      },
+      {
+        "id": "design",
+        "title": "Design",
+        "summary": "Warm and friendly: a rounded serif display, a signature yellow and dark brown, pill buttons and a photographic hero. The signup and developer pages use different styles.",
+        "keyPoints": [
+          "Marketing pages use Means Web with yellow (#ffe01b) and dark brown (#231e15) and 26px button corners.",
+          "The home hero is a darkened photograph with a white headline and an italic yellow 'that connect', with a star rating and review-site logos below.",
+          "The pricing page puts a white Standard plan card with a contact-tier menu at the right of a headline and a checklist.",
+          "The signup page switches to Graphik Web with teal (#017e89) and 38px corners, and the developer release notes use teal-blue with 8px corners.",
+          "A strip of Intuit brand links (TurboTax, Credit Karma, QuickBooks, Mailchimp) sits above the header.",
+          "The home page is 8,340px tall."
+        ],
+        "gaps": [
+          "Dark mode was not assessed."
+        ]
+      },
+      {
+        "id": "company",
+        "title": "Company presentation",
+        "summary": "A scale and ratings story, now under the Intuit umbrella, with big numbers that differ from page to page.",
+        "keyPoints": [
+          "Homepage: customers generated $1.1 billion in gross revenue in 62 days, with a rating based on 33,000+ reviews.",
+          "The pricing page says customers see up to 27x ROI; the content-tools page says up to 30x.",
+          "The content-tools page claims 11M+ users and more than 99% deliverability.",
+          "Success stories include Budget Atlanta's 4x open rates from segmentation."
+        ],
+        "gaps": [
+          "No leadership information in the surveyed pages."
+        ]
+      }
+    ]
+  },
+  "signupPath": "From the homepage 'Start Free Trial' goes to the pricing page, where the plan card's own 'Start Free Trial' and a 'Sign Up' button lead on, three clicks in total, to login.mailchimp.com/signup headed 'Start with Mailchimp for Free'. It is a real account form asking language, business email, username and password, with a line saying you agree to the Terms and have read the Global Privacy Statement. Nothing was entered.",
+  "scores": {
+    "jtbd_fit": {
+      "score": 5,
+      "evidence": "Every page is about reaching customers by email and SMS; industry pages name the trade.",
+      "step": 1
+    },
+    "capability_visible": {
+      "score": 4,
+      "evidence": "Features pages, an interactive product tour and a free plan show a lot; the app itself is behind signup.",
+      "step": 3
+    },
+    "pricing_transparency": {
+      "score": 3,
+      "evidence": "Free, and 'from $20' for Standard are clear; other prices appear only after choosing a contact tier.",
+      "step": 2
+    },
+    "product_breadth": {
+      "score": 4,
+      "evidence": "Email, SMS, flows, AI tools, landing pages and transactional are each explained.",
+      "step": 3
+    },
+    "platform_depth": {
+      "score": 4,
+      "evidence": "Marketing and Transactional APIs with a public changelog and an llms.txt index.",
+      "step": 9
+    },
+    "time_to_value": {
+      "score": null,
+      "evidence": "Capture stops before the product; first-value time was not observed.",
+      "step": null
+    },
+    "friction": {
+      "score": 3,
+      "evidence": "The trial path takes three clicks and ends at a form asking language, business email, username and password.",
+      "step": 13
+    },
+    "trust": {
+      "score": 4,
+      "evidence": "A rating based on 33,000+ reviews, review-site logos and case studies with numbers.",
+      "step": 1
+    },
+    "mobile": {
+      "score": null,
+      "evidence": "Phone captures exist for home and pricing but were not assessed.",
+      "step": null
+    },
+    "states": {
+      "score": null,
+      "evidence": "No error or empty states reached.",
+      "step": null
+    },
+    "a11y_basics": {
+      "score": null,
+      "evidence": "Not tested.",
+      "step": null
+    },
+    "value_prop_clarity": {
+      "score": 4,
+      "evidence": "'Turn ideas into emails and SMS that connect' is clear about the channels.",
+      "step": 1
+    },
+    "proof_quality": {
+      "score": 3,
+      "evidence": "ROI claims carry asterisks and differ across pages (27x vs 30x); revenue and rating figures are not sourced on the page.",
+      "step": 2
+    },
+    "persuasion_integrity": {
+      "score": 3,
+      "evidence": "A '42% switch from Klaviyo' offer has an asterisk; trial terms are linked but long.",
+      "step": 1
+    },
+    "cta_logic": {
+      "score": 4,
+      "evidence": "'Start Free Trial' is the one consistent primary action, with 'Get a demo' beside it.",
+      "step": 1
+    },
+    "company_narrative": {
+      "score": 4,
+      "evidence": "The email-and-SMS-with-AI story holds across pages; the Intuit framing is added on top.",
+      "step": 7
+    },
+    "offer_packaging": {
+      "score": 4,
+      "evidence": "Four plans with a configurator and clear lead plan; prices beyond the lowest tier are hidden.",
+      "step": 2
+    },
+    "offer_architecture": {
+      "score": 4,
+      "evidence": "Free tier, a 14-day trial of the middle plan, a downgrade path, a volume discount and a competitor-switch offer.",
+      "step": 2
+    },
+    "merchant_merch_tools": {
+      "score": 4,
+      "evidence": "Automation flows, A/B testing, dynamic content, SMS plus email and landing pages; no catalogue tools.",
+      "step": 3
+    },
+    "visual_craft": {
+      "score": 4,
+      "evidence": "Warm, legible hierarchy with a distinctive yellow; busy top bars.",
+      "step": 1
+    },
+    "system_coherence": {
+      "score": 3,
+      "evidence": "Marketing, signup and developer pages use different fonts, colors and button shapes.",
+      "step": 13
+    },
+    "merchant_design_control": {
+      "score": 4,
+      "evidence": "Branded templates, custom-coded email templates, popup forms and a Canva integration.",
+      "step": 5
+    }
+  },
+  "read": {
+    "summary": "A mature email and SMS platform with a trial-first, configurator-led pricing page and a lot of promotional energy, including an offer aimed at a named competitor. Proof numbers are large but unsourced and inconsistent between pages.",
+    "pros": [
+      "A free plan and a 14-day trial of the middle plan lower the entry bar.",
+      "A public API changelog and an llms.txt index.",
+      "Many merchant tools: flows, A/B tests, SMS plus email and landing pages.",
+      "Case studies and a ratings count add proof."
+    ],
+    "cons": [
+      "Most prices appear only after choosing a contact tier.",
+      "ROI claims differ between pages (27x and 30x) and carry asterisks.",
+      "The trial path takes three clicks and a long form.",
+      "Signup, marketing and developer pages look like different products."
+    ],
+    "howItSells": "Sells approachability and results: a friendly brand, a free start, big revenue and ROI numbers, and a direct switch offer against a competitor.",
+    "copy": [
+      "Make a trial of the middle plan the default offer.",
+      "Let visitors downgrade later and say so.",
+      "Use a configurator for contact-based pricing."
+    ],
+    "avoid": [
+      "ROI numbers that change from page to page.",
+      "A form that asks for username as well as email."
+    ],
+    "tactics": [
+      "anchoring",
+      "social_proof",
+      "commitment_ladder",
+      "loss_aversion"
+    ],
+    "confidence": "medium",
+    "unknowns": [
+      "Prices above the lowest contact tier.",
+      "What the trial includes in practice.",
+      "Mobile experience.",
+      "Essentials and Premium plan details."
+    ],
+    "hypothesis": {
+      "statement": "Showing a plain price table for the first three contact tiers next to the configurator will raise trial starts among visitors who leave before choosing a tier.",
+      "metric": "Pricing-page trial-start rate",
+      "guardrail": "Plan-change and support contacts about billing",
+      "decisionRule": "Ship if trial starts rise by a pre-agreed margin and billing contacts do not rise over four weeks."
+    },
+    "subjects": {
+      "merchandising": {
+        "summary": "A trial-first ladder with a heavy use of promotions, strongest on merchant tools and weakest on showing prices.",
+        "pros": [
+          "Free plan plus a trial of the middle plan.",
+          "Volume discount at 10,000+ contacts.",
+          "A competitor-switch offer."
+        ],
+        "cons": [
+          "Prices hidden behind a configurator.",
+          "Asterisked savings claims."
+        ]
+      },
+      "design": {
+        "summary": "Friendly and distinctive on the marketing site, with a clear seam at signup and the developer pages.",
+        "pros": [
+          "A recognisable yellow and a warm serif give personality.",
+          "The pricing page puts one plan card next to a clear promise."
+        ],
+        "cons": [
+          "Signup and developer pages switch fonts and colors.",
+          "Two stacked top bars before the page starts."
+        ]
+      }
+    }
+  },
+  "claims": [
+    {
+      "text": "Mailchimp customers generated $1.1 billion in gross revenue in just 62 days.",
+      "verdict": "unsupported",
+      "step": 1,
+      "evidenceStep": null
+    },
+    {
+      "text": "Find out why customers see up to 27x ROI* using the Standard plan with a 14-day trial†.",
+      "verdict": "unsupported",
+      "step": 2,
+      "evidenceStep": 5
+    },
+    {
+      "text": "Save up to 42% by switching from Klaviyo to Mailchimp*",
+      "verdict": "unsupported",
+      "step": 1,
+      "evidenceStep": null
+    },
+    {
+      "text": "Under 250 contacts? It's free.",
+      "verdict": "proven",
+      "step": 2,
+      "evidenceStep": null
+    }
+  ],
+  "focus": "signup to first campaign; plan selection"
+}

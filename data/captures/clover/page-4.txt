@@ -1,0 +1,98 @@
+URL: https://www.clover.com/developers
+TITLE: Clover for Developers | Clover
+DESCRIPTION: Clover for Developers. Resources to help you integrate Clover into your own application.
+
+Skip to main content
+Join the Clover developer community
+
+Be a part of the community that’s transforming the way merchants do business. Signing up takes just a few minutes.
+
+CREATE YOUR GLOBAL DEVELOPER ACCOUNT
+Create a Clover developer account
+Developing for Clover
+What’s Clover?
+
+Brand power
+We’re one of the most recognizable names in the point-of-sale space—and the fastest growing. We build powerful, intuitive tools for small and medium-sized businesses.
+
+Robust open platform
+The Clover developer community spans the globe and operates via our dynamic, open platform.
+
+We’ve got your back
+We’re backed by Fiserv, one of the world’s top financial services technology companies.
+
+How it works
+
+Our process
+It’s simple. You create a developer account, check out our docs and APIs, and build a killer app. Submission is easy—upload your app, we review, you make any changes needed, we approve, and you hit the publish button.
+
+Revenue share
+App royalties are 70%, on par with the mainstream app stores. To put that into perspective, we’ve disbursed close to $8 million in earnings to our developers to date.
+
+Awesome dev tools
+We’ve got a pretty robust toolbox. SDKs, APIs, and dev kits. APK management tools, release groups for staged rollouts, and approval status trackers. You also get robust reporting metrics like app installs, revenue statements, and charge histories.
+
+Meet our merchants
+
+Who they are
+Our merchants are small and medium-size businesses of all kinds, from restaurant to service to retail.
+
+Make a difference
+Whether it’s payroll or productivity, sales or scheduling, your app can make a real difference for a business owner.
+
+The numbers are real
+Reach hundreds of thousands of merchants through our app marketplace.
+
+Partner program
+
+Not just a number
+Our developers are more than just developers. They’re partners and collaborators.
+
+Get featured
+We regularly feature apps that are well-suited for our merchants. Yours could be one of them!
+
+We build relationships
+We don’t just do technical support. We listen and we respond. And, you could get your very own dedicated business account manager.
+
+App‑ortunities Abound
+
+Check out these areas ripe with opportunity. Merchants in these industries would benefit from customized tools to help them with everything from inventory management and employee scheduling to sales taxes and online ordering.
+
+AUTOMOTIVE
+
+Auto mechanics, body shops, and dealerships
+
+TAXIS
+
+Taxi & shuttle companies and related services
+
+VALET SERVICES
+
+Merchants in this industry include… well, valet services
+
+SPORT & FITNESS
+
+24-hour gyms, fitness brands, and related sports retailers
+
+GOLF COURSES
+
+Like golfing? So do these businesses!
+
+CONSIGNMENT
+
+Consignment shops and related services
+
+We also recommend looking through the apps already published on our marketplace before you start developing your idea.
+
+Featured Partners
+Developer Resources
+App Market
+App Market
+Explore Clover app market
+Global Developer Dashboard
+Dev Kits
+Documentation
+SDKs
+Join our developer community today!
+CREATE YOUR GLOBAL DEVELOPER ACCOUNT
+Create a Clover developer account

@@ -1,0 +1,2229 @@
+{
+  "id": "square",
+  "name": "Square",
+  "category": "payments-checkout",
+  "url": "https://squareup.com",
+  "flow": "site survey",
+  "capturedAt": "2026-11-22",
+  "rubricVersion": "1.2.0",
+  "status": "evaluated",
+  "surveyMode": "full",
+  "signupEnd": {
+    "state": "account-form",
+    "url": "https://app.squareup.com/signup/en-US",
+    "clicks": 1,
+    "fields": [
+      {
+        "type": "email",
+        "label": "Email"
+      },
+      {
+        "type": "password",
+        "label": "Password"
+      }
+    ],
+    "alternatives": [],
+    "submit": [],
+    "consent": [
+      "I agree to Square's Terms, Privacy Policy, and E-Sign Consent.",
+      "I agree to Square's Terms, Privacy Policy, and E-Sign Consent.",
+      "This site is protected by reCAPTCHA Enterprise and the Google Privacy Policy and Terms of Service apply."
+    ],
+    "pageHeightPx": 900,
+    "passwordAsked": true
+  },
+  "steps": [
+    {
+      "n": 1,
+      "kind": "home",
+      "title": "Power your entire business | Square",
+      "url": "https://squareup.com/us/en",
+      "screenshot": "shots/square/step-1.webp",
+      "textFile": "data/captures/square/page-1.txt",
+      "elapsedMs": 8442,
+      "clicks": 0,
+      "via": "entry",
+      "headings": [
+        "h1: Local legend or global icon. Make it big on your block.",
+        "h2: Whatever your flavor of business, build and grow on your terms.",
+        "h2: Smarter self-service for a faster rush",
+        "h2: Smooth checkout, every time",
+        "h2: AI for the business only you could build",
+        "h2: See your whole business click into place",
+        "h2: Keep your business growing",
+        "h2: Run your entire business with one plan",
+        "h2: Square Free",
+        "h2: Square Plus",
+        "h2: Square Premium",
+        "h2: Make your next move",
+        "h2: Get the latest updates from Square"
+      ],
+      "ctas": [
+        "Sign up",
+        "Get started",
+        "Contact sales",
+        "Learn more",
+        "Buy now",
+        "Square Reader for contactless and chip",
+        "Try free for 30 days",
+        "Buy Now, Pay Later"
+      ],
+      "prices": [
+        "e runs the business. Their side checks out fast. $899 or $44/mo. over 24 months¹ Square Handheld The",
+        "he business. Their side checks out fast. $899 or $44/mo. over 24 months¹ Square Handheld The POS that m",
+        "s¹ Square Handheld The POS that moves with you $399 or $37/mo. over 12 months¹ Square Terminal The",
+        "re Handheld The POS that moves with you $399 or $37/mo. over 12 months¹ Square Terminal The receipt-pr",
+        "nths¹ Square Terminal The receipt-printing POS $299 or $27/mo. over 12 months¹ Square Stand The int",
+        "quare Terminal The receipt-printing POS $299 or $27/mo. over 12 months¹ Square Stand The intuitive iPa",
+        "tand The intuitive iPad POS or self-serve kiosk $149 or $14/mo. over 12 months¹ Square Kiosk Smarter",
+        "e intuitive iPad POS or self-serve kiosk $149 or $14/mo. over 12 months¹ Square Kiosk Smarter self-serv",
+        "re Kiosk Smarter self-service for a faster rush $1,999 (including counter stand)³ Square Reader for con",
+        "chip The portable reader for every tap and dip $59 AI for the business only you could build Learn m",
+        "ee Game-changing access to business essentials. $0/mo. per location Get started Square Plus BEST VALU",
+        "ALUE Fully loaded for every aspect of business. $49/mo. per location Try free for 30 days Square Premi",
+        "Premium The best of the best with 24/7 support. $149/mo. per location Try free for 30 days Get the late",
+        "MO, MS, NH, and TN. Purchase amounts must be from $49 to $10,000. APR is 15%. Available plan lengths va",
+        "NH, and TN. Purchase amounts must be from $49 to $10,000. APR is 15%. Available plan lengths vary from 3,",
+        "chase amounts must be from $49 to $10,000. APR is 15%. Available plan lengths vary from 3, 6, 12, and/o",
+        "ion. If you have a Square Checking account, up to $250,000 of your balance may be covered by FDIC insurance"
+      ],
+      "description": "Sell anywhere. Diversify revenue streams. Streamline operations. Manage your staff. Get paid faster. Sign up for Square today.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Square Sans Display VF",
+            "body": "Square Sans Text VF",
+            "distinct": [
+              "Square Sans Text VF",
+              "Cash Sans",
+              "Square Sans Display VF",
+              "Exact Block"
+            ]
+          },
+          "h1Px": 64,
+          "bodyPx": 16,
+          "bodyLineHeight": "24px",
+          "backgrounds": [
+            "#ffffff"
+          ],
+          "accents": [],
+          "textColor": "#000000",
+          "buttonRadius": null,
+          "buttonHeightPx": null,
+          "images": 141,
+          "videos": 8,
+          "svgs": 173,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 10597,
+          "domNodes": 4410,
+          "domContentLoadedMs": 555,
+          "loadMs": 2577
+        },
+        "merch": {
+          "planCards": 3,
+          "priceElements": 0,
+          "badges": [
+            "BEST VALUE"
+          ],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 86
+        }
+      },
+      "mobileScreenshot": "shots/square/step-1-mobile.webp"
+    },
+    {
+      "n": 2,
+      "kind": "pricing",
+      "title": "Square Processing Fees, Plans, and Software Pricing | Square",
+      "url": "https://squareup.com/us/en/pricing",
+      "screenshot": "shots/square/step-2.webp",
+      "textFile": "data/captures/square/page-2.txt",
+      "elapsedMs": 20739,
+      "clicks": 0,
+      "via": "nav: Pricing",
+      "headings": [
+        "h1: PRICING Your complete business toolkit, starting at $0",
+        "h2: Square Free",
+        "h2: Square Plus",
+        "h2: Square Premium",
+        "h2: Tell us about your business",
+        "h3: Payments & checkout",
+        "h3: Restaurant operations",
+        "h3: Bookings",
+        "h3: Inventory & catalog management",
+        "h3: Reporting & analytics",
+        "h3: Online selling",
+        "h3: Customer engagement",
+        "h3: Invoicing",
+        "h3: Staff management",
+        "h3: Square Banking¹",
+        "h3: Support",
+        "h2: More solutions from Square",
+        "h3: Is there a free trial and can I cancel later?",
+        "h3: How much will I pay in processing fees?",
+        "h3: Can I accept any type of credit card?",
+        "h3: When will I get paid?",
+        "h3: Do I need to purchase hardware?",
+        "h3: How can I get in touch for support?",
+        "h3: How can I switch from my current solution?",
+        "h3: I already use Square. Has my pricing changed?",
+        "h2: Try Square"
+      ],
+      "ctas": [
+        "Sign up",
+        "Contact sales",
+        "Get started",
+        "Try free for 30 days",
+        "Talk to our team",
+        "Explore Square Payroll",
+        "Explore Square Hardware",
+        "Buy Now, Pay Later"
+      ],
+      "prices": [
+        "in the field. Only pay when you take a payment. $0/mo. per location Get started Processing fees Tap",
+        "Get started Processing fees Tap, dip, or swipe 2.6% + 15¢ Online 3.3% + 30¢ What you get POS app for an",
+        "ing fees Tap, dip, or swipe 2.6% + 15¢ Online 3.3% + 30¢ What you get POS app for any payment Online si",
+        "usinesses. Designed to help you grow and thrive. $49/mo. per location Try free for 30 days Processing",
+        "for 30 days Processing fees Tap, dip, or swipe 2.5% + 15¢ Online 2.9% + 30¢ What you get Everything in",
+        "ing fees Tap, dip, or swipe 2.5% + 15¢ Online 2.9% + 30¢ What you get Everything in Square Free Advance",
+        "e operations and help you scale with confidence. $149/mo. per location Try free for 30 days Processing",
+        "for 30 days Processing fees Tap, dip, or swipe 2.4% + 15¢ Online 2.9% + 30¢ What you get Everything in",
+        "ing fees Tap, dip, or swipe 2.4% + 15¢ Online 2.9% + 30¢ What you get Everything in Square Plus 24/7 pr",
+        "om pricing Talk to our team If you process over $250,000 per year, talk to our team to see if you’re eligible for c",
+        "are Payroll Run full-service payroll starting at $35 per month + $6 per person paid. Explore Square Payroll Sq",
+        "full-service payroll starting at $35 per month + $6 per person paid. Explore Square Payroll Square Hardware G",
+        "ardware for how you sell with options starting at $59. Explore Square Hardware Square Banking Take c",
+        "ion. If you have a Square Checking account, up to $250,000 of your balance may be covered by FDIC insurance",
+        "C, and accrue an annual percentage yield (APY) of 1.00% per folder on folder balances over $10. APY is su",
+        "(APY) of 1.00% per folder on folder balances over $10. APY is subject to change, and current as of Jan",
+        "deposits have an FDIC insurance coverage of up to $2.5 million. Pending balances are not subject to FDIC",
+        "s account is more than 2x the national average of 0.41% APY, based on the national average of savings acc"
+      ],
+      "description": "Get one plan to run any type of business with no hidden fees or locked-in contracts. Cancel or switch plans anytime.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Square Sans Display VF",
+            "body": "Cash Sans",
+            "distinct": [
+              "Square Sans Text VF",
+              "Cash Sans",
+              "Square Sans Display VF",
+              "Georgia",
+              "Exact Block"
+            ]
+          },
+          "h1Px": 64,
+          "bodyPx": 16,
+          "bodyLineHeight": "24px",
+          "backgrounds": [
+            "#ffffff"
+          ],
+          "accents": [
+            "#006aff"
+          ],
+          "textColor": "#ffffff",
+          "buttonRadius": "10000px",
+          "buttonHeightPx": 43,
+          "images": 37,
+          "videos": 0,
+          "svgs": 781,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 8239,
+          "domNodes": 8002,
+          "domContentLoadedMs": 956,
+          "loadMs": 1034
+        },
+        "merch": {
+          "planCards": 4,
+          "priceElements": 0,
+          "badges": [
+            "BEST VALUE"
+          ],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [
+            "Is there a free trial and can I cancel later?"
+          ],
+          "links": 83
+        }
+      },
+      "mobileScreenshot": "shots/square/step-2-mobile.webp"
+    },
+    {
+      "n": 3,
+      "kind": "product",
+      "title": "Square Payments: Accept Payments Online, In-Store, or On The Go",
+      "url": "https://squareup.com/us/en/payments",
+      "screenshot": "shots/square/step-3.webp",
+      "textFile": "data/captures/square/page-3.txt",
+      "elapsedMs": 29502,
+      "clicks": 0,
+      "via": "nav: Payments overview",
+      "headings": [
+        "h2: CUSTOMIZE",
+        "h2: TAKE EVERY PAYMENT",
+        "h3: In person (7)",
+        "h3: Online (4)",
+        "h3: Remote (2)",
+        "h3: Invoices (4)",
+        "h3: Afterpay (4)",
+        "h2: Security comes standard with every payment.",
+        "h2: Hardware that keeps up with your busiest days",
+        "h3: Register",
+        "h2: MORE THAN PAYMENTS",
+        "h3: Transfers",
+        "h3: Banking",
+        "h3: Reporting",
+        "h2: Easy set up. Easier to use.",
+        "h2: One clear rate for every payment.",
+        "h3: Square Free",
+        "h3: Square Plus",
+        "h3: Square Premium",
+        "h3: Square Pro",
+        "h2: Everything connects to your payments.",
+        "h3: Point of Sale",
+        "h3: Appointments",
+        "h3: Banking",
+        "h3: Marketing",
+        "h3: Payroll & Staff",
+        "h3: Invoices & Bill Pay",
+        "h3: Hardware",
+        "h3: Websites",
+        "h3: Point of Sale",
+        "h3: Appointments",
+        "h3: Banking",
+        "h3: Marketing",
+        "h3: Payroll & Staff",
+        "h3: Invoices & Bill Pay",
+        "h3: Hardware",
+        "h3: Websites",
+        "h3: Point of Sale",
+        "h3: Appointments",
+        "h3: Banking"
+      ],
+      "ctas": [
+        "Sign up",
+        "Contact sales",
+        "Get started",
+        "Explore Point of Sale",
+        "Explore Tap to Pay",
+        "Explore Register",
+        "Explore transfers",
+        "Explore banking",
+        "Explore reporting",
+        "Try free for 30 days",
+        "Talk to sales",
+        "sign up for Square",
+        "Buy Now, Pay Later"
+      ],
+      "prices": [
+        "Advanced software. Tough enough for every rush. $899 or $44/mo. for 24 months Explore Register Transf",
+        "d software. Tough enough for every rush. $899 or $44/mo. for 24 months Explore Register Transfers Sales",
+        "ee Game-changing access to business essentials. $0/mo. per location Get started Processing fees Tap,",
+        "n Get started Processing fees Tap, dip, or swipe 2.6% + 15¢ Online 3.3% + 30¢ What you get POS app for any pa",
+        "cessing fees Tap, dip, or swipe 2.6% + 15¢ Online 3.3% + 30¢ What you get POS app for any payment Online site",
+        "Plus Fully loaded for every aspect of business. $49/mo. per location Try free for 30 days Processing f",
+        "ee for 30 days Processing fees Tap, dip, or swipe 2.5% + 15¢ Online 2.9% + 30¢ What you get Everything in Squa",
+        "cessing fees Tap, dip, or swipe 2.5% + 15¢ Online 2.9% + 30¢ What you get Everything in Square Free POS featur",
+        "Premium The best of the best with 24/7 support. $149/mo. per location Try free for 30 days Processing f",
+        "ee for 30 days Processing fees Tap, dip, or swipe 2.4% + 15¢ Online 2.9% + 30¢ What you get Everything in Squa",
+        "cessing fees Tap, dip, or swipe 2.4% + 15¢ Online 2.9% + 30¢ What you get Everything in Square Plus 24/7 prior"
+      ],
+      "description": "Take payments anywhere with Square—online, in person, or on the go. Secure, flexible payment processing software and hardware built to power businesses of every size.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": null,
+            "body": "Cash Sans",
+            "distinct": [
+              "Cash Sans",
+              "PwNeue Cash Sans Mono Regular"
+            ]
+          },
+          "h1Px": null,
+          "bodyPx": 15,
+          "bodyLineHeight": "40px",
+          "backgrounds": [
+            "#f8f8f8",
+            "#ffffff"
+          ],
+          "accents": [],
+          "textColor": "#ffffff",
+          "buttonRadius": null,
+          "buttonHeightPx": null,
+          "images": 70,
+          "videos": 1,
+          "svgs": 154,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 12024,
+          "domNodes": 3709,
+          "domContentLoadedMs": 797,
+          "loadMs": 894
+        },
+        "merch": {
+          "planCards": 3,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 114
+        }
+      }
+    },
+    {
+      "n": 4,
+      "kind": "platform",
+      "title": "Square APIs & SDKs: Build Custom Solutions on Square",
+      "url": "https://developer.squareup.com/us/en",
+      "screenshot": "shots/square/step-4.webp",
+      "textFile": "data/captures/square/page-4.txt",
+      "elapsedMs": 33913,
+      "clicks": 0,
+      "via": "nav: Developers APIs",
+      "headings": [
+        "h1: With Square APIs and SDKs, it’s Square — customized.",
+        "h3: Manage clients.",
+        "h3: Bookings API, Customers API, and more",
+        "h3: Analyze data.",
+        "h3: ListPayments, Reporting API, and more",
+        "h3: Sell everywhere.",
+        "h3: Terminal API, Mobile Payments SDK, and more",
+        "h3: Deliver orders.",
+        "h3: Orders API, Catalog API, and more",
+        "h3: Move money.",
+        "h3: Payments API, Payouts API, and more",
+        "h3: Get creative.",
+        "h3: 20 Square APIs, 100+ endpoints, and more",
+        "h2: Build it your way with the tools you need and the tech you love.",
+        "h2: Compose your app or integration with a robust suite of Square APIs and developer resources.",
+        "h3: Build with AI agents",
+        "h3: Payment APIs and SDKs",
+        "h3: Commerce APIs",
+        "h3: Customer APIs",
+        "h3: Staff APIs",
+        "h3: Merchant APIs",
+        "h2: Connect with us; we’re here to help you out.",
+        "h2: It’s all happening on the Square platform.",
+        "h3: Build custom workflows for a Square Terminal.",
+        "h3: Compare Square Online Payment Solutions.",
+        "h3: Mobile Payments SDK (GA) and new Terminal API features",
+        "h3: Build an Order Ahead Menu with Square Catalog API",
+        "h3: Square APIs Explained: Take a high level look at the Square developer platform.",
+        "h2: Build and grow your own business with Square.",
+        "h2: What’s your move?"
+      ],
+      "ctas": [
+        "Start building",
+        "Learn more",
+        "Explore partner programs"
+      ],
+      "prices": [],
+      "description": "Square APIs and SDKs allow developers to build custom apps and integrations for payments, customers, commerce, and staff solutions.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Square Sans Display VF",
+            "body": "Square Sans Text VF",
+            "distinct": [
+              "Square Sans Text VF",
+              "Square Sans Display VF",
+              "Square Sans Mono VF",
+              "ui-sans-serif"
+            ]
+          },
+          "h1Px": 52,
+          "bodyPx": 14,
+          "bodyLineHeight": "28px",
+          "backgrounds": [
+            "#121212",
+            "#ffffff",
+            "#c26eff",
+            "#f25b3d"
+          ],
+          "accents": [
+            "#006aff"
+          ],
+          "textColor": "#1a1a1a",
+          "buttonRadius": "4.8px",
+          "buttonHeightPx": 48,
+          "images": 85,
+          "videos": 0,
+          "svgs": 9,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 6745,
+          "domNodes": 1763,
+          "domContentLoadedMs": 389,
+          "loadMs": 626
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 43
+        }
+      }
+    },
+    {
+      "n": 5,
+      "kind": "solutions",
+      "title": "Solutions for Every Business Type & Size | Square",
+      "url": "https://squareup.com/us/en/industry",
+      "screenshot": "shots/square/step-5.webp",
+      "textFile": "data/captures/square/page-5.txt",
+      "elapsedMs": 38749,
+      "clicks": 0,
+      "via": "nav: All business types",
+      "headings": [
+        "h1: Start with the right tech for your business",
+        "h2: See why Square stands out",
+        "h2: Ready to sign up?"
+      ],
+      "ctas": [
+        "Sign up",
+        "Get started",
+        "Contact sales",
+        "Learn more",
+        "Buy Now, Pay Later"
+      ],
+      "prices": [],
+      "description": "Square has all the business solutions and software that makes it easy for every business type to start, manage and grow. Learn how Square can help you achieve success!",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Square Sans Display VF",
+            "body": "Square Sans Text VF",
+            "distinct": [
+              "Square Sans Text VF",
+              "Cash Sans",
+              "Square Sans Display VF",
+              "Exact Block"
+            ]
+          },
+          "h1Px": 64,
+          "bodyPx": 10,
+          "bodyLineHeight": "10px",
+          "backgrounds": [
+            "#ffffff"
+          ],
+          "accents": [
+            "#006aff"
+          ],
+          "textColor": "#000000",
+          "buttonRadius": "10000px",
+          "buttonHeightPx": 43,
+          "images": 35,
+          "videos": 0,
+          "svgs": 167,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 7271,
+          "domNodes": 3021,
+          "domContentLoadedMs": 772,
+          "loadMs": 799
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 114
+        }
+      }
+    },
+    {
+      "n": 6,
+      "kind": "customers",
+      "title": "Capabilities | Square for Services",
+      "url": "https://squareup.com/us/en/services/capabilities?section=showcase-your-brand",
+      "screenshot": "shots/square/step-6.webp",
+      "textFile": "data/captures/square/page-6.txt",
+      "elapsedMs": 43200,
+      "clicks": 0,
+      "via": "nav: Showcase your brand",
+      "headings": [
+        "h1: SQUARE FOR SERVICES Tools to help you get the job done",
+        "h2: How Square stacks up",
+        "h2: Sign up in minutes",
+        "h2: Learn about new features and hear stories from other businesses running on Square."
+      ],
+      "ctas": [
+        "Sign up",
+        "Get started",
+        "Contact sales",
+        "Explore Square Online",
+        "Explore Square Marketing",
+        "Explore Square Invoices",
+        "Buy Now, Pay Later"
+      ],
+      "prices": [
+        "card is accepted. Accounts are FDIC-insured up to $250,000. Funds generated through Square’s payment process",
+        "ber FDIC. Accrue annual percentage yield (APY) of 1.75% per folder on folder balances over $10. APY subje",
+        "(APY) of 1.75% per folder on folder balances over $10. APY subject to change, current as of 10/10/22. N",
+        "ged monthly fees. Accounts are FDIC-insured up to $2,500,000. Pending balances are not subject to FDIC insuran"
+      ],
+      "description": "Get all the tools you need to start, run, and grow your services business. Perfect for Home & Commercial, Professional Services, and more.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Square Sans Display VF",
+            "body": "Cash Sans",
+            "distinct": [
+              "Square Sans Text VF",
+              "Cash Sans",
+              "Square Sans Display VF",
+              "Exact Block"
+            ]
+          },
+          "h1Px": 64,
+          "bodyPx": 10,
+          "bodyLineHeight": "24px",
+          "backgrounds": [
+            "#ffffff"
+          ],
+          "accents": [
+            "#006aff"
+          ],
+          "textColor": "#000000",
+          "buttonRadius": "10000px",
+          "buttonHeightPx": 43,
+          "images": 57,
+          "videos": 0,
+          "svgs": 185,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 4872,
+          "domNodes": 3968,
+          "domContentLoadedMs": 675,
+          "loadMs": 744
+        },
+        "merch": {
+          "planCards": 2,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 84
+        }
+      }
+    },
+    {
+      "n": 7,
+      "kind": "company",
+      "title": "Why Choose Square For Your Business",
+      "url": "https://squareup.com/us/en/why-square",
+      "screenshot": "shots/square/step-7.webp",
+      "textFile": "data/captures/square/page-7.txt",
+      "elapsedMs": 49463,
+      "clicks": 0,
+      "via": "nav: Why Square?",
+      "headings": [
+        "h1: Helping every size of business succeed.",
+        "h2: Our story starts with you.",
+        "h2: Run it your way.",
+        "h2: Have the freedom to choose.",
+        "h3: Look and feel like a pro.",
+        "h2: Manage it all, all from one place.",
+        "h3: Browse all Square solutions",
+        "h2: See why businesses of all sizes succeed with Square."
+      ],
+      "ctas": [
+        "Sign up",
+        "Get started",
+        "Contact sales",
+        "Explore ways to get paid with Square",
+        "Buy Now, Pay Later",
+        "Contact"
+      ],
+      "prices": [],
+      "description": "Our low rates, simple to use software and dedicated support team mean you can spend less time thinking about getting paid and more time running your business.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Square Sans Display VF",
+            "body": "Square Sans Text VF",
+            "distinct": [
+              "Square Sans Text VF",
+              "Cash Sans",
+              "Square Sans Display VF"
+            ]
+          },
+          "h1Px": 62,
+          "bodyPx": 24,
+          "bodyLineHeight": "28px",
+          "backgrounds": [
+            "#030303",
+            "#000000",
+            "#ffffff"
+          ],
+          "accents": [
+            "#006aff"
+          ],
+          "textColor": "#ffffff",
+          "buttonRadius": "10000px",
+          "buttonHeightPx": 41,
+          "images": 48,
+          "videos": 1,
+          "svgs": 167,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 8625,
+          "domNodes": 3157,
+          "domContentLoadedMs": 1484,
+          "loadMs": 1666
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 73
+        }
+      }
+    },
+    {
+      "n": 8,
+      "kind": "resources",
+      "title": "Square Support Center - United States",
+      "url": "https://squareup.com/help/us/en",
+      "screenshot": "shots/square/step-8.webp",
+      "textFile": "data/captures/square/page-8.txt",
+      "elapsedMs": 53682,
+      "clicks": 0,
+      "via": "nav: Support",
+      "headings": [
+        "h1: Hi. How can we help?",
+        "h2: Topics",
+        "h2: Trending Articles",
+        "h2: Still need help?"
+      ],
+      "ctas": [
+        "Sign Up"
+      ],
+      "prices": [],
+      "description": "Square Support Center. Square Support - United States",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Square Sans Display VF",
+            "body": "Square Sans Text",
+            "distinct": [
+              "Square Sans Text VF",
+              "Square Sans Text",
+              "Square Sans Display VF"
+            ]
+          },
+          "h1Px": 54,
+          "bodyPx": 16,
+          "bodyLineHeight": "24px",
+          "backgrounds": [
+            "#ffffff",
+            "#f0f0f0",
+            "#101010"
+          ],
+          "accents": [],
+          "textColor": "#101010",
+          "buttonRadius": "100px",
+          "buttonHeightPx": 48,
+          "images": 6,
+          "videos": 0,
+          "svgs": 35,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 2719,
+          "domNodes": 822,
+          "domContentLoadedMs": 828,
+          "loadMs": 2137
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 49
+        }
+      }
+    },
+    {
+      "n": 9,
+      "kind": "product",
+      "title": "Free Online Booking and Scheduling Software | Square",
+      "url": "https://squareup.com/us/en/appointments",
+      "screenshot": "shots/square/step-9.webp",
+      "textFile": "data/captures/square/page-9.txt",
+      "elapsedMs": 59117,
+      "clicks": 0,
+      "via": "nav: Appointments POS",
+      "headings": [
+        "h1: APPOINTMENTS Simplify bookings and stay organized",
+        "h2: Say goodbye to scheduling chaos",
+        "h2: Take payments online and in person",
+        "h2: Send reminders and more, automatically",
+        "h2: Book more clients in new ways",
+        "h2: Manage all sides of your business",
+        "h2: Explore tools for your unique craft",
+        "h2: Simplify checkout with any device",
+        "h3: Square Handheld",
+        "h2: Square Free",
+        "h2: Square Plus",
+        "h2: Square Premium",
+        "h3: Why use online scheduling software?",
+        "h3: How does appointment scheduling work with Square?",
+        "h3: Is Square right for my business?",
+        "h3: How can I switch from my current scheduling software?",
+        "h3: How long will it take to set up my account?",
+        "h3: Does Square’s booking software integrate with existing CRM and client lists?",
+        "h3: How do I manage team schedules and availability with Square’s booking software?",
+        "h3: How customizable is Square’s online booking site?",
+        "h3: Is real-time reporting and analytics included?",
+        "h2: Ready to get started? Your next client is waiting."
+      ],
+      "ctas": [
+        "Sign up",
+        "Get started",
+        "Contact Sales",
+        "Contact sales",
+        "online booking site",
+        "Explore Square Assistant",
+        "Explore Square Messages",
+        "Explore Square Go",
+        "Explore Square Websites",
+        "Explore Square Banking",
+        "Explore Square Loyalty",
+        "Explore Square Invoices",
+        "Explore Square Gift Cards",
+        "Explore Square Marketing"
+      ],
+      "prices": [
+        "essionals taking payments and managing schedules $0/mo. per location Get started Processing fees Tap",
+        "Get started Processing fees Tap, dip, or swipe 2.6% + 15¢ Online 3.3% + 30¢ Top appointments features O",
+        "ing fees Tap, dip, or swipe 2.6% + 15¢ Online 3.3% + 30¢ Top appointments features Online booking site a",
+        "g teams needing more advanced tools and features $49/mo. per location Try free for 30 days Processing",
+        "for 30 days Processing fees Tap, dip, or swipe 2.5% + 15¢ Online 2.9% + 30¢ Top appointments features E",
+        "ing fees Tap, dip, or swipe 2.5% + 15¢ Online 2.9% + 30¢ Top appointments features Everything in Square",
+        "with complex staff management and booking needs $149/mo. per location Try free for 30 days Processing",
+        "for 30 days Processing fees Tap, dip, or swipe 2.4% + 15¢ Online 2.9% + 30¢ Top appointments features E",
+        "ing fees Tap, dip, or swipe 2.4% + 15¢ Online 2.9% + 30¢ Top appointments features Everything in Square",
+        "om pricing Talk to our team If you process over $250,000 per year, talk to our team to see if you’re eligible for c",
+        "ber FDIC. Accrue annual percentage yield (APY) of 1.00% per folder on folder balances over $10. APY subje",
+        "(APY) of 1.00% per folder on folder balances over $10. APY subject to change, current as of 2/18/2025.",
+        "ged monthly fees. Accounts are FDIC-insured up to $2,500,000. Pending balances are not subject to FDIC insuran",
+        "card is accepted. Accounts are FDIC-insured up to $250,000. Funds generated through Square’s payment process"
+      ],
+      "description": "Easily streamline and manage your appointments with Square booking software. Stay organized, save time, and keep everything synced in real time.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Square Sans Display VF",
+            "body": "Square Sans Text VF",
+            "distinct": [
+              "Square Sans Text VF",
+              "Cash Sans",
+              "Square Sans Display VF",
+              "Exact Block"
+            ]
+          },
+          "h1Px": 64,
+          "bodyPx": 16,
+          "bodyLineHeight": "10px",
+          "backgrounds": [
+            "#ffffff"
+          ],
+          "accents": [
+            "#006aff"
+          ],
+          "textColor": "#000000",
+          "buttonRadius": "10000px",
+          "buttonHeightPx": 43,
+          "images": 80,
+          "videos": 1,
+          "svgs": 221,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 13643,
+          "domNodes": 4365,
+          "domContentLoadedMs": 989,
+          "loadMs": 1306
+        },
+        "merch": {
+          "planCards": 4,
+          "priceElements": 0,
+          "badges": [
+            "BEST VALUE"
+          ],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 117
+        }
+      }
+    },
+    {
+      "n": 10,
+      "kind": "platform",
+      "title": "App Integrations for Your Business | Square App Marketplace",
+      "url": "https://squareup.com/us/en/app-marketplace",
+      "screenshot": "shots/square/step-10.webp",
+      "textFile": "data/captures/square/page-10.txt",
+      "elapsedMs": 63481,
+      "clicks": 0,
+      "via": "nav: Marketplace",
+      "headings": [
+        "h1: Square App Marketplace",
+        "h2: Staff picks",
+        "h2: Most popular apps",
+        "h2: Featured articlesSee more ->",
+        "h2: Get discovered across Apple Maps, Siri, Wallet and more",
+        "h2: How Ring Cheer Chime Turns Tips Into Celebrations",
+        "h2: On the Menu: Restaurant Apps",
+        "h2: Highest rated",
+        "h2: New apps",
+        "h2: Square Online add-ons",
+        "h3: Start selling with Square."
+      ],
+      "ctas": [
+        "Start a Square Account",
+        "Buy Now, Pay Later"
+      ],
+      "prices": [
+        "registration, virtual events and event apps. From $1.50 + 1% per attendee TEAM MANAGEMENT Rippling Payrol",
+        "tion, virtual events and event apps. From $1.50 + 1% per attendee TEAM MANAGEMENT Rippling Payroll, sc",
+        "ing platform. 4.9 (40 reviews) From Starting at $49 per month Stream Menu and order management system for resta",
+        "offee shops, and all eateries. 5.0 (34 reviews) $57 per month KioskBuddy Your ticket to shorter wait times and",
+        "OS by Resy Reservation management solution. From $289 per month Square Online add-ons Improve your site with too"
+      ],
+      "description": "Square integrates seamlessly with popular apps for independent businesses. Add apps to your toolbox to save time and streamline your operations.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Square Sans Display VF",
+            "body": "Square Sans Text VF",
+            "distinct": [
+              "Square Sans Text VF",
+              "Square Sans Display VF"
+            ]
+          },
+          "h1Px": 44,
+          "bodyPx": 14,
+          "bodyLineHeight": "24px",
+          "backgrounds": [
+            "#ffffff",
+            "#030303",
+            "#000000",
+            "#101010"
+          ],
+          "accents": [],
+          "textColor": "#343b42",
+          "buttonRadius": "6px",
+          "buttonHeightPx": 393,
+          "images": 11,
+          "videos": 0,
+          "svgs": 22,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 5398,
+          "domNodes": 837,
+          "domContentLoadedMs": 648,
+          "loadMs": 653
+        },
+        "merch": {
+          "planCards": 3,
+          "priceElements": 0,
+          "badges": [
+            "Free"
+          ],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [
+            "7-day free trial",
+            "14-day free trial.",
+            "14-day free trial",
+            "14-day free trial.",
+            "30-day free trial",
+            "30-day free trial."
+          ],
+          "links": 92
+        }
+      }
+    },
+    {
+      "n": 11,
+      "kind": "solutions",
+      "title": "Spa Software by Square: Your All-In One Solution",
+      "url": "https://squareup.com/us/en/industry/spa",
+      "screenshot": "shots/square/step-11.webp",
+      "textFile": "data/captures/square/page-11.txt",
+      "elapsedMs": 69344,
+      "clicks": 0,
+      "via": "nav: Day spa",
+      "headings": [
+        "h1: Scheduling made serene.",
+        "h3: Setup is simple",
+        "h3: Switch seamlessly",
+        "h2: Spa software designed to free up headspace.",
+        "h3: Never miss a booking",
+        "h3: Avoid scheduling errors",
+        "h3: Stay updated",
+        "h3: Take flexible payments",
+        "h3: Know your clients",
+        "h3: Protect your time",
+        "h3: Out of the beauty businesses that use Square Appointments, health and beauty spas sell the most online and in person.*",
+        "h3: Beauty sellers who sell items and services online have 43% higher annual sales than those who only sell in person.*",
+        "h3: Connect every side of your spa with Square.",
+        "h3: POS hardware built to clear up counter space.",
+        "h2: Meet Square Go",
+        "h2: Stay up to date.",
+        "h3: Need Help?",
+        "h3: Talk to our Sales team",
+        "h3: Support Center",
+        "h3: Can I use Square Appointments to power my entire spa?",
+        "h3: What payment methods are supported by Square POS?",
+        "h3: How does Square manage tipping for my spa business?",
+        "h3: Can I book appointments and collect payments from my website?"
+      ],
+      "ctas": [
+        "Sign up",
+        "Get started",
+        "Contact sales",
+        "Talk to an expert",
+        "Learn more about Square Advanced Access",
+        "Learn more",
+        "Buy Now, Pay Later",
+        "Contact"
+      ],
+      "prices": [
+        "y sellers who sell items and services online have 43% higher annual sales than those who only sell in p"
+      ],
+      "description": "Automate scheduling, payments, online bookings, and team management with Square's all-in one solution for spas.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Square Sans Display VF",
+            "body": "Square Sans Display VF",
+            "distinct": [
+              "Square Sans Text VF",
+              "Cash Sans",
+              "Square Sans Display VF"
+            ]
+          },
+          "h1Px": 86,
+          "bodyPx": 16,
+          "bodyLineHeight": "34px",
+          "backgrounds": [
+            "#ffffff"
+          ],
+          "accents": [
+            "#006aff"
+          ],
+          "textColor": "#1a1a1a",
+          "buttonRadius": "10000px",
+          "buttonHeightPx": 41,
+          "images": 38,
+          "videos": 0,
+          "svgs": 187,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 9896,
+          "domNodes": 3387,
+          "domContentLoadedMs": 1431,
+          "loadMs": 1432
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 94
+        }
+      }
+    },
+    {
+      "n": 12,
+      "kind": "product",
+      "title": "Sell online - build a free online store or eCommerce website | Square",
+      "url": "https://squareup.com/us/en/online-store",
+      "screenshot": "shots/square/step-12.webp",
+      "textFile": "data/captures/square/page-12.txt",
+      "elapsedMs": 74798,
+      "clicks": 0,
+      "via": "nav: Websites",
+      "headings": [
+        "h1: WEBSITES Build a free online store that sells itself",
+        "h2: Everything you need in one integrated system",
+        "h2: Go big with your brand",
+        "h2: Create a premium online shopping experience",
+        "h2: Offer shipping, in-store pickup, and delivery",
+        "h2: Widen your reach. Make more sales.",
+        "h1: Pick a plan for any stage",
+        "h2: Square Free",
+        "h2: Square Plus",
+        "h2: Square Premium",
+        "h2: Learn how to make it happen",
+        "h3: Why did Square Online change to websites?",
+        "h3: How do I start my website for free?",
+        "h3: How to create an online store?",
+        "h3: Does Square offer resources to help me build my site?",
+        "h3: Can I connect my website to social media?",
+        "h3: Do I get free web hosting when I create a website with Square?",
+        "h2: Try Square",
+        "h2: Learn about new features and hear stories from other businesses running on Square."
+      ],
+      "ctas": [
+        "Sign up",
+        "Contact sales",
+        "Explore themes",
+        "Learn more",
+        "Create your free site",
+        "Try free for 30 days",
+        "Talk to our team",
+        "Get started",
+        "Buy Now, Pay Later"
+      ],
+      "prices": [
+        "otions Reward loyal customers Sell eGift cards 38% Average increase in revenue by Square sellers wh",
+        "t for any business ready to start selling online $0/mo. per location Create your free site Processing",
+        "Create your free site Processing fees Online 3.3% + 30¢ Tap, dip, or swipe 2.6% + 15¢ Top online store",
+        "ing fees Online 3.3% + 30¢ Tap, dip, or swipe 2.6% + 15¢ Top online store features Website builder with",
+        "features and lower rates to grow your operations $49/mo. per location Try free for 30 days Processing",
+        "n Try free for 30 days Processing fees Online 2.9% + 30¢ Tap, dip, or swipe 2.5% + 15¢ Top online store",
+        "ing fees Online 2.9% + 30¢ Tap, dip, or swipe 2.5% + 15¢ Top online store features Expanded site customi",
+        "m Get the best rates and most advanced features $149/mo. per location Try free for 30 days Processing",
+        "n Try free for 30 days Processing fees Online 2.9% + 30¢ Tap, dip, or swipe 2.4% + 15¢ Top online store",
+        "ing fees Online 2.9% + 30¢ Tap, dip, or swipe 2.4% + 15¢ Top online store features Real-time shipping ra",
+        "om pricing Talk to our team If you process over $250,000 per year, talk to our team to see if you’re eligible for c"
+      ],
+      "description": "Create and customize an eCommerce website that fits your brand with the all-in-one website platform. Start your free trial today.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Exact Block",
+            "body": "Cash Sans",
+            "distinct": [
+              "Square Sans Text VF",
+              "Cash Sans",
+              "Square Sans Display VF",
+              "Exact Block"
+            ]
+          },
+          "h1Px": 90,
+          "bodyPx": 16,
+          "bodyLineHeight": "24px",
+          "backgrounds": [
+            "#ffffff"
+          ],
+          "accents": [
+            "#006aff"
+          ],
+          "textColor": "#000000",
+          "buttonRadius": "10000px",
+          "buttonHeightPx": 43,
+          "images": 94,
+          "videos": 3,
+          "svgs": 188,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 12761,
+          "domNodes": 4645,
+          "domContentLoadedMs": 1017,
+          "loadMs": 1223
+        },
+        "merch": {
+          "planCards": 4,
+          "priceElements": 0,
+          "badges": [
+            "BEST VALUE"
+          ],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [
+            "Get discounts on shipping and calculate accurate rates in real time."
+          ],
+          "links": 113
+        }
+      }
+    },
+    {
+      "n": 13,
+      "kind": "product",
+      "title": "Marketing Automation Tools for Small Businesses | Square",
+      "url": "https://squareup.com/us/en/marketing",
+      "screenshot": "shots/square/step-13.webp",
+      "textFile": "data/captures/square/page-13.txt",
+      "elapsedMs": 80889,
+      "clicks": 0,
+      "via": "nav: Marketing",
+      "headings": [
+        "h1: Engage customers and reach new ones.",
+        "h2: Build stronger customer relationships and drive repeat business",
+        "h3: Market your business more effectively.",
+        "h3: Save time with automations.",
+        "h3: Make the most of our free CRM tools.",
+        "h3: Reach new customers with Google Reviews.",
+        "h2: Marketing tools to help you keep growing",
+        "h3: Square Email Marketing",
+        "h3: Square Text Message Marketing",
+        "h2: Tools that work together for a complete marketing solution",
+        "h3: Follow up email campaigns with a text.",
+        "h3: Drive traffic to all your storefronts.",
+        "h3: Reach a broader audience.",
+        "h3: Get one plan for your entire business",
+        "h1: Try Square Email Marketing.",
+        "h1: Try Square Text Message Marketing.",
+        "h3: How do I get started?",
+        "h3: Do I need to be subscribed to Square Plus or Square Premium to use email or text message marketing?",
+        "h3: Can I used Square to post on social media?",
+        "h3: Are automations included in my subscription cost?",
+        "h3: Can I schedule and send email and text campaigns at the same time?",
+        "h3: Can I create and send coupons with Square?",
+        "h3: Which email marketing tools does Square offer?",
+        "h3: Where can I learn more about text message marketing?",
+        "h3: Does Square's marketing tools integrate with other software?",
+        "h2: Marketing resources"
+      ],
+      "ctas": [
+        "Sign up",
+        "Get started",
+        "Contact sales",
+        "Try email marketing",
+        "Try text message marketing",
+        "Explore Square Email Marketing",
+        "Explore Square Text Message Marketing",
+        "Start your free trial",
+        "How do I get started?",
+        "Buy Now, Pay Later",
+        "Contact"
+      ],
+      "prices": [
+        "to sold. Reach a broader audience. Texts have a 98% open rate and are a direct, personal way to reach"
+      ],
+      "description": "From email marketing to text messaging campaigns, Square’s there to help you get in front of everyone of your CRM contacts. Get started easily today.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Cash Sans",
+            "body": "Cash Sans",
+            "distinct": [
+              "Cash Sans",
+              "Square Sans Text VF"
+            ]
+          },
+          "h1Px": 74,
+          "bodyPx": 14,
+          "bodyLineHeight": "34px",
+          "backgrounds": [
+            "#ffffff"
+          ],
+          "accents": [
+            "#006aff"
+          ],
+          "textColor": "#1a1a1a",
+          "buttonRadius": "10000px",
+          "buttonHeightPx": 41,
+          "images": 58,
+          "videos": 0,
+          "svgs": 158,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 8573,
+          "domNodes": 3150,
+          "domContentLoadedMs": 1706,
+          "loadMs": 1714
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [
+            "Start your free trial",
+            "Start your free trial"
+          ],
+          "links": 105
+        }
+      }
+    },
+    {
+      "n": 14,
+      "kind": "signup",
+      "title": "Square US | Sign up for your free account",
+      "url": "https://app.squareup.com/signup/en-US",
+      "screenshot": "shots/square/step-14.webp",
+      "textFile": "data/captures/square/page-14.txt",
+      "elapsedMs": 4570,
+      "clicks": 1,
+      "via": "click: \"Sign up\"",
+      "headings": [
+        "h1: Let’s create your account"
+      ],
+      "ctas": [],
+      "prices": [],
+      "description": "Create your Square account for free in the United States. Get tools to take payments, track sales, and manage your business. Start with Square today.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Square Sans Display VF",
+            "body": "Square Sans Text VF",
+            "distinct": [
+              "Square Sans Display VF",
+              "Square Sans Text VF"
+            ]
+          },
+          "h1Px": 32,
+          "bodyPx": 14,
+          "bodyLineHeight": "24px",
+          "backgrounds": [
+            "#ffffff",
+            "#000000",
+            "#101010"
+          ],
+          "accents": [],
+          "textColor": "#101010",
+          "buttonRadius": null,
+          "buttonHeightPx": null,
+          "images": 5,
+          "videos": 1,
+          "svgs": 5,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 900,
+          "domNodes": 705,
+          "domContentLoadedMs": 443,
+          "loadMs": 444
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 2
+        }
+      },
+      "form": {
+        "fields": [
+          {
+            "type": "email",
+            "label": "Email"
+          },
+          {
+            "type": "password",
+            "label": "Password"
+          }
+        ],
+        "alternatives": [],
+        "submit": [],
+        "consent": [
+          "I agree to Square's Terms, Privacy Policy, and E-Sign Consent.",
+          "I agree to Square's Terms, Privacy Policy, and E-Sign Consent.",
+          "This site is protected by reCAPTCHA Enterprise and the Google Privacy Policy and Terms of Service apply."
+        ],
+        "pageHeightPx": 900,
+        "passwordAsked": true
+      },
+      "note": "Stopped here: the page asks for an email or password. Nothing is typed."
+    }
+  ],
+  "navMap": [
+    {
+      "label": "Skip to Content",
+      "href": "https://squareup.com/us/en",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Overview",
+      "href": "https://squareup.com/us/en/restaurants",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Switch to Square",
+      "href": "https://squareup.com/us/en/restaurants/switch-to-square",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Coffee shops",
+      "href": "https://squareup.com/us/en/restaurants/coffee-shop",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Quick service",
+      "href": "https://squareup.com/us/en/restaurants/quick-service",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Drive-thru",
+      "href": "https://squareup.com/us/en/restaurants/drive-thru",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Full service",
+      "href": "https://squareup.com/us/en/restaurants/full-service",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Bars & breweries",
+      "href": "https://squareup.com/us/en/restaurants/bars",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Food trucks",
+      "href": "https://squareup.com/us/en/restaurants/food-truck",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Catering",
+      "href": "https://squareup.com/us/en/restaurants/caterers",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Bakeries",
+      "href": "https://squareup.com/us/en/restaurants/bakery",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Pizzeria",
+      "href": "https://squareup.com/us/en/restaurants/pizzeria",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Take payments",
+      "href": "https://squareup.com/us/en/restaurants/capabilities?section=take-payments",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Manage orders from one place",
+      "href": "https://squareup.com/us/en/restaurants/capabilities?section=manage-orders-from-one-place",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Keep customers coming back",
+      "href": "https://squareup.com/us/en/restaurants/capabilities?section=keep-customers-coming-back",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Scale your business",
+      "href": "https://squareup.com/us/en/restaurants/capabilities?section=scale-your-business",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Schedule and pay your team",
+      "href": "https://squareup.com/us/en/restaurants/capabilities?section=schedule-and-pay-your-team",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Manage your cash flow",
+      "href": "https://squareup.com/us/en/restaurants/capabilities?section=manage-your-cash-flow",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Improve operations",
+      "href": "https://squareup.com/us/en/restaurants/capabilities?section=improve-operations",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Overview",
+      "href": "https://squareup.com/us/en/retail",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Switch to Square",
+      "href": "https://squareup.com/us/en/retail/switch-to-square",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Clothing",
+      "href": "https://squareup.com/us/en/retail/clothing",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Home & gift",
+      "href": "https://squareup.com/us/en/retail/home-and-gift",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Wine & liquor",
+      "href": "https://squareup.com/us/en/retail/wine-and-liquor",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Grocery",
+      "href": "https://squareup.com/us/en/retail/grocery",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Garden",
+      "href": "https://squareup.com/us/en/retail/garden",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Take payments",
+      "href": "https://squareup.com/us/en/retail/capabilities?section=take-payments",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Track inventory",
+      "href": "https://squareup.com/us/en/retail/capabilities?section=track-inventory",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Add revenue streams",
+      "href": "https://squareup.com/us/en/retail/capabilities?section=add-revenue-streams",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Manage your cash flow",
+      "href": "https://squareup.com/us/en/retail/capabilities?section=manage-your-cash-flow",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Track performance",
+      "href": "https://squareup.com/us/en/retail/capabilities?section=track-performance",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Keep customers coming back",
+      "href": "https://squareup.com/us/en/retail/capabilities?section=keep-customers-coming-back",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Schedule and pay your team",
+      "href": "https://squareup.com/us/en/retail/capabilities?section=schedule-and-pay-your-team",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Link your catalog and set up fast",
+      "href": "https://squareup.com/us/en/retail/capabilities?section=link-your-catalog-and-set-up-fast",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Overview",
+      "href": "https://squareup.com/us/en/beauty",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Switch to Square",
+      "href": "https://squareup.com/us/en/beauty/switch-to-square",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Beauty salon",
+      "href": "https://squareup.com/us/en/beauty/salons",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Nail salon",
+      "href": "https://squareup.com/us/en/beauty/nail-salon",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Hair salon",
+      "href": "https://squareup.com/us/en/beauty/hair-salon",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Day spa",
+      "href": "https://squareup.com/us/en/industry/spa",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "Barbershop",
+      "href": "https://squareup.com/us/en/beauty/barbershop",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Tattoo & piercing",
+      "href": "https://squareup.com/us/en/beauty/tattoo-and-piercing",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Med spa",
+      "href": "https://squareup.com/us/en/beauty/med-spa",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Take payments",
+      "href": "https://squareup.com/us/en/beauty/capabilities?section=take-payments",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Manage your appointments",
+      "href": "https://squareup.com/us/en/beauty/capabilities?section=manage-your-appointments",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Attract new clients",
+      "href": "https://squareup.com/us/en/beauty/capabilities?section=attract-new-clients",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Keep clients coming back",
+      "href": "https://squareup.com/us/en/beauty/capabilities?section=keep-clients-coming-back",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Schedule and pay your team",
+      "href": "https://squareup.com/us/en/beauty/capabilities?section=schedule-and-pay-your-team",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Manage your cash flow",
+      "href": "https://squareup.com/us/en/beauty/capabilities?section=manage-your-cash-flow",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Track performance",
+      "href": "https://squareup.com/us/en/beauty/capabilities?section=track-performance",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Add revenue streams",
+      "href": "https://squareup.com/us/en/beauty/capabilities?section=add-revenue-streams",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Overview",
+      "href": "https://squareup.com/us/en/services",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Switch to Square",
+      "href": "https://squareup.com/us/en/services/switch-to-square",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Home & commercial",
+      "href": "https://squareup.com/us/en/services/home-and-repair",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Automotive services",
+      "href": "https://squareup.com/us/en/services/automotive",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Transportation",
+      "href": "https://squareup.com/us/en/services/transportation",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Contractors & specialists",
+      "href": "https://squareup.com/us/en/services/contractors",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Professional services",
+      "href": "https://squareup.com/us/en/services/professional-services",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Pet services",
+      "href": "https://squareup.com/us/en/services/pet-services",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Organizations & nonprofits",
+      "href": "https://squareup.com/us/en/services/nonprofit",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Cleaning services",
+      "href": "https://squareup.com/us/en/services/cleaning-services",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Landscaping & outdoors",
+      "href": "https://squareup.com/us/en/services/landscapers",
+      "area": "header",
+      "kind": "platform"
+    },
+    {
+      "label": "Recreation",
+      "href": "https://squareup.com/us/en/services/group-recreation",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Healthcare",
+      "href": "https://squareup.com/us/en/industry/healthcare",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "Take payments",
+      "href": "https://squareup.com/us/en/services/capabilities?section=take-payments",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Win more business",
+      "href": "https://squareup.com/us/en/services/capabilities?section=win-more-business",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Stay organized",
+      "href": "https://squareup.com/us/en/services/capabilities?section=stay-organized",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Manage your cash flow",
+      "href": "https://squareup.com/us/en/services/capabilities?section=manage-your-cash-flow",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Showcase your brand",
+      "href": "https://squareup.com/us/en/services/capabilities?section=showcase-your-brand",
+      "area": "header",
+      "kind": "customers"
+    },
+    {
+      "label": "Automate and save time",
+      "href": "https://squareup.com/us/en/services/capabilities?section=automate-and-save-time",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Keep customers coming back",
+      "href": "https://squareup.com/us/en/services/capabilities?section=keep-customers-coming-back",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "All business types",
+      "href": "https://squareup.com/us/en/industry",
+      "area": "header",
+      "kind": "solutions"
+    },
+    {
+      "label": "Handheld",
+      "href": "https://squareup.com/us/en/hardware/handheld",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Terminal",
+      "href": "https://squareup.com/us/en/hardware/terminal",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Register",
+      "href": "https://squareup.com/us/en/hardware/register",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Stand",
+      "href": "https://squareup.com/us/en/hardware/stand",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Kiosk",
+      "href": "https://squareup.com/us/en/hardware/kiosk",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Reader for contactless and chip",
+      "href": "https://squareup.com/us/en/hardware/contactless-chip-reader",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Reader for magstripe",
+      "href": "https://squareup.com/us/en/hardware/reader",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Accessories",
+      "href": "https://squareup.com/shop/hardware/v2/us/en/products/accessories",
+      "area": "header",
+      "kind": "product"
+    }
+  ],
+  "stack": {
+    "generator": null,
+    "scriptHosts": [
+      "bat.bing.com",
+      "analytics.tiktok.com",
+      "rules.quantcount.com",
+      "s.adroll.com",
+      "connect.facebook.net",
+      "capi.squareup.com",
+      "d34r8q7sht0t9k.cloudfront.net",
+      "a.quora.com",
+      "c.amazon-adsystem.com",
+      "snap.licdn.com",
+      "secure.quantserve.com",
+      "www.redditstatic.com",
+      "cdn.sprig.com",
+      "www.googletagmanager.com"
+    ],
+    "signals": [
+      "React global",
+      "Google Tag Manager dataLayer"
+    ],
+    "server": "cloudflare",
+    "poweredBy": null
+  },
+  "sources": [
+    "https://squareup.com"
+  ],
+  "dossier": {
+    "sections": [
+      {
+        "id": "positioning",
+        "title": "Positioning",
+        "summary": "Square sells a complete small-business toolkit by industry: restaurants, retail, beauty, health and wellness, home services. The pitch is that one plan runs payments, hardware, booking, online selling and marketing.",
+        "keyPoints": [
+          "Homepage promise: 'Local legend or global icon. Make it big on your block.'",
+          "Business-type pages (coffee shops, bars, spas, landscaping and more) each repeat the same suite in that trade's language.",
+          "The company page frames Square as built to give every owner an easier way to take credit cards, then grown into a full suite and loans."
+        ]
+      },
+      {
+        "id": "offerings",
+        "title": "Products and offerings",
+        "summary": "Square pairs software with its own hardware and a financial layer, then adds vertical tools on top.",
+        "keyPoints": [],
+        "table": {
+          "columns": [
+            "Product",
+            "What it does"
+          ],
+          "rows": [
+            [
+              "Payments",
+              "In person (7 ways), online, remote, invoices and Afterpay; Tap to Pay on iPhone and Android"
+            ],
+            [
+              "Hardware",
+              "Register $899, Handheld $399, Terminal $299, Stand $149; readers start at $59"
+            ],
+            [
+              "Appointments",
+              "Booking site, staff schedules, reminders and Google Calendar sync"
+            ],
+            [
+              "Online store",
+              "Free site builder with customizable themes, shipping, pickup and delivery"
+            ],
+            [
+              "Marketing",
+              "Email and text campaigns, automations and CRM tools"
+            ],
+            [
+              "Banking and Payroll",
+              "Checking and savings accounts; payroll from $35 a month plus $6 per person"
+            ],
+            [
+              "Kiosk and restaurant tools",
+              "Self-service kiosk, order management and restaurant operations"
+            ],
+            [
+              "App Marketplace",
+              "Third-party apps with ratings and free trials"
+            ]
+          ]
+        },
+        "gaps": [
+          "Loans and Capital were not opened."
+        ]
+      },
+      {
+        "id": "pricing",
+        "title": "Pricing",
+        "summary": "Per-location monthly plans with a $0 entry and a processing rate that falls as the plan rises, plus a custom plan for large processors. Hardware is sold separately, with monthly financing.",
+        "keyPoints": [
+          "Free is pay-as-you-go: you only pay when you take a payment.",
+          "Plus and Premium come with a 30-day free trial; Plus is labelled best value.",
+          "Hardware can be financed: the Register is $899 or $44 a month over 24 months.",
+          "Square Pro is custom pricing for businesses processing over $250,000 a year, with hardware discounts and onboarding."
+        ],
+        "table": {
+          "columns": [
+            "Plan",
+            "Price",
+            "In person",
+            "Online",
+            "Adds"
+          ],
+          "rows": [
+            [
+              "Free",
+              "$0 a month per location",
+              "2.6% + 15¢",
+              "3.3% + 30¢",
+              "POS app, online site, invoicing, booking, banking"
+            ],
+            [
+              "Plus (best value)",
+              "$49 a month per location",
+              "2.5% + 15¢",
+              "2.9% + 30¢",
+              "Advanced POS features, loyalty, email and text marketing, staff management"
+            ],
+            [
+              "Premium",
+              "$149 a month per location",
+              "2.4% + 15¢",
+              "2.9% + 30¢",
+              "24/7 priority support, advanced reporting, no gift card load fees"
+            ],
+            [
+              "Pro",
+              "Custom",
+              "Custom",
+              "Custom",
+              "For processing over $250,000 a year"
+            ]
+          ]
+        },
+        "gaps": [
+          "Hardware and payroll costs are on separate pages; there is no all-in estimate."
+        ]
+      },
+      {
+        "id": "merchandising",
+        "title": "Merchandising",
+        "summary": "A clear, industry-aware ladder: a $0 entry, a best-value middle plan, and a premium tier whose main draw is support. For merchants, Square supplies deep selling and customer-engagement tools.",
+        "keyPoints": [
+          "The pricing page asks 'Tell us about your business' and offers an industry selector, so the plan feature list is tailored.",
+          "Processing fees drop with each plan, which ties the monthly price to the merchant's own volume.",
+          "Plans, hardware and add-ons cross-sell each other: the plan page links to Payroll, Hardware and Banking.",
+          "For merchants: customizable e-commerce themes, inventory across locations and channels, a loyalty program, email and text marketing, Google Reviews tools and shipping discounts.",
+          "The App Marketplace lists third-party apps with ratings and 7 or 14-day free trials."
+        ]
+      },
+      {
+        "id": "platform",
+        "title": "Technical platform",
+        "summary": "A dedicated developer site with APIs and SDKs across the commerce stack, a new Reporting API in beta, and an app marketplace.",
+        "keyPoints": [
+          "APIs named on the developer page include Bookings, Customers, Orders, Catalog, ListPayments and Terminal, plus a Mobile Payments SDK.",
+          "A Reporting API (Beta) is advertised as a new way to access all of a business's data.",
+          "The App Marketplace has staff picks, most-popular and highest-rated lists, and add-ons for Square Online."
+        ],
+        "gaps": [
+          "API reference, rate limits and webhooks were not read."
+        ]
+      },
+      {
+        "id": "design",
+        "title": "Design",
+        "summary": "A polished, consumer-grade look: full-bleed photography, very large display type and pill buttons, anchored by one blue. Developer pages switch to a dark theme with smaller buttons.",
+        "keyPoints": [
+          "A custom typeface (Square Sans) runs across home, pricing and the developer site; some pages use Cash Sans.",
+          "The accent is a single blue (#006aff); buttons are full pills (10000px corners) on pricing and the main site.",
+          "The developer site is dark (#121212) with 4.8px button corners, a visible shift from the marketing pages.",
+          "Home opens on a full-bleed photograph with a headline across it; the pricing page puts three white plan cards over a dark photograph.",
+          "Pages are long: the home page is 10,597px tall.",
+          "For merchants: customizable themes for Square Online, plus logo and brand-color invoices."
+        ],
+        "gaps": [
+          "Dark mode was not assessed."
+        ]
+      },
+      {
+        "id": "company",
+        "title": "Company presentation",
+        "summary": "A friendly, inclusive story aimed at owners of every size, backed by a scale number on the signup page.",
+        "keyPoints": [
+          "The Why Square page leads with 'Helping every size of business succeed' and an origin story about card acceptance.",
+          "Signup page claims 4 million+ businesses run on Square.",
+          "Customer proof appears as industry showcases rather than a dedicated customer-stories page."
+        ],
+        "gaps": [
+          "No leadership or investor information in the surveyed pages."
+        ]
+      }
+    ]
+  },
+  "signupPath": "'Sign up' opens app.squareup.com/signup, a real account form titled 'Let's create your account': email, password and locale (United States, English), a consent line for Terms, Privacy Policy and E-Sign Consent, and a 'Create account' button, with a reCAPTCHA notice. One click from the homepage. Nothing was entered.",
+  "scores": {
+    "jtbd_fit": {
+      "score": 5,
+      "evidence": "Each business-type page names the owner's trade and the jobs: take payments, book, sell online, run staff.",
+      "step": 5
+    },
+    "capability_visible": {
+      "score": 4,
+      "evidence": "Product pages show features and hardware prices in detail; the admin itself is behind signup.",
+      "step": 9
+    },
+    "pricing_transparency": {
+      "score": 4,
+      "evidence": "Three plans with prices and processing rates are published; hardware, payroll and loan costs sit on other pages.",
+      "step": 2
+    },
+    "product_breadth": {
+      "score": 5,
+      "evidence": "Hardware, payments, booking, online, marketing, banking and payroll are each explained with a clear job.",
+      "step": 3
+    },
+    "platform_depth": {
+      "score": 4,
+      "evidence": "Developer site lists many APIs, SDKs and a beta Reporting API plus an app marketplace; reference docs were not read.",
+      "step": 4
+    },
+    "time_to_value": {
+      "score": null,
+      "evidence": "Capture stops before the product; first-value time was not observed.",
+      "step": null
+    },
+    "friction": {
+      "score": 4,
+      "evidence": "One click from home to a short form: email, password and locale, with a consent line and reCAPTCHA.",
+      "step": 14
+    },
+    "trust": {
+      "score": 4,
+      "evidence": "4 million+ businesses claim on the signup page and industry showcases; fewer named customers than Stripe or Klaviyo.",
+      "step": 14
+    },
+    "mobile": {
+      "score": null,
+      "evidence": "Phone captures exist for home and pricing but were not assessed.",
+      "step": null
+    },
+    "states": {
+      "score": null,
+      "evidence": "No error or empty states reached.",
+      "step": null
+    },
+    "a11y_basics": {
+      "score": null,
+      "evidence": "Not tested.",
+      "step": null
+    },
+    "value_prop_clarity": {
+      "score": 4,
+      "evidence": "The homepage headline is mood-led but each industry page and the plan page say plainly what you get.",
+      "step": 2
+    },
+    "proof_quality": {
+      "score": 3,
+      "evidence": "Scale and 'best value' claims have no source on the page.",
+      "step": 14
+    },
+    "persuasion_integrity": {
+      "score": 4,
+      "evidence": "Trials are stated with their length, and the free plan says you pay only on a payment.",
+      "step": 2
+    },
+    "cta_logic": {
+      "score": 4,
+      "evidence": "'Get started' with 'Contact sales' on pages; plan cards each carry a clear action.",
+      "step": 2
+    },
+    "company_narrative": {
+      "score": 4,
+      "evidence": "The 'every size of business' story is consistent from the homepage to Why Square to the signup page.",
+      "step": 7
+    },
+    "offer_packaging": {
+      "score": 5,
+      "evidence": "Plans per location with fees in a table, an industry selector and a best-value label make the choice easy.",
+      "step": 2
+    },
+    "offer_architecture": {
+      "score": 5,
+      "evidence": "$0 entry, 30-day trials, falling processing fees, hardware financing and a custom plan form a deliberate ladder.",
+      "step": 2
+    },
+    "merchant_merch_tools": {
+      "score": 5,
+      "evidence": "Themes, cross-channel inventory, loyalty, email and text marketing, Google Reviews tools and shipping discounts are all shown.",
+      "step": 12
+    },
+    "visual_craft": {
+      "score": 4,
+      "evidence": "Strong photography and display type, one blue, clear plan cards. The home hero text sits over a busy photograph.",
+      "step": 1
+    },
+    "system_coherence": {
+      "score": 3,
+      "evidence": "Pill buttons and white pages on the main site, dark 4.8px-button developer pages, and two typefaces (Square Sans and Cash Sans).",
+      "step": 4
+    },
+    "merchant_design_control": {
+      "score": 4,
+      "evidence": "Customizable themes for the online store and branded invoices are shown; no theme builder detail was surveyed.",
+      "step": 12
+    }
+  },
+  "read": {
+    "summary": "A vertical-first small-business suite with the clearest plan ladder of the survey so far: a $0 entry, per-location pricing, fees that fall as you move up and hardware that can be financed. The signup is a short, real account form.",
+    "pros": [
+      "Pricing table puts monthly price and both processing rates side by side.",
+      "An industry selector tailors the plan features to the merchant's trade.",
+      "Hardware prices and financing are shown on the page.",
+      "Merchants get a wide set of selling and engagement tools in one place."
+    ],
+    "cons": [
+      "The homepage headline is mood-led rather than specific.",
+      "Developer pages look and behave differently from the marketing site.",
+      "Hardware, payroll and banking costs are spread across several pages.",
+      "Scale and 'best value' claims are unsourced."
+    ],
+    "howItSells": "Sells simplicity and local-business pride: a free start, one plan per location, and tools by trade. Backs it with a visible price list and a large business count.",
+    "copy": [
+      "Show processing rates beside the monthly price in each plan card.",
+      "Offer an industry selector on the pricing page.",
+      "Finance hardware with a stated monthly figure."
+    ],
+    "avoid": [
+      "A mood-led hero headline with no product statement.",
+      "Different button shapes between marketing and developer pages."
+    ],
+    "tactics": [
+      "anchoring",
+      "commitment_ladder",
+      "social_proof"
+    ],
+    "confidence": "medium",
+    "unknowns": [
+      "What follows account creation.",
+      "Loans and Capital pages.",
+      "Mobile experience.",
+      "Payroll and banking details beyond the headline price."
+    ],
+    "hypothesis": {
+      "statement": "Adding an 'all-in estimate' tool that combines plan, hardware and processing for a typical month will raise paid-plan starts among hesitant visitors.",
+      "metric": "Free-to-paid plan conversion within 30 days",
+      "guardrail": "Support contacts about fees and early churn",
+      "decisionRule": "Ship if conversion rises by a pre-agreed margin over four weeks and fee-related contacts do not rise."
+    },
+    "subjects": {
+      "merchandising": {
+        "summary": "A clear, trade-by-trade ladder, the strongest merchandising of the survey so far, with a real merchant toolset behind it.",
+        "pros": [
+          "The Free, Plus and Premium ladder lowers risk at each step.",
+          "Processing fees fall as the plan rises, so the plan sells itself to high-volume merchants.",
+          "Hardware financing is stated in monthly terms."
+        ],
+        "cons": [
+          "No all-in monthly estimate across plan, hardware and processing.",
+          "Add-on prices sit on separate pages."
+        ]
+      },
+      "design": {
+        "summary": "Premium consumer-grade design on the main site, with a visible seam where the developer pages begin.",
+        "pros": [
+          "Full-bleed photography and display type make the marketing site feel premium.",
+          "One blue accent and pill buttons make actions easy to spot."
+        ],
+        "cons": [
+          "The developer site changes theme and button shape.",
+          "Home hero text sits over a busy photograph."
+        ]
+      }
+    }
+  },
+  "claims": [
+    {
+      "text": "Join the 4 million+ businesses running with Square.",
+      "verdict": "plausible",
+      "step": 14,
+      "evidenceStep": null
+    },
+    {
+      "text": "Only pay when you take a payment.",
+      "verdict": "plausible",
+      "step": 2,
+      "evidenceStep": 2
+    },
+    {
+      "text": "Square was established to give every business owner an easier way to take credit cards.",
+      "verdict": "plausible",
+      "step": 7,
+      "evidenceStep": null
+    }
+  ],
+  "focus": "signup to accept first payment; hardware selection to cart; eligibility explanation; signup to online store"
+}

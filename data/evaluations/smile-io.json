@@ -1,0 +1,359 @@
+{
+  "dossier": {
+    "sections": [
+      {
+        "id": "positioning",
+        "title": "Positioning",
+        "summary": "Smile sells loyalty to ambitious Shopify brands with one specific outcome: more second orders. The site now leads with Shopify Plus and enterprise customers.",
+        "keyPoints": [
+          "Homepage: 'Loyalty that drives second orders', cycling through repeat revenue, lifetime value and higher AOV.",
+          "'The loyalty platform for ambitious Shopify brands. Join thousands on Shopify Plus accelerating growth through modern loyalty programs.'",
+          "A section asks 'Switching from Yotpo, LoyaltyLion, Rivo, or Okendo?', naming four rivals.",
+          "Enterprise credentials are prominent: certified by Shopify and independently audited with SOC 2 Type II."
+        ]
+      },
+      {
+        "id": "offerings",
+        "title": "Products and offerings",
+        "summary": "A loyalty platform built on points, VIP tiers and referrals, with newer modules for cashback and bonus events, and deep Shopify and Klaviyo integration.",
+        "keyPoints": [],
+        "table": {
+          "columns": [
+            "Product",
+            "What it does"
+          ],
+          "rows": [
+            [
+              "Points, VIP tiers and referrals",
+              "The core loyalty program, fully embedded in the storefront"
+            ],
+            [
+              "Cashback (early access)",
+              "Store credit in the brand's name held in Shopify, spent online, in store and in the Shop app"
+            ],
+            [
+              "Bonus events",
+              "Short, time-bound bonus points and multipliers measured in sales"
+            ],
+            [
+              "Checkout extensions and Shopify POS",
+              "Points redeemed at Shopify Plus checkout and earned in store"
+            ],
+            [
+              "Loyalty Hub",
+              "A branded loyalty page and hub for members"
+            ],
+            [
+              "Klaviyo integration",
+              "Loyalty data on every profile and pre-built flows for points, tiers and referrals"
+            ],
+            [
+              "Headless and JavaScript SDK",
+              "Build loyalty into custom storefronts and apps"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "pricing",
+        "title": "Pricing",
+        "summary": "Published plans on the 'For Scale' tab, priced by monthly orders with a clear overage rate. Enterprise is custom, and a separate 'For Startups' tab was not read.",
+        "keyPoints": [
+          "All plans lead with 'Book a demo'; no self-serve checkout is offered.",
+          "Growth is billed monthly; Plus and Enterprise are billed annually.",
+          "Extra orders cost $20 per 100 on Growth and $5 per 100 on Plus.",
+          "Enterprise is for retailers with over $40M in annual revenue, with advanced security and 99.9% historical uptime.",
+          "The page notes prices are in USD and were reviewed as of September 25, 2026."
+        ],
+        "table": {
+          "columns": [
+            "Plan",
+            "Price a month",
+            "Orders included",
+            "Notable features"
+          ],
+          "rows": [
+            [
+              "Growth",
+              "$199 (monthly billing)",
+              "2,500 a month",
+              "VIP program, Loyalty Hub, fully embedded loyalty, performance benchmarks, 25 specialized reports"
+            ],
+            [
+              "Smile Plus",
+              "$999 (annual billing)",
+              "7,500 a month",
+              "Migration and launch plan, quarterly program monitoring, priority support, API access, 30+ reports"
+            ],
+            [
+              "Smile Enterprise",
+              "Custom (annual billing)",
+              "Unlimited",
+              "Advanced security, 99.9% historical uptime, custom API rate limits, data warehouse sync"
+            ]
+          ]
+        },
+        "gaps": [
+          "The 'For Startups' tab and its plans were not read."
+        ]
+      },
+      {
+        "id": "merchandising",
+        "title": "Merchandising",
+        "summary": "A usage-based ladder where the plan jump is tied to migration help, monitoring and API access, plus unusually concrete advice for merchants on how to merchandise loyalty itself.",
+        "keyPoints": [
+          "Plans are scaled by monthly orders with an explicit overage rate, so cost tracks the merchant's size.",
+          "Higher plans add services (migration and launch plan, quarterly monitoring, priority support), not just features.",
+          "For merchants: bonus events to create short bursts with points instead of markdowns, cashback, VIP status, referrals and checkout redemption.",
+          "Industry pages (fashion and apparel, beauty, food and beverage, pet care) argue for rewarding full-price buying and giving customers status.",
+          "A Learn hub carries guides, comparisons and benchmark research on loyalty."
+        ]
+      },
+      {
+        "id": "platform",
+        "title": "Technical platform",
+        "summary": "A dedicated developer site with a guides section, an API reference, a JavaScript SDK and UI components, plus an llms.txt index; a headless option and a large integration directory support custom builds.",
+        "keyPoints": [
+          "dev.smile.io describes 'Enterprise loyalty. Built for developers.' with Guides, API Reference, a JavaScript SDK and Smile UI.",
+          "The docs publish a documentation index at /llms.txt for machine readers.",
+          "A headless and JS SDK page, a Klaviyo integration and answers about Recharge and reviews apps show a connected stack.",
+          "Plus adds API access; Enterprise adds custom API rate limits and data warehouse sync."
+        ],
+        "gaps": [
+          "API reference depth and webhooks were not read."
+        ]
+      },
+      {
+        "id": "design",
+        "title": "Design",
+        "summary": "Quiet and editorial: a light grey canvas, a heavy black grotesque with a grey second line, soft rounded cards and photography. The developer site switches to a different type and blue.",
+        "keyPoints": [
+          "Marketing pages use Stabil Grotesk on a light grey (#f4f4f5) background with black buttons and 14px corners.",
+          "A two-tone headline repeats the pattern: black first line, grey second line, on both the home and pricing pages.",
+          "The home page shows a strip of customer-brand photographs in rounded cards under the headline.",
+          "The developer site uses Inter with a blue (#1e38fb) on white.",
+          "Pages are compact: the home page is 5,824px tall and pricing 6,827px.",
+          "For merchants: 'Loyalty shaped like your brand. Made from the elements you choose', with embedded loyalty and a UI kit."
+        ],
+        "gaps": [
+          "Dark mode was not assessed."
+        ]
+      },
+      {
+        "id": "company",
+        "title": "Company presentation",
+        "summary": "A specialist's story: Shopify-only focus, enterprise credentials and customer results, with a dedicated team as the promise.",
+        "keyPoints": [
+          "Smile Editions Fall 2026 announces 50+ product updates, mirroring Shopify's own Editions cadence.",
+          "'Enterprise-ready, by Shopify's own measure' and 'A dedicated team, not a ticket queue' are the trust claims.",
+          "Customer stories are 'Enterprise brands first', with Blue Banana among them.",
+          "A press kit gives logo and color guidance."
+        ],
+        "gaps": [
+          "No About page or leadership information in the surveyed pages."
+        ]
+      }
+    ]
+  },
+  "signupPath": "No self-serve signup was found. Every plan on the pricing page and every call to action on the homepage is 'Book a demo' with the line '30 minutes with a loyalty strategist'. The booking form was not followed. Nothing was entered.",
+  "scores": {
+    "jtbd_fit": {
+      "score": 5,
+      "evidence": "One job in the headline: second orders and repeat revenue.",
+      "step": 1
+    },
+    "capability_visible": {
+      "score": 3,
+      "evidence": "Mockups and results are shown; trial and demo environments are not.",
+      "step": 11
+    },
+    "pricing_transparency": {
+      "score": 4,
+      "evidence": "Growth and Plus prices, orders included and overage rates are published; Enterprise is custom and the startup tab was not read.",
+      "step": 2
+    },
+    "product_breadth": {
+      "score": 4,
+      "evidence": "Points, VIP, referrals, cashback, bonus events, checkout and POS are each explained.",
+      "step": 3
+    },
+    "platform_depth": {
+      "score": 4,
+      "evidence": "Developer site with API reference, JS SDK, UI kit and llms.txt; headless option.",
+      "step": 4
+    },
+    "time_to_value": {
+      "score": null,
+      "evidence": "Capture stops before the product; first-value time was not observed.",
+      "step": null
+    },
+    "friction": {
+      "score": null,
+      "evidence": "The surveyed pages could not tell.",
+      "step": null
+    },
+    "trust": {
+      "score": 4,
+      "evidence": "Shopify certification, SOC 2 Type II and enterprise customer stories.",
+      "step": 5
+    },
+    "mobile": {
+      "score": null,
+      "evidence": "Phone captures exist for home and pricing but were not assessed.",
+      "step": null
+    },
+    "states": {
+      "score": null,
+      "evidence": "No error or empty states reached.",
+      "step": null
+    },
+    "a11y_basics": {
+      "score": null,
+      "evidence": "Not tested.",
+      "step": null
+    },
+    "value_prop_clarity": {
+      "score": 5,
+      "evidence": "'Loyalty that drives second orders' is specific and measurable.",
+      "step": 1
+    },
+    "proof_quality": {
+      "score": 3,
+      "evidence": "Customer results are shown, but 'thousands on Shopify Plus' has no source.",
+      "step": 13
+    },
+    "persuasion_integrity": {
+      "score": 4,
+      "evidence": "No urgency tactics; pricing carries a review date.",
+      "step": 2
+    },
+    "cta_logic": {
+      "score": 4,
+      "evidence": "'Book a demo' with '30 minutes with a loyalty strategist' is the one consistent action.",
+      "step": 1
+    },
+    "company_narrative": {
+      "score": 4,
+      "evidence": "A Shopify-specialist and enterprise story across home, pricing, customers and docs.",
+      "step": 5
+    },
+    "offer_packaging": {
+      "score": 4,
+      "evidence": "Three plans sized by monthly orders with overage rates; the startup tab sits behind a toggle.",
+      "step": 2
+    },
+    "offer_architecture": {
+      "score": 4,
+      "evidence": "Usage-based ladder where higher plans add services and API access.",
+      "step": 2
+    },
+    "merchant_merch_tools": {
+      "score": 5,
+      "evidence": "Points, VIP tiers, referrals, cashback, bonus events and checkout redemption with measurement.",
+      "step": 12
+    },
+    "visual_craft": {
+      "score": 4,
+      "evidence": "Clean hierarchy, strong two-tone headline and brand photography.",
+      "step": 1
+    },
+    "system_coherence": {
+      "score": 3,
+      "evidence": "Marketing pages are consistent; the developer site uses a different font and a blue accent.",
+      "step": 4
+    },
+    "merchant_design_control": {
+      "score": 5,
+      "evidence": "Loyalty 'shaped like your brand', fully embedded, with a UI kit and branded cashback.",
+      "step": 1
+    }
+  },
+  "read": {
+    "summary": "A specialist loyalty platform with a precise promise, a published usage-based price list and, rare in this set, a lot of guidance on how merchants should merchandise rewards. It is sales-led throughout: there is no self-serve start.",
+    "pros": [
+      "A one-line outcome promise: second orders.",
+      "Plan prices, order limits and overage rates are shown.",
+      "Merchants get bonus events, cashback, VIP tiers and checkout redemption with measurement.",
+      "Developer docs include an llms.txt index and a JS SDK."
+    ],
+    "cons": [
+      "No self-serve start: every plan leads to 'Book a demo'.",
+      "The developer site looks different from the marketing site.",
+      "Scale claims have no source.",
+      "The 'For Startups' pricing tab sits behind a toggle."
+    ],
+    "howItSells": "Sells a measurable outcome to Shopify Plus brands, with enterprise credentials, a named list of rivals and a team behind the product.",
+    "copy": [
+      "Name the single outcome in the headline.",
+      "Publish overage rates beside included volume.",
+      "Offer short bonus events as a merchandising tool."
+    ],
+    "avoid": [
+      "No way to try the product without a call.",
+      "A second visual system for developer pages."
+    ],
+    "tactics": [
+      "authority",
+      "social_proof",
+      "anchoring"
+    ],
+    "confidence": "medium",
+    "unknowns": [
+      "The 'For Startups' plans.",
+      "What the demo-booking form asks.",
+      "Mobile experience.",
+      "Customer stories beyond the headline results."
+    ],
+    "hypothesis": {
+      "statement": "Adding a self-serve sandbox with a sample program will raise qualified demo requests among visitors who want to see the product first.",
+      "metric": "Qualified demo requests per visitor",
+      "guardrail": "Sales time per qualified lead",
+      "decisionRule": "Ship if qualified requests rise by a pre-agreed margin over four weeks."
+    },
+    "subjects": {
+      "merchandising": {
+        "summary": "A usage-based ladder and a deep set of loyalty merchandising tools with guidance on using them.",
+        "pros": [
+          "Usage-based ladder with overage rates shown.",
+          "Services in the higher plans, not just features.",
+          "Guides on how to run bonus events."
+        ],
+        "cons": [
+          "No self-serve entry.",
+          "The startup tab is hidden behind a toggle."
+        ]
+      },
+      "design": {
+        "summary": "Calm, consistent and editorial on the main site; a separate look on the developer site.",
+        "pros": [
+          "A confident two-tone headline and brand photography give the site an editorial feel.",
+          "The light grey canvas keeps focus on the content."
+        ],
+        "cons": [
+          "The developer site switches font and accent.",
+          "Very little color outside photographs."
+        ]
+      }
+    }
+  },
+  "claims": [
+    {
+      "text": "Join thousands on Shopify Plus accelerating growth through modern loyalty programs.",
+      "verdict": "unsupported",
+      "step": 1,
+      "evidenceStep": null
+    },
+    {
+      "text": "Prices in USD. Reviewed as of September 25, 2026.",
+      "verdict": "proven",
+      "step": 2,
+      "evidenceStep": null
+    },
+    {
+      "text": "Enterprise-ready, by Shopify's own measure.",
+      "verdict": "plausible",
+      "step": 1,
+      "evidenceStep": 5
+    }
+  ]
+}

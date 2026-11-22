@@ -1,0 +1,137 @@
+URL: https://support.omnisend.com/en/
+TITLE: Home | Omnisend Help Center
+DESCRIPTION: Omnisend Help Center
+
+Skip to main content
+Onboarding: Omnisend Basics
+
+Learn how to get started with Omnisend
+
+2 authors
+8 articles
+Pricing & Billing
+
+Learn about Omnisend free and paid plans
+
+2 authors
+6 articles
+What's New in Omnisend
+
+Learn about the latest product updates
+
+2 authors
+89 articles
+Ecommerce Platforms
+
+Learn how to connect your store to Omnisend
+
+5 authors
+33 articles
+Account & Store Settings
+
+Learn how to manage your Omnisend account
+
+3 authors
+22 articles
+Email & SMS Deliverability
+
+Learn how to improve your email and SMS deliverability
+
+3 authors
+40 articles
+Marketing Compliance
+
+Learn how to comply with email and SMS marketing laws
+
+2 authors
+4 articles
+Signup Forms & Lead Capture
+
+Learn how to collect and grow your subscriber list
+
+3 authors
+36 articles
+Audience Management
+
+Learn how to manage and organize your audience
+
+3 authors
+21 articles
+Audience Segmentation
+
+Learn how to segment your audience using filters
+
+4 authors
+20 articles
+Marketing Channels
+
+Learn how to use various channels to reach your customers
+
+2 authors
+16 articles
+Campaigns: Email, SMS & Push
+
+Learn how to create and send effective campaigns
+
+3 authors
+16 articles
+Automation
+
+Learn how to build and optimize your automations
+
+4 authors
+45 articles
+Omnisend Email Builder
+
+Learn how to design emails using the Email Builder
+
+3 authors
+34 articles
+Omnisend AI Tools & Integrations
+
+Learn about Omnisend Agent, Omnisend's AI-powered features, and how to connect external AI tools
+
+2 authors
+10 articles
+Webinars & Events
+
+Explore our library of recorded webinars
+
+3 authors
+34 articles
+Holiday & Seasonal Campaigns
+
+Learn strategies and tips for seasonal marketing
+
+1 author
+8 articles
+Reports & Analytics
+
+Learn how to understand and use your Reports
+
+2 authors
+18 articles
+Omnisend Partner Program
+
+Learn how to become and benefit as a partner
+
+2 authors
+5 articles
+App Integrations
+
+Learn how to connect new apps and use app integrations
+
+9 authors
+343 articles
+API Documentation
+
+Learn how to work with Omnisend’s API
+
+2 authors
+3 articles
+Omnisend Bug Bounty
+
+Learn how to report findings to Omnisend’s Bug & UX Bounty program
+
+1 author
+1 article

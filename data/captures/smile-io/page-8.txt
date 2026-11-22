@@ -1,0 +1,260 @@
+URL: https://smile.io/klaviyo
+TITLE: Smile x Klaviyo | The Most Complete Loyalty Integration for Email Marketers
+DESCRIPTION: Transform your Klaviyo email marketing into a loyalty engine with Smile, the most complete loyalty integration for Klaviyo. Natively built into Customer Hub, Smile makes every message more personal, relevant, and rewarding.
+
+Skip to content
+The most complete loyalty
+integration for Klaviyo.
+Smile
+Built by
+Smile
+Available on
+all paid plans
+Works with
+Points, VIP Tiers and Referrals
+Profile properties
+Points, tier and referral URL
+Flow triggers
+Loyalty events
+Customer Hub
+Points, rewards and tier
+Verified reviews
+Points earned
+
+Klaviyo is a marketing automation platform that unifies customer data and powers email, SMS, and multi-channel campaigns for ecommerce brands. When connected to Smile, you can sync loyalty data into Klaviyo profiles, trigger flows from program events, and reward customers for leaving Klaviyo Reviews.
+
+Naturium on Smile.
+
+CONSISTENCY CLUB · VIP TIERS
+
+1 point per $1 spent
+
+Skintrigued
+Free
+
+Skintellectual
+$300
+
+Skinfluencer
+$500
+
+Customer story
+
+Smile is a very user-friendly app that we could integrate into the tech infrastructure that we had in place, like Shopify and Klaviyo.
+
+Giovanna Diez, Senior Manager of CRM and Loyalty, Naturium
+
+64%
+
+of Smile loyalty point redemptions attributed to Klaviyo.
+
+Read the Naturium story 
+
+Loyalty data on every profile.
+Updated as it happens.
+
+Five Smile properties and eight loyalty events, matched to Klaviyo profiles by email.
+
+Klaviyo profile: Maya R.
+
+SYNCED
+
+Smile properties
+
+Smile Points Balance	2,430
+Smile Referral URL	halvard.com/r/maya
+Smile VIP Tier Name	Ridge
+Smile VIP Tier ID	2
+Smile State	member
+
+Activity
+
+VIP Tier Achieved
+Ridge, tier 2
+2 days ago
+Points Earned on Order
++388 points, order #20418
+2 days ago
+Points Redeemed
+$20 off for 2,000 points
+3 weeks ago
+Referral Completed
+500 points for a friend's first order
+1 month ago
+Every property and event 
+(opens in a new tab)
+Pre-built flows, in your brand.
+Loyalty emails sent from Klaviyo.
+
+Smile's flow templates copy into your Klaviyo account and take your logo, colors and fonts from Klaviyo's brand settings.
+
+Halvard
+
+Subject: You earned 388 points
+
+HALVARD
+
+You earned 388 points.
+
+Your balance is 2,430, enough for $20 off.
+
+REDEEM POINTS
+Points Earned on Order
+
+Replaces Smile's points earned email.
+
+Halvard
+
+Subject: Welcome to Ridge, Maya
+
+HALVARD
+
+You reached Ridge.
+
+Ridge members get free shipping and early access.
+
+SEE YOUR PERKS
+VIP Tier Achieved
+
+Replaces Smile's VIP tier achieved email.
+
+Halvard
+
+Subject: Happy birthday, Maya
+
+HALVARD
+
+Happy birthday, Maya.
+
+200 points are waiting in your account.
+
+SHOP NOW
+Birthday Reward
+
+Replaces Smile's birthday reward email.
+
+Halvard
+
+Subject: Your friend just shopped
+
+HALVARD
+
+500 points for you.
+
+Thanks for sending a friend to Halvard.
+
+REFER AGAIN
+Referral Completed
+
+Replaces Smile's referral completed email.
+
+Also in the set: Reward Redeemed, Points Expiry Warning, Friend Received Referral and Reward Expiring.
+
+Use pre-built Klaviyo flows 
+(opens in a new tab)
+Beyond the inbox.
+Customer Hub and Klaviyo Reviews.
+HALVARD
+Hi, Maya
+Orders
+Rewards
+Account
+
+Halvard Trail Club
+
+2,430 points
+
+Best reward
+
+$20 off
+
+Tier
+
+Ridge
+
+In Klaviyo Customer Hub
+
+Once Smile is added to Customer Hub, it shows each customer's points balance, next or best reward and loyalty tier.
+
+Verified buyer
+
+Alpine Shell Jacket
+
+Light, warm and it packs small.
+
+Maya R.
++200 points
+Points for Klaviyo Reviews
+
+Verified reviews earn points, whether a star rating, text, photo or video.
+
+Connected in three steps.
+From Smile Admin, synced once.
+H
+Halvard
+admin.shopify.com/store/halvard/apps/smile/integrations/klaviyo
+
+SMILE / INTEGRATIONS
+
+Klaviyo
+
+CONNECTED
+Klaviyo account
+Halvard
+Connection
+OAuth
+
+The first sync takes from a few minutes to a couple of hours.
+
+SYNC CUSTOMER DATA
+1
+Step 1:
+Connect your Klaviyo account
+
+In Smile Admin, install the Klaviyo integration and follow the steps to connect it to your Klaviyo account.
+
+2
+Step 2:
+Sync customer data
+
+On the integration's settings page, click Sync customer data. The first sync takes from a few minutes to a couple of hours, and only runs once.
+
+3
+Step 3:
+Turn on the pre-built flows
+
+In Klaviyo, create a flow from the Smile: Loyalty & Rewards templates, then turn off the matching Smile email.
+
+Documentation
+
+Klaviyo integration setup
+Smile Help Center
+(opens in a new tab)
+Klaviyo data syncing
+Smile Help Center
+(opens in a new tab)
+Use pre-built Klaviyo flows
+Smile Help Center
+(opens in a new tab)
+Reward customers for Klaviyo Reviews
+Smile Help Center
+(opens in a new tab)
+Smile on the Klaviyo Marketplace
+marketplace.klaviyo.com
+(opens in a new tab)
+Smile and Klaviyo, answered.
+Does Smile work with Klaviyo?
+
+Yes. The Klaviyo integration is built and supported by Smile. When connected to Smile, you can sync loyalty data into Klaviyo profiles, trigger flows from program events, and reward customers for leaving Klaviyo Reviews.
+
+What loyalty data syncs to Klaviyo profiles?
+Which loyalty events does Smile send to Klaviyo?
+Are there pre-built Klaviyo flows for loyalty emails?
+Does it work with Klaviyo Customer Hub?
+Can customers earn points for Klaviyo Reviews?
+Which Smile plans include the Klaviyo integration?
+See Smile in your Klaviyo flows.
+Book a demo
+The plan that fits your monthly orders
+What migration and launch look like on that plan
+The revenue loyalty could add at your scale

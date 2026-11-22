@@ -1,0 +1,1909 @@
+{
+  "id": "amazon-seller-central",
+  "name": "Amazon Seller Central",
+  "category": "marketplaces-channels",
+  "url": "https://sell.amazon.com",
+  "flow": "site survey",
+  "capturedAt": "2026-11-22",
+  "rubricVersion": "1.2.0",
+  "status": "evaluated",
+  "surveyMode": "full",
+  "signupEnd": {
+    "state": "email-capture",
+    "url": "https://sellercentral.amazon.com/ap/signin?openid.return_to=https%3A%2F%2Fsellercentral.amazon.com%2Fmario%2Fua%2Forbis-welcome%2Fregional%2Fnode%2Fwelcome%2Frender%3Fpassthrough%252Faccount%3Dfba_soa%26passthrough%252FmarketplaceID%3DATVPDKIKX0DER%26passthrough%252FsuperSource%3DOAR%26ref_%3Dsdus_soa_sell_rp_n_mm%26passthrough%252FinitialSessionID%3D140-0774838-9197432%26passthrough%252Fld%3DSDUSSOADirect_SDRP_N_MM%26passthrough%252FpageName%3DUS%253ASD%253ASOA-home%26passthrough%252FldStackingCodes%3DSDUSSOADirect%26productTier%3DFBA%253ASILVER%26productType%3DFulfillmentByAmazon%253ASellOnAmazon%26marketplaceId%3DATVPDKIKX0DER%26language%3Den_US%26ingressMarketplace%3DATVPDKIKX0DER%26marketplace%3DATVPDKIKX0DER%26primaryMarketplace%3DATVPDKIKX0DER&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=amzn_sw_signup_us&openid.mode=checkid_setup&intercept=false&language=en_US&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&ssoResponse=eyJ6aXAiOiJERUYiLCJlbmMiOiJBMjU2R0NNIiwiYWxnIjoiQTI1NktXIn0.eFx8Hgp0ga0CTT59JEtdkh6guIiEmeqMKG6RJFqDsxc8yX3-TDAG7w.zY34k3AiKOmrtml4.jTAJH_SOm_cM99E0QmNfW8b2q4x3EuhmIBwT3ujRqVduuCMoPqHm5m0pOdv2moloHd4cx0H3Umcy1DZBIp0fnzVyz5UnUnXWD8fvzywijUXVGzFmwATm-aXfEt3y98m0xMlt-azHnUmoegEQcSCInsb_8QYAQYcyoJeCUwy_FsU3YZxuQgCoxOy26RG9zSyLx6dubu5gZg.iBGI9K7MMVE6J-ppqIfPYA",
+    "clicks": 2,
+    "fields": [
+      {
+        "type": "email",
+        "label": "Enter mobile number or email"
+      }
+    ],
+    "alternatives": [],
+    "submit": [],
+    "consent": [
+      "By continuing, you agree to Amazon's Conditions of Use and Privacy Notice."
+    ],
+    "pageHeightPx": 900,
+    "passwordAsked": false
+  },
+  "steps": [
+    {
+      "n": 1,
+      "kind": "home",
+      "title": "Sell on Amazon | Start selling on Amazon.com today",
+      "url": "https://sell.amazon.com/",
+      "screenshot": "shots/amazon-seller-central/step-1.webp",
+      "textFile": "data/captures/amazon-seller-central/page-1.txt",
+      "elapsedMs": 4516,
+      "clicks": 0,
+      "via": "entry",
+      "headings": [
+        "h3: Select your preferred language",
+        "h3: Start selling",
+        "h3: Seller registration guide",
+        "h3: Review fees and costs",
+        "h3: Estimate revenue and fulfillment costs",
+        "h3: Build and protect your brand",
+        "h3: Guide to growing your brand on Amazon",
+        "h3: Programs to help you grow",
+        "h3: Outsource your supply chain",
+        "h3: Learning",
+        "h3: Seller stories",
+        "h1: Sell more with Amazon",
+        "h3: Get 10% back on your first $50,000 in branded sales",
+        "h3: More than 75,000 independent sellers surpassed $1 million in sales in 20251",
+        "h3: Not sure where to begin?",
+        "h3: Answer three questions to learn how you can start selling with Amazon.",
+        "h2: Get started with over $50,000 in incentives",
+        "h2: Why sell on Amazon?",
+        "h3: Put your products in front of millions of shoppers",
+        "h3: Accelerate growth with built-in AI",
+        "h3: Convert more with a shopping experience customers trust",
+        "h3: Deliver products faster and save 70%",
+        "h2: Start selling with Amazon",
+        "h3: Try selling in a store that customers trust using high-impact tools and programs."
+      ],
+      "ctas": [
+        "Start selling",
+        "Sign up*",
+        "Learn more",
+        "Learn more about FBA",
+        "Sign up to become an individual seller",
+        "Sell books online",
+        "Amazon Brand Registry"
+      ],
+      "prices": [
+        "Sell more with Amazon Get 10% back on your first $50,000 in branded sales Sign",
+        "Sell more with Amazon Get 10% back on your first $50,000 in branded sales Sign up* More than 75,000 indepe",
+        "p* More than 75,000 independent sellers surpassed $1 million in sales in 20251 Not sure where to begin",
+        "he US New Seller Incentives Get started with over $50,000 in incentives Learn more 10% back on your first $",
+        "tarted with over $50,000 in incentives Learn more 10% back on your first $50,000 in branded sales, then",
+        "0 in incentives Learn more 10% back on your first $50,000 in branded sales, then 5% back through your first",
+        "back on your first $50,000 in branded sales, then 5% back through your first year until you reach $1,0",
+        "n 5% back through your first year until you reach $1,000,000 $100 off shipments into the Amazon fulfillment ne",
+        "hrough your first year until you reach $1,000,000 $100 off shipments into the Amazon fulfillment network",
+        "rollment in the FBA New Selection program Up to a $1,000 credit to create Sponsored Products ads Why sell",
+        "the recommended actions of Seller Assistant over 90% of the time.1 Learn about Amazon's AI-powered too",
+        "o sell on Amazon Deliver products faster and save 70% Use FBA to outsource shipping, customer service,",
+        "products Prime-eligible. Shipping with FBA costs 70% less per unit than comparable premium options off",
+        "sing high-impact tools and programs. Sign up* Get 10% back on your first $50,000 in branded sales Just",
+        "and programs. Sign up* Get 10% back on your first $50,000 in branded sales Just have a few items to sell? S",
+        "ividual seller *A Professional selling account is $39.99/month + selling fees. Learn more 12025 Amazon Small Bus"
+      ],
+      "description": "Learn how to create an Amazon selling account, list products, and grow your business with programs like Fulfillment by Amazon (FBA).",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "AEmbModern",
+            "body": "AEmb",
+            "distinct": [
+              "AEmbModern",
+              "AEmb",
+              "Times"
+            ]
+          },
+          "h1Px": 92,
+          "bodyPx": 16,
+          "bodyLineHeight": "24px",
+          "backgrounds": [
+            "#f5f3ef",
+            "#ffffff",
+            "#161d26",
+            "#49850f"
+          ],
+          "accents": [
+            "#ff6200",
+            "#161d26"
+          ],
+          "textColor": "#161d26",
+          "buttonRadius": "31.986px",
+          "buttonHeightPx": 50,
+          "images": 93,
+          "videos": 1,
+          "svgs": 36,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 3920,
+          "domNodes": 1527,
+          "domContentLoadedMs": 583,
+          "loadMs": 724
+        },
+        "merch": {
+          "planCards": 3,
+          "priceElements": 2,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 108
+        }
+      },
+      "mobileScreenshot": "shots/amazon-seller-central/step-1-mobile.webp"
+    },
+    {
+      "n": 2,
+      "kind": "pricing",
+      "title": "How much does it cost to sell on Amazon? | Sell on Amazon",
+      "url": "https://sell.amazon.com/pricing",
+      "screenshot": "shots/amazon-seller-central/step-2.webp",
+      "textFile": "data/captures/amazon-seller-central/page-2.txt",
+      "elapsedMs": 10086,
+      "clicks": 0,
+      "via": "nav: How much does it cost?",
+      "headings": [
+        "h3: Select your preferred language",
+        "h3: Start selling",
+        "h3: Seller registration guide",
+        "h3: Review fees and costs",
+        "h3: Estimate revenue and fulfillment costs",
+        "h3: Build and protect your brand",
+        "h3: Guide to growing your brand on Amazon",
+        "h3: Programs to help you grow",
+        "h3: Outsource your supply chain",
+        "h3: Learning",
+        "h3: Seller stories",
+        "h1: Standard selling fees",
+        "h3: Selling plans",
+        "h3: Individual",
+        "h3: Professional",
+        "h3: Referral fees",
+        "h3: Product category",
+        "h3: Referral fee percentage",
+        "h3: Referral fee minimum amount",
+        "h3: “There’s no question Amazon is the most efficient place in the world to reach new customers. It’s more than 50% cheaper for us to acquire a new customer through Amazon than it is elsewhere.”",
+        "h3: Estimate your FBA costs",
+        "h3: Wondering what it's like to sell on Amazon?",
+        "h2: Start selling today",
+        "h3: Put your products in front of the millions of customers who search Amazon.com every day."
+      ],
+      "ctas": [
+        "Start selling",
+        "Explore incentives",
+        "Start selling*",
+        "Sign up for Individual",
+        "Sign up for Professional",
+        "Amazon Brand Registry",
+        "Learn more about selling fees",
+        "Learn more about incentives.",
+        "Sign up*",
+        "Sign up to become an individual seller",
+        "Learn more",
+        "Sell books online"
+      ],
+      "prices": [
+        "referral fees. New-to-Amazon sellers can get over $50,000 in credits, bonuses, and exclusive benefits. Save",
+        "ools and programs for the right price. Individual $0.99 / item sold Professional $39.99 / month List one product",
+        "price. Individual $0.99 / item sold Professional $39.99 / month List one product at a time Set static prices Outs",
+        "you have a new-to-Amazon brand, you can get over $50,000 in automatic referral-fee waivers for your first",
+        "the world to reach new customers. It’s more than 50% cheaper for us to acquire a new customer through",
+        "ers who search Amazon.com every day. Sign up* Get 10% back on your first $50,000 in branded sales Just",
+        "om every day. Sign up* Get 10% back on your first $50,000 in branded sales Just have a few items to sell? S",
+        "ividual seller *A Professional selling account is $39.99/month + selling fees. Learn more Over 11,000 US-based i"
+      ],
+      "description": "Review Amazon selling plan fees, referral fees, and costs for optional services. Our Professional selling plan provides you with access to hundreds of tools and programs—for just $39.99/month.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "AEmbModern",
+            "body": "AEmb",
+            "distinct": [
+              "AEmbModern",
+              "AEmb",
+              "Times"
+            ]
+          },
+          "h1Px": 72,
+          "bodyPx": 16,
+          "bodyLineHeight": "24px",
+          "backgrounds": [
+            "#ffffff",
+            "#f5f3ef",
+            "#49850f",
+            "#232f3e"
+          ],
+          "accents": [
+            "#ff6200",
+            "#161d26"
+          ],
+          "textColor": "#161d26",
+          "buttonRadius": "31.986px",
+          "buttonHeightPx": 50,
+          "images": 104,
+          "videos": 0,
+          "svgs": 36,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 4619,
+          "domNodes": 1983,
+          "domContentLoadedMs": 545,
+          "loadMs": 713
+        },
+        "merch": {
+          "planCards": 2,
+          "priceElements": 2,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 118
+        }
+      },
+      "mobileScreenshot": "shots/amazon-seller-central/step-2-mobile.webp"
+    },
+    {
+      "n": 3,
+      "kind": "product",
+      "title": "How to build an online store in 2026 | Sell on Amazon",
+      "url": "https://sell.amazon.com/build-an-online-store",
+      "screenshot": "shots/amazon-seller-central/step-3.webp",
+      "textFile": "data/captures/amazon-seller-central/page-3.txt",
+      "elapsedMs": 16944,
+      "clicks": 0,
+      "via": "nav: Online store builder",
+      "headings": [
+        "h3: Select your preferred language",
+        "h3: Start selling",
+        "h3: Seller registration guide",
+        "h3: Review fees and costs",
+        "h3: Estimate revenue and fulfillment costs",
+        "h3: Build and protect your brand",
+        "h3: Guide to growing your brand on Amazon",
+        "h3: Programs to help you grow",
+        "h3: Outsource your supply chain",
+        "h3: Learning",
+        "h3: Seller stories",
+        "h1: How to build an online store in 5 steps",
+        "h3: Learn how to create an online store, including options, tips, strategies, and how to set one up with Amazon.",
+        "h3: Wondering what it's like to sell on Amazon?",
+        "h2: 3 options for creating your online store",
+        "h3: 1. Build your own store from scratch",
+        "h3: 2. Create a store on an established website",
+        "h3: 3. Use social media",
+        "h3: Did you know?",
+        "h3: More than 60% of sales in the Amazon store come from independent sellers",
+        "h2: 11 steps to build an online store",
+        "h3: 1. Define your business goals",
+        "h3: 2. Conduct market research",
+        "h3: 3. Plan your store or storefront structure",
+        "h3: 4. Choose your store or storefront location",
+        "h3: 5. Design your store or storefront",
+        "h3: 6. Set up payment and shipping options",
+        "h3: Learn the lingo:",
+        "h3: Payment gateway",
+        "h3: 7. Develop and upload content",
+        "h3: 8. Test your store",
+        "h3: 9. Launch your store",
+        "h3: 10. Market and promote your online store",
+        "h3: 11. Monitor and optimize",
+        "h3: Did you know?",
+        "h3: Amazon Brand Stores can lead to more sales",
+        "h2: 10 tips for choosing the right ecommerce site",
+        "h2: Why create a Brand Store with Amazon?",
+        "h2: How do you create an Amazon Brand Store?",
+        "h3: How to set up your Brand Store"
+      ],
+      "ctas": [
+        "Start selling",
+        "Start selling*",
+        "Explore more Amazon selling stats",
+        "Sign up",
+        "Amazon Brand Registry",
+        "Learn more about building a Brand Store",
+        "Learn more about MCF",
+        "Learn more about FBA",
+        "Sign up*",
+        "Learn more",
+        "Sell books online"
+      ],
+      "prices": [
+        "with Amazon. Start selling* Get started with over $50,000 in incentives Wondering what it's like to sell on",
+        "ave limited control over. Did you know? More than 60% of sales in the Amazon store come from independen",
+        "Independent sellers in the US averaged more than $375,000 in annual sales in Amazon’s store in 2025.1 Explo",
+        "rand Store during their shopping journey purchase 53.9% more frequently, have a 52.1% higher add-to-cart",
+        "ng journey purchase 53.9% more frequently, have a 52.1% higher add-to-cart rate, a 42.4% higher average s",
+        "equently, have a 52.1% higher add-to-cart rate, a 42.4% higher average selling price, and a 71.3% higher",
+        "rate, a 42.4% higher average selling price, and a 71.3% higher average order value compared to those who",
+        "to start selling? Sign up* Get started with over $50,000 in incentives *A Professional selling account is",
+        "in incentives *A Professional selling account is $39.99/month + selling fees. Learn more 12025 Amazon Small Bus"
+      ],
+      "description": "Learn how to create an online store in 5 steps. Get tips and strategies for building a store that resonates with customers, and find out how to set one up on Amazon.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "AEmbModern",
+            "body": "AEmb",
+            "distinct": [
+              "AEmbModern",
+              "AEmb",
+              "Times"
+            ]
+          },
+          "h1Px": 72,
+          "bodyPx": 16,
+          "bodyLineHeight": "24px",
+          "backgrounds": [
+            "#f5f3ef",
+            "#ffffff",
+            "#49850f",
+            "#232f3e"
+          ],
+          "accents": [
+            "#ff6200",
+            "#161d26"
+          ],
+          "textColor": "#161d26",
+          "buttonRadius": "31.986px",
+          "buttonHeightPx": 50,
+          "images": 96,
+          "videos": 0,
+          "svgs": 36,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 15150,
+          "domNodes": 1889,
+          "domContentLoadedMs": 449,
+          "loadMs": 636
+        },
+        "merch": {
+          "planCards": 1,
+          "priceElements": 2,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 154
+        }
+      }
+    },
+    {
+      "n": 4,
+      "kind": "platform",
+      "title": "Amazon Selling Partner Blog | Sell on Amazon",
+      "url": "https://sell.amazon.com/blog",
+      "screenshot": "shots/amazon-seller-central/step-4.webp",
+      "textFile": "data/captures/amazon-seller-central/page-4.txt",
+      "elapsedMs": 20767,
+      "clicks": 0,
+      "via": "nav: Selling Partner Blog",
+      "headings": [
+        "h3: Select your preferred language",
+        "h3: Start selling",
+        "h3: Seller registration guide",
+        "h3: Review fees and costs",
+        "h3: Estimate revenue and fulfillment costs",
+        "h3: Build and protect your brand",
+        "h3: Guide to growing your brand on Amazon",
+        "h3: Programs to help you grow",
+        "h3: Outsource your supply chain",
+        "h3: Learning",
+        "h3: Seller stories",
+        "h1: Amazon Selling Partner Blog",
+        "h2: Tips, info, and stories about selling in the Amazon store."
+      ],
+      "ctas": [
+        "Start selling",
+        "Getting started",
+        "Sell books online",
+        "Amazon Brand Registry"
+      ],
+      "prices": [],
+      "description": "Discover tips, insights, stories about selling in the Amazon store. Learn about seller tools and programs, find success stories, and get the latest updates.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Ember Modern Display",
+            "body": "AEmb",
+            "distinct": [
+              "AEmbModern",
+              "AEmb",
+              "Ember Modern Display",
+              "Amazon Ember Display"
+            ]
+          },
+          "h1Px": 72,
+          "bodyPx": 16,
+          "bodyLineHeight": "24px",
+          "backgrounds": [
+            "#ffffff",
+            "#f5f3ef",
+            "#161d26",
+            "#49850f"
+          ],
+          "accents": [
+            "#161d26",
+            "#ff6200"
+          ],
+          "textColor": "#161d26",
+          "buttonRadius": "31.986px",
+          "buttonHeightPx": 50,
+          "images": 93,
+          "videos": 0,
+          "svgs": 39,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 3104,
+          "domNodes": 1802,
+          "domContentLoadedMs": 380,
+          "loadMs": 538
+        },
+        "merch": {
+          "planCards": 1,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 135
+        }
+      }
+    },
+    {
+      "n": 5,
+      "kind": "resources",
+      "title": "New Seller Incentives | Sell on Amazon",
+      "url": "https://sell.amazon.com/incentives",
+      "screenshot": "shots/amazon-seller-central/step-5.webp",
+      "textFile": "data/captures/amazon-seller-central/page-5.txt",
+      "elapsedMs": 24853,
+      "clicks": 0,
+      "via": "nav: Learn how",
+      "headings": [
+        "h3: Select your preferred language",
+        "h3: Start selling",
+        "h3: Seller registration guide",
+        "h3: Review fees and costs",
+        "h3: Estimate revenue and fulfillment costs",
+        "h3: Build and protect your brand",
+        "h3: Guide to growing your brand on Amazon",
+        "h3: Programs to help you grow",
+        "h3: Outsource your supply chain",
+        "h3: Learning",
+        "h3: Seller stories",
+        "h1: Get over $50,000 in incentives",
+        "h3: New-to-Amazon sellers can save thousands with credits, bonuses, and exclusive benefits.",
+        "h3: Launch stronger. Grow faster.",
+        "h3: Frequently Asked Questions",
+        "h1: Get over $50,000 in incentives",
+        "h3: New-to-Amazon sellers can save thousands with credits, bonuses, and exclusive benefits."
+      ],
+      "ctas": [
+        "Start selling",
+        "Sign up to claim incentives*",
+        "Learn more about brand incentives",
+        "Learn more about fulfillment incentives",
+        "Learn more about advertising incentives",
+        "Learn more about each incentive",
+        "Learn more",
+        "Sell books online",
+        "Amazon Brand Registry"
+      ],
+      "prices": [
+        "Get over $50,000 in incentives New-to-Amazon sellers can save thou",
+        "o claim incentives* Build your brand—get rewarded $52.5K in referral fee waivers If you have a new-to-Ama",
+        "you have a new-to-Amazon brand, you can get up to $52,500 in automatic referral-fee waivers for your first",
+        "for your first year—when margins matter the most. $200 in Vine credits Drive business growth by collecti",
+        "about brand incentives Ship smarter from day one $700 in fulfillment credits Get $100 off shipments int",
+        "rter from day one $700 in fulfillment credits Get $100 off shipments into the Amazon fulfillment network",
+        "shipments into the Amazon fulfillment network, a $200 credit for fulfillment costs with Amazon Global L",
+        "illment costs with Amazon Global Logistics, and a $400 credit for inbound placement costs with Fulfillme",
+        "tilization surcharges while you ramp up with FBA. 25% off MCF fulfillment fees Get 25% off fulfillment",
+        "amp up with FBA. 25% off MCF fulfillment fees Get 25% off fulfillment costs for your first 100 units sh",
+        "more about fulfillment incentives Grow your reach $1,000 in ad credits Boost visibility with Amazon Ads. I",
+        "paign (cost-per-click ads) and earn credits up to $1,000. Reinvest your credits into more ads to keep the",
+        "credits into more ads to keep the momentum going. $50 in coupon credits Encourage conversion by offerin",
+        "referral bonus or associate commissions? Get over $50,000 in incentives New-to-Amazon sellers can save thou",
+        "im incentives* *A Professional selling account is $39.99/month + selling fees. Learn more Over 11,000 US-based i"
+      ],
+      "description": "Get over $50,000 in incentives. New-to-Amazon sellers can save thousands with credits, bonuses, and exclusive benefits.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "AEmbModern",
+            "body": "AEmb",
+            "distinct": [
+              "AEmbModern",
+              "AEmb",
+              "Times"
+            ]
+          },
+          "h1Px": 92,
+          "bodyPx": 16,
+          "bodyLineHeight": "24px",
+          "backgrounds": [
+            "#ffffff",
+            "#49850f",
+            "#232f3e",
+            "#ff6200"
+          ],
+          "accents": [
+            "#ff6200",
+            "#161d26"
+          ],
+          "textColor": "#161d26",
+          "buttonRadius": "31.986px",
+          "buttonHeightPx": 50,
+          "images": 87,
+          "videos": 0,
+          "svgs": 36,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 4081,
+          "domNodes": 1913,
+          "domContentLoadedMs": 554,
+          "loadMs": 843
+        },
+        "merch": {
+          "planCards": 2,
+          "priceElements": 6,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [
+            "Is there an option for a free trial period for selling with Amazon?"
+          ],
+          "links": 111
+        }
+      }
+    },
+    {
+      "n": 6,
+      "kind": "product",
+      "title": "Amazon Business | Sell on Amazon",
+      "url": "https://sell.amazon.com/programs/amazon-business",
+      "screenshot": "shots/amazon-seller-central/step-6.webp",
+      "textFile": "data/captures/amazon-seller-central/page-6.txt",
+      "elapsedMs": 29169,
+      "clicks": 0,
+      "via": "nav: Sell B2BConnect with business customers",
+      "headings": [
+        "h3: Select your preferred language",
+        "h3: Start selling",
+        "h3: Seller registration guide",
+        "h3: Review fees and costs",
+        "h3: Estimate revenue and fulfillment costs",
+        "h3: Build and protect your brand",
+        "h3: Guide to growing your brand on Amazon",
+        "h3: Programs to help you grow",
+        "h3: Outsource your supply chain",
+        "h3: Learning",
+        "h3: Seller stories",
+        "h1: Expand your reach to business customers",
+        "h2: What is Amazon Business?",
+        "h3: Increase sales with B2B selection",
+        "h3: Optimize your B2B pricing",
+        "h3: Differentiate your business",
+        "h3: Tailor delivery to B2B customers",
+        "h3: Optimize your B2B strategy",
+        "h3: Automate your B2B sales",
+        "h2: $35 billion",
+        "h2: 8 million",
+        "h3: How selling with Amazon Business works",
+        "h3: Step 1",
+        "h3: Sign up for a Professional selling account",
+        "h3: Step 2",
+        "h3: Add B2B products to your catalog",
+        "h3: Step 3",
+        "h3: Set business prices and quantity discounts",
+        "h3: Step 4",
+        "h3: Add certifications and create a business profile",
+        "h3: Step 5",
+        "h3: Try other B2B features and tools",
+        "h3: Did you know?",
+        "h3: You can automate B2B selling with Amazon Business APIs",
+        "h3: Resources",
+        "h3: Wondering what it's like to sell on Amazon?",
+        "h3: Frequently Asked Questions",
+        "h2: Expand your reach to business customers"
+      ],
+      "ctas": [
+        "Start selling",
+        "Sign up*",
+        "Learn more",
+        "Sign up",
+        "Learn more about Amazon Business APIs",
+        "Sell books online",
+        "Amazon Brand Registry"
+      ],
+      "prices": [
+        "e right prices for business customers. Learn more $35 billion Annualized sales driven by Amazon Busines",
+        "ess Global Power Global Power grew their sales by 45% using Amazon Business features Learn how Amazon B",
+        "B features *A Professional selling account is $39.99/month + selling fees. Learn more Home Programs Amazon B"
+      ],
+      "description": "Use B2B pricing, certifications, and other features to connect with business customers shopping on Amazon Business.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "AEmbModern",
+            "body": "AEmb",
+            "distinct": [
+              "AEmbModern",
+              "AEmb",
+              "Times"
+            ]
+          },
+          "h1Px": 72,
+          "bodyPx": 12,
+          "bodyLineHeight": "normal",
+          "backgrounds": [
+            "#ffffff",
+            "#f5f3ef",
+            "#49850f",
+            "#232f3e"
+          ],
+          "accents": [
+            "#ff6200",
+            "#161d26"
+          ],
+          "textColor": "#232f3e",
+          "buttonRadius": "31.986px",
+          "buttonHeightPx": 50,
+          "images": 95,
+          "videos": 0,
+          "svgs": 36,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 6459,
+          "domNodes": 1848,
+          "domContentLoadedMs": 368,
+          "loadMs": 1794
+        },
+        "merch": {
+          "planCards": 1,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [
+            "Set business prices and quantity discounts",
+            "Business Discounts Insights",
+            "Automate business prices and quantity discounts"
+          ],
+          "links": 128
+        }
+      }
+    },
+    {
+      "n": 7,
+      "kind": "platform",
+      "title": "Amazon Seller mobile app | Sell on Amazon",
+      "url": "https://sell.amazon.com/tools/amazon-seller-app",
+      "screenshot": "shots/amazon-seller-central/step-7.webp",
+      "textFile": "data/captures/amazon-seller-central/page-7.txt",
+      "elapsedMs": 33591,
+      "clicks": 0,
+      "via": "nav: Amazon Seller App",
+      "headings": [
+        "h3: Select your preferred language",
+        "h3: Start selling",
+        "h3: Seller registration guide",
+        "h3: Review fees and costs",
+        "h3: Estimate revenue and fulfillment costs",
+        "h3: Build and protect your brand",
+        "h3: Guide to growing your brand on Amazon",
+        "h3: Programs to help you grow",
+        "h3: Outsource your supply chain",
+        "h3: Learning",
+        "h3: Seller stories",
+        "h1: Manage your business on the go with the Amazon Seller mobile app",
+        "h2: What is the Amazon Seller mobile app?",
+        "h3: Ready to manage your business on the go?",
+        "h2: 5 key features in the Amazon Seller mobile app",
+        "h3: 1. Search and add products with barcode scanning",
+        "h3: 2. Global selling",
+        "h3: 3. Customizable notifications",
+        "h3: 4. Seller App Photo Studio",
+        "h3: 5. Seller Support",
+        "h3: Manage your Amazon selling account on the go with the Amazon Seller mobile app",
+        "h2: 8 ways to use the Amazon Seller mobile app",
+        "h3: 1. Stay current on updates",
+        "h3: 2. Monitor sales",
+        "h3: 3. Find products to sell",
+        "h3: 4. Create and edit product listings",
+        "h3: 5. Manage inventory and returns",
+        "h3: 6. Handle fulfillment and shipping",
+        "h3: 7. Manage customer communications",
+        "h3: 8. Run advertising campaigns",
+        "h3: Learn the lingo:",
+        "h3: Featured Offer",
+        "h3: How to get the Amazon Seller mobile app",
+        "h3: 2. Download the app",
+        "h2: 3. Start exploring",
+        "h2: Frequently Asked Questions",
+        "h2: Grow your business on Amazon"
+      ],
+      "ctas": [
+        "Start selling",
+        "Learn more about inventory management",
+        "Learn more about the Featured Offer",
+        "Sign up*",
+        "Learn more",
+        "Sell books online",
+        "Amazon Brand Registry"
+      ],
+      "prices": [
+        "er app? Grow your business on Amazon Sign up* Get 10% back on your first $50,000 in branded sales *A Pr",
+        "ess on Amazon Sign up* Get 10% back on your first $50,000 in branded sales *A Professional selling account",
+        "branded sales *A Professional selling account is $39.99/month + selling fees. Learn more Home Tools Amazon Sell"
+      ],
+      "description": "Use the free Amazon Seller mobile app to manage your business and grow sales on Amazon. The app syncs with your Amazon selling account so you can track orders, manage inventory, and more—all from your mobile device.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "AEmbModern",
+            "body": "AEmb",
+            "distinct": [
+              "AEmbModern",
+              "AEmb",
+              "Times"
+            ]
+          },
+          "h1Px": 72,
+          "bodyPx": 16,
+          "bodyLineHeight": "24px",
+          "backgrounds": [
+            "#f5f3ef",
+            "#ffffff",
+            "#161d26",
+            "#49850f"
+          ],
+          "accents": [
+            "#161d26",
+            "#ff6200"
+          ],
+          "textColor": "#161d26",
+          "buttonRadius": "31.986px",
+          "buttonHeightPx": 50,
+          "images": 93,
+          "videos": 0,
+          "svgs": 36,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 7176,
+          "domNodes": 1641,
+          "domContentLoadedMs": 387,
+          "loadMs": 1185
+        },
+        "merch": {
+          "planCards": 1,
+          "priceElements": 1,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 136
+        }
+      }
+    },
+    {
+      "n": 8,
+      "kind": "product",
+      "title": "Amazon Brand Analytics | Sell on Amazon",
+      "url": "https://sell.amazon.com/tools/amazon-brand-analytics",
+      "screenshot": "shots/amazon-seller-central/step-8.webp",
+      "textFile": "data/captures/amazon-seller-central/page-8.txt",
+      "elapsedMs": 37723,
+      "clicks": 0,
+      "via": "nav: Amazon Brand Analytics",
+      "headings": [
+        "h3: Select your preferred language",
+        "h3: Start selling",
+        "h3: Seller registration guide",
+        "h3: Review fees and costs",
+        "h3: Estimate revenue and fulfillment costs",
+        "h3: Build and protect your brand",
+        "h3: Guide to growing your brand on Amazon",
+        "h3: Programs to help you grow",
+        "h3: Outsource your supply chain",
+        "h3: Learning",
+        "h3: Seller stories",
+        "h1: Inform your selling strategy with customer insights",
+        "h3: Turn customer search and purchase data into smarter selling decisions.",
+        "h2: What is Brand Analytics?",
+        "h3: Who can use Brand Analytics?",
+        "h2: Boost customer lifetime value and optimize engagement",
+        "h3: Create customer segments and analyze purchase patterns",
+        "h2: Make data-driven decisions with key metrics",
+        "h3: Monitor impressions, clicks, cart adds, and purchases so you can strategically enhance the shopping experience, resolve issues, and capitalize on trends.",
+        "h3: Did you know?",
+        "h3: Understanding your audience can help you sell more products",
+        "h2: Increase revenue and grow traffic",
+        "h3: Get the data you need to assess customer satisfaction, build customer loyalty, and earn more repeat business.",
+        "h3: Ready to get started?",
+        "h3: Step 1",
+        "h3: Log in to Seller Central",
+        "h3: Step 2",
+        "h3: Enroll your brand",
+        "h3: Step 3",
+        "h3: Access Brand Analytics",
+        "h2: Start selling today",
+        "h3: Reach customers in over 100 countries."
+      ],
+      "ctas": [
+        "Start selling",
+        "Get started",
+        "Learn more about each dashboard",
+        "Learn more about Brand Registry",
+        "sign up",
+        "Sign up*",
+        "Learn more",
+        "Sell books online",
+        "Amazon Brand Registry"
+      ],
+      "prices": [
+        "about Brand Registry \"Quarterly sales jumped over 40% after optimizing for best search terms using the",
+        "ach customers in over 100 countries. Sign up* Get 10% back on your first $50,000 in branded sales *A Pr",
+        "00 countries. Sign up* Get 10% back on your first $50,000 in branded sales *A Professional selling account",
+        "branded sales *A Professional selling account is $39.99/month + selling fees. Learn more Home Tools Brand Analy"
+      ],
+      "description": "Use Amazon Brand Analytics dashboards to understand how customers search and purchase your brand's products on Amazon. Get actionable insights and build a data-driven selling strategy.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "AEmbModern",
+            "body": "AEmb",
+            "distinct": [
+              "AEmbModern",
+              "AEmb",
+              "Times"
+            ]
+          },
+          "h1Px": 72,
+          "bodyPx": 12,
+          "bodyLineHeight": "normal",
+          "backgrounds": [
+            "#ffffff",
+            "#f5f3ef",
+            "#161d26",
+            "#49850f"
+          ],
+          "accents": [
+            "#161d26",
+            "#ff6200"
+          ],
+          "textColor": "#232f3e",
+          "buttonRadius": "31.986px",
+          "buttonHeightPx": 50,
+          "images": 99,
+          "videos": 0,
+          "svgs": 37,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 5248,
+          "domNodes": 1650,
+          "domContentLoadedMs": 459,
+          "loadMs": 627
+        },
+        "merch": {
+          "planCards": 1,
+          "priceElements": 1,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 114
+        }
+      }
+    },
+    {
+      "n": 9,
+      "kind": "product",
+      "title": "Selling Partner Appstore | Sell on Amazon",
+      "url": "https://sell.amazon.com/tools/selling-partner-appstore",
+      "screenshot": "shots/amazon-seller-central/step-9.webp",
+      "textFile": "data/captures/amazon-seller-central/page-9.txt",
+      "elapsedMs": 42033,
+      "clicks": 0,
+      "via": "nav: Selling Partner Appstore",
+      "headings": [
+        "h3: Select your preferred language",
+        "h3: Start selling",
+        "h3: Seller registration guide",
+        "h3: Review fees and costs",
+        "h3: Estimate revenue and fulfillment costs",
+        "h3: Build and protect your brand",
+        "h3: Guide to growing your brand on Amazon",
+        "h3: Programs to help you grow",
+        "h3: Outsource your supply chain",
+        "h3: Learning",
+        "h3: Seller stories",
+        "h1: Scale faster with apps",
+        "h3: On average, sellers see a 10% uplift in sales after adopting apps.1",
+        "h3: Find solutions in the Selling Partner Appstore",
+        "h3: Watch seller story",
+        "h3: Watch seller story",
+        "h3: Tap into a store of possibilities",
+        "h3: On average, sellers who use apps experience 43% shorter time to get their first sale after listing.*",
+        "h3: App categories",
+        "h3: Ready to get started?",
+        "h3: Step 1",
+        "h3: Visit the Appstore",
+        "h3: Step 2",
+        "h3: Discover solutions",
+        "h3: Step 3",
+        "h3: Evaluate your options",
+        "h3: Step 4",
+        "h3: Get the app",
+        "h3: Step 5",
+        "h3: Authorize the app",
+        "h3: Frequently Asked Questions",
+        "h2: Scale faster with apps"
+      ],
+      "ctas": [
+        "Start selling",
+        "Sign up*",
+        "Sign up",
+        "Learn more",
+        "Sell books online",
+        "Amazon Brand Registry"
+      ],
+      "prices": [
+        "ng Partner Appstore On average, sellers see a 10% uplift in sales after adopting apps.1 Find soluti",
+        "tion. On average, sellers who use apps experience 43% shorter time to get their first sale after listin",
+        "tner Appstore *A Professional selling plan is $39.99 a month + selling fees. Learn more 1Amazon intern"
+      ],
+      "description": "Find Amazon-approved third-party selling apps to automate, manage, and grow your ecommerce business.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "AEmbModern",
+            "body": "AEmb",
+            "distinct": [
+              "AEmbModern",
+              "AEmb",
+              "Times"
+            ]
+          },
+          "h1Px": 92,
+          "bodyPx": 12,
+          "bodyLineHeight": "normal",
+          "backgrounds": [
+            "#f5f3ef",
+            "#ffffff",
+            "#161d26",
+            "#49850f"
+          ],
+          "accents": [
+            "#161d26",
+            "#ff6200"
+          ],
+          "textColor": "#232f3e",
+          "buttonRadius": "31.986px",
+          "buttonHeightPx": 50,
+          "images": 99,
+          "videos": 0,
+          "svgs": 36,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 5796,
+          "domNodes": 1730,
+          "domContentLoadedMs": 492,
+          "loadMs": 656
+        },
+        "merch": {
+          "planCards": 1,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 109
+        }
+      }
+    },
+    {
+      "n": 10,
+      "kind": "signup",
+      "title": "Sell on Amazon | Start selling on Amazon.com today",
+      "url": "https://sell.amazon.com/",
+      "screenshot": "shots/amazon-seller-central/step-10.webp",
+      "textFile": "data/captures/amazon-seller-central/page-10.txt",
+      "elapsedMs": 6007,
+      "clicks": 1,
+      "via": "click: \"Get over $50K in new seller incentives Start selling and sav\"",
+      "headings": [
+        "h3: Select your preferred language",
+        "h3: Start selling",
+        "h3: Seller registration guide",
+        "h3: Review fees and costs",
+        "h3: Estimate revenue and fulfillment costs",
+        "h3: Build and protect your brand",
+        "h3: Guide to growing your brand on Amazon",
+        "h3: Programs to help you grow",
+        "h3: Outsource your supply chain",
+        "h3: Learning",
+        "h3: Seller stories",
+        "h1: Sell more with Amazon",
+        "h3: Get 10% back on your first $50,000 in branded sales",
+        "h3: More than 75,000 independent sellers surpassed $1 million in sales in 20251",
+        "h3: Not sure where to begin?",
+        "h3: Answer three questions to learn how you can start selling with Amazon.",
+        "h2: Get started with over $50,000 in incentives",
+        "h2: Why sell on Amazon?",
+        "h3: Put your products in front of millions of shoppers",
+        "h3: Accelerate growth with built-in AI",
+        "h3: Convert more with a shopping experience customers trust",
+        "h3: Deliver products faster and save 70%",
+        "h2: Start selling with Amazon",
+        "h3: Try selling in a store that customers trust using high-impact tools and programs."
+      ],
+      "ctas": [
+        "Start selling",
+        "Sign up*",
+        "Learn more",
+        "Learn more about FBA",
+        "Sign up to become an individual seller",
+        "Sell books online",
+        "Amazon Brand Registry"
+      ],
+      "prices": [
+        "Unlock $50K in new seller credits, bonuses, and exclusive be",
+        "er orders Decide on a fulfillment method Get over $50K in new seller incentives Start selling and save",
+        "AQ Log in Start selling Sell more with Amazon Get 10% back on your first $50,000 in branded sales Sign",
+        "Sell more with Amazon Get 10% back on your first $50,000 in branded sales Sign up* More than 75,000 indepe",
+        "p* More than 75,000 independent sellers surpassed $1 million in sales in 20251 Not sure where to begin",
+        "he US New Seller Incentives Get started with over $50,000 in incentives Learn more 10% back on your first $",
+        "tarted with over $50,000 in incentives Learn more 10% back on your first $50,000 in branded sales, then",
+        "0 in incentives Learn more 10% back on your first $50,000 in branded sales, then 5% back through your first",
+        "back on your first $50,000 in branded sales, then 5% back through your first year until you reach $1,0",
+        "n 5% back through your first year until you reach $1,000,000 $100 off shipments into the Amazon fulfillment ne",
+        "hrough your first year until you reach $1,000,000 $100 off shipments into the Amazon fulfillment network",
+        "rollment in the FBA New Selection program Up to a $1,000 credit to create Sponsored Products ads Why sell",
+        "the recommended actions of Seller Assistant over 90% of the time.1 Learn about Amazon's AI-powered too",
+        "o sell on Amazon Deliver products faster and save 70% Use FBA to outsource shipping, customer service,",
+        "products Prime-eligible. Shipping with FBA costs 70% less per unit than comparable premium options off",
+        "sing high-impact tools and programs. Sign up* Get 10% back on your first $50,000 in branded sales Just",
+        "and programs. Sign up* Get 10% back on your first $50,000 in branded sales Just have a few items to sell? S",
+        "ividual seller *A Professional selling account is $39.99/month + selling fees. Learn more 12025 Amazon Small Bus"
+      ],
+      "description": "Learn how to create an Amazon selling account, list products, and grow your business with programs like Fulfillment by Amazon (FBA).",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "AEmbModern",
+            "body": "AEmb",
+            "distinct": [
+              "AEmbModern",
+              "AEmb",
+              "Times"
+            ]
+          },
+          "h1Px": 92,
+          "bodyPx": 16,
+          "bodyLineHeight": "24px",
+          "backgrounds": [
+            "#f5f3ef",
+            "#ffffff",
+            "#161d26",
+            "#49850f"
+          ],
+          "accents": [
+            "#ff6200",
+            "#161d26"
+          ],
+          "textColor": "#161d26",
+          "buttonRadius": "31.986px",
+          "buttonHeightPx": 50,
+          "images": 93,
+          "videos": 1,
+          "svgs": 36,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 3920,
+          "domNodes": 1526,
+          "domContentLoadedMs": 524,
+          "loadMs": 679
+        },
+        "merch": {
+          "planCards": 3,
+          "priceElements": 2,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 108
+        }
+      },
+      "form": {
+        "fields": [],
+        "alternatives": [],
+        "submit": [],
+        "consent": [
+          "Terms of Service Privacy Policy © 2026, Amazon.com Services LLC.",
+          "Terms of Service Privacy Policy",
+          "Terms of Service"
+        ],
+        "pageHeightPx": 3920,
+        "passwordAsked": false
+      }
+    },
+    {
+      "n": 11,
+      "kind": "signup",
+      "title": "Amazon Next",
+      "url": "https://sellercentral.amazon.com/ap/signin?openid.return_to=https%3A%2F%2Fsellercentral.amazon.com%2Fmario%2Fua%2Forbis-welcome%2Fregional%2Fnode%2Fwelcome%2Frender%3Fpassthrough%252Faccount%3Dfba_soa%26passthrough%252FmarketplaceID%3DATVPDKIKX0DER%26passthrough%252FsuperSource%3DOAR%26ref_%3Dsdus_soa_sell_rp_n_mm%26passthrough%252FinitialSessionID%3D140-0774838-9197432%26passthrough%252Fld%3DSDUSSOADirect_SDRP_N_MM%26passthrough%252FpageName%3DUS%253ASD%253ASOA-home%26passthrough%252FldStackingCodes%3DSDUSSOADirect%26productTier%3DFBA%253ASILVER%26productType%3DFulfillmentByAmazon%253ASellOnAmazon%26marketplaceId%3DATVPDKIKX0DER%26language%3Den_US%26ingressMarketplace%3DATVPDKIKX0DER%26marketplace%3DATVPDKIKX0DER%26primaryMarketplace%3DATVPDKIKX0DER&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=amzn_sw_signup_us&openid.mode=checkid_setup&intercept=false&language=en_US&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&ssoResponse=eyJ6aXAiOiJERUYiLCJlbmMiOiJBMjU2R0NNIiwiYWxnIjoiQTI1NktXIn0.eFx8Hgp0ga0CTT59JEtdkh6guIiEmeqMKG6RJFqDsxc8yX3-TDAG7w.zY34k3AiKOmrtml4.jTAJH_SOm_cM99E0QmNfW8b2q4x3EuhmIBwT3ujRqVduuCMoPqHm5m0pOdv2moloHd4cx0H3Umcy1DZBIp0fnzVyz5UnUnXWD8fvzywijUXVGzFmwATm-aXfEt3y98m0xMlt-azHnUmoegEQcSCInsb_8QYAQYcyoJeCUwy_FsU3YZxuQgCoxOy26RG9zSyLx6dubu5gZg.iBGI9K7MMVE6J-ppqIfPYA",
+      "screenshot": "shots/amazon-seller-central/step-11.webp",
+      "textFile": "data/captures/amazon-seller-central/page-11.txt",
+      "elapsedMs": 9367,
+      "clicks": 2,
+      "via": "click: \"Start selling\"",
+      "headings": [
+        "h1: Start selling with Amazon"
+      ],
+      "ctas": [],
+      "prices": [],
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Arial",
+            "body": "Arial",
+            "distinct": [
+              "Arial"
+            ]
+          },
+          "h1Px": 20,
+          "bodyPx": 14,
+          "bodyLineHeight": "20px",
+          "backgrounds": [
+            "#ffffff",
+            "#ffd814"
+          ],
+          "accents": [],
+          "textColor": "#0f1111",
+          "buttonRadius": null,
+          "buttonHeightPx": null,
+          "images": 2,
+          "videos": 0,
+          "svgs": 0,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 900,
+          "domNodes": 138,
+          "domContentLoadedMs": 756,
+          "loadMs": 852
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 4
+        }
+      },
+      "form": {
+        "fields": [
+          {
+            "type": "email",
+            "label": "Enter mobile number or email"
+          }
+        ],
+        "alternatives": [],
+        "submit": [],
+        "consent": [
+          "By continuing, you agree to Amazon's Conditions of Use and Privacy Notice."
+        ],
+        "pageHeightPx": 900,
+        "passwordAsked": false
+      },
+      "note": "Stopped here: the page asks for an email or password. Nothing is typed."
+    }
+  ],
+  "navMap": [
+    {
+      "label": "Learn how",
+      "href": "https://sell.amazon.com/grow",
+      "area": "header",
+      "kind": "resources"
+    },
+    {
+      "label": "arrow_outwardReview our FAQ",
+      "href": "https://sell.amazon.com/learn/faq",
+      "area": "header",
+      "kind": "resources"
+    },
+    {
+      "label": "View more services",
+      "href": "https://sell.amazon.com/programs",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Sell B2BConnect with business customers",
+      "href": "https://sell.amazon.com/programs/amazon-business",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Sell globallySell to Amazon customers worldwide",
+      "href": "https://sell.amazon.com/global-selling",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "View all resources",
+      "href": "https://sell.amazon.com/learn",
+      "area": "header",
+      "kind": "resources"
+    },
+    {
+      "label": "Seller UniversityLearn how to sell with Amazon",
+      "href": "https://sell.amazon.com/learn/seller-university",
+      "area": "header",
+      "kind": "resources"
+    },
+    {
+      "label": "Australia",
+      "href": "https://sell.amazon.com.au/?initialSessionID=140-0774838-9197432&ld=SDUSSOADirect&pageName=US%3ASD%3ASOA-home&ldStackingCodes=SDUSSOADirect",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Belgium",
+      "href": "https://sell.amazon.com.be/?initialSessionID=140-0774838-9197432&ld=SDUSSOADirect&pageName=US%3ASD%3ASOA-home&ldStackingCodes=SDUSSOADirect",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Brazil",
+      "href": "https://venda.amazon.com.br/?initialSessionID=140-0774838-9197432&ld=SDUSSOADirect&pageName=US%3ASD%3ASOA-home&ldStackingCodes=SDUSSOADirect",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Canada",
+      "href": "https://sell.amazon.ca/?initialSessionID=140-0774838-9197432&ld=SDUSSOADirect&pageName=US%3ASD%3ASOA-home&ldStackingCodes=SDUSSOADirect",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "China",
+      "href": "https://gs.amazon.cn/?initialSessionID=140-0774838-9197432&ld=SDUSSOADirect&pageName=US%3ASD%3ASOA-home&ldStackingCodes=SDUSSOADirect",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "France",
+      "href": "https://sell.amazon.fr/?initialSessionID=140-0774838-9197432&ld=SDUSSOADirect&pageName=US%3ASD%3ASOA-home&ldStackingCodes=SDUSSOADirect",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Germany",
+      "href": "https://sell.amazon.de/?initialSessionID=140-0774838-9197432&ld=SDUSSOADirect&pageName=US%3ASD%3ASOA-home&ldStackingCodes=SDUSSOADirect",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "India",
+      "href": "https://sell.amazon.in/?initialSessionID=140-0774838-9197432&ld=SDUSSOADirect&pageName=US%3ASD%3ASOA-home&ldStackingCodes=SDUSSOADirect",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Ireland",
+      "href": "https://sellercentral.amazon.ie/?initialSessionID=140-0774838-9197432&ld=SDUSSOADirect&pageName=US%3ASD%3ASOA-home&ldStackingCodes=SDUSSOADirect",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Italy",
+      "href": "https://sell.amazon.it/?initialSessionID=140-0774838-9197432&ld=SDUSSOADirect&pageName=US%3ASD%3ASOA-home&ldStackingCodes=SDUSSOADirect",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Japan",
+      "href": "https://sell.amazon.co.jp/?initialSessionID=140-0774838-9197432&ld=SDUSSOADirect&pageName=US%3ASD%3ASOA-home&ldStackingCodes=SDUSSOADirect",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Korea",
+      "href": "https://sell.amazon.co.kr/?initialSessionID=140-0774838-9197432&ld=SDUSSOADirect&pageName=US%3ASD%3ASOA-home&ldStackingCodes=SDUSSOADirect",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Mexico",
+      "href": "https://vender.amazon.com.mx/?initialSessionID=140-0774838-9197432&ld=SDUSSOADirect&pageName=US%3ASD%3ASOA-home&ldStackingCodes=SDUSSOADirect",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Netherlands",
+      "href": "https://sell.amazon.nl/?initialSessionID=140-0774838-9197432&ld=SDUSSOADirect&pageName=US%3ASD%3ASOA-home&ldStackingCodes=SDUSSOADirect",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Poland",
+      "href": "https://sell.amazon.pl/?initialSessionID=140-0774838-9197432&ld=SDUSSOADirect&pageName=US%3ASD%3ASOA-home&ldStackingCodes=SDUSSOADirect",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Saudi Arabia",
+      "href": "https://sell.amazon.sa/?initialSessionID=140-0774838-9197432&ld=SDUSSOADirect&pageName=US%3ASD%3ASOA-home&ldStackingCodes=SDUSSOADirect",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Singapore",
+      "href": "https://sell.amazon.com.sg/?initialSessionID=140-0774838-9197432&ld=SDUSSOADirect&pageName=US%3ASD%3ASOA-home&ldStackingCodes=SDUSSOADirect",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "South Africa",
+      "href": "https://sellercentral.amazon.co.za/?initialSessionID=140-0774838-9197432&ld=SDUSSOADirect&pageName=US%3ASD%3ASOA-home&ldStackingCodes=SDUSSOADirect",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Spain",
+      "href": "https://sell.amazon.es/?initialSessionID=140-0774838-9197432&ld=SDUSSOADirect&pageName=US%3ASD%3ASOA-home&ldStackingCodes=SDUSSOADirect",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Sweden",
+      "href": "https://sell.amazon.se/?initialSessionID=140-0774838-9197432&ld=SDUSSOADirect&pageName=US%3ASD%3ASOA-home&ldStackingCodes=SDUSSOADirect",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Taiwan",
+      "href": "https://gs.amazon.com.tw/?initialSessionID=140-0774838-9197432&ld=SDUSSOADirect&pageName=US%3ASD%3ASOA-home&ldStackingCodes=SDUSSOADirect",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Thailand",
+      "href": "https://sell.amazon.co.th/?initialSessionID=140-0774838-9197432&ld=SDUSSOADirect&pageName=US%3ASD%3ASOA-home&ldStackingCodes=SDUSSOADirect",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Turkey",
+      "href": "https://satis.amazon.com.tr/?initialSessionID=140-0774838-9197432&ld=SDUSSOADirect&pageName=US%3ASD%3ASOA-home&ldStackingCodes=SDUSSOADirect",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "United Arab Emirates",
+      "href": "https://sell.amazon.ae/?initialSessionID=140-0774838-9197432&ld=SDUSSOADirect&pageName=US%3ASD%3ASOA-home&ldStackingCodes=SDUSSOADirect",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "United Kingdom",
+      "href": "https://sell.amazon.co.uk/?initialSessionID=140-0774838-9197432&ld=SDUSSOADirect&pageName=US%3ASD%3ASOA-home&ldStackingCodes=SDUSSOADirect",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Vietnam",
+      "href": "https://sell.amazon.vn/?initialSessionID=140-0774838-9197432&ld=SDUSSOADirect&pageName=US%3ASD%3ASOA-home&ldStackingCodes=SDUSSOADirect",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Sell online",
+      "href": "https://sell.amazon.com/sell-online",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "How to sell on Amazon",
+      "href": "https://sell.amazon.com/sell",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "How much does it cost?",
+      "href": "https://sell.amazon.com/pricing",
+      "area": "header",
+      "kind": "pricing"
+    },
+    {
+      "label": "Inventory management",
+      "href": "https://sell.amazon.com/learn/inventory-management",
+      "area": "header",
+      "kind": "resources"
+    },
+    {
+      "label": "What is dropshipping?",
+      "href": "https://sell.amazon.com/learn/what-is-dropshipping",
+      "area": "header",
+      "kind": "resources"
+    },
+    {
+      "label": "Sell books online",
+      "href": "https://sell.amazon.com/learn/how-to-sell-books",
+      "area": "header",
+      "kind": "resources"
+    },
+    {
+      "label": "Fulfillment by Amazon",
+      "href": "https://sell.amazon.com/fulfillment-by-amazon",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Amazon Ads",
+      "href": "https://sell.amazon.com/advertising",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Strategic Account Services",
+      "href": "https://sell.amazon.com/programs/paid-services",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Online store builder",
+      "href": "https://sell.amazon.com/build-an-online-store",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Amazon Brand Registry",
+      "href": "https://sell.amazon.com/brand-registry",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Amazon Transparency",
+      "href": "https://sell.amazon.com/brand-registry/transparency",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Customer Reviews",
+      "href": "https://sell.amazon.com/tools/customer-reviews",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Amazon Brand Analytics",
+      "href": "https://sell.amazon.com/tools/amazon-brand-analytics",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "A+ Content",
+      "href": "https://sell.amazon.com/tools/a-content",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Selling Partner Blog",
+      "href": "https://sell.amazon.com/blog",
+      "area": "header",
+      "kind": "platform"
+    },
+    {
+      "label": "Seller Central Help",
+      "href": "https://sellercentral.amazon.com/help/hub/reference/external/?initialSessionID=140-0774838-9197432&ld=SDUSSOADirect&pageName=US%3ASD%3ASOA-home&ldStackingCodes=SDUSSOADirect",
+      "area": "header",
+      "kind": "resources"
+    },
+    {
+      "label": "Amazon Seller Events",
+      "href": "https://sell.amazon.com/events",
+      "area": "header",
+      "kind": "resources"
+    },
+    {
+      "label": "More ways to make money",
+      "href": "https://www.amazon.com/make-money-with-amazon/b?ie=UTF8&node=13605942011&initialSessionID=140-0774838-9197432&ld=SDUSSOADirect&pageName=US%3ASD%3ASOA-home&ldStackingCodes=SDUSSOADirect",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Seller Central",
+      "href": "https://sell.amazon.com/tools/seller-central",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Amazon Seller App",
+      "href": "https://sell.amazon.com/tools/amazon-seller-app",
+      "area": "header",
+      "kind": "platform"
+    },
+    {
+      "label": "Selling Partner Appstore",
+      "href": "https://sell.amazon.com/tools/selling-partner-appstore",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Find products to sell",
+      "href": "https://sell.amazon.com/tools/product-opportunity-explorer",
+      "area": "header",
+      "kind": "product"
+    }
+  ],
+  "stack": {
+    "generator": null,
+    "scriptHosts": [
+      "images-na.ssl-images-amazon.com",
+      "d1t40axu4ik42k.cloudfront.net",
+      "m.media-amazon.com",
+      "d3216uwaav9lg7.cloudfront.net",
+      "sell.amazon.com"
+    ],
+    "signals": [],
+    "server": "Server",
+    "poweredBy": null
+  },
+  "sources": [
+    "https://sell.amazon.com"
+  ],
+  "dossier": {
+    "sections": [
+      {
+        "id": "positioning",
+        "title": "Positioning",
+        "summary": "Amazon's seller site sells access: reach, fulfillment and a large new-seller incentive package, framed around helping independent sellers grow.",
+        "keyPoints": [
+          "Homepage: 'Sell more with Amazon', with an offer of 10% back on your first $50,000 in branded sales.",
+          "A top banner repeats the pitch: unlock $50K in new seller credits, bonuses and exclusive benefits.",
+          "Proof is scale: more than 75,000 independent sellers surpassed $1 million in sales in 2025."
+        ]
+      },
+      {
+        "id": "offerings",
+        "title": "Products and offerings",
+        "summary": "A marketplace selling account with a menu of fulfillment, advertising, brand and B2B programs around it.",
+        "keyPoints": [],
+        "table": {
+          "columns": [
+            "Product",
+            "What it does"
+          ],
+          "rows": [
+            [
+              "Selling account (Individual or Professional)",
+              "The right to list and sell in the Amazon store"
+            ],
+            [
+              "Fulfillment by Amazon",
+              "Outsourced storage and delivery"
+            ],
+            [
+              "Amazon Ads",
+              "Optional advertising with added costs"
+            ],
+            [
+              "Brand tools",
+              "Brand Registry, enhanced product pages, a digital store and Brand Analytics"
+            ],
+            [
+              "Amazon Business",
+              "Selling to business customers in larger quantities"
+            ],
+            [
+              "Online store builder",
+              "Learn-and-build guide for creating a store with Amazon"
+            ],
+            [
+              "Selling Partner Appstore and Seller app",
+              "Third-party apps and a mobile app to create listings and manage orders"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "pricing",
+        "title": "Pricing",
+        "summary": "Two selling plans plus category-based referral fees. Many costs, including fulfillment and advertising, are optional and priced separately.",
+        "keyPoints": [
+          "Individual is pay-per-sale; Professional is a monthly subscription with bulk listing, advertising, brand and API features.",
+          "Referral fees vary by product category and are on their own tab, next to a revenue calculator.",
+          "After registration a seller can switch or cancel a plan at any time.",
+          "New sellers can get over $50,000 in credits, bonuses and benefits, marked with an asterisk."
+        ],
+        "table": {
+          "columns": [
+            "Plan",
+            "Price",
+            "Notable features"
+          ],
+          "rows": [
+            [
+              "Individual",
+              "$0.99 per item sold",
+              "List one product at a time, static prices, FBA or fulfill yourself"
+            ],
+            [
+              "Professional",
+              "$39.99 a month",
+              "Bulk operations, Amazon Ads, brand-building tools, Automate Pricing, Amazon Business, Global Selling, apps and APIs"
+            ]
+          ]
+        },
+        "gaps": [
+          "Referral fee rates by category, FBA fees and advertising costs were not read."
+        ]
+      },
+      {
+        "id": "merchandising",
+        "title": "Merchandising",
+        "summary": "The offer is merchandised with a two-plan ladder, a large incentive and a three-question quiz. For sellers, Amazon provides some of the deepest selling tools in the survey.",
+        "keyPoints": [
+          "A 'Not sure where to begin?' quiz asks three questions, starting with where your business is based.",
+          "Incentives are the main hook: 10% back on the first $50,000 in branded sales and over $50,000 in credits and benefits for new sellers.",
+          "Plan choice is simple: pay per item or pay monthly for bulk tools and advertising.",
+          "For merchants: Brand Analytics on customer search and purchase data, enhanced product pages, a digital store, Automate Pricing, advertising and B2B selling."
+        ]
+      },
+      {
+        "id": "platform",
+        "title": "Technical platform",
+        "summary": "The seller site points to apps and APIs and a Selling Partner Appstore; the surveyed pages carry little API detail, but the blog mentions an MCP-based advertising tool.",
+        "keyPoints": [
+          "The Professional plan lists 'Sell with apps and APIs'.",
+          "The Selling Partner Appstore lists Amazon-approved third-party apps that connect to a selling account.",
+          "The Selling Partner Blog announces a Selling Partner plugin and an Ads MCP for holiday preparation."
+        ],
+        "gaps": [
+          "No API documentation, rate limits or developer pages were surveyed."
+        ]
+      },
+      {
+        "id": "design",
+        "title": "Design",
+        "summary": "Bold and orange: a very large headline, a pill-shaped orange button, an illustrated seller dashboard and a green incentives bar. The sign-in page drops to Amazon's plain account style.",
+        "keyPoints": [
+          "Marketing pages use an Ember Modern typeface with orange (#ff6200) and a near-black (#161d26) and pill buttons (31.986px corners).",
+          "The home hero pairs a large two-tone headline with an illustrated Seller Central dashboard.",
+          "The pricing page uses a headline, a photo and rounded tab pills for plans, referral fees and the revenue calculator.",
+          "The sign-in page is plain Arial with a yellow (#ffd814) button.",
+          "Pages are comparatively short: the home page is 3,920px and pricing is 4,619px."
+        ],
+        "gaps": [
+          "Merchant design control beyond the store builder was not surveyed."
+        ]
+      },
+      {
+        "id": "company",
+        "title": "Company presentation",
+        "summary": "A seller-success story with a specific scale number, footnoted, and a content hub rather than a company page.",
+        "keyPoints": [
+          "Home: more than 75,000 independent sellers surpassed $1 million in sales in 2025, with a footnote.",
+          "The pricing page cites 'Amazon internal data, FY2023, US store' for an FBA claim.",
+          "A Selling Partner Blog carries announcements and tips; no About or leadership page appeared."
+        ],
+        "gaps": [
+          "No About page or leadership information in the surveyed pages."
+        ]
+      }
+    ]
+  },
+  "signupPath": "The homepage 'Sign up*' and the incentives banner lead to sellercentral.amazon.com/ap/signin, headed 'Start selling with Amazon'. It says 'To register, sign in with your existing Amazon account', asks for a mobile number or email with a Continue button, and links 'Create your Amazon account' for new users, with a Conditions of Use and Privacy Notice line. It is a sign-in step, not a seller registration form. Nothing was entered.",
+  "scores": {
+    "jtbd_fit": {
+      "score": 5,
+      "evidence": "Everything is about selling products in the Amazon store.",
+      "step": 1
+    },
+    "capability_visible": {
+      "score": 4,
+      "evidence": "A dashboard illustration, an overview video for Brand Analytics, a revenue calculator and a seller app page.",
+      "step": 8
+    },
+    "pricing_transparency": {
+      "score": 4,
+      "evidence": "Two plans and a referral-fee tab are published; category rates, FBA and ad costs are separate.",
+      "step": 2
+    },
+    "product_breadth": {
+      "score": 4,
+      "evidence": "Fulfillment, ads, brand tools, B2B, global selling and an appstore are explained.",
+      "step": 1
+    },
+    "platform_depth": {
+      "score": 3,
+      "evidence": "Appstore and 'apps and APIs' are mentioned and a blog covers an Ads MCP; no developer docs were surveyed.",
+      "step": 4
+    },
+    "time_to_value": {
+      "score": null,
+      "evidence": "Capture stops before the product; first-value time was not observed.",
+      "step": null
+    },
+    "friction": {
+      "score": 3,
+      "evidence": "Registration requires signing in with an existing Amazon account; a separate link creates one.",
+      "step": 11
+    },
+    "trust": {
+      "score": 4,
+      "evidence": "A scale number for sellers and an Amazon brand; claims are footnoted.",
+      "step": 1
+    },
+    "mobile": {
+      "score": null,
+      "evidence": "Phone captures exist for home and pricing but were not assessed.",
+      "step": null
+    },
+    "states": {
+      "score": null,
+      "evidence": "No error or empty states reached.",
+      "step": null
+    },
+    "a11y_basics": {
+      "score": null,
+      "evidence": "Not tested.",
+      "step": null
+    },
+    "value_prop_clarity": {
+      "score": 5,
+      "evidence": "'Sell more with Amazon' and the incentive line are plain.",
+      "step": 1
+    },
+    "proof_quality": {
+      "score": 3,
+      "evidence": "Claims carry footnotes, but sources are 'Amazon internal data'.",
+      "step": 2
+    },
+    "persuasion_integrity": {
+      "score": 3,
+      "evidence": "Most calls to action carry an asterisk against incentive terms.",
+      "step": 1
+    },
+    "cta_logic": {
+      "score": 4,
+      "evidence": "A single orange 'Sign up' or 'Start selling' action on every page.",
+      "step": 1
+    },
+    "company_narrative": {
+      "score": 3,
+      "evidence": "The story is entirely about seller success; the company itself is not presented.",
+      "step": 1
+    },
+    "offer_packaging": {
+      "score": 4,
+      "evidence": "Two plans with a feature list each; the fee structure beyond them is spread across tabs.",
+      "step": 2
+    },
+    "offer_architecture": {
+      "score": 5,
+      "evidence": "Incentive credits, cash back on branded sales, a pay-per-item entry, a monthly plan and optional fulfillment and ads.",
+      "step": 1
+    },
+    "merchant_merch_tools": {
+      "score": 5,
+      "evidence": "Brand analytics, enhanced pages, a digital store, price automation, ads and B2B.",
+      "step": 8
+    },
+    "visual_craft": {
+      "score": 4,
+      "evidence": "Strong hierarchy and a clear single action; the green incentives bar and orange headline compete.",
+      "step": 1
+    },
+    "system_coherence": {
+      "score": 3,
+      "evidence": "Marketing pages use Ember Modern and pill buttons; sign-in uses Arial with a rectangular yellow button.",
+      "step": 11
+    },
+    "merchant_design_control": {
+      "score": 4,
+      "evidence": "Enhanced product pages, a digital store and an online store builder guide.",
+      "step": 3
+    }
+  },
+  "read": {
+    "summary": "A marketplace pitch led by incentives rather than features: 10% back and over $50,000 in credits, a simple two-plan ladder and a deep toolset behind it. Registration requires an existing Amazon account, and most calls to action carry asterisks.",
+    "pros": [
+      "Two plans with clear prices and a plain 'switch or cancel any time' note.",
+      "A calculator, quiz and referral-fee tab help sellers estimate cost.",
+      "The incentive offer is specific and repeated.",
+      "A deep set of brand, ad and B2B tools."
+    ],
+    "cons": [
+      "Sign-in is required to register; account creation is a separate link.",
+      "Incentive terms sit behind asterisks.",
+      "Referral fees vary by category and are on a different tab.",
+      "Little developer detail on the surveyed pages."
+    ],
+    "howItSells": "Sells access and money: reach, fulfillment, cash back and credits, with a scale number and a promise that Amazon runs the heavy parts.",
+    "copy": [
+      "Lead with a specific incentive and say what it is worth.",
+      "Offer a pay-per-item plan next to a monthly plan.",
+      "Add a short quiz for newcomers."
+    ],
+    "avoid": [
+      "Asterisks on every call to action.",
+      "A different look at the sign-in page."
+    ],
+    "tactics": [
+      "anchoring",
+      "authority",
+      "social_proof"
+    ],
+    "confidence": "medium",
+    "unknowns": [
+      "Referral fee rates by category.",
+      "What registration asks after sign-in.",
+      "Developer docs.",
+      "Mobile experience."
+    ],
+    "hypothesis": {
+      "statement": "Showing an estimated first-year net amount from the incentives beside the sign-up button will lift registration starts among new sellers.",
+      "metric": "Sign-up button click-through",
+      "guardrail": "Registration completion and early listing rate",
+      "decisionRule": "Ship if click-through rises by a pre-agreed margin and completion holds over four weeks."
+    },
+    "subjects": {
+      "merchandising": {
+        "summary": "Incentive-led and plan-simple, backed by powerful seller tools, but dependent on asterisked terms.",
+        "pros": [
+          "Incentives are the entry offer.",
+          "A three-question quiz and a revenue calculator.",
+          "Two plans with a plain upgrade story."
+        ],
+        "cons": [
+          "Terms behind asterisks.",
+          "Fees are on several tabs."
+        ]
+      },
+      "design": {
+        "summary": "Confident and clear on the marketing pages, with a plain, different look at sign-in.",
+        "pros": [
+          "Big two-tone headlines and a dashboard picture make the offer concrete.",
+          "A single orange action is easy to find."
+        ],
+        "cons": [
+          "The sign-in page looks like a different brand.",
+          "Orange headline and green banner compete."
+        ]
+      }
+    }
+  },
+  "claims": [
+    {
+      "text": "More than 75,000 independent sellers surpassed $1 million in sales in 2025",
+      "verdict": "plausible",
+      "step": 1,
+      "evidenceStep": null
+    },
+    {
+      "text": "Get 10% back on your first $50,000 in branded sales",
+      "verdict": "plausible",
+      "step": 1,
+      "evidenceStep": 5
+    },
+    {
+      "text": "New-to-Amazon sellers can get over $50,000 in credits, bonuses, and exclusive benefits.",
+      "verdict": "plausible",
+      "step": 2,
+      "evidenceStep": 5
+    }
+  ],
+  "focus": "sign up to sell; explanation path"
+}

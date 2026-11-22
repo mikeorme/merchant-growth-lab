@@ -1,0 +1,443 @@
+URL: https://smile.io/pricing
+TITLE: Smile.io Pricing and Plans
+DESCRIPTION: Simple pricing for everyone. Compare Growth, Smile Plus and Smile Enterprise, plus Free, Essential and Standard. Book a demo.
+
+Skip to content
+Simple pricing
+for everyone.
+
+Choose an affordable plan packed with the best features for your business.
+
+Plans and prices
+For Startups
+For Scale
+Growth
+
+For growing brands expanding customer loyalty.
+
+$199
+
+per month, monthly billing
+
+Book a demo
+
+Usage
+
+Unlimited integrations
+2,500 monthly orders
+25 specialized reports
+
+Key features
+
+VIP program
+Loyalty Hub
+Fully embedded loyalty
+Performance benchmarks
+Smile Plus
+
+For large brands needing greater insights and control.
+
+$999
+
+per month, annual billing
+
+Book a demo
+
+Usage
+
+Unlimited integrations
+7,500 monthly orders
+30+ specialized reports
+
+Key features
+
+Migration and launch plan
+Quarterly program monitoring
+Priority support
+API access
+Smile Enterprise
+
+For enterprise retailers with over $40M in annual revenue.
+
+Custom
+
+annual billing
+
+Book a demo
+
+Usage
+
+Unlimited integrations
+Unlimited monthly orders
+Custom reports
+
+Key features
+
+Advanced security
+99.9% historical uptime
+Custom API rate limits
+Data warehouse sync
+
+Prices in USD. Reviewed as of September 25, 2026.
+
+Compare features
+across plans.
+
+Have any questions? Check out our FAQ 
+
+For Startups
+For Scale
+Growth, Smile Plus and Smile Enterprise
+	Growth	Plus	Enterprise
+Order volumes
+Monthly orders included	2,500 orders/mo	7,500 orders/mo	Unlimited
+Additional order rate	$20 per 100 orders	$5 per 100 orders
+Not applicable
+
+Features
+Points program
+Included
+
+Included
+
+Included
+
+Referral program
+Included
+
+Included
+
+Included
+
+10+ ways to earn points
+Included
+
+Included
+
+Included
+
+Redeem points for discounts
+Included
+
+Included
+
+Included
+
+Redeem points for free shipping
+Included
+
+Included
+
+Included
+
+Redeem points for free products
+Included
+
+Included
+
+Included
+
+Run points bonus events
+Included
+
+Included
+
+Included
+
+VIP program
+Included
+
+Included
+
+Included
+
+Points expiration
+Included
+
+Included
+
+Included
+
+Integrations
+Connect your tools (Klaviyo, Judge.me, etc.)	Unlimited	Unlimited	Unlimited
+Send all emails through Klaviyo
+Included
+
+Included
+
+Included
+
+Works with Klaviyo Customer Hub
+Included
+
+Included
+
+Included
+
+Native support for Shopify POS
+Included
+
+Included
+
+Included
+
+Sync VIP tiers to Shopify metafields
+Included
+
+Included
+
+Included
+
+API access
+Not included
+
+Included
+
+Included
+
+Custom API rate limits
+Not included
+
+Not included
+
+Included
+
+On-site content
+Add Smile to your store navigation
+Included
+
+Included
+
+Included
+
+Floating loyalty button (optional)
+Included
+
+Included
+
+Included
+
+Nudges (on-site reminders)
+Included
+
+Included
+
+Included
+
+Dedicated loyalty page
+Included
+
+Included
+
+Included
+
+Embed points on product pages
+Included
+
+Included
+
+Included
+
+Embed on order thank you page
+Included
+
+Included
+
+Included
+
+Embed points on account page
+Included
+
+Included
+
+Included
+
+Loyalty Hub (for signed-in members)
+Included
+
+Included
+
+Included
+
+Redeem points at checkout
+Included
+
+Included
+
+Included
+
+Front-end JavaScript SDK
+Not included
+
+Included
+
+Included
+
+Analytics and reporting
+Analytics page
+Included
+
+Included
+
+Included
+
+Full data exports
+Included
+
+Included
+
+Included
+
+Pre-built loyalty reports	25 reports	30+ reports	30+ reports
+Points and referral insights
+Included
+
+Included
+
+Included
+
+ROI and CLV insights
+Included
+
+Included
+
+Included
+
+VIP and member segment insights
+Included
+
+Included
+
+Included
+
+Loyalty benchmarks
+Included
+
+Included
+
+Included
+
+Financial reports
+Not included
+
+Included
+
+Included
+
+Custom reports
+Not included
+
+Not included
+
+Included
+
+Data warehouse sync
+Not included
+
+Not included
+
+Included
+
+Security
+SOC 2 Type II. Audited May 2026, with the report in the Trust Center.
+
+Shopify SSO
+Included
+
+Included
+
+Included
+
+Shopify Certified Technology Partner
+Included
+
+Included
+
+Included
+
+Security review support
+Not included
+
+Included
+
+Included
+
+Admin roles
+Not included
+
+Not included
+
+Included
+
+Audit logs
+Not included
+
+Not included
+
+Included
+
+Support
+Support team
+Included
+
+Included
+
+Included
+
+Live chat with a loyalty expert
+Included
+
+Included
+
+Included
+
+Priority support
+Not included
+
+Included
+
+Included
+
+Dedicated launch plan
+Not included
+
+Included
+
+Included
+
+White-glove migration to Smile
+Not included
+
+Included
+
+Included
+
+Quarterly program monitoring
+Not included
+
+Included
+
+Included
+
+Account manager
+Not included
+
+Not included
+
+Included
+Frequently asked questions.
+What ecommerce platforms can I install Smile on?
+
+Smile is available on Shopify and BigCommerce.
+
+Do you price based on monthly orders?
+How are monthly orders counted?
+What currency am I billed in?
+I’m looking to switch to Smile. How do I migrate my loyalty program to Smile?
+Does Smile work with my point of sale (POS) system?
+Boost repeat sales.
+Reward with Smile today.
+Book a demo
+The plan that fits your monthly orders
+What migration and launch look like on that plan
+The revenue loyalty could add at your scale

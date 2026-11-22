@@ -1,0 +1,144 @@
+URL: https://sell.amazon.com/programs/amazon-business
+TITLE: Amazon Business | Sell on Amazon
+DESCRIPTION: Use B2B pricing, certifications, and other features to connect with business customers shopping on Amazon Business.
+
+Amazon Business
+Expand your reach to business customers
+Amazon Business provides a suite of features and tools that can help you connect with business-to-business (B2B) customers. Business customers often buy in larger quantities and return items less—which means you can sell more with less time and effort.
+
+New to Amazon?
+
+Sign up*
+
+ 
+
+Already selling on Amazon?
+
+Access B2B features
+
+ 
+
+What is Amazon Business?
+As an Amazon seller, you can use customized prices, bulk selection, certifications, and other B2B features to reach B2B customers shopping on Amazon Business.
+Increase sales with B2B selection
+Amazon Business helps you identify B2B product opportunities and connect relevant offers to business customers. Use tools to discover B2B products, respond to customer quote requests, and sell items in bulk.
+Optimize your B2B pricing
+B2B customers often expect discounts for buying products in larger quantities. We provide multiple tools to support and automate B2B pricing—and to synchronize it with the prices you set for retail customers.
+Differentiate your business
+Use certifications and a business profile to help your products stand out to procurement professionals and other B2B customers shopping on Amazon Business.
+Tailor delivery to B2B customers
+Business customers expect deliveries during regular business hours. Amazon Business provides you with insights and capabilities that can help improve the delivery experience for B2B customers.
+Optimize your B2B strategy
+Our easy-to-use dashboards and recommendation tools help you assess opportunities and optimize your strategy for business customers.
+Automate your B2B sales
+We’ve developed APIs that automate aspects of your B2B business, like adding the right selection or setting the right prices for business customers. Learn more
+$35 billion
+Annualized sales driven by Amazon Business
+8 million
+Organizations served by Amazon Business globally, excluding emerging markets—from small businesses to the world’s largest companies
+97
+Fortune 100 Companies shopping on Amazon Business
+Global Power
+Global Power grew their sales by 45% using Amazon Business features
+Learn how Amazon Business helped Global Power drive sales with free tools and features.
+Download case study
+How selling with Amazon Business works
+Step 1
+Sign up for a Professional selling account
+Sign up for a Professional selling account, or log in to Seller Central if you already have one. After logging in, you can access B2B features from the main menu by clicking B2B, then B2B Central.
+
+If you have an Individual selling account, you can upgrade anytime. Learn how
+Step 2
+Add B2B products to your catalog
+If you don’t have B2B products already in your catalog, you can add them using our normal listing processes. You can also encourage bulk sales by creating package hierarchies and listing products as case packs and pallets.
+
+Need recommendations for B2B products? Use our B2B Product Opportunities tool.
+Step 3
+Set business prices and quantity discounts
+Create offers that appear to Amazon Business customers by setting business prices and quantity discounts. This can increase your visibility and your chances of becoming the Featured Offer.
+
+You can set static business prices and discounts using the Business Price column on Manage Inventory. Or you can create business pricing rules using Automate Pricing. Learn more
+
+You can also use Amazon Business APIs to automate your business prices and quantity discounts. Learn more
+Step 4
+Add certifications and create a business profile
+Showcase your business by adding diversity and quality certifications to your seller profile. This can help business customers who are looking to meet specific spending targets or sourcing objectives.
+
+Don’t have a certification? You can still create a business profile by adding additional information to your seller profile. Learn more
+Step 5
+Try other B2B features and tools
+Use B2B Central to explore a range of tools that can help you engage more business customers. Review and respond to quote requests using Manage quotes. Try Case Pack Product Opportunities to learn which products are good candidates to sell in bulk. Or use Business Discounts Insights to get recommendations for B2B prices and discounts.
+
+New to Amazon?
+
+Sign up*
+
+ 
+
+Already selling on Amazon?
+
+Access B2B features
+
+ 
+
+Did you know?
+You can automate B2B selling with Amazon Business APIs
+Amazon Business APIs, part of Selling Partner API (SP-API), can help you automate and optimize your B2B sales with Amazon. Use our APIs to:
+Reduce manual processes and errors
+Automate business prices and quantity discounts
+Improve your business hour delivery rate
+Sync inventory in real time across multiple locations
+Create package hierarchies for single units, case packs, and pallets
+Learn more about Amazon Business APIs
+Resources
+Video
+2:39
+Introduction to Amazon Business features
+Get an overview of Amazon Business features available to professional sellers who want grow their business with B2B sales.
+Video
+2:28
+Guide to Amazon Business customers
+Understand who buys on Amazon Business, what they look for when they shop, and the features and options they enjoy by creating an Amazon Business account.
+Video
+4:45
+Amazon B2B Central overview
+Take a tour of B2B Central on Seller Central to learn how to review dashboards that can help you understand and manage your sales to business customers.
+Video
+5:07
+B2B apps and APIs overview
+Get an overview of B2B apps and APIs, and compare developing your own app with working with third- party integration (3PI). You’ll also learn how to authorize and manage 3PIs.
+Wondering what it's
+like to sell on Amazon?
+Subscribe now
+Frequently Asked Questions
+What is the Amazon Business selling program?
+How do I get started with the Amazon Business selling program?
+Can I still use other Amazon services when I start using Amazon Business tools?
+How do I fulfill orders from Amazon Business customers?
+Why should I add certifications to my business profile?
+How do I add a certification?
+Will Amazon help sellers get certifications?
+How will business customers find seller certifications?
+Expand your reach to business customers
+Reach customers shopping on Amazon Business with customized prices, bulk purchasing, certifications, and other B2B features.
+
+New to Amazon?
+
+Sign up*
+
+ 
+
+Already selling on Amazon?
+
+Access B2B features
+
+ 
+
+*A Professional selling account is $39.99/month + selling fees. Learn more
+Home
+Programs
+Amazon Business
+Over 11,000 US-based independent sellers grew their sales by more than 10X in 2025
+Terms of Service
+Privacy Policy
+© 2026, Amazon.com Services LLC.

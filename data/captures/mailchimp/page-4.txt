@@ -1,0 +1,99 @@
+URL: https://mailchimp.com/integrations/?categories=Developer+Tools
+TITLE: Mailchimp Tools & Apps Integration Directory | Mailchimp
+DESCRIPTION: Find an Integration — See how Mailchimp integrates with your favorite tools and apps to help you do more with your marketing.
+
+___
+Skip to main content
+
+Join Mailchimp with a free 14-day trial or save 15% off on 10,000+ contacts. Start today.
+
+INTEGRATIONS
+
+Integrations & App Directory
+
+Make Mailchimp even more useful by connecting your store, accounting tools, social media, and more.
+
+Try an app name (Shopify, Canva) or feature (CRM, video)
+Popular
+New
+Advertising
+Analytics
+Contact Management
+Design
+E-commerce
+Point of Sale
+More
+ (1)
+Clear filters
+WordPress
+
+Boost visitor engagement and grow your audience with the Mailchimp block
+
+Firebase Sync with Mailchimp
+
+Eliminate manual imports and exports and automatically sync customers, merge fields, tags, and events between Mailchimp and Firebase.
+
+Made by Mailchimp
+Skyvia
+
+No-coding Mailchimp data integration with major cloud apps & databases, including Salesforce, Dynamics CRM, SQL Server, MySQL, etc., CSV import/export.
+
+CMC - Mailchimp for Joomla!
+
+CMC is a Joomla extension that integrates with the Mailchimp API.
+
+SparkLoop
+
+Add a referral program to your Mailchimp newsletter in 2-clicks and start growing your audience faster.
+
+Personizely
+
+Effectively turn your visitors into clients with Personizely. Easy to use Widgets and Personalization that lets you explore the full potential of any webstore.
+
+Firewards
+
+Add a friend referral and rewards program to grow your email list. Get started with your own custom referral marketing campaign with just a few clicks.
+
+FuseWP
+
+Connect WordPress to your Mailchimp account to sync users and members in your eCommerce, LMS and membership plugins to your account.
+
+Rewind Backups for Mailchimp
+
+A seamless, fully automated backup solution that safeguards your valuable Mailchimp data.
+
+zzBots
+
+zzBots makes integrating your apps with Mailchimp simple and automating your workflow a breeze.
+
+Devart Connectors for Mailchimp
+
+Connect to Mailchimp data with the help of high-performance, easy-to-use Devart connectors.
+
+Chimp Commander
+
+Use Facebook content in your Mailchimp campaigns - use posts, videos, events & photo albums to produce a beautiful newsletter.
+
+Yikes Easy Forms for Mailchimp
+
+Easily build unlimited Mailchimp forms, add those forms to WordPress posts, pages and sidebars & track user activity.
+
+Tabular - Email Template Builder
+
+Build custom responsive email templates with Tabular's email builder and directly use them in Mailchimp. Edit without ever seeing a single line of code.
+
+SyncApps by Cazoomi
+
+Integrate Salesforce or NetSuite to your Mailchimp account using SyncApps®, a bidirectional point & press integration platform to connect your data in real-time
+
+1
+2
+Need hands-on help? Hire a Mailchimp expert.
+
+Our talented roster of Mailchimp experts can design and implement beautiful, data-driven templates for your brand. Not to mention help you with other marketing needs like connecting apps, creating automations, or creating an online store.
+
+Find an Expert
+Mailchimp uses cookies for analytics, advertising, and personalization. We may disclose information you've provided to our advertising partners so they can show you ads that are more relevant to your interests. This may be considered "sharing" or "targeted advertising" of personal information under applicable law. We may collect anonymized data from your browser independent of your cookie preferences. You can opt out of having your personal information used or disclosed for these purposes by clicking "Customize settings". Cookie Statement
+I Understand
+Customize Settings
+Feedback

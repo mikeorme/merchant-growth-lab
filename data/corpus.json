@@ -43,7 +43,7 @@
       "url": "https://squareup.com",
       "flow": "site survey",
       "priority": 3,
-      "status": "backlog",
+      "status": "evaluated",
       "urlVerified": "ok",
       "finalUrl": "https://squareup.com/us/en",
       "focus": "signup to accept first payment; hardware selection to cart; eligibility explanation; signup to online store",
@@ -60,7 +60,7 @@
       "url": "https://rechargepayments.com",
       "flow": "site survey",
       "priority": 4,
-      "status": "backlog",
+      "status": "evaluated",
       "urlVerified": "ok",
       "finalUrl": "https://getrecharge.com/",
       "focus": "get started path"
@@ -88,7 +88,7 @@
       "url": "https://www.yotpo.com",
       "flow": "site survey",
       "priority": 6,
-      "status": "backlog",
+      "status": "evaluated",
       "urlVerified": "ok",
       "finalUrl": "https://www.yotpo.com/",
       "focus": "get started path"
@@ -100,10 +100,11 @@
       "url": "https://www.etsy.com/sell",
       "flow": "site survey",
       "priority": 7,
-      "status": "backlog",
+      "status": "blocked",
       "urlVerified": "http-403",
       "finalUrl": "https://www.etsy.com/sell",
-      "focus": "open a shop flow"
+      "focus": "open a shop flow",
+      "blockedReason": "Bot protection: home page returned blank or HTTP 403 to an automated browser. Not worked around."
     },
     {
       "id": "squarespace",
@@ -112,7 +113,7 @@
       "url": "https://www.squarespace.com",
       "flow": "site survey",
       "priority": 8,
-      "status": "backlog",
+      "status": "evaluated",
       "urlVerified": "ok",
       "finalUrl": "https://www.squarespace.com/",
       "focus": "start trial to template chosen; plan selection; generate site flow",
@@ -128,14 +129,15 @@
       "url": "https://www.paypal.com/us/business",
       "flow": "site survey",
       "priority": 9,
-      "status": "backlog",
+      "status": "blocked",
       "urlVerified": "http-403",
       "finalUrl": "https://www.paypal.com/us/business",
       "focus": "business signup start; explanation and apply path; signup to hardware",
       "mergedFrom": [
         "paypal-working-capital",
         "paypal-zettle"
-      ]
+      ],
+      "blockedReason": "Bot protection: home page returned blank or HTTP 403 to an automated browser. Not worked around."
     },
     {
       "id": "clover",
@@ -144,7 +146,7 @@
       "url": "https://www.clover.com",
       "flow": "site survey",
       "priority": 10,
-      "status": "backlog",
+      "status": "evaluated",
       "urlVerified": "ok",
       "finalUrl": "https://www.clover.com/",
       "focus": "pos selection and quote path"
@@ -156,7 +158,7 @@
       "url": "https://www.loopwork.co",
       "flow": "site survey",
       "priority": 11,
-      "status": "backlog",
+      "status": "evaluated",
       "urlVerified": "ok",
       "finalUrl": "https://www.loopwork.co/",
       "focus": "install and onboarding path"
@@ -168,7 +170,7 @@
       "url": "https://mailchimp.com",
       "flow": "site survey",
       "priority": 12,
-      "status": "backlog",
+      "status": "evaluated",
       "urlVerified": "ok",
       "finalUrl": "https://mailchimp.com/",
       "focus": "signup to first campaign; plan selection",
@@ -183,10 +185,11 @@
       "url": "https://judge.me",
       "flow": "site survey",
       "priority": 13,
-      "status": "backlog",
+      "status": "blocked",
       "urlVerified": "ok",
       "finalUrl": "https://judge.me/",
-      "focus": "install and first widget"
+      "focus": "install and first widget",
+      "blockedReason": "Bot protection: home page returned blank or HTTP 403 to an automated browser. Not worked around."
     },
     {
       "id": "amazon-seller-central",
@@ -195,7 +198,7 @@
       "url": "https://sell.amazon.com",
       "flow": "site survey",
       "priority": 14,
-      "status": "backlog",
+      "status": "evaluated",
       "urlVerified": "ok",
       "finalUrl": "https://sell.amazon.com/",
       "focus": "sign up to sell; explanation path",
@@ -210,7 +213,7 @@
       "url": "https://www.wix.com",
       "flow": "site survey",
       "priority": 15,
-      "status": "backlog",
+      "status": "evaluated",
       "urlVerified": "ok",
       "finalUrl": "https://www.wix.com/",
       "focus": "online store signup to first product; generate site flow; plan selection",
@@ -226,10 +229,11 @@
       "url": "https://pos.toasttab.com",
       "flow": "site survey",
       "priority": 16,
-      "status": "backlog",
+      "status": "blocked",
       "urlVerified": "http-403",
       "finalUrl": "https://pos.toasttab.com/",
-      "focus": "get pricing path"
+      "focus": "get pricing path",
+      "blockedReason": "Bot protection: Cloudflare security verification page. Not worked around."
     },
     {
       "id": "skio",
@@ -238,7 +242,7 @@
       "url": "https://skio.com",
       "flow": "site survey",
       "priority": 17,
-      "status": "backlog",
+      "status": "evaluated",
       "urlVerified": "ok",
       "finalUrl": "https://skio.com/",
       "focus": "get started path"
@@ -250,7 +254,7 @@
       "url": "https://www.omnisend.com",
       "flow": "site survey",
       "priority": 18,
-      "status": "backlog",
+      "status": "evaluated",
       "urlVerified": "ok",
       "finalUrl": "https://www.omnisend.com/",
       "focus": "signup to first automation"
@@ -262,7 +266,7 @@
       "url": "https://smile.io",
       "flow": "site survey",
       "priority": 19,
-      "status": "backlog",
+      "status": "evaluated",
       "urlVerified": "ok",
       "finalUrl": "https://smile.io/",
       "focus": "install path"

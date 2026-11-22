@@ -13,7 +13,7 @@ const track = (score: number | null) => (score === null ? null : ((score - 1) / 
 const KIND_LABEL: Record<string, string> = { home: 'Home', pricing: 'Pricing', product: 'Product', platform: 'Platform', solutions: 'Solutions', customers: 'Customers', company: 'Company', resources: 'Resources', signup: 'Signup' };
 const kl = (k?: string) => KIND_LABEL[k ?? ''] ?? 'Page';
 const hostPath = (u: string) => { try { const x = new URL(u); return x.host.replace(/^www\./, '') + (x.pathname === '/' ? '' : x.pathname); } catch { return u; } };
-const END_LABEL: Record<string, string> = { 'account-form': 'a real account form', 'email-capture': 'an email box, not yet an account form', 'no-form': 'a page with no form', 'no-signup-path': '' };
+const END_LABEL: Record<string, string> = { 'account-form': 'a real account form', 'email-capture': 'an email box, not yet an account form', 'no-form': 'a page with no form', 'no-navigation': 'a button that stayed on the same page', 'no-signup-path': '' };
 const end = exp.signupEnd;
 const dossier = exp.dossier;
 const navByKind = Object.entries((exp.navMap ?? []).reduce((acc: Record<string, string[]>, l) => { (acc[l.kind] ??= []).includes(l.label) || acc[l.kind].push(l.label); return acc; }, {}));

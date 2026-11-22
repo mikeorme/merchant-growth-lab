@@ -1,0 +1,1852 @@
+{
+  "id": "omnisend",
+  "name": "Omnisend",
+  "category": "retention-messaging",
+  "url": "https://www.omnisend.com",
+  "flow": "site survey",
+  "capturedAt": "2026-11-22",
+  "rubricVersion": "1.2.0",
+  "status": "evaluated",
+  "surveyMode": "full",
+  "signupEnd": {
+    "state": "no-form",
+    "url": "https://apps.shopify.com/omnisend",
+    "clicks": 2,
+    "from": "home",
+    "fields": [
+      {
+        "type": "select",
+        "label": "Change your language"
+      },
+      {
+        "type": "text",
+        "label": "your-store.myshopify.com"
+      }
+    ],
+    "alternatives": [],
+    "submit": [],
+    "consent": [
+      "Support App support provided by Omnisend. Resources Privacy policy FAQ Developer Omnisend Website Verkiu 25C, Vilnius, 08223, LT Launched March 10, 2014",
+      "Resources Privacy policy FAQ Developer Omnisend Website Verkiu 25C, Vilnius, 08223, LT Launched March 10, 2014",
+      "Resources Privacy policy FAQ"
+    ],
+    "pageHeightPx": 5135,
+    "passwordAsked": false
+  },
+  "steps": [
+    {
+      "n": 1,
+      "kind": "home",
+      "title": "Official Email Marketing Software for Ecommerce | Omnisend",
+      "url": "https://www.omnisend.com/",
+      "screenshot": "shots/omnisend/step-1.webp",
+      "textFile": "data/captures/omnisend/page-1.txt",
+      "elapsedMs": 5617,
+      "clicks": 0,
+      "via": "entry",
+      "headings": [
+        "h1: Email & SMS marketing",
+        "h2: Same power. Smaller bill.",
+        "h3: Omnisend AI",
+        "h3: Campaigns",
+        "h3: Automation",
+        "h3: Segmentation",
+        "h3: Forms and popups",
+        "h3: Reports",
+        "h3: Channels",
+        "h2: There’s a reason brands stick with us",
+        "h2: Migration? On us.",
+        "h2: Trusted, tested, talked about",
+        "h2: The award-winning support you deserve",
+        "h2: Integrates with your stack. And your standards."
+      ],
+      "ctas": [
+        "Request demo",
+        "Start free",
+        "Book migration call",
+        "Explore webinars",
+        "See plans",
+        "Learn more",
+        "Start free today",
+        "Contact us"
+      ],
+      "prices": [
+        "ice. Join us live. Explore webinars save up to 35% * Migrate in 5 days Powerful features. Up to 35",
+        "5% * Migrate in 5 days Powerful features. Up to 35%* smaller invoice than Klaviyo. Free 5-day migrati",
+        "brands stick with us 150k Brands trust Omnisend $79* ROI For every $1 spent 4.8/5 Star rating on",
+        "150k Brands trust Omnisend $79* ROI For every $1 spent 4.8/5 Star rating on Pay up to 35%* less",
+        "every $1 spent 4.8/5 Star rating on Pay up to 35%* less For features comparable to Klaviyo's MIGR",
+        "ce Why pay more for the same emails? Save up to 35%* compared to Klaviyo. Free migration included. C"
+      ],
+      "description": "Omnisend helps ecommerce brands grow with Email & SMS marketing for Shopify, WooCommerce, and more—returning $79 for every $1 spent.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Faktum-Bold",
+            "body": "sans-serif",
+            "distinct": [
+              "Inter",
+              "Faktum-Bold",
+              "Roboto"
+            ]
+          },
+          "h1Px": 80,
+          "bodyPx": 14,
+          "bodyLineHeight": "24px",
+          "backgrounds": [],
+          "accents": [
+            "#02564e",
+            "#83ed80"
+          ],
+          "textColor": "#ffffff",
+          "buttonRadius": "8px",
+          "buttonHeightPx": 40,
+          "images": 171,
+          "videos": 19,
+          "svgs": 135,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 11374,
+          "domNodes": 3628,
+          "domContentLoadedMs": 376,
+          "loadMs": 973
+        },
+        "merch": {
+          "planCards": 2,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [
+            "Cancel anytime | No credit card required",
+            "Save up to 35%* compared to Klaviyo. Free migration included."
+          ],
+          "links": 79
+        }
+      },
+      "mobileScreenshot": "shots/omnisend/step-1-mobile.webp"
+    },
+    {
+      "n": 2,
+      "kind": "pricing",
+      "title": "Official Omnisend Email & SMS Pricing Plans",
+      "url": "https://www.omnisend.com/pricing/",
+      "screenshot": "shots/omnisend/step-2.webp",
+      "textFile": "data/captures/omnisend/page-2.txt",
+      "elapsedMs": 11560,
+      "clicks": 0,
+      "via": "nav: Pricing",
+      "headings": [
+        "h1: Start strong & grow without limits",
+        "h2: All our features in detail",
+        "h3: Standard",
+        "h3: It’s my first time trying email marketing. Can I use Omnisend for free?",
+        "h3: Will the Free plan give me access to all the features of your paid plans?",
+        "h3: I can’t decide: should I choose the Pro plan or Standard?",
+        "h3: How can I pay?",
+        "h3: This will be my first time setting up an automation workflow. Can I expect any help?",
+        "h3: What if I need to send more emails than my monthly limit?",
+        "h3: Can I send MMS?",
+        "h3: Do you offer migration support?",
+        "h3: I’d like to get dedicated support to set everything up. Can I get an Account Expert?",
+        "h3: I have more questions. How can I reach you?"
+      ],
+      "ctas": [
+        "Request demo",
+        "Start free",
+        "Sign up",
+        "Start now",
+        "Facebook custom audiences",
+        "omnisend.com/demo/",
+        "Contact us"
+      ],
+      "prices": [
+        "New SMS pricing Now starting at $0.007/SMS Start strong & grow without limits Save up to 35",
+        "MS Start strong & grow without limits Save up to 35% vs. Klaviyo 5-day free migration Award-winning 24",
+        "ning 24/7 support USD Pay 3 months upfront (save 30%) List size How many people are you sending to? 2",
+        "getting started and testing out email marketing $0/mo No cost. No credit card required. Sign up 500 mon",
+        "dium-sized businesses focused on email marketing $11.20/mo Total of: $48.00 $33.60 today -30% After 3 months",
+        "s focused on email marketing $11.20/mo Total of: $48.00 $33.60 today -30% After 3 months, you will be bil",
+        "ed on email marketing $11.20/mo Total of: $48.00 $33.60 today -30% After 3 months, you will be billed mon",
+        "rketing $11.20/mo Total of: $48.00 $33.60 today -30% After 3 months, you will be billed monthly Sign u",
+        "ume senders aimed at adding extra power with SMS $41.30/mo Total of: $177.00 $123.90 today -30% After 3 mont",
+        "adding extra power with SMS $41.30/mo Total of: $177.00 $123.90 today -30% After 3 months, you will be bi",
+        "extra power with SMS $41.30/mo Total of: $177.00 $123.90 today -30% After 3 months, you will be billed mon",
+        "h SMS $41.30/mo Total of: $177.00 $123.90 today -30% After 3 months, you will be billed monthly Sign u",
+        "Unlimited Web Push notifications SMS starting at $0.007 Add Show more features New Pricing Add Global SMS",
+        "lable in multiple countries. Price estimated for: $50 (5,882 SMS) $50/mo Volume: 5,882 SMS/mo Volume",
+        "countries. Price estimated for: $50 (5,882 SMS) $50/mo Volume: 5,882 SMS/mo Volume rate: $0.0085/SMS",
+        "SMS) $50/mo Volume: 5,882 SMS/mo Volume rate: $0.0085/SMS Check all volume rates Need expert advice? Requ",
+        "and templates. See migration details Save up to 35% with Omnisend Compare Omnisend pricing with othe",
+        ". SMS and MMS are on the Pro plan. Rates start at $0.007 per SMS and vary by country and volume. I can’t decide:",
+        "ted emails, SMS at volume-based rates starting at $0.007, priority support from a dedicated account expert",
+        "All Standard and Pro plan customers with spending $400/month or more get a dedicated Account Expert who provid"
+      ],
+      "description": "Omnisend pricing scales as your ecommerce business grows. Start Free and use all Omnisend features. Paid plans start from $16/month",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Faktum-Bold",
+            "body": "Roboto",
+            "distinct": [
+              "Inter",
+              "Faktum-Bold",
+              "Roboto"
+            ]
+          },
+          "h1Px": 56,
+          "bodyPx": 16,
+          "bodyLineHeight": "20.02px",
+          "backgrounds": [
+            "#f5f3ef",
+            "#ffffff",
+            "#83ed80",
+            "#f5f5f5"
+          ],
+          "accents": [
+            "#02564e",
+            "#7172f8"
+          ],
+          "textColor": "#525b5a",
+          "buttonRadius": "8px",
+          "buttonHeightPx": 40,
+          "images": 210,
+          "videos": 0,
+          "svgs": 285,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 5765,
+          "domNodes": 4773,
+          "domContentLoadedMs": 418,
+          "loadMs": 1204
+        },
+        "merch": {
+          "planCards": 3,
+          "priceElements": 11,
+          "badges": [
+            "Free"
+          ],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [
+            "Save up to 35% vs. Klaviyo",
+            "No cost. No credit card required.",
+            "Save up to 35% with Omnisend"
+          ],
+          "links": 86
+        }
+      },
+      "mobileScreenshot": "shots/omnisend/step-2-mobile.webp"
+    },
+    {
+      "n": 3,
+      "kind": "product",
+      "title": "Omnichannel Marketing Automation for Ecommerce | Omnisend",
+      "url": "https://www.omnisend.com/features/automation/",
+      "screenshot": "shots/omnisend/step-3.webp",
+      "textFile": "data/captures/omnisend/page-3.txt",
+      "elapsedMs": 18579,
+      "clicks": 0,
+      "via": "nav: Automation",
+      "headings": [
+        "h1: You rest. Omnichannel marketing automation will sell for you.",
+        "h2: Build omnichannel automations without coding",
+        "h2: See how it works",
+        "h2: Reach customers where it matters most",
+        "h2: Automations for every business goal",
+        "h2: Match customer actions with the right message in real time",
+        "h3: Behavioral segmentation",
+        "h3: Real-time data triggers",
+        "h3: Personalised product recommendations",
+        "h2: See what’s working — and why",
+        "h2: If you can think it, you can automate it",
+        "h2: We’ll help you get started",
+        "h3: What types of automations can I create with Omnisend?",
+        "h3: Do automations help increase sales?",
+        "h3: Can I personalize my automated emails and SMS messages?",
+        "h3: How easy is it to set up automations with Omnisend?"
+      ],
+      "ctas": [
+        "Request demo",
+        "Start free",
+        "See pricing",
+        "Start free today",
+        "Contact us"
+      ],
+      "prices": [
+        "e flows built for you, without leaving AI chat. +$61K per month from automations Our client account o",
+        "shopper actually wants, no manual setup needed. 2% of sends. 30% of revenue. Switch one on and watch",
+        "ally wants, no manual setup needed. 2% of sends. 30% of revenue. Switch one on and watch it work. Star",
+        "ional splits Event-based triggers Make an average $79* for every $1 you spend. Start free See pricing F",
+        "ent-based triggers Make an average $79* for every $1 you spend. Start free See pricing Full access. Tr"
+      ],
+      "description": "Create seamless omnichannel marketing automation with Omnisend. Automate email, SMS, and more to convert, retain, and grow your ecommerce audience.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Faktum-Bold",
+            "body": "Roboto",
+            "distinct": [
+              "Inter",
+              "Roboto",
+              "Faktum-Bold",
+              "Arial"
+            ]
+          },
+          "h1Px": 72,
+          "bodyPx": 16,
+          "bodyLineHeight": "20.02px",
+          "backgrounds": [
+            "#131313",
+            "#f7f6f4",
+            "#ffffff",
+            "#000000"
+          ],
+          "accents": [
+            "#83ed80",
+            "#2f8481"
+          ],
+          "textColor": "#525b5a",
+          "buttonRadius": "8px",
+          "buttonHeightPx": 40,
+          "images": 58,
+          "videos": 0,
+          "svgs": 109,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 13224,
+          "domNodes": 1626,
+          "domContentLoadedMs": 246,
+          "loadMs": 1022
+        },
+        "merch": {
+          "planCards": 1,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [
+            "Full access. No credit card required."
+          ],
+          "links": 83
+        }
+      }
+    },
+    {
+      "n": 4,
+      "kind": "platform",
+      "title": "Omnisend API",
+      "url": "https://api-docs.omnisend.com/",
+      "screenshot": "shots/omnisend/step-4.webp",
+      "textFile": "data/captures/omnisend/page-4.txt",
+      "elapsedMs": 21875,
+      "clicks": 0,
+      "via": "nav: Developer center",
+      "headings": [
+        "h1: Build with Omnisend API",
+        "h2: Getting started",
+        "h2: Get award-winning 24/7 support"
+      ],
+      "ctas": [
+        "Explore documentation",
+        "Contact support"
+      ],
+      "prices": [],
+      "description": "API reference and technical documentation for creating your Omnisend integration.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Faktum-Bold",
+            "body": "Twemoji Country Flags",
+            "distinct": [
+              "Twemoji Country Flags",
+              "Faktum-Bold"
+            ]
+          },
+          "h1Px": 64,
+          "bodyPx": 22,
+          "bodyLineHeight": "35.86px",
+          "backgrounds": [
+            "#ffffff",
+            "#fafafa",
+            "#2f8481",
+            "#000000"
+          ],
+          "accents": [
+            "#2f8481"
+          ],
+          "textColor": "#32343a",
+          "buttonRadius": null,
+          "buttonHeightPx": null,
+          "images": 13,
+          "videos": 0,
+          "svgs": 8,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 900,
+          "domNodes": 330,
+          "domContentLoadedMs": 402,
+          "loadMs": 637
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 16
+        }
+      }
+    },
+    {
+      "n": 5,
+      "kind": "customers",
+      "title": "Success stories - Omnisend",
+      "url": "https://www.omnisend.com/resources/customers/",
+      "screenshot": "shots/omnisend/step-5.webp",
+      "textFile": "data/captures/omnisend/page-5.txt",
+      "elapsedMs": 26279,
+      "clicks": 0,
+      "via": "nav: Success stories",
+      "headings": [
+        "h1: Real success stories from Omnisend customers"
+      ],
+      "ctas": [
+        "Request demo",
+        "Start free",
+        "Marketing Playbook",
+        "Learn more",
+        "See pricing",
+        "Contact us"
+      ],
+      "prices": [
+        "mpress Athleticus: Five years on one platform and 165% email revenue growth in a year Learn more MARKETI",
+        "BOOK Shoelace agency: How one layout change drove 40% more email revenue Learn more AGENCY PARTNER STOR",
+        "ent to Omnisend weeks before Black Friday and hit $113K in email revenue Learn more Setting up the conn",
+        "travel deals engine turned two emails a day into $247 for every $1 spent Learn more AGENCY PARTNER STOR",
+        "ngine turned two emails a day into $247 for every $1 spent Learn more AGENCY PARTNER STORIES EditStudi"
+      ],
+      "description": "Find out how Omnisend has helped business around the world. Read our customer success stories and book at trial with Omnisend today.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Faktum-Bold",
+            "body": "Roboto",
+            "distinct": [
+              "Inter",
+              "Faktum-Bold",
+              "Roboto",
+              "Faktum-Semibold",
+              "Faktum"
+            ]
+          },
+          "h1Px": 56,
+          "bodyPx": 13,
+          "bodyLineHeight": "20.02px",
+          "backgrounds": [
+            "#1e2423",
+            "#000000",
+            "#1a1919",
+            "#ffffff"
+          ],
+          "accents": [
+            "#2f8481",
+            "#02564e"
+          ],
+          "textColor": "#525b5a",
+          "buttonRadius": "8px",
+          "buttonHeightPx": 40,
+          "images": 68,
+          "videos": 0,
+          "svgs": 79,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 5722,
+          "domNodes": 1458,
+          "domContentLoadedMs": 276,
+          "loadMs": 466
+        },
+        "merch": {
+          "planCards": 1,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [
+            "How a travel deals engine turned two emails a day into $247 for every $1 spent"
+          ],
+          "links": 105
+        }
+      }
+    },
+    {
+      "n": 6,
+      "kind": "company",
+      "title": "Email Marketing Plugin Built for WordPress Integration",
+      "url": "https://www.omnisend.com/wordpress-plugin/",
+      "screenshot": "shots/omnisend/step-6.webp",
+      "textFile": "data/captures/omnisend/page-6.txt",
+      "elapsedMs": 31167,
+      "clicks": 0,
+      "via": "nav: WordPress",
+      "headings": [
+        "h1: All-in-one marketing for WordPress",
+        "h2: You’re busy. Save time with our email & SMS plugin",
+        "h2: Omnisend already integrates with your tech stack",
+        "h2: More channels, more wins",
+        "h2: Personalize and connect",
+        "h2: Drag-and-drop and go",
+        "h2: The award-winning support you deserve",
+        "h2: We’re helping to build WordPress",
+        "h2: Let’s help you get started",
+        "h3: Is it complicated to install and set up Omnisend for WordPress?",
+        "h3: Does Omnisend have a free plan?",
+        "h3: Is Omnisend compatible with my other WordPress plugins?",
+        "h3: Do you offer migration support?"
+      ],
+      "ctas": [
+        "Request demo",
+        "Start free",
+        "Explore segmentation",
+        "Learn more",
+        "sign up for one now.",
+        "Start free today",
+        "Contact us"
+      ],
+      "prices": [
+        "trust Omnisend 4.8/5 Star rating on Wordpress $79 ROI for every $1 spent FEATURES You’re busy. Sa",
+        "8/5 Star rating on Wordpress $79 ROI for every $1 spent FEATURES You’re busy. Save time with our e",
+        "ood things happen. Omnisend customers are getting 47.7% higher conversions by using email & SMS. And beca",
+        "to them directly. In fact, Omnisend merchants got 62.2% higher orders with personalized campaigns. You ca"
+      ],
+      "description": "Discover Omnisend email marketing plugin for seamless integration with WordPress. Automate campaigns and enhance engagement effortlessly.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Faktum-Bold",
+            "body": "Roboto",
+            "distinct": [
+              "Inter",
+              "Faktum-Bold",
+              "Roboto",
+              "Arial"
+            ]
+          },
+          "h1Px": 64,
+          "bodyPx": 16,
+          "bodyLineHeight": "20.02px",
+          "backgrounds": [
+            "#131313",
+            "#f5f3ef",
+            "#000000",
+            "#1a1919"
+          ],
+          "accents": [
+            "#83ed80",
+            "#2f8481"
+          ],
+          "textColor": "#525b5a",
+          "buttonRadius": "8px",
+          "buttonHeightPx": 40,
+          "images": 66,
+          "videos": 0,
+          "svgs": 93,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 12434,
+          "domNodes": 1545,
+          "domContentLoadedMs": 251,
+          "loadMs": 699
+        },
+        "merch": {
+          "planCards": 2,
+          "priceElements": 1,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 84
+        }
+      }
+    },
+    {
+      "n": 7,
+      "kind": "resources",
+      "title": "Home | Omnisend Help Center",
+      "url": "https://support.omnisend.com/en/",
+      "screenshot": "shots/omnisend/step-7.webp",
+      "textFile": "data/captures/omnisend/page-7.txt",
+      "elapsedMs": 35194,
+      "clicks": 0,
+      "via": "nav: Help center",
+      "headings": [
+        "h1: Learn how to get the most out of Omnisend"
+      ],
+      "ctas": [
+        "Contact Support"
+      ],
+      "prices": [],
+      "description": "Omnisend Help Center",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Roboto",
+            "body": "system-ui",
+            "distinct": [
+              "system-ui",
+              "Roboto"
+            ]
+          },
+          "h1Px": 28,
+          "bodyPx": 16,
+          "bodyLineHeight": "25.6px",
+          "backgrounds": [
+            "#ffffff",
+            "#35928e"
+          ],
+          "accents": [],
+          "textColor": "#1a1a1a",
+          "buttonRadius": "20px",
+          "buttonHeightPx": 215,
+          "images": 27,
+          "videos": 0,
+          "svgs": 29,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 2680,
+          "domNodes": 590,
+          "domContentLoadedMs": 819,
+          "loadMs": 1210
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 35
+        }
+      }
+    },
+    {
+      "n": 8,
+      "kind": "product",
+      "title": "Email Marketing Reports & Insights | Omnisend",
+      "url": "https://www.omnisend.com/features/reports/",
+      "screenshot": "shots/omnisend/step-8.webp",
+      "textFile": "data/captures/omnisend/page-8.txt",
+      "elapsedMs": 40090,
+      "clicks": 0,
+      "via": "nav: Reporting",
+      "headings": [
+        "h1: Reports so clear, they practically explain themselves",
+        "h2: Where your results show up",
+        "h2: See how it works",
+        "h2: Your data has the right answers",
+        "h2: Even more insights and trends",
+        "h3: Channel trend breakdowns",
+        "h3: Campaign sales by audience segment",
+        "h2: More than just email marketing reports",
+        "h2: We’ll help you get started",
+        "h3: What is an email marketing report?",
+        "h3: How to create an email marketing report with Omnisend?",
+        "h3: What metrics should be included in an email marketing analysis report?",
+        "h3: How does Omnisend help identify effective marketing strategies?",
+        "h3: How can I track the performance of individual messages within automations?",
+        "h3: Does Omnisend offer insights into the engagement of different customer segments?",
+        "h3: What tools does Omnisend provide for monitoring audience growth?"
+      ],
+      "ctas": [
+        "Request demo",
+        "Start free",
+        "See pricing",
+        "Learn more about Omnisend Agent",
+        "Start free today",
+        "Contact us"
+      ],
+      "prices": [
+        "ng Exportable reports (CSV/Excel) Make an average $79* for every $1 you spend. Start free See pricing F",
+        "eports (CSV/Excel) Make an average $79* for every $1 you spend. Start free See pricing Full access. Tr"
+      ],
+      "description": "Omnisend reports and analytics give you every email marketing report and campaign insight you need to track performance and drive smarter results.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Faktum-Bold",
+            "body": "Roboto",
+            "distinct": [
+              "Inter",
+              "Roboto",
+              "Faktum-Bold",
+              "Arial"
+            ]
+          },
+          "h1Px": 72,
+          "bodyPx": 16,
+          "bodyLineHeight": "20.02px",
+          "backgrounds": [
+            "#131313",
+            "#f7f6f4",
+            "#000000",
+            "#1a1919"
+          ],
+          "accents": [
+            "#83ed80",
+            "#2f8481"
+          ],
+          "textColor": "#525b5a",
+          "buttonRadius": "8px",
+          "buttonHeightPx": 40,
+          "images": 56,
+          "videos": 0,
+          "svgs": 109,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 11202,
+          "domNodes": 1587,
+          "domContentLoadedMs": 258,
+          "loadMs": 1493
+        },
+        "merch": {
+          "planCards": 1,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 84
+        }
+      }
+    },
+    {
+      "n": 9,
+      "kind": "platform",
+      "title": "Agency partners - Omnisend",
+      "url": "https://www.omnisend.com/agency-partners/",
+      "screenshot": "shots/omnisend/step-9.webp",
+      "textFile": "data/captures/omnisend/page-9.txt",
+      "elapsedMs": 44299,
+      "clicks": 0,
+      "via": "nav: Agency partners",
+      "headings": [
+        "h1: Omnisend agency partners earn for every referral",
+        "h2: Partner Program: Your journey",
+        "h3: Agency Network Member",
+        "h3: Partner",
+        "h3: Pro Partner",
+        "h3: What is an agency partnership?",
+        "h3: How much can I earn as a partner?",
+        "h3: Is the revenue share a one-time payment or recurring?",
+        "h3: When can I cash out my earnings?",
+        "h3: How does the agency directory work?",
+        "h3: Can my team access the Partner Portal?",
+        "h3: What benefits do agencies receive?",
+        "h3: Need more info?"
+      ],
+      "ctas": [
+        "Request demo",
+        "Start free",
+        "Apply to learn more",
+        "Start free today",
+        "Contact us"
+      ],
+      "prices": [
+        "ply now WHY SHOULD YOU BECOME AN AGENCY PARTNER? 20% lifetime revenue share Access to new leads Free E",
+        "tner, unlocking even more benefits. WHAT YOU GET 20% revenue share on successful referrals Dedicated p",
+        "nd through exclusive opportunities. WHAT YOU GET 20% revenue share on successful referrals Pro Partner",
+        "h can I earn as a partner? You can earn at least 20% of the monthly Omnisend subscription fees from th"
+      ],
+      "description": "Grow your business by joining Omnisend Agency partner program. Our program is ideal for marketing agencies working with email marketing.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Faktum-Bold",
+            "body": "Roboto",
+            "distinct": [
+              "Inter",
+              "Roboto",
+              "Faktum-Bold",
+              "Faktum",
+              "Arial"
+            ]
+          },
+          "h1Px": 72,
+          "bodyPx": 16,
+          "bodyLineHeight": "20.02px",
+          "backgrounds": [
+            "#131313",
+            "#f7f6f4",
+            "#ffffff",
+            "#000000"
+          ],
+          "accents": [
+            "#02564e",
+            "#83ed80"
+          ],
+          "textColor": "#525b5a",
+          "buttonRadius": "8px",
+          "buttonHeightPx": 40,
+          "images": 65,
+          "videos": 0,
+          "svgs": 88,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 5501,
+          "domNodes": 1463,
+          "domContentLoadedMs": 265,
+          "loadMs": 511
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 76
+        }
+      }
+    },
+    {
+      "n": 10,
+      "kind": "product",
+      "title": "Instagram Email Capture: Turn DMs Into Subscribers | Omnisend - Omnisend",
+      "url": "https://www.omnisend.com/features/instagram/",
+      "screenshot": "shots/omnisend/step-10.webp",
+      "textFile": "data/captures/omnisend/page-10.txt",
+      "elapsedMs": 48733,
+      "clicks": 0,
+      "via": "nav: Social Capture NEW",
+      "headings": [
+        "h1: From Instagram DM to your email list",
+        "h2: Turning followers into subscribers",
+        "h2: A follower is a crush. A subscriber sticks around.",
+        "h2: See how it works",
+        "h2: We’ll help you get started",
+        "h3: What is Social Capture?",
+        "h3: How is it different from Omnisend sign-up forms?",
+        "h3: What do I need to get started?",
+        "h3: What triggers the DM?",
+        "h3: Do people know they’re subscribing?",
+        "h3: Can I write my own DM?",
+        "h3: Do I need to run Instagram ads?",
+        "h3: Can I see how many subscribers came from Instagram?",
+        "h3: Which Omnisend plans include Social Capture?"
+      ],
+      "ctas": [
+        "Request demo",
+        "Start free",
+        "See pricing",
+        "Start free today",
+        "Contact us"
+      ],
+      "prices": [],
+      "description": "Turn Instagram comments and DMs into email subscribers with Omnisend. Auto-reply to keywords, collect emails, and grow your list without ad spend.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Faktum-Bold",
+            "body": "Roboto",
+            "distinct": [
+              "Inter",
+              "Roboto",
+              "Faktum-Bold",
+              "Arial"
+            ]
+          },
+          "h1Px": 72,
+          "bodyPx": 16,
+          "bodyLineHeight": "20.02px",
+          "backgrounds": [
+            "#131313",
+            "#000000",
+            "#1a1919",
+            "#1a1c1b"
+          ],
+          "accents": [
+            "#83ed80",
+            "#2f8481"
+          ],
+          "textColor": "#525b5a",
+          "buttonRadius": "8px",
+          "buttonHeightPx": 40,
+          "images": 45,
+          "videos": 0,
+          "svgs": 98,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 7573,
+          "domNodes": 1487,
+          "domContentLoadedMs": 105,
+          "loadMs": 447
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 78
+        }
+      }
+    },
+    {
+      "n": 11,
+      "kind": "product",
+      "title": "Omnisend Integrations | App Market",
+      "url": "https://app.omnisend.com/apps/home",
+      "screenshot": "shots/omnisend/step-11.webp",
+      "textFile": "data/captures/omnisend/page-11.txt",
+      "elapsedMs": 53118,
+      "clicks": 0,
+      "via": "nav: Email capture",
+      "headings": [
+        "h3: Choose powerful solutions to make your marketing a whole lot smarter",
+        "h2: Join the 150,000+ ecommerce brands that grow with Omnisend every day."
+      ],
+      "ctas": [
+        "Sign Up",
+        "Start free",
+        "See pricing",
+        "Contact us"
+      ],
+      "prices": [],
+      "description": "Omnisend is a powerful omnichannel marketing automation platform built for growing ecommerce businesses.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": null,
+            "body": "roboto",
+            "distinct": [
+              "roboto",
+              "Times",
+              "faktum",
+              "Roboto"
+            ]
+          },
+          "h1Px": null,
+          "bodyPx": 14,
+          "bodyLineHeight": "24px",
+          "backgrounds": [
+            "#ffffff",
+            "#a6f41c",
+            "#131313",
+            "#1e2423"
+          ],
+          "accents": [
+            "#a6f41c"
+          ],
+          "textColor": "#1e2423",
+          "buttonRadius": "8px",
+          "buttonHeightPx": 40,
+          "images": 50,
+          "videos": 0,
+          "svgs": 36,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 7550,
+          "domNodes": 1311,
+          "domContentLoadedMs": 297,
+          "loadMs": 677
+        },
+        "merch": {
+          "planCards": 1,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 93
+        }
+      }
+    },
+    {
+      "n": 12,
+      "kind": "signup",
+      "title": "Omnisend | Ecommerce Marketing Automation",
+      "url": "https://app.omnisend.com/registrationv2/",
+      "screenshot": "shots/omnisend/step-12.webp",
+      "textFile": "data/captures/omnisend/page-12.txt",
+      "elapsedMs": 3735,
+      "clicks": 1,
+      "via": "click: \"Start free\"",
+      "headings": [],
+      "ctas": [
+        "Sign up with Shopify",
+        "Sign up with Email"
+      ],
+      "prices": [],
+      "description": "Omnisend is a powerful omnichannel marketing automation platform built for growing ecommerce businesses.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": null,
+            "body": "roboto",
+            "distinct": [
+              "roboto",
+              "Times"
+            ]
+          },
+          "h1Px": null,
+          "bodyPx": 14,
+          "bodyLineHeight": "24px",
+          "backgrounds": [
+            "#f4e8d4",
+            "#ffffff"
+          ],
+          "accents": [],
+          "textColor": "#1e2423",
+          "buttonRadius": "8px",
+          "buttonHeightPx": 40,
+          "images": 3,
+          "videos": 0,
+          "svgs": 3,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 900,
+          "domNodes": 101,
+          "domContentLoadedMs": 151,
+          "loadMs": 1164
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [
+            "No Credit Card needed."
+          ],
+          "links": 0
+        }
+      },
+      "form": {
+        "fields": [],
+        "alternatives": [
+          "Sign up with Shopify",
+          "Sign up with Email"
+        ],
+        "submit": [
+          "Sign up with Shopify",
+          "Sign up with Email"
+        ],
+        "consent": [],
+        "pageHeightPx": 900,
+        "passwordAsked": false
+      }
+    },
+    {
+      "n": 13,
+      "kind": "signup",
+      "title": "Omnisend Email Marketing & SMS - Drive sales with email marketing, newsletters, SMS, and popups | Shopify App ",
+      "url": "https://apps.shopify.com/omnisend",
+      "screenshot": "shots/omnisend/step-13.webp",
+      "textFile": "data/captures/omnisend/page-13.txt",
+      "elapsedMs": 8153,
+      "clicks": 2,
+      "via": "click: \"Sign up with Shopify\"",
+      "headings": [
+        "h1: Omnisend Email Marketing & SMS",
+        "h2: Featured images gallery",
+        "h2: Run email marketing & SMS campaigns with AI marketing tools. Collect emails with popups & sell more.",
+        "h2: Pricing",
+        "h3: $16 / month",
+        "h3: $59 / month",
+        "h2: Reviews (3,235)",
+        "h2: Support",
+        "h3: Resources",
+        "h3: Developer",
+        "h2: Featured in",
+        "h3: Get the apps you need to get your brand new business off the ground.",
+        "h3: Capture more customers with effective emails.",
+        "h2: More apps like this",
+        "h2: Want to add an app?",
+        "h2: Log in to your Shopify store"
+      ],
+      "ctas": [
+        "Start for free",
+        "View demo store",
+        "Learn more",
+        "Try Shopify free for 3 days",
+        "Sign up"
+      ],
+      "prices": [
+        "lates 24/7 live support — even on Free STANDARD $16 / month Starting price covers up to 500 contacts and ris",
+        "o 500 contacts and rises as your list grows. Plus 30% off your first 3 months. Features EVERYTHING in",
+        "anding on emails & forms Meet our email expert on $400/mo+ plans Starter deal: 30% off for first 3 months",
+        "our email expert on $400/mo+ plans Starter deal: 30% off for first 3 months PRO $59 / month Startin",
+        "ns Starter deal: 30% off for first 3 months PRO $59 / month Starting price covers up to 2,500 contacts and r",
+        "2,500 contacts and rises as your list grows. Plus 30% off your first 3 months. Features EVERYTHING in",
+        "namic content personalization Add SMS starting at $0.007/message Starter deal: 30% off for first 3 months All cha",
+        "Add SMS starting at $0.007/message Starter deal: 30% off for first 3 months All charges are billed in",
+        "increase. The switch was seamless, handled almost 100% by the Omnisend team so we were quick to go. The"
+      ],
+      "description": "Omnisend is the Shopify email marketing app for email, SMS & popups, used by 100K+ brands. Create AI campaigns in ChatGPT or Claude via MCP and sell more.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Inter var",
+            "body": "Inter var",
+            "distinct": [
+              "Inter var"
+            ]
+          },
+          "h1Px": 18,
+          "bodyPx": 16,
+          "bodyLineHeight": "20.3px",
+          "backgrounds": [
+            "#fafaf9",
+            "#56524e",
+            "#ffffff",
+            "#000000"
+          ],
+          "accents": [
+            "#4ade80"
+          ],
+          "textColor": "#000000",
+          "buttonRadius": "9999px",
+          "buttonHeightPx": 49,
+          "images": 40,
+          "videos": 0,
+          "svgs": 71,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 5135,
+          "domNodes": 1338,
+          "domContentLoadedMs": 442,
+          "loadMs": 1079
+        },
+        "merch": {
+          "planCards": 2,
+          "priceElements": 2,
+          "badges": [
+            "FREE",
+            "Free"
+          ],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [
+            "Discount codes",
+            "Starting price covers up to 500 contacts and rises as your list grows. Plus 30% off your first 3 months.",
+            "Starting price covers up to 2,500 contacts and rises as your list grows. Plus 30% off your first 3 months."
+          ],
+          "links": 127
+        }
+      },
+      "form": {
+        "fields": [
+          {
+            "type": "select",
+            "label": "Change your language"
+          },
+          {
+            "type": "text",
+            "label": "your-store.myshopify.com"
+          }
+        ],
+        "alternatives": [],
+        "submit": [],
+        "consent": [
+          "Support App support provided by Omnisend. Resources Privacy policy FAQ Developer Omnisend Website Verkiu 25C, Vilnius, 08223, LT Launched March 10, 2014",
+          "Resources Privacy policy FAQ Developer Omnisend Website Verkiu 25C, Vilnius, 08223, LT Launched March 10, 2014",
+          "Resources Privacy policy FAQ"
+        ],
+        "pageHeightPx": 5135,
+        "passwordAsked": false
+      }
+    }
+  ],
+  "navMap": [
+    {
+      "label": "Help center",
+      "href": "https://support.omnisend.com/en/",
+      "area": "header",
+      "kind": "resources"
+    },
+    {
+      "label": "Support",
+      "href": "https://www.omnisend.com/contact-us/",
+      "area": "header",
+      "kind": "resources"
+    },
+    {
+      "label": "Agency partners",
+      "href": "https://www.omnisend.com/agency-partners/",
+      "area": "header",
+      "kind": "platform"
+    },
+    {
+      "label": "Omnisend AI",
+      "href": "https://www.omnisend.com/ai/",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Automation",
+      "href": "https://www.omnisend.com/features/automation/",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Reporting",
+      "href": "https://www.omnisend.com/features/reports/",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Channels",
+      "href": "https://www.omnisend.com/channels/",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Social Capture NEW",
+      "href": "https://www.omnisend.com/features/instagram/",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Pricing",
+      "href": "https://www.omnisend.com/pricing/",
+      "area": "header",
+      "kind": "pricing"
+    },
+    {
+      "label": "OFFER",
+      "href": "https://www.omnisend.com/woocommerce-plugin/",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Email capture",
+      "href": "https://appmarket.omnisend.com/app-list/collection/contacts",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Loyalty & rewards",
+      "href": "https://appmarket.omnisend.com/app-list/collection/loyalty",
+      "area": "header",
+      "kind": "platform"
+    },
+    {
+      "label": "Advertising",
+      "href": "https://appmarket.omnisend.com/app-list/collection/ads",
+      "area": "header",
+      "kind": "platform"
+    },
+    {
+      "label": "Email builder",
+      "href": "https://appmarket.omnisend.com/app-list/collection/email_builder",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Subscriptions",
+      "href": "https://appmarket.omnisend.com/app-list/collection/subscriptions",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Request demo",
+      "href": "https://www.omnisend.com/demo/",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Start free",
+      "href": "https://app.omnisend.com/registrationv2/",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Features",
+      "href": "https://www.omnisend.com/features/",
+      "area": "footer",
+      "kind": "product"
+    },
+    {
+      "label": "Multi-store accounts",
+      "href": "https://www.omnisend.com/features/multi-store-accounts/",
+      "area": "footer",
+      "kind": "product"
+    },
+    {
+      "label": "Reviews",
+      "href": "https://www.omnisend.com/reviews-2/",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Help Center",
+      "href": "https://support.omnisend.com/",
+      "area": "footer",
+      "kind": "resources"
+    },
+    {
+      "label": "Developer center",
+      "href": "https://developers.omnisend.com/",
+      "area": "footer",
+      "kind": "platform"
+    },
+    {
+      "label": "App market",
+      "href": "https://app.omnisend.com/apps/home",
+      "area": "footer",
+      "kind": "platform"
+    },
+    {
+      "label": "Shopify",
+      "href": "https://www.omnisend.com/shopify-email-marketing/",
+      "area": "footer",
+      "kind": "product"
+    },
+    {
+      "label": "Shopify Plus",
+      "href": "https://www.omnisend.com/shopify-plus/",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "BigCommerce",
+      "href": "https://www.omnisend.com/bigcommerce-app/",
+      "area": "footer",
+      "kind": "platform"
+    },
+    {
+      "label": "WordPress",
+      "href": "https://www.omnisend.com/wordpress-plugin/",
+      "area": "footer",
+      "kind": "company"
+    },
+    {
+      "label": "Wix",
+      "href": "https://www.omnisend.com/wix-ecommerce/",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Shoplazza",
+      "href": "https://www.omnisend.com/shoplazza/",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Ecwid",
+      "href": "https://www.omnisend.com/ecwid/",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Omnisend vs. Attentive",
+      "href": "https://www.omnisend.com/blog/omnisend-vs-attentive/",
+      "area": "footer",
+      "kind": "resources"
+    },
+    {
+      "label": "Omnisend vs. Klaviyo",
+      "href": "https://www.omnisend.com/blog/omnisend-vs-klaviyo/",
+      "area": "footer",
+      "kind": "resources"
+    },
+    {
+      "label": "Omnisend vs. Mailchimp",
+      "href": "https://www.omnisend.com/blog/omnisend-vs-mailchimp/",
+      "area": "footer",
+      "kind": "resources"
+    },
+    {
+      "label": "Klaviyo alternatives",
+      "href": "https://www.omnisend.com/blog/klaviyo-alternatives/",
+      "area": "footer",
+      "kind": "resources"
+    },
+    {
+      "label": "Brevo alternatives",
+      "href": "https://www.omnisend.com/blog/brevo-alternatives/",
+      "area": "footer",
+      "kind": "resources"
+    },
+    {
+      "label": "MailerLite alternatives",
+      "href": "https://www.omnisend.com/blog/mailerlite-alternatives/",
+      "area": "footer",
+      "kind": "resources"
+    },
+    {
+      "label": "Best email marketing software",
+      "href": "https://www.omnisend.com/blog/email-marketing-software/",
+      "area": "footer",
+      "kind": "resources"
+    },
+    {
+      "label": "Affiliate partners",
+      "href": "https://www.omnisend.com/affiliates/",
+      "area": "footer",
+      "kind": "platform"
+    },
+    {
+      "label": "Partner portal",
+      "href": "https://www.omnisend.com/partner-portal/",
+      "area": "footer",
+      "kind": "platform"
+    },
+    {
+      "label": "Agency directory",
+      "href": "https://partnerpage.omnisend.com/",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Hire an Omnisend Partner",
+      "href": "https://www.omnisend.com/hire-a-partner/",
+      "area": "footer",
+      "kind": "platform"
+    },
+    {
+      "label": "About us",
+      "href": "https://www.omnisend.com/about-us/",
+      "area": "footer",
+      "kind": "company"
+    },
+    {
+      "label": "Blog",
+      "href": "https://www.omnisend.com/blog/",
+      "area": "footer",
+      "kind": "resources"
+    },
+    {
+      "label": "Webinars",
+      "href": "https://www.omnisend.com/webinars/",
+      "area": "footer",
+      "kind": "resources"
+    },
+    {
+      "label": "Success stories",
+      "href": "https://www.omnisend.com/resources/customers/",
+      "area": "footer",
+      "kind": "customers"
+    },
+    {
+      "label": "Customer Support",
+      "href": "https://www.omnisend.com/customer-support/",
+      "area": "footer",
+      "kind": "resources"
+    },
+    {
+      "label": "Bug Bounty",
+      "href": "https://www.omnisend.com/bug-bounty/",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Newsroom",
+      "href": "https://www.omnisend.com/newsroom/",
+      "area": "footer",
+      "kind": "company"
+    },
+    {
+      "label": "AI info",
+      "href": "https://www.omnisend.com/ai-info-page/",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Data processing agreement",
+      "href": "https://www.omnisend.com/data-processing-agreement/",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Acceptable Use Policy",
+      "href": "https://www.omnisend.com/acceptable-use-policy/",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Modern Slavery Statement",
+      "href": "https://www.omnisend.com/modern-slavery-statement/",
+      "area": "footer",
+      "kind": "other"
+    }
+  ],
+  "stack": {
+    "generator": null,
+    "scriptHosts": [
+      "www.clarity.ms",
+      "js.hscollectedforms.net",
+      "js.hs-banner.com",
+      "js.hs-analytics.net",
+      "js.usemessages.com",
+      "js.hubspot.com",
+      "js.hsadspixel.net",
+      "consentcdn.cookiebot.com",
+      "consent.cookiebot.com",
+      "scout-cdn.salesloft.com",
+      "bat.bing.com",
+      "connect.facebook.net",
+      "widget.intercom.io",
+      "snap.licdn.com"
+    ],
+    "signals": [
+      "Google Tag Manager dataLayer"
+    ],
+    "server": "cloudflare",
+    "poweredBy": null
+  },
+  "sources": [
+    "https://www.omnisend.com"
+  ],
+  "dossier": {
+    "sections": [
+      {
+        "id": "positioning",
+        "title": "Positioning",
+        "summary": "Omnisend positions itself as the smaller-bill alternative to the big ecommerce marketing platforms: email and SMS with the same power, free migration, and a plain, almost deadpan tone.",
+        "keyPoints": [
+          "Homepage: 'Email & SMS marketing so good, it's boring', with 'Big-platform features, smaller bill, migration's on us.'",
+          "It names Klaviyo directly: 'Save up to 35%* compared to Klaviyo. Free migration included.'",
+          "'Trusted by 150K+ brands' repeats across feature pages, and a WordPress plugin page extends the pitch beyond Shopify."
+        ]
+      },
+      {
+        "id": "offerings",
+        "title": "Products and offerings",
+        "summary": "An email, SMS and push marketing suite for ecommerce with automation, forms and an app market.",
+        "keyPoints": [],
+        "table": {
+          "columns": [
+            "Product",
+            "What it does"
+          ],
+          "rows": [
+            [
+              "Campaigns and Automation",
+              "No-code omnichannel workflows triggered by real-time customer data"
+            ],
+            [
+              "Segmentation and forms",
+              "Behavioral segments, popups and email capture forms"
+            ],
+            [
+              "Social Capture (new)",
+              "Turns Instagram comments and DMs into email subscribers"
+            ],
+            [
+              "Omnisend AI",
+              "AI marketing tools, including an Omnisend Agent on paid plans"
+            ],
+            [
+              "Reports",
+              "Revenue, engagement and deliverability across email, SMS and push"
+            ],
+            [
+              "App market",
+              "Apps for email capture, reviews, loyalty and rewards, shipping, support and more"
+            ],
+            [
+              "Multi-store accounts and subscriptions",
+              "Manage several stores and recurring orders"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "pricing",
+        "title": "Pricing",
+        "summary": "A free plan, two paid plans priced by list size and a per-message SMS price. The headline prices are discounted for paying three months up front.",
+        "keyPoints": [
+          "A list-size selector sets the price; the page offers a 30% saving for paying 3 months upfront, after which you are billed monthly.",
+          "SMS starts at $0.007 per message; a $50 monthly spend buys 5,882 messages at $0.0085 each.",
+          "The Shopify App Store listing shows $16 and $59 a month for the two paid plans, which matches the prepay prices before the 30% discount.",
+          "Free migration in up to 5 days is offered on every plan, and the page says savings of up to 35% against Klaviyo."
+        ],
+        "table": {
+          "columns": [
+            "Plan",
+            "Price a month (prepay)",
+            "Includes"
+          ],
+          "rows": [
+            [
+              "Free",
+              "$0",
+              "500 monthly emails, 250 contacts, 500 web push notifications"
+            ],
+            [
+              "Standard",
+              "$11.20",
+              "6,000 emails a month, 500 contacts, 2 tools, unlimited web push, the Omnisend Agent"
+            ],
+            [
+              "Pro",
+              "$41.30",
+              "Unlimited emails, 2,500 contacts, 5 tools, unlimited web push, the Omnisend Agent Pro, SMS credits as an add-on"
+            ]
+          ]
+        },
+        "gaps": [
+          "Full list-price tables for higher list sizes were behind the selector."
+        ]
+      },
+      {
+        "id": "merchandising",
+        "title": "Merchandising",
+        "summary": "A configurator-led ladder that leans on a competitor comparison and a risk-removal package: free plan, free migration and a prepay discount. For merchants, the toolset is broad and ecommerce-specific.",
+        "keyPoints": [
+          "The pricing page is a list-size slider above three cards, with a toggle for the 3-month prepay discount.",
+          "Savings versus Klaviyo, 5-day free migration and 24/7 support are the three promises under the headline.",
+          "A Black Friday banner offers 30% off for 3 months.",
+          "For merchants: behavioral segmentation, product recommendations, back-in-stock and wishlist apps, loyalty and rewards, popups and a new Instagram capture tool.",
+          "An agency program pays partners a 20% lifetime revenue share."
+        ]
+      },
+      {
+        "id": "platform",
+        "title": "Technical platform",
+        "summary": "A developer center with an API reference, a Postman collection and an app market with hundreds of apps, plus agency and affiliate partner programs.",
+        "keyPoints": [
+          "The developer site offers guides, an API reference and a Postman collection for easy API calls.",
+          "The app market has collections such as Email Capture, Loyalty and Rewards, Reviews and Shipping, with 131 newest apps.",
+          "Partner tiers (Agency Network Member, Partner, Pro Partner) come with referral earnings and free migration for clients."
+        ],
+        "gaps": [
+          "API rate limits and webhooks were not read."
+        ]
+      },
+      {
+        "id": "design",
+        "title": "Design",
+        "summary": "Confident and playful: a heavy sans headline, deep green with a lime accent, and photography that undercuts the 'boring' joke. Marketing, docs and signup share a type family.",
+        "keyPoints": [
+          "The home hero is a dark photograph of a man knitting on a laptop under a large white headline, with a lime 'Start free' button.",
+          "A lime banner and dark green (#02564e) with lime (#83ed80) carry the brand; buttons have 8px corners and the header is sticky.",
+          "Faktum Bold is used on the home page, pricing and the API docs; the help center uses Roboto and the Shopify listing uses Shopify's own style.",
+          "The pricing page sits on a warm beige canvas with a slider and three cards, with a chat assistant bubble in the corner.",
+          "The home page is 11,374px tall with 19 videos."
+        ],
+        "gaps": [
+          "Merchant design control was limited to a drag-and-drop mention."
+        ]
+      },
+      {
+        "id": "company",
+        "title": "Company presentation",
+        "summary": "A friendly challenger: lots of customers, a ratings count and direct comparison to bigger platforms, plus a partner economy.",
+        "keyPoints": [
+          "Scale claims: 150K+ brands, 150k users on the WordPress plugin page and 4.7 stars from 3,235 reviews on the Shopify App Store.",
+          "The WordPress page claims $79 ROI for every $1.",
+          "Success stories come from both brands and agency partners; an Omnisend Partner directory lets merchants hire help."
+        ],
+        "gaps": [
+          "No leadership information in the surveyed pages."
+        ]
+      }
+    ]
+  },
+  "signupPath": "'Start free' on the homepage opens app.omnisend.com/registrationv2, headed 'Start using Omnisend for free' with 'No Credit Card needed' and two choices: 'Sign up with Shopify' or 'Sign up with Email'. Choosing Shopify opens the Omnisend listing in the Shopify App Store ('Install', 'Free plan available', 4.7 from 3,235 reviews). It is not an account form with fields. Nothing was entered.",
+  "scores": {
+    "jtbd_fit": {
+      "score": 5,
+      "evidence": "Everything is about email and SMS for ecommerce merchants.",
+      "step": 1
+    },
+    "capability_visible": {
+      "score": 4,
+      "evidence": "Feature pages, an App Market and reports pages show a lot; the app itself is behind signup.",
+      "step": 3
+    },
+    "pricing_transparency": {
+      "score": 4,
+      "evidence": "Plans, list-size selector and SMS rates are shown; headline prices are discounted prepay prices.",
+      "step": 2
+    },
+    "product_breadth": {
+      "score": 4,
+      "evidence": "Campaigns, automation, segmentation, forms, reports, AI and an app market.",
+      "step": 3
+    },
+    "platform_depth": {
+      "score": 4,
+      "evidence": "API docs with a Postman collection, an app market and partner programs.",
+      "step": 4
+    },
+    "time_to_value": {
+      "score": null,
+      "evidence": "Capture stops before the product; first-value time was not observed.",
+      "step": null
+    },
+    "friction": {
+      "score": 4,
+      "evidence": "'Start free' opens a page offering sign up with Shopify or email, no credit card.",
+      "step": 12
+    },
+    "trust": {
+      "score": 4,
+      "evidence": "150K+ brands, a 4.7 rating from 3,235 reviews and named success stories.",
+      "step": 13
+    },
+    "mobile": {
+      "score": null,
+      "evidence": "Phone captures exist for home and pricing but were not assessed.",
+      "step": null
+    },
+    "states": {
+      "score": null,
+      "evidence": "No error or empty states reached.",
+      "step": null
+    },
+    "a11y_basics": {
+      "score": null,
+      "evidence": "Not tested.",
+      "step": null
+    },
+    "value_prop_clarity": {
+      "score": 4,
+      "evidence": "'Email & SMS marketing so good, it's boring' is clear about the category.",
+      "step": 1
+    },
+    "proof_quality": {
+      "score": 3,
+      "evidence": "'Save up to 35%' carries an asterisk; ROI figures have no source.",
+      "step": 1
+    },
+    "persuasion_integrity": {
+      "score": 3,
+      "evidence": "A 30%-off banner and an asterisked competitor saving.",
+      "step": 1
+    },
+    "cta_logic": {
+      "score": 4,
+      "evidence": "'Start free' is primary with 'Request demo' or 'Book migration call' secondary.",
+      "step": 1
+    },
+    "company_narrative": {
+      "score": 4,
+      "evidence": "The smaller-bill alternative story is consistent from home to pricing to the WordPress page.",
+      "step": 1
+    },
+    "offer_packaging": {
+      "score": 4,
+      "evidence": "Three plans with a list-size selector; discounts change the shown price.",
+      "step": 2
+    },
+    "offer_architecture": {
+      "score": 5,
+      "evidence": "Free plan, free migration, prepay discount, SMS add-on and a revenue-share partner program.",
+      "step": 2
+    },
+    "merchant_merch_tools": {
+      "score": 5,
+      "evidence": "Segmentation, product recommendations, popups, back-in-stock, loyalty and an Instagram capture tool.",
+      "step": 3
+    },
+    "visual_craft": {
+      "score": 4,
+      "evidence": "A distinctive green and lime palette and a witty hero; busy banner stack at the top.",
+      "step": 1
+    },
+    "system_coherence": {
+      "score": 4,
+      "evidence": "The same display type, green palette and button shape run through home, pricing and the API docs.",
+      "step": 9
+    },
+    "merchant_design_control": {
+      "score": 4,
+      "evidence": "Email builder and forms with drag-and-drop customization.",
+      "step": 3
+    }
+  },
+  "read": {
+    "summary": "An ecommerce email and SMS platform that wins on price transparency, migration and tone. Its pricing and offer are built around Klaviyo's customers. The headline prices are discounted prepay figures, so the page needs a careful read.",
+    "pros": [
+      "Free plan plus free migration lower the cost of switching.",
+      "SMS has published per-message rates and a volume example.",
+      "A distinctive, consistent brand across home, pricing and docs.",
+      "A broad toolset for ecommerce merchants."
+    ],
+    "cons": [
+      "Headline prices are 30% off for prepaying three months.",
+      "Savings versus Klaviyo carry an asterisk.",
+      "The paid-plan sign-up path ends in a Shopify listing for Shopify stores.",
+      "ROI claims have no source."
+    ],
+    "howItSells": "Sells being the practical, cheaper, easier-to-move-to option: a deadpan tone, a named competitor and a free migration.",
+    "copy": [
+      "Offer migration help as part of the pitch.",
+      "Publish per-message SMS prices with a worked example.",
+      "Name the platform you want to win customers from."
+    ],
+    "avoid": [
+      "Headline prices that assume a prepay discount.",
+      "Asterisked competitor savings."
+    ],
+    "tactics": [
+      "anchoring",
+      "loss_aversion",
+      "social_proof"
+    ],
+    "confidence": "medium",
+    "unknowns": [
+      "What account creation asks beyond sign-up with Shopify.",
+      "Full price tables above the lowest list size.",
+      "Mobile experience.",
+      "API reference depth."
+    ],
+    "hypothesis": {
+      "statement": "Showing the list price and the prepay price side by side on each plan card will reduce billing surprise without lowering sign-ups.",
+      "metric": "Free-to-paid upgrade rate",
+      "guardrail": "Support tickets about billing",
+      "decisionRule": "Ship if upgrades hold and billing tickets fall over four weeks."
+    },
+    "subjects": {
+      "merchandising": {
+        "summary": "A challenger ladder tuned to win Klaviyo-style switchers, with a very ecommerce-specific merchant toolset.",
+        "pros": [
+          "Free migration plus a free plan.",
+          "List-size slider on the pricing page.",
+          "20% lifetime revenue share for agencies."
+        ],
+        "cons": [
+          "Prepay-discounted prices in the headline.",
+          "Asterisked comparison."
+        ]
+      },
+      "design": {
+        "summary": "Distinctive and consistent; slightly busy at the top of each page.",
+        "pros": [
+          "A distinctive green and lime palette and photography with a sense of humor.",
+          "The same type and button shape on every page."
+        ],
+        "cons": [
+          "A lime banner, a utility bar and a main nav stack above the fold.",
+          "A chat assistant bubble covers part of the pricing page."
+        ]
+      }
+    }
+  },
+  "claims": [
+    {
+      "text": "Save up to 35%* compared to Klaviyo. Free migration included.",
+      "verdict": "unsupported",
+      "step": 1,
+      "evidenceStep": null
+    },
+    {
+      "text": "$79 ROI for every $1",
+      "verdict": "unsupported",
+      "step": 6,
+      "evidenceStep": null
+    },
+    {
+      "text": "Trusted by 150K+ brands.",
+      "verdict": "plausible",
+      "step": 3,
+      "evidenceStep": 11
+    }
+  ],
+  "focus": "signup to first automation"
+}

@@ -1,0 +1,28 @@
+URL: https://dev.smile.io/
+TITLE: Home - Smile.io Developer Documentation
+DESCRIPTION: Build custom loyalty experiences with Smile's REST API, JavaScript SDK, and Smile UI.
+
+Documentation Index
+
+Fetch the complete documentation index at: /llms.txt
+
+Use this file to discover all available pages before exploring further.
+
+Skip to main content
+Enterprise loyalty.
+Built for developers.
+
+Smile’s full-stack tooling enables you to create unique & personalized rewarding experiences that are effortless to manage and maintain.
+
+Guides
+Learn how to use Smile’s developer tooling and resources.
+Get started
+API Reference
+Deeply integrate loyalty into your backend systems with our REST API.
+Explore docs
+JavaScript SDK
+Build fully custom loyalty experiences directly in the browser.
+Learn more
+Smile UI
+Smile’s pre-built and configurable loyalty panel and launcher.
+Learn more

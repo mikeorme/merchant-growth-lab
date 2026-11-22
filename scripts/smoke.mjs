@@ -36,15 +36,17 @@ ok((await p.locator('.nav a').allInnerTexts()).join(',').match(/Calibration|Data
 expect404 = true;
 for (const gone of ['calibration/', 'data/']) { const r = await p.goto(B + gone); ok(r.status() === 404, `/${gone} is gone`); }
 expect404 = false;
-await p.goto(B + 'archive/'); ok((await p.locator('#cat tbody tr').count()) === 100, 'archive lists 100');
+await p.goto(B + 'archive/'); ok((await p.locator('h1').innerText()).trim() === 'Archive' && (await p.locator('.lead').count()) === 0, 'archive title is plain and has no subtitle'); ok((await p.locator('#cat tbody tr').count()) === 100, 'archive lists 100');
 ok((await p.locator('#f-mine').count()) === 0, 'archive has no "scored by you" filter');
-await p.locator('#f-status').selectOption('evaluated'); ok((await p.locator('#cat tbody tr:visible').count()) === 3, 'status filter works');
+await p.locator('#f-status').selectOption('evaluated'); ok((await p.locator('#cat tbody tr:visible').count()) === 15, 'status filter shows the 15 examined sites');
+await p.locator('#f-status').selectOption('blocked'); ok((await p.locator('#cat tbody tr:visible').count()) === 4, 'four bot-blocked sites are listed as blocked');
+await p.locator('#f-status').selectOption('evaluated');
 await p.goto(B + 'compare/?ids=stripe,klaviyo'); ok((await p.locator('#out table').count()) === 1 && !(await p.locator('#out').innerText()).includes('you'), 'compare renders, Lab only');
 const d = await b.newContext({ viewport: { width: 1360, height: 900 }, colorScheme: 'dark' });
 const pd = await d.newPage(); await pd.goto(B + 'experience/klaviyo/'); await pd.screenshot({ path: out + '/survey-dark.png' });
 const m = await b.newContext({ viewport: { width: 375, height: 800 }, deviceScaleFactor: 2 });
 const pm = await m.newPage();
-for (const path of ['', 'archive/', 'experience/shopify/', 'experience/klaviyo/', 'compare/']) {
+for (const path of ['', 'archive/', 'experience/shopify/', 'experience/klaviyo/', 'experience/square/', 'experience/mailchimp/', 'experience/loop-subscriptions/', 'experience/wix/', 'compare/']) {
   await pm.goto(B + path); const over = await pm.evaluate(() => document.documentElement.scrollWidth > innerWidth + 1);
   ok(!over, `no horizontal page scroll at 375px: /${path}`);
 }

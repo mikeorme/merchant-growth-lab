@@ -1,0 +1,362 @@
+{
+  "dossier": {
+    "sections": [
+      {
+        "id": "positioning",
+        "title": "Positioning",
+        "summary": "Recharge positions itself as the leading subscription platform for Shopify brands, selling retention and revenue per subscriber rather than just recurring billing.",
+        "keyPoints": [
+          "Homepage: 'The world's leading subscription platform', powering 71% of subscriptions sold on Shopify stores.",
+          "The story is hands-on partnership plus relentless product pace: 104 major updates in the last year.",
+          "An enterprise page targets brands with $100M to $1B+ in annual revenue; the Why Recharge page speaks to selling buyer routines that last."
+        ]
+      },
+      {
+        "id": "offerings",
+        "title": "Products and offerings",
+        "summary": "A subscription layer on top of the storefront, plus retention, loyalty and messaging tools.",
+        "keyPoints": [],
+        "table": {
+          "columns": [
+            "Product",
+            "What it does"
+          ],
+          "rows": [
+            [
+              "Subscriptions",
+              "Subscription widget on the product page and recurring billing"
+            ],
+            [
+              "Customer portal",
+              "No-code Affinity portal where subscribers swap products, reschedule orders and change quantities"
+            ],
+            [
+              "Churn prevention",
+              "Cancellation-prevention journeys and failed-payment recovery"
+            ],
+            [
+              "Upsell and cross-sell, Bundles",
+              "Offers across the customer journey; fixed-price and customizable bundles"
+            ],
+            [
+              "Loyalty, Rewards, Referrals",
+              "Rewards flows run in a chosen order"
+            ],
+            [
+              "Concierge SMS",
+              "AI text conversations with subscribers"
+            ],
+            [
+              "Analytics",
+              "Metrics and industry benchmarks; an MCP server for asking questions in Claude or ChatGPT"
+            ]
+          ]
+        },
+        "gaps": [
+          "Digital subscriptions and Health and Wellness vertical pages were in the navigation but not opened."
+        ]
+      },
+      {
+        "id": "pricing",
+        "title": "Pricing",
+        "summary": "Two published plans and a custom lane, each with a transaction fee. Texting is billed per message.",
+        "keyPoints": [
+          "Starter is the self-serve plan and carries 'Try for free'; Scale is labelled most popular and is sales-led ('Talk to us').",
+          "Both plans take a processing fee per transaction that is lower on Scale.",
+          "Concierge SMS costs $0.03 per message in the US and $0.06 internationally.",
+          "Failed-payment recovery is advertised as recovering up to 88% of failed payments."
+        ],
+        "table": {
+          "columns": [
+            "Plan",
+            "Price",
+            "Processing fee",
+            "Adds"
+          ],
+          "rows": [
+            [
+              "Starter",
+              "$149 a month",
+              "1.50% + 20¢ per transaction",
+              "Product-page widget, customer portal, upsell tools, cancellation prevention, failed-payment recovery, win-back, analytics"
+            ],
+            [
+              "Scale (most popular)",
+              "$499 a month",
+              "1.25% + 20¢ per transaction",
+              "Everything in Starter plus hands-on implementation, migration support and customizable bundles"
+            ],
+            [
+              "Custom",
+              "Volume-based rates",
+              "Volume-based",
+              "For high-volume subscription brands"
+            ]
+          ]
+        },
+        "gaps": [
+          "Custom rates and the cost of add-ons beyond SMS were not shown."
+        ]
+      },
+      {
+        "id": "merchandising",
+        "title": "Merchandising",
+        "summary": "A simple good-better-best ladder where the free-trial lane is the cheaper plan and the sales-led plan is the one marked popular. Recharge also gives merchants the tools to raise order value.",
+        "keyPoints": [
+          "Scale carries a most-popular tag, which steers self-serve visitors up the ladder.",
+          "Processing fees fall as the plan rises, so heavier subscription volume rewards the higher tier.",
+          "For merchants: tiered discounts that grow as subscribers buy more, upsell and cross-sell touchpoints, bundles, win-back offers and targeted cancellation-prevention offers.",
+          "A customer portal lets subscribers swap products and change quantities, which the merchant can theme."
+        ]
+      },
+      {
+        "id": "platform",
+        "title": "Technical platform",
+        "summary": "A full developer surface: a versioned REST API with webhooks and batch operations, a JavaScript SDK, a developer hub, documentation for custom integrations and a public changelog.",
+        "keyPoints": [
+          "REST API with JSON, standard response codes, resources, webhooks and async batch; version v2 is selected with a request header.",
+          "Docs cover pre-built Shopify integrations and custom integrations, including custom cart enhancements and widget customization.",
+          "A public changelog lists weekly changes, including an MCP server for portal analytics inside Claude or ChatGPT."
+        ],
+        "gaps": [
+          "Rate limits and SLAs were not read."
+        ]
+      },
+      {
+        "id": "design",
+        "title": "Design",
+        "summary": "A warm editorial look: a serif display typeface, black and cream surfaces, a strong blue and playful stickers. The developer and changelog sites drift from it.",
+        "keyPoints": [
+          "Marketing and pricing use p22-mackinac-pro with an accent of #0129f1 and pill buttons (9999px corners).",
+          "The API reference uses a different serif (Fraunces) with 18px button corners; the changelog switches to Public Sans with a different blue (#3901f1).",
+          "Home opens on dark video with a centered serif headline; the pricing page puts three light cards on black, with the popular one tagged in lime.",
+          "The home page is 10,353px tall with a sticky header.",
+          "For merchants: the portal can be styled with the Shopify Theme Editor and customized themes."
+        ],
+        "gaps": [
+          "Dark and light modes were not assessed."
+        ]
+      },
+      {
+        "id": "company",
+        "title": "Company presentation",
+        "summary": "A confident category-leader story backed by scale numbers and named case studies, with a news-style changelog as proof of pace.",
+        "keyPoints": [
+          "Scale claims: 20K brands, 100M subscribers and $30B+ processed.",
+          "Case studies include ButcherBox migrating 400,000 subscribers in 76 business days and Arrae's $100M business.",
+          "The Why Recharge page frames the product as selling buyer routines that last rather than just products."
+        ],
+        "gaps": [
+          "No leadership or funding information in the surveyed pages."
+        ]
+      }
+    ]
+  },
+  "signupPath": "No self-serve button is on the homepage ('Talk to us', 'Book a demo'). From the pricing page, 'Try for free' on the Starter plan opens getrecharge.com/forms/starter, a request form with seven fields: first name, last name, email, store URL, projected revenue over the next 12 months, vertical, and how you heard about Recharge, plus 'I'm interested in migrating' and agency checkboxes. It is not an account form. Nothing was entered.",
+  "scores": {
+    "jtbd_fit": {
+      "score": 5,
+      "evidence": "Every page is about one job: running and growing subscriptions on Shopify.",
+      "step": 1
+    },
+    "capability_visible": {
+      "score": 4,
+      "evidence": "Product pages, a public API reference, docs and a customer-portal demo are all open; the admin is behind a form.",
+      "step": 11
+    },
+    "pricing_transparency": {
+      "score": 4,
+      "evidence": "Starter and Scale prices and fees are published; Custom and add-on costs are not.",
+      "step": 2
+    },
+    "product_breadth": {
+      "score": 4,
+      "evidence": "Portal, churn tools, bundles, loyalty and SMS are clear; some product names are internal.",
+      "step": 3
+    },
+    "platform_depth": {
+      "score": 5,
+      "evidence": "Versioned REST API with webhooks and batch, SDK, docs for custom integrations, changelog and an MCP server.",
+      "step": 4
+    },
+    "time_to_value": {
+      "score": null,
+      "evidence": "Capture stops before the product; first-value time was not observed.",
+      "step": null
+    },
+    "friction": {
+      "score": 2,
+      "evidence": "The free-trial button opens a form with seven fields including store URL and projected revenue.",
+      "step": 13
+    },
+    "trust": {
+      "score": 4,
+      "evidence": "71% share, 20K brands and named case studies.",
+      "step": 3
+    },
+    "mobile": {
+      "score": null,
+      "evidence": "Phone captures exist for home and pricing but were not assessed.",
+      "step": null
+    },
+    "states": {
+      "score": null,
+      "evidence": "No error or empty states reached.",
+      "step": null
+    },
+    "a11y_basics": {
+      "score": null,
+      "evidence": "Not tested.",
+      "step": null
+    },
+    "value_prop_clarity": {
+      "score": 4,
+      "evidence": "'The world's leading subscription platform' is clear to Shopify merchants.",
+      "step": 1
+    },
+    "proof_quality": {
+      "score": 3,
+      "evidence": "'World's leading' and '#1 most trusted' have no source on the page; case studies are specific.",
+      "step": 3
+    },
+    "persuasion_integrity": {
+      "score": 4,
+      "evidence": "No urgency tactics; plan tags are limited to 'most popular'.",
+      "step": 2
+    },
+    "cta_logic": {
+      "score": 3,
+      "evidence": "'Talk to us' and 'Book a demo' lead everywhere; the self-serve 'Try for free' appears only on the pricing page.",
+      "step": 2
+    },
+    "company_narrative": {
+      "score": 4,
+      "evidence": "Leader-in-subscriptions story repeats from homepage to Why Recharge to case studies.",
+      "step": 7
+    },
+    "offer_packaging": {
+      "score": 4,
+      "evidence": "Two plans with clear 'what's inside' lists; the custom lane is vague.",
+      "step": 2
+    },
+    "offer_architecture": {
+      "score": 4,
+      "evidence": "Free trial on the entry plan, a most-popular middle plan, fee decreases and a custom top lane.",
+      "step": 2
+    },
+    "merchant_merch_tools": {
+      "score": 5,
+      "evidence": "Tiered discounts, upsell and cross-sell, bundles, win-back offers, cancellation offers and a styleable portal.",
+      "step": 11
+    },
+    "visual_craft": {
+      "score": 4,
+      "evidence": "Warm, distinctive serif type and sticker graphics; the home hero is dark and low on product.",
+      "step": 1
+    },
+    "system_coherence": {
+      "score": 3,
+      "evidence": "Fonts, blues and button radii differ between marketing, API reference and changelog.",
+      "step": 4
+    },
+    "merchant_design_control": {
+      "score": 4,
+      "evidence": "The portal can be branded with the Shopify Theme Editor and customizable themes.",
+      "step": 11
+    }
+  },
+  "read": {
+    "summary": "A category-leader pitch for Shopify subscription brands: a clear two-plan price page, a very open developer platform and a merchandising toolset (bundles, tiered discounts, win-back offers) that goes beyond billing. The weak spot is the entry path: the free-trial button leads to a seven-field request form.",
+    "pros": [
+      "Plans, fees and what's inside are published for both self-serve tiers.",
+      "Developer docs, API reference, changelog and an MCP server are public.",
+      "Merchants get a broad set of retention and order-value tools.",
+      "Case studies carry specific numbers."
+    ],
+    "cons": [
+      "'Try for free' opens a long request form rather than a signup.",
+      "Most calls to action say 'Talk to us' or 'Book a demo'.",
+      "'World's leading' and '#1' claims have no source.",
+      "Fonts and blues differ between marketing, API reference and changelog."
+    ],
+    "howItSells": "Sells leadership and retention: a market-share number, big-brand case studies, and tools that keep subscribers. The ladder nudges toward the sales-led plan.",
+    "copy": [
+      "Publish processing fees next to each plan price.",
+      "Put a self-serve start on the homepage, not only on pricing.",
+      "Name the market-share basis next to the 71% claim."
+    ],
+    "avoid": [
+      "A free-trial button that opens a seven-field form.",
+      "Superlatives with no source."
+    ],
+    "tactics": [
+      "authority",
+      "social_proof",
+      "anchoring"
+    ],
+    "confidence": "medium",
+    "unknowns": [
+      "What the trial looks like after the form.",
+      "Custom plan pricing.",
+      "Mobile experience.",
+      "Digital subscriptions pages."
+    ],
+    "hypothesis": {
+      "statement": "Replacing the seven-field trial form with email only, then asking for store URL and revenue after signup, will raise trial starts.",
+      "metric": "Pricing-page trial-start rate",
+      "guardrail": "Lead quality and sales-accepted rate",
+      "decisionRule": "Ship if starts rise by a pre-agreed margin and sales acceptance holds over four weeks."
+    },
+    "subjects": {
+      "merchandising": {
+        "summary": "A ladder built to push self-serve visitors toward the sales-led plan, plus the broadest order-value toolset of the subscription sites in this queue.",
+        "pros": [
+          "Most-popular tag on the sales-led plan.",
+          "Fees fall with plan.",
+          "Rich order-value tools for merchants."
+        ],
+        "cons": [
+          "The self-serve plan hides the form until after the click.",
+          "Custom lane has no indication of rates."
+        ]
+      },
+      "design": {
+        "summary": "A warm, distinctive brand on the marketing site that loosens on the developer and changelog pages.",
+        "pros": [
+          "Distinctive serif type and sticker graphics give a recognisable brand.",
+          "Lime 'most popular' tag stands out on black."
+        ],
+        "cons": [
+          "Different fonts and button shapes across marketing, API reference and changelog.",
+          "The home hero shows little product."
+        ]
+      }
+    }
+  },
+  "claims": [
+    {
+      "text": "Powering 71% of subscriptions sold on Shopify stores.",
+      "verdict": "unsupported",
+      "step": 1,
+      "evidenceStep": null
+    },
+    {
+      "text": "The #1 most trusted subscription platform",
+      "verdict": "unsupported",
+      "step": 3,
+      "evidenceStep": null
+    },
+    {
+      "text": "104 major updates in the last year.",
+      "verdict": "plausible",
+      "step": 1,
+      "evidenceStep": 8
+    },
+    {
+      "text": "ButcherBox migrates 400,000 subscribers to Recharge in 76 business days",
+      "verdict": "plausible",
+      "step": 6,
+      "evidenceStep": null
+    }
+  ]
+}

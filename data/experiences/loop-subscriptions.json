@@ -1,0 +1,1622 @@
+{
+  "id": "loop-subscriptions",
+  "name": "Loop Subscriptions",
+  "category": "subscription-commerce",
+  "url": "https://www.loopwork.co",
+  "flow": "site survey",
+  "capturedAt": "2026-11-22",
+  "rubricVersion": "1.2.0",
+  "status": "evaluated",
+  "blockedReason": "signup CTA not clickable",
+  "surveyMode": "full",
+  "signupEnd": {
+    "state": "no-form",
+    "url": "https://apps.shopify.com/loop-subscriptions",
+    "clicks": 1,
+    "from": "pricing",
+    "fields": [
+      {
+        "type": "select",
+        "label": "Change your language"
+      }
+    ],
+    "alternatives": [],
+    "submit": [],
+    "consent": [
+      "Resources Privacy policy FAQ Tutorial App Documentation",
+      "Terms of service",
+      "Your privacy choices"
+    ],
+    "pageHeightPx": 4248,
+    "passwordAsked": false
+  },
+  "steps": [
+    {
+      "n": 1,
+      "kind": "home",
+      "title": "Loop Subscriptions - Best Shopify Subscription App",
+      "url": "https://www.loopwork.co/",
+      "screenshot": "shots/loop-subscriptions/step-1.webp",
+      "textFile": "data/captures/loop-subscriptions/page-1.txt",
+      "elapsedMs": 5294,
+      "clicks": 0,
+      "via": "entry",
+      "headings": [
+        "h1: The last subscription platform you'll ever need.",
+        "h2: Trusted by 2400+ Shopify subscription brands",
+        "h2: We know why you are here",
+        "h2: Real people.In your dedicated Slack channel.",
+        "h2: Built for how you run subscriptions on Shopify",
+        "h3: CUSTOMER PORTAL",
+        "h3: FAILED PAYMENT RECOVERY",
+        "h3: CANCELLATION FLOWS",
+        "h3: Turn cancellations into saves.",
+        "h3: GROWTH",
+        "h3: SURPRISE & DELIGHT",
+        "h3: OPERATIONS",
+        "h3: SUBSCRIPTION ANALYTICS",
+        "h2: 1,100+ brands migrated to Loop Here's what happened.",
+        "h2: That migration fear? We handle the whole thing.",
+        "h2: A premium Shopify subscription platform. Without the premium price tag."
+      ],
+      "ctas": [
+        "Book a demo",
+        "Book your consultation call →",
+        "View Demo Store"
+      ],
+      "prices": [
+        "ed. Primal Queen scaled subscription revenue from $2M to $100M+ Read the story -> OSEA Malibu reported",
+        "mal Queen scaled subscription revenue from $2M to $100M+ Read the story -> OSEA Malibu reported churn mo",
+        "he story -> OSEA Malibu reported churn moved from 10% to 5% after migration to Loop Livingood Daily mig",
+        "y -> OSEA Malibu reported churn moved from 10% to 5% after migration to Loop Livingood Daily migrated",
+        "ers from Recharge to Loop Four Sigmatic measured ~90% rise in subscription cancellation save rate Becau"
+      ],
+      "description": "Loop Subscriptions is the subscription app for Shopify that 2,400+ DTC brands use to cut churn, recover failed payments, and manage subscriptions on Shopify.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Inter",
+            "body": "Inter",
+            "distinct": [
+              "Inter",
+              "Arial",
+              "Fraunces"
+            ]
+          },
+          "h1Px": 68,
+          "bodyPx": 32,
+          "bodyLineHeight": "20.3px",
+          "backgrounds": [
+            "#ffffff",
+            "#000000",
+            "#220e48",
+            "#fffdf8"
+          ],
+          "accents": [
+            "#6b13f9",
+            "#9839ff"
+          ],
+          "textColor": "#3b197f",
+          "buttonRadius": null,
+          "buttonHeightPx": null,
+          "images": 124,
+          "videos": 1,
+          "svgs": 9,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 8386,
+          "domNodes": 1076,
+          "domContentLoadedMs": 316,
+          "loadMs": 1825
+        },
+        "merch": {
+          "planCards": 1,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 48
+        }
+      },
+      "mobileScreenshot": "shots/loop-subscriptions/step-1-mobile.webp"
+    },
+    {
+      "n": 2,
+      "kind": "pricing",
+      "title": "Loop Subscriptions Pricing: From $99/mo, $0 Per-Order Fees",
+      "url": "https://www.loopwork.co/pricing",
+      "screenshot": "shots/loop-subscriptions/step-2.webp",
+      "textFile": "data/captures/loop-subscriptions/page-2.txt",
+      "elapsedMs": 10709,
+      "clicks": 0,
+      "via": "nav: Pricing",
+      "headings": [
+        "h1: Scale your subscriptions. Not your fees",
+        "h2: Starter",
+        "h2: Enterprise",
+        "h2: See exactly what's included in each plan.",
+        "h3: Retention",
+        "h2: Trusted by leading Shopify brands",
+        "h2: Migration fully managed",
+        "h2: Everything before you book the call.",
+        "h3: How much does Loop cost?",
+        "h3: Does Loop charge a per-order fee?",
+        "h3: Does Loop charge setup fees, migration fees, or hidden charges?",
+        "h3: Does Loop charge for add-ons or have hidden fees?",
+        "h3: What kind of support does Loop offer?",
+        "h3: What will Loop cost at my order volume?",
+        "h2: See what Loop looks like for your brand."
+      ],
+      "ctas": [
+        "Book a demo",
+        "Start 14 days free trial",
+        "Contact sales",
+        "Book a demo ->",
+        "View Demo Store"
+      ],
+      "prices": [
+        "iptions pricing for Shopify — flat monthly plans, $0 per-order fees, free migration. Starter For bra",
+        "on. Starter For brands launching subscriptions $99 /month Transaction 1.0% 15¢ per loyalty order Start 14 d",
+        "s launching subscriptions $99 /month Transaction 1.0% 15¢ per loyalty order Start 14 days free trial KE",
+        "nching subscriptions $99 /month Transaction 1.0% 15¢ per loyalty order Start 14 days free trial KEY FE",
+        "ro For brands scaling subscriptions MOST CHOSEN $399 /month Transaction 0.75% 10¢ per loyalty order Book a de",
+        "ubscriptions MOST CHOSEN $399 /month Transaction 0.75% 10¢ per loyalty order Book a demo EVERYTHING IN S",
+        "ptions MOST CHOSEN $399 /month Transaction 0.75% 10¢ per loyalty order Book a demo EVERYTHING IN START",
+        "e to run yourself SUBSCRIPTION REVENUE PROCESSED $4B+ SHOPIFY BRANDS 2,400+ MIGRATIONS TO LOOP 1,100+",
+        "Forever (up to 50 active subscriptions), Starter ($99/month + 1.0% per transaction, no per-order fee), Pro ($",
+        "to 50 active subscriptions), Starter ($99/month + 1.0% per transaction, no per-order fee), Pro ($399/mon",
+        "h + 1.0% per transaction, no per-order fee), Pro ($399/month + 0.75% per transaction, no per-order fee), and E",
+        "transaction, no per-order fee), Pro ($399/month + 0.75% per transaction, no per-order fee), and Enterpris",
+        "plans charge a percentage of transaction volume (1.0% on Starter, 0.75% on Pro) with no per-order flat",
+        "ercentage of transaction volume (1.0% on Starter, 0.75% on Pro) with no per-order flat fee. At 10,000 sub",
+        "flat fee. At 10,000 subscription orders/month and $50 AOV, Loop Pro works out to approximately $4,149/m",
+        "and $50 AOV, Loop Pro works out to approximately $4,149/month. Does Loop charge setup fees, migration fees, or",
+        "p cost at my order volume? Loop's paid plans are $99/month + 1.0% (Starter) and $399/month + 0.75% (Pro), wi",
+        "order volume? Loop's paid plans are $99/month + 1.0% (Starter) and $399/month + 0.75% (Pro), with no p",
+        "p's paid plans are $99/month + 1.0% (Starter) and $399/month + 0.75% (Pro), with no per-order flat fee on eith",
+        "s are $99/month + 1.0% (Starter) and $399/month + 0.75% (Pro), with no per-order flat fee on either tier.",
+        "her tier. At 10,000 subscription orders/month and $50 AOV, Loop Pro works out to approximately $4,149/m",
+        "and $50 AOV, Loop Pro works out to approximately $4,149/month — month-to-month billing, no term commitment. See"
+      ],
+      "description": "Loop Subscriptions pricing for Shopify: plans from $99/mo with $0 per-order fees and free migration. Compare Starter, Pro & Enterprise plans.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Fraunces",
+            "body": "Inter",
+            "distinct": [
+              "Inter",
+              "Arial",
+              "Fraunces"
+            ]
+          },
+          "h1Px": 64,
+          "bodyPx": 16,
+          "bodyLineHeight": "30px",
+          "backgrounds": [
+            "#ffffff",
+            "#f7f3ec",
+            "#000000",
+            "#ff8a8a"
+          ],
+          "accents": [
+            "#642eff",
+            "#c8a96e"
+          ],
+          "textColor": "#9c9fa5",
+          "buttonRadius": "0px",
+          "buttonHeightPx": 50,
+          "images": 107,
+          "videos": 0,
+          "svgs": 7,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 5902,
+          "domNodes": 1738,
+          "domContentLoadedMs": 217,
+          "loadMs": 479
+        },
+        "merch": {
+          "planCards": 2,
+          "priceElements": 2,
+          "badges": [
+            "BEST VALUE",
+            "NEW",
+            "Included"
+          ],
+          "billingToggles": [],
+          "tables": 1,
+          "promos": [
+            "Start 14 days free trial"
+          ],
+          "links": 51
+        }
+      },
+      "mobileScreenshot": "shots/loop-subscriptions/step-2-mobile.webp"
+    },
+    {
+      "n": 3,
+      "kind": "product",
+      "title": "Best Subscription Management App for Shopify | Loop Subscriptions",
+      "url": "https://www.loopwork.co/management-features",
+      "screenshot": "shots/loop-subscriptions/step-3.webp",
+      "textFile": "data/captures/loop-subscriptions/page-3.txt",
+      "elapsedMs": 16529,
+      "clicks": 0,
+      "via": "nav: Manage",
+      "headings": [
+        "h1: Turn Operational Chaos Into Seamless Scale",
+        "h2: Intelligent automation that thinks ahead",
+        "h3: Event-based triggers across the subscriber lifecycle",
+        "h3: Multi-step workflows that handle complexity",
+        "h3: Automated execution with full control",
+        "h2: Bulk operations that actually scale",
+        "h3: Enterprise-scale processing power",
+        "h3: Smart targeting that finds exactly who you need",
+        "h3: Bulletproof execution with full visibility",
+        "h2: Alert center that keeps you ahead of problems",
+        "h3: Proactive issue detection",
+        "h3: Smart resolution guidance",
+        "h3: Comprehensive monitoring",
+        "h2: Smart inventory management that prevents revenue loss",
+        "h3: Automated inventory controls that protect revenue",
+        "h3: Flexible handling for different scenarios",
+        "h3: Real-time alerts and reporting",
+        "h2: API and integration capabilities",
+        "h3: Essential integrations",
+        "h3: Custom development support",
+        "h2: Ready to scale your subscription business?"
+      ],
+      "ctas": [
+        "Book a demo",
+        "Book demo",
+        "Talk to sales",
+        "View Demo Store"
+      ],
+      "prices": [],
+      "description": "Scale your recurring revenue with Loop, the top subscription management app for Shopify brands. Automate, customize, and optimize your subscriptions effortlessly.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "DM Serif Display",
+            "body": "Arial",
+            "distinct": [
+              "Inter",
+              "Arial",
+              "DM Serif Display"
+            ]
+          },
+          "h1Px": 64,
+          "bodyPx": 14,
+          "bodyLineHeight": "20px",
+          "backgrounds": [
+            "#ffffff",
+            "#000000",
+            "#f7e6c6",
+            "#7726d9"
+          ],
+          "accents": [],
+          "textColor": "#333333",
+          "buttonRadius": null,
+          "buttonHeightPx": null,
+          "images": 84,
+          "videos": 0,
+          "svgs": 11,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 6153,
+          "domNodes": 828,
+          "domContentLoadedMs": 106,
+          "loadMs": 416
+        },
+        "merch": {
+          "planCards": 1,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [
+            "Apply discounts and rewards"
+          ],
+          "links": 49
+        }
+      }
+    },
+    {
+      "n": 4,
+      "kind": "platform",
+      "title": "Loop API reference",
+      "url": "https://developer.loopwork.co/reference/api-reference",
+      "screenshot": "shots/loop-subscriptions/step-4.webp",
+      "textFile": "data/captures/loop-subscriptions/page-4.txt",
+      "elapsedMs": 19779,
+      "clicks": 0,
+      "via": "nav: Developer Hub",
+      "headings": [
+        "h2: OVERVIEW",
+        "h2: ADMIN API",
+        "h2: STOREFRONT API",
+        "h2: WEBHOOKS",
+        "h1: Loop API reference",
+        "h3: Loop APIs Overview",
+        "h3: Error handling in Loop APIs"
+      ],
+      "ctas": [
+        "Webhook retry mechanism"
+      ],
+      "prices": [],
+      "description": "The Loop API is primarily a REST API with predictable, resource-oriented URLs. It accepts JSON-encoded request bodies, returns JSON-encoded responses, and uses standard HTTP response codes, authentication, and methods. This design ensures a consistent and reliable interface for developers to interac",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Twemoji Country Flags",
+            "body": "Twemoji Country Flags",
+            "distinct": [
+              "Twemoji Country Flags",
+              "Arial"
+            ]
+          },
+          "h1Px": 31,
+          "bodyPx": 15,
+          "bodyLineHeight": "22.5px",
+          "backgrounds": [
+            "#ffffff",
+            "#7d41ff",
+            "#f0f5ff",
+            "#e1f7ec"
+          ],
+          "accents": [
+            "#7d41ff"
+          ],
+          "textColor": "#32343a",
+          "buttonRadius": null,
+          "buttonHeightPx": null,
+          "images": 3,
+          "videos": 0,
+          "svgs": 12,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 900,
+          "domNodes": 1878,
+          "domContentLoadedMs": 267,
+          "loadMs": 610
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [
+            "Discount actions",
+            "Update discount",
+            "Remove discount",
+            "Remove all discounts",
+            "Discount actions",
+            "Apply discount code"
+          ],
+          "links": 255
+        }
+      }
+    },
+    {
+      "n": 5,
+      "kind": "customers",
+      "title": "Customer Migration Success Stories by Loop Subscriptions",
+      "url": "https://www.loopwork.co/customer-stories",
+      "screenshot": "shots/loop-subscriptions/step-5.webp",
+      "textFile": "data/captures/loop-subscriptions/page-5.txt",
+      "elapsedMs": 24199,
+      "clicks": 0,
+      "via": "nav: Case Studies",
+      "headings": [
+        "h1: Success stories from subscription brands like yours",
+        "h2: Ready to see the Loop difference?"
+      ],
+      "ctas": [
+        "Book a demo",
+        "Industry",
+        "View Demo Store"
+      ],
+      "prices": [
+        "pplement First grew its subscription take rate by 53% How Beam earned $1M+ from existing subscribers in",
+        "its subscription take rate by 53% How Beam earned $1M+ from existing subscribers in 12 months How Anat",
+        "its best-selling bundle and grew subscribers by ~66% in a year on Loop Healthy Metal grew MRR 6x with",
+        "in a year on Loop Healthy Metal grew MRR 6x with 70% CVR on checkout links How WeNatal added $100K fro",
+        "with 70% CVR on checkout links How WeNatal added $100K from existing subscribers at zero CAC How Peachy",
+        "year on Loop How Peace Coffee cut 0-day churn by ~70% while adding subscribers View more 34 stories fo"
+      ],
+      "description": "Learn how top DTC Shopify brands leverage Loop Subscriptions to improve subscriber experience and grow LTV and reduce churn",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Fraunces",
+            "body": "JetBrains Mono",
+            "distinct": [
+              "Inter",
+              "Arial",
+              "Fraunces",
+              "JetBrains Mono",
+              "Abel"
+            ]
+          },
+          "h1Px": 70,
+          "bodyPx": 14,
+          "bodyLineHeight": "15px",
+          "backgrounds": [
+            "#ffffff",
+            "#000000",
+            "#310f6f",
+            "#0f1235"
+          ],
+          "accents": [
+            "#9839ff",
+            "#0d0c09"
+          ],
+          "textColor": "#8a8a87",
+          "buttonRadius": null,
+          "buttonHeightPx": null,
+          "images": 172,
+          "videos": 0,
+          "svgs": 10,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 3631,
+          "domNodes": 1323,
+          "domContentLoadedMs": 176,
+          "loadMs": 504
+        },
+        "merch": {
+          "planCards": 2,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 55
+        }
+      }
+    },
+    {
+      "n": 6,
+      "kind": "resources",
+      "title": "Increase & Retain Subscribers Easily | Shopify Subscription Tips",
+      "url": "https://www.loopwork.co/blog",
+      "screenshot": "shots/loop-subscriptions/step-6.webp",
+      "textFile": "data/captures/loop-subscriptions/page-6.txt",
+      "elapsedMs": 28040,
+      "clicks": 0,
+      "via": "nav: Blogs",
+      "headings": [],
+      "ctas": [
+        "Book a demo",
+        "View Demo Store"
+      ],
+      "prices": [
+        "s Pets & Animals Food & Drinks Lilac St. measured 72.7% subscription revenue growth Dec 16, 2025 Live Bea",
+        "c 16, 2025 Live Bearded Scaled Subscriptions from 5% to 20% of Revenue In 9 Months Dec 15, 2025 Lumin:",
+        "2025 Live Bearded Scaled Subscriptions from 5% to 20% of Revenue In 9 Months Dec 15, 2025 Lumin: 17% Mo",
+        "to 20% of Revenue In 9 Months Dec 15, 2025 Lumin: 17% More Revenue From Existing Subscribers (4 months)"
+      ],
+      "description": "Boost your Shopify store’s subscriptions with expert DTC insights. Learn proven strategies to increase and retain subscribers for long-term growth.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": null,
+            "body": "Arial",
+            "distinct": [
+              "Inter",
+              "Arial"
+            ]
+          },
+          "h1Px": null,
+          "bodyPx": 14,
+          "bodyLineHeight": "20px",
+          "backgrounds": [
+            "#ffffff",
+            "#f5f5f5",
+            "#f8f9fd",
+            "#f7e6c6"
+          ],
+          "accents": [
+            "#6b3eff"
+          ],
+          "textColor": "#333333",
+          "buttonRadius": null,
+          "buttonHeightPx": null,
+          "images": 364,
+          "videos": 0,
+          "svgs": 7,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 4380,
+          "domNodes": 2987,
+          "domContentLoadedMs": 130,
+          "loadMs": 474
+        },
+        "merch": {
+          "planCards": 1,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 79
+        }
+      }
+    },
+    {
+      "n": 7,
+      "kind": "product",
+      "title": "Automate & Personalize Subscriptions at Scale with Loop Flows",
+      "url": "https://www.loopwork.co/feature/loop-flows",
+      "screenshot": "shots/loop-subscriptions/step-7.webp",
+      "textFile": "data/captures/loop-subscriptions/page-7.txt",
+      "elapsedMs": 32046,
+      "clicks": 0,
+      "via": "nav: Loop Flows",
+      "headings": [
+        "h1: Create personalized subscription journeys",
+        "h2: OSEA Malibu cut churn in half, from 10% to 5%",
+        "h2: Use IF-THEN logic to create workflows without code.",
+        "h1: Why competitors can't keep up",
+        "h2: Powerful flow capabilities",
+        "h2: Results that speak for themselves",
+        "h2: Built for Scale, Loved by Customers",
+        "h2: Ready to scale your subscription business?"
+      ],
+      "ctas": [
+        "Book a demo",
+        "Talk to sales",
+        "View Demo Store"
+      ],
+      "prices": [
+        "iption brands OSEA Malibu cut churn in half, from 10% to 5% “The migration process to Loop was surprisi",
+        "brands OSEA Malibu cut churn in half, from 10% to 5% “The migration process to Loop was surprisingly s",
+        "ansition with minimal disruption to our service.\" 50% Reduced churn in 6 months 2 week Migration time t",
+        "ak for themselves Achieved 3X subscription growth 73.5% increase in subscription revenue over 9 months -",
+        "ease in subscription revenue over 9 months - from 5% to 28.6% of total revenue with Loop Subscriptions",
+        "n subscription revenue over 9 months - from 5% to 28.6% of total revenue with Loop Subscriptions Connor W",
+        "egy Increased first-time subscription orders from 4% to 18-20% by making subscribe & save the default",
+        "ased first-time subscription orders from 4% to 18-20% by making subscribe & save the default option Wid",
+        "conversion improvements Reactivation success rate 40% of canceled subscribers returned through targeted",
+        "OSEA Malibu cut churn in half Reduced churn from 10% to 5% in 6 months while increasing upsell revenue",
+        "alibu cut churn in half Reduced churn from 10% to 5% in 6 months while increasing upsell revenue from",
+        "in 6 months while increasing upsell revenue from 4.5% to 6.8% with Loop Subscriptions OSEA Malibu Team",
+        "nths while increasing upsell revenue from 4.5% to 6.8% with Loop Subscriptions OSEA Malibu Team Premium",
+        "icantly Personalized cancellation flows Achieved 3% save rate through custom messaging based on order",
+        "ers feel truly valued Achieved API-powered growth 18% YTD subscription revenue growth ($1.16M) and 36%",
+        "wered growth 18% YTD subscription revenue growth ($1.16M) and 36% cancellation save rate through comprehe",
+        "18% YTD subscription revenue growth ($1.16M) and 36% cancellation save rate through comprehensive API",
+        "scriptions 4X Increased subscription revenue from 5% to 20% of total revenue in 9 months while maintai",
+        "ions 4X Increased subscription revenue from 5% to 20% of total revenue in 9 months while maintaining 3%",
+        "0% of total revenue in 9 months while maintaining 3% average churn rate Anthony Mink Founder, Live Bea",
+        "the default option on product pages, resulting in 130% growth in subscription conversions with no impact",
+        "site conversion Dedicated benefits page Achieved 9% save rate by interrupting cancellation process wi",
+        "ds journey Reduced first-order cancellations from 50% to 40% by showcasing clear subscription perks in",
+        "ney Reduced first-order cancellations from 50% to 40% by showcasing clear subscription perks in the cus",
+        "er portal Mammaly maximized subscriber engagement 30% of subscribers updated payment methods via Quick"
+      ],
+      "description": "Leverage Loop Flows to automate and personalize subscriber journeys effortlessly. Create customized rewards and enhance retention with intelligent flows for DTC brands.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "DM Serif Display",
+            "body": "Arial",
+            "distinct": [
+              "Inter",
+              "Arial",
+              "DM Serif Display"
+            ]
+          },
+          "h1Px": 64,
+          "bodyPx": 14,
+          "bodyLineHeight": "20px",
+          "backgrounds": [
+            "#ffffff",
+            "#000000",
+            "#f7e6c6",
+            "#7726d9"
+          ],
+          "accents": [],
+          "textColor": "#333333",
+          "buttonRadius": null,
+          "buttonHeightPx": null,
+          "images": 118,
+          "videos": 0,
+          "svgs": 9,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 6260,
+          "domNodes": 955,
+          "domContentLoadedMs": 190,
+          "loadMs": 446
+        },
+        "merch": {
+          "planCards": 1,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [
+            "Discounts stack and kill margin",
+            "Duplicate-discount guardrail keeps promos clean",
+            "Tiered discount strategy",
+            "White-labeled BYOB experience with incremental discount structure and intuitive selection interface for personalized product bundles"
+          ],
+          "links": 47
+        }
+      }
+    },
+    {
+      "n": 8,
+      "kind": "platform",
+      "title": "Home | Loop Subscriptions Help Center",
+      "url": "https://help.loopwork.co/en/",
+      "screenshot": "shots/loop-subscriptions/step-8.webp",
+      "textFile": "data/captures/loop-subscriptions/page-8.txt",
+      "elapsedMs": 36046,
+      "clicks": 0,
+      "via": "nav: API Documentation",
+      "headings": [
+        "h1: How can we help you?",
+        "h2: Collections"
+      ],
+      "ctas": [
+        "Getting started"
+      ],
+      "prices": [],
+      "description": "Loop Subscriptions Help Center",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Inter",
+            "body": "Inter",
+            "distinct": [
+              "Inter"
+            ]
+          },
+          "h1Px": 60,
+          "bodyPx": 13,
+          "bodyLineHeight": "19.5px",
+          "backgrounds": [
+            "#ffffff"
+          ],
+          "accents": [],
+          "textColor": "#595959",
+          "buttonRadius": null,
+          "buttonHeightPx": null,
+          "images": 37,
+          "videos": 0,
+          "svgs": 19,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 1972,
+          "domNodes": 458,
+          "domContentLoadedMs": 843,
+          "loadMs": 1412
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 53
+        }
+      }
+    },
+    {
+      "n": 9,
+      "kind": "product",
+      "title": "Create Box Subscriptions & Bundles Easily with Loop",
+      "url": "https://www.loopwork.co/feature/bundle-builder",
+      "screenshot": "shots/loop-subscriptions/step-9.webp",
+      "textFile": "data/captures/loop-subscriptions/page-9.txt",
+      "elapsedMs": 40202,
+      "clicks": 0,
+      "via": "nav: Bundles",
+      "headings": [
+        "h1: Bundle subscriptions that give growth",
+        "h2: Lilac St. Curls Up 72.7% More Revenue with Loop",
+        "h2: Build your own bundles",
+        "h2: Buy more, save more bundles",
+        "h2: Preset bundles",
+        "h2: Results that speak for themselves",
+        "h2: Built for Scale, Loved by Customers",
+        "h2: Ready to scale your subscription business?"
+      ],
+      "ctas": [
+        "Book a demo",
+        "Talk to sales",
+        "View Demo Store"
+      ],
+      "prices": [
+        "0+ Shopify subscription brands Lilac St. Curls Up 72.7% More Revenue with Loop \"Loop delivered excellent",
+        "ponents that we needed.\" 5X growth in subscribers 17% blended save rate with retention strategies Build",
+        "m thresholds and discount percentages (Buy 4 Save 10%, Buy 8 Save 30%) Value-based pricing Create subsc",
+        "discount percentages (Buy 4 Save 10%, Buy 8 Save 30%) Value-based pricing Create subscription value fl",
+        "ak for themselves Achieved 3X subscription growth 73.5% increase in subscription revenue over 9 months -",
+        "ease in subscription revenue over 9 months - from 5% to 28.6% of total revenue with Loop Subscriptions",
+        "n subscription revenue over 9 months - from 5% to 28.6% of total revenue with Loop Subscriptions Connor W",
+        "egy Increased first-time subscription orders from 4% to 18-20% by making subscribe & save the default",
+        "ased first-time subscription orders from 4% to 18-20% by making subscribe & save the default option Wid",
+        "conversion improvements Reactivation success rate 40% of canceled subscribers returned through targeted",
+        "OSEA Malibu cut churn in half Reduced churn from 10% to 5% in 6 months while increasing upsell revenue",
+        "alibu cut churn in half Reduced churn from 10% to 5% in 6 months while increasing upsell revenue from",
+        "in 6 months while increasing upsell revenue from 4.5% to 6.8% with Loop Subscriptions OSEA Malibu Team",
+        "nths while increasing upsell revenue from 4.5% to 6.8% with Loop Subscriptions OSEA Malibu Team Premium",
+        "icantly Personalized cancellation flows Achieved 3% save rate through custom messaging based on order",
+        "ers feel truly valued Achieved API-powered growth 18% YTD subscription revenue growth ($1.16M) and 36%",
+        "wered growth 18% YTD subscription revenue growth ($1.16M) and 36% cancellation save rate through comprehe",
+        "18% YTD subscription revenue growth ($1.16M) and 36% cancellation save rate through comprehensive API",
+        "scriptions 4X Increased subscription revenue from 5% to 20% of total revenue in 9 months while maintai",
+        "ions 4X Increased subscription revenue from 5% to 20% of total revenue in 9 months while maintaining 3%",
+        "0% of total revenue in 9 months while maintaining 3% average churn rate Anthony Mink Founder, Live Bea",
+        "the default option on product pages, resulting in 130% growth in subscription conversions with no impact",
+        "site conversion Dedicated benefits page Achieved 9% save rate by interrupting cancellation process wi",
+        "ds journey Reduced first-order cancellations from 50% to 40% by showcasing clear subscription perks in",
+        "ney Reduced first-order cancellations from 50% to 40% by showcasing clear subscription perks in the cus"
+      ],
+      "description": "Launch box or bundle subscriptions on your store in under an hour with Loop. Offer subscribers the flexibility to build their own bundles for a personalized shopping experience.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "DM Serif Display",
+            "body": "Arial",
+            "distinct": [
+              "Inter",
+              "Arial",
+              "DM Serif Display"
+            ]
+          },
+          "h1Px": 64,
+          "bodyPx": 14,
+          "bodyLineHeight": "20px",
+          "backgrounds": [
+            "#ffffff",
+            "#000000",
+            "#f7e6c6",
+            "#7726d9"
+          ],
+          "accents": [],
+          "textColor": "#333333",
+          "buttonRadius": null,
+          "buttonHeightPx": null,
+          "images": 108,
+          "videos": 0,
+          "svgs": 9,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 6542,
+          "domNodes": 947,
+          "domContentLoadedMs": 107,
+          "loadMs": 428
+        },
+        "merch": {
+          "planCards": 1,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [
+            "Flexible discount tiers",
+            "Set custom thresholds and discount percentages (Buy 4 Save 10%, Buy 8 Save 30%)",
+            "Create subscription value flows that replicate bundle-like discounting without formal bundle SKUs",
+            "Convert starter kit bundles into individual product subscriptions while maintaining discounts",
+            "Tiered discount strategy",
+            "White-labeled BYOB experience with incremental discount structure and intuitive selection interface for personalized product bundles"
+          ],
+          "links": 47
+        }
+      }
+    },
+    {
+      "n": 10,
+      "kind": "product",
+      "title": "Reduce subscriber churn for DTC brands on Shopify | Loop Cancellation Flows",
+      "url": "https://www.loopwork.co/feature/cancellation-flows",
+      "screenshot": "shots/loop-subscriptions/step-10.webp",
+      "textFile": "data/captures/loop-subscriptions/page-10.txt",
+      "elapsedMs": 44436,
+      "clicks": 0,
+      "via": "nav: Cancellation Flows",
+      "headings": [
+        "h1: Intelligent cancellation flows",
+        "h2: Organics Ocean reported ~77% churn reduction after Migration to Loop",
+        "h2: Personalised engagement to promote subscription benefits",
+        "h2: Understand why they're leaving",
+        "h2: Suggest smart alternatives",
+        "h2: Hook with offers",
+        "h2: Results that speak for themselves",
+        "h2: Built for Scale, Loved by Customers",
+        "h2: Ready to scale your subscription business?"
+      ],
+      "ctas": [
+        "Book a demo",
+        "Talk to sales",
+        "View Demo Store"
+      ],
+      "prices": [
+        "pify subscription brands Organics Ocean reported ~77% churn reduction after Migration to Loop “Migratin",
+        "tion business properly.” 5X growth in subscribers 17% blended save rate with retention strategies Perso",
+        "ak for themselves Achieved 3X subscription growth 73.5% increase in subscription revenue over 9 months -",
+        "ease in subscription revenue over 9 months - from 5% to 28.6% of total revenue with Loop Subscriptions",
+        "n subscription revenue over 9 months - from 5% to 28.6% of total revenue with Loop Subscriptions Connor W",
+        "egy Increased first-time subscription orders from 4% to 18-20% by making subscribe & save the default",
+        "ased first-time subscription orders from 4% to 18-20% by making subscribe & save the default option Wid",
+        "conversion improvements Reactivation success rate 40% of canceled subscribers returned through targeted",
+        "OSEA Malibu cut churn in half Reduced churn from 10% to 5% in 6 months while increasing upsell revenue",
+        "alibu cut churn in half Reduced churn from 10% to 5% in 6 months while increasing upsell revenue from",
+        "in 6 months while increasing upsell revenue from 4.5% to 6.8% with Loop Subscriptions OSEA Malibu Team",
+        "nths while increasing upsell revenue from 4.5% to 6.8% with Loop Subscriptions OSEA Malibu Team Premium",
+        "icantly Personalized cancellation flows Achieved 3% save rate through custom messaging based on order",
+        "ers feel truly valued Achieved API-powered growth 18% YTD subscription revenue growth ($1.16M) and 36%",
+        "wered growth 18% YTD subscription revenue growth ($1.16M) and 36% cancellation save rate through comprehe",
+        "18% YTD subscription revenue growth ($1.16M) and 36% cancellation save rate through comprehensive API",
+        "scriptions 4X Increased subscription revenue from 5% to 20% of total revenue in 9 months while maintai",
+        "ions 4X Increased subscription revenue from 5% to 20% of total revenue in 9 months while maintaining 3%",
+        "0% of total revenue in 9 months while maintaining 3% average churn rate Anthony Mink Founder, Live Bea",
+        "the default option on product pages, resulting in 130% growth in subscription conversions with no impact",
+        "site conversion Dedicated benefits page Achieved 9% save rate by interrupting cancellation process wi",
+        "ds journey Reduced first-order cancellations from 50% to 40% by showcasing clear subscription perks in",
+        "ney Reduced first-order cancellations from 50% to 40% by showcasing clear subscription perks in the cus",
+        "er portal Mammaly maximized subscriber engagement 30% of subscribers updated payment methods via Quick",
+        "ers updated payment methods via Quick Actions and 18% reactivation rate through seamless customer exper"
+      ],
+      "description": "Lower churn with Loop's customizable cancellation flows. Add exit surveys, videos, GIFs, and discount incentives to retain more subscribers for your Shopify DTC brand.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "DM Serif Display",
+            "body": "Arial",
+            "distinct": [
+              "Inter",
+              "Arial",
+              "DM Serif Display"
+            ]
+          },
+          "h1Px": 64,
+          "bodyPx": 14,
+          "bodyLineHeight": "20px",
+          "backgrounds": [
+            "#ffffff",
+            "#000000",
+            "#f7e6c6",
+            "#7726d9"
+          ],
+          "accents": [],
+          "textColor": "#333333",
+          "buttonRadius": null,
+          "buttonHeightPx": null,
+          "images": 113,
+          "videos": 0,
+          "svgs": 9,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 7312,
+          "domNodes": 972,
+          "domContentLoadedMs": 95,
+          "loadMs": 641
+        },
+        "merch": {
+          "planCards": 1,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [
+            "Provide targeted discounts or gifts based on customer order history and cancellation reason",
+            "Tiered discount strategy",
+            "White-labeled BYOB experience with incremental discount structure and intuitive selection interface for personalized product bundles"
+          ],
+          "links": 47
+        }
+      }
+    },
+    {
+      "n": 11,
+      "kind": "signup",
+      "title": "Loop Subscriptions App - Subscription app to manage subscriptions at scale | Shopify App Store",
+      "url": "https://apps.shopify.com/loop-subscriptions",
+      "screenshot": "shots/loop-subscriptions/step-11.webp",
+      "textFile": "data/captures/loop-subscriptions/page-11.txt",
+      "elapsedMs": 4995,
+      "clicks": 1,
+      "via": "click: \"Start 14 days free trial\"",
+      "headings": [
+        "h1: Loop Subscriptions App",
+        "h2: Featured images gallery",
+        "h2: Boost Subscriber Growth with an All-in-One Subscription App for Smart Offers, Bundles & Cancel Flows",
+        "h2: Pricing",
+        "h3: $99 / month",
+        "h3: $399 / month",
+        "h2: Reviews (819)",
+        "h2: Support",
+        "h3: Resources",
+        "h3: Developer",
+        "h2: More apps like this",
+        "h2: Want to add an app?"
+      ],
+      "ctas": [
+        "Start for free",
+        "View demo store",
+        "Freemium",
+        "Try Shopify free for 3 days"
+      ],
+      "prices": [
+        "ubscriptions growth & revenue analytics Starter $99 / month 1% transaction fee + 15¢ per loyalty order Feat",
+        "growth & revenue analytics Starter $99 / month 1% transaction fee + 15¢ per loyalty order Features",
+        "ytics Starter $99 / month 1% transaction fee + 15¢ per loyalty order Features Native loyalty and r",
+        "ks and one-click actions 14-day free trial Pro $399 / month 0.75% transaction fee + 10¢ per loyalty order F",
+        "ck actions 14-day free trial Pro $399 / month 0.75% transaction fee + 10¢ per loyalty order Features",
+        "trial Pro $399 / month 0.75% transaction fee + 10¢ per loyalty order Features Dedicated CSM and Sl",
+        "ing the app November 16, 2026 We’ve been charged US$2,403.50 for Loop since June, despite never completing our",
+        "ny monthly invoices. Finding out we’d been paying US$399 per month for a platform we weren’t using was a significant"
+      ],
+      "description": "Loop is a subscription app built to grow subscriber LTV with bundles, cancel flows, and a portal that boosts retention across the entire subscription journey.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Inter var",
+            "body": "Inter var",
+            "distinct": [
+              "Inter var"
+            ]
+          },
+          "h1Px": 18,
+          "bodyPx": 16,
+          "bodyLineHeight": "20.3px",
+          "backgrounds": [
+            "#ffffff",
+            "#000000",
+            "#fafaf9",
+            "#f5f5f4"
+          ],
+          "accents": [
+            "#4ade80"
+          ],
+          "textColor": "#000000",
+          "buttonRadius": "9999px",
+          "buttonHeightPx": 49,
+          "images": 41,
+          "videos": 0,
+          "svgs": 73,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 4248,
+          "domNodes": 1263,
+          "domContentLoadedMs": 561,
+          "loadMs": 822
+        },
+        "merch": {
+          "planCards": 2,
+          "priceElements": 2,
+          "badges": [
+            "Free"
+          ],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [
+            "Free plan available. Free trial available.",
+            "14-day free trial",
+            "14-day free trial",
+            "Free trial available"
+          ],
+          "links": 89
+        }
+      },
+      "form": {
+        "fields": [
+          {
+            "type": "select",
+            "label": "Change your language"
+          }
+        ],
+        "alternatives": [],
+        "submit": [],
+        "consent": [
+          "Resources Privacy policy FAQ Tutorial App Documentation",
+          "Terms of service",
+          "Your privacy choices"
+        ],
+        "pageHeightPx": 4248,
+        "passwordAsked": false
+      }
+    }
+  ],
+  "navMap": [
+    {
+      "label": "Acquire",
+      "href": "https://www.loopwork.co/acquire",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Retain",
+      "href": "https://www.loopwork.co/retention",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Manage",
+      "href": "https://www.loopwork.co/management-features",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Loop Flows",
+      "href": "https://www.loopwork.co/feature/loop-flows",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Bundles",
+      "href": "https://www.loopwork.co/feature/bundle-builder",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Cancellation Flows",
+      "href": "https://www.loopwork.co/feature/cancellation-flows",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Customer Portal",
+      "href": "https://www.loopwork.co/feature/customer-portal",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Dunning Management",
+      "href": "https://www.loopwork.co/feature/dunning-management",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Upsell",
+      "href": "https://www.loopwork.co/feature/upsell",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "Case Studies",
+      "href": "https://www.loopwork.co/customer-stories",
+      "area": "header",
+      "kind": "customers"
+    },
+    {
+      "label": "Wall of love",
+      "href": "https://www.loopwork.co/reviews",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Migration",
+      "href": "https://www.loopwork.co/migration",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Pricing",
+      "href": "https://www.loopwork.co/pricing",
+      "area": "header",
+      "kind": "pricing"
+    },
+    {
+      "label": "Blogs",
+      "href": "https://www.loopwork.co/blog",
+      "area": "header",
+      "kind": "resources"
+    },
+    {
+      "label": "Help Centre",
+      "href": "https://help.loopwork.co/en/",
+      "area": "header",
+      "kind": "resources"
+    },
+    {
+      "label": "Developer Hub",
+      "href": "https://developer.loopwork.co/reference/api-reference",
+      "area": "header",
+      "kind": "platform"
+    },
+    {
+      "label": "Changelog 2026",
+      "href": "https://updates.loopwork.co/",
+      "area": "header",
+      "kind": "resources"
+    },
+    {
+      "label": "Playbooks",
+      "href": "https://www.loopwork.co/downloads",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Loop vs. Recharge",
+      "href": "https://www.loopwork.co/compare/recharge-alternative",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Loop vs. Skio",
+      "href": "https://www.loopwork.co/compare/skio-alternative",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Loop vs. Ordergroove",
+      "href": "https://www.loopwork.co/compare/ordergroove-alternative",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Loop vs. Stay.ai",
+      "href": "https://www.loopwork.co/compare/stayai-alternative",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Book demo",
+      "href": "https://www.loopwork.co/book-a-demo",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Demo Store",
+      "href": "https://demo.loopwork.co/",
+      "area": "footer",
+      "kind": "product"
+    },
+    {
+      "label": "Widget Library",
+      "href": "https://www.loopwork.co/widget-gallery",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Shopify Bundle Examples",
+      "href": "https://www.loopwork.co/template-gallery?tab=bundles",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "Agency Partnerships",
+      "href": "https://www.loopwork.co/agency-partners",
+      "area": "footer",
+      "kind": "platform"
+    },
+    {
+      "label": "Tech Partnerships",
+      "href": "https://www.loopwork.co/tech-partners",
+      "area": "footer",
+      "kind": "platform"
+    },
+    {
+      "label": "Refer a lead",
+      "href": "https://www.loopwork.co/partner-referral",
+      "area": "footer",
+      "kind": "platform"
+    },
+    {
+      "label": "Help Centre",
+      "href": "https://learn.loopwork.co/",
+      "area": "footer",
+      "kind": "resources"
+    },
+    {
+      "label": "Getting Started",
+      "href": "https://learn.loopwork.co/en/article/getting-started-with-loop-1oggqmp/",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "API Documentation",
+      "href": "https://learn.loopwork.co/en/article/api-documentation-1ltw5ii/",
+      "area": "footer",
+      "kind": "platform"
+    },
+    {
+      "label": "Migration Process",
+      "href": "https://www.loopwork.co/migration-process-and-faqs",
+      "area": "footer",
+      "kind": "other"
+    },
+    {
+      "label": "California Automatic Renewal Law (ARL)",
+      "href": "https://learn.loopwork.co/en/article/compliance-with-california-automatic-renewal-law-arl-zhi674/",
+      "area": "footer",
+      "kind": "other"
+    }
+  ],
+  "stack": {
+    "generator": null,
+    "scriptHosts": [
+      "www.clarity.ms",
+      "js-na2.usemessages.com",
+      "js-na2.hscollectedforms.net",
+      "js-na2.hs-analytics.net",
+      "js-na2.hs-banner.com",
+      "js-na2.hubspot.com",
+      "scripts.clarity.ms",
+      "connect.facebook.net",
+      "app.factors.ai",
+      "sc.lfeeder.com",
+      "scout-cdn.salesloft.com",
+      "static.ads-twitter.com",
+      "us4-cx.outplayhq.com",
+      "bat.bing.com"
+    ],
+    "signals": [
+      "Google Tag Manager dataLayer"
+    ],
+    "server": "cloudflare",
+    "poweredBy": null
+  },
+  "sources": [
+    "https://www.loopwork.co"
+  ],
+  "dossier": {
+    "sections": [
+      {
+        "id": "positioning",
+        "title": "Positioning",
+        "summary": "Loop sells a subscription platform for Shopify brands on a promise of retention and fewer fees, with service as a differentiator.",
+        "keyPoints": [
+          "Homepage: 'The last subscription platform you'll ever need', trusted by 2400+ Shopify subscription brands.",
+          "A dedicated Slack channel with real people is promoted as part of the product, and migrations are described as fully managed.",
+          "The case-study filter lists brands migrated from Recharge, Skio, Bold and Smartrr, which names the competitors directly."
+        ]
+      },
+      {
+        "id": "offerings",
+        "title": "Products and offerings",
+        "summary": "Retention and subscription-management tools built around a customer portal.",
+        "keyPoints": [],
+        "table": {
+          "columns": [
+            "Product",
+            "What it does"
+          ],
+          "rows": [
+            [
+              "Customer portal",
+              "Self-serve portal for subscribers, with multi-language capability on Pro"
+            ],
+            [
+              "Cancellation flows",
+              "Ask why subscribers leave, suggest alternatives and hook them with offers"
+            ],
+            [
+              "Loop Flows",
+              "IF-THEN workflows without code across the subscriber lifecycle"
+            ],
+            [
+              "Bundles",
+              "Build-your-own, buy-more-save-more and preset bundles"
+            ],
+            [
+              "Failed payment recovery and dunning",
+              "Recovers failed renewals"
+            ],
+            [
+              "Loyalty and referral",
+              "New: streaks and mystery rewards inside cancellation flows, portal and storefront"
+            ],
+            [
+              "Manage",
+              "Bulk operations, automation and an alert center for subscription changes"
+            ],
+            [
+              "Upsell",
+              "Offers across the subscriber journey"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "pricing",
+        "title": "Pricing",
+        "summary": "Flat monthly plans with a transaction percentage, a 14-day free trial on the entry plan and a negotiable enterprise lane. The headline copy and the fee lines disagree.",
+        "keyPoints": [
+          "The pricing page promises 'flat monthly plans, $0 per-order fees, free migration', yet each plan lists a transaction fee and a charge per loyalty order.",
+          "Starter has a 14-day free trial; Pro is tagged best value and most chosen and sends buyers to book a demo.",
+          "API and webhooks access sits on Pro, not Starter.",
+          "A feature-by-plan comparison table lists retention features such as loyalty, streaks and mystery rewards."
+        ],
+        "table": {
+          "columns": [
+            "Plan",
+            "Price a month",
+            "Transaction fee",
+            "Adds"
+          ],
+          "rows": [
+            [
+              "Starter",
+              "$99",
+              "1.0% plus 15¢ per loyalty order",
+              "Failed payment recovery, cancellation prevention, portal, bundles, out-of-stock protection, 30+ integrations"
+            ],
+            [
+              "Pro (best value)",
+              "$399",
+              "0.75% plus 10¢ per loyalty order",
+              "Dedicated CSM, surprise and delight flows, targeted campaigns, prepaid and gifting, multi-language portal, API and webhooks"
+            ],
+            [
+              "Enterprise",
+              "Let's talk",
+              "Negotiable",
+              "Volume-based pricing, custom development, custom contract terms, tailored onboarding"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "merchandising",
+        "title": "Merchandising",
+        "summary": "A three-plan ladder with the middle plan tagged best value and most chosen. The merchant toolset is the deepest of the subscription sites in this survey: bundles, flows, cancellation offers and loyalty.",
+        "keyPoints": [
+          "The Pro plan is raised and tagged, and gates API access and a dedicated CSM, which pulls growing brands up.",
+          "A site-wide Black Friday countdown and an A-to-Z guide for BFCM run above the navigation.",
+          "For merchants: three bundle types, upsell offers, targeted cancellation offers, surprise and delight flows and loyalty rewards.",
+          "Case results are attached to each feature: OSEA Malibu cut churn from 10% to 5%, and Lilac St. Curls reported 72.7% more revenue."
+        ]
+      },
+      {
+        "id": "platform",
+        "title": "Technical platform",
+        "summary": "A developer hub with a REST API, an Admin API, a Storefront API and webhooks, plus a deep help center.",
+        "keyPoints": [
+          "The API is REST with JSON bodies and standard response codes; the reference has sections for Admin API, Storefront API and webhooks.",
+          "The help center has a developer hub and covers integrations, customer portal, experiments and migration.",
+          "Starter lists 30+ integrations, and API and webhook access is a Pro feature."
+        ],
+        "gaps": [
+          "Rate limits and SLAs were not read."
+        ]
+      },
+      {
+        "id": "design",
+        "title": "Design",
+        "summary": "Friendly and a little playful: a purple brand color, a serif display type on pricing, a sticky promotional banner and an always-on chat widget. Pages from different parts of the site look like different systems.",
+        "keyPoints": [
+          "Home uses Inter with purples (#6b13f9 and #9839ff); the pricing page switches to a serif display (Fraunces) with 0px button corners and a cream-lilac background.",
+          "The home hero is a video of a person holding a coffee bag with the headline over it; a chat bubble overlaps the lower right.",
+          "The pricing page raises the Pro card above Starter and Enterprise and sets 'Not your fees' with an italic.",
+          "The developer hub uses a different font again, and the Shopify App Store page it links to uses its own system.",
+          "The home page is 8,386px tall."
+        ],
+        "gaps": [
+          "Merchant design control was not shown in the surveyed pages."
+        ]
+      },
+      {
+        "id": "company",
+        "title": "Company presentation",
+        "summary": "A challenger story told through customer results, migrations and white-glove service.",
+        "keyPoints": [
+          "Scale and reviews: 2400+ brands and 760+ 5.0-star reviews on the Shopify App Store, while the app listing shows 4.9 from 819 reviews.",
+          "Customer stories are filterable by industry and by the platform the brand migrated from.",
+          "The company runs a content push (a BFCM encyclopedia) as the main promotion."
+        ],
+        "gaps": [
+          "No About page or leadership information in the surveyed pages."
+        ]
+      }
+    ]
+  },
+  "signupPath": "On the pricing page 'Start 14 days free trial' opens the Shopify App Store listing for Loop Subscriptions (apps.shopify.com), a page with an 'Install' button, a 'View demo store' link, the $99 and $399 plans, a 4.9 rating from 819 reviews and the note 'Free plan available. Free trial available.' It is not a signup form; installing would require a Shopify login. The homepage itself offers only 'Book your consultation call'. Nothing was entered.",
+  "scores": {
+    "jtbd_fit": {
+      "score": 5,
+      "evidence": "Every page is about running subscriptions on Shopify and reducing churn.",
+      "step": 1
+    },
+    "capability_visible": {
+      "score": 4,
+      "evidence": "A demo store and feature pages with results; the admin itself is behind install.",
+      "step": 7
+    },
+    "pricing_transparency": {
+      "score": 4,
+      "evidence": "Two plans with prices and fees plus a comparison table; the '$0 per-order fees' headline conflicts with the fee lines.",
+      "step": 2
+    },
+    "product_breadth": {
+      "score": 4,
+      "evidence": "Portal, flows, bundles, loyalty, dunning and bulk management are each explained.",
+      "step": 3
+    },
+    "platform_depth": {
+      "score": 4,
+      "evidence": "REST Admin and Storefront APIs, webhooks and a developer hub; API access is gated to Pro.",
+      "step": 4
+    },
+    "time_to_value": {
+      "score": null,
+      "evidence": "Capture stops before the product; first-value time was not observed.",
+      "step": null
+    },
+    "friction": {
+      "score": 4,
+      "evidence": "'Start 14 days free trial' leads to the Shopify App Store listing with a one-click install.",
+      "step": 11
+    },
+    "trust": {
+      "score": 4,
+      "evidence": "2400+ brands, App Store ratings and case results on every feature page.",
+      "step": 1
+    },
+    "mobile": {
+      "score": null,
+      "evidence": "Phone captures exist for home and pricing but were not assessed.",
+      "step": null
+    },
+    "states": {
+      "score": null,
+      "evidence": "No error or empty states reached.",
+      "step": null
+    },
+    "a11y_basics": {
+      "score": null,
+      "evidence": "Not tested.",
+      "step": null
+    },
+    "value_prop_clarity": {
+      "score": 4,
+      "evidence": "'The last subscription platform you'll ever need' is a superlative but the subhead and feature names are clear.",
+      "step": 1
+    },
+    "proof_quality": {
+      "score": 3,
+      "evidence": "Home says 760+ five-star reviews; the App Store listing shows 4.9 from 819. The '$0 per-order fees' line conflicts with listed fees.",
+      "step": 11
+    },
+    "persuasion_integrity": {
+      "score": 3,
+      "evidence": "A Black Friday countdown runs on every page.",
+      "step": 1
+    },
+    "cta_logic": {
+      "score": 3,
+      "evidence": "'Book your consultation call', 'Book a demo' and 'Start 14 days free trial' compete across pages.",
+      "step": 2
+    },
+    "company_narrative": {
+      "score": 4,
+      "evidence": "Retention-and-service story repeats from homepage to features to success stories.",
+      "step": 5
+    },
+    "offer_packaging": {
+      "score": 5,
+      "evidence": "Three plans with 'everything in' lists and a feature-by-plan table.",
+      "step": 2
+    },
+    "offer_architecture": {
+      "score": 4,
+      "evidence": "A free trial, a best-value plan that gates API and CSM, and an enterprise lane.",
+      "step": 2
+    },
+    "merchant_merch_tools": {
+      "score": 5,
+      "evidence": "Bundles of three types, upsell, cancellation offers, flows and loyalty rewards.",
+      "step": 9
+    },
+    "visual_craft": {
+      "score": 4,
+      "evidence": "Clear hierarchy and a recognisable purple; chat bubbles and a banner clutter the top of each page.",
+      "step": 1
+    },
+    "system_coherence": {
+      "score": 3,
+      "evidence": "Home, pricing, developer hub and the App Store page use different fonts and button styles.",
+      "step": 2
+    },
+    "merchant_design_control": {
+      "score": null,
+      "evidence": "The surveyed pages could not tell.",
+      "step": null
+    }
+  },
+  "read": {
+    "summary": "A subscription platform that sells retention outcomes with specific case results and the deepest merchandising toolset in its category in this survey. The pricing page is open but contradicts itself on fees, and the proof numbers do not match the App Store listing.",
+    "pros": [
+      "Case results sit on each feature page with a named brand.",
+      "A comparison table lists each feature by plan.",
+      "Free trial goes straight to a one-click App Store install.",
+      "Merchants get bundles, flows, upsells and cancellation offers."
+    ],
+    "cons": [
+      "'$0 per-order fees' sits above plans that list a transaction fee.",
+      "'760+ reviews, 5.0' on the homepage differs from 4.9 from 819 on the App Store.",
+      "A Black Friday countdown runs on every page.",
+      "Several different CTAs compete."
+    ],
+    "howItSells": "Sells churn reduction through concrete numbers and human help: a Slack channel, fully managed migration and named competitors' customers.",
+    "copy": [
+      "Attach a named result to each feature page.",
+      "List features by plan in a table.",
+      "Send trial starts to the app-store listing in one click."
+    ],
+    "avoid": [
+      "A zero-fee headline above plans that list fees.",
+      "Review counts that do not match the listing."
+    ],
+    "tactics": [
+      "social_proof",
+      "scarcity",
+      "anchoring"
+    ],
+    "confidence": "medium",
+    "unknowns": [
+      "What the install flow asks.",
+      "Pro features beyond the table.",
+      "Mobile experience.",
+      "The customer portal's theming options."
+    ],
+    "hypothesis": {
+      "statement": "Changing the headline to 'flat monthly plans plus a 0.75% to 1.0% transaction fee' will cut early-stage price objections on sales calls.",
+      "metric": "Share of demo calls where pricing is raised as an objection",
+      "guardrail": "Pricing-page demo bookings",
+      "decisionRule": "Ship if objections fall and bookings hold over four weeks."
+    },
+    "subjects": {
+      "merchandising": {
+        "summary": "A clear ladder and the strongest merchant toolset among subscription sites here, with one pricing contradiction to fix.",
+        "pros": [
+          "Pro is tagged best value and gates API and CSM.",
+          "Features come with named results.",
+          "A comparison table shows exactly what each plan includes."
+        ],
+        "cons": [
+          "Countdown banner on every page.",
+          "Fee headline and fee lines disagree."
+        ]
+      },
+      "design": {
+        "summary": "Personable and recognisable, with visible variation between marketing, pricing and developer pages.",
+        "pros": [
+          "A recognisable purple and a serif display give personality.",
+          "Pro raised above its neighbours makes the ladder obvious."
+        ],
+        "cons": [
+          "Banner and chat bubbles crowd the top and corner of pages.",
+          "Different fonts across home, pricing and developer pages."
+        ]
+      }
+    }
+  },
+  "claims": [
+    {
+      "text": "Transparent Loop Subscriptions pricing for Shopify — flat monthly plans, $0 per-order fees, free migration.",
+      "verdict": "unsupported",
+      "step": 2,
+      "evidenceStep": 2
+    },
+    {
+      "text": "760+ 5.0 ★ reviews on shopify app store",
+      "verdict": "plausible",
+      "step": 1,
+      "evidenceStep": 11
+    },
+    {
+      "text": "OSEA Malibu cut churn in half, from 10% to 5%",
+      "verdict": "plausible",
+      "step": 7,
+      "evidenceStep": null
+    },
+    {
+      "text": "Trusted by 2400+ Shopify subscription brands",
+      "verdict": "plausible",
+      "step": 1,
+      "evidenceStep": null
+    }
+  ],
+  "focus": "install and onboarding path"
+}

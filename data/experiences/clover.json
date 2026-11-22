@@ -1,0 +1,1515 @@
+{
+  "id": "clover",
+  "name": "Clover",
+  "category": "pos-hardware",
+  "url": "https://www.clover.com",
+  "flow": "site survey",
+  "capturedAt": "2026-11-22",
+  "rubricVersion": "1.2.0",
+  "status": "evaluated",
+  "blockedReason": "no signup CTA found",
+  "surveyMode": "full",
+  "signupEnd": {
+    "state": "no-signup-path"
+  },
+  "steps": [
+    {
+      "n": 1,
+      "kind": "home",
+      "title": "POS Solutions for Food & Beverage Businesses | Clover",
+      "url": "https://www.clover.com/",
+      "screenshot": "shots/clover/step-1.webp",
+      "textFile": "data/captures/clover/page-1.txt",
+      "elapsedMs": 5963,
+      "clicks": 0,
+      "via": "entry",
+      "headings": [
+        "h1: A CLOVER FOR EVERY SMALL BUSINESS",
+        "h2: KEEP THINGS FLOWING WITH THE ALL‑IN‑ONE RESTAURANT POS",
+        "h1: RESTAURANT-GRADE HARDWARE THAT HUSTLES AS HARD AS YOU DO",
+        "h2: RUN THE NUMBERS",
+        "h3: Devices shipped",
+        "h3: POS provider",
+        "h3: Annualized processing volume",
+        "h2: I CONSIDER CLOVER OUR THIRD ARM ... ALLOWING US TO FOCUS ON BUSINESS NOT PAPERWORK.",
+        "h2: ALL OF YOUR ONLINE ORDERS, IN ONE PLACE"
+      ],
+      "ctas": [
+        "Pricing Learn more about device pricing",
+        "Explore Mini",
+        "Invoicing Learn more about invoicing",
+        "Gift cards Learn more about gift cards",
+        "Go Learn more about Go",
+        "Flex Learn more about Clover Flex",
+        "Mini Learn more about Mini",
+        "Kiosk Learn more about Kiosk",
+        "Help center Explore resources for help",
+        "Blog Explore Clover Blog",
+        "App market Explore Clover app market",
+        "Facebook"
+      ],
+      "prices": [
+        "5 Small-Business Point-of-Sale System Scorecard. $337B+ $ B+ Annualized processing volume A testament"
+      ],
+      "description": "Run your restaurant with Clover’s food & beverage POS solutions. Manage orders, payments, and staff for full-service, quick-service, and specialty dining.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Formula-Black",
+            "body": "graphik",
+            "distinct": [
+              "Graphik",
+              "altform",
+              "Formula-Black",
+              "graphik",
+              "formula-black"
+            ]
+          },
+          "h1Px": 92,
+          "bodyPx": 16,
+          "bodyLineHeight": "20.8px",
+          "backgrounds": [
+            "#ffffff",
+            "#ededed",
+            "#000000",
+            "#b6fb6f"
+          ],
+          "accents": [
+            "#004400",
+            "#b6fb6f"
+          ],
+          "textColor": "#ededed",
+          "buttonRadius": null,
+          "buttonHeightPx": null,
+          "images": 29,
+          "videos": 3,
+          "svgs": 9,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 6460,
+          "domNodes": 896,
+          "domContentLoadedMs": 415,
+          "loadMs": 415
+        },
+        "merch": {
+          "planCards": 1,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 72
+        }
+      },
+      "mobileScreenshot": "shots/clover/step-1-mobile.webp"
+    },
+    {
+      "n": 2,
+      "kind": "pricing",
+      "title": "Clover POS System Pricing and Cost",
+      "url": "https://www.clover.com/pricing",
+      "screenshot": "shots/clover/step-2.webp",
+      "textFile": "data/captures/clover/page-2.txt",
+      "elapsedMs": 12236,
+      "clicks": 0,
+      "via": "nav: PricingLearn more about device pricing",
+      "headings": [
+        "h1: Find the right solution to power your business",
+        "h2: Every Clover system has business built-in tools",
+        "h2: Get paid faster",
+        "h2: Run your business",
+        "h2: Engage your customers",
+        "h2: Let’s work together to find the right system for your business",
+        "h3: Call now",
+        "h2: Frequently Asked Questions",
+        "h3: What is a Clover Subscription?",
+        "h3: Can I cancel my subscription?",
+        "h3: When do I get my first bill?",
+        "h2: Want to purchase a device with Clover?"
+      ],
+      "ctas": [
+        "Pricing Learn more about device pricing",
+        "Learn more about accepting payments",
+        "Invoicing Learn more about invoicing",
+        "Gift cards Learn more about gift cards",
+        "Go Learn more about Go",
+        "Flex Learn more about Clover Flex",
+        "Mini Learn more about Mini",
+        "Kiosk Learn more about Kiosk",
+        "Help center Explore resources for help",
+        "Blog Explore Clover Blog",
+        "App market Explore Clover app market",
+        "Facebook"
+      ],
+      "prices": [
+        "Skip to main content ONLINE ONLY OFFER:Get $450 statement credit when you buy Station, Mini or Fl",
+        "solution to power your business Pay as little as 2.3% + 10¢ per transaction Prices shown are only available"
+      ],
+      "description": "Explore Clover's POS system pricing options and find the perfect plan for your business needs. Make one-time or monthly payments. Learn more.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "altform",
+            "body": "altform",
+            "distinct": [
+              "Graphik",
+              "graphik-light",
+              "altform",
+              "graphik"
+            ]
+          },
+          "h1Px": 48,
+          "bodyPx": 16,
+          "bodyLineHeight": "56px",
+          "backgrounds": [
+            "#ffffff",
+            "#f8f8f8",
+            "#000000",
+            "#012906"
+          ],
+          "accents": [],
+          "textColor": "#ffffff",
+          "buttonRadius": null,
+          "buttonHeightPx": null,
+          "images": 22,
+          "videos": 0,
+          "svgs": 8,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 5385,
+          "domNodes": 912,
+          "domContentLoadedMs": 138,
+          "loadMs": 138
+        },
+        "merch": {
+          "planCards": 1,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 77
+        }
+      },
+      "mobileScreenshot": "shots/clover/step-2-mobile.webp"
+    },
+    {
+      "n": 3,
+      "kind": "product",
+      "title": "Help Center",
+      "url": "https://www.clover.com/en-US/help",
+      "screenshot": "shots/clover/step-3.webp",
+      "textFile": "data/captures/clover/page-3.txt",
+      "elapsedMs": 17025,
+      "clicks": 0,
+      "via": "nav: Help CenterConnect with help center",
+      "headings": [
+        "h1: Help Center",
+        "h2: Set up and log in",
+        "h2: Get help with Clover devices",
+        "h2: Have a Clover account?"
+      ],
+      "ctas": [],
+      "prices": [],
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Graphik",
+            "body": "Graphik",
+            "distinct": [
+              "Graphik"
+            ]
+          },
+          "h1Px": 32,
+          "bodyPx": 16,
+          "bodyLineHeight": "24px",
+          "backgrounds": [
+            "#004400",
+            "#ffffff",
+            "#228800"
+          ],
+          "accents": [
+            "#228800"
+          ],
+          "textColor": "#000000",
+          "buttonRadius": null,
+          "buttonHeightPx": null,
+          "images": 0,
+          "videos": 0,
+          "svgs": 6,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 900,
+          "domNodes": 181,
+          "domContentLoadedMs": 122,
+          "loadMs": 123
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 10
+        }
+      }
+    },
+    {
+      "n": 4,
+      "kind": "platform",
+      "title": "Clover for Developers | Clover",
+      "url": "https://www.clover.com/developers",
+      "screenshot": "shots/clover/step-4.webp",
+      "textFile": "data/captures/clover/page-4.txt",
+      "elapsedMs": 21121,
+      "clicks": 0,
+      "via": "nav: DevelopersDiscover Clover for developers",
+      "headings": [
+        "h1: Join the Clover developer community",
+        "h2: Developing for Clover",
+        "h3: What’s Clover?",
+        "h3: How it works",
+        "h3: Meet our merchants",
+        "h3: Partner program",
+        "h2: App‑ortunities Abound",
+        "h2: Featured Partners",
+        "h2: Developer Resources",
+        "h2: Join our developer community today!"
+      ],
+      "ctas": [
+        "Pricing Learn more about device pricing",
+        "App Market Explore Clover app market",
+        "Invoicing Learn more about invoicing",
+        "Gift cards Learn more about gift cards",
+        "Go Learn more about Go",
+        "Flex Learn more about Clover Flex",
+        "Mini Learn more about Mini",
+        "Kiosk Learn more about Kiosk",
+        "Help center Explore resources for help",
+        "Blog Explore Clover Blog",
+        "App market Explore Clover app market",
+        "Facebook"
+      ],
+      "prices": [
+        "publish button. Revenue share App royalties are 70%, on par with the mainstream app stores. To put th",
+        "t that into perspective, we’ve disbursed close to $8 million in earnings to our developers to date. A"
+      ],
+      "description": "Clover for Developers. Resources to help you integrate Clover into your own application.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "altform",
+            "body": "Graphik",
+            "distinct": [
+              "Graphik",
+              "graphik-light",
+              "altform",
+              "graphik-medium",
+              "graphik"
+            ]
+          },
+          "h1Px": 48,
+          "bodyPx": 16,
+          "bodyLineHeight": "26.25px",
+          "backgrounds": [
+            "#ffffff",
+            "#fbfbfb",
+            "#f8f8f8",
+            "#000000"
+          ],
+          "accents": [],
+          "textColor": "#000000",
+          "buttonRadius": null,
+          "buttonHeightPx": null,
+          "images": 22,
+          "videos": 0,
+          "svgs": 8,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 6340,
+          "domNodes": 918,
+          "domContentLoadedMs": 130,
+          "loadMs": 131
+        },
+        "merch": {
+          "planCards": 1,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 65
+        }
+      }
+    },
+    {
+      "n": 5,
+      "kind": "solutions",
+      "title": "Small Business Resources & Guides | Clover",
+      "url": "https://www.clover.com/small-business-resources",
+      "screenshot": "shots/clover/step-5.webp",
+      "textFile": "data/captures/clover/page-5.txt",
+      "elapsedMs": 24787,
+      "clicks": 0,
+      "via": "nav: Small Business Resources",
+      "headings": [
+        "h1: Small Business Resources & Guides",
+        "h2: Want to purchase a device with Clover?"
+      ],
+      "ctas": [
+        "Pricing Learn more about device pricing",
+        "Get started Get started",
+        "How to start a small business",
+        "Contactless payments guide",
+        "Invoicing Learn more about invoicing",
+        "Gift cards Learn more about gift cards",
+        "Go Learn more about Go",
+        "Flex Learn more about Clover Flex",
+        "Mini Learn more about Mini",
+        "Kiosk Learn more about Kiosk",
+        "Help center Explore resources for help",
+        "Blog Explore Clover Blog",
+        "App market Explore Clover app market",
+        "Facebook"
+      ],
+      "prices": [
+        "Skip to main content ONLINE ONLY OFFER:Get $450 statement credit when you buy Station, Mini or Fl"
+      ],
+      "description": "Read our free small business guides to help you learn more about starting a business, accepting payments, and managing operations. Click here to get started.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "altform",
+            "body": "Graphik",
+            "distinct": [
+              "Graphik",
+              "graphik-light",
+              "altform",
+              "graphik"
+            ]
+          },
+          "h1Px": 72,
+          "bodyPx": 14,
+          "bodyLineHeight": "26.25px",
+          "backgrounds": [
+            "#ffffff",
+            "#f8f8f8",
+            "#000000",
+            "#228800"
+          ],
+          "accents": [],
+          "textColor": "#000000",
+          "buttonRadius": null,
+          "buttonHeightPx": null,
+          "images": 13,
+          "videos": 0,
+          "svgs": 13,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 4840,
+          "domNodes": 747,
+          "domContentLoadedMs": 112,
+          "loadMs": 115
+        },
+        "merch": {
+          "planCards": 1,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 75
+        }
+      }
+    },
+    {
+      "n": 6,
+      "kind": "customers",
+      "title": "Clover Small Business Customer Case Studies",
+      "url": "https://www.clover.com/case-studies",
+      "screenshot": "shots/clover/step-6.webp",
+      "textFile": "data/captures/clover/page-6.txt",
+      "elapsedMs": 28764,
+      "clicks": 0,
+      "via": "nav: Case studies",
+      "headings": [
+        "h1: Clover Case Studies",
+        "h3: My NY Sports Pizza scaled 3X growth with Clover's all‑in‑one platform",
+        "h3: Out the Dough saw a 15% overall revenue increase with online ordering",
+        "h3: Walrus Ice Cream grew their rewards program to 3,000+ loyal customers",
+        "h3: Curious Plantaholic used Gift Cards to increase traffic and sales in store and online",
+        "h3: Broken Spoke Boutique grew their inventory database to 15,000 individual items",
+        "h3: AK Cycle Chic used Flex to build brand recognition and capital ahead of opening their storefront",
+        "h3: Transylvania Moving Company used Go to accept large payments in the field to scale their business",
+        "h3: Chateau 4 Paws used Clover Capital to scale their business and support their team",
+        "h3: Fox Design and Staging used Clover Invoicing to secure payments and satisfy customers"
+      ],
+      "ctas": [
+        "Pricing Learn more about device pricing",
+        "Invoicing Learn more about invoicing",
+        "Gift cards Learn more about gift cards",
+        "Go Learn more about Go",
+        "Flex Learn more about Clover Flex",
+        "Mini Learn more about Mini",
+        "Kiosk Learn more about Kiosk",
+        "Help center Explore resources for help",
+        "Blog Explore Clover Blog",
+        "App market Explore Clover app market",
+        "Facebook"
+      ],
+      "prices": [
+        "Skip to main content ONLINE ONLY OFFER:Get $450 statement credit when you buy Station, Mini or Fl",
+        "izza QUICK‑SERVICE RESTAURANT Out the Dough saw a 15% overall revenue increase with online ordering Rea"
+      ],
+      "description": "Read how these merchants leveraged Clover POS systems and solutions to run their businesses more efficiently. Check out our business case study library.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "altform",
+            "body": "graphik",
+            "distinct": [
+              "Graphik",
+              "graphik-light",
+              "altform",
+              "graphik"
+            ]
+          },
+          "h1Px": 56,
+          "bodyPx": 14,
+          "bodyLineHeight": "24.5px",
+          "backgrounds": [
+            "#ffffff",
+            "#000000",
+            "#228800",
+            "#188c4a"
+          ],
+          "accents": [],
+          "textColor": "#5d5d5d",
+          "buttonRadius": null,
+          "buttonHeightPx": null,
+          "images": 11,
+          "videos": 0,
+          "svgs": 7,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 5083,
+          "domNodes": 735,
+          "domContentLoadedMs": 138,
+          "loadMs": 138
+        },
+        "merch": {
+          "planCards": 1,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 71
+        }
+      }
+    },
+    {
+      "n": 7,
+      "kind": "company",
+      "title": "Clover Go: Mobile Credit Card Reader for Phone",
+      "url": "https://www.clover.com/go",
+      "screenshot": "shots/clover/step-7.webp",
+      "textFile": "data/captures/clover/page-7.txt",
+      "elapsedMs": 33238,
+      "clicks": 0,
+      "via": "nav: GoLearn more about Go",
+      "headings": [
+        "h1: Clover Go: a mobile POS system",
+        "h2: Take payments on the go",
+        "h2: Manage your business anywhere",
+        "h2: Clover Go reader details",
+        "h2: Countertop convenience",
+        "h2: Find the right features to pair with your Go",
+        "h2: STARTER",
+        "h2: ESSENTIALS",
+        "h2: Build your own POS system",
+        "h2: Peace of mind with your system",
+        "h2: Frequently Asked Questions",
+        "h3: Do I need to purchase a specific mobile device to use with the Clover Go?",
+        "h3: What devices are compatible with the Clover Go?",
+        "h3: Do I need to use a specific wireless service provider with this mobile POS solution?",
+        "h2: Want to purchase a device with Clover?"
+      ],
+      "ctas": [
+        "Pricing Learn more about device pricing",
+        "Go Learn more about Go",
+        "Flex Learn more about Clover Flex",
+        "Mini Learn more about Mini",
+        "Contact sales Add software plan to cart",
+        "Get started Get started",
+        "Invoicing Learn more about invoicing",
+        "Gift cards Learn more about gift cards",
+        "Kiosk Learn more about Kiosk",
+        "Help center Explore resources for help",
+        "Blog Explore Clover Blog",
+        "App market Explore Clover app market",
+        "Facebook"
+      ],
+      "prices": [
+        "Skip to main content ONLINE ONLY OFFER:Get $450 statement credit when you buy Station, Mini or Fl"
+      ],
+      "description": "Discover Clover Go, the mobile card reader for phones that empowers businesses to accept payments anywhere and anytime with ease and security. Learn more.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "altform",
+            "body": "Graphik",
+            "distinct": [
+              "Graphik",
+              "graphik-light",
+              "altform",
+              "graphik-medium",
+              "graphik"
+            ]
+          },
+          "h1Px": 56,
+          "bodyPx": 16,
+          "bodyLineHeight": "26.25px",
+          "backgrounds": [
+            "#ffffff",
+            "#f8f8f8",
+            "#000000",
+            "#004400"
+          ],
+          "accents": [],
+          "textColor": "#000000",
+          "buttonRadius": null,
+          "buttonHeightPx": null,
+          "images": 39,
+          "videos": 0,
+          "svgs": 10,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 9942,
+          "domNodes": 1012,
+          "domContentLoadedMs": 146,
+          "loadMs": 148
+        },
+        "merch": {
+          "planCards": 1,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 78
+        }
+      }
+    },
+    {
+      "n": 8,
+      "kind": "product",
+      "title": "POS System & Software - Point of Sale Terminal",
+      "url": "https://www.clover.com/pos-systems",
+      "screenshot": "shots/clover/step-8.webp",
+      "textFile": "data/captures/clover/page-8.txt",
+      "elapsedMs": 38986,
+      "clicks": 0,
+      "via": "nav: Point of sale systemLearn more about POS systems",
+      "headings": [
+        "h1: Win the daily race against the clock with a Clover POS System.",
+        "h2: A POS that can manage all your moving parts",
+        "h2: Customize your system",
+        "h2: Process more payments",
+        "h2: Optimize ordering",
+        "h2: Expand your audience",
+        "h2: Teaming made simple",
+        "h2: Faster, stress‑free set‑up – with a little help from our team",
+        "h2: More POS features, more for your business",
+        "h2: Take payments anywhere, anytime with Virtual Terminal",
+        "h2: Get paid in more ways ‑ ’cause we all like options.",
+        "h2: Access to all kinds of apps to help you do things better",
+        "h2: Peace of mind with your system",
+        "h2: Got questions? We got answers.",
+        "h3: What is a POS system?",
+        "h3: Are Clover POS systems suitable for my business?",
+        "h3: What kind of customer support does Clover offer?",
+        "h2: Want to purchase a device with Clover?"
+      ],
+      "ctas": [
+        "Pricing Learn more about device pricing",
+        "Get started Get started",
+        "Invoicing Learn more about invoicing",
+        "Gift cards Learn more about gift cards",
+        "Go Learn more about Go",
+        "Flex Learn more about Clover Flex",
+        "Mini Learn more about Mini",
+        "Kiosk Learn more about Kiosk",
+        "Help center Explore resources for help",
+        "Blog Explore Clover Blog",
+        "App market Explore Clover app market",
+        "Facebook"
+      ],
+      "prices": [
+        "Skip to main content ONLINE ONLY OFFER:Get $450 statement credit when you buy Station, Mini or Fl"
+      ],
+      "description": "Clover's powerful POS systems & software are built to effortlessly handle the ever-changing parts of your business. See how we can help your business grow!",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "altform",
+            "body": "Graphik",
+            "distinct": [
+              "Graphik",
+              "graphik-light",
+              "altform",
+              "graphik"
+            ]
+          },
+          "h1Px": 56,
+          "bodyPx": 15,
+          "bodyLineHeight": "26.25px",
+          "backgrounds": [
+            "#ffffff",
+            "#f8f8f8",
+            "#eeffee",
+            "#000000"
+          ],
+          "accents": [],
+          "textColor": "#000000",
+          "buttonRadius": null,
+          "buttonHeightPx": null,
+          "images": 20,
+          "videos": 0,
+          "svgs": 8,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 12728,
+          "domNodes": 1074,
+          "domContentLoadedMs": 95,
+          "loadMs": 98
+        },
+        "merch": {
+          "planCards": 1,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [
+            "LAUNCH AND PROMOTE DEALS AND DISCOUNTS"
+          ],
+          "links": 77
+        }
+      }
+    },
+    {
+      "n": 9,
+      "kind": "platform",
+      "title": "App Market | Apps for your POS System | Clover",
+      "url": "https://www.clover.com/appmarket",
+      "screenshot": "shots/clover/step-9.webp",
+      "textFile": "data/captures/clover/page-9.txt",
+      "elapsedMs": 41979,
+      "clicks": 0,
+      "via": "nav: App marketExplore Clover app market",
+      "headings": [
+        "h1: App Market",
+        "h2: Every small business is different. Find the apps that are right for you and your business."
+      ],
+      "ctas": [
+        "Contact Us",
+        "Facebook"
+      ],
+      "prices": [],
+      "description": "Web Dashboard",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Graphik",
+            "body": "Graphik",
+            "distinct": [
+              "Graphik"
+            ]
+          },
+          "h1Px": 30,
+          "bodyPx": 16,
+          "bodyLineHeight": "22px",
+          "backgrounds": [
+            "#fbfbfb",
+            "#ffffff",
+            "#e5e5e5",
+            "#0d4109"
+          ],
+          "accents": [
+            "#0d4109"
+          ],
+          "textColor": "#727272",
+          "buttonRadius": null,
+          "buttonHeightPx": null,
+          "images": 0,
+          "videos": 0,
+          "svgs": 41,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 900,
+          "domNodes": 610,
+          "domContentLoadedMs": 67,
+          "loadMs": 146
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 20
+        }
+      }
+    },
+    {
+      "n": 10,
+      "kind": "product",
+      "title": "Contact us | Clover",
+      "url": "https://www.clover.com/contact",
+      "screenshot": "shots/clover/step-10.webp",
+      "textFile": "data/captures/clover/page-10.txt",
+      "elapsedMs": 45394,
+      "clicks": 0,
+      "via": "nav: Contact usConnect with a sales team professional",
+      "headings": [
+        "h1: Contact us"
+      ],
+      "ctas": [
+        "Pricing Learn more about device pricing",
+        "Where to buy Clover",
+        "Invoicing Learn more about invoicing",
+        "Gift cards Learn more about gift cards",
+        "Go Learn more about Go",
+        "Flex Learn more about Clover Flex",
+        "Mini Learn more about Mini",
+        "Kiosk Learn more about Kiosk",
+        "Help center Explore resources for help",
+        "Blog Explore Clover Blog",
+        "App market Explore Clover app market",
+        "Facebook"
+      ],
+      "prices": [
+        "Skip to main content ONLINE ONLY OFFER:Get $450 statement credit when you buy Station, Mini or Fl",
+        "27, (4) activate account by submitting a batch of $25 or more in sales within 30 calendar days from app",
+        "calendar days from approval date, (5) Processing $10,000 or greater in card transactions within the first"
+      ],
+      "description": "Contact us for help with your Clover point-of-sale system.",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "altform",
+            "body": "graphik-light",
+            "distinct": [
+              "Graphik",
+              "graphik-light",
+              "altform",
+              "graphik"
+            ]
+          },
+          "h1Px": 56,
+          "bodyPx": 14,
+          "bodyLineHeight": "26.25px",
+          "backgrounds": [
+            "#ffffff",
+            "#000000",
+            "#228800",
+            "#188c4a"
+          ],
+          "accents": [],
+          "textColor": "#000000",
+          "buttonRadius": null,
+          "buttonHeightPx": null,
+          "images": 11,
+          "videos": 0,
+          "svgs": 7,
+          "stickyHeader": false,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 2678,
+          "domNodes": 783,
+          "domContentLoadedMs": 157,
+          "loadMs": 159
+        },
+        "merch": {
+          "planCards": 1,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 0,
+          "promos": [],
+          "links": 62
+        }
+      }
+    },
+    {
+      "n": 11,
+      "kind": "product",
+      "title": "Integrated Payment Solutions for ISVs & Software Platforms | Fiserv",
+      "url": "https://www.fiserv.com/en/who-we-serve/integrated-payments-isv.html?rdf=/en/who-we-serve/integrated-payments.html&rdc=2025/08/18&rdr=2026/08/17",
+      "screenshot": "shots/clover/step-11.webp",
+      "textFile": "data/captures/clover/page-11.txt",
+      "elapsedMs": 50304,
+      "clicks": 0,
+      "via": "nav: Clover ConnectLearn more about Clover Connect",
+      "headings": [
+        "h1: FOR SOFTWARE PROVIDERS, PLATFORMS AND ISVS",
+        "h2: Drive growth through integrated payments",
+        "h2: Deliver seamless payment experiences and unlock new revenue with a partner built for software providers and ISVs.",
+        "h2: Why Fiserv",
+        "h3: Learn more from client testimonials",
+        "h2: CoPilot: Portfolio Management Built for ISVs",
+        "h3: In-person payments",
+        "h3: Online payments",
+        "h3: Partner support",
+        "h3: Use cases",
+        "h3: Value-added services",
+        "h2: About Cookies On This Site"
+      ],
+      "ctas": [
+        "Start the Conversation",
+        "Country Selector",
+        "Contact Us"
+      ],
+      "prices": [],
+      "description": "Embed payments into your software with Fiserv integrated payment solutions for ISVs. Monetize transactions, simplify integration and create seamless payment experiences",
+      "signals": {
+        "design": {
+          "fonts": {
+            "h1": "Univers Fiserv Light",
+            "body": "Univers Fiserv Regular",
+            "distinct": [
+              "Univers Fiserv Regular",
+              "Univers Fiserv Light",
+              "PPFormulaSemiBold"
+            ]
+          },
+          "h1Px": 48,
+          "bodyPx": 14,
+          "bodyLineHeight": "25px",
+          "backgrounds": [
+            "#ffffff",
+            "#002754",
+            "#f0f0f0",
+            "#909090"
+          ],
+          "accents": [
+            "#002754"
+          ],
+          "textColor": "#0e0e0e",
+          "buttonRadius": "0px",
+          "buttonHeightPx": 46,
+          "images": 69,
+          "videos": 5,
+          "svgs": 90,
+          "stickyHeader": true,
+          "colorSchemeMeta": null,
+          "pageHeightPx": 7379,
+          "domNodes": 3888,
+          "domContentLoadedMs": 533,
+          "loadMs": 1184
+        },
+        "merch": {
+          "planCards": 0,
+          "priceElements": 0,
+          "badges": [],
+          "billingToggles": [],
+          "tables": 6,
+          "promos": [
+            "The first months of 2026 show meaningful shifts in how consumers shop, spend and engage. ISV platforms are helping…",
+            "The first months of 2026 show meaningful shifts in how consumers shop, spend and engage. ISV platforms are helping…"
+          ],
+          "links": 75
+        }
+      }
+    }
+  ],
+  "navMap": [
+    {
+      "label": "Help CenterConnect with help center",
+      "href": "https://www.clover.com/en-US/help",
+      "area": "header",
+      "kind": "product"
+    },
+    {
+      "label": "PricingLearn more about device pricing",
+      "href": "https://www.clover.com/pricing",
+      "area": "header",
+      "kind": "pricing"
+    },
+    {
+      "label": "Shop systems",
+      "href": "https://www.clover.com/shop",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Cart",
+      "href": "https://www.clover.com/cart",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Food & beverage",
+      "href": "https://www.clover.com/m/food-beverage",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Retail",
+      "href": "https://www.clover.com/m/retail",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Services",
+      "href": "https://www.clover.com/m/service-businesses",
+      "area": "header",
+      "kind": "other"
+    },
+    {
+      "label": "Point of sale systemLearn more about POS systems",
+      "href": "https://www.clover.com/pos-systems",
+      "area": "footer",
+      "kind": "product"
+    },
+    {
+      "label": "InvoicingLearn more about invoicing",
+      "href": "https://www.clover.com/pos-solutions/invoicing",
+      "area": "footer",
+      "kind": "product"
+    },
+    {
+      "label": "Virtual TerminalLearn more about Virtual Terminal",
+      "href": "https://www.clover.com/pos-systems/virtual-terminal",
+      "area": "footer",
+      "kind": "product"
+    },
+    {
+      "label": "Clover CapitalLearn more about Clover Capital",
+      "href": "https://www.clover.com/financial-solutions/clover-capital",
+      "area": "footer",
+      "kind": "product"
+    },
+    {
+      "label": "Rapid DepositLearn more about rapid deposit",
+      "href": "https://www.clover.com/financial-solutions/rapid-deposit",
+      "area": "footer",
+      "kind": "platform"
+    },
+    {
+      "label": "Gift cardsLearn more about gift cards",
+      "href": "https://www.clover.com/pos-systems/gift-cards",
+      "area": "footer",
+      "kind": "product"
+    },
+    {
+      "label": "Retail storesDiscover Clover for retail stores",
+      "href": "https://www.clover.com/pos-solutions/retail",
+      "area": "footer",
+      "kind": "product"
+    },
+    {
+      "label": "Service businessesService businesses",
+      "href": "https://www.clover.com/pos-solutions/service-businesses",
+      "area": "footer",
+      "kind": "product"
+    },
+    {
+      "label": "GoLearn more about Go",
+      "href": "https://www.clover.com/go",
+      "area": "footer",
+      "kind": "company"
+    },
+    {
+      "label": "CompactLearn more about the clover compact",
+      "href": "https://www.clover.com/compact",
+      "area": "footer",
+      "kind": "company"
+    },
+    {
+      "label": "Flex PocketLearn more about the Flex Pocket",
+      "href": "https://www.clover.com/flex-pocket",
+      "area": "footer",
+      "kind": "company"
+    },
+    {
+      "label": "FlexLearn more about Clover Flex",
+      "href": "https://www.clover.com/flex",
+      "area": "footer",
+      "kind": "company"
+    },
+    {
+      "label": "MiniLearn more about Mini",
+      "href": "https://www.clover.com/mini",
+      "area": "footer",
+      "kind": "company"
+    },
+    {
+      "label": "Station SoloLearn more about Station Solo",
+      "href": "https://www.clover.com/station-solo",
+      "area": "footer",
+      "kind": "company"
+    },
+    {
+      "label": "Station DuoLearn more about Station Duo",
+      "href": "https://www.clover.com/station-duo",
+      "area": "footer",
+      "kind": "company"
+    },
+    {
+      "label": "KioskLearn more about Kiosk",
+      "href": "https://www.clover.com/kiosk",
+      "area": "footer",
+      "kind": "company"
+    },
+    {
+      "label": "AccessoriesExplore accessories for Clover devices",
+      "href": "https://www.clover.com/pos/accessories",
+      "area": "footer",
+      "kind": "product"
+    },
+    {
+      "label": "Help centerExplore resources for help",
+      "href": "https://www.clover.com/help",
+      "area": "footer",
+      "kind": "resources"
+    },
+    {
+      "label": "FAQRead POS frequently asked questions",
+      "href": "https://www.clover.com/resources/faqs",
+      "area": "footer",
+      "kind": "product"
+    },
+    {
+      "label": "Contact usConnect with a sales team professional",
+      "href": "https://www.clover.com/contact",
+      "area": "footer",
+      "kind": "product"
+    },
+    {
+      "label": "Clover CareLearn more about Clover Care",
+      "href": "https://www.clover.com/pos-systems/clover-care",
+      "area": "footer",
+      "kind": "product"
+    },
+    {
+      "label": "Small Business Resources",
+      "href": "https://www.clover.com/small-business-resources",
+      "area": "footer",
+      "kind": "solutions"
+    },
+    {
+      "label": "BlogExplore Clover Blog",
+      "href": "https://blog.clover.com/",
+      "area": "footer",
+      "kind": "resources"
+    },
+    {
+      "label": "Case studies",
+      "href": "https://www.clover.com/case-studies",
+      "area": "footer",
+      "kind": "customers"
+    },
+    {
+      "label": "ReferralsLearn more about referral partnerships",
+      "href": "https://referrals.clover.com/refer-to-clover/",
+      "area": "footer",
+      "kind": "platform"
+    },
+    {
+      "label": "DevelopersDiscover Clover for developers",
+      "href": "https://www.clover.com/developers",
+      "area": "footer",
+      "kind": "platform"
+    },
+    {
+      "label": "App marketExplore Clover app market",
+      "href": "https://www.clover.com/appmarket",
+      "area": "footer",
+      "kind": "platform"
+    },
+    {
+      "label": "Clover ConnectLearn more about Clover Connect",
+      "href": "https://integrate.clover.com/",
+      "area": "footer",
+      "kind": "product"
+    },
+    {
+      "label": "AccessibilityRead Clover accessibility statement",
+      "href": "https://www.clover.com/accessibility",
+      "area": "footer",
+      "kind": "other"
+    }
+  ],
+  "stack": {
+    "generator": null,
+    "scriptHosts": [
+      "www.googletagmanager.com",
+      "s.pinimg.com",
+      "munchkin.marketo.net",
+      "solutions.invocacdn.com",
+      "tags.srv.stackadapt.com",
+      "snap.licdn.com",
+      "c.amazon-adsystem.com",
+      "assets.adobedtm.com",
+      "www.google-analytics.com",
+      "cdn.heapanalytics.com",
+      "tags.tiqcdn.com",
+      "cdn.cookielaw.org",
+      "cloverstatic.com",
+      "cdn.quantummetric.com"
+    ],
+    "signals": [
+      "Google Tag Manager dataLayer"
+    ],
+    "server": null,
+    "poweredBy": null
+  },
+  "sources": [
+    "https://www.clover.com"
+  ],
+  "dossier": {
+    "sections": [
+      {
+        "id": "positioning",
+        "title": "Positioning",
+        "summary": "Clover sells a smart point-of-sale system to restaurants, retail, services and healthcare, with hardware as the centerpiece and a sales team as the main way in.",
+        "keyPoints": [
+          "Homepage: 'A CLOVER FOR EVERY SMALL BUSINESS' and 'Do what you do better with the world's smartest POS system.'",
+          "Industry is the organising principle: full-service dining, quick-service restaurants, retail, professional, personal and home and field services.",
+          "The two homepage buttons are 'Get Clover' and 'Contact sales'; the contact page offers sales help rather than self-serve signup."
+        ]
+      },
+      {
+        "id": "offerings",
+        "title": "Products and offerings",
+        "summary": "A POS software suite sold with a family of devices, plus payments, invoicing, capital and loyalty.",
+        "keyPoints": [],
+        "table": {
+          "columns": [
+            "Product",
+            "What it does"
+          ],
+          "rows": [
+            [
+              "Point of sale",
+              "Software for restaurants, retail and services, with customizable systems and online ordering"
+            ],
+            [
+              "Devices",
+              "Go, Compact, Flex Pocket, Flex, Mini, Station Solo, Station Duo and Kiosk"
+            ],
+            [
+              "Payments and invoicing",
+              "In person, over the phone and online; invoicing and a Virtual Terminal"
+            ],
+            [
+              "Clover Capital",
+              "Business financing for merchants"
+            ],
+            [
+              "Gift cards and loyalty",
+              "Rewards, promotions and open lines of communication with customers"
+            ],
+            [
+              "App Market",
+              "Third-party apps for different business types"
+            ]
+          ]
+        },
+        "gaps": [
+          "Device prices and individual plan prices were not on the surveyed pages."
+        ]
+      },
+      {
+        "id": "pricing",
+        "title": "Pricing",
+        "summary": "Pricing is deliberately not shown as a list. The pricing page leads with one processing rate and an industry picker; plan details open per industry.",
+        "keyPoints": [
+          "Headline rate: pay as little as 2.3% + 10¢ per transaction.",
+          "'Prices shown are only available on Clover.com' steers buyers to the online store rather than a sales rep.",
+          "An online-only offer gives a $450 statement credit when you buy a Station, Mini or Flex.",
+          "Six industry cards lead to per-industry plan comparisons; the Go page splits into Starter and Essentials."
+        ],
+        "table": {
+          "columns": [
+            "Item",
+            "What the page shows"
+          ],
+          "rows": [
+            [
+              "Processing",
+              "From 2.3% + 10¢ per transaction"
+            ],
+            [
+              "Hardware promo",
+              "$450 statement credit on Station, Mini or Flex, online only"
+            ],
+            [
+              "Plans",
+              "Compared per industry on separate pages; no plan prices in the surveyed text"
+            ]
+          ]
+        },
+        "gaps": [
+          "Plan prices, device prices and subscription costs were not on the surveyed pages."
+        ]
+      },
+      {
+        "id": "merchandising",
+        "title": "Merchandising",
+        "summary": "The offer is merchandised by industry and by device with a promotional credit, and consultants fill the gap that the missing price list leaves. Merchants get loyalty, gift cards, online ordering and an app market.",
+        "keyPoints": [
+          "An industry picker on the pricing page replaces a plan table.",
+          "A single low rate and a statement credit serve as the entry offer and anchor.",
+          "Business consultants are offered in person or by phone to pick a system.",
+          "For merchants: customer loyalty with rewards and promotions, gift cards, online ordering, analytics reports and an app market; one case study grew an inventory database to 15,000 items."
+        ]
+      },
+      {
+        "id": "platform",
+        "title": "Technical platform",
+        "summary": "A developer community with a partner program and an app market is advertised, but the surveyed pages give little technical detail.",
+        "keyPoints": [
+          "Developer page invites visitors to create a global developer account and promotes featured partners.",
+          "An App Market lists apps by business need.",
+          "The Clover Connect link leads to a Fiserv page for software providers and ISVs about integrated payments."
+        ],
+        "gaps": [
+          "API reference, SDKs and webhooks were not read."
+        ]
+      },
+      {
+        "id": "design",
+        "title": "Design",
+        "summary": "Two voices: a dramatic, tightly condensed headline over restaurant photography on the home page, and a calm dark-green pricing page with white industry cards. Green and lime tie them together.",
+        "keyPoints": [
+          "Home uses a heavy condensed typeface (Formula-Black) over a restaurant photo; the pricing page switches to altform; other pages use Graphik.",
+          "Greens carry the brand: #004400 and a lime (#b6fb6f) on the home page, a dark green hero (#012906) on pricing and a green promo bar.",
+          "Home opens with two buttons, black 'Get Clover' and lime 'Contact sales'.",
+          "The pricing page is a dark green hero with six white industry cards with icons.",
+          "The home page is 6,460px tall and the pricing page 5,385px."
+        ],
+        "gaps": [
+          "Merchant design control was not shown in the surveyed pages."
+        ]
+      },
+      {
+        "id": "company",
+        "title": "Company presentation",
+        "summary": "Small-business success stories carry the story, supported by large scale counters.",
+        "keyPoints": [
+          "Case studies include 3X growth for a pizza restaurant, a 15% revenue increase from online ordering and a rewards program with 3,000+ loyal customers.",
+          "The home page has a 'Run the numbers' section on devices shipped, POS provider ranking and annualized processing volume.",
+          "Pages carry a Clover Network, LLC notice and a link to a Fiserv page."
+        ],
+        "gaps": [
+          "No leadership or ownership information in the surveyed pages."
+        ]
+      }
+    ]
+  },
+  "signupPath": "No self-serve signup was found. The homepage offers 'Get Clover' and 'Contact sales'; the contact page is a sales form ('Get sales help'). The developer page has 'Create a Clover developer account', which was not followed. Nothing was entered.",
+  "scores": {
+    "jtbd_fit": {
+      "score": 4,
+      "evidence": "Industry pages name the job (run a restaurant, retail or service business).",
+      "step": 1
+    },
+    "capability_visible": {
+      "score": 3,
+      "evidence": "POS and device pages show features; no product demo or admin view.",
+      "step": 8
+    },
+    "pricing_transparency": {
+      "score": 2,
+      "evidence": "One headline rate and a statement credit; plan and device prices are not shown.",
+      "step": 2
+    },
+    "product_breadth": {
+      "score": 4,
+      "evidence": "Eight device models, POS by industry, payments, capital, loyalty and app market.",
+      "step": 1
+    },
+    "platform_depth": {
+      "score": 3,
+      "evidence": "Developer community, partner program and app market, but little technical detail.",
+      "step": 4
+    },
+    "time_to_value": {
+      "score": null,
+      "evidence": "Capture stops before the product; first-value time was not observed.",
+      "step": null
+    },
+    "friction": {
+      "score": null,
+      "evidence": "The surveyed pages could not tell.",
+      "step": null
+    },
+    "trust": {
+      "score": 4,
+      "evidence": "Case studies with specific outcomes.",
+      "step": 6
+    },
+    "mobile": {
+      "score": null,
+      "evidence": "Phone captures exist for home and pricing but were not assessed.",
+      "step": null
+    },
+    "states": {
+      "score": null,
+      "evidence": "No error or empty states reached.",
+      "step": null
+    },
+    "a11y_basics": {
+      "score": null,
+      "evidence": "Not tested.",
+      "step": null
+    },
+    "value_prop_clarity": {
+      "score": 4,
+      "evidence": "'A Clover for every small business' and 'smartest POS system' are clear about what is sold.",
+      "step": 1
+    },
+    "proof_quality": {
+      "score": 3,
+      "evidence": "'Smartest POS' is a superlative; case studies are specific.",
+      "step": 1
+    },
+    "persuasion_integrity": {
+      "score": 3,
+      "evidence": "An online-only $450 credit carries an asterisk and 'prices shown are only available on Clover.com' pushes buyers online.",
+      "step": 2
+    },
+    "cta_logic": {
+      "score": 3,
+      "evidence": "'Get Clover' and 'Contact sales' sit side by side with no clear primary.",
+      "step": 1
+    },
+    "company_narrative": {
+      "score": 3,
+      "evidence": "Small-business story is consistent; ownership and company background are not shown.",
+      "step": 6
+    },
+    "offer_packaging": {
+      "score": 3,
+      "evidence": "Industry and device groupings help; plans are hidden behind per-industry pages.",
+      "step": 2
+    },
+    "offer_architecture": {
+      "score": 3,
+      "evidence": "A low rate, a hardware credit and consultants, but no visible ladder.",
+      "step": 2
+    },
+    "merchant_merch_tools": {
+      "score": 4,
+      "evidence": "Loyalty, promotions, gift cards, online ordering, analytics and an app market.",
+      "step": 2
+    },
+    "visual_craft": {
+      "score": 4,
+      "evidence": "Strong photography and bold condensed type on home; a clean pricing hero.",
+      "step": 1
+    },
+    "system_coherence": {
+      "score": 3,
+      "evidence": "Three typefaces across home, pricing and other pages, though greens tie them together.",
+      "step": 2
+    },
+    "merchant_design_control": {
+      "score": null,
+      "evidence": "The surveyed pages could not tell.",
+      "step": null
+    }
+  },
+  "read": {
+    "summary": "A sales-led POS brand that hides plan prices behind industry pages and consultants. Strong on hardware and merchant tools, light on public pricing and technical detail.",
+    "pros": [
+      "Industry-first navigation matches how owners think.",
+      "Eight devices are named and grouped.",
+      "Case studies carry specific outcomes.",
+      "Merchants get loyalty, gift cards, online ordering and an app market."
+    ],
+    "cons": [
+      "Plan and device prices are not shown.",
+      "'Get Clover' and 'Contact sales' compete as primary actions.",
+      "The developer page has little technical detail.",
+      "Three typefaces across surveyed pages."
+    ],
+    "howItSells": "Sells a dependable, restaurant-grade system and a person to help: bold imagery, a low headline rate and an online-only credit.",
+    "copy": [
+      "Offer an industry picker as the entry to pricing.",
+      "Pair hardware with a clear statement credit.",
+      "Use case studies with specific numbers."
+    ],
+    "avoid": [
+      "Hiding all plan prices.",
+      "Two equal primary buttons."
+    ],
+    "tactics": [
+      "authority",
+      "scarcity",
+      "social_proof"
+    ],
+    "confidence": "medium",
+    "unknowns": [
+      "Plan and device prices.",
+      "What buying online looks like.",
+      "Developer docs.",
+      "Mobile experience."
+    ],
+    "hypothesis": {
+      "statement": "Showing one starter-plan price per industry on the pricing page will raise device-page clicks among visitors who would otherwise leave.",
+      "metric": "Pricing-page click-through to a system page",
+      "guardrail": "Sales-contact volume and close rate",
+      "decisionRule": "Ship if click-through rises by a pre-agreed margin and sales close rate holds over four weeks."
+    },
+    "subjects": {
+      "merchandising": {
+        "summary": "Merchandised by trade and device, with a clear offer but a deliberately hidden price list.",
+        "pros": [
+          "Industry picker in place of a plan table.",
+          "Statement credit as the entry offer.",
+          "Consultants offered in person or by phone."
+        ],
+        "cons": [
+          "No plan prices to compare.",
+          "Prices only available online."
+        ]
+      },
+      "design": {
+        "summary": "A confident, brand-led look with some variation in type between pages.",
+        "pros": [
+          "Bold condensed type and restaurant photography make a strong first impression.",
+          "Green and lime make a recognisable brand."
+        ],
+        "cons": [
+          "Three typefaces across pages.",
+          "Two similar-weight buttons on the home hero."
+        ]
+      }
+    }
+  },
+  "claims": [
+    {
+      "text": "Do what you do better with the world's smartest POS system.",
+      "verdict": "unsupported",
+      "step": 1,
+      "evidenceStep": null
+    },
+    {
+      "text": "Out the Dough saw a 15% overall revenue increase with online ordering",
+      "verdict": "plausible",
+      "step": 6,
+      "evidenceStep": null
+    },
+    {
+      "text": "Pay as little as 2.3% + 10¢ per transaction",
+      "verdict": "plausible",
+      "step": 2,
+      "evidenceStep": null
+    }
+  ],
+  "focus": "pos selection and quote path"
+}

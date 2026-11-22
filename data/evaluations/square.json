@@ -1,0 +1,373 @@
+{
+  "dossier": {
+    "sections": [
+      {
+        "id": "positioning",
+        "title": "Positioning",
+        "summary": "Square sells a complete small-business toolkit by industry: restaurants, retail, beauty, health and wellness, home services. The pitch is that one plan runs payments, hardware, booking, online selling and marketing.",
+        "keyPoints": [
+          "Homepage promise: 'Local legend or global icon. Make it big on your block.'",
+          "Business-type pages (coffee shops, bars, spas, landscaping and more) each repeat the same suite in that trade's language.",
+          "The company page frames Square as built to give every owner an easier way to take credit cards, then grown into a full suite and loans."
+        ]
+      },
+      {
+        "id": "offerings",
+        "title": "Products and offerings",
+        "summary": "Square pairs software with its own hardware and a financial layer, then adds vertical tools on top.",
+        "keyPoints": [],
+        "table": {
+          "columns": [
+            "Product",
+            "What it does"
+          ],
+          "rows": [
+            [
+              "Payments",
+              "In person (7 ways), online, remote, invoices and Afterpay; Tap to Pay on iPhone and Android"
+            ],
+            [
+              "Hardware",
+              "Register $899, Handheld $399, Terminal $299, Stand $149; readers start at $59"
+            ],
+            [
+              "Appointments",
+              "Booking site, staff schedules, reminders and Google Calendar sync"
+            ],
+            [
+              "Online store",
+              "Free site builder with customizable themes, shipping, pickup and delivery"
+            ],
+            [
+              "Marketing",
+              "Email and text campaigns, automations and CRM tools"
+            ],
+            [
+              "Banking and Payroll",
+              "Checking and savings accounts; payroll from $35 a month plus $6 per person"
+            ],
+            [
+              "Kiosk and restaurant tools",
+              "Self-service kiosk, order management and restaurant operations"
+            ],
+            [
+              "App Marketplace",
+              "Third-party apps with ratings and free trials"
+            ]
+          ]
+        },
+        "gaps": [
+          "Loans and Capital were not opened."
+        ]
+      },
+      {
+        "id": "pricing",
+        "title": "Pricing",
+        "summary": "Per-location monthly plans with a $0 entry and a processing rate that falls as the plan rises, plus a custom plan for large processors. Hardware is sold separately, with monthly financing.",
+        "keyPoints": [
+          "Free is pay-as-you-go: you only pay when you take a payment.",
+          "Plus and Premium come with a 30-day free trial; Plus is labelled best value.",
+          "Hardware can be financed: the Register is $899 or $44 a month over 24 months.",
+          "Square Pro is custom pricing for businesses processing over $250,000 a year, with hardware discounts and onboarding."
+        ],
+        "table": {
+          "columns": [
+            "Plan",
+            "Price",
+            "In person",
+            "Online",
+            "Adds"
+          ],
+          "rows": [
+            [
+              "Free",
+              "$0 a month per location",
+              "2.6% + 15¢",
+              "3.3% + 30¢",
+              "POS app, online site, invoicing, booking, banking"
+            ],
+            [
+              "Plus (best value)",
+              "$49 a month per location",
+              "2.5% + 15¢",
+              "2.9% + 30¢",
+              "Advanced POS features, loyalty, email and text marketing, staff management"
+            ],
+            [
+              "Premium",
+              "$149 a month per location",
+              "2.4% + 15¢",
+              "2.9% + 30¢",
+              "24/7 priority support, advanced reporting, no gift card load fees"
+            ],
+            [
+              "Pro",
+              "Custom",
+              "Custom",
+              "Custom",
+              "For processing over $250,000 a year"
+            ]
+          ]
+        },
+        "gaps": [
+          "Hardware and payroll costs are on separate pages; there is no all-in estimate."
+        ]
+      },
+      {
+        "id": "merchandising",
+        "title": "Merchandising",
+        "summary": "A clear, industry-aware ladder: a $0 entry, a best-value middle plan, and a premium tier whose main draw is support. For merchants, Square supplies deep selling and customer-engagement tools.",
+        "keyPoints": [
+          "The pricing page asks 'Tell us about your business' and offers an industry selector, so the plan feature list is tailored.",
+          "Processing fees drop with each plan, which ties the monthly price to the merchant's own volume.",
+          "Plans, hardware and add-ons cross-sell each other: the plan page links to Payroll, Hardware and Banking.",
+          "For merchants: customizable e-commerce themes, inventory across locations and channels, a loyalty program, email and text marketing, Google Reviews tools and shipping discounts.",
+          "The App Marketplace lists third-party apps with ratings and 7 or 14-day free trials."
+        ]
+      },
+      {
+        "id": "platform",
+        "title": "Technical platform",
+        "summary": "A dedicated developer site with APIs and SDKs across the commerce stack, a new Reporting API in beta, and an app marketplace.",
+        "keyPoints": [
+          "APIs named on the developer page include Bookings, Customers, Orders, Catalog, ListPayments and Terminal, plus a Mobile Payments SDK.",
+          "A Reporting API (Beta) is advertised as a new way to access all of a business's data.",
+          "The App Marketplace has staff picks, most-popular and highest-rated lists, and add-ons for Square Online."
+        ],
+        "gaps": [
+          "API reference, rate limits and webhooks were not read."
+        ]
+      },
+      {
+        "id": "design",
+        "title": "Design",
+        "summary": "A polished, consumer-grade look: full-bleed photography, very large display type and pill buttons, anchored by one blue. Developer pages switch to a dark theme with smaller buttons.",
+        "keyPoints": [
+          "A custom typeface (Square Sans) runs across home, pricing and the developer site; some pages use Cash Sans.",
+          "The accent is a single blue (#006aff); buttons are full pills (10000px corners) on pricing and the main site.",
+          "The developer site is dark (#121212) with 4.8px button corners, a visible shift from the marketing pages.",
+          "Home opens on a full-bleed photograph with a headline across it; the pricing page puts three white plan cards over a dark photograph.",
+          "Pages are long: the home page is 10,597px tall.",
+          "For merchants: customizable themes for Square Online, plus logo and brand-color invoices."
+        ],
+        "gaps": [
+          "Dark mode was not assessed."
+        ]
+      },
+      {
+        "id": "company",
+        "title": "Company presentation",
+        "summary": "A friendly, inclusive story aimed at owners of every size, backed by a scale number on the signup page.",
+        "keyPoints": [
+          "The Why Square page leads with 'Helping every size of business succeed' and an origin story about card acceptance.",
+          "Signup page claims 4 million+ businesses run on Square.",
+          "Customer proof appears as industry showcases rather than a dedicated customer-stories page."
+        ],
+        "gaps": [
+          "No leadership or investor information in the surveyed pages."
+        ]
+      }
+    ]
+  },
+  "signupPath": "'Sign up' opens app.squareup.com/signup, a real account form titled 'Let's create your account': email, password and locale (United States, English), a consent line for Terms, Privacy Policy and E-Sign Consent, and a 'Create account' button, with a reCAPTCHA notice. One click from the homepage. Nothing was entered.",
+  "scores": {
+    "jtbd_fit": {
+      "score": 5,
+      "evidence": "Each business-type page names the owner's trade and the jobs: take payments, book, sell online, run staff.",
+      "step": 5
+    },
+    "capability_visible": {
+      "score": 4,
+      "evidence": "Product pages show features and hardware prices in detail; the admin itself is behind signup.",
+      "step": 9
+    },
+    "pricing_transparency": {
+      "score": 4,
+      "evidence": "Three plans with prices and processing rates are published; hardware, payroll and loan costs sit on other pages.",
+      "step": 2
+    },
+    "product_breadth": {
+      "score": 5,
+      "evidence": "Hardware, payments, booking, online, marketing, banking and payroll are each explained with a clear job.",
+      "step": 3
+    },
+    "platform_depth": {
+      "score": 4,
+      "evidence": "Developer site lists many APIs, SDKs and a beta Reporting API plus an app marketplace; reference docs were not read.",
+      "step": 4
+    },
+    "time_to_value": {
+      "score": null,
+      "evidence": "Capture stops before the product; first-value time was not observed.",
+      "step": null
+    },
+    "friction": {
+      "score": 4,
+      "evidence": "One click from home to a short form: email, password and locale, with a consent line and reCAPTCHA.",
+      "step": 14
+    },
+    "trust": {
+      "score": 4,
+      "evidence": "4 million+ businesses claim on the signup page and industry showcases; fewer named customers than Stripe or Klaviyo.",
+      "step": 14
+    },
+    "mobile": {
+      "score": null,
+      "evidence": "Phone captures exist for home and pricing but were not assessed.",
+      "step": null
+    },
+    "states": {
+      "score": null,
+      "evidence": "No error or empty states reached.",
+      "step": null
+    },
+    "a11y_basics": {
+      "score": null,
+      "evidence": "Not tested.",
+      "step": null
+    },
+    "value_prop_clarity": {
+      "score": 4,
+      "evidence": "The homepage headline is mood-led but each industry page and the plan page say plainly what you get.",
+      "step": 2
+    },
+    "proof_quality": {
+      "score": 3,
+      "evidence": "Scale and 'best value' claims have no source on the page.",
+      "step": 14
+    },
+    "persuasion_integrity": {
+      "score": 4,
+      "evidence": "Trials are stated with their length, and the free plan says you pay only on a payment.",
+      "step": 2
+    },
+    "cta_logic": {
+      "score": 4,
+      "evidence": "'Get started' with 'Contact sales' on pages; plan cards each carry a clear action.",
+      "step": 2
+    },
+    "company_narrative": {
+      "score": 4,
+      "evidence": "The 'every size of business' story is consistent from the homepage to Why Square to the signup page.",
+      "step": 7
+    },
+    "offer_packaging": {
+      "score": 5,
+      "evidence": "Plans per location with fees in a table, an industry selector and a best-value label make the choice easy.",
+      "step": 2
+    },
+    "offer_architecture": {
+      "score": 5,
+      "evidence": "$0 entry, 30-day trials, falling processing fees, hardware financing and a custom plan form a deliberate ladder.",
+      "step": 2
+    },
+    "merchant_merch_tools": {
+      "score": 5,
+      "evidence": "Themes, cross-channel inventory, loyalty, email and text marketing, Google Reviews tools and shipping discounts are all shown.",
+      "step": 12
+    },
+    "visual_craft": {
+      "score": 4,
+      "evidence": "Strong photography and display type, one blue, clear plan cards. The home hero text sits over a busy photograph.",
+      "step": 1
+    },
+    "system_coherence": {
+      "score": 3,
+      "evidence": "Pill buttons and white pages on the main site, dark 4.8px-button developer pages, and two typefaces (Square Sans and Cash Sans).",
+      "step": 4
+    },
+    "merchant_design_control": {
+      "score": 4,
+      "evidence": "Customizable themes for the online store and branded invoices are shown; no theme builder detail was surveyed.",
+      "step": 12
+    }
+  },
+  "read": {
+    "summary": "A vertical-first small-business suite with the clearest plan ladder of the survey so far: a $0 entry, per-location pricing, fees that fall as you move up and hardware that can be financed. The signup is a short, real account form.",
+    "pros": [
+      "Pricing table puts monthly price and both processing rates side by side.",
+      "An industry selector tailors the plan features to the merchant's trade.",
+      "Hardware prices and financing are shown on the page.",
+      "Merchants get a wide set of selling and engagement tools in one place."
+    ],
+    "cons": [
+      "The homepage headline is mood-led rather than specific.",
+      "Developer pages look and behave differently from the marketing site.",
+      "Hardware, payroll and banking costs are spread across several pages.",
+      "Scale and 'best value' claims are unsourced."
+    ],
+    "howItSells": "Sells simplicity and local-business pride: a free start, one plan per location, and tools by trade. Backs it with a visible price list and a large business count.",
+    "copy": [
+      "Show processing rates beside the monthly price in each plan card.",
+      "Offer an industry selector on the pricing page.",
+      "Finance hardware with a stated monthly figure."
+    ],
+    "avoid": [
+      "A mood-led hero headline with no product statement.",
+      "Different button shapes between marketing and developer pages."
+    ],
+    "tactics": [
+      "anchoring",
+      "commitment_ladder",
+      "social_proof"
+    ],
+    "confidence": "medium",
+    "unknowns": [
+      "What follows account creation.",
+      "Loans and Capital pages.",
+      "Mobile experience.",
+      "Payroll and banking details beyond the headline price."
+    ],
+    "hypothesis": {
+      "statement": "Adding an 'all-in estimate' tool that combines plan, hardware and processing for a typical month will raise paid-plan starts among hesitant visitors.",
+      "metric": "Free-to-paid plan conversion within 30 days",
+      "guardrail": "Support contacts about fees and early churn",
+      "decisionRule": "Ship if conversion rises by a pre-agreed margin over four weeks and fee-related contacts do not rise."
+    },
+    "subjects": {
+      "merchandising": {
+        "summary": "A clear, trade-by-trade ladder, the strongest merchandising of the survey so far, with a real merchant toolset behind it.",
+        "pros": [
+          "The Free, Plus and Premium ladder lowers risk at each step.",
+          "Processing fees fall as the plan rises, so the plan sells itself to high-volume merchants.",
+          "Hardware financing is stated in monthly terms."
+        ],
+        "cons": [
+          "No all-in monthly estimate across plan, hardware and processing.",
+          "Add-on prices sit on separate pages."
+        ]
+      },
+      "design": {
+        "summary": "Premium consumer-grade design on the main site, with a visible seam where the developer pages begin.",
+        "pros": [
+          "Full-bleed photography and display type make the marketing site feel premium.",
+          "One blue accent and pill buttons make actions easy to spot."
+        ],
+        "cons": [
+          "The developer site changes theme and button shape.",
+          "Home hero text sits over a busy photograph."
+        ]
+      }
+    }
+  },
+  "claims": [
+    {
+      "text": "Join the 4 million+ businesses running with Square.",
+      "verdict": "plausible",
+      "step": 14,
+      "evidenceStep": null
+    },
+    {
+      "text": "Only pay when you take a payment.",
+      "verdict": "plausible",
+      "step": 2,
+      "evidenceStep": 2
+    },
+    {
+      "text": "Square was established to give every business owner an easier way to take credit cards.",
+      "verdict": "plausible",
+      "step": 7,
+      "evidenceStep": null
+    }
+  ]
+}
