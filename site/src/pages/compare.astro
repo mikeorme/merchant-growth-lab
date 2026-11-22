@@ -1,41 +1,34 @@
 ---
 import Base from '../layouts/Base.astro';
-import { experiences, rubric, dims, accession, base, mmss } from '../lib/data';
-const data = experiences.map((e) => ({
-  id: e.id, name: e.name, acc: accession(e.id), href: base(`experience/${e.id}/`),
-  steps: e.steps.length, clicks: e.steps.at(-1)?.clicks ?? 0, ms: e.steps.at(-1)?.elapsedMs ?? 0,
+import { experiences, dims, accession, base } from '../lib/data';
+const data = experiences.filter((e) => e.scores).map((e) => ({
+  id: e.id, name: e.name, acc: accession(e.id), href: base(`experience/${e.id}/`), pages: e.steps.length,
   scores: Object.fromEntries(Object.entries(e.scores ?? {}).map(([k, v]) => [k, v.score])),
-  thumb: e.steps[0] ? base(e.steps[0].screenshot) : '',
 }));
 ---
-<Base title="Compare" rail="Plates side by side">
+<Base title="Compare" rail="Surveys side by side">
   <p class="label">Compare</p>
-  <h1 style="font-size:var(--t-h2);margin-top:8px">Plates side by side.</h1>
-  <p class="lead">Pick two to four examined specimens. The Lab's scores stay sealed for any specimen whose notes you haven't opened yet.</p>
-  <div class="filters" id="picker" role="group" aria-label="Choose specimens"></div>
+  <h1 style="font-size:var(--t-h2);margin-top:8px">Surveys side by side.</h1>
+  <p class="lead">Pick two to four examined sites to compare the Lab's scores dimension by dimension.</p>
+  <div class="filters" id="picker" role="group" aria-label="Choose sites"></div>
   <div id="out" aria-live="polite"></div>
   <script type="application/json" id="cmp-data" set:html={JSON.stringify({ data, dims: dims.map((d) => ({ id: d.id, label: d.label, lens: d.lensLabel })) })} />
   <script>
-    import { load } from '../scripts/store.js';
     const { data, dims } = JSON.parse(document.getElementById('cmp-data')!.textContent!);
-    const st = load();
     const picker = document.getElementById('picker')!, out = document.getElementById('out')!;
     let sel: string[] = (new URLSearchParams(location.search).get('ids') ?? '').split(',').filter((i) => data.some((d: any) => d.id === i)).slice(0, 4);
-    const fmt = (ms: number) => `${String(Math.floor(ms / 60000)).padStart(2, '0')}:${String(Math.floor((ms % 60000) / 1000)).padStart(2, '0')}`;
     function draw() {
       picker.innerHTML = data.map((d: any) => `<label class="label" style="display:flex;gap:8px;align-items:center;min-height:44px"><input class="cmp-check" type="checkbox" value="${d.id}" ${sel.includes(d.id) ? 'checked' : ''} ${!sel.includes(d.id) && sel.length >= 4 ? 'disabled' : ''}/>${d.name}</label>`).join('');
       picker.querySelectorAll('input').forEach((i) => i.addEventListener('change', () => { sel = [...picker.querySelectorAll<HTMLInputElement>('input:checked')].map((x) => x.value); history.replaceState(null, '', sel.length ? `?ids=${sel.join(',')}` : location.pathname); draw(); }));
-      if (sel.length < 2) { out.innerHTML = '<p class="mute">Select at least two specimens.</p>'; return; }
+      if (sel.length < 2) { out.innerHTML = '<p class="mute">Select at least two sites.</p>'; return; }
       const cols = sel.map((id) => data.find((d: any) => d.id === id));
-      const open = (id: string) => st.scores[id]?.state === 'revealed';
-      const you = (id: string, dim: string) => { const y = st.scores[id]?.dims?.[dim]; return y ? (y.cantTell ? 'n/t' : y.score) : '·'; };
       const head = `<tr><th>Dimension</th>${cols.map((c: any) => `<th><a href="${c.href}">${c.name}</a><br><span class="num mute">${c.acc}</span></th>`).join('')}</tr>`;
-      const summary = [['Steps', 'steps'], ['Clicks to last step', 'clicks']].map(([l, k]) => `<tr><td>${l}</td>${cols.map((c: any) => `<td class="numc">${c[k]}</td>`).join('')}</tr>`).join('') + `<tr><td>Time to last step</td>${cols.map((c: any) => `<td class="numc">${fmt(c.ms)}</td>`).join('')}</tr>`;
+      const summary = `<tr><td>Pages surveyed</td>${cols.map((c: any) => `<td class="numc">${c.pages}</td>`).join('')}</tr>`;
       let lens = ''; const body = dims.map((d: any) => {
-        const row = `<tr><td>${d.label}</td>${cols.map((c: any) => { const lab = c.scores[d.id]; const labCell = !open(c.id) ? '<span class="label">sealed</span>' : lab == null ? '<span class="nt">n/t</span>' : lab; return `<td class="numc">${labCell} <span class="mute">/ you ${you(c.id, d.id)}</span></td>`; }).join('')}</tr>`;
+        const row = `<tr><td>${d.label}</td>${cols.map((c: any) => { const v = c.scores[d.id]; return `<td class="numc">${v == null ? '<span class="nt">n/t</span>' : v}</td>`; }).join('')}</tr>`;
         const hdr = d.lens !== lens ? `<tr><td colspan="${cols.length + 1}" class="label" style="padding-top:20px">${d.lens}</td></tr>` : ''; lens = d.lens; return hdr + row;
       }).join('');
-      out.innerHTML = `<div class="tablewrap"><table><thead>${head}</thead><tbody>${summary}${body}</tbody></table></div><p class="mute" style="margin-top:16px">Each cell reads Lab, then your own mark. A dot means you haven't scored it.</p>`;
+      out.innerHTML = `<div class="tablewrap"><table><thead>${head}</thead><tbody>${summary}${body}</tbody></table></div><p class="mute" style="margin-top:16px">Scores are the Lab's, 1 to 5. n/t means the surveyed pages could not tell.</p>`;
     }
     draw();
   </script>

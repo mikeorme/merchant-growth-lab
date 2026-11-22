@@ -7,8 +7,28 @@
   "capturedAt": "2026-11-22",
   "rubricVersion": "1.2.0",
   "status": "evaluated",
-  "blockedReason": "account form reached after 1 click from home",
   "surveyMode": "full",
+  "signupEnd": {
+    "state": "email-capture",
+    "url": "https://www.klaviyo.com/sign-up",
+    "clicks": 1,
+    "fields": [
+      {
+        "type": "email",
+        "label": "Email"
+      }
+    ],
+    "alternatives": [
+      "Continue with Google",
+      "Continue with email"
+    ],
+    "submit": [
+      "Continue with email"
+    ],
+    "consent": [],
+    "pageHeightPx": 900,
+    "passwordAsked": false
+  },
   "steps": [
     {
       "n": 1,
@@ -1205,7 +1225,7 @@
       "url": "https://www.klaviyo.com/sign-up",
       "screenshot": "shots/klaviyo/step-14.webp",
       "textFile": "data/captures/klaviyo/page-14.txt",
-      "elapsedMs": 2912,
+      "elapsedMs": 2609,
       "clicks": 1,
       "via": "click: \"Sign up\"",
       "headings": [
@@ -1214,7 +1234,6 @@
       "ctas": [],
       "prices": [],
       "description": "Get started today. Send your first campaign in minutes and put your marketing on autopilot with targeted SMS and email messages that convert into sales.",
-      "note": "Stopped: account form or bot check reached.",
       "signals": {
         "design": {
           "fonts": {
@@ -1243,9 +1262,9 @@
           "stickyHeader": true,
           "colorSchemeMeta": null,
           "pageHeightPx": 900,
-          "domNodes": 378,
-          "domContentLoadedMs": 213,
-          "loadMs": 620
+          "domNodes": 376,
+          "domContentLoadedMs": 220,
+          "loadMs": 612
         },
         "merch": {
           "planCards": 0,
@@ -1256,7 +1275,26 @@
           "promos": [],
           "links": 4
         }
-      }
+      },
+      "form": {
+        "fields": [
+          {
+            "type": "email",
+            "label": "Email"
+          }
+        ],
+        "alternatives": [
+          "Continue with Google",
+          "Continue with email"
+        ],
+        "submit": [
+          "Continue with email"
+        ],
+        "consent": [],
+        "pageHeightPx": 900,
+        "passwordAsked": false
+      },
+      "note": "Stopped here: the page asks for an email or password. Nothing is typed."
     }
   ],
   "navMap": [
@@ -1774,244 +1812,121 @@
         "id": "positioning",
         "title": "Positioning",
         "summary": "Klaviyo has repositioned from email marketing to an 'autonomous B2C CRM' led by two AI agents. Older product pages still sell email on ROI, so the story is mid-transition.",
-        "facts": [
-          {
-            "text": "Category claim on the homepage.",
-            "step": 1,
-            "type": "fact",
-            "quote": "THE AUTONOMOUS B2C CRM"
-          },
-          {
-            "text": "Lead promise is Composer, the AI marketing agent.",
-            "step": 1,
-            "type": "fact",
-            "quote": "Composer turns customer data into revenue. You approve the plan, and every result is measured."
-          },
-          {
-            "text": "Enterprise page repeats the CRM frame.",
-            "step": 5,
-            "type": "fact",
-            "quote": "The B2C CRM built for modern enterprise"
-          },
-          {
-            "text": "The Email product page still leads with an ROI number.",
-            "step": 13,
-            "type": "fact",
-            "quote": "Email marketing that delivers wins—and 63x avg ROI"
-          }
-        ],
-        "gaps": []
+        "keyPoints": [
+          "Homepage: 'THE AUTONOMOUS B2C CRM', led by Composer, an AI marketing agent that you approve step by step.",
+          "The enterprise page repeats the CRM frame; the Email product page still leads with 'Email marketing that delivers wins—and 63x avg ROI'.",
+          "Scale claim repeated across pages: 200,000+ brands in 100 countries."
+        ]
       },
       {
         "id": "offerings",
         "title": "Products and offerings",
-        "summary": "Two agents sit on one data platform: Composer (marketing) and Customer Agent (service). Under them are classic channels (email, SMS, push), flows and segmentation, plus social, reviews, a customer hub and a helpdesk.",
-        "facts": [
-          {
-            "text": "Composer plans, builds and audits for the marketer.",
-            "step": 3,
-            "type": "fact",
-            "quote": "Composer combines your business context, Klaviyo’s marketing expertise, and your connected tools to plan your calendar, build your campaigns, audit your flows, and tell you what to do next."
-          },
-          {
-            "text": "Composer keeps a human approval step.",
-            "step": 3,
-            "type": "fact",
-            "quote": "Composer analyzes, audits, drafts, and automates. You review, then decide what’s next."
-          },
-          {
-            "text": "Customer Agent covers service and selling.",
-            "step": 1,
-            "type": "fact",
-            "quote": "Customer Agent resolves 65% of questions autonomously."
-          },
-          {
-            "text": "Service page argues against ticket deflection.",
-            "step": 11,
-            "type": "fact",
-            "quote": "Most service tools are built to deflect tickets. Klaviyo helps every conversation do more, with opportunities to recommend products, recover carts, and keep customers coming back."
-          },
-          {
-            "text": "Email personalisation draws on a built-in data platform.",
-            "step": 13,
-            "type": "fact",
-            "quote": "Personalize every email with purchase history, browsing behavior, and predicted value—all powered by the built-in Klaviyo Data Platform."
-          }
-        ],
+        "summary": "Two AI agents sit on one data platform, with classic channels and customer tools underneath.",
+        "keyPoints": [],
+        "table": {
+          "columns": [
+            "Product",
+            "What it does"
+          ],
+          "rows": [
+            [
+              "Composer",
+              "AI marketing agent that plans calendars, builds campaigns and audits flows, with human approval"
+            ],
+            [
+              "Customer Agent",
+              "AI customer service that resolves questions and recommends products"
+            ],
+            [
+              "Email, SMS and push",
+              "Campaigns and flows with predicted-value personalization"
+            ],
+            [
+              "Social marketing",
+              "Included in plans for a set number of profiles"
+            ],
+            [
+              "Reviews",
+              "Product reviews, limited by orders per month on lower plans"
+            ],
+            [
+              "Customer Hub",
+              "Customer-facing account and data hub"
+            ],
+            [
+              "Helpdesk",
+              "Ticketing for service teams"
+            ]
+          ]
+        },
         "gaps": [
-          "Flows, segmentation, SMS and forms pages were in the nav but only two product pages were read."
+          "Flows, segmentation, forms and RCS pages were in the navigation but not opened."
         ]
       },
       {
         "id": "pricing",
         "title": "Pricing",
-        "summary": "A free plan, an Email plan from $20 a month and a Marketing plan from $25 a month priced by active profiles, with a custom tier above 150,000 profiles. AI and service products are included in small quantities, then sold as add-ons.",
-        "facts": [
-          {
-            "text": "Free plan limits.",
-            "step": 2,
-            "type": "fact",
-            "quote": "Up to 250 active profiles and 500 emails per month"
-          },
-          {
-            "text": "Free plan includes a small AI allowance.",
-            "step": 2,
-            "type": "fact",
-            "quote": "$10 of Composer usage per month"
-          },
-          {
-            "text": "Free plan includes a Customer Agent allowance.",
-            "step": 2,
-            "type": "fact",
-            "quote": "Customer Agent with 10 resolutions per month"
-          },
-          {
-            "text": "Email plan from $20 for the first tier.",
-            "step": 2,
-            "type": "fact",
-            "quote": "Grow with email. Automate campaigns and build subscribers. $20 /month"
-          },
-          {
-            "text": "Marketing plan list and promo price.",
-            "step": 2,
-            "type": "fact",
-            "quote": "$25 $1 /month"
-          },
-          {
-            "text": "The promo is limited and capped by profile count.",
-            "step": 2,
-            "type": "fact",
-            "quote": "Limited time: Get your first month of an eligible Klaviyo Marketing Plan for just $1, for up to 5,000 active profiles."
-          },
-          {
-            "text": "Above 150,000 profiles, pricing is custom.",
-            "step": 2,
-            "type": "fact",
-            "quote": "Running at scale, or several brands? Talk to sales to build your custom plan."
-          },
-          {
-            "text": "Billing unit is reachable contacts.",
-            "step": 9,
-            "type": "fact",
-            "quote": "Active profiles: Billing is based on reachable contacts, while unsubscribed and suppressed contacts do not count."
-          }
+        "summary": "A free plan, a $20 Email plan and a recommended Marketing plan priced by active profiles, with a custom lane for the largest senders. AI and service products come as small free allowances, then as add-ons.",
+        "keyPoints": [
+          "Billing unit: active profiles, meaning contacts you can reach; unsubscribed and suppressed contacts do not count.",
+          "Marketing plan promo: $1 for the first month, for up to 5,000 active profiles, marked limited time.",
+          "Everything above 250 free profiles is chosen with a profile slider, so higher prices sit behind an interaction."
         ],
+        "table": {
+          "columns": [
+            "Plan",
+            "Price",
+            "Includes"
+          ],
+          "rows": [
+            [
+              "Free",
+              "$0",
+              "250 active profiles, 500 emails a month, $10 of Composer usage, 10 Customer Agent resolutions"
+            ],
+            [
+              "Email",
+              "from $20 a month",
+              "500 active profiles, 5,000 emails a month, plus the free-plan allowances"
+            ],
+            [
+              "Marketing (recommended)",
+              "from $25 a month; $1 first month",
+              "Everything in Email, plus social marketing, reviews with no order limit and Customer Hub"
+            ],
+            [
+              "Custom",
+              "talk to sales",
+              "Over 150,000 active profiles, volume pricing, data warehouse sync, enterprise security"
+            ]
+          ]
+        },
         "gaps": [
-          "Prices above the first profile tier sit behind a slider and were not captured.",
+          "Prices above the first profile tier were not captured.",
           "SMS and Composer add-on prices were not shown."
         ]
       },
       {
         "id": "merchandising",
         "title": "Merchandising",
-        "summary": "A free plan that includes small amounts of every new product, a paid Email plan, a recommended Marketing plan with a $1 first month, and a custom lane. Pricing scales with a profile slider, so most of the price list is behind an interaction. For merchants, personalisation, product recommendations in messages and cart recovery are the merchandising tools.",
-        "facts": [
-          {
-            "text": "The pricing page has a toggle between plans and all products.",
-            "step": 2,
-            "type": "fact",
-            "quote": "Plans All products"
-          },
-          {
-            "text": "The Marketing plan carries a recommended badge.",
-            "step": 2,
-            "type": "fact",
-            "quote": "RECOMMENDED Marketing Scale across channels. Turn traffic into repeat customers."
-          },
-          {
-            "text": "Pricing beyond 250 profiles requires choosing a profile count.",
-            "step": 2,
-            "type": "fact",
-            "quote": "For more than 250 active profiles, choose the plan that's right for you"
-          },
-          {
-            "text": "The slider is the control for choosing a profile count.",
-            "step": 2,
-            "type": "fact",
-            "quote": "Select your number of active profiles"
-          },
-          {
-            "text": "The plan table shows AI and service products as add-ons.",
-            "step": 2,
-            "type": "fact",
-            "quote": "Customer Agent 10 resolutions/mo Add on Add on Custom"
-          },
-          {
-            "text": "There is a table for comparing plans.",
-            "step": 2,
-            "type": "fact",
-            "quote": "Compare plans A closer look at what’s included in each plan."
-          },
-          {
-            "text": "Product pages pair signup with a pricing link.",
-            "step": 13,
-            "type": "fact",
-            "quote": "Sign up View pricing Take a tour"
-          },
-          {
-            "text": "Email personalisation uses purchase history and predicted value.",
-            "step": 13,
-            "type": "fact",
-            "quote": "Personalize every email with purchase history, browsing behavior, and predicted value—all powered by the built-in Klaviyo Data Platform."
-          },
-          {
-            "text": "Service conversations are meant to sell as well as solve.",
-            "step": 11,
-            "type": "fact",
-            "quote": "opportunities to recommend products, recover carts, and keep customers coming back"
-          },
-          {
-            "text": "The pricing page opens with a free-plan card listing nine included allowances, then a grey band with a profile slider set to 500.",
-            "step": 2,
-            "type": "observation"
-          }
-        ],
-        "gaps": [
-          "Prices above the first profile tier were not captured.",
-          "No catalogue or search tooling; Klaviyo works on messages and data, not the storefront."
+        "summary": "A free plan with a sample of every new product is the most generous entry offer of the three. The weakness is how much of the price list sits behind a slider.",
+        "keyPoints": [
+          "The Marketing plan carries a 'recommended' badge, a $1 first month and a comparison table.",
+          "A tab switches the pricing page between plans and all products; AI and service products appear as add-ons.",
+          "Product pages pair 'Sign up' with 'View pricing'.",
+          "For merchants: personalization from purchase history and predicted value, product recommendations inside service conversations, and cart recovery.",
+          "Not shown: catalogue, collections or search tooling. Klaviyo works on messages and data, not the storefront."
         ]
       },
       {
         "id": "platform",
         "title": "Technical platform",
-        "summary": "A public developer site with API reference, SDKs for server and mobile languages, a CLI, an MCP server and an agent-ready docs index. Enterprise copy stresses custom objects, 400+ integrations and warehouse sync.",
-        "facts": [
-          {
-            "text": "API reference scope.",
-            "step": 4,
-            "type": "fact",
-            "quote": "Every endpoint, with its parameters, request and response bodies, and an example request."
-          },
-          {
-            "text": "SDK coverage.",
-            "step": 4,
-            "type": "fact",
-            "quote": "Klaviyo offers SDKs for server-side languages (Python, PHP, Ruby, Node) and mobile platforms (iOS, Android, React Native, Flutter)."
-          },
-          {
-            "text": "Agent connection options.",
-            "step": 4,
-            "type": "fact",
-            "quote": "Connect your AI agent to Klaviyo's docs, OpenAPI spec, MCP server and CLI."
-          },
-          {
-            "text": "Docs are published for machines too.",
-            "step": 4,
-            "type": "fact",
-            "quote": "An index of every page is at https://developers.klaviyo.com/llms.txt."
-          },
-          {
-            "text": "Extensibility claim for enterprise.",
-            "step": 5,
-            "type": "fact",
-            "quote": "Custom objects, APIs, and 400+ integrations extend it without heavy engineering."
-          },
-          {
-            "text": "Positioned beside the customer's own stack.",
-            "step": 5,
-            "type": "fact",
-            "quote": "Klaviyo works with your warehouse, CDP, models, and agents instead of replacing them."
-          }
+        "summary": "A public developer site with an API reference, SDKs for server and mobile languages, a CLI, an MCP server and an agent-ready docs index. Enterprise copy stresses custom objects, 400+ integrations and warehouse sync.",
+        "keyPoints": [
+          "API reference covers every endpoint with parameters, request and response bodies and an example request.",
+          "SDKs: Python, PHP, Ruby and Node on the server; iOS, Android, React Native and Flutter on mobile.",
+          "Agent connection options: docs, an OpenAPI spec, an MCP server and a CLI. The docs publish a machine-readable page index (llms.txt).",
+          "Enterprise page: works with your warehouse, CDP and models rather than replacing them; custom objects, APIs and 400+ integrations."
         ],
         "gaps": [
           "Rate limits and webhook behaviour were not read."
@@ -2020,112 +1935,27 @@
       {
         "id": "design",
         "title": "Design",
-        "summary": "A distinctive palette (white and black with an orange-red band and lime accent), real product UI shown in device frames, and a custom typeface. Marketing, docs and signup each use a different typeface.",
-        "facts": [
-          {
-            "text": "The home page uses a custom typeface, Klaviyo Degular.",
-            "step": 1,
-            "type": "fact",
-            "signal": "Klaviyo Degular"
-          },
-          {
-            "text": "The developer docs headline uses a different typeface.",
-            "step": 4,
-            "type": "fact",
-            "signal": "Geist Pixel Square"
-          },
-          {
-            "text": "The signup page uses another typeface again.",
-            "step": 14,
-            "type": "fact",
-            "signal": "Instrument Sans"
-          },
-          {
-            "text": "The home page has an orange-red background band.",
-            "step": 1,
-            "type": "fact",
-            "signal": "#ff4b33"
-          },
-          {
-            "text": "A lime colour is the accent on home.",
-            "step": 1,
-            "type": "fact",
-            "signal": "#deff00"
-          },
-          {
-            "text": "Home buttons have 2px corners.",
-            "step": 1,
-            "type": "fact",
-            "signal": "\"buttonRadius\":\"2px\""
-          },
-          {
-            "text": "Docs buttons have 12px corners.",
-            "step": 4,
-            "type": "fact",
-            "signal": "\"buttonRadius\":\"12px\""
-          },
-          {
-            "text": "The pricing page is short: 4,436px tall.",
-            "step": 2,
-            "type": "fact",
-            "signal": "\"pageHeightPx\":4436"
-          },
-          {
-            "text": "A lime promo bar sits above the nav, and the home hero pairs a large headline with a laptop-framed screenshot of the product.",
-            "step": 1,
-            "type": "observation"
-          },
-          {
-            "text": "The Composer page switches to a dark theme with a chat-style product mockup and tabs for Analyze, Audit, Create, Automate and Connect.",
-            "step": 3,
-            "type": "observation"
-          }
+        "summary": "Recognizable and built around real product UI in device frames, with a palette that does not look like a template. It is assembled from separate pieces: marketing, docs and signup each use a different typeface.",
+        "keyPoints": [
+          "Home uses a custom typeface (Klaviyo Degular); the docs headline uses Geist Pixel Square and the signup page uses Instrument Sans.",
+          "Palette: white and black with an orange-red band (#ff4b33) and a lime accent (#deff00); a lime promo bar sits above the navigation.",
+          "Button corners are 2px on the home page and 12px in the docs.",
+          "The Composer page switches to a dark theme with a chat-style product mockup; the pricing page is short, 4,436px tall.",
+          "Merchant design control (email and form templates) was not shown in the surveyed pages."
         ],
         "gaps": [
-          "Email and form template design tools were not surveyed, so design control for merchants is not judged."
+          "Email and form design tools were not surveyed."
         ]
       },
       {
         "id": "company",
         "title": "Company presentation",
-        "summary": "The newsroom shows a company in expansion: a headless platform launch, an AI-agents launch, a Google partnership, new regional headquarters and a new CPO after an acquisition. Customer proof is outcome-led with named brands.",
-        "facts": [
-          {
-            "text": "Platform opens to agents.",
-            "step": 7,
-            "type": "fact",
-            "quote": "Klaviyo goes Headless, Opening its Platform to Agents and Marketers Wherever They Work"
-          },
-          {
-            "text": "Strategic partnership.",
-            "step": 7,
-            "type": "fact",
-            "quote": "Klaviyo and Google Announce Strategic Partnership to Power Autonomous Customer Experiences"
-          },
-          {
-            "text": "Leadership change tied to an acquisition.",
-            "step": 7,
-            "type": "fact",
-            "quote": "Klaviyo Appoints Elias Torres as Chief Product Officer Following Strategic Acquisition of Agency Team and Technology"
-          },
-          {
-            "text": "Customer outcome on the stories page.",
-            "step": 6,
-            "type": "fact",
-            "quote": "Thirdlove drives 15x SMS ROI after consolidating email and SMS in Klaviyo"
-          },
-          {
-            "text": "Customer quote presents Klaviyo as the system of record.",
-            "step": 6,
-            "type": "fact",
-            "quote": "For us, Klaviyo is our CRM and our CDP, and it allows us to take data-backed actions to reach our customers."
-          },
-          {
-            "text": "Brand-count claim.",
-            "step": 5,
-            "type": "fact",
-            "quote": "Powering 200,000+ relationship-driven brands"
-          }
+        "summary": "The newsroom shows a company in expansion, and customer proof is outcome-led with named brands.",
+        "keyPoints": [
+          "Recent news: a headless platform opened to agents, an AI-agents launch, a Google partnership and new regional headquarters.",
+          "A new Chief Product Officer was appointed following the acquisition of an agency team and technology.",
+          "Customer proof: Thirdlove reports 15x SMS ROI, and Dermalogica describes Klaviyo as its CRM and CDP.",
+          "Brand-count claim: 200,000+ brands, repeated on several pages."
         ],
         "gaps": [
           "No About page surfaced; the newsroom was the company page."
@@ -2133,6 +1963,7 @@
       }
     ]
   },
+  "signupPath": "'Sign up' goes to klaviyo.com/sign-up, a short page with 'Continue with Google' or an email box and a 'Continue with email' button. Only an email address is asked on this page. What follows was not reached.",
   "scores": {
     "jtbd_fit": {
       "score": 4,

@@ -137,6 +137,9 @@
           },
           "signals": {
             "type": "object"
+          },
+          "form": {
+            "type": "object"
           }
         }
       }
@@ -396,19 +399,19 @@
               "id",
               "title",
               "summary",
-              "facts"
+              "keyPoints"
             ],
             "additionalProperties": false,
             "properties": {
               "id": {
                 "enum": [
+                  "positioning",
                   "offerings",
                   "pricing",
-                  "platform",
-                  "company",
-                  "positioning",
                   "merchandising",
-                  "design"
+                  "platform",
+                  "design",
+                  "company"
                 ]
               },
               "title": {
@@ -417,38 +420,33 @@
               "summary": {
                 "type": "string"
               },
-              "facts": {
+              "keyPoints": {
                 "type": "array",
                 "items": {
-                  "type": "object",
-                  "required": [
-                    "text",
-                    "step",
-                    "type"
-                  ],
-                  "additionalProperties": false,
-                  "properties": {
-                    "text": {
+                  "type": "string"
+                }
+              },
+              "table": {
+                "type": "object",
+                "required": [
+                  "columns",
+                  "rows"
+                ],
+                "additionalProperties": false,
+                "properties": {
+                  "columns": {
+                    "type": "array",
+                    "items": {
                       "type": "string"
-                    },
-                    "step": {
-                      "type": "integer",
-                      "minimum": 1
-                    },
-                    "type": {
-                      "enum": [
-                        "fact",
-                        "inference",
-                        "observation"
-                      ]
-                    },
-                    "quote": {
-                      "type": "string",
-                      "description": "Verbatim text from the page; checked against the saved page text"
-                    },
-                    "signal": {
-                      "type": "string",
-                      "description": "For measured facts: a value that appears in the cited step's signals"
+                    }
+                  },
+                  "rows": {
+                    "type": "array",
+                    "items": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
                     }
                   }
                 }
@@ -466,6 +464,12 @@
     },
     "focus": {
       "type": "string"
+    },
+    "signupPath": {
+      "type": "string"
+    },
+    "signupEnd": {
+      "type": "object"
     }
   }
 }

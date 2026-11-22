@@ -52,7 +52,7 @@ const mpage = await mctx.newPage();
 const t0 = Date.now();
 let prior = null;
 const steps = [];
-let blockedReason, stack = {}, navMap = [];
+let blockedReason, stack = {}, navMap = [], signupEnd = null;
 
 const settle = async (p, ms = 1500) => { await p.waitForLoadState('domcontentloaded').catch(() => {}); await p.waitForTimeout(ms); };
 async function dismissBanners(p) {
@@ -143,6 +143,21 @@ async function extractSignals(p) {
     };
   }).catch(() => ({ design: {}, merch: {} }));
 }
+
+// Describe what the signup page actually asks for (no typing, no clicking): fields, alternatives, consent lines.
+async function describeForm(p) {
+  return p.evaluate(() => {
+    const clean = (t) => (t ?? '').replace(/\s+/g, ' ').trim();
+    const vis = (e) => { const r = e.getBoundingClientRect(); const st = getComputedStyle(e); return r.width > 0 && r.height > 0 && st.visibility !== 'hidden' && st.display !== 'none'; };
+    const labelOf = (e) => clean(e.getAttribute('aria-label') || (e.id && document.querySelector(`label[for="${CSS.escape(e.id)}"]`)?.innerText) || e.closest('label')?.innerText || e.getAttribute('placeholder') || e.getAttribute('name') || e.type);
+    const fields = [...document.querySelectorAll('input,select,textarea')].filter((e) => vis(e) && !['hidden', 'checkbox', 'radio', 'submit', 'button', 'search'].includes(e.type)).map((e) => ({ type: e.tagName === 'SELECT' ? 'select' : e.type || 'text', label: labelOf(e).slice(0, 40) }));
+    const alts = [...new Set([...document.querySelectorAll('a,button')].filter(vis).map((e) => clean(e.innerText)).filter((t) => /^(continue|sign up|log in|sign in|create).{0,6}(with|using)\b|^(continue with|or sign up with)/i.test(t) || /^(google|apple|facebook|microsoft)$/i.test(t)))].slice(0, 5);
+    const submit = [...new Set([...document.querySelectorAll('button,input[type=submit]')].filter(vis).map((e) => clean(e.innerText || e.value)).filter((t) => /^(create|continue|sign up|next|get started|start|submit)/i.test(t) && t.length < 40))].slice(0, 4);
+    const consent = [...document.querySelectorAll('p,span,label,small,div')].filter((e) => e.children.length <= 2 && vis(e)).map((e) => clean(e.innerText)).filter((t) => t.length > 15 && t.length < 160 && /(you agree|by (continuing|creating|signing)|marketing emails|terms of|privacy)/i.test(t)).slice(0, 3);
+    return { fields, alternatives: alts, submit, consent, pageHeightPx: document.documentElement.scrollHeight, passwordAsked: fields.some((f) => f.type === 'password') };
+  }).catch(() => ({ fields: [], alternatives: [], submit: [], consent: [], pageHeightPx: 0, passwordAsked: false }));
+}
+const classifyEnd = (f) => f.passwordAsked || f.fields.length >= 3 ? 'account-form' : f.fields.length >= 1 ? 'email-capture' : 'no-form';
 async function navLinks(p) {
   return p.evaluate(() => {
     const out = []; const seen = new Set();
@@ -285,7 +300,9 @@ try {
     const wall = formUp || /captcha|verify you are human|are you a robot/i.test(body);
     const s = await record(page, 'signup', `click: "${label}"`, true); // keep chrome: the form may live in a dialog/header
     s.elapsedMs = Date.now() - tf; s.clicks = funnelClicks;
-    if (wall) { s.note = 'Stopped: account form or bot check reached.'; blockedReason = `account form reached after ${funnelClicks} click${funnelClicks > 1 ? 's' : ''} from home`; break; }
+    s.form = await describeForm(page);
+    signupEnd = { state: classifyEnd(s.form), url: s.url, clicks: funnelClicks, ...s.form };
+    if (wall) { s.note = 'Stopped here: the page asks for an email or password. Nothing is typed.'; break; }
   }
   }
 } catch (e) { blockedReason = 'capture error: ' + String(e.message).slice(0, 140); }
@@ -297,6 +314,7 @@ const exp = {
   status: steps.length ? 'captured' : 'blocked',
   ...((blockedReason ?? prior?.blockedReason) ? { blockedReason: blockedReason ?? prior.blockedReason } : {}),
   surveyMode: lite ? 'lite' : 'full',
+  ...((signupEnd ?? (homeOnly || signalsOnly ? prior?.signupEnd : { state: 'no-signup-path' })) ? { signupEnd: signupEnd ?? prior?.signupEnd ?? { state: 'no-signup-path' } } : {}),
   steps, navMap: prior?.navMap ?? navMap, stack: prior?.stack ?? stack, sources: [item.url]
 };
 fs.mkdirSync(path.join(root, 'data/experiences'), { recursive: true });

@@ -7,8 +7,39 @@
   "capturedAt": "2026-11-22",
   "rubricVersion": "1.2.0",
   "status": "evaluated",
-  "blockedReason": "account form reached after 1 click from home",
   "surveyMode": "full",
+  "signupEnd": {
+    "state": "account-form",
+    "url": "https://dashboard.stripe.com/register",
+    "clicks": 1,
+    "fields": [
+      {
+        "type": "email",
+        "label": "Email"
+      },
+      {
+        "type": "text",
+        "label": "Full name"
+      },
+      {
+        "type": "password",
+        "label": "Password"
+      }
+    ],
+    "alternatives": [
+      "Google"
+    ],
+    "submit": [
+      "Create account"
+    ],
+    "consent": [
+      "© Stripe Privacy & terms",
+      "© Stripe Privacy & terms",
+      "© Stripe Privacy & terms"
+    ],
+    "pageHeightPx": 900,
+    "passwordAsked": true
+  },
   "steps": [
     {
       "n": 1,
@@ -1531,7 +1562,7 @@
       "url": "https://dashboard.stripe.com/register",
       "screenshot": "shots/stripe/step-14.webp",
       "textFile": "data/captures/stripe/page-14.txt",
-      "elapsedMs": 3026,
+      "elapsedMs": 2939,
       "clicks": 1,
       "via": "click: \"Get started\"",
       "headings": [],
@@ -1557,7 +1588,6 @@
         "y 7:50 AM Net volume from sales $0.00 $0.00 $0.01 $0 Apr 20 Today Updated today 7:50 AM Create your St"
       ],
       "description": "Sign up to quickly create a new Stripe account today and get started accepting payments in minutes.",
-      "note": "Stopped: account form or bot check reached.",
       "signals": {
         "design": {
           "fonts": {
@@ -1587,8 +1617,8 @@
           "colorSchemeMeta": null,
           "pageHeightPx": 900,
           "domNodes": 750,
-          "domContentLoadedMs": 421,
-          "loadMs": 447
+          "domContentLoadedMs": 512,
+          "loadMs": 536
         },
         "merch": {
           "planCards": 4,
@@ -1599,7 +1629,37 @@
           "promos": [],
           "links": 3
         }
-      }
+      },
+      "form": {
+        "fields": [
+          {
+            "type": "email",
+            "label": "Email"
+          },
+          {
+            "type": "text",
+            "label": "Full name"
+          },
+          {
+            "type": "password",
+            "label": "Password"
+          }
+        ],
+        "alternatives": [
+          "Google"
+        ],
+        "submit": [
+          "Create account"
+        ],
+        "consent": [
+          "© Stripe Privacy & terms",
+          "© Stripe Privacy & terms",
+          "© Stripe Privacy & terms"
+        ],
+        "pageHeightPx": 900,
+        "passwordAsked": true
+      },
+      "note": "Stopped here: the page asks for an email or password. Nothing is typed."
     }
   ],
   "navMap": [
@@ -2104,365 +2164,174 @@
       {
         "id": "positioning",
         "title": "Positioning",
-        "summary": "Stripe sells itself as programmable financial infrastructure for any business size, not as a store builder. Each segment page repeats the same frame: one platform, scale from first transaction to enterprise.",
-        "facts": [
-          {
-            "text": "Home headline frames Stripe as infrastructure across payments, banking and custom revenue models.",
-            "step": 1,
-            "type": "fact",
-            "quote": "from your first transaction to your billionth"
-          },
-          {
-            "text": "Startups page targets venture-backed companies with a program and perks.",
-            "step": 11,
-            "type": "fact",
-            "quote": "Designed to support venture-backed businesses that are just getting started."
-          },
-          {
-            "text": "Enterprise page leads with named customers and a volume stat.",
-            "step": 5,
-            "type": "fact",
-            "quote": "Businesses on Stripe generated $1.9 trillion in total volume"
-          }
-        ],
-        "gaps": [
-          "No small-merchant or store-owner landing page appeared in the top-level nav."
+        "summary": "Stripe presents itself as programmable financial infrastructure for businesses of any size, not as a store builder. The same frame runs from the homepage through the startup, enterprise and platform pages.",
+        "keyPoints": [
+          "Homepage promise: accept payments, handle business banking and build custom revenue models, 'from your first transaction to your billionth'.",
+          "Each audience gets its own page: startups (a program with credits and perks), enterprises (named customers and volume figures) and platforms (Connect).",
+          "Nothing in the surveyed navigation speaks to a small store owner directly."
         ]
       },
       {
         "id": "offerings",
         "title": "Products and offerings",
         "summary": "A 53-product catalogue in eight areas: payments, risk, revenue, data, money management, embedded finance, stablecoins and crypto, and the platform itself. A recommender helps visitors who don't know where to start.",
-        "facts": [
-          {
-            "text": "The product index lists 53 products.",
-            "step": 3,
-            "type": "fact",
-            "quote": "Showing 53 products."
-          },
-          {
-            "text": "Checkout is the prebuilt payment UI, with a conversion claim.",
-            "step": 3,
-            "type": "fact",
-            "quote": "Launch a secure, customizable, conversion-optimized checkout."
-          },
-          {
-            "text": "Managed Payments is a merchant-of-record offering that takes on tax, fraud and disputes.",
-            "step": 3,
-            "type": "fact",
-            "quote": "Focus on growth while Stripe Managed Payments handles tax, fraud, disputes, and more as your merchant of record."
-          },
-          {
-            "text": "Terminal covers in-person payments with certified hardware.",
-            "step": 3,
-            "type": "fact",
-            "quote": "Accept in-person payments with precertified devices and unified reporting across online and in-person sales."
-          },
-          {
-            "text": "Capital offers loans and merchant cash advances, repaid as a share of daily sales.",
-            "step": 12,
-            "type": "fact",
-            "quote": "Apply for business loans and merchant cash advances in minutes, with no impact to your personal credit score."
-          },
-          {
-            "text": "Connect is the platform and marketplace product; Shopify and DoorDash are named as users.",
-            "step": 13,
-            "type": "fact",
-            "quote": "The world’s most successful platforms and marketplaces, including Shopify and DoorDash, use Stripe Connect to embed payments into their products."
-          },
-          {
-            "text": "Billing covers subscriptions, usage-based billing and invoicing.",
-            "step": 9,
-            "type": "fact",
-            "quote": "One platform to price, meter, bill, invoice, and grow."
-          }
+        "keyPoints": [
+          "Many product names are insider terms (Authorization Boost, Data Pipeline), so the index leans on filters by use case and product area."
         ],
+        "table": {
+          "columns": [
+            "Product",
+            "What it does"
+          ],
+          "rows": [
+            [
+              "Payments and Checkout",
+              "Online, in-person and agent-led payments, with a prebuilt, customizable checkout"
+            ],
+            [
+              "Managed Payments",
+              "Merchant of record: takes on tax, fraud and disputes"
+            ],
+            [
+              "Terminal",
+              "In-person payments with precertified card readers"
+            ],
+            [
+              "Billing",
+              "Subscriptions, usage-based billing and invoicing"
+            ],
+            [
+              "Connect",
+              "Payments for platforms and marketplaces; Shopify and DoorDash are named users"
+            ],
+            [
+              "Capital",
+              "Loans and merchant cash advances, repaid as a share of daily sales"
+            ],
+            [
+              "Radar",
+              "Fraud prevention"
+            ]
+          ]
+        },
         "gaps": [
-          "Pricing for Billing, Tax, Radar and Connect was not on the pricing page text captured; only payments, disputes, Terminal and Managed Payments were."
+          "Tax, Treasury, Issuing and the crypto products were in the navigation but not opened."
         ]
       },
       {
         "id": "pricing",
         "title": "Pricing",
-        "summary": "Pay-as-you-go with published per-transaction rates and a separate fee list; a 'Custom' tier for volume. Add-ons carry their own monthly or per-event fees.",
-        "facts": [
-          {
-            "text": "Standard card rate.",
-            "step": 2,
-            "type": "fact",
-            "quote": "2.9% + 30¢ per successful transaction for domestic cards"
-          },
-          {
-            "text": "Standard pricing has no monthly or setup fee, by Stripe's statement.",
-            "step": 2,
-            "type": "fact",
-            "quote": "No setup fees, monthly fees, or hidden fees."
-          },
-          {
-            "text": "Custom pricing is for large volume or unusual models and goes through sales.",
-            "step": 2,
-            "type": "fact",
-            "quote": "Design a custom package— available for businesses with large payments volume or unique business models."
-          },
-          {
-            "text": "Buy-now-pay-later is priced above cards.",
-            "step": 2,
-            "type": "fact",
-            "quote": "5.99% + 30¢ per successful transaction for Klarna"
-          },
-          {
-            "text": "Managed Payments (merchant of record) adds 3.5% on top of payments fees.",
-            "step": 2,
-            "type": "fact",
-            "quote": "3.5% per successful Managed Payments transaction in addition to Payments fees"
-          },
-          {
-            "text": "In-person card rate is lower than online.",
-            "step": 2,
-            "type": "fact",
-            "quote": "2.7% + 5¢ per successful transaction for domestic cards"
-          },
-          {
-            "text": "Each dispute costs $15 to receive.",
-            "step": 2,
-            "type": "fact",
-            "quote": "$15.00 for each dispute you receive."
-          },
-          {
-            "text": "AI-prepared dispute evidence is priced as a share of won disputes.",
-            "step": 2,
-            "type": "fact",
-            "quote": "30% of the disputed amount for each dispute you win."
-          },
-          {
-            "text": "Card reader hardware starts at $59.",
-            "step": 2,
-            "type": "fact",
-            "quote": "$59.00 Stripe Reader M2"
-          },
-          {
-            "text": "Stablecoin payments are 1.5%.",
-            "step": 2,
-            "type": "fact",
-            "quote": "1.5% of the transaction amount in USD"
-          }
+        "summary": "Pay as you go with published per-transaction rates and no plan fee, plus a custom lane for large volume or unusual business models. Add-ons carry their own monthly or per-event fees.",
+        "keyPoints": [
+          "Stripe states there are no setup, monthly or hidden fees on standard pricing.",
+          "Custom pricing (interchange-plus, volume, multi-product and country-specific rates) goes through sales."
         ],
+        "table": {
+          "columns": [
+            "Item",
+            "Rate"
+          ],
+          "rows": [
+            [
+              "Online card payments, domestic",
+              "2.9% + 30¢"
+            ],
+            [
+              "In-person card payments, domestic",
+              "2.7% + 5¢"
+            ],
+            [
+              "Buy now, pay later (Klarna)",
+              "5.99% + 30¢"
+            ],
+            [
+              "Stablecoin payments",
+              "1.5%"
+            ],
+            [
+              "Managed Payments (merchant of record)",
+              "3.5% on top of payments fees"
+            ],
+            [
+              "Dispute received",
+              "$15 each"
+            ],
+            [
+              "AI-prepared dispute evidence",
+              "30% of the disputed amount, only when you win"
+            ],
+            [
+              "Invoice after a one-time purchase",
+              "0.4%, capped at $2 per invoice"
+            ],
+            [
+              "Custom domain for hosted pages",
+              "$10 a month"
+            ],
+            [
+              "Card readers",
+              "from $59"
+            ]
+          ]
+        },
         "gaps": [
-          "No single all-in monthly estimate; the visitor adds fees across products themselves.",
-          "IC+ pricing is mentioned but no IC+ rates are shown."
+          "Billing, Tax, Radar and Connect prices were not on the pricing page text.",
+          "No all-in cost estimate; the visitor adds fees across products."
         ]
       },
       {
         "id": "merchandising",
         "title": "Merchandising",
-        "summary": "Stripe merchandises its own offer as a two-lane ladder: a published standard rate for self-serve, and a custom lane for volume and unusual models. The product index helps a lost visitor choose. For merchants, the tools are pricing and checkout models rather than catalogue, search or recommendations.",
-        "facts": [
-          {
-            "text": "The pricing page has a floating tab bar to jump between Standard pricing, Custom pricing and FAQs.",
-            "step": 2,
-            "type": "observation"
-          },
-          {
-            "text": "The custom lane lists the levers it can pull.",
-            "step": 2,
-            "type": "fact",
-            "quote": "IC+ pricing Volume discounts Multi-product discounts Country-specific rates"
-          },
-          {
-            "text": "Add-ons are packaged as included with the standard rate.",
-            "step": 2,
-            "type": "fact",
-            "quote": "Included at no additional charge for businesses on standard payments pricing"
-          },
-          {
-            "text": "The product index has filters and a recommender for visitors who don't know what to pick.",
-            "step": 3,
-            "type": "fact",
-            "quote": "Not sure where to start? Get a recommendation"
-          },
-          {
-            "text": "Filters are by use case and by product area.",
-            "step": 3,
-            "type": "fact",
-            "quote": "Use case Product area"
-          },
-          {
-            "text": "Merchants can sell through no-code payment links.",
-            "step": 2,
-            "type": "fact",
-            "quote": "Accept payments in minutes by generating no-code links."
-          },
-          {
-            "text": "Billing is pitched as the tool for pricing, metering and invoicing models.",
-            "step": 9,
-            "type": "fact",
-            "quote": "One platform to price, meter, bill, invoice, and grow."
-          },
-          {
-            "text": "The Standard card (white, one headline rate) sits beside a dark Custom card with four levers, so the self-serve price reads as the default and sales as the exception.",
-            "step": 2,
-            "type": "observation"
-          }
-        ],
-        "gaps": [
-          "No catalogue, collections, product search or recommendation tooling is presented; Stripe sells the payment and billing layer, not a storefront."
+        "summary": "Stripe merchandises its own offer as two lanes: a standard rate shown first as the default, and a custom lane through sales. For merchants it supplies pricing and checkout models rather than catalogue tools.",
+        "keyPoints": [
+          "The pricing page puts the white Standard card beside a dark Custom card with four levers, so self-serve reads as the default and sales as the exception.",
+          "Standard-rate customers get several features at no extra charge.",
+          "The product index offers filters and a 'Get a recommendation' helper for visitors who don't know what to pick.",
+          "Merchant tools shown: no-code payment links, a customizable checkout, and Billing's usage-based and subscription pricing models.",
+          "Not shown: catalogue, collections, product search or recommendation tooling. Stripe sells the payment layer, not a storefront."
         ]
       },
       {
         "id": "platform",
         "title": "Technical platform",
-        "summary": "The strongest part of the site. A public REST API reference with sandboxes, date-and-name versioned releases, SDKs, a CLI, an app and extension model, and AI-agent tooling, all readable logged out.",
-        "facts": [
-          {
-            "text": "REST, JSON, standard HTTP verbs.",
-            "step": 4,
-            "type": "fact",
-            "quote": "The Stripe API is organized around REST."
-          },
-          {
-            "text": "Official client libraries in seven languages.",
-            "step": 4,
-            "type": "fact",
-            "quote": "Ruby Python PHP Java Node.js Go .NET"
-          },
-          {
-            "text": "A stated limit: one object per request.",
-            "step": 4,
-            "type": "fact",
-            "quote": "The Stripe API doesn’t support bulk updates."
-          },
-          {
-            "text": "Sandboxes exist for testing without touching live data.",
-            "step": 4,
-            "type": "fact",
-            "quote": "You can use the Stripe API in sandboxes without affecting your live data or interacting with banking networks."
-          },
-          {
-            "text": "Public changelog with dated, named API versions.",
-            "step": 10,
-            "type": "fact",
-            "quote": "2026-11-18.endive"
-          },
-          {
-            "text": "Docs list agent tooling alongside classic dev tools.",
-            "step": 10,
-            "type": "fact",
-            "quote": "Model Context Protocol"
-          },
-          {
-            "text": "Docs list an extension model: apps, extensions and custom objects.",
-            "step": 10,
-            "type": "fact",
-            "quote": "Custom objects"
-          }
+        "summary": "The strongest part of the site: a public REST API reference with sandboxes, dated and named releases, SDKs, a CLI, an app and extension model, and AI-agent tooling, all readable logged out.",
+        "keyPoints": [
+          "REST API with JSON and standard HTTP verbs; sandboxes let developers test without touching live data.",
+          "Official client libraries in seven languages: Ruby, Python, PHP, Java, Node.js, Go and .NET.",
+          "Public changelog with dated, named API versions; the latest listed is 2026-11-18, named Endive.",
+          "Developer tools listed include the CLI, Workbench, Terraform and a Visual Studio Code extension.",
+          "Extension model: Stripe apps, extensions and custom objects. AI tooling: Model Context Protocol and agent skills.",
+          "Stated limit: the API does not support bulk updates, so one object per request."
         ],
         "gaps": [
-          "Rate limits, webhooks reliability and SLAs were not read."
+          "Rate limits, webhook reliability and SLAs were not read."
         ]
       },
       {
         "id": "design",
         "title": "Design",
-        "summary": "Large, confident type on a single typeface, a purple accent, and gradient ribbons used as the signature graphic. The marketing site is tightly built; the docs and the pricing page drift from it in small ways.",
-        "facts": [
-          {
-            "text": "One typeface, sohne-var, sets the home page headline and body.",
-            "step": 1,
-            "type": "fact",
-            "signal": "sohne-var"
-          },
-          {
-            "text": "The home page accent is one purple.",
-            "step": 1,
-            "type": "fact",
-            "signal": "#533afd"
-          },
-          {
-            "text": "The pricing page accent is a different purple.",
-            "step": 2,
-            "type": "fact",
-            "signal": "#635bff"
-          },
-          {
-            "text": "Home buttons have 4px corners.",
-            "step": 1,
-            "type": "fact",
-            "signal": "\"buttonRadius\":\"4px\""
-          },
-          {
-            "text": "Pricing page buttons are near-pills at 16.5px.",
-            "step": 2,
-            "type": "fact",
-            "signal": "16.5px"
-          },
-          {
-            "text": "The API reference sets text in the system font rather than the brand typeface.",
-            "step": 4,
-            "type": "fact",
-            "signal": "-apple-system"
-          },
-          {
-            "text": "The pricing page is long: 23,309px tall.",
-            "step": 2,
-            "type": "fact",
-            "signal": "\"pageHeightPx\":23309"
-          },
-          {
-            "text": "On the home page a multicolour gradient ribbon runs diagonally through the headline, crossing words such as 'your revenue' and 'banking'.",
-            "step": 1,
-            "type": "observation"
-          },
-          {
-            "text": "The product index leads with a search box, two filters and a side navigation of eight product areas.",
-            "step": 3,
-            "type": "observation"
-          },
-          {
-            "text": "Merchants can customise the payment UI.",
-            "step": 3,
-            "type": "fact",
-            "quote": "Launch a secure, customizable, conversion-optimized checkout."
-          }
+        "summary": "Large, confident type on a single typeface, a purple accent and gradient ribbons as the signature graphic. The marketing site is tightly built; the pricing page and docs drift from it in small ways.",
+        "keyPoints": [
+          "One typeface (sohne-var) and one primary button give each page a single focus.",
+          "Two purples are in use: #533afd on the home page and #635bff on the pricing page.",
+          "Button corners are 4px on the home page and 16.5px on pricing; the API reference sets text in the system font.",
+          "On the home page a gradient ribbon runs through the headline, crossing words such as 'your revenue' and 'banking'.",
+          "The pricing page is long, 23,309px tall, with the Standard and Custom cards as its focal point.",
+          "For merchants, Checkout is described as customizable; no theme or brand-kit tooling was surveyed."
         ],
         "gaps": [
-          "Dark mode, motion and the signup form's own styling were not assessed."
+          "Dark mode and motion were not assessed."
         ]
       },
       {
         "id": "company",
         "title": "Company presentation",
-        "summary": "A mission-led narrative: improve conditions for economic growth. Proof is customer outcomes with named brands and large aggregate numbers. The volume figures are phrased differently from page to page.",
-        "facts": [
-          {
-            "text": "Mission statement.",
-            "step": 7,
-            "type": "fact",
-            "quote": "We build programmable financial infrastructure, rethinking from first principles how financial services should work, to make it easier and cheaper for any business to start and scale."
-          },
-          {
-            "text": "Scale claim on About.",
-            "step": 7,
-            "type": "fact",
-            "quote": "More than 5 million businesses build on Stripe"
-          },
-          {
-            "text": "Share-of-GDP framing on About.",
-            "step": 7,
-            "type": "fact",
-            "quote": "They process trillions of dollars a year on Stripe, equivalent to around 1.8% of global GDP."
-          },
-          {
-            "text": "The customers page puts volume lower than the About page does.",
-            "step": 6,
-            "type": "fact",
-            "quote": "we process hundreds of billions of dollars each year for every size of business"
-          },
-          {
-            "text": "Customer proof is outcome-led, with named brands.",
-            "step": 6,
-            "type": "fact",
-            "quote": "uplift in Twilio’s payment acceptance rate"
-          }
+        "summary": "A mission-led story about economic growth, with proof from named customer outcomes and very large aggregate numbers. The volume figures are worded differently from page to page.",
+        "keyPoints": [
+          "Mission: build programmable financial infrastructure to make it easier and cheaper for any business to start and scale.",
+          "Scale claims: more than 5 million businesses, around 1.8% of global GDP, and $1.9 trillion in volume on the Enterprise page.",
+          "The Customers page says Stripe processes 'hundreds of billions of dollars each year'; the About page says 'trillions'.",
+          "Customer proof leads with outcomes: a $70M revenue increase at Postmates, a 10% acceptance uplift at Twilio, and Intercom going live on usage-based billing in 3 months."
         ],
         "gaps": [
           "No leadership or investor information in the surveyed pages."
@@ -2470,6 +2339,7 @@
       }
     ]
   },
+  "signupPath": "'Get started' opens dashboard.stripe.com/register, a real account form: email, full name, password and country, with a 'Create account' button and a Google sign-up option, shown over a demo dashboard. It took one click from the homepage. Nothing was entered, so what happens after account creation was not seen.",
   "scores": {
     "jtbd_fit": {
       "score": 4,

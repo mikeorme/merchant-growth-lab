@@ -9,7 +9,7 @@ const id = process.argv[2];
 const ev = JSON.parse(fs.readFileSync(path.join(root, 'data/evaluations', id + '.json'), 'utf8'));
 const p = path.join(root, 'data/experiences', id + '.json');
 const e = JSON.parse(fs.readFileSync(p, 'utf8'));
-for (const k of ['dossier', 'scores', 'read', 'claims']) if (ev[k] !== undefined) e[k] = ev[k]; else delete e[k];
+for (const k of ['dossier', 'signupPath', 'scores', 'read', 'claims']) if (ev[k] !== undefined) e[k] = ev[k]; else delete e[k];
 e.status = 'evaluated';
 e.rubricVersion = JSON.parse(fs.readFileSync(path.join(root, 'data/rubric.json'), 'utf8')).version;
 const ci = JSON.parse(fs.readFileSync(path.join(root, 'data/corpus.json'), 'utf8')).items.find((i) => i.id === id);

@@ -1,4 +1,4 @@
-// Smoke test against `astro preview`: blind-first flow, theme, mobile overflow. Usage: node scripts/smoke.mjs [outDir]
+// Smoke test against `astro preview`: structure, no scoring UI, hypothesis card, filmstrip, theme, mobile overflow. Usage: node scripts/smoke.mjs [outDir]
 import { chromium } from 'playwright';
 import fs from 'node:fs';
 const out = process.argv[2] ?? '/tmp/mgl-smoke';
@@ -9,39 +9,42 @@ const errs = []; let fails = 0;
 const ok = (c, m) => { console.log(c ? 'PASS' : 'FAIL', m); if (!c) fails++; };
 const ctx = await b.newContext({ viewport: { width: 1360, height: 900 }, colorScheme: 'light' });
 const p = await ctx.newPage();
-p.on('pageerror', (e) => errs.push(e.message)); p.on('console', (m) => m.type() === 'error' && errs.push(m.text()));
-await p.goto(B); await p.waitForSelector('h1');
-ok((await p.locator('h1').innerText()).includes('Stripe'), 'Today shows Stripe');
-ok(await p.locator('#read').getAttribute('data-locked') === 'true', 'read sealed initially');
-ok(!(await p.locator('.read-body').isVisible()), 'read body hidden while sealed');
-await p.screenshot({ path: out + '/today-light.png', fullPage: false });
-await p.locator('#verdict').fill('Clean, credible, a bit enterprise.');
-for (const d of ['jtbd_fit', 'friction', 'trust', 'value_prop_clarity']) await p.locator(`fieldset[data-dim=${d}] label:nth-child(4)`).click();
-await p.locator('fieldset[data-dim=pricing_transparency] label:nth-child(6)').click();
-ok(await p.locator('#submit').isEnabled(), 'submit enabled after verdict + scores');
-await p.locator('#submit').click();
-ok(await p.locator('#reveal').isVisible(), 'reveal offered after submit');
-await p.reload(); await p.waitForSelector('#reveal');
-ok(await p.locator('#reveal').isVisible() && (await p.locator('#verdict').inputValue()).startsWith('Clean'), 'state restored after reload');
-await p.locator('#reveal').click();
-ok(await p.locator('.read-body').isVisible(), 'read opens after reveal');
-ok((await p.locator('[data-row=trust] [data-you]').innerText()).trim() === '4', 'your mark shown beside Lab');
-await p.screenshot({ path: out + '/read-light.png', fullPage: true });
+let expect404 = false;
+p.on('pageerror', (e) => errs.push(e.message)); p.on('console', (m) => m.type() === 'error' && !expect404 && errs.push(m.text()));
+await p.goto(B + 'experience/stripe/'); await p.waitForSelector('h1');
+ok((await p.locator('h1').innerText()).trim() === 'Site survey', 'title is "Site survey"');
+ok((await p.locator('.exp-sub').innerText()).includes('Stripe'), 'company name shown under the title');
+ok((await p.locator('section.dossier h2').innerText()) === 'Site messaging', 'section is named "Site messaging"');
+ok(!(await p.locator('section.dossier').innerText()).includes('Facts only'), 'no "Facts only" sub-text');
+ok((await p.locator('section.dossier blockquote').count()) === 0 && (await p.locator('section.dossier [data-jump]').count()) === 0, 'site messaging has no quotes or citations');
+ok((await p.locator('section.dossier .dsec').count()) === 7, 'seven site-messaging subsections');
+ok((await p.locator('section.dossier .dtable').count()) >= 2, 'tables used for offerings and pricing');
+ok((await p.locator('#verdict, .scorecard, #submit, #skip, #reveal, [data-you]').count()) === 0, 'no scoring or verdict UI');
+ok(!(await p.locator('body').innerText()).includes('Where it ended'), 'no "Where it ended" label');
+ok((await p.locator('aside.margin').first().innerText()).toLowerCase().includes('signup path'), 'signup path described');
+ok(await p.locator('#read .read-body, #read').first().isVisible() && (await p.locator('#read').innerText()).includes('Merchandising'), 'Lab notes open, with merchandising');
+ok((await p.locator('#read tbody tr [class*=dot][class*=you]').count()) === 0, 'no "You" marks in the scores table');
+await p.screenshot({ path: out + '/survey-light.png', fullPage: false });
 await p.locator('.strip button[data-step="2"]').click();
 ok((await p.locator('#ribbon').innerText()).includes('2/14'), 'scrubber advances');
-await p.goto(B + 'calibration/'); ok((await p.locator('#out').innerText()).includes('of 5'), 'calibration shows threshold');
+await p.locator('[data-hyp=accepted]').click();
+ok((await p.locator('#hyp-status').innerText()).includes('accepted'), 'hypothesis can be accepted');
+await p.goto(B); ok((await p.locator('h1').first().innerText()).length > 10, 'Today renders a brief headline');
+ok((await p.locator('.nav a').allInnerTexts()).join(',').match(/Calibration|Data/) === null, 'nav has no Calibration or Data');
+expect404 = true;
+for (const gone of ['calibration/', 'data/']) { const r = await p.goto(B + gone); ok(r.status() === 404, `/${gone} is gone`); }
+expect404 = false;
 await p.goto(B + 'archive/'); ok((await p.locator('#cat tbody tr').count()) === 100, 'archive lists 100');
+ok((await p.locator('#f-mine').count()) === 0, 'archive has no "scored by you" filter');
 await p.locator('#f-status').selectOption('evaluated'); ok((await p.locator('#cat tbody tr:visible').count()) === 3, 'status filter works');
-await p.locator('#f-status').selectOption(''); await p.screenshot({ path: out + '/archive-light.png' });
-await p.goto(B + 'compare/?ids=stripe,klaviyo'); ok((await p.locator('#out table').count()) === 1, 'compare renders');
+await p.goto(B + 'compare/?ids=stripe,klaviyo'); ok((await p.locator('#out table').count()) === 1 && !(await p.locator('#out').innerText()).includes('you'), 'compare renders, Lab only');
 const d = await b.newContext({ viewport: { width: 1360, height: 900 }, colorScheme: 'dark' });
-const pd = await d.newPage(); await pd.goto(B); await pd.screenshot({ path: out + '/today-dark.png' });
+const pd = await d.newPage(); await pd.goto(B + 'experience/klaviyo/'); await pd.screenshot({ path: out + '/survey-dark.png' });
 const m = await b.newContext({ viewport: { width: 375, height: 800 }, deviceScaleFactor: 2 });
-const pm = await m.newPage(); await pm.goto(B);
-for (const path of ['', 'archive/', 'experience/shopify/', 'data/', 'compare/']) {
+const pm = await m.newPage();
+for (const path of ['', 'archive/', 'experience/shopify/', 'experience/klaviyo/', 'compare/']) {
   await pm.goto(B + path); const over = await pm.evaluate(() => document.documentElement.scrollWidth > innerWidth + 1);
   ok(!over, `no horizontal page scroll at 375px: /${path}`);
 }
-await pm.goto(B); await pm.screenshot({ path: out + '/today-mobile.png' });
 ok(errs.length === 0, 'no console errors ' + errs.slice(0, 3).join(' | '));
 await b.close(); process.exit(fails ? 1 : 0);

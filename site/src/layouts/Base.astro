@@ -2,11 +2,10 @@
 import '../styles/global.css';
 import { base, rubric } from '../lib/data';
 interface Props { title: string; description?: string; rail?: string }
-const { title, description = 'Screenshotted merchant-growth flows, examined against a written rubric.', rail = 'Specimen cabinet' } = Astro.props;
+const { title, description = 'Site surveys of merchant-growth products: offerings, pricing, merchandising, platform, design and company.', rail = 'Specimen cabinet' } = Astro.props;
 const path = Astro.url.pathname;
 const nav = [
   ['Today', base('')], ['Archive', base('archive/')], ['Compare', base('compare/')],
-  ['Calibration', base('calibration/')], ['Data', base('data/')],
 ];
 const isCurrent = (href: string) => (href === base('') ? path === href : path.startsWith(href));
 ---

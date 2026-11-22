@@ -7,8 +7,26 @@
   "capturedAt": "2026-11-22",
   "rubricVersion": "1.2.0",
   "status": "evaluated",
-  "blockedReason": "account form reached after 1 click from home",
   "surveyMode": "full",
+  "signupEnd": {
+    "state": "email-capture",
+    "url": "https://www.shopify.com/start",
+    "clicks": 1,
+    "fields": [
+      {
+        "type": "email",
+        "label": "Enter your email"
+      }
+    ],
+    "alternatives": [],
+    "submit": [],
+    "consent": [
+      "You agree to receive Shopify marketing emails.",
+      "Your Privacy Choices"
+    ],
+    "pageHeightPx": 10326,
+    "passwordAsked": false
+  },
   "steps": [
     {
       "n": 1,
@@ -1210,6 +1228,7 @@
       "url": "https://www.shopify.com/start",
       "screenshot": "shots/shopify/step-13.webp",
       "textFile": "data/captures/shopify/page-13.txt",
+      "elapsedMs": 7643,
       "clicks": 1,
       "via": "click: \"Get started fast You could be selling by tomorrow.\"",
       "headings": [
@@ -1261,7 +1280,6 @@
         "3 days free Extend your trial for $1 Earn up to $10,000 in credits Enter your email You agree to receiv"
       ],
       "description": "Choose a design, add products, get paid. Get started for free.",
-      "note": "Stopped: account form or bot check reached.",
       "signals": {
         "design": {
           "fonts": {
@@ -1294,8 +1312,8 @@
           "colorSchemeMeta": null,
           "pageHeightPx": 10326,
           "domNodes": 1724,
-          "domContentLoadedMs": 114,
-          "loadMs": 178
+          "domContentLoadedMs": 92,
+          "loadMs": 238
         },
         "merch": {
           "planCards": 4,
@@ -1308,7 +1326,24 @@
           "promos": [],
           "links": 92
         }
-      }
+      },
+      "form": {
+        "fields": [
+          {
+            "type": "email",
+            "label": "Enter your email"
+          }
+        ],
+        "alternatives": [],
+        "submit": [],
+        "consent": [
+          "You agree to receive Shopify marketing emails.",
+          "Your Privacy Choices"
+        ],
+        "pageHeightPx": 10326,
+        "passwordAsked": false
+      },
+      "note": "Stopped here: the page asks for an email or password. Nothing is typed."
     }
   ],
   "navMap": [
@@ -1816,161 +1851,111 @@
       {
         "id": "positioning",
         "title": "Positioning",
-        "summary": "Shopify sells itself as the one place to run commerce everywhere people shop, with AI and 'agentic' selling as the current headline. Enterprise, B2B and POS pages reuse the same checkout and conversion proof.",
-        "facts": [
-          {
-            "text": "Home promise.",
-            "step": 1,
-            "type": "fact",
-            "quote": "Dream big and build fast on Shopify. The world’s best commerce platform."
-          },
-          {
-            "text": "Sell-everywhere frame.",
-            "step": 1,
-            "type": "fact",
-            "quote": "Sell everywhere people shop. Online and in person. Across AI and on social. Locally and globally."
-          },
-          {
-            "text": "Enterprise page leads with 'without compromise'.",
-            "step": 5,
-            "type": "fact",
-            "quote": "Enterprise commerce without compromise"
-          },
-          {
-            "text": "The Fall '26 Edition is framed around opening the stack to agents.",
-            "step": 6,
-            "type": "fact",
-            "quote": "The Fall '26 Edition opens Shopify's catalog, cart, and checkout to any agent or app, with new tools for building and securing apps and storefronts."
-          }
-        ],
-        "gaps": [
-          "The homepage hero headline ('Be the next AI all-star') says nothing about what a merchant gets; the subhead does."
+        "summary": "Shopify sells itself as the one place to run commerce everywhere people shop: online, in person, on social and now inside AI chats. AI and 'agentic' selling are the headline of its Fall '26 Edition.",
+        "keyPoints": [
+          "Homepage promise: 'Dream big and build fast on Shopify. The world's best commerce platform.' The superlative has no evidence on the page.",
+          "The enterprise page leads with conversion and cost: up to 36% better conversion and 33% lower total cost of ownership.",
+          "The hero headline, 'Be the next AI all-star', does not say what a merchant gets; the sub-line and /start page do."
         ]
       },
       {
         "id": "offerings",
         "title": "Products and offerings",
-        "summary": "Organised by merchant job rather than by product name: build a website, sell anywhere, marketing and analytics, run the business, get paid, and extend. Newer lines are Sidekick (AI assistant), Agentic Storefronts and Catalog.",
-        "facts": [
-          {
-            "text": "Store builder with AI or prebuilt themes.",
-            "step": 1,
-            "type": "fact",
-            "quote": "Build your online store instantly with AI. Or use prebuilt themes."
-          },
-          {
-            "text": "Agentic Storefronts put products inside AI chats.",
-            "step": 8,
-            "type": "fact",
-            "quote": "With Agentic Storefronts, your products show up instantly in ChatGPT, Gemini, and more. Shoppers discover and buy without leaving the chat."
-          },
-          {
-            "text": "Sales channels connect marketplaces.",
-            "step": 9,
-            "type": "fact",
-            "quote": "Connect your product catalog to the top online marketplaces like Amazon, Walmart, eBay, and more."
-          },
-          {
-            "text": "B2B is included on every plan from Basic.",
-            "step": 10,
-            "type": "fact",
-            "quote": "Available on all plans starting from Basic."
-          },
-          {
-            "text": "POS is sold with a hardware-bundle offer.",
-            "step": 11,
-            "type": "fact",
-            "quote": "Get free hardware and more with 1 year of POS Pro — offer worth $2,400."
-          },
-          {
-            "text": "Marketing tools are bundled into the admin.",
-            "step": 12,
-            "type": "fact",
-            "quote": "Find more customers, build profitable relationships, and make strategic decisions with unbiased data—all from one place."
-          },
-          {
-            "text": "The signup path offers AI or theme store setup.",
-            "step": 13,
-            "type": "fact",
-            "quote": "Start with a stunning prebuilt theme or describe what you want and generate a store with AI."
-          }
-        ],
+        "summary": "The navigation groups products by merchant job rather than by product name: build a website, sell anywhere, marketing and analytics, run your business, get paid, and extend Shopify.",
+        "keyPoints": [],
+        "table": {
+          "columns": [
+            "Product",
+            "What it does"
+          ],
+          "rows": [
+            [
+              "Online store",
+              "AI-generated or prebuilt-theme store"
+            ],
+            [
+              "Checkout and Shop Pay",
+              "One-click checkout, sold as the best-converting one"
+            ],
+            [
+              "Point of sale",
+              "In-person selling with hardware and a POS Pro add-on"
+            ],
+            [
+              "Agentic Storefronts and Catalog",
+              "Products appear and sell inside ChatGPT, Gemini and other AI chats"
+            ],
+            [
+              "Sales channels",
+              "Marketplaces (Amazon, Walmart, eBay), social platforms and Google"
+            ],
+            [
+              "B2B",
+              "Self-serve wholesale for manufacturers and distributors, on all plans from Basic"
+            ],
+            [
+              "Marketing tools",
+              "Campaigns, audiences, email and automation inside the admin"
+            ],
+            [
+              "Sidekick",
+              "Built-in AI assistant"
+            ]
+          ]
+        },
         "gaps": [
-          "Payments, Shipping, Taxes and Finances & Funding pages were in the nav but not surveyed."
+          "Payments, Shipping, Taxes and Finances and Funding pages were in the navigation but not opened."
         ]
       },
       {
         "id": "pricing",
         "title": "Pricing",
-        "summary": "Four published monthly plans, a cheaper yearly price, a per-plan card rate, one add-on, and a $0 'Agentic' plan. Trial terms are stated differently on different pages.",
-        "facts": [
-          {
-            "text": "Trial offer on pricing page.",
-            "step": 2,
-            "type": "fact",
-            "quote": "Try 3 days free, then $1/month for 3 months."
-          },
-          {
-            "text": "Channels page states the trial differently.",
-            "step": 9,
-            "type": "fact",
-            "quote": "Try Shopify free for 3 days, no credit card required."
-          },
-          {
-            "text": "Basic plan.",
-            "step": 2,
-            "type": "fact",
-            "quote": "Basic $29/mo For solo entrepreneurs"
-          },
-          {
-            "text": "Grow plan.",
-            "step": 2,
-            "type": "fact",
-            "quote": "Grow $79/mo For small teams"
-          },
-          {
-            "text": "Advanced plan.",
-            "step": 2,
-            "type": "fact",
-            "quote": "Advanced $299/mo For global reach"
-          },
-          {
-            "text": "Plus starts at $2,300 a month.",
-            "step": 2,
-            "type": "fact",
-            "quote": "Plus from $2,300/mo For complex businesses"
-          },
-          {
-            "text": "Monthly billing costs more than yearly.",
-            "step": 2,
-            "type": "fact",
-            "quote": "Pay monthly $39 USD/mo $105 USD/mo $399 USD/mo Starts at $2,300 USD/mo"
-          },
-          {
-            "text": "Card rate falls as the plan rises; Basic is 2.9% + 30¢.",
-            "step": 2,
-            "type": "fact",
-            "quote": "Card rates from 2.9% + 30¢ USD"
-          },
-          {
-            "text": "Plus card rate.",
-            "step": 2,
-            "type": "fact",
-            "quote": "Card rates from 2.25% + 30¢ USD"
-          },
-          {
-            "text": "POS Pro is a monthly add-on.",
-            "step": 2,
-            "type": "fact",
-            "quote": "POS Pro ADD ON +$89/mo For physical storefronts"
-          },
-          {
-            "text": "A pay-per-sale plan for selling in AI channels.",
-            "step": 2,
-            "type": "fact",
-            "quote": "Agentic $0/mo For selling in AI channels"
-          }
+        "summary": "Four published monthly plans with a cheaper yearly price, a card rate that falls as the plan rises, one add-on and a $0 plan for AI channels. Trial terms are worded differently on different pages.",
+        "keyPoints": [
+          "Pricing page entry offer: 3 days free, then $1 a month for 3 months. The channels page says 'free for 3 days, no credit card required'.",
+          "Every plan returns 1% of sales as subscription credit (0.5% on non-Shopify Payments).",
+          "POS Pro is a $89 a month add-on; the POS page pairs it with a hardware offer worth $2,400.",
+          "The Agentic plan is $0 a month, takes cards from 2.9% + 30¢ online, and you pay only when you make a sale."
         ],
+        "table": {
+          "columns": [
+            "Plan",
+            "Pay monthly",
+            "Pay yearly",
+            "Card rate",
+            "Built for"
+          ],
+          "rows": [
+            [
+              "Basic",
+              "$39 a month",
+              "$29 a month",
+              "2.9% + 30¢",
+              "Solo entrepreneurs"
+            ],
+            [
+              "Grow",
+              "$105 a month",
+              "$79 a month",
+              "2.7% + 30¢",
+              "Small teams"
+            ],
+            [
+              "Advanced",
+              "$399 a month",
+              "$299 a month",
+              "2.5% + 30¢",
+              "Global reach"
+            ],
+            [
+              "Plus",
+              "from $2,300 a month",
+              "not shown",
+              "2.25% + 30¢",
+              "Complex businesses"
+            ]
+          ]
+        },
         "gaps": [
           "App, theme and domain costs were not on the page.",
           "Third-party payment gateway fees were not shown."
@@ -1979,120 +1964,25 @@
       {
         "id": "merchandising",
         "title": "Merchandising",
-        "summary": "The most deliberate offer ladder of the three: a low-cost trial, yearly savings, a rebate paid as subscription credit, a hardware add-on, a $0 plan for a new channel, and a customizable-checkout tier that only the top plan unlocks. For merchants, catalogue, discounts, pre-orders and subscriptions are shown; collections and search were not surveyed.",
-        "facts": [
-          {
-            "text": "Entry offer.",
-            "step": 2,
-            "type": "fact",
-            "quote": "Try 3 days free, then $1/month for 3 months."
-          },
-          {
-            "text": "Yearly billing is a visible toggle next to a link to compare all features.",
-            "step": 2,
-            "type": "fact",
-            "quote": "Pay yearly Compare all features"
-          },
-          {
-            "text": "Each plan names its buyer.",
-            "step": 2,
-            "type": "fact",
-            "quote": "Basic $29/mo For solo entrepreneurs"
-          },
-          {
-            "text": "Every plan returns a share of sales as subscription credit.",
-            "step": 2,
-            "type": "fact",
-            "quote": "Earn 1% back on all sales as subscription credits (0.5% on non-Shopify Payments)."
-          },
-          {
-            "text": "Checkout customization is gated to the top plan.",
-            "step": 2,
-            "type": "fact",
-            "quote": "Fully customizable checkout"
-          },
-          {
-            "text": "Hardware is sold through a POS add-on.",
-            "step": 2,
-            "type": "fact",
-            "quote": "POS Pro ADD ON +$89/mo For physical storefronts"
-          },
-          {
-            "text": "The POS page pairs the add-on with a hardware offer.",
-            "step": 11,
-            "type": "fact",
-            "quote": "Get free hardware and more with 1 year of POS Pro — offer worth $2,400."
-          },
-          {
-            "text": "A $0 plan is pay-per-sale for a new channel.",
-            "step": 2,
-            "type": "fact",
-            "quote": "Agentic $0/mo For selling in AI channels"
-          },
-          {
-            "text": "Merchants are told Shopify structures product data for AI discovery.",
-            "step": 8,
-            "type": "fact",
-            "quote": "Shopify Catalog automatically structures your product data so AI can find and surface your products."
-          },
-          {
-            "text": "Checkout supports pre-orders, subscriptions and personalized discounts.",
-            "step": 3,
-            "type": "fact",
-            "quote": "Give customers more ways to buy with choices like pre-orders and subscriptions, and options to add personalized discounts."
-          },
-          {
-            "text": "Four plan cards sit in a row, each with a bold price, an outlined button and a bullet ladder that starts 'Everything in' the plan below.",
-            "step": 2,
-            "type": "observation"
-          }
-        ],
-        "gaps": [
-          "Collections, on-site search and recommendation tools were not on the surveyed pages.",
-          "The signup path's own packaging after the email step was not seen."
+        "summary": "The most deliberate offer ladder of the three. Every rung lowers a different kind of risk, and the top plan keeps a reason to move up.",
+        "keyPoints": [
+          "Entry offer, yearly saving and a sales rebate paid as subscription credit each address a different hesitation.",
+          "Each plan names its buyer and its bullets start 'Everything in' the plan below; a compare-all-features link and a yearly toggle sit above the cards.",
+          "Fully customizable checkout is held back for Plus; POS and AI channels are sold as an add-on and a $0 pay-per-sale plan.",
+          "For merchants: Shopify Catalog structures product data for AI discovery, and checkout supports discounts, gift cards, pre-orders and subscriptions.",
+          "Not surveyed: collections, on-site search and recommendation tools."
         ]
       },
       {
         "id": "platform",
         "title": "Technical platform",
-        "summary": "A separate developer site (shopify.dev) with docs for apps, storefronts and agents, a CLI, and an AI toolkit. Apps can extend admin, online store and checkout. APIs are named for B2B integration. The API reference itself was not surveyed.",
-        "facts": [
-          {
-            "text": "Docs landing page scope.",
-            "step": 4,
-            "type": "fact",
-            "quote": "Learn how to build an app, or customize your storefront."
-          },
-          {
-            "text": "Apps extend the admin, storefront and checkout.",
-            "step": 4,
-            "type": "fact",
-            "quote": "Extend Shopify's core functionality with apps that integrate into Shopify's admin, online store, checkout and more."
-          },
-          {
-            "text": "Custom storefronts via themes or Hydrogen.",
-            "step": 4,
-            "type": "fact",
-            "quote": "Help merchants express their unique brand by building a custom theme or Hydrogen storefront."
-          },
-          {
-            "text": "Agent-building docs exist.",
-            "step": 4,
-            "type": "fact",
-            "quote": "Build agentic shopping experiences powered by Shopify merchants, from product discovery to checkout."
-          },
-          {
-            "text": "AI coding assistant integration.",
-            "step": 4,
-            "type": "fact",
-            "quote": "Connect your AI coding assistant to Shopify docs, API schemas, and Shopify CLI."
-          },
-          {
-            "text": "B2B page points to APIs for ERP integration.",
-            "step": 10,
-            "type": "fact",
-            "quote": "Use Shopify's APIs to integrate with any ERP and tech stack to create custom solutions."
-          }
+        "summary": "A separate developer site (shopify.dev) with docs for apps, storefronts and agents, a CLI and an AI toolkit. Apps can extend the admin, online store and checkout. The API reference itself was not opened.",
+        "keyPoints": [
+          "Apps extend the admin, online store, checkout and more.",
+          "Storefronts can be custom themes or Hydrogen.",
+          "A section covers building agentic shopping experiences, and an AI toolkit connects coding assistants to the docs, API schemas and CLI.",
+          "The B2B page points to APIs for ERP integration.",
+          "The Fall '26 Edition is described as opening the catalog, cart and checkout to any agent or app."
         ],
         "gaps": [
           "No API reference, rate limits or webhook pages were read."
@@ -2101,118 +1991,27 @@
       {
         "id": "design",
         "title": "Design",
-        "summary": "A dark, cinematic system: near-black backgrounds, full-bleed video, very large type and pill buttons, held together by one typeface. Marketing and docs share the family. The page is heavy on media.",
-        "facts": [
-          {
-            "text": "One typeface family sets home and pricing.",
-            "step": 1,
-            "type": "fact",
-            "signal": "Shopify-Inter"
-          },
-          {
-            "text": "The developer docs use the same family under its plain name.",
-            "step": 4,
-            "type": "fact",
-            "signal": "\"h1\":\"Inter\""
-          },
-          {
-            "text": "Buttons are full pills on home.",
-            "step": 1,
-            "type": "fact",
-            "signal": "9999px"
-          },
-          {
-            "text": "The signup page keeps the pill buttons.",
-            "step": 13,
-            "type": "fact",
-            "signal": "9999px"
-          },
-          {
-            "text": "The home background is near-black.",
-            "step": 1,
-            "type": "fact",
-            "signal": "#02090a"
-          },
-          {
-            "text": "The home headline is set at 96px.",
-            "step": 1,
-            "type": "fact",
-            "signal": "\"h1Px\":96"
-          },
-          {
-            "text": "The home page carries 15 videos.",
-            "step": 1,
-            "type": "fact",
-            "signal": "\"videos\":15"
-          },
-          {
-            "text": "The header is sticky.",
-            "step": 1,
-            "type": "fact",
-            "signal": "\"stickyHeader\":true"
-          },
-          {
-            "text": "The home page opens on a full-bleed video of a person, with the headline 'Be the next AI all-star' in very large white type and two pill buttons.",
-            "step": 1,
-            "type": "observation"
-          },
-          {
-            "text": "The pricing page keeps the dark theme: four dark plan cards, a green yearly toggle at top left, and a centered headline above them.",
-            "step": 2,
-            "type": "observation"
-          },
-          {
-            "text": "Merchants can start from AI generation or a theme.",
-            "step": 1,
-            "type": "fact",
-            "quote": "Build your online store instantly with AI. Or use prebuilt themes."
-          },
-          {
-            "text": "Checkout is presented as customizable.",
-            "step": 3,
-            "type": "fact",
-            "quote": "Make checkout your own using customizable features that fit your unique business needs."
-          },
-          {
-            "text": "Developers can build custom themes or Hydrogen storefronts.",
-            "step": 4,
-            "type": "fact",
-            "quote": "Help merchants express their unique brand by building a custom theme or Hydrogen storefront."
-          }
+        "summary": "The most art-directed of the three: near-black backgrounds, full-bleed video, very large type and pill buttons, held together by one typeface. The cost is weight, and a hero that leads with mood over message.",
+        "keyPoints": [
+          "One type family (Shopify-Inter) runs across the home page, pricing and signup; the docs use Inter.",
+          "Buttons are full pills (9999px corners) on the home and signup pages, and the header is sticky.",
+          "The home page opens on a full-bleed video with a 96px headline, and carries 15 videos in total.",
+          "Pricing keeps the dark theme: four dark plan cards, a yearly toggle at top left and a centered headline.",
+          "For merchants: AI store generation, prebuilt themes, Hydrogen, a customizable checkout and developer theme tools."
         ],
         "gaps": [
-          "Light-mode behaviour and the admin UI were not assessed."
+          "Light mode and the admin UI were not assessed."
         ]
       },
       {
         "id": "company",
         "title": "Company presentation",
-        "summary": "The newsroom is the only company page the nav surfaced. It presents Shopify as a network that grows with every connected AI agent. No customers or About page was found in the nav or at /customers or /about.",
-        "facts": [
-          {
-            "text": "Newsroom narrative.",
-            "step": 6,
-            "type": "fact",
-            "quote": "Shopify was built to work wherever people shop. Every connected AI agent brings merchants a new place to sell, gives shoppers an easier way to buy, and makes Shopify's network stronger."
-          },
-          {
-            "text": "Enterprise proof is conversion and cost.",
-            "step": 5,
-            "type": "fact",
-            "quote": "Shopify's total cost of ownership is 33% better on average, so you can re-invest savings into growth.2"
-          },
-          {
-            "text": "Share of US ecommerce on the checkout page.",
-            "step": 3,
-            "type": "fact",
-            "quote": "powers 12% of US ecommerce"
-          },
-          {
-            "text": "Share of US ecommerce on the Agentic page.",
-            "step": 8,
-            "type": "fact",
-            "quote": "powering 14% of US e-commerce"
-          }
+        "summary": "The newsroom frames Shopify as a network that grows with every connected AI agent. No About or customer-stories page surfaced from the navigation.",
+        "keyPoints": [
+          "Newsroom narrative: Shopify was built to work wherever people shop, and every connected AI agent is a new place to sell.",
+          "Product news arrives in twice-yearly 'Editions'; Fall '26 is the current one.",
+          "Headline stats conflict: the checkout page says 12% of US ecommerce, the Agentic Storefronts page says 14%.",
+          "The conversion claim (15% better on average, up to 36%) cites a study from April 2023 by an unnamed consulting firm."
         ],
         "gaps": [
           "No customer-stories page found.",
@@ -2221,6 +2020,7 @@
       }
     ]
   },
+  "signupPath": "'Get started fast' leads to shopify.com/start. That is a long landing page (a theme picker, how-to videos and trial terms: '3 days free', 'Extend your trial for $1') with a single email box near the bottom and a line saying you agree to receive Shopify marketing emails. No password, name or store details are asked on this page. What comes after the email was not reached.",
   "scores": {
     "jtbd_fit": {
       "score": 4,

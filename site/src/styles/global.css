@@ -172,3 +172,11 @@ tr[hidden] { display: none; }
 .cols > * { min-width: 0; }
 .dossier .dsec h3 { margin-bottom: var(--s-3); }
 .dossier .dsec > p, .dossier .dsec .lead { max-width: 68ch; }
+
+/* ---------- site messaging ---------- */
+.points { list-style: none; padding: 0; margin: var(--s-4) 0 0; display: grid; gap: var(--s-3); }
+.points li { position: relative; padding-left: 1.4em; max-width: 72ch; }
+.points li::before { content: '–'; position: absolute; left: 0; color: var(--signal); }
+.dtable { margin-top: var(--s-4); }
+.dtable th[scope='row'] { font: 500 var(--t-body)/1.4 var(--font-body, inherit); letter-spacing: 0; text-transform: none; text-align: left; color: var(--ink); border-bottom: 1px solid var(--rule); }
+.signup-note { display: block; margin-top: 6px; color: var(--ink-2); font-size: var(--t-small); line-height: 1.5; }
